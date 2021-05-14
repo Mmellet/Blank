@@ -1,6 +1,6 @@
 title = "Blank"
 theme = "book"
-baseURL = "https://mmellet.github.io/Blank"
+baseURL = ""
 
 [params]
   BookMenuBundle = "/menu"

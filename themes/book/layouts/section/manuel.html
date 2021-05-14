@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="{{ .Site.Params.author }} - {{ .Site.BaseURL }}">
+        <title>{{ if eq .IsHome true }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+        <meta name="description" content="{{ if ne .Description "" }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+      {{ template "_internal/twitter_cards.html" . }}
+      {{ template "_internal/opengraph.html" . }}
+      {{ template "_internal/schema.html" . }}
+        <link rel="canonical" href="{{ .Permalink | absURL }}">
+        <link rel="dns-prefetch" href="https://www.google-analytics.com">
+        <link href="https://www.google-analytics.com" rel="preconnect" crossorigin>
+        <link rel="alternate" type="application/atom+xml" title="{{ .Site.Title }}" href="{{ .Site.BaseURL }}atom.xml" />
+        <link rel="alternate" type="application/json" title="{{ .Site.Title }}" href="{{ .Site.BaseURL }}feed.json" />
+        {{ $styles := resources.Get "impression.scss" | toCSS (dict "outputStyle" "compressed") | minify }}
+        <style>{{ $styles.Content | safeCSS }}</style>
+        {{ $stylesimp := resources.Get "impression-interface.scss" | toCSS (dict "outputStyle" "compressed") | minify }}
+        <style>{{ $stylesimp.Content | safeCSS }}</style>
+        <script src="https://unpkg.com/pagedjs/dist/paged.polyfill.js"></script>
+      </head>
+      
+<body>
+<main>
+  <section class="couverture">
+    <h1 id="titre">{{ .Site.Title }}</h1>
+    <h2 id="soustitre">{{ .Site.Params.soustitre}}</h2>
+    <h3>Version en ligne&nbsp;:<br><a href="https://agencetopo.gitlab.io/livrenum/manuel">agencetopo.gitlab.io/livrenum/manuel</a></h3>
+    <h3><span id="licence">{{ .Site.Params.licence }}</span> <span id="mention">{{ .Site.Params.mention }}</span></h3>
+    {{.Content}}
+    <div class="break"></div>
+  </section>
+  <section class="sommaire">
+    <h2>Sommaire</h2>
+    <ul class="posts-list">
+        {{range .Site.RegularPages.ByWeight}}
+        {{ if eq .Params.print "oui" }}
+        <li class="post-item">
+            <a href="#{{.File.BaseFileName}}">
+                <span class="post-title" id="{{.Title}}">{{.Title}}{{ if .Description }} — {{.Description}}{{ end }}</span>
+            </a>
+        </li>
+        {{end}}
+        {{end}}
+      </ul>
+</section>
+{{range .Site.RegularPages.ByWeight}}
+{{ if eq .Params.print "oui" }}
+<section class="partie">
+<h1 class="post-title" id="partie"><span id="{{.File.BaseFileName}}">{{ .Title | markdownify }}</span></h1>
+<div class="post-content">
+    {{ .Content }}
+</div>
+</section>
+{{ end }}
+{{end}}
+</main>
+</body>
+</html>

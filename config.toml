@@ -1,6 +1,6 @@
-title = "Mitacs Documentation"
+title = "Blank"
 theme = "book"
-baseURL = "https://ecrinum.gitpages.huma-num.fr/anthologia/mitacs/"
+baseURL = "https://mmellet.github.io/Blank"
 
 [params]
   BookMenuBundle = "/menu"

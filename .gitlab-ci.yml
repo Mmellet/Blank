@@ -1,0 +1,11 @@
+pages:
+  image: jojomi/hugo
+  script:
+  - hugo version
+  - hugo -d public
+  artifacts:
+    paths:
+    - public
+  only:
+  - master
+  

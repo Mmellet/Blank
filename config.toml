@@ -1,0 +1,26 @@
+title = "Mitacs Documentation"
+theme = "book"
+baseURL = "https://ecrinum.gitpages.huma-num.fr/anthologia/mitacs/"
+
+[params]
+  BookMenuBundle = "/menu"
+  BookTheme = "light"
+
+[outputs]
+  page = ["HTML", "print"]
+
+[outputFormats]
+  [outputFormats.print]
+    mediaType = "text/html" # normal
+    rel = "print" # rapport
+    baseName = "print" # /print dans l'URL
+
+[permalinks]
+  pages = "/:filename"
+
+[markup]
+  [markup.goldmark]
+    typographer = true
+    [markup.goldmark.renderer]
+     footnoteReturnLinkContents = "&uarr;"
+      unsafe = true

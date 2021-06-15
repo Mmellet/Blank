@@ -1,5 +1,6 @@
 ---
-title: Projets
+
 ---
 
 ## Mes projets
+

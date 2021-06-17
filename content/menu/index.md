@@ -6,6 +6,5 @@ headless: true
 - **[Creations]({{< relref "/creations" >}})**
 - **[Glob]({{< relref "/blog" >}})**
 - **[About]({{< relref "/about" >}})**
-- **[Test]()**
-
+- **[Crédits]({{< relref "/credits" >}})**
 ---

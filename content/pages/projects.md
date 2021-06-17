@@ -1,6 +1,5 @@
 ---
-
+headless: true
 ---
 
-## Mes projets
-
+Mes projets se consacrent

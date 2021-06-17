@@ -2,10 +2,11 @@
 
 .markdown {
   line-height: 1.6;
+  background-color: white; opacity:0.9;
 
   // remove padding at the beginning of page
   > :first-child {
-    margin-top: 0;
+    margin-top: 130px;
   }
 
   h1,
@@ -194,7 +195,7 @@
 .markdown-inner {
   // Util class to remove extra margin in nested markdown content
   > :first-child {
-    margin-top: 0;
+    margin-top: 10;
   }
   > :last-child {
     margin-bottom: 0;

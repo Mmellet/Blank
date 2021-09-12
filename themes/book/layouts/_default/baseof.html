@@ -80,11 +80,30 @@
   <article class="markdown">
     <div class="meta">
       <h1>{{.Title}}</h1>
-      {{ if eq .IsHome true }}{{ else }}<p><a href="print.html">📃 print version</a></p>{{ end }}
+      <!--{{ if eq .IsHome true }}{{ else }}<p><a href="print.html">📃 print version</a></p>{{ end }}-->
 </div>
     {{- .Content -}}
+    
+    {{ if eq .Params.blog "oui" }}
+    <section>
+        {{ range  where .Site.RegularPages "Section" "posts"  }}
+            <a href="{{ .Permalink }}"><h3>{{ .Title }}</h3></a>
+            <time datetime="{{ dateFormat "2006-01" .Date }}">{{ dateFormat "2006-01" .Date }}</time>
+        {{ end }}
+      </section>
+        {{ end }}
+    
+        {{ if eq .Params.doc "oui" }}
+        <section>
+            {{ range  where .Site.RegularPages "Section" "meds"  }}
+                <a href="{{ .Permalink }}"><h3>{{ .Title }}</h3></a>
+                <time datetime="{{ dateFormat "2006-01" .Date }}">{{ dateFormat "2006-01" .Date }}</time>
+            {{ end }}
+          </section>
+            {{ end }}
   </article>
 {{ end }}
+
 
 {{ define "toc" }}
   {{ partial "docs/toc" . }}

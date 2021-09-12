@@ -1,20 +1,36 @@
 
-<label id="heures">00</label>:<label id="minutes">00</label>:<label id="seconds">00</label>
+
+
+<p style="text-align: center; font-size:12px">
+</br>
+Ici
+</br>
+votre temps 
+</br>
+est compté
+</br>
+</br>
+
+<label id="heures">00</label>:<label id="minutes">00</label>:<label id="secondes">00</label>
+
+</p>
+
+
 
 
 <script>
 
 var heuresLabel = document.getElementById("heures");
 var minutesLabel = document.getElementById("minutes");
-var secondsLabel = document.getElementById("seconds");
-var totalSeconds = 0;
+var secondesLabel = document.getElementById("secondes");
+var totalSecondes = 0;
 setInterval(setTime, 1000);
 
 function setTime() {
-  ++totalSeconds;
-  secondsLabel.innerHTML = pad(totalSeconds % 60);
-  minutesLabel.innerHTML = pad(parseInt(totalSeconds / 60));
-  heuresLabel.innerHTML = pad(parseInt(totalSeconds / 3600));
+  ++totalSecondes;
+  secondesLabel.innerHTML = pad(totalSecondes % 60);
+  minutesLabel.innerHTML = pad(parseInt(totalSecondes / 60));
+  heuresLabel.innerHTML = pad(parseInt(totalSecondes / 3600));
 }
 
 function pad(val) {
@@ -27,4 +43,5 @@ function pad(val) {
 }
 </script>
 
-  
+
+

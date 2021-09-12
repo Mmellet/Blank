@@ -10,10 +10,12 @@ Ce site a été réalisé avec les instances suivantes :
 
 - la bannière du site provient du [Peeled Text Transforms](https://codepen.io/Moiety/pen/OPPKMr) créé par [Zoë Bijl](https://codepen.io/Moiety)
 
+- le timer a été conçu en JavaScript à l'aide de la documentation de [W3Schools](https://www.w3schools.com/js/default.asp)
+
 et les outils : 
 
-- VsCodium 
-- Github 
+- [VsCodium]() 
+- [Github]() 
 
+M'ont aidé à construire cet espace : Antoine Fauchié et son carnet numérique [quaternum](https://www.quaternum.net/).
 
-Tous les contenus de ce site sont sous licence [CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode) : Attribution - Pas d’Utilisation Commerciale - Partage dans les Mêmes Conditions. 

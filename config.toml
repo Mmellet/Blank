@@ -1,6 +1,6 @@
-title = "Blank"
+title = ""
 theme = "book"
-baseURL = "https://mmellet.github.io/Blank"
+baseURL = "/"
 
 [params]
   BookMenuBundle = "/menu"
@@ -17,6 +17,8 @@ baseURL = "https://mmellet.github.io/Blank"
 
 [permalinks]
   pages = "/:filename"
+  posts = "/blog/:title"
+  docs = "/meditions/:title"
 
 [markup]
   [markup.goldmark]

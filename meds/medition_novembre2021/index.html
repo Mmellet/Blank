@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta name="generator" content="Hugo 0.88.1" />
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="theme-color" content="#FFFFFF">
+<meta name="robots" content="noindex, nofollow"/><meta property="og:title" content="Méditrices" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/meds/medition_novembre2021/" /><meta property="article:section" content="meds" />
+<meta property="article:published_time" content="2021-10-01T00:00:00+00:00" />
+<meta property="article:modified_time" content="2021-10-01T00:00:00+00:00" />
+
+<title>Méditrices | </title>
+<link rel="manifest" href="../../manifest.json">
+<link rel="icon" href="../../favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="../../book.min.8c0cd32a7a17549eecc66ee13d556e8b73cd4452ff6e1d85ba03b4b1b6b1ecb0.css" integrity="sha256-jAzTKnoXVJ7sxm7hPVVui3PNRFL/bh2FugO0sbax7LA=">
+<script defer src="../../en.search.min.9fd8d1fd62d09c54964710cf84df3e2ded869e59420f59f7712cc3d047c9d280.js" integrity="sha256-n9jR/WLQnFSWRxDPhN8&#43;Le2GnllCD1n3cSzD0EfJ0oA="></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+  
+
+
+<p style="text-align: center; font-size:12px">
+</br>
+Ici
+</br>
+votre temps 
+</br>
+est compté
+</br>
+</br>
+
+<label id="heures">00</label>:<label id="minutes">00</label>:<label id="secondes">00</label>
+
+</p>
+
+
+
+
+<script>
+
+var heuresLabel = document.getElementById("heures");
+var minutesLabel = document.getElementById("minutes");
+var secondesLabel = document.getElementById("secondes");
+var totalSecondes = 0;
+setInterval(setTime, 1000);
+
+function setTime() {
+  ++totalSecondes;
+  secondesLabel.innerHTML = pad(totalSecondes % 60);
+  minutesLabel.innerHTML = pad(parseInt(totalSecondes / 60));
+  heuresLabel.innerHTML = pad(parseInt(totalSecondes / 3600));
+}
+
+function pad(val) {
+  var valString = val + "";
+  if (valString.length < 2) {
+    return "0" + valString;
+  } else {
+    return valString;
+  }
+}
+</script>
+
+
+
+
+</head>
+
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a href="../../"><span></span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr>
+
+
+  <!--- **[Projets](/projects/)**-->
+<!--- **[Créations](/creations/)**-->
+<ul>
+<li><strong><a href="../../blog/">Blog</a></strong></li>
+<li><strong><a href="../../meditions/">Méditions</a></strong></li>
+<li><strong><a href="../../about/">Je suis</a></strong></li>
+<li><strong><a href="../../publications/">Publications</a></strong></li>
+<li><strong><a href="../../credits/">Crédits</a></strong></li>
+</ul>
+<hr>
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var a=document.querySelector("aside.book-menu nav");addEventListener("beforeunload",function(b){localStorage.setItem("menu.scrollTop",a.scrollTop)}),a.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="../../svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+
+  <label for="toc-control">
+    
+    <img src="../../svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents"></nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown">
+    <div class="meta">
+      <h1>Méditrices</h1>
+      
+</div>
+    
+        
+  </article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <hr>
+<div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+ 
+        
+
+
+<p style="text-align: center; font-size:12px">
+Tous les contenus de ce site sont sous licence 
+<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">CC BY-NC-SA</a> : Attribution - Pas d’Utilisation Commerciale - Partage dans les Mêmes Conditions. 
+</p>
+      </footer>
+
+      
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents"></nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+<style>
+
+  p.background {
+    color: #242227;
+    font-family: Avenir Next, Helvetica Neue, Helvetica, Tahoma, sans-serif;
+    font-size: 1em;
+    font-weight: 700;
+  }
+  p.background span {
+    display: inline-block;
+    position: relative;
+    transform-style: preserve-3d;
+    perspective: 500;
+    -webkit-font-smoothing: antialiased;
+  }
+  p.background span::before,
+  p.background span::after {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: -1px;
+    transform-origin: left top;
+    transition: all ease-out 0.3s;
+    content: attr(data-text);
+  }
+  p.background span::before {
+    z-index: 1;
+    color: rgba(0,0,0,0.2);
+    transform: scale(2, 1) skew(0deg, 20deg);
+  }
+  p.background span::after {
+    z-index: 2;
+    color: #fff;
+    text-shadow: -1px 0 1px #ffffff, 1px 0 1px rgba(255, 253, 253, 0.8);
+    transform: rotateY(-40deg);
+  }
+  p.background span:hover::before {
+    transform: scale(2, 1) skew(0deg, 5deg);
+  }
+  p.background span:hover::after {
+    transform: rotateY(-10deg);
+  }
+  p.background span + span {
+    margin-left: 0.3em;
+  }
+  @media (min-width: 20em) {
+    p.background {
+      font-size: 2em;
+    }
+    p.background span::before,
+    p.background span::after {
+      display: block;
+    }
+  }
+  @media (min-width: 30em) {
+    p.background {
+      font-size: 3em;
+    }
+  }
+  @media (min-width: 40em) {
+    p.background {
+      font-size: 5em;
+    }
+  }
+  @media (min-width: 60em) {
+    p.background {
+      font-size: 8em;
+    }
+  }
+  html,
+  
+  body {
+    display: flex;
+    background-color: #ffffff;
+  }
+  
+  
+  </style>
+
+<div style="position:absolute; left: 350px; top: -130px; bottom: 610px;">
+  <a href="../../Blank/">
+  <p class="background" aria-label="CodePen">
+    <span data-text="B">B</span>
+    <span data-text="l">l</span>
+    <span data-text="a">a</span>
+    <span data-text="n">n</span>
+    <span data-text="k">k</span>
+  <span style="font-size: small;">Site en déconstruction</span>
+  </p>
+</a>
+  </div>
+
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+

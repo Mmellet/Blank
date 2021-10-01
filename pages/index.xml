@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on </title>
+    <link>/pages/</link>
+    <description>Recent content in Pages on </description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="/pages/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>Je suis :
+ doctorante en Recherche et Création au Département de Littératures de langue française à l&amp;rsquo;Université de Montréal coordonnatrice scientifique de la Chaire de recherche du Canada sur les écritures numériques chargée de cours au Département de Littératures de langue française à l&amp;rsquo;Université de Montréal plasticienne du numérique  et je m&amp;rsquo;appelle Margot Mellet.
+Je m&amp;rsquo;intéresse aux processus d&amp;rsquo;édition et aux plasticités du texte.
+Ceci est un espace d&amp;rsquo;expérimentation (encore en cours) pour mes pratiques d&amp;rsquo;écritures.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/creations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/creations/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/credits/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/credits/</guid>
+      <description>Ce site a été réalisé avec les instances suivantes :
+  Hugo et le theme Book créé par Alex Shpak (version 0.68)
+  la bannière du site provient du Peeled Text Transforms créé par Zoë Bijl
+  le timer a été conçu en JavaScript à l&amp;rsquo;aide de la documentation de W3Schools
+  et les outils :
+ VsCodium Github  M&amp;rsquo;ont aidé à construire cet espace : Antoine Fauchié et son carnet numérique quaternum.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/meditions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/meditions/</guid>
+      <description>Les Méditions désignent un ensemble d&amp;rsquo;écritures sur la question des pratiques d&amp;rsquo;édition vues et vécues de l&amp;rsquo;intérieur.
+Ancienne Coordonnatrice d&amp;rsquo;une revue en sciences humaines, je propose ici plusieurs réflexions qui émanent de cette expérience.
+Cet ensemble d&amp;rsquo;écritures n&amp;rsquo;a pas pour but de nuire ou mettre à procès quelques individus ou institutions que ce soit. Un anonymat moyen sera donc respecté.
+Toutes ressemblance avec des personnes existantes ou ayant existé est hors de mon domaine de compétence.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/</guid>
+      <description>Je consacre ma recherche et ma création aux questions de matérialités textuelles et d&amp;rsquo;édition numérique.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/publications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/publications/</guid>
+      <description>Publications scientifiques #  Librairie Zotero
+Créations #  Librairie Zotero</description>
+    </item>
+    
+    <item>
+      <title>Espace de blobs spontanés</title>
+      <link>/blog/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/</guid>
+      <description>Un Blob n&amp;rsquo;est pas un végétal. Un Blob n&amp;rsquo;est pas un animal. Un Blob est peut-être universitaire.
+Un Blob est un post sans prétention qui tombe le matin (généralement entre 8 et 9h). L&amp;rsquo;idée du Blob est de concevoir un réseaux d&amp;rsquo;idées reliées par un vivant unicellulaire.</description>
+    </item>
+    
+  </channel>
+</rss>

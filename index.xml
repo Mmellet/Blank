@@ -5,60 +5,16 @@
     <link>/</link>
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 01 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 22 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Le savoir Collectif</title>
-      <link>/meds/medition_septembre2021/</link>
-      <pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate>
-      
-      <guid>/meds/medition_septembre2021/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Méditrices</title>
-      <link>/meds/medition_novembre2021/</link>
-      <pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate>
-      
-      <guid>/meds/medition_novembre2021/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Médition Init</title>
+      <title>Manifeste des petites mains</title>
       <link>/meds/medition_juin2021/</link>
       <pubDate>Wed, 22 Sep 2021 00:00:00 +0000</pubDate>
       
       <guid>/meds/medition_juin2021/</guid>
-      <description>Manifeste pour les petites mains sur la table #  Au cours d&amp;rsquo;une discussion avec des acteurs de l&amp;rsquo;édition, j&amp;rsquo;ai surpris et été surprise par une formule que je n&amp;rsquo;ai pas sû immédiatement décrypter, qui m&amp;rsquo;est apparue à la première écoute aussi juste que son contraire :
+      <description>Au cours d&amp;rsquo;une discussion avec des acteurs de l&amp;rsquo;édition en SHS, j&amp;rsquo;ai surpris et été surprise par une formule que je n&amp;rsquo;ai pas sû immédiatement décrypter, qui m&amp;rsquo;est apparue à la première écoute aussi juste que son contraire :
  [mots] Elle est les petites mains sous la table [mots]
- &amp;ldquo;Elle&amp;rdquo; renvoit ici à une membre de l&amp;rsquo;équipe éditoriale dont il était question.</description>
-    </item>
-    
-    <item>
-      <title>Glob Init</title>
-      <link>/blog/glob-init/</link>
-      <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
-      
-      <guid>/blog/glob-init/</guid>
-      <description>Glob Init
-Pourquoi &amp;ldquo;Glob&amp;rdquo; ?
-Le Glob comme le son :
-Glob comme une pillule se prend avec un grand verre d&amp;rsquo;eau.
-Le Glob comme cousin du Blob :
-Le Glob comme programme :
-En clair :
-Le Glob est un programme sonore qui s&amp;rsquo;inscrit sur la surface et se répand par la lecture.</description>
-    </item>
-    
-    <item>
-      <title>Glob Ravages</title>
-      <link>/blog/glob-ravages/</link>
-      <pubDate>Sun, 04 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>/blog/glob-ravages/</guid>
-      <description>Juin 2021, M. lit Ravages de Barjavel
- L’usine, la radio et l’alcool réunis détraquaient un grand nombre de cerveaux. Le carnet de santé, que chaque citoyen recevait à sa naissance, et grâce auquel il lui était impossible d’échapper aux douze vaccinations et vingt-sept piqûres obligatoires, permit de surveiller l’état mental de la communauté et de chacun de ses membres. En 2026, une vague d’énervement et de pessimisme menaça la nation et provoqua une recrudescence énorme des divorces et des suicides.</description>
+ &amp;ldquo;Elle&amp;rdquo; renvoit ici à un membre d&amp;rsquo;une équipe éditoriale. Je ne pourrai exactement retrouver le contexte précis dans lequel s&amp;rsquo;inscrit cette bribe, je sais qu&amp;rsquo;il était sans ironie, avec un but descriptif, qu&amp;rsquo;il se voulait presque innocent : justement, il n&amp;rsquo;était pas questions de discuter de cette formule, elle était employée comme tant d&amp;rsquo;autres expressions que nous utilisons pour préciser une pensée.</description>
     </item>
     
     <item>
@@ -112,9 +68,9 @@ Ceci est un espace d&amp;rsquo;expérimentation (encore en cours) pour mes prati
       
       <guid>/meditions/</guid>
       <description>Les Méditions désignent un ensemble d&amp;rsquo;écritures sur la question des pratiques d&amp;rsquo;édition vues et vécues de l&amp;rsquo;intérieur.
-Ancienne Coordonnatrice d&amp;rsquo;une revue en sciences humaines, je propose ici plusieurs réflexions qui émanent de cette expérience.
-Cet ensemble d&amp;rsquo;écritures n&amp;rsquo;a pas pour but de nuire ou mettre à procès quelques individus ou institutions que ce soit. Un anonymat moyen sera donc respecté.
-Toutes ressemblance avec des personnes existantes ou ayant existé est hors de mon domaine de compétence.</description>
+Ancienne Coordonnatrice d&amp;rsquo;une revue en sciences humaines, je propose ici plusieurs réflexions qui émanent de cette expérience mais également d&amp;rsquo;autres.
+Cet ensemble d&amp;rsquo;écritures n&amp;rsquo;a pas pour intention de médire mais de méditer.
+À venir : La contribution de la virgule, &amp;ldquo;On veut du tout en un&amp;rdquo;, Méditrices.</description>
     </item>
     
     <item>
@@ -142,8 +98,12 @@ Créations #  Librairie Zotero</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/blog/</guid>
-      <description>Un Blob n&amp;rsquo;est pas un végétal. Un Blob n&amp;rsquo;est pas un animal. Un Blob est peut-être universitaire.
-Un Blob est un post sans prétention qui tombe le matin (généralement entre 8 et 9h). L&amp;rsquo;idée du Blob est de concevoir un réseaux d&amp;rsquo;idées reliées par un vivant unicellulaire.</description>
+      <description>Un Blob n&amp;rsquo;est pas un végétal.
+Un Blob n&amp;rsquo;est pas un animal.
+Un Blob est peut-être universitaire.
+Le Blob est un réseaux unicellulaire d&amp;rsquo;idées.
+Un Blob est un post sans prétention qui tombe le matin (généralement entre 8 et 9h).
+À venir : Blog Init, Ravages, &amp;ldquo;Mange tes morts&amp;rdquo;</description>
     </item>
     
   </channel>

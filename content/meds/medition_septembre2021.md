@@ -1,4 +1,4 @@
 --- 
 title: "Le savoir Collectif"
-date: 2021-10-01
+date: 2021-12-01
 ---

@@ -1,6 +1,6 @@
 ---
-title: "Glob Init"
-date: 2021-09-01
+title: "Blob"
+date: 2021-11-01
 ---
 
 Glob Init 

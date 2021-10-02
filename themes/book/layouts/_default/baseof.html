@@ -87,8 +87,8 @@
     {{ if eq .Params.blog "oui" }}
     <section>
         {{ range  where .Site.RegularPages "Section" "posts"  }}
-            <a href="{{ .Permalink }}"><h3>{{ .Title }}</h3></a>
-            <time datetime="{{ dateFormat "2006-01" .Date }}">{{ dateFormat "2006-01" .Date }}</time>
+        <h3><time datetime="{{ dateFormat "2006-01" .Date }}">{{ dateFormat "2006-01" .Date }}</time> <a href="{{ .Permalink }}"> {{ .Title }}</h3></a>
+            
         {{ end }}
       </section>
         {{ end }}
@@ -96,8 +96,7 @@
         {{ if eq .Params.doc "oui" }}
         <section>
             {{ range  where .Site.RegularPages "Section" "meds"  }}
-                <a href="{{ .Permalink }}"><h3>{{ .Title }}</h3></a>
-                <time datetime="{{ dateFormat "2006-01" .Date }}">{{ dateFormat "2006-01" .Date }}</time>
+            <h3><time datetime="{{ dateFormat "2006-01" .Date }}">{{ dateFormat "2006-01" .Date }}</time><a href="{{ .Permalink }}"> {{ .Title }}</h3></a>
             {{ end }}
           </section>
             {{ end }}

@@ -1,6 +1,6 @@
 ---
-title: "Glob Ravages"
-date: 2021-07-04
+title: "Ravages"
+date: 2021-12-04
 ---
 
 Juin 2021, M. lit *Ravages* de Barjavel 

@@ -32,11 +32,11 @@ $hint-colors: (
 // Themes
 @mixin theme-light {
   --gray-100: #f8f9fa;
-  --gray-200: #e9ecef;
+  --gray-200: #f8e8f1;
   --gray-500: #adb5bd;
 
-  --color-link: #15c09b;
-  --color-visited-link: #0f7c77;
+  --color-link: rgb(7, 132, 136);
+  --color-visited-link: rgb(105, 223, 207);
 
   --body-background: white;
   --body-font-color: black;

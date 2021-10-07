@@ -3,8 +3,20 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/</loc>
-    <lastmod>2021-09-22T00:00:00+00:00</lastmod>
+    <lastmod>2021-10-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
+  </url><url>
+    <loc>/cherches/</loc>
+    <lastmod>2021-10-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/creas/</loc>
+    <lastmod>2021-10-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/creas/creas_octobre21/</loc>
+    <lastmod>2021-10-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/cherches/cherches_octobre21/</loc>
+    <lastmod>2021-10-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/meds/medition_juin2021/</loc>
     <lastmod>2021-09-22T00:00:00+00:00</lastmod>
@@ -15,8 +27,6 @@
     <loc>/menu/</loc>
   </url><url>
     <loc>/about/</loc>
-  </url><url>
-    <loc>/creations/</loc>
   </url><url>
     <loc>/credits/</loc>
   </url><url>
@@ -29,6 +39,10 @@
     <loc>/categories/</loc>
   </url><url>
     <loc>/blog/</loc>
+  </url><url>
+    <loc>/creations/</loc>
+  </url><url>
+    <loc>/recherche/</loc>
   </url><url>
     <loc>/pages/</loc>
   </url><url>

@@ -19,15 +19,6 @@ Ceci est un espace d&amp;rsquo;expérimentation (encore en cours) pour mes prati
     
     <item>
       <title></title>
-      <link>/creations/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/creations/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
       <link>/credits/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -82,7 +73,27 @@ Un Blob n&amp;rsquo;est pas un animal.
 Un Blob est peut-être universitaire.
 Le Blob est un réseaux unicellulaire d&amp;rsquo;idées.
 Un Blob est un post sans prétention qui tombe le matin (généralement entre 8 et 9h).
-À venir : Blog Init, Ravages, &amp;ldquo;Mange tes morts&amp;rdquo;</description>
+À venir : Blog Init, Ravages</description>
+    </item>
+    
+    <item>
+      <title>Espace des créa</title>
+      <link>/creations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/creations/</guid>
+      <description>Les créa sont les brouillons de créations encore en cours ou publiées.
+Si publiées, les liens vers les ressources finies sont indiqués.</description>
+    </item>
+    
+    <item>
+      <title>Journal de recherche</title>
+      <link>/recherche/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/recherche/</guid>
+      <description>Cet ensemble réunit des réflexions qui ne sont pas savantes mais qui enracinemt mes années de thèse dans un terreau concrêt : inquiétudes, mises et remises en question, rêveries, étonnements, etc.
+À venir : La contribution de la virgule, La solution de l&amp;rsquo;autruche, Pérégrinations entre sujets.</description>
     </item>
     
   </channel>

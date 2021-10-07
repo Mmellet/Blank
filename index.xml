@@ -5,7 +5,30 @@
     <link>/</link>
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 22 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 01 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Les Ruses Bleues</title>
+      <link>/creas/creas_octobre21/</link>
+      <pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/creas/creas_octobre21/</guid>
+      <description>Publiée en 2021 sur MuseMedusa : http://musemedusa.com/dossier_9/mellet/</description>
+    </item>
+    
+    <item>
+      <title>À quoi elle sert ta thèse ?</title>
+      <link>/cherches/cherches_octobre21/</link>
+      <pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/cherches/cherches_octobre21/</guid>
+      <description>écran en cours
+ J&amp;rsquo;aurai aimé répondre :
+ &amp;ldquo;à rien&amp;rdquo;
+ J&amp;rsquo;aurai aimé revandiquer (avec un peu d&amp;rsquo;insolence) l&amp;rsquo;inutilité de ma réflexion, de nos disciplines. Cette question a fait écho à tant de réflexions analogues posées aux représentants des humanités.
+ &amp;ldquo;Mais au fond tu fais quoi ? Tu lis ? Moi aussi je sais lire.&amp;rdquo;
+  &amp;ldquo;La littérature ça sert à rien, vous êtes en train de vous faire des noeuds dans la tête, tous seuls dans vos tours, pour déterminer si une virgule fait du sens ou non.</description>
+    </item>
+    
     <item>
       <title>Manifeste des petites mains</title>
       <link>/meds/medition_juin2021/</link>
@@ -14,7 +37,7 @@
       <guid>/meds/medition_juin2021/</guid>
       <description>Au cours d&amp;rsquo;une discussion avec des acteurs de l&amp;rsquo;édition en SHS, j&amp;rsquo;ai surpris et été surprise par une formule que je n&amp;rsquo;ai pas sû immédiatement décrypter, qui m&amp;rsquo;est apparue à la première écoute aussi juste que son contraire :
  [mots] Elle est les petites mains sous la table [mots]
- &amp;ldquo;Elle&amp;rdquo; renvoit ici à un membre d&amp;rsquo;une équipe éditoriale. Je ne pourrai exactement retrouver le contexte précis dans lequel s&amp;rsquo;inscrit cette bribe, je sais qu&amp;rsquo;il était sans ironie, avec un but descriptif, qu&amp;rsquo;il se voulait presque innocent : justement, il n&amp;rsquo;était pas questions de discuter de cette formule, elle était employée comme tant d&amp;rsquo;autres expressions que nous utilisons pour préciser une pensée.</description>
+ &amp;ldquo;Elle&amp;rdquo; renvoit ici à un membre d&amp;rsquo;une équipe éditoriale. Je ne pourrai exactement retrouver le contexte précis dans lequel s&amp;rsquo;inscrit cette bribe, je sais qu&amp;rsquo;il était sans ironie, avec un but descriptif, qu&amp;rsquo;il se voulait presque innocent.</description>
     </item>
     
     <item>
@@ -23,7 +46,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/menu/</guid>
-      <description> Blog Méditions Je suis Publications Crédits   </description>
+      <description> Journal Création Méditions Je suis Publications Crédits   </description>
     </item>
     
     <item>
@@ -36,15 +59,6 @@
  doctorante en Recherche et Création au Département de Littératures de langue française à l&amp;rsquo;Université de Montréal coordonnatrice scientifique de la Chaire de recherche du Canada sur les écritures numériques chargée de cours au Département de Littératures de langue française à l&amp;rsquo;Université de Montréal plasticienne du numérique  et je m&amp;rsquo;appelle Margot Mellet.
 Je m&amp;rsquo;intéresse aux processus d&amp;rsquo;édition et aux plasticités du texte.
 Ceci est un espace d&amp;rsquo;expérimentation (encore en cours) pour mes pratiques d&amp;rsquo;écritures.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/creations/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/creations/</guid>
-      <description></description>
     </item>
     
     <item>
@@ -103,7 +117,27 @@ Un Blob n&amp;rsquo;est pas un animal.
 Un Blob est peut-être universitaire.
 Le Blob est un réseaux unicellulaire d&amp;rsquo;idées.
 Un Blob est un post sans prétention qui tombe le matin (généralement entre 8 et 9h).
-À venir : Blog Init, Ravages, &amp;ldquo;Mange tes morts&amp;rdquo;</description>
+À venir : Blog Init, Ravages</description>
+    </item>
+    
+    <item>
+      <title>Espace des créa</title>
+      <link>/creations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/creations/</guid>
+      <description>Les créa sont les brouillons de créations encore en cours ou publiées.
+Si publiées, les liens vers les ressources finies sont indiqués.</description>
+    </item>
+    
+    <item>
+      <title>Journal de recherche</title>
+      <link>/recherche/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/recherche/</guid>
+      <description>Cet ensemble réunit des réflexions qui ne sont pas savantes mais qui enracinemt mes années de thèse dans un terreau concrêt : inquiétudes, mises et remises en question, rêveries, étonnements, etc.
+À venir : La contribution de la virgule, La solution de l&amp;rsquo;autruche, Pérégrinations entre sujets.</description>
     </item>
     
   </channel>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Creas on </title>
+    <link>/creas/</link>
+    <description>Recent content in Creas on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 01 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="/creas/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Les Ruses Bleues</title>
+      <link>/creas/creas_octobre21/</link>
+      <pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/creas/creas_octobre21/</guid>
+      <description>Publiée en 2021 sur MuseMedusa : http://musemedusa.com/dossier_9/mellet/</description>
+    </item>
+    
+  </channel>
+</rss>

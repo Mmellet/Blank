@@ -1,21 +1,12 @@
 ---
-title: "Blob"
+title: "Blob Init"
 date: 2021-11-01
 ---
 
-Glob Init 
-
-Pourquoi "Glob" ? 
-
-Le Glob comme le son : 
-
-Glob comme une pillule se prend avec un grand verre d'eau. 
-
-Le Glob comme cousin du Blob :
-
-Le Glob comme programme : 
+L'idée du blob est de faire réseau par apprentissage. 
 
 
-En clair : 
+Le *Blog* est déjà l'apharèse de *Web log*. 
 
-Le Glob est un programme sonore qui s'inscrit sur la surface et se répand par la lecture. 
+
+Le Blob c'est aussi pour faire original. 

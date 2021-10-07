@@ -10,11 +10,11 @@ Au cours d'une discussion avec des acteurs de l'édition en SHS, j'ai surpris et
 
 
 
-"Elle" renvoit ici à un membre d'une équipe éditoriale. Je ne pourrai exactement retrouver le contexte précis dans lequel s'inscrit cette bribe, je sais qu'il était sans ironie, avec un but descriptif, qu'il se voulait presque innocent : justement, il n'était pas questions de discuter de cette formule, elle était employée comme tant d'autres expressions que nous utilisons pour préciser une pensée. 
+"Elle" renvoit ici à un membre d'une équipe éditoriale. Je ne pourrai exactement retrouver le contexte précis dans lequel s'inscrit cette bribe, je sais qu'il était sans ironie, avec un but descriptif, qu'il se voulait presque innocent. Savoir si cette expression est juste ou non, si elle désigne bien la personne à laquelle elle est assignée n'est pas la question ici. C'est une formule comme tant d'autres expressions que nous utilisons pour préciser une pensée. 
 
 Anodine, gratuite, innofensive dans le flot des paroles. 
 
-Mais, hantée depuis par l'image de cette formule, j'y reviens ici pour comprendre sa charge sémantique et symbolique : qu'est ce que ces "petites mains sous la table" qui continuent à me trotter en tête ?
+Mais, hantée depuis par l'image qu'elle porte, j'y reviens ici pour comprendre sa charge sémantique et symbolique : qu'est ce que ces "petites mains sous la table" qui continuent à me trotter en tête ?
 
 Petites les mains, oui peut-être, mais assurément lourdes de sens. 
 
@@ -36,10 +36,10 @@ Les petites mains, ce sont celles de cette ouvrières gardée dans l'ombre de so
 
 Ceux et celles qui aiment l'analogie entre texte et tissu[^1] auront de quoi nourrir leur métier, voici un nouveau lien entre le fil et le mot : les petites mains ont désigné au XIXe siècle un grade dans l'organisation des atelier de couture : les premières mains dirigent les petites mains qui exécutent. Ces *cousettes* sont toujours au féminin <strike style='color:rgb(196, 43, 94);'><span style='color:black'>parce qu'on sait, depuis le temps, que les mains des femmes sont bien plus délicates et fines par nature et donc parfaitement adaptées pour effectuer des travaux sensibles, rapides, ne demandant pas trop de réflexion par leur caractère hautement itératif</span></strike>. 
 
-Les petites mains sont celles des ouvrières dans le tissu, mais aussi celles des vierges courtisées dont on baise la blancheur, celles des enfants qui ont les doigts courts, ou celle de voleurs et leur passe-passes. 
+Les petites mains sont celles des ouvrières dans le tissu, mais aussi celles des vierges courtisées dont on baise la blancheur, celles des enfants qui ont les doigts courts, ou celle de voleurs et leur talent de passe-passe. 
 
 Le point commun entre ces différentes figures, majoritairement des figures du féminin tel que décrit par le masculin, c'est qu'elle sont silencieuses, discrètes, furtives (sauf pour les enfants). Leurs existences est celle d'un
-maniment aux dix doigts invisibles. Elles "font, font et puis s'en vont" sans qu'on les nomme.
+maniement aux dix doigts invisibles. Elles "font, font et puis s'en vont" sans qu'on les nomme.
 
 
 
@@ -89,24 +89,39 @@ Le terme *petites mains* est un qualificatif qui peut être neutre ou valorisant
 - pour qu'elles puissent être vue et reconnues, 
 
 
+--------------
+
+
 # Les petites mains ont leurs places 
-# **sur** la table du savoir. 
+# **sur** la table du savoir[^2] 
+
+
+
+
 
 [^1]: Par l'étymologie latine commune.
+[^2]: parce qu'on met des grandes phrases dans les manifestes. 
 
-
+-------------
 
 ## Quelques petites mains en littérature 
 
-Les brodeuses et convoitées
-Angélique dans ZOLA, Rêve, 1888, p.99.
-MALÈGUE, Augustin, t. 2, 1933, p. 346.
-Marguerite Yourcenar, Archives du Nord, Gallimard, 1977, p. 331.
+### Les brodeuses et convoitées :
 
-Les voleuses
-(ZOLA, Dr Pascal, 1893, p. 95).
+ZOLA, *Rêve*, 1888, p.99.
 
-Les enfances
-FRANCE, P. Nozière, 1899, p. 57.
-ZOLA, Pot-Bouille, 1882, p. 360.
-MÉNARD, Hist. B.-A., 1882, p. 185.
+MALÈGUE, *Augustin*, t. 2, 1933, p. 346.
+
+YOURCENAR, *Archives du Nord*, 1977, p. 331.
+
+### Les voleuses :
+
+ZOLA, *Dr Pascal*, 1893, p. 95.
+
+### Les enfances :
+
+FRANCE, *Pierre Nozière*, 1899, p. 57.
+
+ZOLA, *Pot-Bouille*, 1882, p. 360.
+
+MÉNARD, *Histoire des anciens peuples de l'Orient*, 1882, p. 185.

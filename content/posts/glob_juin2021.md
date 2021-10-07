@@ -3,13 +3,15 @@ title: "Ravages"
 date: 2021-12-04
 ---
 
-Juin 2021, M. lit *Ravages* de Barjavel 
+Juin 2021, je lis *Ravages* de Barjavel.  
 
 >L’usine, la radio et l’alcool réunis détraquaient un grand nombre de cerveaux. Le carnet de santé, que chaque citoyen recevait à sa naissance, et grâce auquel il lui était impossible d’échapper aux douze vaccinations et vingt-sept piqûres obligatoires, permit de surveiller l’état mental de la communauté et de chacun de ses membres. En 2026, une vague d’énervement et de pessimisme menaça la nation et provoqua une recrudescence énorme des divorces et des suicides. Sur avis du Grand Conseil médical, le gouvernement prit un décret d’urgence. Toute la population passa sur la chaise de choc. Hommes, femmes, enfants, vieillards, chacun reçut son coup de Dépiqueur.
 
 >Le résultat fut si probant qu’une loi institua un examen mental annuel obligatoire pour tout le monde. À la suite de cet examen, chaque printemps, un grand nombre de citoyens passaient au Dépiqueur. Les simples énervés, anxieux, tiqueurs, grimaciers, bègues, timides, ceux qui rougissent d’un rien et ceux qui dorment debout, les sans-mémoires, les parleurs nocturnes, les distraits, les avaleurs de vent, les grince-dents, les trembleurs, les vantards, les parle-toujours, les taciturnes, les bouches bées, les excités, les mous, les coléreux, les contrits, bref, les petits dérangés recevaient seulement une petite secousse qui les repoussait dans le droit chemin de l’homme moyen dont ils tendaient à s’écarter. (*Ravages* 1943, pp. 101-102)
 
+Et cela a fait écho avec le passeport vaccinal. 
 
+Pas le vaccin, enver lequel je n'ai pas d'inimitié. 
 
 
 

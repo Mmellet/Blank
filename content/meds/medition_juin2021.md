@@ -49,9 +49,9 @@ Sous la table, c'est l'endroit des pieds qui font connaissance, c'est l'endroit 
 
 Sous la table, on troque, on cache, on fait en douce et en murmure. 
 
-Et sous la table, c'est aussi le gabarit plus flou de "sous le bureau", la formule plus violente par l'évidence de son sousentendu, l'héritière et le marqueur d'une suite taboue d'abus professionnels et politiques.
+Et sous la table, c'est aussi le gabarit plus flou de "sous le bureau", la formule plus violente par l'évidence de son sousentendu, l'héritière et le marqueur d'une suite taboue d'abus professionnels et politiques. 
 
------
+## Quelques questions
 
 Face à ces deux non-dits chargés de sens, j'ai chargé mon esprit scientifique d'examiner leurs concordances et de produire plusieurs questions : 
 
@@ -59,34 +59,36 @@ Face à ces deux non-dits chargés de sens, j'ai chargé mon esprit scientifique
 
 - Est ce que les petites mains étaient trop visibles pour qu'elles soient logées désormais sous une table ? Est-ce que par exemple elles détournaient l'attention sur la table au point d'empêcher les têtes de penser ?
 
-- Est ce que les petites mains ont vraiment l'espace de coudre sous une table ? 
+- Est ce que les petites mains ont vraiment l'espace de coudre sous une table ? Ou est-ce qu'elles sont attachées à produire d'autres gestes ? 
 
 ----- 
 
-Je suis en édition, j'ai donc décidé de creuser la question, de faire l'expérience des petites mains sous la table selon différentes configurations (moi et mes mains toutes entières sous le bureau, moi assise devant mon bureau les mains placées dessous, moi debout et mes mains toutes entières sous le bureau). Et voici mes remarques : 
+Je suis en édition, j'ai donc décidé de creuser la question, de faire l'expérience des petites mains sous la table selon différentes configurations (moi et mes mains toutes entières sous le bureau, moi assise devant mon bureau les mains placées dessous, moi debout et mes mains toutes entières sous le bureau). 
 
-1. il faut un bureau haut ou une chaise basse. Selon certaines configurations, il semble aussi tout indiqué de se mettre à genoux ou de trouver des positions toutes indiquées pour prendre le moins d'espace. 
+Et voici mes observations : 
 
-2. il vaut mieux en effet ne faire que des tâches répétitives, simplistes ou sans trop de responsabilités. Les tâches qui justement encouragent à faire vaguer son esprit ailleurs, à prendre un air pensif et à par conséquent lever la tête sont dangereuses et peuvent provoquer des bosses. 
+1. il faut un bureau haut ou une chaise basse. Selon certaines configurations, il semble aussi tout indiqué de se mettre à genoux ou de trouver des positions alternatives pour prendre le moins d'espace. 
 
-3. il faut connaître son outil. Ceux et celles qui ont la capacité de taper à l'aveugle seront avantagés car, par le manque de lumière (la lampe restant, elle, sur la table), les yeux ne s'avèrent plus nécessaires au travail. Autant en réalité les fermer. 
+2. il vaut mieux en effet ne faire que des tâches répétitives, simplistes ou sans trop de responsabilités. Les tâches qui justement encouragent à faire vaguer son esprit ailleurs, à prendre un air pensif et à, par conséquent, lever la tête sont dangereuses et peuvent provoquer des bosses. 
 
-Au-delà de cette expérience ratée -- peut-être par inadaptation de mon poste de travail --, les petites mains par certains aspects, font écho au travail éditorial qui nécessite des tâches répétitives d'un texte à un autre (correction, mise en page, relecture, publication, etc.) et d'une ligne à une autre d'un texte. 
+3. il faut connaître son outil. Ceux et celles qui ont la capacité de taper à l'aveugle seront avantagés car, par le manque de lumière (la lampe restant, elle, sur la table), les yeux ne s'avèrent plus nécessaires au travail. Autant en réalité les fermer. Inutile également de tenter de communiquer depuis cette nouvelle station avec ses collègues. Le travail est désormais solitaire et isolant. 
+
+Au-delà de cette expérience  -- ratée peut-être par inadaptation de mon poste de travail --, les petites mains par certains aspects, font écho au travail éditorial qui nécessite des tâches répétitives d'un texte à un autre (correction, mise en page, relecture, publication, etc.) et d'une ligne à une autre d'un texte. 
 
 Sauf que, sans les petites mains, pas de grand texte. 
 
 Ce travail menu-mannuel *fait* le sens du produit final. La résonnance minimisante de la formule laisse penser que justement la pensée est ailleurs, hors des petites mains, que ces dernières ne disent rien dans la structuration d'un savoir, qu'elles s'agitent sans sens.
 
-Au cours de 3 années passées à la coordination de la revue, j'ai activement participé à la publication de plus de 200 articles scientifiques. C'est également ma main (surtout la droite) qui appuyait sur le "bouton de publication". Et en 3 ans, j'ai peut-être été publiée à valeur de 10% du nombre d'articles que j'ai publié. 
+Au cours de 3 années passées à la coordination de la revue, j'ai activement participé à la publication de plus de 200 articles scientifiques. C'est également ma main (surtout la droite) qui appuyait sur le "bouton de publication". Et en 3 ans, j'ai peut-être été publiée à valeur de 5% du nombre d'articles que j'ai publié. 
 
 Il ne s'agit pas ici de revandiquer une autorité, une propriété ou un pourcentage sur ces productions, qui, pour la majorité, discutent de sujets dont je ne suis ni spécialiste ni ne compte le devenir. Il s'agit de rappeler une place dans l'existence de ces productions, place qui a été la mienne mais qui a aussi impliqué nombres d'autres doigts. Les productions disponibles aujourd'hui en ligne ne sont pas pures au sens de vierges de manipulations : les petites mains les ont tripoté de multiples façons (et ces mains n'étaient ni celles de vierges ni celles d'enfants). 
 
-Le terme *petites mains* est un qualificatif qui peut être neutre ou valorisant (les bonnes petites mains en cuisine sont justement celles recherchées et bien formées). Mais il semble important de s'accorder ici sur un point : 
+Le terme *petites mains* est un qualificatif qui peut être neutre ou valorisant (les bonnes petites mains en cuisine sont justement celles recherchées et bien formées). C'est pourquoi il ne s'agit pas de le bannir mais il semble important de s'accorder ici sur un point : 
 
 - pour qu'elles puissent travailler sans cyphoscoliose, 
 - pour qu'elles puissent garder les yeux ouverts, 
 - pour qu'elles puissent choisir leurs positions, debouts ou assises,
-- pour qu'elles puissent être vue et reconnues, 
+- pour qu'elles puissent être vues, entendues et reconnues, 
 
 
 --------------

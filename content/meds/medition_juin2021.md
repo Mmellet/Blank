@@ -6,11 +6,11 @@ date: 2021-09-22
 Au cours d'une discussion avec des acteurs de l'édition en SHS, j'ai surpris et été surprise par une formule que je n'ai pas sû immédiatement décrypter, qui m'est apparue à la première écoute aussi juste que son contraire : 
 
 
->[mots] Elle est les petites mains sous la table [mots]
+>[mots] Elle[^elle] est les petites mains sous la table [mots]
 
+[^elle]: "Elle" renvoit ici à un membre d'une équipe éditoriale.
 
-
-"Elle" renvoit ici à un membre d'une équipe éditoriale. Je ne pourrai exactement retrouver le contexte précis dans lequel s'inscrit cette bribe, je sais qu'il était sans ironie, avec un but descriptif, qu'il se voulait presque innocent. Savoir si cette expression est juste ou non, si elle désigne bien la personne à laquelle elle est assignée n'est pas la question ici. C'est une formule comme tant d'autres expressions que nous utilisons pour préciser une pensée. 
+Je ne pourrai exactement retrouver le contexte précis dans lequel s'inscrit cette bribe, je sais qu'il était sans ironie, juste pour désigner, presque innocemment. Savoir si cette expression est juste ou non, si elle désigne bien la personne à laquelle elle est assignée n'est pas la question ici. C'est une formule comme tant d'autres expressions que nous utilisons pour préciser une pensée. 
 
 Anodine, gratuite, innofensive dans le flot des paroles. 
 
@@ -45,7 +45,7 @@ maniement aux dix doigts invisibles. Elles "font, font et puis s'en vont" sans q
 
 ## Le sous la table mystérieux
 
-Sous la table, c'est l'endroit des pieds qui font connaissance, c'est l'endroit où on se cache pour des affaires, c'est là où on cuve son alcool, c'est l'espace d'attribution des parts de la galette, c'est l'espace des miettes que les bouches en faim ramassent, et le non-lieu de commerces et négociations irrégulières. 
+Sous la table, c'est l'endroit des pieds qui font connaissance, qui butent parfois, c'est l'endroit où on se cache pour des affaires, c'est là où on cuve son alcool, c'est l'espace d'attribution des parts de la galette, c'est l'espace des miettes que les bouches en faim ramassent, et le non-lieu de commerces et négociations irrégulières. 
 
 Sous la table, on troque, on cache, on fait en douce et en murmure. 
 
@@ -106,7 +106,9 @@ Le terme *petites mains* est un qualificatif qui peut être neutre ou valorisant
 
 -------------
 
-## Quelques petites mains en littérature 
+## Quelques petites mains en littérature[^Duras]
+
+[^Duras]: J'aurai aimé citer *Un barrage contre le Pacifique* mais Duras désigne les mains de l'amant comme des "mains petites", et ce n'est pas pareil.
 
 ### Les brodeuses et convoitées :
 

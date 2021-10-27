@@ -26,4 +26,4 @@ Mais il a fallu argumenter.
 
 C'est une drôle de position, très normale en réalité dans le monde institutionnel, de devoir défendre un droit d'être, une raison de notre approche pour obtenir une validation. 
 
-Je me demande si cette question aurait été posée à un sujet plus *classique* (si une telle chose existe) ou à un sujet plus ancré dans des grands canons littéraires, des grandes figures qui font autorité et pèsent dans le *game* des lettres. 
+Je me demande si cette question aurait été posée à un sujet plus *classique* (si une telle chose existe) ou à un sujet plus ancré dans des grands canons littéraires, des grandes figures qui font autorité et pèsent dans le *game* des lettres. Est-ce qu'on demande à une nouvelle étude de Proust si elle va servir aux études proustiennes ? 

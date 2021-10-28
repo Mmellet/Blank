@@ -1,7 +1,9 @@
 ---
 title: "Série des Pansemains"
-date: 2021-10-29
+date: 2021-10-26
 ---
+
+**Numérisation en cours**
 
 *Série d'illustrations publiées pour le site de L'[Organon](http://lorganon.ca/)*
 

@@ -11,7 +11,7 @@ Le but de cette proposition était de penser une *page* différente pour le text
 
 Extrait de la séquence de travail proposée : 
 
- <iframe src="/video/ExtraitAtelierSmall.mp4" title="description"></iframe> 
+<iframe src="/video/ExtraitAtelierSmall.mp4" title="description"></iframe> 
 
 Cette séquence est une vidéo personnelle, 
 

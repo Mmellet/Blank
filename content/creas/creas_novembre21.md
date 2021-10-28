@@ -1,6 +1,6 @@
 ---
 title: "Comment peupler un espace vide en mouvement ?"
-date: 2021-08-25
+date: 2021-10-25
 ---
 
 ## Atelier de montage vidéo pour texte
@@ -19,13 +19,21 @@ Cette séquence est une vidéo personnelle,
 
 mais présentant l'avantage de ne représenter personne, de ne demander aucun droit à l'image. 
 
-*Inside* d'un transport en commun, un bus de Montréal parmi d'autres, ce lieu est cependant vide du *commun* qu'il doit véhiculer. C'est cette rareté peut-être de l'évènement qui m'a motivé à le capturer en vidéo, pour aussi enregistrer les mouvements qui sont désormais les seuls à animer la bête sur roues. Les secousses, les chocs, les rugissements extérieurs, les tremblements des structures d'appui, la voix de la madame qui vous guide entre les arrêts, et les sièges qui patientent à leurs stations. 
+*Inside* d'un transport en commun, un bus de Montréal parmi d'autres, ce lieu est cependant vide du *commun* qu'il doit véhiculer. C'est cette rareté peut-être de l'évènement qui m'a motivé à le capturer, pour enregistrer les mouvements qui sont désormais les seuls à animer la bête sur roues. Les secousses, les chocs, les rugissements extérieurs, les tremblements des structures d'appui, la voix de la madame qui vous guide entre les arrêts, et les sièges qui patientent à leurs stations. 
 
-## Cette scène attend un texte pour peupler ses assises. 
+## Cette scène attend un texte pour peupler ses assises
 
 J'ai choisi Shotcut parce que c'est un logiciel libre et gratuit de montage vidéo (compatibles avec les 3 OS) et qu'il est porté par une communauté qui participe activement à documenter ses utilisations multiples. 
 
-Mais au-delà de ces arguments qui sont partagés par d'autres logiciels de montage vidéo, Shotcut est surtout un outil qui peut être abordé avec une irrévérence envers son manuel. Si l'interface apparaît au début un peu opaque, si les tatonnements sont multiples pour parvenir à créer un effet, l'outil est suffisamment souple pour permettre les *bidouillages*. En préparation à l'atelier, ouvrant enfin le manuel du logiciel pour apprendre les manières de faire repertoriées, j'ai constaté que : 1. j'avais hors manuel développer mes propres pratiques et solutions ; 2. la majorité de ces solutions personnelles m'apparaissaient désormais bien complexes et sinueuses inutilement ; 3. l'outil n'avait plus du tout la logique de fonctionnement que j'avais d'abord envisagé.
+Mais au-delà de ces arguments qui sont partagés par d'autres logiciels de montage vidéo, Shotcut est surtout un outil qui peut être abordé avec une irrévérence envers son manuel. Si l'interface apparaît au début un peu opaque, si il y a "trop de boutons" partout, si les tatonnements sont multiples pour parvenir à créer un effet, l'outil est suffisamment souple pour permettre les *bidouillages*, les errances, les contrefaçons. 
+
+En préparation de l'atelier, ouvrant enfin le manuel du logiciel pour apprendre les manières de faire répertoriées et prévues, j'ai constaté que : 
+
+1. j'avais développé hors manuel mes propres pratiques et solutions ; 
+2. la majorité de ces solutions personnelles se révélaient bien complexes et sinueuses inutilement ; 
+3. l'outil n'avait plus du tout la logique de fonctionnement que j'avais d'abord envisagé.
+
+Je continuerai bien sûr à lire le manuel tout en conservant certains des tics que j'ai développé lors de mon apprentissage solitaire. 
 
 ## Un manuel ça ouvre et ça limite en même temps
 

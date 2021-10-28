@@ -1,5 +1,5 @@
 baseURL = "/"
-title = ""
+title = "Blank"
 relativeURLs = true
 theme = "book"
 
@@ -20,6 +20,8 @@ theme = "book"
   pages = "/:filename"
   posts = "/blog/:title"
   docs = "/meditions/:title"
+  recherche = "/cherches/:title"
+  creation = "/creas/:title"
 
 [markup]
   [markup.goldmark]

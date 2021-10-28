@@ -9,9 +9,9 @@ Dans le cadre du groupe d'écriture du projet [*Le récit de voyage à l'ère nu
 
 Le but de cette proposition était de penser une *page* différente pour le texte, de penser son inscription dans un autre espace, d'aller travailler sa présence autrement pour l'intégrer dans un lieu où une histoire est déjà en cours.
 
-La séquence de travail proposée est la suivante : 
+Extrait de la séquence de travail proposée : 
 
- <iframe src="http://owncloud.ecrituresnumeriques.ca/index.php/s/zWeKSplUzuG52B0" title="description"></iframe> 
+ <iframe src="/video/ExtraitAtelierSmall.mp4" title="description"></iframe> 
 
 Cette séquence est une vidéo personnelle, 
 
@@ -29,7 +29,7 @@ Mais au-delà de ces arguments qui sont partagés par d'autres logiciels de mont
 
 ## Un manuel ça ouvre et ça limite en même temps
 
-Pour l'atelier, j'ai souhaité, après la présentation générales des espaces de l'interface, proposé plusieurs exercices pour peupler de texte la séquence vidéo : 
+Pour l'atelier, après la présentation de l'interface par défaut (filtres et playlist gauche ; rendu du projet centre ; historique droite ; timeline bas), j'ai proposé plusieurs exercices pour peupler de texte la séquence vidéo : 
 
 1. la glose : le texte intitule la vidéo, un peu comme du sous-titrage à la différence que le texte devient la voix de l'image.
 2. l'irruption : le texte vient se superposer sur l'image, modifier son unité, pour faire une hybridation entre visible et lisible. 

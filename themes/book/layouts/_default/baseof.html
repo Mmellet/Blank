@@ -101,13 +101,13 @@
           </section>
             {{ end }}
 
-        {{ if eq .Params.recherche "oui" }}
-        <section>
-             {{ range  where .Site.RegularPages "Section" "cherches"  }}
-             <h3><time datetime="{{ dateFormat "2006-01" .Date }}">{{ dateFormat "2006-01" .Date }}</time><a href="{{ .Permalink }}"> {{ .Title }}</h3></a>    
-            {{ end }}
-          </section>
-            {{ end }}
+            {{ if eq .Params.doc "oui" }}
+            <section>
+                {{ range  where .Site.RegularPages "Section" "cherches"  }}
+                <h3><time datetime="{{ dateFormat "2006-01" .Date }}">{{ dateFormat "2006-01" .Date }}</time><a href="{{ .Permalink }}"> {{ .Title }}</h3></a>
+                {{ end }}
+              </section>
+                {{ end }}
 
 
             {{ if eq .Params.creation "oui" }}

@@ -92,11 +92,21 @@
         {{ end }}
       </section>
         {{ end }}
+
+        {{ if eq .Params.creation "oui" }}
+        <section>
+            {{ range  where .Site.RegularPages "Section" "creas"  }}
+            <h3><time datetime="{{ dateFormat "2006-01" .Date }}">{{ dateFormat "2006-01" .Date }}</time><a href="{{ .Permalink }}"> {{ .Title }}</h3></a>
+                
+            {{ end }}
+          </section>
+            {{ end }}
     
         {{ if eq .Params.doc "oui" }}
         <section>
             {{ range  where .Site.RegularPages "Section" "meds"  }}
             <h3><time datetime="{{ dateFormat "2006-01" .Date }}">{{ dateFormat "2006-01" .Date }}</time><a href="{{ .Permalink }}"> {{ .Title }}</h3></a>
+
             {{ end }}
           </section>
             {{ end }}
@@ -109,15 +119,6 @@
               </section>
                 {{ end }}
 
-
-            {{ if eq .Params.creation "oui" }}
-            <section>
-                {{ range  where .Site.RegularPages "Section" "creas"  }}
-                <h3><time datetime="{{ dateFormat "2006-01" .Date }}">{{ dateFormat "2006-01" .Date }}</time><a href="{{ .Permalink }}"> {{ .Title }}</h3></a>
-                    
-                {{ end }}
-              </section>
-                {{ end }}
   </article>
 {{ end }}
 

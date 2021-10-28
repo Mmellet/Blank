@@ -1,7 +1,7 @@
 
 
 
-
+Pour me lire autrement, avec d'autres personnes, sur d'autres sujets : 
 
 ### Publications scientifiques
 [Librairie Zotero](https://www.zotero.org/groups/2511981/publication_margot_mellet/collections/H8FCDNSG)

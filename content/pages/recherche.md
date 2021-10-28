@@ -4,6 +4,18 @@ recherche: "oui"
 
 ---
 
-Cet ensemble réunit des réflexions qui ne sont pas *savantes* mais qui enracinemt mes années de thèse dans un terreau concrêt : inquiétudes, mises et remises en question, rêveries, étonnements, etc. 
+----------
+
+La thèse est un travail sérieux. 
+
+Mais, sur les années de conception/rédaction, ponctuent de nombreux moments *non-savants* en apparence :
+
+      inquiétudes, mises et remises en question, questionnements
+      rêveries, procrastinations, étonnements
+      etc. 
+
+Cet espace réunit les réflexions qui enracinemt mes années de thèse dans un terreau concrêt pour garder trace de mes déambulations dans un parcours. 
+
+----------
 
 *À venir :* La contribution de la virgule, La solution de l'autruche, Pérégrinations entre sujets. 

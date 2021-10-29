@@ -15,7 +15,7 @@ Il se déstructure sur les non-lieux suivants :
 
 [Journal]({{<relref "/recherche" >}}), comme le journal rose d'une doctorante, suit les entrelas de mon cursus. 
 
-[Créationl]({{<relref "/creations" >}}) rassemble mes esquisses de création, achevées ou en travaux. 
+[Création]({{<relref "/creations" >}}) rassemble mes esquisses de création, achevées ou en travaux. 
 
 [Méditions]({{<relref "/meditions" >}}) propose des réflexions/témoignages sur les processus d'édition vu de l'intérieur. 
 

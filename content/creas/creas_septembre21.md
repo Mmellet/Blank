@@ -1,6 +1,6 @@
 ---
 title: "Série des Pansemains"
-date: 2021-10-26
+date: 2021-11-01
 ---
 
 **Numérisation en cours**

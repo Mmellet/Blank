@@ -1,5 +1,5 @@
 baseURL = "/"
-title = "Blank"
+title = ""
 relativeURLs = true
 theme = "book"
 

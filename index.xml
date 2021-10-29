@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blank</title>
+    <title></title>
     <link>/</link>
-    <description>Recent content on Blank</description>
+    <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 26 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 29 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Série des Pansemains</title>
-      <link>/creas/creas_septembre21/</link>
-      <pubDate>Tue, 26 Oct 2021 00:00:00 +0000</pubDate>
+      <title>L&#39;après du Ce que ça ferait</title>
+      <link>/creas/creas_juillet21/</link>
+      <pubDate>Fri, 29 Oct 2021 00:00:00 +0000</pubDate>
       
-      <guid>/creas/creas_septembre21/</guid>
-      <description>Numérisation en cours
-Série d&amp;rsquo;illustrations publiées pour le site de L&#39;Organon</description>
+      <guid>/creas/creas_juillet21/</guid>
+      <description>Retour sur une création #  Ce que ça ferait d&amp;rsquo;être sous ses roues est une création publiée en avril 2021 ici.
+Les contraintes d&amp;rsquo;écriture étaient les suivantes : I. Un texte où le mélange des genres, des discours et l’intertextualité sont à l’honneur ; II. Un récit « cinématographique », qui mime le cinéma ; III. Un texte pictural, qui met l’accent sur les paysages, les oeuvres d’art, l’aspect visuel.</description>
     </item>
     
     <item>
@@ -27,6 +27,19 @@ Le but de cette proposition était de penser une page différente pour le texte,
     </item>
     
     <item>
+      <title>À quoi elle sert ta thèse ?</title>
+      <link>/cherches/cherches_octobre21/</link>
+      <pubDate>Fri, 22 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/cherches/cherches_octobre21/</guid>
+      <description>écran en cours
+ J&amp;rsquo;aurai aimé répondre :
+À rien #  Revandiquer l&amp;rsquo;inutilité de ma réflexion, de nos discipline pour faire acte de résistance à la logique productiviste et utilitariste
+ pour être insolente un peu aussi  Cette question, je l&amp;rsquo;ai beaucoup entendu tout au long de mon cursus, déclinée avec tous les arguments possibles,
+ &amp;quot;Mais au fond tu fais quoi ? Tu lis ? Moi aussi je sais lire.</description>
+    </item>
+    
+    <item>
       <title>Manifeste des petites mains</title>
       <link>/meds/medition_juin2021/</link>
       <pubDate>Wed, 22 Sep 2021 00:00:00 +0000</pubDate>
@@ -35,20 +48,6 @@ Le but de cette proposition était de penser une page différente pour le texte,
       <description>Au cours d&amp;rsquo;une discussion avec des acteurs de l&amp;rsquo;édition en SHS, j&amp;rsquo;ai surpris et été surprise par une formule que je n&amp;rsquo;ai pas sû immédiatement décrypter, qui m&amp;rsquo;est apparue à la première écoute aussi juste que son contraire :
  [mots] Elle1 est les petites mains sous la table [mots]
  Je ne pourrai exactement retrouver le contexte précis dans lequel s&amp;rsquo;inscrit cette bribe, je sais qu&amp;rsquo;il était sans ironie, juste pour désigner, presque innocemment.</description>
-    </item>
-    
-    <item>
-      <title>À quoi elle sert ta thèse ?</title>
-      <link>/cherches/cherches_octobre21/</link>
-      <pubDate>Wed, 22 Sep 2021 00:00:00 +0000</pubDate>
-      
-      <guid>/cherches/cherches_octobre21/</guid>
-      <description>écran en cours
- J&amp;rsquo;aurai aimé répondre :
- &amp;ldquo;à rien&amp;rdquo;
- J&amp;rsquo;aurai aimé revandiquer (avec un peu d&amp;rsquo;insolence) l&amp;rsquo;inutilité de ma réflexion, de nos disciplines. Cette question a fait écho à tant de réflexions analogues posées aux représentants des humanités.
- &amp;ldquo;Mais au fond tu fais quoi ? Tu lis ? Moi aussi je sais lire.&amp;rdquo;
-  &amp;ldquo;La littérature ça sert à rien, vous êtes en train de vous faire des noeuds dans la tête, tous seuls dans vos tours, pour déterminer si une virgule fait du sens ou non.</description>
     </item>
     
     <item>
@@ -89,10 +88,10 @@ Ceci est un espace d&amp;rsquo;expérimentation (encore en cours) pour mes prati
       <guid>/credits/</guid>
       <description>Ce site a été réalisé avec les instances suivantes :
   Hugo et le theme Book créé par Alex Shpak (version 0.68)
-  la bannière du site provient du Peeled Text Transforms créé par Zoë Bijl
+  le script de la bannière du site provient du Peeled Text Transforms créé par Zoë Bijl
   le timer a été conçu en JavaScript à l&amp;rsquo;aide de la documentation de W3Schools
   et les outils :
- VsCodium Github  M&amp;rsquo;ont aidé à construire cet espace : Antoine Fauchié et son carnet numérique quaternum.</description>
+ VsCodium Github Gandi pour le nom de domaine  M&amp;rsquo;ont aidé à construire cet espace : Antoine Fauchié et son carnet numérique quaternum.</description>
     </item>
     
     <item>

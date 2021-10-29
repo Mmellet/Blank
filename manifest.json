@@ -1,6 +1,6 @@
 {
-  "name": "Blank",
-  "short_name": "Blank",
+  "name": "",
+  "short_name": "",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",

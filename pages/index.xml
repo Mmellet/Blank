@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Pages on Blank</title>
+    <title>Pages on </title>
     <link>/pages/</link>
-    <description>Recent content in Pages on Blank</description>
+    <description>Recent content in Pages on </description>
     <generator>Hugo -- gohugo.io</generator><atom:link href="/pages/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
@@ -25,10 +25,10 @@ Ceci est un espace d&amp;rsquo;expérimentation (encore en cours) pour mes prati
       <guid>/credits/</guid>
       <description>Ce site a été réalisé avec les instances suivantes :
   Hugo et le theme Book créé par Alex Shpak (version 0.68)
-  la bannière du site provient du Peeled Text Transforms créé par Zoë Bijl
+  le script de la bannière du site provient du Peeled Text Transforms créé par Zoë Bijl
   le timer a été conçu en JavaScript à l&amp;rsquo;aide de la documentation de W3Schools
   et les outils :
- VsCodium Github  M&amp;rsquo;ont aidé à construire cet espace : Antoine Fauchié et son carnet numérique quaternum.</description>
+ VsCodium Github Gandi pour le nom de domaine  M&amp;rsquo;ont aidé à construire cet espace : Antoine Fauchié et son carnet numérique quaternum.</description>
     </item>
     
     <item>

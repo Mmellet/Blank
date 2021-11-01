@@ -5,7 +5,16 @@
     <link>/meds/</link>
     <description>Recent content in Meds on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 22 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="/meds/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 01 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="/meds/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Méditrices</title>
+      <link>/meds/medition_novembre2021/</link>
+      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/meds/medition_novembre2021/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Manifeste des petites mains</title>
       <link>/meds/medition_juin2021/</link>

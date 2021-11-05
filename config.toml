@@ -3,6 +3,8 @@ title = ""
 relativeURLs = true
 theme = "book"
 
+removePathAccents=true
+
 [params]
   BookMenuBundle = "/menu"
   BookTheme = "light"
@@ -19,9 +21,9 @@ theme = "book"
 [permalinks]
   pages = "/:filename"
   posts = "/blog/:title"
-  docs = "/meditions/:title"
-  recherche = "/cherches/:title"
-  creation = "/creas/:title"
+  meds = "/meditions/:title"
+  cherches = "/cherches/:title"
+  creas = "/creas/:title"
 
 [markup]
   [markup.goldmark]

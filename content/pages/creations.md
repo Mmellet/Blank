@@ -15,4 +15,6 @@ Si publiées, les liens vers les ressources *finies* sont indiqués.
 
 --------------------
 
+*À venir :* Je me suis mise à genoux devant le scanner, Penser la page-paysage.
+
 

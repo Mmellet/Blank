@@ -8,50 +8,6 @@
 </head>
 
 <body dir="{{ .Site.Language.LanguageDirection | default "ltr" }}">
-
-
-<p style="text-align: center; font-size:12px">
-<br/>
-Ici
-<br/>
-votre temps 
-<br/>
-est compté
-<br/>
-<br/>
-
-<label id="heures">00</label>:<label id="minutes">00</label>:<label id="secondes">00</label>
-
-</p>
-
-
-
-
-<script>
-
-var heuresLabel = document.getElementById("heures");
-var minutesLabel = document.getElementById("minutes");
-var secondesLabel = document.getElementById("secondes");
-var totalSecondes = 0;
-setInterval(setTime, 1000);
-
-function setTime() {
-  ++totalSecondes;
-  secondesLabel.innerHTML = pad(totalSecondes % 60);
-  minutesLabel.innerHTML = pad(parseInt(totalSecondes / 60));
-  heuresLabel.innerHTML = pad(parseInt(totalSecondes / 3600));
-}
-
-function pad(val) {
-  var valString = val + "";
-  if (valString.length < 2) {
-    return "0" + valString;
-  } else {
-    return valString;
-  }
-}
-</script>
-
   <input type="checkbox" class="hidden toggle" id="menu-control" />
   <input type="checkbox" class="hidden toggle" id="toc-control" />
   <main class="container flex">

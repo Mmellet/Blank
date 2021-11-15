@@ -2,8 +2,19 @@
 
 // @import "plugins/numbered";
 
+div.background {
+  position:absolute; 
+  left: 350px; 
+  top: -110px; 
+  bottom: 610px;
+}
+
+span.background {
+  font-size: 10px;
+}
+
 p.background {
-    color: #242227;
+    color: #050407;
     font-family: Avenir Next, Helvetica Neue, Helvetica, Tahoma, sans-serif;
     font-size: 1em;
     font-weight: 700;

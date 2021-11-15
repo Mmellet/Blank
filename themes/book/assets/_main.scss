@@ -6,20 +6,23 @@ html {
 
 
 div.background {
-  position:absolute; 
-  left: -30px; 
+  position: absolute; 
+  left: -20px; 
   top: -110px; 
 }
 
 span.background {
   font-size: 10px;
+  position: absolute;
+  left: 650px; 
+  top: -150px;
 }
 
 p.background {
     color: #050407;
     font-family: Avenir Next, Helvetica Neue, Helvetica, Tahoma, sans-serif;
     font-size: 1em;
-    font-weight: 700;
+    font-weight: 600;
   }
   p.background span {
     display: inline-block;

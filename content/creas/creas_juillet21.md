@@ -5,7 +5,12 @@ date: 2021-10-29
 
 ## Retour sur une création 
 
+
+------
+
 *Ce que ça ferait d'être sous ses roues* est une création publiée en avril 2021 [ici](https://www.youtube.com/watch?v=1FiP5C6-ZQs&t=174s).
+
+-------
 
 Les contraintes d'écriture étaient les suivantes : I. Un texte où le mélange des genres, des discours et l’intertextualité sont à l’honneur ; II. Un récit « cinématographique », qui mime le cinéma ; III. Un texte pictural, qui met l’accent sur les paysages, les oeuvres d’art, l’aspect visuel.
 

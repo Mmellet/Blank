@@ -168,7 +168,7 @@ body {
           background: #fefefe;
         }
 
-   h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 {
           color: #111;
           line-height: 125%;
           margin-top: 2em;
@@ -190,242 +190,36 @@ body {
             border-bottom: 1px solid black;
           }
 
-    .parallax {
-      perspective: 1px;
-      height: 100vh;
-      overflow-x: hidden;
-      overflow-y: auto;
-      perspective-origin-x: 100%;
-    }
-
-    .parallax__layer {
-      position: absolute;
-      top: 0;
-      right: 0;
-      bottom: 0;
-      left: 0;
-      transform-origin-x: 100%;
-    }
-
-    .parallax__layer--antiback {
-      transform: translateZ(1px);
-    }
-
-    .parallax__layer--base {
-      transform: translateZ(0);
-    }
-
-    .parallax__layer--back {
-      top: auto;
-      transform: translateZ(-1px) scale(2);
-    }
-
-    .parallax__layer--deep {
-      top: auto;
-      transform: translateZ(-2px) scale(3);
-    }
-
-    .parallax__layer--far {
-      top: auto;
-      transform: translateZ(-3px) scale(4);
-    }
-
-    .parallax__layer--faraway {
-      top: auto;
-      transform: translateZ(-4px) scale(5);
-    }
-
-    .parallax__layer--out {
-      top: auto;
-      transform: translateZ(-5px) scale(6);
-    }
-
-    .parallax__group {
-      position: relative;
-      height: 100vh;
-      transform-style: preserve-3d;
-    }
-
-
-div.endroit {
-position: relative;
-}
-
-h2:hover + div.envers {
-display: inline;
-position: absolute;
-left: 0;
-right: 0;
-}
-
-div.envers {
-  background: white;
-  width: 100%;
-  height: 100%;
-position: absolute;
-top: 30%;
-opacity: 0%;
-transition: opacity 3s ease-in-out;
-display: flex;
-}
-
-div.envers:hover {
-opacity: 90%;
-}
-
-div.envers > h2 {
-font-weight: 600;
-transition: line-height 2s ease;
-color: #111;
-margin-top: 2em;
-font-weight: normal;
-}
-
-div.envers > h2:hover {
-}
-
-div.miroir {
-display: inline-block;
-width:100%;
-}
-
-div.left {
-	float: left;
-width:50%;
-}
-
-div.right {
-	float: right;
-width:50%;
-}
-
-
-.container {
-  position: relative;
-  width: 50%;
-}
-
-
-.image {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: #008CBA;
-}
-
-.container:hover .overlay {
-  opacity: 1;
-}
-
-.text {
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #fefefe;
-position: fixed;
-  bottom: 0;
-  width: 100%;
-transition: opacity 3s ease-in-out;
-opacity: 20%;
-}
-
-ul:hover {
-  opacity: 90%;
-}
-
-li {
-  float: left;
-writing-mode: horizontal-tb;
-opacity: 20%;
-}
-
-li:hover {
-  opacity: 90%;
-}
-
-li a {
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 14px 16px;
-opacity: 20%;
-  text-decoration: none;
-}
-
-li a:hover {
-  opacity: 90%;
-}
-
-.active {
-  background-color: #4CAF50;
-}
-
-
-  </style>
+</style>
 
 </head>
 
 <body>
 
-<ul>
-  <li><a class="active" href="#home">A</a></li>
-  <li><a href="#news">News</a></li>
-  <li><a href="#contact">Contact</a></li>
-  <li><a href="#about">About</a></li>
-</ul>
-
-
-
 <div class="container-fluid">
     <div class="row">
-<div class="col-sm-12 titre">
-<h1>Blank</h1>
+<hr></hr><h1>Blank</h1>
+<div class="col-sm-4 titre">
+<h2>Autre</h2>
 <hr></hr>
-
+</div>
+<div class="col-sm-2 titre">
+<h2>Autre</h2>
+<hr></hr>
+</div>
+<div class="col-sm-2 titre">
+<h2>Autre</h2>
+<hr></hr>
+</div>
+<div class="col-sm-2 titre">
+<h2>Autre</h2>
+<hr></hr>
 </div>
 </div>
 </div>
 
-<!--trouver un moyen de superposer le même texte mais à l,envers avec un hover qui disparait-->
 <div class="row">
 <div class="col-sm-12 titre">
-<div class="endroit">
-<h2>ǝǝʇǝɾ ɐן ǝp ʇnoq n∀</h2>
-
-<div class="envers">
-<h2>
-Au bout de la jetée
-</h2>
-
-</div>
-</div>
-
 </div>
 </div>
 
@@ -435,44 +229,6 @@ Au bout de la jetée
 <p>Métadonnées</p>
 </span>
 </div>
-<div class="col-sm-8">
-<article>
-
-  </article>
-
-</div>
-
-</div>
-</div>
-
-
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-md-3 col-sm-2 col-xs-1">
-      </div>
-      <div class="col-md-6 col-sm-8 col-xs-10 ">
-        <div class="parallax">
-          <div class="parallax__group">
-            <h1 class="parallax__layer parallax__layer--antiback" style="color:rgb(0, 123,123);opacity: 0.5;">
-              je ne suis pas rouge
-            </h1>
-            <h1 class="parallax__layer parallax__layer--back" style="color:red;opacity: 0.5;">
-              je suis rouge
-            </h1>
-            <h1 class="parallax__layer parallax__layer--deep" style="color:blue;opacity: 0.5;">je suis bleu</h1>
-            <h1 class="parallax__layer parallax__layer--far" style="color:green;opacity: 0.5;">je suis vert</h1>
-            <h1 class="parallax__layer parallax__layer--faraway" style="color:violet;opacity: 0.5;">je suis violet</h1>
-            <h1 class="parallax__layer parallax__layer--out" style="color:purple; opacity: 0.5;">je suis purple</h1>
-            <p class="text-justify parallax__layer parallax__layer--base">
-              
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3 col-sm-2 col-xs-1">
-      </div>
-    </div>
-  </div>
 </body>
 
 </html>

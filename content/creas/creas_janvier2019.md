@@ -3,6 +3,13 @@ title: "Comment as-tu peuplé ton espace vide en mouvement ?"
 date: 2021-11-28
 ---
 
+---------
+
+écran en course
+
+-------
+
+
 ## Atelier de montage vidéo pour texte 2 
 *Suite de l'[atelier de montage vidéo pour texte 1](https://blank.blue/creas/comment-peupler-un-espace-vide-en-mouvement/)*
 

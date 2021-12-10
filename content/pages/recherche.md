@@ -14,7 +14,7 @@ Mais, sur les années de conception/rédaction, ponctuent de nombreux moments *n
       rêveries, procrastinations, étonnements
       etc. 
 
-Cet espace réunit les réflexions qui enracinemt mes années de thèse dans un terreau concrêt pour garder trace de mes déambulations dans un parcours. 
+Comme un carnet rose avant la naissance, cet espace réunit les réflexions qui enracinent mes années de thèse dans un terreau concrêt pour garder trace de mes déambulations dans un parcours. 
 
 ----------
 

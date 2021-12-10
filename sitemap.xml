@@ -3,8 +3,20 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/</loc>
-    <lastmod>2021-11-28T00:00:00+00:00</lastmod>
+    <lastmod>2021-12-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
+  </url><url>
+    <loc>/posts/</loc>
+    <lastmod>2021-12-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/blog/ravages/</loc>
+    <lastmod>2021-12-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/meditions/la-contribution-de-la-virgule/</loc>
+    <lastmod>2021-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/meds/</loc>
+    <lastmod>2021-12-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/creas/comment-as-tu-peuple-ton-espace-vide-en-mouvement/</loc>
     <lastmod>2021-11-28T00:00:00+00:00</lastmod>
@@ -24,13 +36,7 @@
     <loc>/cherches/je-necris-pas-ma-these-je-la-fais/</loc>
     <lastmod>2021-11-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/meds/</loc>
-    <lastmod>2021-11-11T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/blog/blob-init/</loc>
-    <lastmod>2021-11-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/posts/</loc>
     <lastmod>2021-11-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/creas/serie-des-pansemains/</loc>

@@ -12,12 +12,6 @@
     <loc>/blog/ravages/</loc>
     <lastmod>2021-12-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/meditions/la-contribution-de-la-virgule/</loc>
-    <lastmod>2021-12-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/meds/</loc>
-    <lastmod>2021-12-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/creas/comment-as-tu-peuple-ton-espace-vide-en-mouvement/</loc>
     <lastmod>2021-11-28T00:00:00+00:00</lastmod>
   </url><url>
@@ -34,6 +28,9 @@
     <lastmod>2021-11-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/cherches/je-necris-pas-ma-these-je-la-fais/</loc>
+    <lastmod>2021-11-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/meds/</loc>
     <lastmod>2021-11-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/blog/blob-init/</loc>
@@ -76,6 +73,8 @@
     <loc>/creations/</loc>
   </url><url>
     <loc>/recherche/</loc>
+  </url><url>
+    <loc>/cherches/la-contribution-de-la-virgule/</loc>
   </url><url>
     <loc>/pages/</loc>
   </url><url>

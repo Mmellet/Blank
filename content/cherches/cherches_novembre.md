@@ -1,6 +1,6 @@
 ---
 title: "La contribution de la virgule"
-date: 2022-12-01
+
 ---
 
 

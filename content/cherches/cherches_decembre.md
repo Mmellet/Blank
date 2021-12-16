@@ -6,7 +6,7 @@ date: 2021-11-11
 ## Un jour 
 
       J'écrirai ma thèse. 
-      Je me mettrai vraiment à un bureau avec un fût de café fumant 
+      Je me mettrai vraiment à un bureau avec un fût de fumant café  
       Je limerai mes ongles sur le clavier dans un rythme frénétique
       Je relirai des pages éparses écrites dans la fièvre de la nuit devant une nouvelle aube qui, par l'entremise de ses rayons, annoncera au monde la victoire sur une procrastination. 
 
@@ -19,6 +19,20 @@ Mais pour l'instant, ma thèse, je la fais.
       et l'aube se lève bien nouvelle tous les jours. 
   
 Je ne suis pas encore mûre pour figurer la littéraire attablée quotidiennement, entourée de livres ouverts. Je suis pour l'heure entourée d'écrans, de divers éléments qui scandent ma journée (nécessaire de fumeuse, collations, notes de défoulement). Je suis pour l'heure en train de chercher où je vais écrire, de m'y projeter, de m'y décider. 
+
+Je peux écrire partout 
+
+     train en marche, bus en route, voiture en dérapage 
+
+avec n'importe quel assise 
+
+    table de bureau universitaire, table de café, guéridon d'un appartement inconnu
+    
+mais pas *n'importe où*. 
+
+Je ne peux pas écrire ma thèse dans Word ni dans Stylo ni dans VsCodium[^1]. Ma recherche est donc celle d'un lieu de rédaction. 
+
+[^1]:Peut-être, à la limite, dans TextEditor.
 
 ## Chercher où écrire
 
@@ -33,6 +47,6 @@ Ce préléminaire inclut plusieurs temps : formations à des outils, observation
 
 ## Le temps long
 
-La temporalité de ma thèse semble à première vue occupée à tourner autour de mon sujet, à y insuffler des idées, des remarques sans être *officiellement* dedans. Il m'apparaît que l'objet final, le produit estampillé "travail de thèse pour statut de docteur en Littératures de langue française", sera le résultat des points de contact entre des intérêts de recherche et les nombreuses activités (colloques, groupes d'écriture, performance, *brainstorming*, ateliers) qui m'ont occupée jusqu'ici. 
+La temporalité de ma thèse semble à première vue occupée à tourner autour de mon sujet, à y insuffler des idées, des remarques sans être *officiellement* dedans, comme flirter avec le vide pour y sauter pile au centre. Il m'apparaît que l'objet final, le produit estampillé "travail de thèse pour statut de docteur en Littératures de langue française", sera le résultat des points de contact entre des intérêts de recherche et les nombreuses activités (colloques, groupes d'écriture, performance, *brainstorming*, ateliers) qui m'ont occupée jusqu'ici. 
 
 

@@ -1,6 +1,6 @@
 --- 
 title: "La contribution de la virgule"
-date: 2021-12-01
+date: 2021-12-31
 ---
 
 Parmi mes participations au laboratoire, j'ai été impliquée dans la rédaction de plusieurs demandes de subvention. 

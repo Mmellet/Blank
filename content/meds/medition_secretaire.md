@@ -1,6 +1,6 @@
 ---
 title: "La secrétaire"
-date: 2021-12-24
+date: 2022-12-24
 ---
 
 Non ce n'est pas une étude du film *La secrétaire*. 

@@ -58,4 +58,4 @@ Peut-être par la dispersion des sujets et sous-sujets, peut-être par boulimie,
 
 Sans être inédite, ma thèse a l'objectif de servir à lire la littérature comme une processus constant de négociation entre le média et l'inscription sans parvenir à distinguer les deux. 
 
-*à venir : un graph de l'organisation de la portion du monde de ma thèse*
+*à regarder : un [graph](https://blank.blue/cherches/graph-ta-recherche/) de l'organisation de la portion du monde de ma thèse*

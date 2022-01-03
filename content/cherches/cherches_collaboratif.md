@@ -1,6 +1,6 @@
 ---
 title: "Résume un collaboratif"
-date: 2021-12-30
+date: 2022-12-30
 ---
 
 ## Retour sur la Performative Writing du Congrès CCLA 2021

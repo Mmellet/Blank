@@ -59,6 +59,17 @@ Premier rendu :
 
 ![Graph These 1](/images/GraphThese1.png)
 
+Rendus suivants :
+
+![Graph These 1-1](/images/GraphThese1-1.png)
+
+<a href="/images/GraphThese1-1.png" target="blank">parcourir dans une nouvelle page</a>
+
+Autres esthétiques de graph : 
+
+![Graph These 1-2](/images/GraphThese1-2.png)
+
+<a href="/images/GraphThese1-2.png" target="blank">parcourir dans une nouvelle page</a>
 
 ## Le Graph du futur
 
@@ -66,7 +77,8 @@ Premier rendu :
 
 - [ ] aller *vraiment* chercher les documents dans mon repository pour rendre éventuellement les bulles clicables 
 - [ ] informer davantage les bulles, avec des descriptions
-- [ ] tenter d'autres graph selon d'autres modèles. 
+- [x] tenter d'autres graph selon d'autres modèles. 
 
+mais c'est un peu comme refaire le très beau [Cosma](https://cosma.graphlab.fr) qu'on attend compatible sous linux.
 
 [^1]: Bientôt un post sur mon apprentissage du reptile. 

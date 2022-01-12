@@ -150,7 +150,7 @@ Le but de cette proposition était de penser une page différente pour le texte,
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/menu/</guid>
-      <description> Journal Création Méditions Je suis Publications Crédits   </description>
+      <description> Journal Création Méditions Textes Vidéos Je suis Publications Crédits   </description>
     </item>
     
     <item>
@@ -209,6 +209,20 @@ Cet ensemble d&amp;rsquo;écritures n&amp;rsquo;a pas pour intention de médire 
       <description>Pour me lire autrement, avec d&amp;rsquo;autres personnes, sur d&amp;rsquo;autres sujets :
 Publications scientifiques #  Librairie Zotero
 Créations #  Librairie Zotero</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/textvid/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/textvid/</guid>
+      <description>Texte Plastique 1 : -- Textes Plastiques #   Texte Plastique 1 Ce que ça ferait d&#39;être sous ses roues 
+  Texte Plastique 2 Lisser les draps 
+    Texte Plastique 3 Faire page paysage 
+   Poèmes techniques #   Poème Technique 1 Les Ruses Bleues 
+  Poème Technique 2 Lettre au Somaphore 
+       Traces montage #   Trace Montage 1 Type Error Psyché</description>
     </item>
     
     <item>

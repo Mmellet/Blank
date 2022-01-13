@@ -11,7 +11,7 @@ headless: true;
 - **[Journal]({{< relref "/recherche" >}})**
 - **[Création]({{< relref "/creations" >}})**
 - **[Méditions]({{< relref "/meditions" >}})**
-- **[Textes Vidéos]({{< relref "/textvid" >}})**
+- **[Textes Vidéos]({{< relref "/textes-videos" >}})**
 - **[Je suis]({{< relref "/about" >}})**
 - **[Publications]({{< relref "/publications" >}})**
 - **[Crédits]({{< relref "/credits" >}})**

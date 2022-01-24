@@ -98,6 +98,7 @@ Le terme *petites mains* est un qualificatif qui peut être neutre ou valorisant
 # **sur** la table du savoir[^2] 
 
 
+<img src="/images/petitesMains.gif" height="250px"/>
 
 
 

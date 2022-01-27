@@ -65,7 +65,7 @@ Rendus suivants :
 
 <a href="/images/GraphThese1-1.png" target="blank">parcourir dans une nouvelle page</a>
 
-Autres esthétiques de graph : 
+Autres esthétiques de graph façon constellation de recherche :
 
 ![Graph These 1-2](/images/GraphThese1-2.png)
 

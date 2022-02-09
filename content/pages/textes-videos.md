@@ -48,9 +48,14 @@ Lettre au Somaphore
 </th>
 
 </tr>
-</tr>
-<th>
+<tr>
+   <th height="100" width="350">
+<p class="align-left">Poème Technique 3</br>
+(eau)bscure
+<iframe src="https://ia801502.us.archive.org/29/items/eaubscure/%28eau%29bscure.mp4" style="height:190px;width:290px;" webkitallowfullscreen="true" mozallowfullscreen="true" allow="autoplay" allowfullscreen></iframe></p>
+
 </th>
+<th>
 </tr>
 </table>
 

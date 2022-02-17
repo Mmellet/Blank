@@ -3,13 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/</loc>
-    <lastmod>2022-02-09T00:00:00+00:00</lastmod>
+    <lastmod>2022-02-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url><url>
-    <loc>/creas/eaubscure/</loc>
-    <lastmod>2022-02-09T00:00:00+00:00</lastmod>
+    <loc>/creas/arret-dans-la-creation/</loc>
+    <lastmod>2022-02-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/creas/</loc>
+    <lastmod>2022-02-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/creas/eaubscure/</loc>
     <lastmod>2022-02-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/meds/</loc>

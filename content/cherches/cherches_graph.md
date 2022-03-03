@@ -1,5 +1,5 @@
 ---
-title: "Graph ta recherche"
+title: "Graph ta thèse"
 date: 2022-01-03
 ---
 
@@ -45,7 +45,7 @@ Toute la recherche,
       les méthodes abandonnées 
       les SyntaxError
       les "ça fonctionne mais je sais pas pourquoi"
-      
+      These
 ont été documentées dans un jupyter notebook : 
 
 <iframe src="/html/GraphThese.html"></iframe>
@@ -55,17 +55,21 @@ ont été documentées dans un jupyter notebook :
 
 ## Rendu(s) sur mur
 
-Premier rendu : 
+### Premier rendu : 
 
 ![Graph These 1](/images/GraphThese1.png)
 
-Rendus suivants :
+
+<a href="https://blank.blue/images/GraphThese1.png" target="blank">parcourir dans une nouvelle page</a>
+
+
+### Rendus suivants :
 
 ![Graph These 1-1](/images/GraphThese1-1.png)
 
 <a href="/images/GraphThese1-1.png" target="blank">parcourir dans une nouvelle page</a>
 
-Autres esthétiques de graph façon constellation de recherche :
+### Autres esthétiques de graph façon constellation de recherche :
 
 ![Graph These 1-2](/images/GraphThese1-2.png)
 

@@ -3,8 +3,14 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/</loc>
-    <lastmod>2022-02-17T00:00:00+00:00</lastmod>
+    <lastmod>2022-03-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
+  </url><url>
+    <loc>/cherches/</loc>
+    <lastmod>2022-03-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/cherches/graph-ta-recherche/</loc>
+    <lastmod>2022-03-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/creas/arret-dans-la-creation/</loc>
     <lastmod>2022-02-17T00:00:00+00:00</lastmod>
@@ -15,13 +21,13 @@
     <loc>/creas/eaubscure/</loc>
     <lastmod>2022-02-09T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>/meditions/le-corps-technique-des-petites-mains/</loc>
+    <lastmod>2022-02-03T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/meds/</loc>
     <lastmod>2022-02-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/meditions/petites-mains-mettent-a-jour/</loc>
-    <lastmod>2022-02-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/meditions/manifeste-des-petites-mains-2/</loc>
+    <loc>/meditions/ajout-nest-pas-inclusion/</loc>
     <lastmod>2022-01-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/creas/ce-que-veulent-dire-les-images-finales/</loc>
@@ -30,10 +36,7 @@
     <loc>/creas/soigner-son-monde-texte-1/</loc>
     <lastmod>2022-01-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/cherches/</loc>
-    <lastmod>2022-01-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/cherches/graph-ta-recherche/</loc>
+    <loc>/cherches/graph-ta-these/</loc>
     <lastmod>2022-01-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/posts/</loc>

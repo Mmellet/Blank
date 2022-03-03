@@ -9,26 +9,29 @@
         <meta name="description" content="">
       <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Graph ta recherche"/>
-<meta name="twitter:description" content="J&rsquo;ai menti. #  J&rsquo;ai quand même écrit, mais arrive un moment où, dans le mêlement des différents écritures, je constate que tout mon travail de préparation est en réalité un puzzle.
-Autrement dit :
- il faut ranger, prendre de la distance, avoir une vision sur toute les pièces qui composent cette image en cours.  Mais il n&rsquo;est pas question de relire tout pour produire encore de nouveaux documents qui résumeraient puis se dillateraient dans le temps, qu&rsquo;il faudrait alors relire pour produire de nouveaux condensés qu&rsquo;on oublierait encore et encore."/>
+<meta name="twitter:description" content="Dans le cadre d&rsquo;un atelier pour le groupe de recherche « Comparative Materialities Research Group » de la Canadian Comparative Literature Association (CCLA), la CRCEN a exploré la question du code collaboratif et de la structuration collaborative des données de recherche.
+Cette expérience a amené à créer un code en python (dans le même esprit que Graph ta thèse).
+En voici les coulisses :
+Play (with) me #  Le but de l&rsquo;atelier était de proposer un dispositif pour que les participants codent ensemble un petit script."/>
 
       <meta property="og:title" content="Graph ta recherche" />
-<meta property="og:description" content="J&rsquo;ai menti. #  J&rsquo;ai quand même écrit, mais arrive un moment où, dans le mêlement des différents écritures, je constate que tout mon travail de préparation est en réalité un puzzle.
-Autrement dit :
- il faut ranger, prendre de la distance, avoir une vision sur toute les pièces qui composent cette image en cours.  Mais il n&rsquo;est pas question de relire tout pour produire encore de nouveaux documents qui résumeraient puis se dillateraient dans le temps, qu&rsquo;il faudrait alors relire pour produire de nouveaux condensés qu&rsquo;on oublierait encore et encore." />
+<meta property="og:description" content="Dans le cadre d&rsquo;un atelier pour le groupe de recherche « Comparative Materialities Research Group » de la Canadian Comparative Literature Association (CCLA), la CRCEN a exploré la question du code collaboratif et de la structuration collaborative des données de recherche.
+Cette expérience a amené à créer un code en python (dans le même esprit que Graph ta thèse).
+En voici les coulisses :
+Play (with) me #  Le but de l&rsquo;atelier était de proposer un dispositif pour que les participants codent ensemble un petit script." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/cherches/graph-ta-recherche/" /><meta property="article:section" content="cherches" />
-<meta property="article:published_time" content="2022-01-03T00:00:00+00:00" />
-<meta property="article:modified_time" content="2022-01-03T00:00:00+00:00" />
+<meta property="article:published_time" content="2022-03-02T00:00:00+00:00" />
+<meta property="article:modified_time" content="2022-03-02T00:00:00+00:00" />
 
 
       <meta itemprop="name" content="Graph ta recherche">
-<meta itemprop="description" content="J&rsquo;ai menti. #  J&rsquo;ai quand même écrit, mais arrive un moment où, dans le mêlement des différents écritures, je constate que tout mon travail de préparation est en réalité un puzzle.
-Autrement dit :
- il faut ranger, prendre de la distance, avoir une vision sur toute les pièces qui composent cette image en cours.  Mais il n&rsquo;est pas question de relire tout pour produire encore de nouveaux documents qui résumeraient puis se dillateraient dans le temps, qu&rsquo;il faudrait alors relire pour produire de nouveaux condensés qu&rsquo;on oublierait encore et encore."><meta itemprop="datePublished" content="2022-01-03T00:00:00+00:00" />
-<meta itemprop="dateModified" content="2022-01-03T00:00:00+00:00" />
-<meta itemprop="wordCount" content="350">
+<meta itemprop="description" content="Dans le cadre d&rsquo;un atelier pour le groupe de recherche « Comparative Materialities Research Group » de la Canadian Comparative Literature Association (CCLA), la CRCEN a exploré la question du code collaboratif et de la structuration collaborative des données de recherche.
+Cette expérience a amené à créer un code en python (dans le même esprit que Graph ta thèse).
+En voici les coulisses :
+Play (with) me #  Le but de l&rsquo;atelier était de proposer un dispositif pour que les participants codent ensemble un petit script."><meta itemprop="datePublished" content="2022-03-02T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2022-03-02T00:00:00+00:00" />
+<meta itemprop="wordCount" content="762">
 <meta itemprop="keywords" content="" />
         <link rel="canonical" href="/cherches/graph-ta-recherche/">
         <link rel="dns-prefetch" href="https://www.google-analytics.com">
@@ -50,74 +53,115 @@ Autrement dit :
       <h2 itemprop="name headline" class="subtitle" id="soustitre">Graph ta recherche</h2>
       <span itemprop="articleBody">
         
-      <h2 id="jai-menti">
-  J&rsquo;ai menti.
-  <a class="anchor" href="#jai-menti">#</a>
+      <p>Dans le cadre d&rsquo;un atelier pour le groupe de recherche « Comparative Materialities Research Group » de la <em>Canadian Comparative Literature Association</em> (CCLA), la CRCEN a exploré la question du code collaboratif et de la structuration collaborative des données de recherche.</p>
+<p>Cette expérience a amené à créer un code en python (dans le même esprit que <a href="https://blank.blue/cherches/graph-ta-these/">Graph ta thèse</a>).</p>
+<p>En voici les coulisses :</p>
+<h2 id="play-with-me">
+  Play (with) me
+  <a class="anchor" href="#play-with-me">#</a>
 </h2>
-<p>J&rsquo;ai quand même <a href="https://blank.blue/cherches/je-necris-pas-ma-these-je-la-fais/">écrit</a>, mais arrive un moment où, dans le mêlement des différents écritures, je constate que tout mon travail de préparation est en réalité un puzzle.</p>
-<p>Autrement dit :</p>
-<pre><code>  il faut ranger, 
-  prendre de la distance, 
-  avoir une vision sur toute les pièces qui composent cette image en cours. 
+<p>Le but de l&rsquo;atelier était de proposer un dispositif pour que les participants codent ensemble un petit script. En parallèle de la recherche d&rsquo;une interface permettant de coder collaborativement en synchrone, il fallait penser à un <em>jeu</em> à proposer aux chercheur.e.s<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.</p>
+<p>L&rsquo;an passé nous avons organisé un atelier sur le principe d&rsquo;écriture collaborative : les participants étaient invités à écrire ensemble dans un pad en ligne<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>.</p>
+<p>Cette année, nous voulions expérimenter un autre type d&rsquo;écriture toujours en lien avec la question du collaboratif (comme modèle et pratique qui structure une communauté) : le code.</p>
+<p>Mais,</p>
+<pre><code>     il ne s'agissait pas seulement d'expérimenter le code collaboratif synchrone
+     il ne s'agissait pas seulement de proposer une introduction à python
+     il ne s'agissait pas seulement d'avoir du fun dans l'être ensemble à même un espace d'écriture
 </code></pre>
-<p>Mais il n&rsquo;est pas question de relire tout pour produire encore de nouveaux documents qui résumeraient puis se dillateraient dans le temps, qu&rsquo;il faudrait alors relire pour produire de nouveaux condensés qu&rsquo;on oublierait encore et encore.</p>
-<p>Il faut établir un système clair, <em>automatisé</em> pour savoir comment se structure la recherche.</p>
-<h2 id="modèle-pour-où-est-quoi-sur-quel-sujet">
-  Modèle pour où est quoi sur quel sujet
-  <a class="anchor" href="#mod%c3%a8le-pour-o%c3%b9-est-quoi-sur-quel-sujet">#</a>
+<p>Il s&rsquo;agissait d&rsquo;appréhender l&rsquo;espace de programmation comme une forme de structuration d&rsquo;une pensée qui serait le reflet de notre communauté.</p>
+<p>En ce sens, notre défense demeure inchangée :</p>
+<h2 id="lenvironnement-décriture-est-une-forme-de-pensée">
+  L&rsquo;environnement d&rsquo;écriture est une forme de pensée
+  <a class="anchor" href="#lenvironnement-d%c3%a9criture-est-une-forme-de-pens%c3%a9e">#</a>
 </h2>
-<p>J&rsquo;ai alors décidé de taguer mes documents de recherche.</p>
-<p>Première piste : le système de <a href="https://git-scm.com/book/en/v2/Git-Basics-Tagging">tagging de git</a>. Après un premier test pour m&rsquo;apercevoir que ce système ne correspond pas à ma pratique, qu&rsquo;il ne s&rsquo;agit pas (ou pas encore) de marquer et documenter un historique de documents.</p>
-<p>Il s&rsquo;agit de comprendre les noeuds thématiques qui les lient, d&rsquo;avoir un tableau d&rsquo;ensemble des correspondances.</p>
-<p>Deuxième piste : faire un graphique généré avec python<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.</p>
-<p>La fonction idéale :</p>
-<pre><code>  [x] irait chercher les documents de mon [répertoire github](https://github.com/Mmellet/these)
-  [x] irait récupérer les tags de ces documents
-  [x] produirait un graph sur le modèle : bulle = document, lien = tag
-</code></pre>
-<p>Visualisation à partir de la librairie graphviz :</p>
-<p><img src="/images/Test.png" alt="Visualisation à partir de la librairie graphviz" /></p>
-<h2 id="pythonnage--tags">
-  Pythonnage &amp; Tags
-  <a class="anchor" href="#pythonnage--tags">#</a>
-</h2>
-<p>Toute la recherche,</p>
-<pre><code>  les égarements, 
-  les méthodes abandonnées 
-  les SyntaxError
-  les &quot;ça fonctionne mais je sais pas pourquoi&quot;
-</code></pre>
-<p>ont été documentées dans un jupyter notebook :</p>
-<iframe src="/html/GraphThese.html"></iframe>
-<p><a href="/html/GraphThese.html" target="blank">ouvrir dans le navigateur</a></p>
-<h2 id="rendus-sur-mur">
-  Rendu(s) sur mur
-  <a class="anchor" href="#rendus-sur-mur">#</a>
-</h2>
-<p>Premier rendu :</p>
-<p><img src="/images/GraphThese1.png" alt="Graph These 1" /></p>
-<p>Rendus suivants :</p>
-<p><img src="/images/GraphThese1-1.png" alt="Graph These 1-1" /></p>
-<p><a href="/images/GraphThese1-1.png" target="blank">parcourir dans une nouvelle page</a></p>
-<p>Autres esthétiques de graph façon constellation de recherche :</p>
-<p><img src="/images/GraphThese1-2.png" alt="Graph These 1-2" /></p>
-<p><a href="/images/GraphThese1-2.png" target="blank">parcourir dans une nouvelle page</a></p>
-<h2 id="le-graph-du-futur">
-  Le Graph du futur
-  <a class="anchor" href="#le-graph-du-futur">#</a>
-</h2>
-<p>À faire :</p>
+<p>Écho aux Media Studies, ce que nous avions performé l&rsquo;an passé dans le pad collaboratif (qui est à l&rsquo;origine d&rsquo;un article à paraître) devait être renégocié dans un autre environnement d&rsquo;écriture, selon un langage et une syntaxe différente.</p>
+<p>Il va sans dire que l&rsquo;atelier nécessitait davantage de préparation :</p>
 <ul>
-<li><input disabled="" type="checkbox"> aller <em>vraiment</em> chercher les documents dans mon repository pour rendre éventuellement les bulles clicables</li>
-<li><input disabled="" type="checkbox"> informer davantage les bulles, avec des descriptions</li>
-<li><input checked="" disabled="" type="checkbox"> tenter d&rsquo;autres graph selon d&rsquo;autres modèles.</li>
+<li>quel dispositif ?</li>
 </ul>
-<p>mais c&rsquo;est un peu comme refaire le très beau <a href="https://cosma.graphlab.fr">Cosma</a> qu&rsquo;on attend compatible sous linux.</p>
+<p>Il était préférable de trouver un outil en ligne, gratuit, ouvert, qui ne nécessite ni installation ni création de compte pour les participants.</p>
+<ul>
+<li>quel jeu (&amp; de données) ?</li>
+</ul>
+<p>Soit sous la forme d&rsquo;exercices ou de tutoriel, nous devions proposer aux participants une <em>quête</em> qui réponde à de possibles besoins/intérêts de recherche. En voici, un exemple :</p>
+<h3 id="fruit-de-ta-recherche">
+  Fruit de ta recherche
+  <a class="anchor" href="#fruit-de-ta-recherche">#</a>
+</h3>
+<p>L&rsquo;une des idées formulées que je retranscrit ici<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup> était celle de penser un dispositif pour <em>matcher</em> les chercheur.e.s selon leurs intérêts de recherche.</p>
+<p>Référence à l&rsquo;application de rencontre <em>Fruitz</em> (qui établit le modèle de la rencontre sur le principe du type de relation recherchée par l&rsquo;individu), <em>Fruit de ta recherche</em> devait proposer aux chercheur.e.s de se « rencontrer » si leurs centres de recherche, selon le type de carrière visée, selon leurs approches, leurs écoles de pensée, etc.</p>
+<p>Cette proposition a été écartée pour des questions de délais de réalisation.</p>
+<h2 id="les-références-qui-nous-lient">
+  Les références qui nous lient
+  <a class="anchor" href="#les-r%c3%a9f%c3%a9rences-qui-nous-lient">#</a>
+</h2>
+<p>Pour l&rsquo;heure, nous n&rsquo;avons par trouvé d&rsquo;environnement approprié pour le code collaboratif synchrone qui corresponde aux besoins de l&rsquo;atelier.</p>
+<p>Nous avons alors reformulé nos exigences en ces termes :</p>
+<p>Pour les données</p>
+<pre><code>se recentrer sur un jeu de données disponibles en ligne 
+se concentrer sur des données qui intéressent les chercheur.e.s 
+= les références &amp; Zotero 
+</code></pre>
+<p>Pour le jeu</p>
+<pre><code>proposer aux participants de jouer avec les références d'une librairie Zotero partagée
+préparer un script python en amont pour produire des visualisations de ces données 
+= Jupyter notebook 
+</code></pre>
+<p>Concrètement, nous avons <em>fetcher</em> une <a href="https://www.zotero.org/groups/4592469/ccla-atelier/library">bibliothèque Zotero partagée</a> et produire des visualisations des références avec python afin de réorganiser les structures des données et de montrer les connexions entre les informations éditées.</p>
+<p>Le but de cet atelier n&rsquo;est pas seulement de jouer avec les données. Nous voulons souligner et démontrer l&rsquo;importance des références dans nos communautés de recherche et l&rsquo;importance de structurer ces données.</p>
+<p>Les références ne sont pas seulement des ressources scientifiques, elles font partie de l&rsquo;identité de nos communautés et le jeu avec ces données est une forme de pensée.</p>
+<h2 id="graph-le-retour">
+  Graph le retour
+  <a class="anchor" href="#graph-le-retour">#</a>
+</h2>
+<p>Récupération d&rsquo;un principe <a href="https://blank.blue/cherches/graph-ta-these/">déjà expérimenté</a>, voilà que je replonge dans python<sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup> pour produire un script qui permette de visualiser les liens :</p>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> entre les références</li>
+<li><input disabled="" type="checkbox"> entre les références et les chercheur.e.s</li>
+<li><input disabled="" type="checkbox"> entre les chercheur.e.s</li>
+</ul>
+<p>Visualisation du Jupyter Notebook :</p>
+<iframe src="/html/CCLA-atelier.html"></iframe>
+<p><a href="/html/CCLA-atelier.html" target="blank">ouvrir dans le navigateur</a></p>
+<h2 id="networks-en-image">
+  Networks en image
+  <a class="anchor" href="#networks-en-image">#</a>
+</h2>
+<h3 id="début-de-latelier">
+  Début de l&rsquo;atelier
+  <a class="anchor" href="#d%c3%a9but-de-latelier">#</a>
+</h3>
+<img src="/images/CCLA-Network11.png" alt="" width="1200" height="200"/>
+<p><a href="https://blank.blue/images/CCLA-Network11.png" target="blank">parcourir dans une nouvelle page</a></p>
+<h3 id="fin-de-latelier">
+  Fin de l&rsquo;atelier
+  <a class="anchor" href="#fin-de-latelier">#</a>
+</h3>
+<img src="/images/CCLA-Network1.png" alt="" width="1200" height="200"/>
+<p><a href="https://blank.blue/images/CCLA-Network1.png" target="blank">parcourir dans une nouvelle page</a></p>
+<h2 id="liens-utiles">
+  Liens utiles
+  <a class="anchor" href="#liens-utiles">#</a>
+</h2>
+<ul>
+<li><a href="https://www.zotero.org/groups/4592469/ccla-atelier/library">Bibliographie Zotero de l&rsquo;atelier</a></li>
+<li><a href="https://gitlab.huma-num.fr/ecrinum/graph-ta-recherche/-/blob/master/CCLA-atelier.ipynb">Jupyter Notebook de l&rsquo;atelier</a></li>
+<li><a href="https://gitlab.huma-num.fr/ecrinum/graph-ta-recherche">Repo Gitlab de l&rsquo;atelier</a></li>
+</ul>
 <section class="footnotes" role="doc-endnotes">
 <hr>
 <ol>
 <li id="fn:1" role="doc-endnote">
-<p>Bientôt un post sur mon apprentissage du reptile.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p>L&rsquo;atelier est une préparation de la présentation que la CRCEN fera en juin lors du congrès annuel de CCLA. Le thème de notre groupe est <em>play</em>.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2" role="doc-endnote">
+<p>Le pad est disponible <a href="https://stylo.huma-num.fr/article/6139122bb19841001964226a/preview">ici</a>.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3" role="doc-endnote">
+<p>Parce qu&rsquo;elle serait selon moi à réaliser dans le futur.&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:4" role="doc-endnote">
+<p>Il faudra prévoir un post pour parler de ma montée en python.&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
 </section>

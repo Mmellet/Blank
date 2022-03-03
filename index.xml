@@ -5,7 +5,19 @@
     <link>/</link>
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 17 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 02 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Graph ta recherche</title>
+      <link>/cherches/graph-ta-recherche/</link>
+      <pubDate>Wed, 02 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/cherches/graph-ta-recherche/</guid>
+      <description>Dans le cadre d&amp;rsquo;un atelier pour le groupe de recherche « Comparative Materialities Research Group » de la Canadian Comparative Literature Association (CCLA), la CRCEN a exploré la question du code collaboratif et de la structuration collaborative des données de recherche.
+Cette expérience a amené à créer un code en python (dans le même esprit que Graph ta thèse).
+En voici les coulisses :
+Play (with) me #  Le but de l&amp;rsquo;atelier était de proposer un dispositif pour que les participants codent ensemble un petit script.</description>
+    </item>
+    
     <item>
       <title>Arrêt dans la création</title>
       <link>/creas/arret-dans-la-creation/</link>
@@ -36,26 +48,26 @@ l&amp;rsquo;impression d&amp;rsquo;une absence perceptible
     </item>
     
     <item>
-      <title>Petites mains mettent à jour</title>
-      <link>/meditions/petites-mains-mettent-a-jour/</link>
+      <title>Le corps technique des Petites mains</title>
+      <link>/meditions/le-corps-technique-des-petites-mains/</link>
       <pubDate>Thu, 03 Feb 2022 00:00:00 +0000</pubDate>
       
-      <guid>/meditions/petites-mains-mettent-a-jour/</guid>
-      <description>Mise à jour du Manifeste des petites mains
-On a parlé des petites mains, dans des questions à des colloques, marcello en a parlé, on prépare un rapport pour le projet revue2.0 sur ce sujet. On en a aussi parlé avec des hommes dans le monde de l&amp;rsquo;édition numérique et ça m&amp;rsquo;a donné des idées pour repréciser l&amp;rsquo;affaire surtout par rapport avec des usages :
-D&amp;rsquo;abord, les petites mains ont la particularités du contexte : plus généralement péjoratives dans les milieux scientifiques et universitaires, plus généralement mélioratives dans les milieux plus concrêts et professionnalisants.</description>
+      <guid>/meditions/le-corps-technique-des-petites-mains/</guid>
+      <description>Mise à jour du Manifeste des petites mains et de Ajout n&amp;rsquo;est pas inclusion
+ En cours de rédaction #   On a parlé des petites mains, dans des questions à des colloques, dans des réunions, MVR en a parlé, on prépare un rapport pour le projet Revue2.0 sur ce sujet, on prépare un article. On l&amp;rsquo;argumente, même on le scientifie.
+On en a aussi parlé avec des hommes dans le monde de l&amp;rsquo;édition numérique, avec des femmes dans le monde de l&amp;rsquo;édition et ça a généré des idées pour repréciser l&amp;rsquo;affaire surtout pour poser cette question en rapport avec des usages et pratiques concrètes.</description>
     </item>
     
     <item>
-      <title>Manifeste des petites mains 2</title>
-      <link>/meditions/manifeste-des-petites-mains-2/</link>
+      <title>Ajout n&#39;est pas inclusion</title>
+      <link>/meditions/ajout-nest-pas-inclusion/</link>
       <pubDate>Fri, 28 Jan 2022 00:00:00 +0000</pubDate>
       
-      <guid>/meditions/manifeste-des-petites-mains-2/</guid>
+      <guid>/meditions/ajout-nest-pas-inclusion/</guid>
       <description>Lisant à petits feux l&amp;rsquo;ouvrage de Tara McPherson Feminist in a Software Lab, j&amp;rsquo;ai été marquée par une de ses réflexions.
 Marquée du genre obsessif
- comme si j&#39;avais adopté un nouveau chat, comme [Marcello](https://vitalirosati.com/) avec le « Matter Matters » de Barad (2007),  Je radote à qui veut l&amp;rsquo;entendre cette même formule :
-Ajout n&amp;rsquo;est pas inclusion #  Tara McPherson n&amp;rsquo;en fait pas un slogan, elle le ne dit pas mot pour mot (dommage)1.</description>
+ comme si j&#39;avais adopté un nouveau chat, comme [MVR](https://vitalirosati.com/) avec le « Matter Matters » de Barad (2007),  Je radote à qui veut l&amp;rsquo;entendre cette même formule « Ajout n&amp;rsquo;est pas inclusion ».
+Tara McPherson n&amp;rsquo;en fait pas un slogan, elle le ne dit pas mot pour mot (dommage)1.</description>
     </item>
     
     <item>
@@ -80,11 +92,11 @@ Consignes #  Écriture de soi(autofiction, récit de soi, essai personnel, etc.)
     </item>
     
     <item>
-      <title>Graph ta recherche</title>
-      <link>/cherches/graph-ta-recherche/</link>
+      <title>Graph ta thèse</title>
+      <link>/cherches/graph-ta-these/</link>
       <pubDate>Mon, 03 Jan 2022 00:00:00 +0000</pubDate>
       
-      <guid>/cherches/graph-ta-recherche/</guid>
+      <guid>/cherches/graph-ta-these/</guid>
       <description>J&amp;rsquo;ai menti. #  J&amp;rsquo;ai quand même écrit, mais arrive un moment où, dans le mêlement des différents écritures, je constate que tout mon travail de préparation est en réalité un puzzle.
 Autrement dit :
  il faut ranger, prendre de la distance, avoir une vision sur toute les pièces qui composent cette image en cours.  Mais il n&amp;rsquo;est pas question de relire tout pour produire encore de nouveaux documents qui résumeraient puis se dillateraient dans le temps, qu&amp;rsquo;il faudrait alors relire pour produire de nouveaux condensés qu&amp;rsquo;on oublierait encore et encore.</description>
@@ -107,7 +119,7 @@ Autrement dit :
       
       <guid>/creas/comment-as-tu-peuple-ton-espace-vide-en-mouvement/</guid>
       <description>écran en course
- Atelier de montage vidéo pour texte 2 #  Suite de l&#39;atelier de montage vidéo pour texte 1
+ Atelier de montage vidéo pour texte 2 #  Suite de l&amp;rsquo;atelier de montage vidéo pour texte 1
 Après un mois de poursuite de l&amp;rsquo;apprentissage de Shotcut, de bidouillages en solitaires, peut-être incluant des déprises de l&amp;rsquo;outil, il s&amp;rsquo;agit dans l&amp;rsquo;atelier de partager ses récits :
  Dans ce bus filmé caméra paume Quel a été ton trajet ? À côté de qui as-tu assis ton texte ?</description>
     </item>
@@ -160,7 +172,7 @@ Le Blob c&amp;rsquo;est aussi pour faire original.</description>
       <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
       
       <guid>/creas/serie-des-pansemains/</guid>
-      <description>Série d&amp;rsquo;illustrations pour la page des projets de l&#39;Organon, collectif issu de la Chaire McConnell en recherche et création sur les récits du don et de la vie en contexte de soins.
+      <description>Série d&amp;rsquo;illustrations pour la page des projets de l&amp;rsquo;Organon, collectif issu de la Chaire McConnell en recherche et création sur les récits du don et de la vie en contexte de soins.
 L&amp;rsquo;idée de la création proposée était de parvenir à concevoir des images qui font du bien, qui habillent un espace d&amp;rsquo;expression sans être trop là, de penser la relation entre l&amp;rsquo;écriture et le toucher dans une perspective de poiesis.</description>
     </item>
     

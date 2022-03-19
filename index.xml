@@ -5,7 +5,18 @@
     <link>/</link>
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 02 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 18 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Textapes et profil numérique</title>
+      <link>/conf/sherbrooke-2022/</link>
+      <pubDate>Fri, 18 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/conf/sherbrooke-2022/</guid>
+      <description>Remerciements des organisateurs et organisatrices pour cette occasion de parole et de partage.
+Présentation dans le cadre du 19e colloque étudiant en littérature canadienne comparée de l&amp;rsquo;Université de Sherbrooke « À la croisée des chemins : l&amp;rsquo;intermédialité comme point de rencontre » - 18 Mars 2022
+Slides #   ouvrir dans mon navigateur  Texte #   Web-série française adaptée à l&amp;rsquo;origine d&amp;rsquo;un Tumblr du même nom créé par Angela Soupe, Les Textapes d&amp;rsquo;Alice retrace le parcours amoureux d&amp;rsquo;une jeune femme, Alice, au fil de ses relations et de ses rencontres avec ce slogan :</description>
+    </item>
+    
     <item>
       <title>Graph ta recherche</title>
       <link>/cherches/graph-ta-recherche/</link>
@@ -244,7 +255,7 @@ Volet 1 #   Brouillon
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/menu/</guid>
-      <description> Journal Création Méditions Textes Vidéos Je suis Publications Crédits   </description>
+      <description> Journal Création Méditions Textes Vidéos Je suis Publications Conférences Crédits   </description>
     </item>
     
     <item>
@@ -344,6 +355,16 @@ Un Blob est un post sans prétention qui tombe le matin (généralement entre 8 
 Mais, sur les années de conception/rédaction, ponctuent de nombreux moments non-savants en apparence :
  inquiétudes, mises et remises en question, questionnements rêveries, procrastinations, étonnements etc.  Comme un carnet rose avant la naissance, cet espace réunit les réflexions qui enracinent mes années de thèse dans un terreau concrêt pour garder trace de mes déambulations dans un parcours.
  À venir : La contribution de la virgule, La solution de l&amp;rsquo;autruche, Pérégrinations entre sujets.</description>
+    </item>
+    
+    <item>
+      <title>Matériaux de présentation</title>
+      <link>/conference/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/conference/</guid>
+      <description>Espace pour organiser les notes et le matériel de présentation de différentes présentations.
+ À venir : CSDH, Humanistica, DocSo, Reconnecter un monde dévasté, La connaissance intranquille, ELO, CCLA, ADHO</description>
     </item>
     
     <item>

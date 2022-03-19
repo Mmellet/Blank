@@ -3,8 +3,14 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/</loc>
-    <lastmod>2022-03-02T00:00:00+00:00</lastmod>
+    <lastmod>2022-03-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
+  </url><url>
+    <loc>/conf/</loc>
+    <lastmod>2022-03-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/conf/sherbrooke-2022/</loc>
+    <lastmod>2022-03-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/cherches/</loc>
     <lastmod>2022-03-02T00:00:00+00:00</lastmod>
@@ -97,6 +103,8 @@
     <loc>/creations/</loc>
   </url><url>
     <loc>/recherche/</loc>
+  </url><url>
+    <loc>/conference/</loc>
   </url><url>
     <loc>/pages/</loc>
   </url><url>

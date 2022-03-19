@@ -163,6 +163,16 @@ function pad(val) {
               </section>
                 {{ end }}
 
+
+            {{ if eq .Params.conference "oui" }}
+            <section>
+                {{ range  where .Site.RegularPages "Section" "conf"  }}
+                <h3><time datetime="{{ dateFormat "2006-01" .Date }}">{{ dateFormat "2006-01" .Date }}</time><a href="{{ .Permalink }}"> {{ .Title }}</h3></a>
+                {{ end }}
+              </section>
+                {{ end }}
+
+
   </article>
 {{ end }}
 

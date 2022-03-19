@@ -14,6 +14,7 @@ headless: true;
 - **[Textes Vidéos]({{< relref "/textes-videos" >}})**
 - **[Je suis]({{< relref "/about" >}})**
 - **[Publications]({{< relref "/publications" >}})**
+- **[Conférences]({{< relref "/conference" >}})**
 - **[Crédits]({{< relref "/credits" >}})**
 
 ---

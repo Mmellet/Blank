@@ -10,4 +10,4 @@ Ancienne Coordonnatrice d'une revue en sciences humaines, coordonnatrice scienti
 Cet ensemble d'écritures n'a pas pour intention de *médire* mais de *méditer*. 
 
 
-*À venir :* Sommes-nous des Shiva ?, L'index et le pouvoir d'indiquer, "On veut du tout en un", Méditrices.
+**À venir :** Sommes-nous des Shiva ?, L'index et le pouvoir d'indiquer (mettre le doigt dessus), "On veut du tout en un", Méditrices et sorcières, La secrétaire2.0.

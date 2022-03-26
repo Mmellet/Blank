@@ -1,6 +1,6 @@
- 
 ---
 title: "Soigner son monde - Texte 1"
+tag: "atelier"
 date: 2022-01-20
 ---
 

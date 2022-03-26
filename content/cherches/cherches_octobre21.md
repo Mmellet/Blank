@@ -4,13 +4,6 @@ date: 2021-10-22
 ---
 
 
-----------
-
-écran en cours
-
----------
-
-
 J'aurai aimé répondre : 
 
 ## À rien
@@ -58,4 +51,6 @@ Peut-être par la dispersion des sujets et sous-sujets, peut-être par boulimie,
 
 Sans être inédite, ma thèse a l'objectif de servir à lire la littérature comme une processus constant de négociation entre le média et l'inscription sans parvenir à distinguer les deux. 
 
-*à regarder : un [graph](https://blank.blue/cherches/graph-ta-recherche/) de l'organisation de la portion du monde de ma thèse*
+-----
+
+**En écho** la mise en [Graph](https://blank.blue/cherches/graph-ta-recherche/) de l'organisation de la portion du monde de ma thèse

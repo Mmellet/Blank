@@ -83,6 +83,11 @@ ont été documentées dans un jupyter notebook :
 - [ ] informer davantage les bulles, avec des descriptions
 - [x] tenter d'autres graph selon d'autres modèles. 
 
-mais c'est un peu comme refaire le très beau [Cosma](https://cosma.graphlab.fr) qu'on attend compatible sous linux.
+mais c'est un peu comme refaire le très beau [Cosma](https://cosma.graphlab.fr) ~~en attendant qu'il soit disponible sur Linux~~ que je vais tester car désormais compatible sur linux.
 
 [^1]: Bientôt un post sur mon apprentissage du reptile. 
+
+
+-----
+
+**En écho** deuxième expérience de [Graph](https://blank.blue/cherches/graph-ta-recherche/)

@@ -94,3 +94,6 @@ on aura pu chercher le texte hors de la ligne,
       derrière une ombre
       en amont de la page.
       
+---- 
+
+**En écho** Faire page paysage est le [Texte Plastique 3](https://blank.blue/textes-videos/#textes-plastiques)

@@ -64,3 +64,7 @@ date: 2021-09-01
 </th>
 </tr>
 </table>
+
+---- 
+
+**En écho** Les Ruses bleues sont le [Poème Technique 1](https://blank.blue/textes-videos/#po%c3%a8mes-techniques)

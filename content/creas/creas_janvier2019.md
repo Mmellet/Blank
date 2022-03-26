@@ -3,12 +3,9 @@ title: "Comment as-tu peuplé ton espace vide en mouvement ?"
 date: 2021-11-28
 ---
 
----------
+Écran<sup>en Cours</sup>
 
-écran en course
-
--------
-
+----
 
 ## Atelier de montage vidéo pour texte 2 
 *Suite de l'[atelier de montage vidéo pour texte 1](https://blank.blue/creas/comment-peupler-un-espace-vide-en-mouvement/)*
@@ -34,3 +31,6 @@ Il me fallait penser l'inscription des différents espaces d'assises comme des p
 
 L'espace se double et se peuple par ce que j'y projete. 
 
+----
+
+**En écho** [début de l'atelier](https://blank.blue/creas/comment-peupler-un-espace-vide-en-mouvement/)

@@ -8,17 +8,23 @@ Blank est un espace d'écritures en déconstruction.
 
 -----------
 
-Il se déstructure sur les non-lieux suivants : 
+Il se présente sur les non-lieux suivants : 
 <!--
 [Blog]({{< relref "/blog" >}}) rassemble un ensemble de posts divers.
 -->
 
-[Journal]({{<relref "/recherche" >}}), comme le journal rose d'une doctorante, suit les entrelas de mon cursus. 
+[Journal rose d'une doctorante]({{<relref "/recherche" >}}) tricote les entrelas de ma recherche. 
 
-[Création]({{<relref "/creations" >}}) rassemble mes esquisses de création, achevées ou en travaux. 
+[Création]({{<relref "/creations" >}}) esquisse mes processus d'écriture. 
 
-[Méditions]({{<relref "/meditions" >}}) propose des réflexions/témoignages sur les processus d'édition vu de l'intérieur. 
+[Méditions]({{<relref "/meditions" >}}) témoigne des expériences d'édition de l'interne. 
 
-[Je suis]({{<relref "/about" >}}) me présente à vous. 
+[Textes Vidéos]({{<relref "/textes-videos" >}})<sup>Nouveau</sup> défile mes montages.
 
-[Crédits]({{<relref "/meditions" >}}) liste l'ensemble des acteurs/outils qui ont permis de créer cet espace. 
+[Je suis]({{<relref "/about" >}}) est hyper narcissique. 
+
+[Publications]({{<relref "/publications" >}})<sup>en Travaux</sup> joue au zotero.
+
+[Conférences]({{<relref "/conference" >}})<sup>Nouveau<sup>en Travaux</sup></sup> parle de mes prises de paroles.
+
+[Crédits]({{<relref "/meditions" >}}) nomme les petites mains qui ont participé à créer cet espace. 

@@ -3,6 +3,12 @@ title: "La contribution de la virgule"
 date: 2022-12-31
 ---
 
+----
+
+Écran<sup>en Cours</sup>
+
+---------
+
 Parmi mes participations au laboratoire, j'ai été impliquée dans la rédaction de plusieurs demandes de subvention. 
 
 Je n'ai cependant pas créé les projets qui ont été finalement financés, je ne les ai pas pensé, je les ai coordonné pour certains et je me suis acharné à les représenter à plusieurs occasions de financements. 

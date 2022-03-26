@@ -3,13 +3,13 @@ title: "Le corps technique des Petites mains"
 date: 2022-02-03
 ---
 
+----
+
+Écran<sup>en Cours</sup>
+
 ---------
 
-Mise à jour du [Manifeste des petites mains](https://blank.blue/meditions/manifeste-des-petites-mains/) et de [Ajout n'est pas inclusion](https://blank.blue/meditions/ajout-nest-pas-inclusion//)
-
----------
-
-## **En cours de rédaction**
+Mise à jour du [Manifeste des petites mains](https://blank.blue/meditions/manifeste-des-petites-mains/) et de [Ajout n'est pas inclusion](https://blank.blue/meditions/ajout-nest-pas-inclusion/)
 
 -----
 
@@ -40,3 +40,6 @@ Je peux taper le texte dicté par un homme, répondre à la question d'un autre 
 On prête ses mains, mais pas vraiment sa concentration, et dans ce qui pourrait être vu comme une position de pouvoir (hiérarchique, physique et intellectuel) -- un homme debout dicte son savoir à une secrétaire assise qui se tait -- c'est en fait une passation qui a lieu. 
  ## Techniquement où se situe concrètement la pensée des petites mains ? 
 
+--- 
+
+**En écho** [Le manifeste](https://blank.blue/meditions/manifeste-des-petites-mains/) et [sa suite](https://blank.blue/meditions/ajout-nest-pas-inclusion/)

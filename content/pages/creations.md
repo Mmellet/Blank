@@ -1,5 +1,5 @@
 ---
-title: "Espace des créas"
+title: "Esquisses & Créas"
 creation: "oui"
 ---
 
@@ -16,6 +16,6 @@ Si publiées, les liens vers les ressources *finies* sont indiqués.
 
 --------------------
 
-*À venir :* Je me suis mise à genoux devant le scanner, Est-ce que quelqu'un sait coudre ?.
+**À venir :** Je me suis mise à genoux devant le scanner, Est-ce que quelqu'un sait coudre ?, Le blanc intranquille.
 
 

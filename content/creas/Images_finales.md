@@ -43,12 +43,16 @@ Peut-être au fond que tout le but de ces textes là était de remonter le coura
 ### Lettre au Somaphore (2020)
 ![Lettre au Somaphore](/images/Somaphore.png)
 
-### Faire Page Paysage* (2021)
+### Faire Page Paysage (2021)
 ![Faire Page Paysage](/images/FairePagePaysage.png)
 
-### *Titre à venir* (2022)
+### Celles qui survivent aux hommes (2022)
 ![Titre à chercher](/images/Pleureuses.png)
+*en cours de publication*
 
 
 [^1]: Pour la lecture et la portion du monde : [À quoi elle sert ta thèse ?](https://blank.blue/cherches/a-quoi-elle-sert-ta-these/#ma-portion-du-monde)
 
+--- 
+
+**En écho** les créations mentionnées défilent [ici](https://blank.blue/textes-videos/)

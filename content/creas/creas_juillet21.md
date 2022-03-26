@@ -44,3 +44,7 @@ La prochaine étape, la prochaine station, l'après du *Ce que ça ferait d'êtr
 Texte à venir donc au prochain arrêt.
 
 [^1]: La portion vidéo risque d'être plus métaphorique que réelle.
+
+---- 
+
+**En écho** ce que ça ferait est le [Texte Plastique 1](https://blank.blue/textes-videos/#textes-plastiques)

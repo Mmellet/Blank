@@ -49,4 +49,7 @@ Ce préléminaire inclut plusieurs temps : formations à des outils, observation
 
 La temporalité de ma thèse semble à première vue occupée à tourner autour de mon sujet, à y insuffler des idées, des remarques sans être *officiellement* dedans, comme flirter avec le vide pour y sauter pile au centre. Il m'apparaît que l'objet final, le produit estampillé "travail de thèse pour statut de docteur en Littératures de langue française", sera le résultat des points de contact entre des intérêts de recherche et les nombreuses activités (colloques, groupes d'écriture, performance, *brainstorming*, ateliers) qui m'ont occupée jusqu'ici. 
 
+-----
+
+**En écho** j'ai [menti](https://blank.blue/cherches/graph-ta-these/)
 

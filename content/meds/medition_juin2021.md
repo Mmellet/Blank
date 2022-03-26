@@ -130,3 +130,7 @@ FRANCE, *Pierre Nozière*, 1899, p. 57.
 ZOLA, *Pot-Bouille*, 1882, p. 360.
 
 MÉNARD, *Histoire des anciens peuples de l'Orient*, 1882, p. 185.
+
+----
+
+**En écho** [la suite](https://blank.blue/meditions/ajout-nest-pas-inclusion/) et la [suite de la suite](https://blank.blue/meditions/le-corps-technique-des-petites-mains/)

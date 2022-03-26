@@ -3,6 +3,12 @@ title: "La secrétaire"
 date: 2022-12-24
 ---
 
+----
+
+Écran<sup>en Cours</sup>
+
+---------
+
 Non ce n'est pas une étude du film *La secrétaire*. 
 
 C'est la question du pourquoi au sein d'une réunion d'hommes nous sommes celles qui fournissont le café, qui sommes convoquées par des remarques sous le ton et l'excuse de l'humour sur nos capacités de gestion, sur notre méconnaissance techniques. 

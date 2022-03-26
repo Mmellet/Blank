@@ -54,3 +54,8 @@ Sur Shotcut :
 
 - [Tutos officiels](https://shotcut.org/tutorials/)
 - [Tutos avec un bel accent british](https://www.youtube.com/channel/UCypMjN5Jms6mUN1OjsygVjw/videos)
+
+
+-----
+
+**En écho** [suite de l'atelier](https://blank.blue/creas/comment-as-tu-peuple-ton-espace-vide-en-mouvement/)

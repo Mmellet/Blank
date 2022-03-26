@@ -60,3 +60,7 @@ Sans être prescriptive, sans confirmer une seule et unique manière de penser l
 Pour relier cette réflexion à la question des petites mains, il me semble que la problématique est équivalente : il ne s'agit pas juste de *nous* réhabiliter dans un écosystème (*nous* y sommes déjà, c'est *nous* qui structurons vos textes), il ne s'agit pas seulement de *nous* reconnaître comme déterminantes, agissantes (nous le savons que nous le sommes, et de nombreux travaux s'efforcent déjà de vous le démontrer), il s'agit de repenser le cadre de départ pour que cette composante soit prise en compte *à la base*. 
 
 De plus, techniquement, c'est tout à fait valable : les données nouvelles démontrer une structure différentes, actualisées, selon de nouveaux modes de nomenclature, de nouvelles valeurs : les joindre en patchwork à l'ensemble n'est pas cohérent, même pour les anciennes données, il faut repenser leurs métadonnées. 
+
+--- 
+
+**En écho** [Le manifeste](https://blank.blue/meditions/manifeste-des-petites-mains/) et [la suite de la suite](https://blank.blue/meditions/le-corps-technique-des-petites-mains/)

@@ -14,8 +14,8 @@ Mais, sur les années de conception/rédaction, ponctuent de nombreux moments *n
       rêveries, procrastinations, étonnements
       etc. 
 
-Comme un carnet rose avant la naissance, cet espace réunit les réflexions qui enracinent mes années de thèse dans un terreau concrêt pour garder trace de mes déambulations dans un parcours. 
+Journal rose, cet espace réunit les réflexions qui enracinent mes années de thèse dans un terreau concret pour garder trace de mes déambulations dans un parcours. 
 
 ----------
 
-*À venir :* La contribution de la virgule, La solution de l'autruche, Pérégrinations entre sujets. 
+**À venir :** La contribution de la virgule, La solution de l'autruche et le complexe de la carpe, Faut les structurer tes posts (Marcello 2022), Graph ton concet (oui un autre Graph), GraphCeption (aveu d'une obsession), Charmer le python (et ne pas faire du porno), Je suis bonne pour les titres. 

@@ -18,4 +18,4 @@ Journal rose, cet espace réunit les réflexions qui enracinent mes années de t
 
 ----------
 
-**À venir :** La contribution de la virgule, La solution de l'autruche et le complexe de la carpe, Faut les structurer tes posts (Marcello 2022), Graph ton concet (oui un autre Graph), GraphCeption (aveu d'une obsession), Charmer le python (et ne pas faire du porno), Je suis bonne pour les titres. 
+**À venir :** La contribution de la virgule, La solution de l'autruche et le complexe de la carpe, Faut les structurer tes posts (Marcello 2022), Graph ton concept (oui un autre Graph), GraphCeption (aveu d'une obsession), Charmer le python (et ne pas faire du porno), Je suis bonne pour les titres. 

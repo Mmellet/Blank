@@ -8,7 +8,7 @@ Espace pour organiser les notes et le matériel de présentation de différentes
 
 --- 
 
-**À venir** : CSDH, Humanistica, DocSo, Reconnecter un monde dévasté, La connaissance intranquille, ELO, CCLA, ADHO
+**À venir** : CSDH, Humanistica, DocSo, La connaissance intranquille, ELO, CCLA, ADHO
 <!--
 ## Calendrier des conférences 
 

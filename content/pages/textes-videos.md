@@ -19,13 +19,22 @@ Ce que ça ferait d'être sous ses roues
 Lisser les draps
 <iframe src="https://ia601507.us.archive.org/35/items/lisser-draps/LisserDraps.mp4" style="height:190px;width:290px;" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></p>
 </th>
+</tr>
+</table>
 
-</tr>
-</tr>
+## Pages Planches
+
+<table style="width:100%">
+<tr>
 <th>
-<p class="align-left">Texte Plastique 3</br>
+<p class="align-left">Planche 1</br>
 Faire page paysage
 <iframe src="https://ia601505.us.archive.org/13/items/faire-page-paysage/FairePagePaysage.mp4" style="height:190px;width:290px;" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></p>
+</th>
+<th>
+<p class="align-left">Planche 2</br>
+Celles qui survivent aux hommes
+<iframe src="video/pleureuses.mp4" style="height:190px;width:290px;" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></p>
 </th>
 </tr>
 </table>

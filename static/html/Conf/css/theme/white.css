@@ -307,13 +307,21 @@ padding-left: 0%;
     opacity:0.8;
 }
 
- #fondop2
-{
 
-    background-color: rgb(255, 238, 204);
-    border-color: blue;
+#fondop3
+{
+    background-color: rgba(252, 251, 249, 0.603);
+    border-color: #b8421e;
     opacity:0.8;
 }
+
+#fondop4
+{
+    background-color: rgba(252, 251, 249, 0.959);
+    border-color: #b8421e;
+    opacity:0.9;
+}
+
 
 .font-small {
 

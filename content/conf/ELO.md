@@ -6,7 +6,7 @@ date: 2022-05-30
 Thank you/Grazie mille to all the people involved in the organization of the event.
 
 
-Présentation dans le cadre de la conférence [Electronic Literature Organization 2022](https://www.elo2022.com/) » (Cômo) - 8 Avril 2022 
+Présentation dans le cadre de la conférence [Electronic Literature Organization 2022](https://www.elo2022.com/) » (Cômo) - 31 Mai 2022 
 
 ```
 Titre : Understanding Digital Writing through Distance Learning

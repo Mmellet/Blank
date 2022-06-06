@@ -6,7 +6,7 @@ date: 2022-05-30
 Thank you/Grazie mille to all the people involved in the organization of the event.
 
 
-Présentation dans le cadre de la conférence [Electronic Literature Organization 2022](https://www.elo2022.com/) » (Cômo) - 31 Mai 2022 
+Présentation dans le cadre de la conférence [Electronic Literature Organization 2022](https://www.elo2022.com/) (Cômo) - 31 Mai 2022 
 
 ```
 Titre : Understanding Digital Writing through Distance Learning
@@ -98,21 +98,14 @@ In the context of a creative class in digital literature, I have set up 9 creati
 
 The first workshop, for example, involved using the online annotation tool Hypothesis to create hypertextual narrations and aimed to: 1. overcome linearity by considering continuity; 2. take ownership of a marginal area; 3. explore ad explode the sense/direction of writing. The annotation tool thus became a tool for appropriation of the marginal zone, to incorporate the visited pages into a game of paths and tracks. 
 
-![The private Hypothesis group for student annotations](https://i.imgur.com/30r1tol.png)
-
-![Example of annotations for a hypertext narrative ](https://i.imgur.com/s9cqeSN.png)
-
 ---
 
 The workshop focusing on the perfomativity aspect of digital writing aimed to create a story in bash code to explore the perspective of writing with and according to the machine. In the Online Bash Shell environment, students designed short interactive stories. 
 
-![Example of a bash-encoded interactive creation that behaves as a user-defined poem machine](https://i.imgur.com/37Dmf5D.png)
 
 ----
 
 The workshop on profile writing (Monjour 2015) was also an opportunity for students to create individual profiles in the Wikipedia "pastiche" page and thus deal with the mechanisms of online profile. The idea was to test how a profile and a piece of identity  could be introduced into a space managed by a community of knowledge and into an online encyclopedia. The main part of the pastiches have been deleted by the wikipedian admins but some very relevant ones have been kept. 
-
-![Example of a pastiche profile that managed to escape the surveillance of the wikipedia administrators despite its militant content.](https://i.imgur.com/OQeBWP2.png)
 
 ----
 
@@ -128,15 +121,13 @@ This experience of distance teaching made me consider my own practices of writin
 
 In the class I led the following year, even though it was in a face-to-face mode, I kept thinking about the importance of designing digital structure in a more independent and inclusive way, not to stand against or reject the institutions platforms, but rather to consider an alternative way to conceived a public space. Contents were avaible on a [website](https://mmellet.github.io/fra3826_2021/) built with a CMS and a github repository.
 
-![The website of the 2021 class](https://i.imgur.com/EiOVR50.png)
-
 ---
 
 First of all, as a conclusion, I would like to thank the students: Haitam Alam, Chloé Dassylva, Félix-Arthur Grenier, Olivier Jobin, Farid Laouari, Antoine Sweeney et Sébastien Vaillancourt, but also  the team of the [Canada Research Chair on Digital Textualities](https://ecrituresnumeriques.ca/en/), which has provided a place for discussion and exchange among its members (especially Marcello Vitali-Rosati and Antoine Fauchié for all the listening, the advice given and the ideas discussed). 
 
 ----
 
-In order to be completely honest, not only on a theoretical level but also on a technical level, I would like to mention and thank the digital environments that allowed me to write this presentation: the translator [DeepL](https://www.deepl.com/translator) who wrote with me and allows me to be at least understandable, and the editor [Stylo](https://stylo.huma-num.fr/) who gave a semantic structure to the writing under my tiny human hands.
+In order to be completely honest, not only on a theoretical level but also on a technical level, I would like to mention and thank the digital environments that allowed me to write this presentation: the translator [DeepL](https://www.deepl.com/translator) who wrote with me and allows me to be at least understandable, and the editor [Stylo](https://stylo.huma-num.fr/) who gave a semantic structure to the writing under my hands (and [reveal.js](https://revealjs.com/) for the presentation).
 
 Translated with www.DeepL.com/Translator (free version) and rengociat with Margot Mellet
 

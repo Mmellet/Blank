@@ -76,7 +76,7 @@ L'analyse du rôle des femmes dans le laboratoire du Père Busa par Melissa Terr
 
 ----
 
-Au point d'ailleurs où un travail est actuellement entrepris pour retrouver les noms des ouvrières impliquées (Terras [2013](https://melissaterras.org/2013/10/15/for-ada-lovelace-day-father-busas-female-punch-card-operatives/)) et que la [page Wikipédia du projet](https://en.wikipedia.org/wiki/Index_Thomisticus) d'ailleurs ne mentionne pas cette participation comme me le faisait remarquer Alix Chagué, doctorante à l'université.
+Au point d'ailleurs où un travail est actuellement entrepris pour retrouver les noms des ouvrières impliquées (Terras [2013](https://melissaterras.org/2013/10/15/for-ada-lovelace-day-father-busas-female-punch-card-operatives/)) et que la [page Wikipédia du projet](https://en.wikipedia.org/wiki/Index_Thomisticus) d'ailleurs ne mentionne pas cette participation comme me le faisait remarquer [Alix Chagué](https://alix-tz.github.io/), doctorante à l'université.
 
 ---
 
@@ -167,7 +167,7 @@ Je voudrais maintenant présenter deux projets qui, même s'ils n'adressent pas 
 
 ## Cas d'étude : La revue [*Sens public*](http://sens-public.org/)
 
-Revue en sciences humaines créée en 2003 par Gérard Wormser et qui partage aujourd'hui sa coordination entre les deux bords de l'océan, Sens public se fonde sur le principe de conversation, qui est toujours en cours d'implémentation technique : en amont est la considération qu'une revue en sciences humaines est un espace pour la conversation scientifique, pour concevoir mais aussi implémenter techniquement, apéifier une granularité des savoirs.
+Revue en sciences humaines créée en 2003 par Gérard Wormser, qui a été coordonnée notamment par Carole Dely, Karine Bissonnette, Servanne Monjour et actuellement gérée par Eugénie Matthey-Jonais pour son côté montréalais, Sens public se fonde sur le principe de conversation, qui est toujours en cours d'implémentation technique : en amont est la considération qu'une revue en sciences humaines est un espace pour la conversation scientifique, pour concevoir mais aussi implémenter techniquement, apéifier une granularité des savoirs.
 
 >Notre intention pour ce site aura été de concevoir la revue comme un dispositif conversationnel, favorisant ce que Jean-Claude Guédon appelle des cristaux de connaissance ([2015](https://septentrio.uit.no/index.php/nopos/article/view/3619)). ([À propos](http://sens-public.org/apropos/), Sens public)
 
@@ -184,9 +184,9 @@ Même chose pour les éditeurs.trices, les petites mains dialoguent directement 
 
 -----
 
-## Cas d'étude : Le projet *Revue2-3.0*
+## Cas d'étude : Le projet [*Revue2-3.0*](http://revue20.org/)
 
-Deuxième cas d'étude que je souhaitai présenter avant de conclure, le projet Revue2.0-3.0 porté par la chaire de recherche du canada sur les écritures numériques, financé par le CRSH, projet qui a déjà fait l'objet de présentations dans le cadre du colloque, a pour but de repenser la mission des revues savantes dans les environnements numériques et de les guider vers l'adaptation de leurs identités et valeurs éditoriales dans ces environnements. 
+Deuxième cas d'étude que je souhaitai présenter avant de conclure, le projet [Revue2.0-3](http://revue20.org/).0 porté par la chaire de recherche du canada sur les écritures numériques, financé par le CRSH, projet qui a déjà fait l'objet de présentations dans le cadre du colloque, a pour but de repenser la mission des revues savantes dans les environnements numériques et de les guider vers l'adaptation de leurs identités et valeurs éditoriales dans ces environnements. 
 
 >L'objectif principal du projet est de garantir une multiplicité de modèles pour les revues en SH en résistant à la concentration des grands monopoles et par extension à tout modèle qui se présenterait comme unique ou dominant.
 
@@ -214,7 +214,7 @@ Repenser nos interfaces numériques en fonction de valeurs inclusives est une va
 
 L'effort est collectif, puisqu'il ne s'agit pas d'ajouter des individus, des données, des noms et juste des crédits, mais bien de repenser les protocoles et modèles qui constituent la communauté de savoir. 
 
- La perspective des petites mains se propose ainsi comme une approche pour détourner ou proposer un nouveau regard, peut-être plus complexe ou engagé, sur une réalité qui a toujours été là.
+La perspective des petites mains se propose ainsi comme une approche pour détourner ou proposer un nouveau regard, peut-être plus complexe ou engagé, sur une réalité qui a toujours été là.
 
 ----
 
@@ -223,5 +223,11 @@ L'effort est collectif, puisqu'il ne s'agit pas d'ajouter des individus, des don
 [Bibliographie Zotero](https://www.zotero.org/groups/4695868/petites_mains/library)
 
 Si vous souhaitez participer à cette collection, suggérer des références, n'hésitez pas à [me contacter](https://blank.blue/about/) !
+
+## Pour toucher plus loin les petites mains 
+
+- [Manifeste des petites mains](https://blank.blue/meditions/manifeste-des-petites-mains/)
+- [Ajout n'est pas inclusion](https://blank.blue/meditions/ajout-nest-pas-inclusion/) 
+- [Le corps technique des Petites mains](https://blank.blue/meditions/le-corps-technique-des-petites-mains/)
 
 

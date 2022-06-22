@@ -16,6 +16,6 @@ Si publiées, les liens vers les ressources *finies* sont indiqués.
 
 --------------------
 
-**À venir :** Je me suis mise à genoux devant le scanner, Est-ce que quelqu'un sait coudre ?, Le blanc intranquille.
+**À venir :** Je me suis mise à genoux devant le scanner, Est-ce que quelqu'un sait coudre ?, Le blanc intranquille, je ne suis pas graphiste ni graphique.
 
 

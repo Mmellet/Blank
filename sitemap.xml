@@ -3,26 +3,26 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/</loc>
-    <lastmod>2022-06-17T00:00:00+00:00</lastmod>
+    <lastmod>2022-06-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url><url>
+    <loc>/creas/</loc>
+    <lastmod>2022-06-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/creas/scanner-a-genoux/</loc>
+    <lastmod>2022-06-28T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/conf/</loc>
-    <lastmod>2022-06-17T00:00:00+00:00</lastmod>
+    <lastmod>2022-06-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/conf/docso/</loc>
-    <lastmod>2022-06-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/conf/intranquille/</loc>
-    <lastmod>2022-05-30T00:00:00+00:00</lastmod>
+    <lastmod>2022-06-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/conf/elo/</loc>
     <lastmod>2022-05-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/conf/humanistica-2022/</loc>
     <lastmod>2022-05-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/creas/</loc>
-    <lastmod>2022-05-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/creas/les-azurees/</loc>
     <lastmod>2022-05-13T00:00:00+00:00</lastmod>
@@ -60,7 +60,7 @@
     <loc>/creas/ce-que-veulent-dire-les-images-finales/</loc>
     <lastmod>2022-01-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/creas/soigner-son-monde-texte-1/</loc>
+    <loc>/creas/soigner-son-monde/</loc>
     <lastmod>2022-01-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/cherches/graph-ta-these/</loc>
@@ -124,6 +124,8 @@
     <loc>/creations/</loc>
   </url><url>
     <loc>/recherche/</loc>
+  </url><url>
+    <loc>/conf/intranquille/</loc>
   </url><url>
     <loc>/conference/</loc>
   </url><url>

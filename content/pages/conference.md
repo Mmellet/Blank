@@ -8,4 +8,4 @@ Espace pour organiser les notes et le matériel de présentation.
 
 --- 
 
-**À venir** : DocSo, CCLA, d'anciennes présentations si pertinentes
+**À venir** : CCLA, d'anciennes présentations si retrouvées

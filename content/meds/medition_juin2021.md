@@ -61,7 +61,7 @@ Face à ces deux non-dits chargés de sens, j'ai chargé mon esprit scientifique
 
 - Est ce que les petites mains ont vraiment l'espace de coudre sous une table ? Ou est-ce qu'elles sont attachées à produire d'autres gestes ? 
 
------ 
+## Prêter son corps à l'expression
 
 Je suis en édition, j'ai donc décidé de creuser la question, de faire l'expérience des petites mains sous la table selon différentes configurations (moi et mes mains toutes entières sous le bureau, moi assise devant mon bureau les mains placées dessous, moi debout et mes mains toutes entières sous le bureau). 
 

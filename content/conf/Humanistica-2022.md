@@ -26,7 +26,7 @@ Sous-titre : Réflexions pour des espaces éditoriaux numériques plus inclusifs
 
 ---
 
-Je voulais présenter ici une réflexion en cours qui est issu d'un post publié sur mon site en septembre 2021 intitulé [« Manifeste des petites mains »](https://blank.blue/meditions/manifeste-des-petites-mains/).
+Je voulais présenter ici une réflexion en cours qui est issue d'un post publié sur mon site en septembre 2021 intitulé [« Manifeste des petites mains »](https://blank.blue/meditions/manifeste-des-petites-mains/).
 
 Depuis la publication de ce post, peut-être par déformation ou mono/manomanie, je ne cesse d'entendre l'expression dans des discussions, des présentations[^3]. Ce n'est pas si étonnant tant il semble que le sujet des travailleurs et travailleuses invisibles et passés sous silence est une question actuelle : ce qui pouvait paraître être une question traitée par les approches davantage liées à l'anthropologie ou aux sciences sociales est adressé aujourd'hui avec peut-être plus d'évidence dans les humanités, notamment numériques. Pour adresser la question des mains invisibilisées et souvent insoupçonnées prises dans les rouages de la production de connaissance, la formule des petites mains revient comme un refrain. D'où la question qui a été à l'origine du Manifeste : 
 

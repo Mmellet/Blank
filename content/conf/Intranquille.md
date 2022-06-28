@@ -1,6 +1,6 @@
 ---
 title: "Le savoir intranquille du texte numérique"
-date: 2022-05-30
+date: 2022-06-3
 ---
 
 Remerciements aux organisateurs et organisatrices pour cette occasion de parole et de partage.

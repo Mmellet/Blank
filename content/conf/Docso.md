@@ -1,6 +1,6 @@
 ---
 title: "Design pour des environnements éditoriaux équitables, pluriels et inclusifs"
-date: 2022-06-17
+date: 2022-06-23
 ---
 
 Remerciements aux organisateurs et organisatrices pour cette occasion de parole et de partage.
@@ -25,25 +25,22 @@ Sous-titre : (les petites mains structurées différemment)
 
 # Texte
 
-(à venir)
 
-<!--
 ----
 
 **Avertissement** : si ce qui suit peut paraître très analogue à la [présentation à Humanistica](https://blank.blue/conf/humanistica-2022/), c'est parce que ces deux présentations se fondent sur un même article (à paraître). 
 
-----
+---
 
-
-Ma présentation est celle d'une réflexion en cours, liée à ma thèse en recherche et création au Département de Littératures de langue française de l'Université de Montréal, et cette réflexion est issue d'un post publié sur mon site en septembre 2021 intitulé [« Manifeste des petites mains »](https://blank.blue/meditions/manifeste-des-petites-mains/). 
+Ma présentation est celle d'une réflexion en cours, liée à ma thèse, et cette réflexion est issue d'un post publié sur mon site en septembre 2021 intitulé [« Manifeste des petites mains »](https://blank.blue/meditions/manifeste-des-petites-mains/). 
 
 Les petites mains, c'est une expression courante utilisée généralement pour désigner les travailleuses et travailleurs en coulisse, assignés à des tâches répétitives et minutieuses.
 
-Je réalise, depuis la publication de ce post et au fil des présentations et des discussions qui suivent, que le sujet non seulement est d'une actualité vive mais qu'il semble innerver toutes les disciplines, qu'il peut être compris par tous et toutes et c'est ce qui fait sa force selon moi. 
+Je réalise, depuis la publication de ce post et au fil des présentations et des discussions qui suivent, que le sujet non seulement est d'une actualité vive mais qu'il semble innerver toutes les disciplines et c'est ce qui fait sa force selon moi. 
 
 ----
 
-Au XIXe siècle « les petites mains » désignait un grade dans l'organisation des ateliers de couture : sous les ordres des premières mains, les petites mains exécutaient des tâches de tissage. Aussi appelées *cousettes*, ces ouvrières dans le tissu étaient alors résumées à leurs mains pour signifier les opérations qu'elles devaient effectuer. Et ce type de tâche va définir plus généralement les petites mains que l'on retrouve aujourd'hui dans pratiquement tout les corps de métiers impliquant un travail manuel : et, il faut le préciser, elle n'est pas péjorative en tant que telle, dans le milieu culinaire par exemple, être une petite main est au contraire considéré encore aujourd'hui comme une qualité. 
+Au XIX<sup>e</sup> siècle « les petites mains » désignait un grade dans l'organisation des ateliers de couture : sous les ordres des premières mains, les petites mains exécutaient des tâches de tissage. Aussi appelées *cousettes*, ces ouvrières dans le tissu étaient alors résumées à leurs mains pour signifier les opérations qu'elles devaient effectuer. Et ce type de tâche va définir plus généralement les petites mains que l'on retrouve aujourd'hui dans pratiquement tout les corps de métiers impliquant un travail manuel : et, il faut le préciser, elle n'est pas péjorative en tant que telle, dans le milieu culinaire par exemple, être une petite main est au contraire considéré encore aujourd'hui comme une qualité. 
 
 -----
 
@@ -229,7 +226,7 @@ L'effort est collectif, puisqu'il ne s'agit pas d'ajouter des individus, des don
 
 et je finirai par la formule qui conlue le [Manifeste](https://blank.blue/meditions/manifeste-des-petites-mains/) à l'origine de cette réflexion, et qui selon permet de résumer la question de la légitimité, de l'autorité toujours dans un imaginaire de nos recherches. 
 
->Les petites mains ont leurs places sur la table du savoir-->
+>Les petites mains ont leurs places sur la table du savoir
 
 -----
 

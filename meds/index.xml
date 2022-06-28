@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Meds on </title>
-    <link>/meds/</link>
+    <link>https://blank.blue/meds/</link>
     <description>Recent content in Meds on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 03 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="/meds/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 03 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blank.blue/meds/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Le corps technique des Petites mains</title>
-      <link>/meditions/le-corps-technique-des-petites-mains/</link>
+      <link>https://blank.blue/meditions/le-corps-technique-des-petites-mains/</link>
       <pubDate>Thu, 03 Feb 2022 00:00:00 +0000</pubDate>
       
-      <guid>/meditions/le-corps-technique-des-petites-mains/</guid>
+      <guid>https://blank.blue/meditions/le-corps-technique-des-petites-mains/</guid>
       <description>Écranen Cours
 Mise à jour du Manifeste des petites mains et de Ajout n&amp;rsquo;est pas inclusion
 On a parlé des petites mains, dans des questions à des colloques, dans des réunions, MVR en a parlé, on prépare un rapport pour le projet Revue2.0 sur ce sujet, on prépare un article. On l&amp;rsquo;argumente, même on le scientifie.
@@ -20,10 +20,10 @@ On en a aussi parlé avec des hommes dans le monde de l&amp;rsquo;édition numé
     
     <item>
       <title>Ajout n&#39;est pas inclusion</title>
-      <link>/meditions/ajout-nest-pas-inclusion/</link>
+      <link>https://blank.blue/meditions/ajout-nest-pas-inclusion/</link>
       <pubDate>Fri, 28 Jan 2022 00:00:00 +0000</pubDate>
       
-      <guid>/meditions/ajout-nest-pas-inclusion/</guid>
+      <guid>https://blank.blue/meditions/ajout-nest-pas-inclusion/</guid>
       <description>Lisant à petits feux l&amp;rsquo;ouvrage de Tara McPherson Feminist in a Software Lab, j&amp;rsquo;ai été marquée par une de ses réflexions.
 Marquée du genre obsessif
 comme si j&#39;avais adopté un nouveau chat, comme [MVR](https://vitalirosati.com/) avec le « Matter Matters » de Barad (2007), Je radote à qui veut l&amp;rsquo;entendre cette même formule « Ajout n&amp;rsquo;est pas inclusion ».
@@ -32,20 +32,20 @@ Tara McPherson n&amp;rsquo;en fait pas un slogan, elle le ne dit pas mot pour mo
     
     <item>
       <title>Femmes et édition numérique</title>
-      <link>/meditions/femmes-et-edition-numerique/</link>
+      <link>https://blank.blue/meditions/femmes-et-edition-numerique/</link>
       <pubDate>Thu, 11 Nov 2021 00:00:00 +0000</pubDate>
       
-      <guid>/meditions/femmes-et-edition-numerique/</guid>
+      <guid>https://blank.blue/meditions/femmes-et-edition-numerique/</guid>
       <description>Dans le cadre du cours donné à l&amp;rsquo;Université de Montréal FRA3826/EDN6001 - Théories de l&amp;rsquo;édition numérique, j&amp;rsquo;ai consacré la séance 10 à réfléchir sur la thématique &amp;ldquo;Femmes et édition numérique&amp;rdquo;.
 Première fois d&amp;rsquo;une séance exclusive sur la question de la représentation des femmes dans/par l&amp;rsquo;édition numérique dans le cadre de ce cours, ceci est une note crashtest pour lister les problématiques qui ont été abordées, pour aussi questionner l&amp;rsquo;intitulé même de la séance et son utilité.</description>
     </item>
     
     <item>
       <title>Manifeste des petites mains</title>
-      <link>/meditions/manifeste-des-petites-mains/</link>
+      <link>https://blank.blue/meditions/manifeste-des-petites-mains/</link>
       <pubDate>Wed, 22 Sep 2021 00:00:00 +0000</pubDate>
       
-      <guid>/meditions/manifeste-des-petites-mains/</guid>
+      <guid>https://blank.blue/meditions/manifeste-des-petites-mains/</guid>
       <description>Au cours d&amp;rsquo;une discussion avec des acteurs de l&amp;rsquo;édition en SHS, j&amp;rsquo;ai surpris et été surprise par une formule que je n&amp;rsquo;ai pas sû immédiatement décrypter, qui m&amp;rsquo;est apparue à la première écoute aussi juste que son contraire :
 [mots] Elle1 est les petites mains sous la table [mots]
 Je ne pourrai exactement retrouver le contexte précis dans lequel s&amp;rsquo;inscrit cette bribe, je sais qu&amp;rsquo;il était sans ironie, juste pour désigner, presque innocemment.</description>

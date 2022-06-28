@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cherches on </title>
-    <link>/cherches/</link>
+    <link>https://blank.blue/cherches/</link>
     <description>Recent content in Cherches on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 03 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="/cherches/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 03 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blank.blue/cherches/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Graph ton concept</title>
-      <link>/cherches/graph-ton-concept/</link>
+      <link>https://blank.blue/cherches/graph-ton-concept/</link>
       <pubDate>Sun, 03 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>/cherches/graph-ton-concept/</guid>
+      <guid>https://blank.blue/cherches/graph-ton-concept/</guid>
       <description>Écranen Cours</description>
     </item>
     
     <item>
       <title>Graph ta recherche</title>
-      <link>/cherches/graph-ta-recherche/</link>
+      <link>https://blank.blue/cherches/graph-ta-recherche/</link>
       <pubDate>Wed, 02 Mar 2022 00:00:00 +0000</pubDate>
       
-      <guid>/cherches/graph-ta-recherche/</guid>
+      <guid>https://blank.blue/cherches/graph-ta-recherche/</guid>
       <description>Dans le cadre d&amp;rsquo;un atelier pour le groupe de recherche « Comparative Materialities Research Group » de la Canadian Comparative Literature Association (CCLA), la CRCEN a exploré la question du code collaboratif et de la structuration collaborative des données de recherche.
 Cette expérience a amené à créer un code en python (dans le même esprit que Graph ta thèse).
 En voici les coulisses :
@@ -29,10 +29,10 @@ Play (with) me # Le but de l&amp;rsquo;atelier était de proposer un dispositif 
     
     <item>
       <title>Graph ta thèse</title>
-      <link>/cherches/graph-ta-these/</link>
+      <link>https://blank.blue/cherches/graph-ta-these/</link>
       <pubDate>Mon, 03 Jan 2022 00:00:00 +0000</pubDate>
       
-      <guid>/cherches/graph-ta-these/</guid>
+      <guid>https://blank.blue/cherches/graph-ta-these/</guid>
       <description>J&amp;rsquo;ai menti. # J&amp;rsquo;ai quand même écrit, mais arrive un moment où, dans le mêlement des différents écritures, je constate que tout mon travail de préparation est en réalité un puzzle.
 Autrement dit :
 il faut ranger, prendre de la distance, avoir une vision sur toute les pièces qui composent cette image en cours. Mais il n&amp;rsquo;est pas question de relire tout pour produire encore de nouveaux documents qui résumeraient puis se dillateraient dans le temps, qu&amp;rsquo;il faudrait alors relire pour produire de nouveaux condensés qu&amp;rsquo;on oublierait encore et encore.</description>
@@ -40,20 +40,20 @@ il faut ranger, prendre de la distance, avoir une vision sur toute les pièces q
     
     <item>
       <title>Je n&#39;écris pas ma thèse, je la fais</title>
-      <link>/cherches/je-necris-pas-ma-these-je-la-fais/</link>
+      <link>https://blank.blue/cherches/je-necris-pas-ma-these-je-la-fais/</link>
       <pubDate>Thu, 11 Nov 2021 00:00:00 +0000</pubDate>
       
-      <guid>/cherches/je-necris-pas-ma-these-je-la-fais/</guid>
+      <guid>https://blank.blue/cherches/je-necris-pas-ma-these-je-la-fais/</guid>
       <description>Un jour # J&#39;écrirai ma thèse. Je me mettrai vraiment à un bureau avec un fût de fumant café Je limerai mes ongles sur le clavier dans un rythme frénétique Je relirai des pages éparses écrites dans la fièvre de la nuit devant une nouvelle aube qui, par l&#39;entremise de ses rayons, annoncera au monde la victoire sur une procrastination. Mais pour l&amp;rsquo;instant, ma thèse, je la fais.
 Je suis bien à bureau avec tonnelet de café J&#39;use bien mes empreintes sur le clavier Je relie beaucoup de pages J&#39;ai parfois des montée de fièvre et l&#39;aube se lève bien nouvelle tous les jours.</description>
     </item>
     
     <item>
       <title>À quoi elle sert ta thèse ?</title>
-      <link>/cherches/a-quoi-elle-sert-ta-these/</link>
+      <link>https://blank.blue/cherches/a-quoi-elle-sert-ta-these/</link>
       <pubDate>Fri, 22 Oct 2021 00:00:00 +0000</pubDate>
       
-      <guid>/cherches/a-quoi-elle-sert-ta-these/</guid>
+      <guid>https://blank.blue/cherches/a-quoi-elle-sert-ta-these/</guid>
       <description>J&amp;rsquo;aurai aimé répondre :
 À rien # Revandiquer l&amp;rsquo;inutilité de ma réflexion, de nos discipline pour faire acte de résistance à la logique productiviste et utilitariste
 pour être insolente un peu aussi Cette question, je l&amp;rsquo;ai beaucoup entendu tout au long de mon cursus, déclinée avec tous les arguments possibles,

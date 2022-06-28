@@ -20,37 +20,42 @@ Chaque pansemain se structure pas strates : le dessin de la main sur page vierge
 ### Pansemain 1
 ![Pansemain 1](/images/Pansemain1.png)
 
-Publié en ligne sur la page [Université d'été](http://universitedete.lorganon.ca/)
+Publié en ligne sur la page [Université d'été](http://universitedete.lorganon.ca/).
 
 ### Pansemain 2
 ![Pansemain 2](/images/Pansemain2.png)
 
-Publié en ligne sur la page [RéCITS](http://recits.lorganon.ca/)
+Publié en ligne sur la page [RéCITS](http://recits.lorganon.ca/).
 
 
 ### Pansemain 3
 ![Pansemain 3](/images/Pansemain3.png)
 *La pâte a été remplacée par la terre.* 
 
-Publié en ligne sur la page [Soigner son monde](http://soignersonmonde.lorganon.ca/)
+Publié en ligne sur la page [Soigner son monde](http://soignersonmonde.lorganon.ca/).
 
 
 ### Pansemain 4
 ![Pansemain 4](/images/Pansemain4.png)
 
-Publié (bientôt) en ligne sur la page [Souci de l'Autre](http://soucidelautre.lorganon.ca/)
+Publié (bientôt) en ligne sur la page [Souci de l'Autre](http://soucidelautre.lorganon.ca/).
 
 
 ### Pansemain 5
 ![Pansemain 5](/images/Pansemain5.png)
 *Le chat a été remplacé par l'eau.*
 
-Publié (bientôt) en ligne sur la page [Récits infectés](https://recitsinfectes.com/)
+Publié (bientôt) en ligne sur la page [Récits infectés](https://recitsinfectes.com/).
 
 ### Pansemain 6
 *Le Pansemain 6 n'a pas de preuve de concept et a été fait sur le vif.*
 
-Publié en ligne sur la page [Récits du don et de la vie en contexte de soin](http://recitsdudonetdelavie.lorganon.ca/)
+Publié en ligne sur la page [Récits du don et de la vie en contexte de soin](http://recitsdudonetdelavie.lorganon.ca/).
+
+### Pansemain 7 
+*Le Pansemain 7 a fait l'objet d'une commande ultérieure pour figurer comme l'image de présentation de la Chaire McConnell.*
+
+Publié en ligne sur la page [L'Organon](https://lorganon.ca/).
 
 ## Mode opératoire
 
@@ -64,3 +69,7 @@ Mon mode opératoire a été le suivant :
 ## Une numérisation one shot
 
 Parce que le dessin de la main est crayon-papier, parce que la page calque est encore grasse de son onction, parce que les matières y adhèrent, la numérisation n'a pas connu de répétition. Elle était un moment de performance des preuves de concept. 
+
+----
+
+**Pour connaître le témoignage d'une composition en particulier :** [Scanner à genoux](https://blank.blue/creas/scanner-a-genoux/)

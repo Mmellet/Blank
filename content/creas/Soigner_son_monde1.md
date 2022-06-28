@@ -1,11 +1,12 @@
 ---
-title: "Soigner son monde - Texte 1"
+title: "Soigner son monde"
 tag: "atelier"
 date: 2022-01-20
 ---
 
 Participation aux Ateliers de recherche-création intersectoriels *Soigner son monde* de Céline Huyghebaert et Pascale Millot à la session d'Hiver 2022.
 
+# Texte 1
 ## Consignes 
 
 ```
@@ -70,3 +71,10 @@ Je continue de sortir par une porte pour rentrer par une autre.
 
 Je passe par une *gate* avec un numéro, dans ces espaces où tout passe, où il fait et jour en même temps, et je passe par une autre *gate* avec un numéro qui ne correspond pas, dans un espace identique, à la même heure qu'à laquelle je suis partie. Mais je ne sens plus l'odeur des figuiers dans le noir, seulement celui des fugues de l'enfance. 
 
+# Texte 2 
+
+(à venir)
+
+# Texte 3 
+
+(à venir)

@@ -1,3 +1,7 @@
+/* Ajout par moi. */
+
+/* Fin ajout. */
+
 html {
   font-size: $font-size-base;
   scroll-behavior: smooth;
@@ -320,8 +324,12 @@ ul.pagination {
   font-size: $font-size-14;
 
   img {
-    height: 1em;
+    height: 1.6em;
     margin-inline-end: $padding-8;
+    padding-left: 80px;
+  }
+  #grandlogo {
+    height: 2em;
   }
 }
 

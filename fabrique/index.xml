@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fabriques on </title>
+    <link>https://blank.blue/fabrique/</link>
+    <description>Recent content in Fabriques on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>margot.mellet@umontreal.ca (Margot Mellet)</managingEditor>
+    <webMaster>margot.mellet@umontreal.ca (Margot Mellet)</webMaster>
+    <lastBuildDate>Thu, 30 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blank.blue/fabrique/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Le temps de la déconstruction</title>
+      <link>https://blank.blue/fabrique/le-temps-de-la-deconstruction/</link>
+      <pubDate>Thu, 30 Jun 2022 00:00:00 +0000</pubDate>
+      <author>margot.mellet@umontreal.ca (Margot Mellet)</author>
+      <guid>https://blank.blue/fabrique/le-temps-de-la-deconstruction/</guid>
+      <description>Init de la section
+Ce post, j&amp;rsquo;avais idée de l&amp;rsquo;écrire dès la construction du site, il y a un an. Il me permet d&amp;rsquo;ouvrir une suite de réflexions plus larges sur les questions de processus, de temporalité et de décision dans les espaces d&amp;rsquo;écritures.
+L&amp;rsquo;idée de départ, qui est toujours en cours, était celle de créer un espace d&amp;rsquo;aggrégation de textes, ce que l&amp;rsquo;on pourrait (mais imparfaitement) désigner par le terme de revue.</description>
+    </item>
+    
+  </channel>
+</rss>

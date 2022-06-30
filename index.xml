@@ -7,7 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>margot.mellet@umontreal.ca (Margot Mellet)</managingEditor>
     <webMaster>margot.mellet@umontreal.ca (Margot Mellet)</webMaster>
-    <lastBuildDate>Tue, 28 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blank.blue/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 30 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blank.blue/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Le temps de la déconstruction</title>
+      <link>https://blank.blue/fabrique/le-temps-de-la-deconstruction/</link>
+      <pubDate>Thu, 30 Jun 2022 00:00:00 +0000</pubDate>
+      <author>margot.mellet@umontreal.ca (Margot Mellet)</author>
+      <guid>https://blank.blue/fabrique/le-temps-de-la-deconstruction/</guid>
+      <description>Init de la section
+Ce post, j&amp;rsquo;avais idée de l&amp;rsquo;écrire dès la construction du site, il y a un an. Il me permet d&amp;rsquo;ouvrir une suite de réflexions plus larges sur les questions de processus, de temporalité et de décision dans les espaces d&amp;rsquo;écritures.
+L&amp;rsquo;idée de départ, qui est toujours en cours, était celle de créer un espace d&amp;rsquo;aggrégation de textes, ce que l&amp;rsquo;on pourrait (mais imparfaitement) désigner par le terme de revue.</description>
+    </item>
+    
     <item>
       <title>Scanner à genoux</title>
       <link>https://blank.blue/creas/scanner-a-genoux/</link>
@@ -60,8 +71,8 @@ Titre : Les petites mains de l&amp;#39;édition Sous-titre : Réflexions pour de
       <pubDate>Fri, 13 May 2022 00:00:00 +0000</pubDate>
       <author>margot.mellet@umontreal.ca (Margot Mellet)</author>
       <guid>https://blank.blue/creas/les-azurees/</guid>
-      <description>Esquisses à l&amp;rsquo;origine de la bannière pour le prochain site de la revue Muse Medusa (site actuel)
-Planches # Premiers montages # Proposition 1 Proposition 2 </description>
+      <description>Esquisses à l&amp;rsquo;origine de la bannière pour le site revue Muse Medusa.
+Planches # Premiers montages # Proposition 1 Proposition 2 Final # </description>
     </item>
     
     <item>
@@ -317,7 +328,7 @@ Je ne pourrai exactement retrouver le contexte précis dans lequel s&amp;rsquo;i
       <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
       <author>margot.mellet@umontreal.ca (Margot Mellet)</author>
       <guid>https://blank.blue/creas/en-amont-des-ruses-bleues/</guid>
-      <description>Création publiée en 2021 sur MuseMedusa : http://musemedusa.com/dossier_9/mellet/
+      <description>Création publiée en 2021 sur MuseMedusa : https://archives.musemedusa.com/dossier_9/mellet/
 Volet 1 # Brouillon Transcription Volet 2 # Volet 3 # Volet 4 # En écho Les Ruses bleues sont le Poème Technique 1</description>
     </item>
     
@@ -327,7 +338,7 @@ Volet 1 # Brouillon Transcription Volet 2 # Volet 3 # Volet 4 # En écho Les Rus
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>margot.mellet@umontreal.ca (Margot Mellet)</author>
       <guid>https://blank.blue/menu/</guid>
-      <description> Journal Création Méditions Textes Vidéos Je suis Publications Conférences Crédits </description>
+      <description> Journal Fabrique Création Méditions Textes Vidéos Je suis Publications Conférences Crédits </description>
     </item>
     
     <item>
@@ -413,6 +424,17 @@ les brouillons de créations à venir ou passées, les ébauches, les bouts de p
     </item>
     
     <item>
+      <title>Fabrique de la pensée</title>
+      <link>https://blank.blue/fabriques/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>margot.mellet@umontreal.ca (Margot Mellet)</author>
+      <guid>https://blank.blue/fabriques/</guid>
+      <description>J&amp;rsquo;avais pensé à inception (trop mainstream), à méta-discours (trop théorie littéraire), à coulisse (trop pas assez), et c&amp;rsquo;est finalement le terme de Fabrique qui s&amp;rsquo;est imposé.
+terme entendu, prononcé par plusieurs comme atelier mais dans un sens plus brut comme chantier dans un sens plus souple comme laboratoire dans un sens plus réfractaire La Fabrique rassemble toutes les réflexions et témoignages de l&amp;rsquo;intérieur du site.
+C&amp;rsquo;est désormais Blank comme entité technique qui s&amp;rsquo;exprime.</description>
+    </item>
+    
+    <item>
       <title>Journal de recherche</title>
       <link>https://blank.blue/recherche/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -421,7 +443,7 @@ les brouillons de créations à venir ou passées, les ébauches, les bouts de p
       <description>La thèse est un travail sérieux.
 Mais, sur les années de conception/rédaction, ponctuent de nombreux moments non-savants en apparence :
 inquiétudes, mises et remises en question, questionnements rêveries, procrastinations, étonnements etc. Journal rose, cet espace réunit les réflexions qui enracinent mes années de thèse dans un terreau concret pour garder trace de mes déambulations dans un parcours.
-À venir : La contribution de la virgule, La solution de l&amp;rsquo;autruche et le complexe de la carpe, Faut les structurer tes posts (Marcello 2022), Graph ton concept (oui un autre Graph), GraphCeption (aveu d&amp;rsquo;une obsession), Charmer le python (et ne pas faire du porno), Je suis bonne pour les titres.</description>
+À venir : La contribution de la virgule, La solution de l&amp;rsquo;autruche et le complexe de la carpe, Graph ton concept (oui un autre Graph), GraphCeption (aveu d&amp;rsquo;une obsession), Charmer le python (et ne pas faire du porno), Je suis bonne pour les titres.</description>
     </item>
     
     <item>

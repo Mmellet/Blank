@@ -3,7 +3,7 @@ title: "Les azurées"
 date: 2022-05-13
 ---
 
-Esquisses à l'origine de la bannière pour le prochain site de la revue Muse Medusa ([site actuel](https://musemedusa.com/))
+Esquisses à l'origine de la bannière pour le site revue [Muse Medusa](https://musemedusa.com/).
 
 ## Planches
 
@@ -46,3 +46,9 @@ Esquisses à l'origine de la bannière pour le prochain site de la revue Muse Me
 </th>
 </tr>
 </table>
+
+## Final 
+
+<p style="text-align:center">
+<iframe src="/video/azurees.mp4" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
+</p>

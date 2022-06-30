@@ -9,6 +9,7 @@ headless: true;
 - **[Blog]({{< relref "/blog" >}})***-->
 
 - **[Journal]({{< relref "/recherche" >}})**
+- **[Fabrique]({{< relref "/fabriques" >}})**
 - **[Création]({{< relref "/creations" >}})**
 - **[Méditions]({{< relref "/meditions" >}})**
 - **[Textes Vidéos]({{< relref "/textes-videos" >}})**

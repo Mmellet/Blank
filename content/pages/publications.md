@@ -20,9 +20,9 @@ rencontre</a></br>
 <iframe src="https://revuefemur.com/index.php/2021/12/13/le-dispositif-visiophonique-comme-lieu-de-rencontre/" style="height:410px;width:330px;" webkitallowfullscreen="true" mozallowfullscreen="true"  allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
 </th>
 <th>
-<p class="align-left"><a href="http://musemedusa.com/dossier_6/mellet/">Des signatures à soi
+<p class="align-left"><a href="https://archives.musemedusa.com/dossier_6/mellet/">Des signatures à soi
 Marguerite par Marguerite</a></br>
-<iframe src="http://musemedusa.com/dossier_6/mellet/" style="height:410px;width:330px;" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></p>
+<iframe src="https://archives.musemedusa.com/dossier_6/mellet/" style="height:410px;width:330px;" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></p>
 </th>
 </tr>
 </table>
@@ -120,29 +120,32 @@ Marguerite par Marguerite</a></br>
 
 <table style="width:100%">
   <tr>
-  <th height="100" width="350">
-<p class="align-left"><a href=""></a>
-<iframe src="" style="height:410px;width:330px;" webkitallowfullscreen="true" mozallowfullscreen="true" allow="autoplay" allowfullscreen></iframe></p>
-</th>
-  </tr>
-  <tr>
     <th height="100" width="350">
-<p class="align-left"><a href="https://musemedusa.com/dossier_9/mellet/">Les Ruses bleues</a>
-<iframe src="https://musemedusa.com/dossier_9/mellet/" style="height:410px;width:330px;" webkitallowfullscreen="true" mozallowfullscreen="true" allow="autoplay" allowfullscreen></iframe></p>
+<p class="align-left"><a href="https://archives.musemedusa.com/dossier_9/mellet/">Les Ruses bleues</a>
+<iframe src="https://archives.musemedusa.com/dossier_9/mellet/" style="height:410px;width:330px;" webkitallowfullscreen="true" mozallowfullscreen="true" allow="autoplay" allowfullscreen></iframe></p>
 </th>
     <th height="100" width="350">
-<p class="align-left"><a href="http://musemedusa.com/wp-content/uploads/2019/08/TexteMargot-Mellet_VF-cropped.png">Phryné archère</a>
-<iframe src="http://musemedusa.com/wp-content/uploads/2019/08/TexteMargot-Mellet_VF-cropped.png" style="height:410px;width:330px;" webkitallowfullscreen="true" mozallowfullscreen="true" allow="autoplay" allowfullscreen></iframe></p>
+<p class="align-left"><a href="https://archives.musemedusa.com/dossier_7/mellet1/">Phryné archère</a>
+<iframe src="https://archives.musemedusa.com/dossier_7/mellet1/" style="height:410px;width:330px;" webkitallowfullscreen="true" mozallowfullscreen="true" allow="autoplay" allowfullscreen></iframe></p>
 </th>
 </tr>
   <tr>
     <th height="100" width="350">
-<p class="align-left"><a href="http://musemedusa.com/dossier_7/mellet2/">Holotypes d'Amazones</a>
-<iframe src="http://musemedusa.com/dossier_7/mellet2/" style="height:410px;width:330px;" webkitallowfullscreen="true" mozallowfullscreen="true" allow="autoplay" allowfullscreen></iframe></p>
+<p class="align-left"><a href="https://archives.musemedusa.com/dossier_7/mellet2/">Holotypes d'Amazones</a>
+<iframe src="https://archives.musemedusa.com/dossier_7/mellet2/" style="height:410px;width:330px;" webkitallowfullscreen="true" mozallowfullscreen="true" allow="autoplay" allowfullscreen></iframe></p>
 </th>
 <th height="100" width="350">
 <p class="align-left"><a href="https://recitsinfectes.com/type-error-psyche/">Type Error Psyché</a>
 <iframe src="https://recitsinfectes.com/type-error-psyche/" style="height:410px;width:330px;" webkitallowfullscreen="true" mozallowfullscreen="true" allow="autoplay" allowfullscreen></iframe></p>
+</th>
+</tr>
+ <tr>
+    <th height="100" width="350">
+<p class="align-left"><a href="https://musemedusa.com/dossier-10/celles-qui-survivent-aux-hommes/">Celles qui survivent aux Hommes</a>
+<iframe src="https://musemedusa.com/dossier-10/celles-qui-survivent-aux-hommes/" style="height:410px;width:330px;" webkitallowfullscreen="true" mozallowfullscreen="true" allow="autoplay" allowfullscreen></iframe></p>
+</th>
+<th height="100" width="350">
+<p class="align-left"></p>
 </th>
 </tr>
 </table>

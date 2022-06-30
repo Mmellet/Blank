@@ -3,7 +3,7 @@ title: "En amont des Ruses Bleues"
 date: 2021-09-01
 ---
 
-*Création publiée en 2021 sur* MuseMedusa : http://musemedusa.com/dossier_9/mellet/
+*Création publiée en 2021 sur* MuseMedusa : https://archives.musemedusa.com/dossier_9/mellet/
 
 ## Volet 1
 

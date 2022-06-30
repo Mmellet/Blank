@@ -16,6 +16,6 @@ Si publiées, les liens vers les ressources *finies* sont indiqués.
 
 --------------------
 
-**À venir :** Est-ce que quelqu'un sait coudre ?, Le blanc intranquille, je ne suis pas graphiste ni graphique, J'ai lu mes idées dans des livres.
+**À venir :** Est-ce que quelqu'un sait coudre ?, Le blanc intranquille, Je ne suis ni graphiste ni graphique, J'ai lu mes idées écrites par d'autres.
 
 

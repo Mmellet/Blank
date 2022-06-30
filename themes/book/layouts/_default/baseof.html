@@ -128,6 +128,15 @@ function pad(val) {
 </div>
     {{- .Content -}}
     
+    {{ if eq .Params.fabrique "oui" }}
+    <section>
+        {{ range  where .Site.RegularPages "Section" "fabrique"  }}
+        <h3><time datetime="{{ dateFormat "2006-01" .Date }}">{{ dateFormat "2006-01" .Date }}</time> <a href="{{ .Permalink }}"> {{ .Title }}</h3></a>
+            
+        {{ end }}
+      </section>
+        {{ end }}
+
     {{ if eq .Params.blog "oui" }}
     <section>
         {{ range  where .Site.RegularPages "Section" "posts"  }}

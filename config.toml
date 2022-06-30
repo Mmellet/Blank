@@ -24,6 +24,7 @@ removePathAccents=true
   meds = "/meditions/:title"
   cherches = "/cherches/:title"
   creas = "/creas/:title"
+  fabrique = "/fabrique/:title"
 
 [markup]
   [markup.goldmark]

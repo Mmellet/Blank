@@ -4,12 +4,14 @@
     <title>Pages on </title>
     <link>https://blank.blue/pages/</link>
     <description>Recent content in Pages on </description>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="https://blank.blue/pages/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>margot.mellet@umontreal.ca (Margot Mellet)</managingEditor>
+    <webMaster>margot.mellet@umontreal.ca (Margot Mellet)</webMaster><atom:link href="https://blank.blue/pages/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
       <link>https://blank.blue/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <author>margot.mellet@umontreal.ca (Margot Mellet)</author>
       <guid>https://blank.blue/about/</guid>
       <description>Je suis # doctorante en Recherche et Création au Département de Littératures de langue française à l&amp;rsquo;Université de Montréal coordonnatrice scientifique de la Chaire de recherche du Canada sur les écritures numériques chargée de cours au Département de Littératures de langue française à l&amp;rsquo;Université de Montréal membre étudiant au CRIalt plasticienne du numérique et je m&amp;rsquo;appelle Margot Mellet.
 Je m&amp;rsquo;intéresse aux processus d&amp;rsquo;édition et aux plasticités du texte.
@@ -20,21 +22,21 @@ Ceci est un espace d&amp;rsquo;expérimentation (encore en cours) pour mes prati
       <title></title>
       <link>https://blank.blue/credits/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <author>margot.mellet@umontreal.ca (Margot Mellet)</author>
       <guid>https://blank.blue/credits/</guid>
       <description>Ce site a été réalisé avec les instances suivantes :
 Hugo et le theme Book créé par Alex Shpak (version 0.68)
 le script de la bannière du site provient du Peeled Text Transforms créé par Zoë Bijl
 le timer a été conçu en JavaScript à l&amp;rsquo;aide de la documentation de W3Schools
 et les outils :
-VsCodium Github Gandi pour le nom de domaine M&amp;rsquo;ont aidé à construire cet espace : Antoine Fauchié et son carnet numérique quaternum et Enzo Poggio.</description>
+VsCodium Github Gandi pour le nom de domaine M&amp;rsquo;ont aidé à construire cet espace : Antoine Fauchié et son carnet numérique quaternum, Enzo Poggio et David Larlet.</description>
     </item>
     
     <item>
       <title></title>
       <link>https://blank.blue/meditions/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <author>margot.mellet@umontreal.ca (Margot Mellet)</author>
       <guid>https://blank.blue/meditions/</guid>
       <description>Les Méditions désignent un ensemble d&amp;rsquo;écritures sur la question des pratiques d&amp;rsquo;édition vues et vécues de l&amp;rsquo;intérieur.
 Ancienne Coordonnatrice d&amp;rsquo;une revue en sciences humaines, coordonnatrice scientifique dans un laboratoire en écritures numériques, je propose ici plusieurs réflexions qui émanent de cette expérience mais également d&amp;rsquo;autres.
@@ -46,7 +48,7 @@ Cet ensemble d&amp;rsquo;écritures n&amp;rsquo;a pas pour intention de médire 
       <title></title>
       <link>https://blank.blue/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <author>margot.mellet@umontreal.ca (Margot Mellet)</author>
       <guid>https://blank.blue/projects/</guid>
       <description>Je consacre ma recherche et ma création aux questions de matérialités textuelles et d&amp;rsquo;édition numérique.</description>
     </item>
@@ -55,7 +57,7 @@ Cet ensemble d&amp;rsquo;écritures n&amp;rsquo;a pas pour intention de médire 
       <title></title>
       <link>https://blank.blue/publications/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <author>margot.mellet@umontreal.ca (Margot Mellet)</author>
       <guid>https://blank.blue/publications/</guid>
       <description>Publications # Écranen Travaux
 Recherche # Librairie Zotero
@@ -66,7 +68,7 @@ Essais # Le dispositif visiophonique comme lieu de rencontre Des signatures à s
       <title>Espace de blobs spontanés</title>
       <link>https://blank.blue/blog/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <author>margot.mellet@umontreal.ca (Margot Mellet)</author>
       <guid>https://blank.blue/blog/</guid>
       <description>Un Blob n&amp;rsquo;est pas un végétal.
 Un Blob n&amp;rsquo;est pas un animal.
@@ -80,7 +82,7 @@ Un Blob est un post sans prétention qui tombe le matin (généralement entre 8 
       <title>Esquisses &amp; Créas</title>
       <link>https://blank.blue/creations/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <author>margot.mellet@umontreal.ca (Margot Mellet)</author>
       <guid>https://blank.blue/creations/</guid>
       <description>M&amp;rsquo;intéressant tout particulièrement au processus de création et inscrivant le mien dans mon usage d&amp;rsquo;outils, de techniques, de textures, je réunis les créas,
 les brouillons de créations à venir ou passées, les ébauches, les bouts de processus qui tournent encore à vide, les lectures méta- qui sonnent comme des thérapies où le psy est un CMS. Si publiées, les liens vers les ressources finies sont indiqués.
@@ -91,7 +93,7 @@ les brouillons de créations à venir ou passées, les ébauches, les bouts de p
       <title>Journal de recherche</title>
       <link>https://blank.blue/recherche/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <author>margot.mellet@umontreal.ca (Margot Mellet)</author>
       <guid>https://blank.blue/recherche/</guid>
       <description>La thèse est un travail sérieux.
 Mais, sur les années de conception/rédaction, ponctuent de nombreux moments non-savants en apparence :
@@ -103,7 +105,7 @@ inquiétudes, mises et remises en question, questionnements rêveries, procrasti
       <title>Matériaux de présentation</title>
       <link>https://blank.blue/conference/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <author>margot.mellet@umontreal.ca (Margot Mellet)</author>
       <guid>https://blank.blue/conference/</guid>
       <description>Espace pour organiser les notes et le matériel de présentation.
 À venir : CCLA, d&amp;rsquo;anciennes présentations si retrouvées</description>
@@ -113,7 +115,7 @@ inquiétudes, mises et remises en question, questionnements rêveries, procrasti
       <title>Textes Vidéos</title>
       <link>https://blank.blue/textes-videos/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <author>margot.mellet@umontreal.ca (Margot Mellet)</author>
       <guid>https://blank.blue/textes-videos/</guid>
       <description> Textes Plastiques # Texte Plastique 1 Ce que ça ferait d&#39;être sous ses roues Texte Plastique 2 Lisser les draps Pages Planches # Planche 1 Faire page paysage Planche 2 Celles qui survivent aux hommes Poèmes techniques # Poème Technique 1 Les Ruses Bleues Poème Technique 2 Lettre au Somaphore Poème Technique 3 (eau)bscure Traces montage # Trace Montage 1 Type Error Psyché </description>
     </item>

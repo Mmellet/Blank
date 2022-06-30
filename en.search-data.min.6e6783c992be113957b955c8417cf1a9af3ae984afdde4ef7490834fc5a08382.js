@@ -691,7 +691,7 @@ Hugo et le theme Book créé par Alex Shpak (version 0.68)
 le script de la bannière du site provient du Peeled Text Transforms créé par Zoë Bijl
 le timer a été conçu en JavaScript à l\u0026rsquo;aide de la documentation de W3Schools
 et les outils :
-VsCodium Github Gandi pour le nom de domaine M\u0026rsquo;ont aidé à construire cet espace : Antoine Fauchié et son carnet numérique quaternum et Enzo Poggio.
+VsCodium Github Gandi pour le nom de domaine M\u0026rsquo;ont aidé à construire cet espace : Antoine Fauchié et son carnet numérique quaternum, Enzo Poggio et David Larlet.
 `}),e.add({id:31,href:"/meditions/",title:"Meditions",section:"Pages",content:`Les Méditions désignent un ensemble d\u0026rsquo;écritures sur la question des pratiques d\u0026rsquo;édition vues et vécues de l\u0026rsquo;intérieur.
 Ancienne Coordonnatrice d\u0026rsquo;une revue en sciences humaines, coordonnatrice scientifique dans un laboratoire en écritures numériques, je propose ici plusieurs réflexions qui émanent de cette expérience mais également d\u0026rsquo;autres.
 Cet ensemble d\u0026rsquo;écritures n\u0026rsquo;a pas pour intention de médire mais de méditer.

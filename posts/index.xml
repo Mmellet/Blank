@@ -5,12 +5,14 @@
     <link>https://blank.blue/posts/</link>
     <description>Recent content in Posts on </description>
     <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>margot.mellet@umontreal.ca (Margot Mellet)</managingEditor>
+    <webMaster>margot.mellet@umontreal.ca (Margot Mellet)</webMaster>
     <lastBuildDate>Sat, 04 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://blank.blue/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ravages</title>
       <link>https://blank.blue/blog/ravages/</link>
       <pubDate>Sat, 04 Dec 2021 00:00:00 +0000</pubDate>
-      
+      <author>margot.mellet@umontreal.ca (Margot Mellet)</author>
       <guid>https://blank.blue/blog/ravages/</guid>
       <description>Juin 2021, je lis Ravages de Barjavel.
 L’usine, la radio et l’alcool réunis détraquaient un grand nombre de cerveaux. Le carnet de santé, que chaque citoyen recevait à sa naissance, et grâce auquel il lui était impossible d’échapper aux douze vaccinations et vingt-sept piqûres obligatoires, permit de surveiller l’état mental de la communauté et de chacun de ses membres. En 2026, une vague d’énervement et de pessimisme menaça la nation et provoqua une recrudescence énorme des divorces et des suicides.</description>
@@ -20,7 +22,7 @@ L’usine, la radio et l’alcool réunis détraquaient un grand nombre de cerve
       <title>Blob Init</title>
       <link>https://blank.blue/blog/blob-init/</link>
       <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
-      
+      <author>margot.mellet@umontreal.ca (Margot Mellet)</author>
       <guid>https://blank.blue/blog/blob-init/</guid>
       <description>L&amp;rsquo;idée du blob est de faire réseau par apprentissage.
 Le Blog est déjà l&amp;rsquo;apharèse de Web log.

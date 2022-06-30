@@ -31,3 +31,12 @@ removePathAccents=true
     [markup.goldmark.renderer]
      footnoteReturnLinkContents = "&uarr;"
       unsafe = true
+
+rssLimit = 200
+copyright = "2021 Margot Mellet CC BY-NC-SA"
+languageCode = "en-us"
+
+[author]
+	name = "Margot Mellet"
+	email = "margot.mellet@umontreal.ca"
+

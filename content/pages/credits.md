@@ -18,5 +18,5 @@ et les outils :
 - [Github](https://github.com/) 
 - [Gandi](https://www.gandi.net/en-CA) pour le nom de domaine
 
-M'ont aidé à construire cet espace : Antoine Fauchié et son carnet numérique [quaternum](https://www.quaternum.net/) et [Enzo Poggio](https://github.com/EPgg92).
+M'ont aidé à construire cet espace : Antoine Fauchié et son carnet numérique [quaternum](https://www.quaternum.net/), [Enzo Poggio](https://github.com/EPgg92) et [David Larlet](https://larlet.fr/david/).
 

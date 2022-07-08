@@ -5,6 +5,10 @@ date: 2022-06-28
 
 Retour sur une création.
 
+<p style="text-align:center">
+<iframe src="https://recits.lorganon.ca/wp-content/uploads/sites/2/2021/10/Pansemain2Bon.mp4" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
+</p>
+
 Pour la commande des images pour le site de l'[Organon](https://lorganon.ca/), j'ai appréhendé, peut-être pour la première fois les yeux ouverts, la question du *care* vis-à-vis de laquelle je me pensai complètement étrangère, n'envisageant pas mes créations comme des soins autrement que comme de violents exhutoires. 
 
 Ce qui en ressort se résume par la série des Pansemains[^1].
@@ -17,7 +21,7 @@ Outre le dessin, laissé au rang d'esquisse au crayon de papier imparfait, et le
 
 L'huile des calques[^3] sert de liant entre l'esquisse et le corps.
 
-Le Pansemain 2 devait inclure de la fibre humaine, poils, qui parce la forme du cadre était le principe de l'horizontal, devaient être suffisamment long pour parcourir la page. 
+Le Pansemain 2 devait inclure de la fibre humaine, poils, qui parce que la forme du cadre était le principe de l'horizontal, devaient être suffisamment long pour parcourir la page. 
 
 Bien en ont voulu les aléas génétiques et astres familiaux, ma composition capilaire est plutôt dense et expansive. 
 

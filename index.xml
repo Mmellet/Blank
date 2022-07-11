@@ -7,7 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>margot.mellet@umontreal.ca (Margot Mellet)</managingEditor>
     <webMaster>margot.mellet@umontreal.ca (Margot Mellet)</webMaster>
-    <lastBuildDate>Fri, 01 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blank.blue/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 05 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blank.blue/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Projet d&#39;un après thèse</title>
+      <link>https://blank.blue/fabrique/projet-dun-apres-these/</link>
+      <pubDate>Tue, 05 Jul 2022 00:00:00 +0000</pubDate>
+      <author>margot.mellet@umontreal.ca (Margot Mellet)</author>
+      <guid>https://blank.blue/fabrique/projet-dun-apres-these/</guid>
+      <description>Écranen Cours
+travail sur le descriptif d&amp;rsquo;un projet de post-doctorat
+Titres provisoires :
+Petites mains et Fabrique de la pensée Capter l&amp;rsquo;attention # Dans un atelier, au fond d&amp;rsquo;un bureau, placées dans la pénombre, à la lueur d&amp;rsquo;une bougie ou d&amp;rsquo;une lampe de faible intensité, des petites mains s&amp;rsquo;agitent. Malgré son esthétique en clair-obscur, ce n&amp;rsquo;est pas du Caravage dont se revandique cette entrée en matière : c&amp;rsquo;est d&amp;rsquo;une réalité des humanités dont il retourne.</description>
+    </item>
+    
     <item>
       <title>Le temps de la déconstruction</title>
       <link>https://blank.blue/fabrique/le-temps-de-la-deconstruction/</link>
@@ -53,6 +65,17 @@ Penser par/à la main # Pour penser le geste dans son rapport au corps et à ce 
 Remerciement tout particulier pour m&amp;rsquo;avoir permi de faire ma présentation en ligne (malgré le format présentiel de l&amp;rsquo;évènement).
 Présentation dans le cadre du colloque DOCSO 2022 (Liège) - 23-24 juin 2022.
 Titre : Design pour des environnements éditoriaux équitables, pluriels et inclusifs Sous-titre : (les petites mains structurées différemment) Slides # ouvrir dans mon navigateur Texte # Avertissement : si ce qui suit peut paraître très analogue à la présentation à Humanistica, c&amp;rsquo;est parce que ces deux présentations se fondent sur un même article (à paraître).</description>
+    </item>
+    
+    <item>
+      <title>Le savoir intranquille du texte numérique</title>
+      <link>https://blank.blue/conf/intranquille/</link>
+      <pubDate>Fri, 03 Jun 2022 00:00:00 +0000</pubDate>
+      <author>margot.mellet@umontreal.ca (Margot Mellet)</author>
+      <guid>https://blank.blue/conf/intranquille/</guid>
+      <description>Remerciements aux organisateurs et organisatrices pour cette occasion de parole et de partage. Remerciements aux techniciens et techniciennes de tous métiers pour l&amp;rsquo;organisation concrète de l&amp;rsquo;évènement. Remerciements tout particulièrement à Karine Gendron.
+Présentation dans le cadre du colloque interdisciplinaire « La connaissance intranquille » (Montréal) - 2-3 Juin 2022
+Titre : Le savoir intranquille du texte numérique Sous-titre : Restituer une intimité avec son texte à l&amp;#39;écran Slides # ouvrir dans mon navigateur Texte # Je voudrais commencer par adresser la question de l&amp;rsquo;imaginaire du texte numérique, de toute la mythologie qui vient border mais aussi plonger ce type de texte dans un élément qui nous dépossède vis-à-vis de ce dernier.</description>
     </item>
     
     <item>
@@ -456,17 +479,6 @@ C&amp;rsquo;est désormais Blank comme entité technique qui s&amp;rsquo;exprime
 Mais, sur les années de conception/rédaction, ponctuent de nombreux moments non-savants en apparence :
 inquiétudes, mises et remises en question, questionnements rêveries, procrastinations, étonnements etc. Journal rose, cet espace réunit les réflexions qui enracinent mes années de thèse dans un terreau concret pour garder trace de mes déambulations dans un parcours.
 À venir : La contribution de la virgule, La solution de l&amp;rsquo;autruche et le complexe de la carpe, Graph ton concept (oui un autre Graph), GraphCeption (aveu d&amp;rsquo;une obsession), Charmer le python (et ne pas faire du porno), Je suis bonne pour les titres.</description>
-    </item>
-    
-    <item>
-      <title>Le savoir intranquille du texte numérique</title>
-      <link>https://blank.blue/conf/intranquille/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>margot.mellet@umontreal.ca (Margot Mellet)</author>
-      <guid>https://blank.blue/conf/intranquille/</guid>
-      <description>Remerciements aux organisateurs et organisatrices pour cette occasion de parole et de partage. Remerciements aux techniciens et techniciennes de tous métiers pour l&amp;rsquo;organisation concrète de l&amp;rsquo;évènement. Remerciements tout particulièrement à Karine Gendron.
-Présentation dans le cadre du colloque interdisciplinaire « La connaissance intranquille » (Montréal) - 2-3 Juin 2022
-Titre : Le savoir intranquille du texte numérique Sous-titre : Restituer une intimité avec son texte à l&amp;#39;écran Slides # ouvrir dans mon navigateur Texte # Je voudrais commencer par adresser la question de l&amp;rsquo;imaginaire du texte numérique, de toute la mythologie qui vient border mais aussi plonger ce type de texte dans un élément qui nous dépossède vis-à-vis de ce dernier.</description>
     </item>
     
     <item>

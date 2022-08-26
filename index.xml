@@ -7,7 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>margot.mellet@umontreal.ca (Margot Mellet)</managingEditor>
     <webMaster>margot.mellet@umontreal.ca (Margot Mellet)</webMaster>
-    <lastBuildDate>Tue, 05 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blank.blue/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 26 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blank.blue/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mea Culpa pour l&#39;usurpation</title>
+      <link>https://blank.blue/meditions/mea-culpa-pour-lusurpation/</link>
+      <pubDate>Fri, 26 Aug 2022 00:00:00 +0000</pubDate>
+      <author>margot.mellet@umontreal.ca (Margot Mellet)</author>
+      <guid>https://blank.blue/meditions/mea-culpa-pour-lusurpation/</guid>
+      <description>En 2018, j&amp;rsquo;étais coordinatrice d&amp;rsquo;une revue en sciences humaines et dans le cadre de mes fonctions, j&amp;rsquo;ai usurpé le nom d&amp;rsquo;une personne qui, je m&amp;rsquo;en suis rendue compte il y a quelques semaines, existe réellement1.
+Je souhaite ici présenter un Mea Culpa officiel et expliquer les raisons de cette usurpation d&amp;rsquo;identité.
+il ne s&#39;agissait pas de bénéficier de l&#39;aura institutionnelle, ni de voler sa vie (ses droits, sa retraite), c&#39;était histoire de sonorités.</description>
+    </item>
+    
     <item>
       <title>Projet d&#39;un après thèse</title>
       <link>https://blank.blue/fabrique/projet-dun-apres-these/</link>
@@ -17,19 +28,19 @@
       <description>Écranen Cours
 travail sur le descriptif d&amp;rsquo;un projet de post-doctorat
 Titres provisoires :
-Petites mains et Fabrique de la pensée Capter l&amp;rsquo;attention # Dans un atelier, au fond d&amp;rsquo;un bureau, placées dans la pénombre, à la lueur d&amp;rsquo;une bougie ou d&amp;rsquo;une lampe de faible intensité, des petites mains s&amp;rsquo;agitent. Malgré son esthétique en clair-obscur, ce n&amp;rsquo;est pas du Caravage dont se revandique cette entrée en matière : c&amp;rsquo;est d&amp;rsquo;une réalité des humanités dont il retourne.</description>
+Petites mains et Fabrique de la pensée À ajouter :
+approche conjoncturelle plutôt qu&amp;rsquo;intersectionnelle : permet de faire converger/combiner les différentes perspectives (social-discursive, critical studies, media studies, social-technical, politic perspective), pour fonder une réflexion plus critique que déclarative (éviter le &amp;ldquo;c&amp;rsquo;est un système capitaliste&amp;rdquo; oui et puis ?) &amp;ndash;&amp;gt; préciser la complexité et les rapports de pouvoir d&amp;rsquo;un système.</description>
     </item>
     
     <item>
-      <title>Le temps de la déconstruction</title>
-      <link>https://blank.blue/fabrique/le-temps-de-la-deconstruction/</link>
+      <title>Build / DeBuild</title>
+      <link>https://blank.blue/fabrique/build-/-debuild/</link>
       <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
       <author>margot.mellet@umontreal.ca (Margot Mellet)</author>
-      <guid>https://blank.blue/fabrique/le-temps-de-la-deconstruction/</guid>
-      <description>build : 3m57 report-build-status : 3s deploy : 1m32 = total = DNS check, - 7 secondes
-blank.blue :
-build : 4m3 report-build-status : 2s deploy : 1m32 = total total ==
-5 secondes de moins si je l&amp;rsquo;encourage, 10 secondes de plus si je le regarde avec un regard méchant de parent exaspéré.</description>
+      <guid>https://blank.blue/fabrique/build-/-debuild/</guid>
+      <description>C&#39;est un problème présent depuis le tout début. C&#39;est une ligne dans ma ToDo. C&#39;est L&amp;rsquo;implémentation technique d&amp;rsquo;une déconstruction. # C&#39;est plus concrètement un bug que je n&#39;ai pas réglé En l&amp;rsquo;état mon site est sur un repo Github. Après chaque modification, je pull, add, commit, push sur ce repo.
+Chaque push fait se relancer une machine qui rebuild sur l&amp;rsquo;adresse https://mmellet.github.io/Blank.
+Le temps de la déconstruction # build : 3m57 report-build-status : 3s deploy : 1m32 // DNS check, - 7 secondes //</description>
     </item>
     
     <item>
@@ -127,7 +138,9 @@ Titre : Sacrifice must be made Sous-titre : Réflexions sur l&amp;#39;obsolescen
       <pubDate>Sun, 03 Apr 2022 00:00:00 +0000</pubDate>
       <author>margot.mellet@umontreal.ca (Margot Mellet)</author>
       <guid>https://blank.blue/cherches/graph-ton-concept/</guid>
-      <description>Écranen Cours</description>
+      <description>Écranen Cours
+Suite à l&amp;rsquo;entretien avec Emma Lacroix (doctorante du département de Littératures de langue française à l&amp;rsquo;Université de Montréal).
+Palimpseste en miroir # Avec Emma, non seulement nous avons une direction miroir (M.V.R et C.M.), mais nous avons un objet de recherche commun, ce qui, pour le coup, n&amp;rsquo;est pas sans intérêt ni incongruité. Nous demeurons cependant deux personnes distinctes et même notre rapport à cet objet comporte des distances de l&amp;rsquo;une à l&amp;rsquo;autre.</description>
     </item>
     
     <item>

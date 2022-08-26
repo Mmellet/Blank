@@ -17,19 +17,19 @@
       <description>Écranen Cours
 travail sur le descriptif d&amp;rsquo;un projet de post-doctorat
 Titres provisoires :
-Petites mains et Fabrique de la pensée Capter l&amp;rsquo;attention # Dans un atelier, au fond d&amp;rsquo;un bureau, placées dans la pénombre, à la lueur d&amp;rsquo;une bougie ou d&amp;rsquo;une lampe de faible intensité, des petites mains s&amp;rsquo;agitent. Malgré son esthétique en clair-obscur, ce n&amp;rsquo;est pas du Caravage dont se revandique cette entrée en matière : c&amp;rsquo;est d&amp;rsquo;une réalité des humanités dont il retourne.</description>
+Petites mains et Fabrique de la pensée À ajouter :
+approche conjoncturelle plutôt qu&amp;rsquo;intersectionnelle : permet de faire converger/combiner les différentes perspectives (social-discursive, critical studies, media studies, social-technical, politic perspective), pour fonder une réflexion plus critique que déclarative (éviter le &amp;ldquo;c&amp;rsquo;est un système capitaliste&amp;rdquo; oui et puis ?) &amp;ndash;&amp;gt; préciser la complexité et les rapports de pouvoir d&amp;rsquo;un système.</description>
     </item>
     
     <item>
-      <title>Le temps de la déconstruction</title>
-      <link>https://blank.blue/fabrique/le-temps-de-la-deconstruction/</link>
+      <title>Build / DeBuild</title>
+      <link>https://blank.blue/fabrique/build-/-debuild/</link>
       <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
       <author>margot.mellet@umontreal.ca (Margot Mellet)</author>
-      <guid>https://blank.blue/fabrique/le-temps-de-la-deconstruction/</guid>
-      <description>build : 3m57 report-build-status : 3s deploy : 1m32 = total = DNS check, - 7 secondes
-blank.blue :
-build : 4m3 report-build-status : 2s deploy : 1m32 = total total ==
-5 secondes de moins si je l&amp;rsquo;encourage, 10 secondes de plus si je le regarde avec un regard méchant de parent exaspéré.</description>
+      <guid>https://blank.blue/fabrique/build-/-debuild/</guid>
+      <description>C&#39;est un problème présent depuis le tout début. C&#39;est une ligne dans ma ToDo. C&#39;est L&amp;rsquo;implémentation technique d&amp;rsquo;une déconstruction. # C&#39;est plus concrètement un bug que je n&#39;ai pas réglé En l&amp;rsquo;état mon site est sur un repo Github. Après chaque modification, je pull, add, commit, push sur ce repo.
+Chaque push fait se relancer une machine qui rebuild sur l&amp;rsquo;adresse https://mmellet.github.io/Blank.
+Le temps de la déconstruction # build : 3m57 report-build-status : 3s deploy : 1m32 // DNS check, - 7 secondes //</description>
     </item>
     
     <item>

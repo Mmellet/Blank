@@ -16,6 +16,24 @@ Titres provisoires :
 
 - Petites mains et Fabrique de la pensée
 
+À ajouter : 
+
+- approche conjoncturelle plutôt qu'intersectionnelle : permet de faire converger/combiner les différentes perspectives (social-discursive, critical studies, media studies, social-technical, politic perspective), pour fonder une réflexion plus critique que déclarative (éviter le "c'est un système capitaliste" oui et puis ?) --> préciser la complexité et les rapports de pouvoir d'un système. 
+
+*petites mains as lands for conjuncture analysis to understand DH as politic*
+
+- préciser le lien avec les cultural studies par la question des identités (gender and beyond gender)
+- ajouter la question de la traduction : les petites mains sont un terme en français évident et compris sans traduction ni équivalence dans les autres langues / les études culturelles traitent de cette question et des enjeux plus clairement comme champ d'étude et méthodologie d'analyse 
+- préciser les case studie - corpus littéraire : quels textes ? où va se placer l'analyse concrètement ? 
+- objectif d'un dépassement du paradigme de reconnaissance et de crédit
+- la question du *labor* est le prisme par lequel les DH sont étudiés pour fonder une perspective politique --> collectif 
+
+*materialities leeds to the question of labor*
+
+- quand mention des projets pionniers des DH -- préciser l'approche des historic layers des DH 
+
+
+
 ## Capter l'attention
 
 Dans un atelier, au fond d'un bureau, placées dans la pénombre, à la lueur d'une bougie ou d'une lampe de faible intensité, des petites mains s'agitent. Malgré son esthétique en clair-obscur, ce n'est pas du Caravage dont se revandique cette entrée en matière : c'est d'une réalité des humanités dont il retourne. 
@@ -109,6 +127,8 @@ Christina Lutter
 
 
 ## Le temps de la recherche - calendrier
+
+- expected to present my work - include presentation at York - conference - internationnal conference - bilingual - (at CCLA) in different faculty, publications plan : journals, book, open access journal, a edited volume between York and UdeM, conference day on the topic, 
 
 ## Pertinence des activités de diffusion prévues 
 

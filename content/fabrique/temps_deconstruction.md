@@ -75,6 +75,6 @@ Cet espace répond à mon engagement pour valoriser les processus d'écritures, 
 
 [^1]: Blank c'est aussi un nombre de créations et d'individus divers, voir [Page Blank sur Wikipédia](https://fr.wikipedia.org/wiki/Blank) et pour les significations complètes du terme [Page Blank sur Wikitionary](https://fr.wiktionary.org/wiki/blank).
 
-[^2]: Réflexion qui est celle qui inspire la [Chaire de recherche du Canada sur les écritures numériques](https://ecrituresnumeriques.ca/fr/) dont je me plais à citer l'un de ses anciens (dans le sens que vous voulez le comprendre) membre : [Nicolas Sauret](https://these.nicolassauret.net/1.0/revueespace.html). *De la revue au collectif*, titre de sa thèse, je réalise que dans ce post, j'ai fait schématiquement le même parcours.
+[^2]: Réflexion qui est celle qui inspire la [Chaire de recherche du Canada sur les écritures numériques](https://ecrituresnumeriques.ca/fr/) dont je me plais à citer l'un de ses anciens (vous donnez le sens que vous souhaitez à ce terme) membre : [Nicolas Sauret](https://these.nicolassauret.net/1.0/revueespace.html). *De la revue au collectif*, titre de sa thèse, je réalise que dans ce post, j'ai fait schématiquement le même parcours.
 
 [^3]: À venir : un post "À la recherche d'un environnement d'écriture (perdu)".

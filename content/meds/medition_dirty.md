@@ -3,6 +3,7 @@ title: "Dirty Little Hands"
 date: 2022-09-14
 ---
 
+
 Le crédit revient à [MVR](http://blog.sens-public.org/marcellovitalirosati/) qui, hier ou un autre jour, est venu à **mon**[^5] bureau et m'a demandé : 
 
 [^5]: À venir un post sur le territoire de la science.
@@ -72,7 +73,7 @@ C'est la situation trop connue d'une demande de partage des tâches qui fait ém
 
 > [...] Ça prendra certainement moins de temps si c'est toi qui t'en charges [...] 
 
-Au-delà de la question de la hiérarchie, au-delà de la question de l'autorité, ou de l'argument d'ancienneté, là où se croisent petite et sales dans les mains, c'est dans l'espace beaucoup plus  émancipé du dysfonctionnement. Les tâches resteront ce qu'elles sont dans leurs répétitivités, leurs longueurs, leurs ennuis : elles demeureront *ternes* et en travail, en train de se faire, d'être polissées. Les petites mains resteront à leurs postes, devant un drap ou une page, à constater la matière impliquée et à pratiquer du temps perdu.
+Au-delà de la question de la hiérarchie, au-delà de la question de l'autorité, ou de l'argument d'ancienneté, même au delà de la politesse, là où se croisent petite et sales dans les mains, c'est dans l'espace beaucoup plus émancipé du dysfonctionnement. Les tâches resteront ce qu'elles sont dans leurs répétitivités, leurs longueurs, leurs ennuis : elles demeureront *ternes* et en travail, en train de se faire, d'être polissées. Les petites mains resteront à leurs postes, devant un drap ou une page, à constater la matière impliquée et à pratiquer du temps perdu. Ce qui peut changer en revanche c'est comment se conçoit la passation.
 
 Aux esprits qui voient dans la machine des formes d'insectes espions et hallucinent un remake du festin nu, 
 
@@ -104,6 +105,10 @@ mais qui correspond à la section `médition` à la lettre
     un peu miroir, un peu mienne.
 
 Et puis les tables du savoir, c'est toujours un peu en pagaille, un peu en foutoir, un peu sale.
+
+<img src="/images/dirtyLittleHand.png" height="300px"  style="vertical-align:right;margin:0px 0px"/>
+
+
 
 [^1]: Depuis quelques temps ou récemment, les petites mains sont *mes* petites mains. À venir un post sur l'appartenance.
 

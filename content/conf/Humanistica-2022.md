@@ -52,7 +52,7 @@ Je propose ici d'essayer de comprendre d'abord la charge épistémologique de ce
 
 ## La posture du savoir
 
-L'histoire des sciences met en pleine lumière plus généralement les chercheurs, en tant qu'autorité du savoir mais aussi au sens d'individus masculins, et se faisant façonne une communauté élite, pionnière qui se distinguerait dans la société par des critères d'excellence, de visibilité et de scientificité. 
+L'histoire des sciences met en pleine lumière plus généralement les chercheurs, en tant qu'autorité du savoir mais aussi au sens d'individus masculins, et ce faisant façonne une communauté élite, pionnière qui se distinguerait dans la société par des critères d'excellence, de visibilité et de scientificité. 
 
 C'est ce que développe notamment Waquet dans son ouvrage *Dans les coulisses de la science*. Cette dernière propose une revisite de l'histoire de la science pour redonner de la visibilité à ce qu'elle désigne justement comme les *petites mains* (Waquet [2022](https://www.cnrseditions.fr/catalogue/histoire/dans-les-coulisses-de-la-science/)). Ce que l'on peut nommer comme la société du savoir est une société qui place l'auteur comme le seul producteur de sa pensée. Si les études sur les médias, depuis la réflexion de McLuhan (*Understanding Media*), ont travaillé notamment au décentrement de la focale du contenu vers le contenant pour souligner la participation du média soit dans la conception du savoir soit dans la consistution de ce dernier, d'autres perspectives poursuivent une entreprise analogue pour remettre en cause ou renégocier la posture solitaire du savant, pour démonter l'édifice imaginaire de la tour d'ivoire. 
 

@@ -75,12 +75,14 @@ Lettre au Somaphore
   <tr>
     <th height="100" width="350">
 <p class="align-left">Trace Montage 1</br>
-Type Error Psyché
+Type Error Psyché Archive
 <iframe src="https://ia601506.us.archive.org/2/items/creation-mellet/CreationMellet.mp4" style="height:190px;width:290px;" webkitallowfullscreen="true" mozallowfullscreen="true" allow="autoplay" allowfullscreen></iframe></p>
-
 </th>
-<th>
 
+<th>
+<p class="align-left">Trace Montage 2</br>
+Type Error Psyché Remédiation
+<iframe src="/video/TEP.mp4" style="height:190px;width:290px;" webkitallowfullscreen="true" mozallowfullscreen="true" allow="autoplay" allowfullscreen></iframe></p>
 </th>
 
 </tr>

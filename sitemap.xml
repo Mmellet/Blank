@@ -3,8 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://blank.blue/</loc>
-    <lastmod>2022-09-14T00:00:00+00:00</lastmod>
+    <lastmod>2022-10-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
+  </url><url>
+    <loc>https://blank.blue/cherches/</loc>
+    <lastmod>2022-10-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blank.blue/cherches/la-contribution-de-la-virgule/</loc>
+    <lastmod>2022-10-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blank.blue/cherches/scientificite-creativite-sont-des-mots-a-bannir/</loc>
+    <lastmod>2022-09-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blank.blue/meditions/dirty-little-hands/</loc>
     <lastmod>2022-09-14T00:00:00+00:00</lastmod>
@@ -53,9 +62,6 @@
   </url><url>
     <loc>https://blank.blue/conf/rouen-2022-inscryption/</loc>
     <lastmod>2022-04-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blank.blue/cherches/</loc>
-    <lastmod>2022-04-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blank.blue/cherches/graph-ton-concept/</loc>
     <lastmod>2022-04-03T00:00:00+00:00</lastmod>

@@ -1,6 +1,4 @@
-"use strict";(function(){const t={cache:!0};t.doc={id:"id",field:["title","content"],store:["title","href","section"]};const e=FlexSearch.create("balance",t);window.bookSearchIndex=e,e.add({id:0,href:"/cherches/la-contribution-de-la-virgule/",title:"La contribution de la virgule",section:"Cherches",content:`Écranen Cours
-J\u0026rsquo;ai eu l\u0026rsquo;occasion de participer à plusieurs demandes de financements,
-de me faire porter par les dépressions des brainstorming, de faire la shiva : main sur clavier, sur écran, sur café, `}),e.add({id:1,href:"/meditions/jaime-mieux-ecrire-que-filer/",title:"J'aime mieux écrire que filer",section:"Meds",content:`J\u0026rsquo;ai commencé il y a déjà 4 ans un ouvrage \u0026ndash; au sens romanesque du terme \u0026ndash; c\u0026rsquo;est-à-dire que je me suis mise à l\u0026rsquo;ouvrage : un ouvrage où le geste d\u0026rsquo;écriture relève de la couture.
+"use strict";(function(){const t={cache:!0};t.doc={id:"id",field:["title","content"],store:["title","href","section"]};const e=FlexSearch.create("balance",t);window.bookSearchIndex=e,e.add({id:0,href:"/meditions/jaime-mieux-ecrire-que-filer/",title:"J'aime mieux écrire que filer",section:"Meds",content:`J\u0026rsquo;ai commencé il y a déjà 4 ans un ouvrage \u0026ndash; au sens romanesque du terme \u0026ndash; c\u0026rsquo;est-à-dire que je me suis mise à l\u0026rsquo;ouvrage : un ouvrage où le geste d\u0026rsquo;écriture relève de la couture.
 [image de l'ouvrage délaissé à placer ici] (il est actuellement perdu dans un chateau fort de cartons) À même un tableau pour peindre (support aussi fragile que capricieux sous l\u0026rsquo;effet de l\u0026rsquo;aiguille), j\u0026rsquo;ai fait un premier va-et-vient de mon crayon aiguisé.
 J\u0026rsquo;ai commencé à écrire une première lettre.
 Un -L ou était-ce un -T ? peu importe si je m'emmele les fils les deux sont renversables/réversibles dans l\u0026rsquo;optique de produire un mot littéralement tissé, un texte-tissu.
@@ -38,7 +36,9 @@ Nom de la mini table à repasser.\u0026#160;\u0026#x21a9;\u0026#xfe0e;
 La méthode était si efficace que le Royaume-Uni a interdit, durant un temps, les modèles de tricot par crainte des messages cachés.\u0026#160;\u0026#x21a9;\u0026#xfe0e;
 Anecdote : l\u0026rsquo;abbréviation de Machine à écrire, dans le jargon, est MAC.\u0026#160;\u0026#x21a9;\u0026#xfe0e;
 Tuto pour encoder sur le fil\u0026#160;\u0026#x21a9;\u0026#xfe0e;
-`}),e.add({id:2,href:"/meditions/dirty-little-hands/",title:"Dirty Little Hands",section:"Meds",content:`Le crédit revient à MVR qui, hier ou un autre jour, est venu à mon1 bureau et m\u0026rsquo;a demandé :
+`}),e.add({id:1,href:"/cherches/la-contribution-de-la-virgule/",title:"La contribution de la virgule",section:"Cherches",content:`Écranen Cours
+J\u0026rsquo;ai eu l\u0026rsquo;occasion de participer à plusieurs demandes de financements,
+de me faire porter par les dépressions des brainstorming, de faire la shiva : main sur clavier, sur écran, sur café, `}),e.add({id:2,href:"/meditions/dirty-little-hands/",title:"Dirty Little Hands",section:"Meds",content:`Le crédit revient à MVR qui, hier ou un autre jour, est venu à mon1 bureau et m\u0026rsquo;a demandé :
 Tu as pensé à l\u0026rsquo;idée de dirty hands pour compléter tes2 petites mains ?
 Alors j\u0026rsquo;ai pensé et puis j\u0026rsquo;ai eu à l\u0026rsquo;idée
 Le mal nécessaire de Machiavel. La marque qui ne part pas de Lady Macbeth. Les mains sales de 1948. Les petites mains me tournaient déjà en tête,

@@ -5,22 +5,22 @@ date: 2022-10-17
 
 J'ai commencé il y a déjà 4 ans un ouvrage -- au sens romanesque du terme -- c'est-à-dire que je me suis mise à l'ouvrage : un ouvrage où le geste d'écriture relève de la couture. 
 
-        [image de l'ouvrage délaissé à placer ici]
-
-        (il est actuellement perdu dans un chateau fort de cartons)
+<div align="center">
+<img alt="Lettrine" src="/images/Lettrine.jpg" style="width:250px">
+</div>
 
 À même un tableau pour peindre (support aussi fragile que capricieux sous l'effet de l'aiguille), j'ai fait un premier va-et-vient de mon crayon aiguisé. 
 
 J'ai commencé à écrire une première lettre. 
 
-        Un -L 
-        ou était-ce un -T ? 
+        Un -T 
+        ou était-ce un -L ? 
         peu importe si je m'emmele les fils
         les deux sont renversables/réversibles
 
 dans l'optique de produire un mot littéralement tissé, un texte-tissu. 
 
-        Oui, cela devait plutôt être un -T
+        Oui, cela devait plutôt être un -L
         avec des empattements/emmanchements
         pour que ce dernier puisse marcher
 

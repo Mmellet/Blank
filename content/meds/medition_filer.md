@@ -26,7 +26,7 @@ dans l'optique de produire un mot littéralement tissé, un texte-tissu.
 
 Lieu comun et jeu habituel du littéraire, on ressasse/repasse sans cesse l'imaginaire d'un bord-côte entre texte et tissu, un histoire où les deux s'échangeraient des points de croix[^1].
 
-[^1]: L'évolution étymologique charge, à partir du Ier siècle av. J.-C., le verbe latin *texere* d'un sens figuré, passant de la tresse à la composition d'un ouvrage, puis déclinant ensuite, un siècle encore après, l'ambiguïété entre les deux termes en développant un lexique similaire. 
+[^1]: L'évolution étymologique charge, à partir du Ier siècle av. J.-C., le verbe latin *texere* d'un sens figuré, passant de la tresse à la composition d'un ouvrage, puis déclinant ensuite, un siècle encore après, l'ambiguïeté entre les deux termes en développant un lexique similaire. 
 
 ## Texte, texture, tissu, tirex
 
@@ -37,7 +37,7 @@ Je m'aperçois -- m'entraînant à la vieillesse dans ma chaise à tricoter -- q
         celles qui filent, déroulent et rompent pour jouer au sims avec les mortels
         celles aussi qui entourent d'un ruban le désir qui ne peut être écrit sans voile
 
-C'est répétitif, c'est d'une lenteur en cadence qui repique et se joignent alors à mon ouvrage les échos d'autres mains (celles plus actuelles qui me collent à la peau) 
+C'est répétitif, c'est d'une lenteur en cadence qui repique et se joignent alors à mon ouvrage les échos d'autres mains 
 
         celles qui me collent à la peau comme un thermo collant
         celles qui encodent dans la marge les chaussettes des soldats au front
@@ -96,6 +96,11 @@ Sortant du ton un peu trop manifeste dans lequel se tisse ce texte -- et c'est u
                 les points dans la broderie
                 les trous laissés intentionnellement
                 les patterns et schémas de fil
+
+<div align="center">
+<img alt="Lettrine" src="/images/cousette1.jpg" style="width:650px">
+</div>
+
 
 Autant d'informations et codes de guerre qu'encodaient les cousettes à destination des soldats et qui étaient nichés bien au chaud sous les talons de bas ou dans les encolures d'écharpes. 
 

@@ -3,13 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://blank.blue/</loc>
-    <lastmod>2022-10-17T00:00:00+00:00</lastmod>
+    <lastmod>2022-11-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url><url>
-    <loc>https://blank.blue/meditions/jaime-mieux-ecrire-que-filer/</loc>
-    <lastmod>2022-10-17T00:00:00+00:00</lastmod>
+    <loc>https://blank.blue/conf/</loc>
+    <lastmod>2022-11-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blank.blue/conf/hnu1000/</loc>
+    <lastmod>2022-11-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blank.blue/meditions/ce-doigt-qui-indique/</loc>
+    <lastmod>2022-10-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blank.blue/meds/</loc>
+    <lastmod>2022-10-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blank.blue/meditions/jaime-mieux-ecrire-que-filer/</loc>
     <lastmod>2022-10-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blank.blue/cherches/</loc>
@@ -47,9 +56,6 @@
   </url><url>
     <loc>https://blank.blue/creas/scanner-a-genoux/</loc>
     <lastmod>2022-06-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blank.blue/conf/</loc>
-    <lastmod>2022-06-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blank.blue/conf/docso/</loc>
     <lastmod>2022-06-23T00:00:00+00:00</lastmod>

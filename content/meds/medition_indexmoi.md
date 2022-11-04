@@ -12,9 +12,9 @@ Deuxième doigt de la main de l'humain et des grands singes, placé entre le pou
     on le pointe à l'horizon pour une direction ou se débarasser d'une conversation, 
     on l'appuie pour l'effet d'une empreinte, tourner la page d'un évènement, 
     on le dresse humide pour savoir d'où ça souffle (surtout quand on est chauve),
-    on presque-touche Dieu (surtout quand on a des cheveux).
+    on presque-touche Dieu.
     
-L'index est renversable : vers la gauche, la droite, le haut, le bas, y compris les diagonales, et même vers l'autre (leithmotiv des affiches d'enrôlement en temps de guerre pour prendre à partie). Doigt droit girouette qui, s'il n'était pas attaché à une phalange, pourrait tout aussi bien faire l'hélicoptère. 
+L'index est renversable : vers la gauche, la droite, le haut, le bas, y compris les diagonales, et même vers l'autre, celui qui nous regarde (*leithmotiv* des affiches d'enrôlement en temps de guerre). Doigt droit girouette qui, s'il n'était pas attaché à une phalange, pourrait tout aussi bien faire l'hélicoptère. 
 
 L'index est organisé : il recense les informations ou *termes* qui auront été jugées pertinentes par types dans un ouvrage (noms, thèmes, figures, index). 
 
@@ -33,7 +33,7 @@ Busa montrant le processus de l'*Index Thomisticus* au crew d'IBM à l'expositio
 <img alt="Lettrine" src="/images/index2.jpeg" style="width:550px">
 </div> 
 
-[Lévy](https://pierrelevyblog.com) qui présente les 9 rôles dans une phrase [IEML](https://ieml.intlekt.io) (en haut à droite, qui indique en haut à gauche)
+[Lévy](https://pierrelevyblog.com) qui présente les 9 rôles dans une phrase [IEML](https://ieml.intlekt.io) (en haut à droite du tableau qui indique en haut à gauche)
 
 <div align="center">
 <img alt="Lettrine" src="/images/index3.jpg" style="width:550px">
@@ -56,7 +56,7 @@ On pourrait penser que l'index est masculin au-delà de son genre nominal, mais 
 sait où se trouve chaque chose dans la passion des mots de l'auteur. 
 
         peut-être que la secrétaire est un index avec des jambes 
-        ou que l'index est une secrétaire qui ne peut fuir
+        ou que l'index est une secrétaire qui ne peut pas fuir
 
         peut-être aussi qu'ils partagent une même fonction 
         de « rendre service » parce qu'ils savent eux et elles
@@ -88,7 +88,7 @@ et, enfin, dans ses imaginaires tardifs, il peut tout autant être le complice d
         il peut être rongé en lui-même, par la salive des idées,
         il peut être corrompu d'un savoir dangereux à ingérer.
 
-Regardez le foncé aux doigts des moines de l'abbaye, ils sont mort par péchés d'index. 
+Regardez le foncé aux doigts des moines de l'abbaye, ils sont morts par péché d'index. 
 
 > L'autre jour j'ai observé les mains de Venantius, quand on lavait son corps du sang qui le recouvrait, et j'ai remarqué un détail auquel je n'avais pas donné beaucoup d'importance. Le bout de deux doigts de la main droite de Venantius était foncé, comme noirci par une substance brune.
 > 

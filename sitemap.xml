@@ -3,8 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://blank.blue/</loc>
-    <lastmod>2022-11-01T00:00:00+00:00</lastmod>
+    <lastmod>2022-11-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
+  </url><url>
+    <loc>https://blank.blue/fabrique/</loc>
+    <lastmod>2022-11-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blank.blue/fabrique/tool-to-be-destroy/</loc>
+    <lastmod>2022-11-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blank.blue/fabrique/cohue-dans-le-code/</loc>
+    <lastmod>2022-11-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blank.blue/conf/</loc>
     <lastmod>2022-11-01T00:00:00+00:00</lastmod>
@@ -31,9 +40,6 @@
     <lastmod>2022-09-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blank.blue/fabrique/blank-avant-blank/</loc>
-    <lastmod>2022-09-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blank.blue/fabrique/</loc>
     <lastmod>2022-09-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blank.blue/meditions/dirty-little-hands/</loc>

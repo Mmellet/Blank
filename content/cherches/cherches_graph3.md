@@ -1,6 +1,6 @@
 ---
 title: "Graph ton concept"
-date: 2022-04-03
+date: 2022-12-03
 ---
 
 ---

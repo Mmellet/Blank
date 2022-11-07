@@ -1,5 +1,5 @@
 ---
-title: "Tool to be Destroy"
+title: "Tool to be Destroyed"
 date: 2022-11-02
 ---
 

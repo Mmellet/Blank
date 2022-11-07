@@ -6,7 +6,7 @@ date: 2022-11-01
 ----
 
 Ceci est la face d'un <strike style='color:rgb(196, 43, 94);'><span style='color:black'>monstre</span></strike> post à deux têtes
-<sup>[Pour sauter directement au cou de la deuxième](https://blank.blue/fabrique/tool-to-be-destroy/)</sup>
+<sup>[Pour sauter directement au cou de la deuxième](https://blank.blue/fabrique/tool-to-be-destroyed/)</sup>
 
 ---------
 
@@ -134,6 +134,6 @@ Sortir d'un problème, d'une problèmatique, que l'on a soi-même aidé à bâti
 
 [^skhole]: À venir le lien vers un podcast de la C sur les théories dysfonctionnelles et faire perdre du temps à ses auditeurs. 
 
-[Ce post ne fonctionne pas... sans l'autre](https://blank.blue/fabrique/tool-to-be-destroy/)
+[Ce post ne fonctionne pas... sans l'autre](https://blank.blue/fabrique/tool-to-be-destroyed/)
 
 

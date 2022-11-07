@@ -1,4 +1,4 @@
-"use strict";(function(){const t={cache:!0};t.doc={id:"id",field:["title","content"],store:["title","href","section"]};const e=FlexSearch.create("balance",t);window.bookSearchIndex=e,e.add({id:0,href:"/fabrique/tool-to-be-destroy/",title:"Tool to be Destroy",section:"Fabriques",content:` Ceci est la Deuxième ogive du post bicéphale Pour revenir à la première prise de tête
+"use strict";(function(){const t={cache:!0};t.doc={id:"id",field:["title","content"],store:["title","href","section"]};const e=FlexSearch.create("balance",t);window.bookSearchIndex=e,e.add({id:0,href:"/fabrique/tool-to-be-destroyed/",title:"Tool to be Destroyed",section:"Fabriques",content:` Ceci est la Deuxième ogive du post bicéphale Pour revenir à la première prise de tête
 MVR a crié un jour en pleine conférence :
 Je veux des trains qui s\u0026rsquo;arrêtent pour me laisser le temps de lire Proust
 Et cela fait écho au cri de Chris1 :

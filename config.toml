@@ -25,6 +25,7 @@ removePathAccents=true
   cherches = "/cherches/:title"
   creas = "/creas/:title"
   fabrique = "/fabrique/:title"
+  hide = "/hide/:title"
 
 [markup]
   [markup.goldmark]

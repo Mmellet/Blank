@@ -2,9 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://blank.blue/hide/index/</loc>
+    <lastmod>2022-10-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blank.blue/hide/premier-chapitre/</loc>
+    <lastmod>2022-11-03T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://blank.blue/</loc>
-    <lastmod>2022-11-02T00:00:00+00:00</lastmod>
+    <lastmod>2022-11-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
+  </url><url>
+    <loc>https://blank.blue/hide/</loc>
+    <lastmod>2022-11-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blank.blue/fabrique/</loc>
     <lastmod>2022-11-02T00:00:00+00:00</lastmod>

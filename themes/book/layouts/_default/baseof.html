@@ -154,6 +154,15 @@ function pad(val) {
             {{ end }}
           </section>
             {{ end }}
+
+
+            {{ if eq .Params.jekyll "oui" }}
+            <section>
+                {{ range  (where .Site.RegularPages "Section" "hide").ByWeight  }}
+                <h3></time><a href="{{ .Permalink }}"> {{ .Title }}</h3></a>
+                {{ end }}
+              </section>
+                {{ end }}
     
         {{ if eq .Params.doc "oui" }}
         <section>
@@ -172,7 +181,6 @@ function pad(val) {
               </section>
                 {{ end }}
 
-
             {{ if eq .Params.conference "oui" }}
             <section>
                 {{ range  where .Site.RegularPages "Section" "conf"  }}
@@ -180,8 +188,17 @@ function pad(val) {
                 {{ end }}
               </section>
                 {{ end }}
+                
 
 
+        {{ if eq .Params.tuto "oui" }}
+        <section>
+            {{ range  where .Site.RegularPages "Section" "tutos"  }}
+            <h3><a href="{{ .Permalink }}"> {{ .Title }}</h3></a>
+                
+            {{ end }}
+          </section>
+            {{ end }}
   </article>
 {{ end }}
 

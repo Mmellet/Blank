@@ -1,5 +1,5 @@
 ---
-title: "Deuil scientifique"
+title: "Deuil d'une écriture"
 date: 2022-11-05
 ---
 

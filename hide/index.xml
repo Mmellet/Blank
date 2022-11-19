@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>margot.mellet@umontreal.ca (Margot Mellet)</managingEditor>
     <webMaster>margot.mellet@umontreal.ca (Margot Mellet)</webMaster>
-    <lastBuildDate>Thu, 03 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blank.blue/hide/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 19 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blank.blue/hide/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Index</title>
       <link>https://blank.blue/hide/index/</link>
@@ -29,6 +29,15 @@ Premier chapitre - Fabrique de la pensée où on va établir avec moult référe
 --- title: &amp;#34;Machine littéraire&amp;#34; chapitre: 1 sous-section: 1 --- [dans l&amp;rsquo;épisode précédent: on a brillamment conquis le lecteur]
 Machine Littéraire # où on fait un texte sur le texte
 How to deal with text # One of the primary and ongoing tensions in an academic multimedia journal is the question of how to deal with text.</description>
+    </item>
+    
+    <item>
+      <title>Deuxième Chapitre</title>
+      <link>https://blank.blue/hide/deuxieme-chapitre/</link>
+      <pubDate>Sat, 19 Nov 2022 00:00:00 +0000</pubDate>
+      <author>margot.mellet@umontreal.ca (Margot Mellet)</author>
+      <guid>https://blank.blue/hide/deuxieme-chapitre/</guid>
+      <description>À venir en 2023.</description>
     </item>
     
   </channel>

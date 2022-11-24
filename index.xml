@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>margot.mellet@umontreal.ca (Margot Mellet)</managingEditor>
     <webMaster>margot.mellet@umontreal.ca (Margot Mellet)</webMaster>
-    <lastBuildDate>Sat, 19 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blank.blue/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 24 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blank.blue/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Index</title>
       <link>https://blank.blue/hide/index/</link>
@@ -38,6 +38,19 @@ How to deal with text # One of the primary and ongoing tensions in an academic m
       <author>margot.mellet@umontreal.ca (Margot Mellet)</author>
       <guid>https://blank.blue/hide/deuxieme-chapitre/</guid>
       <description>À venir en 2023.</description>
+    </item>
+    
+    <item>
+      <title>Comment écrire au monde</title>
+      <link>https://blank.blue/meditions/comment-ecrire-au-monde/</link>
+      <pubDate>Thu, 24 Nov 2022 00:00:00 +0000</pubDate>
+      <author>margot.mellet@umontreal.ca (Margot Mellet)</author>
+      <guid>https://blank.blue/meditions/comment-ecrire-au-monde/</guid>
+      <description>Ceci n&amp;rsquo;est pas un tuto.
+Ceci n&amp;rsquo;est pas un horoscope.
+Ceci est une médition.
+Il me semble qu&amp;rsquo;on devrait apprendre aux femmes à écrire
+pas parce qu&#39;elle ne savent écrire mais parce qu&#39;elle doivent écrire à l&#39;Université comme elles écriraient au monde. Depuis le début de ma scolarité, mon écriture a connu de multiples mues et j&amp;rsquo;ai réalisé, avant même l&amp;rsquo;écriture du Manisfeste p.m. que les échanges, surtouts sextuels textuels, m&amp;rsquo;imposent, peut-être plus que les autres espaces de ma vie, une réalité de ce que je suis essentiellement, réalité que j&amp;rsquo;oublie constamment :</description>
     </item>
     
     <item>
@@ -549,10 +562,9 @@ VsCodium Github Gandi pour le nom de domaine M&amp;rsquo;ont aidé à construire
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>margot.mellet@umontreal.ca (Margot Mellet)</author>
       <guid>https://blank.blue/meditions/</guid>
-      <description>Les Méditions désignent un ensemble d&amp;rsquo;écritures sur la question des pratiques d&amp;rsquo;édition vues et vécues de l&amp;rsquo;intérieur.
-Ancienne Coordonnatrice d&amp;rsquo;une revue en sciences humaines, coordonnatrice scientifique dans un laboratoire en écritures numériques, je propose ici plusieurs réflexions qui émanent de cette expérience mais également d&amp;rsquo;autres.
-Cet ensemble d&amp;rsquo;écritures n&amp;rsquo;a pas pour intention de médire mais de méditer.
-À venir : Sommes-nous des Shiva ?, L&amp;rsquo;index et le pouvoir d&amp;rsquo;indiquer (mettre le doigt dessus), &amp;ldquo;On veut du tout en un&amp;rdquo;, Méditrices et sorcières, La secrétaire2.</description>
+      <description>Entre édition, méditations et médisances, les Méditions rassemblent une série d&amp;rsquo;écritures sur la question des pratiques d&amp;rsquo;édition vues et vécues de l&amp;rsquo;intérieur.
+Ancienne Coordonnatrice d&amp;rsquo;une revue en sciences humaines, coordonnatrice scientifique dans un laboratoire en écritures numériques, petite main, je témoigne justement par elles.
+À venir : Sommes-nous des Shiva ?, &amp;ldquo;On veut du tout en un&amp;rdquo;, Méditrices et sorcières, La secrétaire2.0.</description>
     </item>
     
     <item>

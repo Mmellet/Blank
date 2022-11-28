@@ -15,7 +15,8 @@ weight: 1
     - Machine littéraire
     *où on présente le texte comme une machine médiatique qui n'est pas seulement dirigé par le primat de la lisibilité*
         - How to deal with Text
-        - L'oeil du texte
+        - L'image du texte
+        - La trace du média
     - Medium is Media : 
     *où on développe la question du média et notamment on essaye de trouver une solution au problème de balancement entre une part active du média et l'essentialisation déterministe du média*
         - In media res [#creation](Nervure) & [#creation](Baudehugo)

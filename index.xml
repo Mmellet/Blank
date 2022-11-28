@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>margot.mellet@umontreal.ca (Margot Mellet)</managingEditor>
     <webMaster>margot.mellet@umontreal.ca (Margot Mellet)</webMaster>
-    <lastBuildDate>Thu, 24 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blank.blue/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 28 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blank.blue/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Index</title>
       <link>https://blank.blue/hide/index/</link>
@@ -20,15 +20,25 @@ Premier chapitre - Fabrique de la pensée où on va établir avec moult référe
     </item>
     
     <item>
+      <title>Architecture</title>
+      <link>https://blank.blue/hide/architecture/</link>
+      <pubDate>Thu, 03 Nov 2022 00:00:00 +0000</pubDate>
+      <author>margot.mellet@umontreal.ca (Margot Mellet)</author>
+      <guid>https://blank.blue/hide/architecture/</guid>
+      <description>Technique d&amp;rsquo;un objet littéraire # où on expose la démarche de recherche et création de notre étude et le fonctionnement général de la thèse qui sera plus tard déployé.
+L&amp;rsquo;approche recherche et création qui est adoptée ici ne souhaite pas diviser les matières en deux objets distincts.
+La dimension créative sera représentée dans l&amp;rsquo;objet d&amp;rsquo;étude comme la dimension performative des réflexions. Au-delà d&amp;rsquo;une hiérarchie ou d&amp;rsquo;une généalogie où la recherche et les réflexions développées viendraient engendrer sous la forme artistique une poétique de création, il s&amp;rsquo;agit de penser que les deux dispositions de l&amp;rsquo;écriture sont en complète symbiose.</description>
+    </item>
+    
+    <item>
       <title>Premier Chapitre</title>
       <link>https://blank.blue/hide/premier-chapitre/</link>
       <pubDate>Thu, 03 Nov 2022 00:00:00 +0000</pubDate>
       <author>margot.mellet@umontreal.ca (Margot Mellet)</author>
       <guid>https://blank.blue/hide/premier-chapitre/</guid>
-      <description>Fabrique de la pensée # où on va établir avec moult références le cadre théorique et se rendre compte qu&amp;rsquo;un réseau de discours se forme
---- title: &amp;#34;Machine littéraire&amp;#34; chapitre: 1 sous-section: 1 --- [dans l&amp;rsquo;épisode précédent: on a brillamment conquis le lecteur]
-Machine Littéraire # où on fait un texte sur le texte
-How to deal with text # One of the primary and ongoing tensions in an academic multimedia journal is the question of how to deal with text.</description>
+      <description>[dans l&amp;rsquo;épisode précédent: on a brillamment conquis le lecteur]
+Fabrique de la pensée # où on va établir avec moult références le cadre théorique et introduire la perspective de cette étude
+S&amp;rsquo;affichant sur les écrans de leurs machines, lovée dans leurs articulations cagneuses et transparant dans les tâches d&amp;rsquo;encre versée de dépit, une même questionn semble hanter les couloirs des lieux de savoirs notamment ceux arpentés par les théories littéraires et les théories des médias, cette ombre partagée.</description>
     </item>
     
     <item>
@@ -37,7 +47,22 @@ How to deal with text # One of the primary and ongoing tensions in an academic m
       <pubDate>Sat, 19 Nov 2022 00:00:00 +0000</pubDate>
       <author>margot.mellet@umontreal.ca (Margot Mellet)</author>
       <guid>https://blank.blue/hide/deuxieme-chapitre/</guid>
-      <description>À venir en 2023.</description>
+      <description>À venir en 2023.
+où on développe les différents projets sur lesquels on a oeuvré comme des cas d&amp;rsquo;études permettant de préciser ce qui aura été annoncé dans la première partie.
+--- title: &amp;#34;Tool to be destroyed&amp;#34; chapitre: 2 sous-section: 1 --- </description>
+    </item>
+    
+    <item>
+      <title>Je m&#39;en fous du texte</title>
+      <link>https://blank.blue/cherches/je-men-fous-du-texte/</link>
+      <pubDate>Mon, 28 Nov 2022 00:00:00 +0000</pubDate>
+      <author>margot.mellet@umontreal.ca (Margot Mellet)</author>
+      <guid>https://blank.blue/cherches/je-men-fous-du-texte/</guid>
+      <description>Récemment LK me posait la question :
+Mais tu dis recherche - création ou recherche et création ?
+Pour donner le contexte de discussion, je présentais ma démarche d&amp;rsquo;écriture pour ma thèse qui ne séparera pas la recherche de la création.
+Et j&amp;rsquo;ai répondu :
+peu importe, on peut dire les deux tant qu&amp;rsquo;on considère que c&amp;rsquo;est une approche à part entière et pas une hybridation un peu fancy d&amp;rsquo;une recherche qui se donnerait des libertés ou qui ne serait pas assez bonne pour n&amp;rsquo;être que scientifique.</description>
     </item>
     
     <item>

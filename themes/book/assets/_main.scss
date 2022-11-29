@@ -1,12 +1,5 @@
 /* Ajout par moi. */
-
-/* Fin ajout. */
-
-html {
-  font-size: $font-size-base;
-  scroll-behavior: smooth;
-  touch-action: manipulation;
-}
+/*background-image: url("/images/meduse1.png");*/
 
 
 div.background {
@@ -23,7 +16,8 @@ span.background {
 }
 
 p.background {
-    color: #050407;
+    /*background-image: url("/images/meduse1.png");*/
+    color:rgba(0, 0, 0, 0.1);
     font-family: Avenir Next, Helvetica Neue, Helvetica, Tahoma, sans-serif;
     font-size: 1em;
     font-weight: 600;
@@ -95,6 +89,16 @@ p.background {
     display: flex;
     background-color: #ffffff;
   }
+
+/* Fin ajout. */
+
+html {
+  font-size: $font-size-base;
+  scroll-behavior: smooth;
+  touch-action: manipulation;
+}
+
+
   
 
 
@@ -132,9 +136,10 @@ img {
   vertical-align: baseline;
 }
 
-:focus {
+/*:focus {
   @include outline;
 }
+*/
 
 aside nav ul {
   padding: 0;
@@ -203,7 +208,7 @@ ul.pagination {
 
   a,
   label {
-    color: inherit;
+    color:inherit;
     cursor: pointer;
     word-wrap: break-word;
   }
@@ -326,7 +331,7 @@ ul.pagination {
   img {
     height: 1.6em;
     margin-inline-end: $padding-8;
-    padding-left: 80px;
+    padding-left: 60px;
   }
   #grandlogo {
     height: 2em;

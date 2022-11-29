@@ -1,5 +1,5 @@
 ---
-title: "Hy Hide"
+title: "Hy Hyde"
 jekyll: "oui"
 
 ---
@@ -26,3 +26,10 @@ Bien fou ou brillant sera celui qui y pirate quelque chose à mordre sous la den
 Ce que tu enregistreras demain ne sera peut-être plus ou pire sera englouti dans le versionnement successif. 
 
 Seul le flux rss trahira Jekyll.
+
+Le 29 novembre,
+
+Je commence à penser à un autre lieu pour déplacer ces traces
+
+        en mal de libertées
+        pour tordre un espace qui n'est vital à rien

@@ -84,4 +84,4 @@ De plus mêler travail et vie sentimentale, n'est jamais bon, et cela semblait d
 
 Car les auteurs ne le sont pas que sur le papier.
 
-[^2]: à écrire un post sur comment les femmes doivent écrire au monde pour être lues.
+[^2]: A été écrit un [post sur comment les femmes doivent écrire au monde pour être lues](https://blank.blue/meditions/comment-ecrire-au-monde/).

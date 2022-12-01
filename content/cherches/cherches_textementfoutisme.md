@@ -36,9 +36,9 @@ Aussi insolente que puisse <strike style='color:rgb(196, 43, 94);'><span style='
 
 [^1]: à écrire un post sur l'humilité et l'insolence comme conduite de recherche. 
 
-Par appétit pour les nouvelles saveurs, par salivation pour les corps inconnus, également par conviction profonde qui s'encre dans mes mains -- mes petites mains dans les deux sens du terme --, je souhaite dépasser le texte pour revenir à son étrange matière, à ces reflus imprimés, à tout le brut qui constitue cette brute objet de lecture. 
+Par appétit pour les nouvelles saveurs, par salivation pour les corps inconnus, également par conviction profonde qui s'encre dans mes mains -- mes petites mains dans les deux sens du terme --, je souhaite dépasser le texte pour revenir à son étrange matière, à ces reflus imprimés, à tout le brut qui constitue cet objet de lecture. 
 
-    Je veux un texte avinée comme je l'étais dans mon effronterie,
+    Je veux un texte aviné comme je l'étais dans mon effronterie,
             un texte qui craque sous la dent par ses os,
                     dont les tendons vrillent et roulent sous mes mots. 
    
@@ -48,11 +48,11 @@ Par appétit pour les nouvelles saveurs, par salivation pour les corps inconnus,
     
     Je veux un texte qui ne soit pas fait de figures de styles 
             chiasme, antithèse, oxymore, paradoxe
-            répétitio, répétition, redondance, répétition
+            répétition, répétition, redondance, répétition
             anaphore, accumulation, pléonasme 
-        mais des couvertures, de toiles, colles, fibres, fils, codes. 
+        mais de couvertures, de toiles, colles, fibres, fils, codes. 
 
-Comme l'ogre qui mangeait des livres pour ne pas manger des enfants et qui appris à lire les livres aux enfants, parce que c'est ça que fait l'ivresse de la littérature : donner faim de mots.
+Comme l'ogre qui mangeait des livres pour ne pas manger des enfants et qui a appris à lire les livres aux enfants qu'il ne mangeait plus, parce que c'est ça que fait l'ivresse de la littérature : donner faim de mots.
 
 ## Textoshima mon amour
 
@@ -64,7 +64,8 @@ Comme un amant langui, je veux *connaître* cet objet dans *ce qui fait qu'il es
 
     me glisser dans ses pages aussi vastes que les cathédrales
     souffrir ses exhalaisons de la veille qui reviennent au petit matin
-    sentir son poids dans mes mains et savoir si il s'est entraîné à soulever des poids
+    sentir son poids dans mes mains et savoir s'il s'est entraîné à soulever des poids
+    faire l'expérience de ses odeurs, sueurs, rides
 
 Je m'en fous du texte parce que je ne veux pas en faire une chose sacrée, prude, vierge. Un texte est un texte, ni soumis, ni démoniaque, ni inhumain, ni idéal. Il demeure une construction, une fabrique. 
 

@@ -33,3 +33,16 @@ Je commence à penser à un autre lieu pour déplacer ces traces
 
         en mal de libertées
         pour tordre un espace qui n'est vital à rien
+
+Le 19 décembre, 
+
+On charcute dans le gras du lard, 
+
+        on recoupe, 
+        on finalise des bouts 
+
+et on désespère que les autres tronçons laissés en jachère n'ont pas évolués, 
+
+        ils semblent toujours aussi abscons et artificiels. 
+
+On avait besoin de remorceler en fragments pour avoir une vision plus équitable de chacune des sections. 

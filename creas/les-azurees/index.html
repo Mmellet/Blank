@@ -1,6 +1,130 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
+	
+<script>
+  wbinfo = {}
+  wbinfo.url = "https://mmellet.github.io/CreationThese/Version.html";
+  wbinfo.timestamp = "20200720215953";
+  wbinfo.request_ts = "";
+  wbinfo.prefix = "https://via.hypothes.is/";
+  wbinfo.mod = "";
+  wbinfo.top_url = "https://via.hypothes.is/https://mmellet.github.io/CreationThese/Version.html";
+  wbinfo.is_framed = false;
+  wbinfo.is_live = true;
+  wbinfo.coll = "";
+  wbinfo.proxy_magic = "";
+  wbinfo.static_prefix = "https://via.hypothes.is/static/__pywb";
+</script>
+
+<script src='https://via.hypothes.is/static/__pywb/wombat.js'> </script>
+	
+<script src='https://via.hypothes.is/static/__pywb/wb.js'> </script>
+<script src='https://via.hypothes.is/static/__pywb/vidrw.js'> </script>
+	
+<script>
+
+
+
+function isTopViaFrame() {
+  if (window === window.top) {
+    
+    
+    return true;
+  }
+
+  try {
+    
+    
+    
+    var parent = window.__WB_orig_parent || window.parent;
+
+    
+    
+    
+    
+    
+    
+    parent.location.href;
+
+    
+    
+    return false;
+  } catch (err) {
+    
+    
+    return true;
+  }
+}
+
+function stripFragment(url) {
+  return url.replace(/#.*$/, '');
+}
+
+
+
+function isExternalLink(linkEl) {
+  
+  
+  
+  
+  
+  
+  
+  const internalLink = document.createElement('a');
+
+  
+  internalLink.href = '#';
+
+  return stripFragment(internalLink.href) !== stripFragment(linkEl.href);
+}
+
+
+
+function setupExternalLinkHandler(mode) {
+  if (mode === "new-tab") {
+    document.addEventListener("click", function (event) {
+      if (!event.target.closest) {
+        
+        return;
+      }
+
+      var linkEl = event.target.closest("a");
+      if (linkEl) {
+        if (isExternalLink(linkEl)) {
+          
+          linkEl.target = "_blank";
+        }
+      }
+    });
+  }
+}
+
+(function () {
+
+if (!isTopViaFrame()) {
+  
+  
+  
+  
+  
+  
+  
+  return;
+}
+
+
+var embed_script = document.createElement("script");
+embed_script.src = "https://hypothes.is/embed.js";
+document.head.appendChild(embed_script);
+
+setupExternalLinkHandler("same-tab");
+
+window.hypothesisConfig = function() {
+  return {"showHighlights": true, "appType": "via", "openSidebar": false};
+}})();
+</script>
+
 <head>
   <meta name="generator" content="Hugo 0.108.0">
   <meta charset="UTF-8">
@@ -19,7 +143,7 @@ Planches # Premiers montages # Proposition 1 Proposition 2 Final # " />
 <link rel="manifest" href="../../manifest.json">
 <link rel="icon" href="../../logo.png" type="image/x-icon">
 <link rel="stylesheet" href="../../book.min.36ecd13b6c7ddd450d4c9a75138cac6bafda37b893814c0d3ca9910bd95ede35.css" integrity="sha256-NuzRO2x93UUNTJp1E4ysa6/aN7iTgUwNPKmRC9le3jU=">
-<script defer src="../../en.search.min.227074df81b601582e86c663f76cca5ea76c0caffacc2d20799ecf82d4392628.js" integrity="sha256-InB034G2AVguhsZj92zKXqdsDK/6zC0geZ7PgtQ5Jig="></script>
+<script defer src="../../en.search.min.d5aaba6b93c373a57295d870d46ecfd81d2e057d13be5c42f92dbfaa46e68e9e.js" integrity="sha256-1aq6a5PDc6Vyldhw1G7P2B0uBX0TvlxC&#43;S2/qkbmjp4="></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book

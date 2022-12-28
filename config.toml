@@ -1,6 +1,7 @@
 baseURL = "https://blank.blue/"
 title = ""
 relativeURLs = true
+canonifyURLs = true
 theme = "book"
 
 removePathAccents=true

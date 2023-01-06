@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>margot.mellet@umontreal.ca (Margot Mellet)</managingEditor>
     <webMaster>margot.mellet@umontreal.ca (Margot Mellet)</webMaster>
-    <lastBuildDate>Thu, 22 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blank.blue/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 31 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blank.blue/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Index</title>
       <link>https://blank.blue/hide/index/</link>
@@ -31,13 +31,22 @@ La dimension créative sera représentée dans l&amp;rsquo;objet d&amp;rsquo;ét
     </item>
     
     <item>
+      <title>Premier Chapitre</title>
+      <link>https://blank.blue/hide/premier-chapitre/</link>
+      <pubDate>Mon, 19 Dec 2022 00:00:00 +0000</pubDate>
+      <author>margot.mellet@umontreal.ca (Margot Mellet)</author>
+      <guid>https://blank.blue/hide/premier-chapitre/</guid>
+      <description>--- title: &amp;#34;Fabrique de la pensée&amp;#34; chapitre: 1 section: 0 --- où on va établir avec moult références le cadre théorique et introduire la perspective de cette étude
+S&amp;rsquo;affichant sur les écrans de leurs machines, lovée dans leurs articulations cagneuses et émergeant des tâches d&amp;rsquo;encre versées de dépit, une même questionn semble hanter les couloirs des lieux de savoirs notamment ceux arpentés par les théories littéraires et les théories des médias.</description>
+    </item>
+    
+    <item>
       <title>Premier Chapitre - 0</title>
       <link>https://blank.blue/hide/premier-chapitre-0/</link>
       <pubDate>Mon, 19 Dec 2022 00:00:00 +0000</pubDate>
       <author>margot.mellet@umontreal.ca (Margot Mellet)</author>
       <guid>https://blank.blue/hide/premier-chapitre-0/</guid>
-      <description>[dans l&amp;rsquo;épisode précédent: on a brillamment conquis le lecteur]
---- title: &amp;#34;Fabrique de la pensée&amp;#34; chapitre: 1 section: 0 --- où on va établir avec moult références le cadre théorique et introduire la perspective de cette étude
+      <description>--- title: &amp;#34;Fabrique de la pensée&amp;#34; chapitre: 1 section: 0 --- où on va établir avec moult références le cadre théorique et introduire la perspective de cette étude
 S&amp;rsquo;affichant sur les écrans de leurs machines, lovée dans leurs articulations cagneuses et émergeant des tâches d&amp;rsquo;encre versées de dépit, une même questionn semble hanter les couloirs des lieux de savoirs notamment ceux arpentés par les théories littéraires et les théories des médias.</description>
     </item>
     
@@ -49,8 +58,8 @@ S&amp;rsquo;affichant sur les écrans de leurs machines, lovée dans leurs artic
       <guid>https://blank.blue/hide/premier-chapitre-1/</guid>
       <description>--- title: &amp;#34;Machine littéraire&amp;#34; chapitre: 1 section: 1 --- où on fait un texte sur le texte
 « Un plus un ça peut t-il faire un ? »
-Incendies, Wadji Mouawad, (p.120)
-Enquête généalogique, le récit Incendies suit les romans individuels successifs de deux jumeaux (une soeur et un frère) qui partent à la recherche de leur père et de leur frère disparus pour honorer la demande posthume de leur mère.</description>
+Incendies, Wadji Mouawad, (p. 120)
+Enquête généalogique, le récit Incendies suit les romans individuels successifs de deux jumeaux (une sœur et un frère) qui partent à la recherche de leur père et de leur frère disparus pour honorer la demande posthume de leur mère.</description>
     </item>
     
     <item>
@@ -59,9 +68,11 @@ Enquête généalogique, le récit Incendies suit les romans individuels success
       <pubDate>Mon, 19 Dec 2022 00:00:00 +0000</pubDate>
       <author>margot.mellet@umontreal.ca (Margot Mellet)</author>
       <guid>https://blank.blue/hide/premier-chapitre-2/</guid>
-      <description>[dans l&amp;rsquo;épisode précédent : on a établi le texte comme média, rendant de fait la définition du média nécessaire, et le grand danger de l&amp;rsquo;abstraction]
---- title: &amp;#34;Medium is Media&amp;#34; chapitre: 1 section: 2 --- --- title: &amp;#34;In media res&amp;#34; chapitre: 1 section: 2 sous-section: 1 --- In media res # où on tente d&amp;rsquo;établir une définition du média et où l&amp;rsquo;on précise notre positionnement théorique
-Media Rasa # Tantôt dispositif [Agamben], artefact [Zacklad], message [McLuhan], milieu [Méchoulan], conjonctures [Vitali-Rosati et Larrue], ou même véhicule [Baudelaire] [etc.</description>
+      <description>[dans l&amp;rsquo;épisode précédent : on a parcouru le texte au travers du principe de machine, rendant désormais la définition du média nécessaire]
+--- title: &amp;#34;Medium is Media&amp;#34; chapitre: 1 section: 2 --- [#introduction]
+--- title: &amp;#34;In media res&amp;#34; chapitre: 1 section: 2 sous-section: 1 --- In media res # où on tente d&amp;rsquo;établir une définition du média et où l&amp;rsquo;on précise notre positionnement théorique
+[#introduction]
+--- title: &amp;#34;Media rasa&amp;#34; chapitre: 1 section: 2 sous-section: 1 sous-sous-section: 1 --- Media rasa # où on fait table rase de tout ce que l&amp;rsquo;on sait ou pense savoir</description>
     </item>
     
     <item>
@@ -71,20 +82,42 @@ Media Rasa # Tantôt dispositif [Agamben], artefact [Zacklad], message [McLuhan]
       <author>margot.mellet@umontreal.ca (Margot Mellet)</author>
       <guid>https://blank.blue/hide/premier-chapitre-3/</guid>
       <description>[à l&amp;rsquo;épisode précédent: on avait établit une définition du média]
---- title: &amp;#34;Matières d&amp;#39;écritures&amp;#34; chapitre: 1 section: 3 --- où on formule notre hypothese de recherche et où on va introduire la thématique du palimpseste
-Our writing materials contribute their part to our thinking. [Nietzsche, letter of Feb., 1882 in Briefe, IV : 97]
-Énoncée en réalité par de nombreuses voix, en de nombreux lieux et se désirant toujours autant révolutionnaire dans les sites de son énonciation, l&amp;rsquo;hypothèse qui se dévoile ici revêt les mêmes atours qui, s&amp;rsquo;ils n&amp;rsquo;ont jamais aidé à constituer une réelle et tangible tradition, ont aspiré à une certaine insolence.</description>
+--- title: &amp;#34;Matières d&amp;#39;écritures&amp;#34; chapitre: 1 section: 3 --- où on se tourne désormais vers les environnements d&amp;rsquo;écriture en tant que matières du monde
+Our writing materials contribute their part to our thinking. [Nietzsche, letter of Feb., 1882 in Briefe, IV : 97]
+Énoncée en réalité par de nombreuses voix, en de nombreux lieux et au travers de nombreux mots, l&amp;rsquo;hypothèse qui se dévoile ici entre les lignes de Nietzsche revêt les mêmes atours qui, s&amp;rsquo;ils ont failli à constituer une réelle et tangible tradition, aspirent toujours à la même portée révolutionnaire.</description>
     </item>
     
     <item>
-      <title>Premier Chapitre</title>
-      <link>https://blank.blue/hide/premier-chapitre/</link>
-      <pubDate>Thu, 03 Nov 2022 00:00:00 +0000</pubDate>
+      <title>La contribution de la virgule</title>
+      <link>https://blank.blue/meditions/la-contribution-de-la-virgule/</link>
+      <pubDate>Sat, 31 Dec 2022 00:00:00 +0000</pubDate>
       <author>margot.mellet@umontreal.ca (Margot Mellet)</author>
-      <guid>https://blank.blue/hide/premier-chapitre/</guid>
-      <description>[dans l&amp;rsquo;épisode précédent: on a brillamment conquis le lecteur]
-Fabrique de la pensée # où on va établir avec moult références le cadre théorique et introduire la perspective de cette étude
-S&amp;rsquo;affichant sur les écrans de leurs machines, lovée dans leurs articulations cagneuses et émergeant des tâches d&amp;rsquo;encre versées de dépit, une même questionn semble hanter les couloirs des lieux de savoirs notamment ceux arpentés par les théories littéraires et les théories des médias.</description>
+      <guid>https://blank.blue/meditions/la-contribution-de-la-virgule/</guid>
+      <description>Écranen Cours
+Parmi mes participations au laboratoire, j&amp;rsquo;ai été impliquée dans la rédaction de plusieurs demandes de subvention.
+Je n&amp;rsquo;ai cependant pas créé les projets qui ont été finalement financés, je ne les ai pas pensé, je les ai coordonné pour certains et je me suis acharné à les représenter à plusieurs occasions de financements.
+Que ce soit dans la reprise d&amp;rsquo;anciennes demandes à actualiser ou dans la composition from scratch de nouvelles demandes, la plupart des paragraphes proviennent de mains autres ou de brainstorming collectifs.</description>
+    </item>
+    
+    <item>
+      <title>La contribution de la virgule</title>
+      <link>https://blank.blue/cherches/la-contribution-de-la-virgule/</link>
+      <pubDate>Fri, 30 Dec 2022 00:00:00 +0000</pubDate>
+      <author>margot.mellet@umontreal.ca (Margot Mellet)</author>
+      <guid>https://blank.blue/cherches/la-contribution-de-la-virgule/</guid>
+      <description>Écranen Cours
+J&amp;rsquo;ai eu l&amp;rsquo;occasion de participer à plusieurs demandes de financements,
+de me faire porter par les dépressions des brainstorming, de faire la shiva : main sur clavier, sur écran, sur café, </description>
+    </item>
+    
+    <item>
+      <title>Résume un collaboratif</title>
+      <link>https://blank.blue/cherches/resume-un-collaboratif/</link>
+      <pubDate>Fri, 30 Dec 2022 00:00:00 +0000</pubDate>
+      <author>margot.mellet@umontreal.ca (Margot Mellet)</author>
+      <guid>https://blank.blue/cherches/resume-un-collaboratif/</guid>
+      <description>Écranen Cours
+Retour sur la Performative Writing du Congrès CCLA 2021 # En 2021, la CRCEN a participé au congrès annuel de l&amp;rsquo;Association Candienne de Littérature Comparée (ou CCLA) au nom du groupe de recherche Comparative Materialities: Media, Literature, Theory.</description>
     </item>
     
     <item>

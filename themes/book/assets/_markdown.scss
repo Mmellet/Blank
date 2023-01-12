@@ -39,7 +39,7 @@
     font-variant: normal;
     text-align: right;
     text-decoration-line: overline underline;
-    text-decoration-color: rgb(196, 43, 94);
+    text-decoration-color: rgb(238, 77, 77);
   }
 
   h2 {
@@ -48,7 +48,7 @@
     font-variant: normal;
     text-align: center;
     text-decoration-line: underline;
-    text-decoration-color: rgb(196, 43, 94);
+    text-decoration-color: rgb(243, 10, 107);
   }
 
   h4,
@@ -128,6 +128,7 @@
     display: block;
     border-spacing: 0;
     border-collapse: collapse;
+    border-width: medium;
     margin-top: $padding-16;
     margin-bottom: $padding-16;
 
@@ -135,6 +136,7 @@
     tr td {
       padding: $padding-8 $padding-16;
       border: $padding-1 solid var(--gray-200);
+      border-color: black;
     }
 
     tr:nth-child(2n) {

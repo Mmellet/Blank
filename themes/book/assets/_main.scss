@@ -1,94 +1,155 @@
 /* Ajout par moi. */
 /*background-image: url("/images/meduse1.png");*/
 
+body.dark-mode,
+body.dark-mode main * {
+  div.book-menu-content {
+    background-color: rgb(75, 93, 103);
+  }
 
-div.background {
-  position: absolute; 
-  left: -20px; 
-  top: -110px; 
-}
+  p.Blank span::before {
+    z-index: 1;
+    color: rgba(248, 248, 150, 0.438);
+    transform: scale(2, 1) skew(0deg, 20deg);
+  }
 
-span.background {
-  font-size: 10px;
-  position: absolute;
-  left: 650px; 
-  top: -150px;
-}
+  background-color: rgb(75, 93, 103);
+  color: #f5f5f5;
+  --color-link: rgb(247, 80, 135);
+  --color-visited-link: rgba(240, 134, 174, 0.959);
 
-p.background {
-    /*background-image: url("/images/meduse1.png");*/
-    color:rgba(0, 0, 0, 0.1);
+  a:hover {
+    background-color: rgba(238, 77, 77, 0.171);
+  }
+
+  p.Blank span:hover::before {
+    transform: scale(2, 1) skew(0deg, 5deg);
+  }
+
+  p.Blank span:hover::after {
+    transform: rotateY(-1deg);
+  }
+
+  p.Blank {
+    color: #1a0c33e7;
     font-family: Avenir Next, Helvetica Neue, Helvetica, Tahoma, sans-serif;
     font-size: 1em;
     font-weight: 600;
   }
-  p.background span {
-    display: inline-block;
-    position: relative;
-    transform-style: preserve-3d;
-    perspective: 500;
-    -webkit-font-smoothing: antialiased;
-  }
-  p.background span::before,
-  p.background span::after {
-    display: none;
-    position: absolute;
-    top: 0;
-    left: -1px;
-    transform-origin: left top;
-    transition: all ease-out 0.3s;
-    content: attr(data-text);
-  }
-  p.background span::before {
-    z-index: 1;
-    color: rgba(5, 5, 5, 0.2);
-    transform: scale(2, 1) skew(0deg, 20deg);
-  }
-  p.background span::after {
-    z-index: 2;
-    color: #fff;
-    text-shadow: -1px 0 1px #ffffff, 1px 0 1px rgba(255, 253, 253, 0.8);
-    transform: rotateY(-40deg);
-  }
-  p.background span:hover::before {
-    transform: scale(2, 1) skew(0deg, 5deg);
-  }
-  p.background span:hover::after {
-    transform: rotateY(-1deg);
-  }
-  p.background span + span {
+
+  p.Blank span+span {
     margin-left: 0.3em;
   }
-  @media (min-width: 20em) {
-    p.background {
-      font-size: 2em;
-    }
-    p.background span::before,
-    p.background span::after {
-      display: block;
-    }
-  }
-  @media (min-width: 30em) {
-    p.background {
-      font-size: 3em;
-    }
-  }
-  @media (min-width: 40em) {
-    p.background {
-      font-size: 5em;
-    }
-  }
+
   @media (min-width: 60em) {
-    p.background {
+    p.Blank {
       font-size: 8em;
     }
   }
-  html,
-  
-  body {
-    display: flex;
-    background-color: #ffffff;
+
+}
+
+
+div.Blank {
+  position: absolute;
+  left: -20px;
+  top: -110px;
+}
+
+span.Blank {
+  font-size: 10px;
+  position: absolute;
+  left: 650px;
+  top: -150px;
+}
+
+p.Blank {
+  /*Blank-image: url("/images/meduse1.png");*/
+  color: #040407c2;
+  font-family: Avenir Next, Helvetica Neue, Helvetica, Tahoma, sans-serif;
+  font-size: 1em;
+  font-weight: 600;
+}
+
+p.Blank span {
+  display: inline-block;
+  position: relative;
+  transform-style: preserve-3d;
+  perspective: 500;
+  -webkit-font-smoothing: antialiased;
+}
+
+p.Blank span::before,
+p.Blank span::after {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: -1px;
+  transform-origin: left top;
+  transition: all ease-out 0.3s;
+  content: attr(data-text);
+}
+
+p.Blank span::before {
+  z-index: 1;
+  color: rgba(133, 127, 127, 0.281);
+  transform: scale(2, 1) skew(0deg, 20deg);
+}
+
+p.Blank span::after {
+  z-index: 2;
+  color: #fff;
+  text-shadow: -1px 0 1px #ffffff, 1px 0 1px rgba(255, 253, 253, 0.8);
+  transform: rotateY(-40deg);
+}
+
+p.Blank span:hover::before {
+  transform: scale(2, 1) skew(0deg, 5deg);
+}
+
+p.Blank span:hover::after {
+  transform: rotateY(-1deg);
+}
+
+p.Blank span+span {
+  margin-left: 0.3em;
+}
+
+@media (min-width: 20em) {
+  p.Blank {
+    font-size: 2em;
   }
+
+  p.Blank span::before,
+  p.Blank span::after {
+    display: block;
+  }
+}
+
+@media (min-width: 30em) {
+  p.Blank {
+    font-size: 3em;
+  }
+}
+
+@media (min-width: 40em) {
+  p.Blank {
+    font-size: 5em;
+  }
+}
+
+@media (min-width: 60em) {
+  p.Blank {
+    font-size: 8em;
+  }
+}
+
+html,
+
+body {
+  display: flex;
+
+}
 
 /* Fin ajout. */
 
@@ -99,7 +160,7 @@ html {
 }
 
 
-  
+
 
 
 body {
@@ -114,6 +175,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 
   box-sizing: border-box;
+
   * {
     box-sizing: inherit;
   }
@@ -156,7 +218,7 @@ aside nav ul {
   }
 
   a:hover {
-    opacity: 0.5;
+    background-color: rgba(238, 77, 77, 0.171);
   }
 
   ul {
@@ -208,7 +270,7 @@ ul.pagination {
 
   a,
   label {
-    color:inherit;
+    color: inherit;
     cursor: pointer;
     word-wrap: break-word;
   }
@@ -217,11 +279,11 @@ ul.pagination {
     color: var(--color-link);
   }
 
-  input.toggle + label + ul {
+  input.toggle+label+ul {
     display: none;
   }
 
-  input.toggle:checked + label + ul {
+  input.toggle:checked+label+ul {
     display: block;
   }
 }
@@ -233,13 +295,13 @@ ul.pagination {
     margin-top: $padding-16 * 2;
   }
 
-  > a,
-  > span,
-  > label {
+  >a,
+  >span,
+  >label {
     font-weight: bolder;
   }
 
-  > ul {
+  >ul {
     padding-inline-start: 0;
   }
 }
@@ -265,11 +327,11 @@ ul.pagination {
 
 .book-search {
   position: relative;
-  margin: $padding-16 0;
+  margin: $padding-16 2;
   border-bottom: 1px solid transparent;
 
   input {
-    width: 100%;
+    width: 95%;
     padding: $padding-8;
 
     border: 0;
@@ -278,7 +340,7 @@ ul.pagination {
     background: var(--gray-100);
     color: var(--body-font-color);
 
-    &:required + .book-search-spinner {
+    &:required+.book-search-spinner {
       display: block;
     }
   }
@@ -319,7 +381,7 @@ ul.pagination {
     height: 1em;
   }
 
-  nav > ul > li:first-child {
+  nav>ul>li:first-child {
     margin-top: 0;
   }
 }
@@ -331,8 +393,9 @@ ul.pagination {
   img {
     height: 1.6em;
     margin-inline-end: $padding-8;
-    padding-left: 60px;
+    padding-left: 40px;
   }
+
   #grandlogo {
     height: 2em;
   }
@@ -411,6 +474,7 @@ ul.pagination {
 }
 
 @media screen and (max-width: $mobile-breakpoint) {
+
   #menu-control,
   #toc-control {
     display: inline;
@@ -431,11 +495,11 @@ ul.pagination {
     display: block;
   }
 
-  #menu-control:focus ~ main label[for="menu-control"] {
+  #menu-control:focus~main label[for="menu-control"] {
     @include outline;
   }
 
-  #menu-control:checked ~ main {
+  #menu-control:checked~main {
     .book-menu {
       visibility: initial;
     }
@@ -459,18 +523,18 @@ ul.pagination {
     }
   }
 
-  #toc-control:focus ~ main label[for="toc-control"] {
+  #toc-control:focus~main label[for="toc-control"] {
     @include outline;
   }
 
-  #toc-control:checked ~ main {
+  #toc-control:checked~main {
     .book-header aside {
       display: block;
     }
   }
 
   //for RTL support
-  body[dir="rtl"] #menu-control:checked + main {
+  body[dir="rtl"] #menu-control:checked+main {
     .book-menu .book-menu-content {
       transform: translateX(-$menu-width);
     }
@@ -479,6 +543,7 @@ ul.pagination {
 
 // Extra space for big screens
 @media screen and (min-width: $container-max-width) {
+
   .book-page,
   .book-menu .book-menu-content,
   .book-toc .book-toc-content {
@@ -488,10 +553,11 @@ ul.pagination {
 
 iframe {
   margin-top: 1em;
-	width: 100%;
+  width: 100%;
   height: 500px;
   border: solid 2px;
 }
+
 .cache {
   display: none;
 }
@@ -509,7 +575,7 @@ iframe {
   margin-top: 10em;
 }
 
-.markdown > .logo img {
+.markdown>.logo img {
   display: inline-block;
   width: 30%;
   border: none;

@@ -12,6 +12,8 @@ Ce site a été réalisé avec les instances suivantes :
 
 - le timer a été conçu en JavaScript à l'aide de la documentation de [W3Schools](https://www.w3schools.com/js/default.asp)
 
+- le dark mode provient du [site de Dan Abramov](https://github.com/gaearon/overreacted.io/blob/master/src/components/Toggle.css), MIT License
+
 et les outils : 
 
 - [VsCodium](https://vscodium.com/) 

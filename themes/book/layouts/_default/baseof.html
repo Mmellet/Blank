@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.Language.Lang }}" dir="{{ .Site.Language.LanguageDirection | default "ltr" }}">
 
-<!-- Ce script, je l'ai copié-collé sur l'export Stylo (je ne le comprends pas en entier, mais il fonctionne)-->	
+
+
+<!-- Ce script, je l'ai copié-collé sur l'export Stylo (je ne le comprends pas en entier, mais il fonctionne)-->
 <script>
   wbinfo = {}
   wbinfo.url = "https://mmellet.github.io/CreationThese/Version.html";
@@ -18,123 +20,127 @@
 </script>
 
 <script src='https://via.hypothes.is/static/__pywb/wombat.js'> </script>
-	
+
 <script src='https://via.hypothes.is/static/__pywb/wb.js'> </script>
 <script src='https://via.hypothes.is/static/__pywb/vidrw.js'> </script>
-	
+
 <script>
+  /**
+   * Return `true` if this frame has no ancestors or its nearest ancestor was
+   * not served through Via.
+   *
+   * The implementation relies on all documents proxied through Via sharing the
+   * same origin.
+   */
+  function isTopViaFrame() {
+    if (window === window.top) {
+      // Trivial case - This is the top-most frame in the tab so it must be the
+      // top Via frame.
+      return true;
+    }
 
-/**
-  * Return `true` if this frame has no ancestors or its nearest ancestor was
-  * not served through Via.
-  *
-  * The implementation relies on all documents proxied through Via sharing the
-  * same origin.
-  */
-function isTopViaFrame() {
-  if (window === window.top) {
-    // Trivial case - This is the top-most frame in the tab so it must be the
-    // top Via frame.
-    return true;
+    try {
+      // Get a reference to the parent frame. Via's "wombat.js" frontend code
+      // monkey-patches `window.parent` in certain cases, in which case
+      // `window.__WB_orig_parent` is the _real_ parent frame.
+      var parent = window.__WB_orig_parent || window.parent;
+
+      // Try to access the parent frame's location. This will trigger an
+      // exception if the frame comes from a different, non-Via origin.
+      //
+      // This test assumes that all documents proxied through Via are served from
+      // the same origin. If a future change to Via means that is no longer the
+      // case, this function will need to be implemented differently.
+      parent.location.href;
+
+      // If the access succeeded, the parent frame was proxied through Via and so
+      // this is not the top Via frame.
+      return false;
+    } catch (err) {
+      // If the access failed, the parent frame was not proxied through Via and
+      // so this is the top Via frame.
+      return true;
+    }
   }
 
-  try {
-    // Get a reference to the parent frame. Via's "wombat.js" frontend code
-    // monkey-patches `window.parent` in certain cases, in which case
-    // `window.__WB_orig_parent` is the _real_ parent frame.
-    var parent = window.__WB_orig_parent || window.parent;
+  function stripFragment(url) {
+    return url.replace(/#.*$/, '');
+  }
 
-    // Try to access the parent frame's location. This will trigger an
-    // exception if the frame comes from a different, non-Via origin.
+  /**
+   * Test if a link will navigate to a new page as opposed to scrolling to a
+   * different location within the current page.
+   *
+   * @param {HTMLAnchorElement} linkEl
+   */
+  function isExternalLink(linkEl) {
+    // Create a link that is definitely internal and compare its absolute URL
+    // to the target link.
     //
-    // This test assumes that all documents proxied through Via are served from
-    // the same origin. If a future change to Via means that is no longer the
-    // case, this function will need to be implemented differently.
-    parent.location.href;
+    // We do this rather than the more obvious comparison of `linkEl.href` to `location.href`
+    // because Via monkey-patches `HTMLAnchorElement.prototype.href` so that it
+    // returns the original (non-proxied) URL and therefore cannot be
+    // compared directly with the real (proxied) URL that `location.href` returns.
+    const internalLink = document.createElement('a');
 
-    // If the access succeeded, the parent frame was proxied through Via and so
-    // this is not the top Via frame.
-    return false;
-  } catch (err) {
-    // If the access failed, the parent frame was not proxied through Via and
-    // so this is the top Via frame.
-    return true;
+    // nb. `href` always returns an absolute URL when read.
+    internalLink.href = '#';
+
+    return stripFragment(internalLink.href) !== stripFragment(linkEl.href);
   }
-}
 
-function stripFragment(url) {
-  return url.replace(/#.*$/, '');
-}
-
-/**
- * Test if a link will navigate to a new page as opposed to scrolling to a
- * different location within the current page.
- *
- * @param {HTMLAnchorElement} linkEl
- */
-function isExternalLink(linkEl) {
-  // Create a link that is definitely internal and compare its absolute URL
-  // to the target link.
-  //
-  // We do this rather than the more obvious comparison of `linkEl.href` to `location.href`
-  // because Via monkey-patches `HTMLAnchorElement.prototype.href` so that it
-  // returns the original (non-proxied) URL and therefore cannot be
-  // compared directly with the real (proxied) URL that `location.href` returns.
-  const internalLink = document.createElement('a');
-
-  // nb. `href` always returns an absolute URL when read.
-  internalLink.href = '#';
-
-  return stripFragment(internalLink.href) !== stripFragment(linkEl.href);
-}
-
-/**
- * Setup handling of links to other documents.
- *
- * @param {"same-tab"|"new-tab"} mode
- */
-function setupExternalLinkHandler(mode) {
-  if (mode === "new-tab") {
-    document.addEventListener("click", function (event) {
-      if (!event.target.closest) {
-        // Do nothing in browsers that don't support `element.closest` (IE 11).
-        return;
-      }
-
-      var linkEl = event.target.closest("a");
-      if (linkEl) {
-        if (isExternalLink(linkEl)) {
-          // Make link open in a new tab.
-          linkEl.target = "_blank";
+  /**
+   * Setup handling of links to other documents.
+   *
+   * @param {"same-tab"|"new-tab"} mode
+   */
+  function setupExternalLinkHandler(mode) {
+    if (mode === "new-tab") {
+      document.addEventListener("click", function (event) {
+        if (!event.target.closest) {
+          // Do nothing in browsers that don't support `element.closest` (IE 11).
+          return;
         }
-      }
-    });
+
+        var linkEl = event.target.closest("a");
+        if (linkEl) {
+          if (isExternalLink(linkEl)) {
+            // Make link open in a new tab.
+            linkEl.target = "_blank";
+          }
+        }
+      });
+    }
   }
-}
 
-(function () {
+  (function () {
 
-if (!isTopViaFrame()) {
-  // Do not inject Hypothesis into iframes in documents proxied through Via.
-  // As well as slowing down the loading of the proxied page even more, this
-  // causes problems with the way that the client "discovers" annotate-able iframes.
-  //
-  // See https://github.com/hypothesis/client/issues/568,
-  // https://github.com/hypothesis/via/issues/119 and
-  // https://github.com/hypothesis/lms/issues/701.
-  return;
-}
+    if (!isTopViaFrame()) {
+      // Do not inject Hypothesis into iframes in documents proxied through Via.
+      // As well as slowing down the loading of the proxied page even more, this
+      // causes problems with the way that the client "discovers" annotate-able iframes.
+      //
+      // See https://github.com/hypothesis/client/issues/568,
+      // https://github.com/hypothesis/via/issues/119 and
+      // https://github.com/hypothesis/lms/issues/701.
+      return;
+    }
 
-// Inject the Hypothesis client.
-var embed_script = document.createElement("script");
-embed_script.src = "https://hypothes.is/embed.js";
-document.head.appendChild(embed_script);
+    // Inject the Hypothesis client.
+    var embed_script = document.createElement("script");
+    embed_script.src = "https://hypothes.is/embed.js";
+    document.head.appendChild(embed_script);
 
-setupExternalLinkHandler("same-tab");
+    setupExternalLinkHandler("same-tab");
 
-window.hypothesisConfig = function() {
-  return {"showHighlights": true, "appType": "via", "openSidebar": false};
-}})();
+    window.hypothesisConfig = function () {
+      return {
+        "showHighlights": true,
+        "appType": "via",
+        "openSidebar": false
+      };
+    }
+  })();
 </script>
 
 <head>
@@ -143,75 +149,211 @@ window.hypothesisConfig = function() {
   {{ partial "docs/inject/head" . }}
 </head>
 
+<style>
+
+  /*
+   * Dark Mode Toggle
+   * Copyright (c) 2015 instructure-react
+   * Forked from Dan Abramov's personal blog
+   * https://github.com/gaearon/overreacted.io/blob/master/src/components/Toggle.css
+   * MIT License
+  **/
+  
+  .js-toggle-wrapper {
+      display: table;
+      margin: 0 auto;
+      
+  }
+  
+  .js-toggle {
+      touch-action: pan-x;
+      display: inline-block;
+      position: relative;
+      cursor: pointer;
+      margin-left: 10px;
+      margin-top: 17px;
+      background-color: transparent;
+      border: 0;
+      padding: 0;
+      -webkit-touch-callout: none;
+      user-select: none;
+      -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+      -webkit-tap-highlight-color: transparent;
+    }
+    
+    .js-toggle-screenreader-only {
+      border: 0;
+      clip: rect(0 0 0 0);
+      height: 1px;
+      margin: -1px;
+      overflow: hidden;
+      padding: 0;
+      position: absolute;
+      width: 1px;
+    }
+    
+    .js-toggle-track {
+      width: 60px;
+      height: 34px;
+      padding: 0;
+      border-radius: 10px;
+      background-color: #0b0418e7;
+      transition: all 0.2s ease;
+    }
+    
+    .js-toggle-track-check {
+      position: absolute;
+      width: 17px;
+      height: 17px;
+      left: 10px;
+      top: 0px;
+      bottom: 0px;
+      margin-top: auto;
+      margin-bottom: auto;
+      line-height: 0;
+      opacity: 0;
+      transition: opacity 0.25s ease;
+    }
+    
+    .js-toggle--checked .js-toggle-track-check {
+      opacity: 1;
+      transition: opacity 0.25s ease;
+    }
+    
+    .js-toggle-track-x {
+      position: absolute;
+      width: 17px;
+      height: 17px;
+      right: 15px;
+      top: 0px;
+      bottom: 0px;
+      margin-left: 7px;
+      margin-top: auto;
+      margin-bottom: auto;
+      line-height: 0;
+      opacity: 1;
+      transition: opacity 0.25s ease;
+    }
+    
+    .js-toggle--checked .js-toggle-track-x {
+      opacity: 0;
+    }
+    
+    .js-toggle-thumb {
+      position: absolute;
+      top: 1px;
+      left: 14px;
+      right: 14px;
+      width: 8px;
+      height: 32px;
+      border-radius: 10%;
+      background-color: #fafafa;
+      box-sizing: border-box;
+      transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+      transform: translateX(0);
+    }
+    
+    .js-toggle--checked .js-toggle-thumb {
+      transform: translateX(26px);
+      border-color: #1976ab;
+    }
+    
+    .js-toggle--focus .js-toggle-thumb {
+      box-shadow: 0px 0px 2px 3px rgba(248, 248, 150, 0.438);
+    }
+    
+    .js-toggle:active .js-toggle-thumb {
+      box-shadow: 0px 0px 5px 5px rgba(248, 248, 150, 0.438);
+    }
+  </style>
+
 <body dir="{{ .Site.Language.LanguageDirection | default "ltr" }}">
 
+  <div class="js-toggle-wrapper">
+    <div class="js-toggle">
+        <div class="js-toggle-track">
+            <div class="js-toggle-track-check">
+                <img src="./images/jour.png" role="presentation" style="pointer-events: none;margin-top: -3px;" width="20" height="20">
+            </div>
+            <div class="js-toggle-track-x">
+                <img src="./images/nuit.png" role="presentation" style="pointer-events: none; margin-top: -3px;" width="22" height="24">
+            </div>
+        </div>
+        <div class="js-toggle-thumb"></div>
+        <input class="js-toggle-screenreader-only" type="checkbox" aria-label="Switch between Dark and Light mode">
+    </div>
 
 
-<p style="text-align: center; font-size:12px">
-<br/>
-Ici
-<br/>
-votre temps 
-<br/>
-est compté
-<br/>
+  <p style="text-align: center; font-size:12px; margin-left: 7px;">
+    <br />
+    Ici
+    <br />
+    votre temps
+    <br />
+    est compté
+    <br />
 
 
-<label id="heures">00</label>:<label id="minutes">00</label>:<label id="secondes">00</label>
+    <label id="heures">00</label>:<label id="minutes">00</label>:<label id="secondes">00</label>
 
-</p>
+  </p>
 
+</div>
 
-<script>
+  <script>
+    var heuresLabel = document.getElementById("heures");
+    var minutesLabel = document.getElementById("minutes");
+    var secondesLabel = document.getElementById("secondes");
+    var totalSecondes = 0;
+    setInterval(setTime, 1000);
 
-var heuresLabel = document.getElementById("heures");
-var minutesLabel = document.getElementById("minutes");
-var secondesLabel = document.getElementById("secondes");
-var totalSecondes = 0;
-setInterval(setTime, 1000);
+    function setTime() {
+      ++totalSecondes;
+      secondesLabel.innerHTML = pad(totalSecondes % 60);
+      minutesLabel.innerHTML = pad(parseInt(totalSecondes / 60));
+      heuresLabel.innerHTML = pad(parseInt(totalSecondes / 3600));
+    }
 
-function setTime() {
-  ++totalSecondes;
-  secondesLabel.innerHTML = pad(totalSecondes % 60);
-  minutesLabel.innerHTML = pad(parseInt(totalSecondes / 60));
-  heuresLabel.innerHTML = pad(parseInt(totalSecondes / 3600));
-}
-
-function pad(val) {
-  var valString = val + "";
-  if (valString.length < 2) {
-    return "0" + valString;
-  } else {
-    return valString;
-  }
-}
-</script>
+    function pad(val) {
+      var valString = val + "";
+      if (valString.length < 2) {
+        return "0" + valString;
+      } else {
+        return valString;
+      }
+    }
+  </script>
 
   <input type="checkbox" class="hidden toggle" id="menu-control" />
   <input type="checkbox" class="hidden toggle" id="toc-control" />
   <main class="container flex">
     <aside class="book-menu">
       <div class="book-menu-content">
-        {{ template "menu" . }} <!-- Left menu Content -->
+        {{ template "menu" . }}
+        <!-- Left menu Content -->
       </div>
     </aside>
 
     <div class="book-page">
       <header class="book-header">
-        {{ template "header" . }} <!-- Mobile layout header -->
+        {{ template "header" . }}
+        <!-- Mobile layout header -->
 
       </header>
 
       {{ partial "docs/inject/content-before" . }}
-      {{ template "main" . }} <!-- Page Content -->
+      {{ template "main" . }}
+      <!-- Page Content -->
       {{ partial "docs/inject/content-after" . }}
 
       <footer class="book-footer">
-        {{ template "footer" . }} <!-- Footer under page content -->
+        {{ template "footer" . }}
+        <!-- Footer under page content -->
         {{ partial "docs/inject/footer" . }}
       </footer>
 
-      {{ template "comments" . }} <!-- Comments block -->
+      {{ template "comments" . }}
+      <!-- Comments block -->
 
       <label for="menu-control" class="hidden book-menu-overlay"></label>
     </div>
@@ -219,7 +361,8 @@ function pad(val) {
     {{ if default true (default .Site.Params.BookToC .Params.BookToC) }}
     <aside class="book-toc">
       <div class="book-toc-content">
-        {{ template "toc" . }} <!-- Table of Contents -->
+        {{ template "toc" . }}
+        <!-- Table of Contents -->
       </div>
     </aside>
     {{ end }}
@@ -231,114 +374,151 @@ function pad(val) {
 </html>
 
 {{ define "menu" }}
-  {{ partial "docs/menu" . }}
+{{ partial "docs/menu" . }}
 {{ end }}
 
 {{ define "header" }}
-  {{ partial "docs/header" . }}
+{{ partial "docs/header" . }}
 
-  {{ if default true (default .Site.Params.BookToC .Params.BookToC) }}
-  <aside class="hidden clearfix">
-    {{ template "toc" . }}
-  </aside>
-  {{ end }}
+{{ if default true (default .Site.Params.BookToC .Params.BookToC) }}
+<aside class="hidden clearfix">
+  {{ template "toc" . }}
+</aside>
+{{ end }}
 {{ end }}
 
 {{ define "footer" }}
-  {{ partial "docs/footer" . }}
+{{ partial "docs/footer" . }}
 {{ end }}
 
 {{ define "comments" }}
-  {{ if and .Content (default true (default .Site.Params.BookComments .Params.BookComments)) }}
-  <div class="book-comments">
-    {{- partial "docs/comments" . -}}
-  </div>
-  {{ end }}
+{{ if and .Content (default true (default .Site.Params.BookComments .Params.BookComments)) }}
+<div class="book-comments">
+  {{- partial "docs/comments" . -}}
+</div>
+{{ end }}
 {{ end }}
 
 {{ define "main" }}
-  <article class="markdown">
-    <div class="meta">
-      <h1>{{.Title}}</h1>
-      <!--{{ if eq .IsHome true }}{{ else }}<p><a href="print.html">📃 print version</a></p>{{ end }}-->
-</div>
-    {{- .Content -}}
-    
-    {{ if eq .Params.fabrique "oui" }}
-    <section>
-        {{ range  where .Site.RegularPages "Section" "fabrique"  }}
-        <h3><time datetime="{{ dateFormat "2006-01" .Date }}">{{ dateFormat "2006-01" .Date }}</time> <a href="{{ .Permalink }}"> {{ .Title }}</h3></a>
-            
-        {{ end }}
-      </section>
-        {{ end }}
+<article class="markdown">
+  <div class="meta">
+    <h1>{{.Title}}</h1>
+    <!--{{ if eq .IsHome true }}{{ else }}<p><a href="print.html">📃 print version</a></p>{{ end }}-->
+  </div>
+  {{- .Content -}}
 
-    {{ if eq .Params.blog "oui" }}
-    <section>
-        {{ range  where .Site.RegularPages "Section" "posts"  }}
-        <h3><time datetime="{{ dateFormat "2006-01" .Date }}">{{ dateFormat "2006-01" .Date }}</time> <a href="{{ .Permalink }}"> {{ .Title }}</h3></a>
-            
-        {{ end }}
-      </section>
-        {{ end }}
+  {{ if eq .Params.fabrique "oui" }}
+  <section>
+    {{ range  where .Site.RegularPages "Section" "fabrique"  }}
+    <h3><time datetime="{{ dateFormat "2006-01" .Date }}">{{ dateFormat "2006-01" .Date }}</time> <a
+        href="{{ .Permalink }}"> {{ .Title }}</h3></a>
 
-        {{ if eq .Params.creation "oui" }}
-        <section>
-            {{ range  where .Site.RegularPages "Section" "creas"  }}
-            <h3><time datetime="{{ dateFormat "2006-01" .Date }}">{{ dateFormat "2006-01" .Date }}</time><a href="{{ .Permalink }}"> {{ .Title }}</h3></a>
-                
-            {{ end }}
-          </section>
-            {{ end }}
+    {{ end }}
+  </section>
+  {{ end }}
 
+  {{ if eq .Params.blog "oui" }}
+  <section>
+    {{ range  where .Site.RegularPages "Section" "posts"  }}
+    <h3><time datetime="{{ dateFormat "2006-01" .Date }}">{{ dateFormat "2006-01" .Date }}</time> <a
+        href="{{ .Permalink }}"> {{ .Title }}</h3></a>
 
-            {{ if eq .Params.jekyll "oui" }}
-            <section>
-                {{ range  (where .Site.RegularPages "Section" "hide").ByWeight  }}
-                <h3></time><a href="{{ .Permalink }}"> {{ .Title }}</a> <sup>{{ .Params.etat }}</sup></h3><p>{{ .Params.subtitle }}</p>
-                {{ end }}
-              </section>
-                {{ end }}
-    
-        {{ if eq .Params.doc "oui" }}
-        <section>
-            {{ range  where .Site.RegularPages "Section" "meds"  }}
-            <h3><time datetime="{{ dateFormat "2006-01" .Date }}">{{ dateFormat "2006-01" .Date }}</time><a href="{{ .Permalink }}"> {{ .Title }}</h3></a>
+    {{ end }}
+  </section>
+  {{ end }}
 
-            {{ end }}
-          </section>
-            {{ end }}
+  {{ if eq .Params.creation "oui" }}
+  <section>
+    {{ range  where .Site.RegularPages "Section" "creas"  }}
+    <h3><time datetime="{{ dateFormat "2006-01" .Date }}">{{ dateFormat "2006-01" .Date }}</time><a
+        href="{{ .Permalink }}"> {{ .Title }}</h3></a>
 
-            {{ if eq .Params.recherche "oui" }}
-            <section>
-                {{ range  where .Site.RegularPages "Section" "cherches"  }}
-                <h3><time datetime="{{ dateFormat "2006-01" .Date }}">{{ dateFormat "2006-01" .Date }}</time><a href="{{ .Permalink }}"> {{ .Title }}</h3></a>
-                {{ end }}
-              </section>
-                {{ end }}
-
-            {{ if eq .Params.conference "oui" }}
-            <section>
-                {{ range  where .Site.RegularPages "Section" "conf"  }}
-                <h3><time datetime="{{ dateFormat "2006-01" .Date }}">{{ dateFormat "2006-01" .Date }}</time><a href="{{ .Permalink }}"> {{ .Title }}</h3></a>
-                {{ end }}
-              </section>
-                {{ end }}
-                
+    {{ end }}
+  </section>
+  {{ end }}
 
 
-        {{ if eq .Params.tuto "oui" }}
-        <section>
-            {{ range  where .Site.RegularPages "Section" "tutos"  }}
-            <h3><a href="{{ .Permalink }}"> {{ .Title }}</h3></a>
-                
-            {{ end }}
-          </section>
-            {{ end }}
-  </article>
+  {{ if eq .Params.jekyll "oui" }}
+  <section>
+    {{ range  (where .Site.RegularPages "Section" "hide").ByWeight  }}
+    <h3></time><a href="{{ .Permalink }}"> {{ .Title }}</a> <sup>{{ .Params.etat }}</sup></h3>
+    <p>{{ .Params.subtitle }}</p>
+    {{ end }}
+  </section>
+  {{ end }}
+
+  {{ if eq .Params.doc "oui" }}
+  <section>
+    {{ range  where .Site.RegularPages "Section" "meds"  }}
+    <h3><time datetime="{{ dateFormat "2006-01" .Date }}">{{ dateFormat "2006-01" .Date }}</time><a
+        href="{{ .Permalink }}"> {{ .Title }}</h3></a>
+
+    {{ end }}
+  </section>
+  {{ end }}
+
+  {{ if eq .Params.recherche "oui" }}
+  <section>
+    {{ range  where .Site.RegularPages "Section" "cherches"  }}
+    <h3><time datetime="{{ dateFormat "2006-01" .Date }}">{{ dateFormat "2006-01" .Date }}</time><a
+        href="{{ .Permalink }}"> {{ .Title }}</h3></a>
+    {{ end }}
+  </section>
+  {{ end }}
+
+  {{ if eq .Params.conference "oui" }}
+  <section>
+    {{ range  where .Site.RegularPages "Section" "conf"  }}
+    <h3><time datetime="{{ dateFormat "2006-01" .Date }}">{{ dateFormat "2006-01" .Date }}</time><a
+        href="{{ .Permalink }}"> {{ .Title }}</h3></a>
+    {{ end }}
+  </section>
+  {{ end }}
+
+
+
+  {{ if eq .Params.tuto "oui" }}
+  <section>
+    {{ range  where .Site.RegularPages "Section" "tutos"  }}
+    <h3><a href="{{ .Permalink }}"> {{ .Title }}</h3></a>
+
+    {{ end }}
+  </section>
+  {{ end }}
+</article>
 {{ end }}
 
 
 {{ define "toc" }}
-  {{ partial "docs/toc" . }}
+{{ partial "docs/toc" . }}
 {{ end }}
+
+<script>
+  var body = document.body;
+var switcher = document.getElementsByClassName('js-toggle')[0];
+
+//Click on dark mode icon. Add dark mode classes and wrappers. Store user preference through sessions
+switcher.addEventListener("click", function() {
+      this.classList.toggle('js-toggle--checked');
+      this.classList.add('js-toggle--focus');
+  //If dark mode is selected
+  if (this.classList.contains('js-toggle--checked')) {
+    body.classList.add('dark-mode');
+    //Save user preference in storage
+    localStorage.setItem('darkMode', 'true');
+  } else {
+    body.classList.remove('dark-mode');
+    setTimeout(function() {
+      localStorage.removeItem('darkMode');
+    }, 100);
+  }
+})
+
+//Check Storage. Keep user preference on page reload
+if (localStorage.getItem('darkMode')) {
+  //body.classList.add('dark-mode');
+      switcher.classList.add('js-toggle--checked');
+      body.classList.add('dark-mode');
+}
+
+</script>

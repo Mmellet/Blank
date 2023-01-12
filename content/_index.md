@@ -13,7 +13,7 @@ Il se présente sur les non-lieux suivants :
 [Blog]({{< relref "/blog" >}}) rassemble un ensemble de posts divers.
 -->
 
-[Journal rose d'une doctorante]({{<relref "/recherche" >}}) tricote les entrelas de ma recherche. 
+[Carnet rose d'une doctorante]({{<relref "/recherche" >}}) tricote les entrelas de ma recherche. 
 
 [Fabrique de la pensée]({{<relref "/fabriques" >}})<sup>Nouveau</sup> déconstruit les étapes de structuration de la pensée.
 

@@ -35,15 +35,15 @@ $hint-colors: (
   --gray-200: #f8e8f1;
   --gray-500: #adb5bd;
 
-  --color-link: rgb(39, 207, 212);
-  --color-visited-link: rgb(41, 134, 138);
+  --color-link: rgb(7, 177, 163);
+  --color-visited-link: rgb(1, 94, 100);
 
   --body-background: white;
   --body-font-color: black;
 
   --icon-filter: none;
 
-  --hint-color-info: #6bf;
+  --hint-color-info: rgb(158, 255, 102);
   --hint-color-warning: #fd6;
   --hint-color-danger: #f66;
 }
@@ -63,7 +63,7 @@ $hint-colors: (
 
   --icon-filter: brightness(0) invert(1);
 
-  --hint-color-info: #6bf;
+  --hint-color-info: rgb(255, 102, 110);
   --hint-color-warning: #fd6;
   --hint-color-danger: #f66;
 }

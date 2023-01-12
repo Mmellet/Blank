@@ -2176,6 +2176,7 @@ PULL Pour m\u0026rsquo;informer que le colombogramme ne fonctionne pas : old way
 Hugo et le theme Book créé par Alex Shpak (version 0.68)
 le script de la bannière du site provient du Peeled Text Transforms créé par Zoë Bijl
 le timer a été conçu en JavaScript à l\u0026rsquo;aide de la documentation de W3Schools
+le dark mode provient du site de Dan Abramov, MIT License
 et les outils :
 VsCodium Github Gandi pour le nom de domaine M\u0026rsquo;ont aidé à construire cet espace : Antoine Fauchié et son carnet numérique quaternum, Enzo Poggio et David Larlet.
 `}),e.add({id:61,href:"/meditions/",title:"Meditions",section:"Pages",content:`Entre édition, méditations et médisances, les Méditions rassemblent une série d\u0026rsquo;écritures sur la question des pratiques d\u0026rsquo;édition vues et vécues de l\u0026rsquo;intérieur.

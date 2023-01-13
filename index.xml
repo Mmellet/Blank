@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>margot.mellet@umontreal.ca (Margot Mellet)</managingEditor>
     <webMaster>margot.mellet@umontreal.ca (Margot Mellet)</webMaster>
-    <lastBuildDate>Sat, 31 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blank.blue/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 12 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blank.blue/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Index</title>
       <link>https://blank.blue/hide/index/</link>
@@ -88,45 +88,14 @@ Our writing materials contribute their part to our thinking. [Nietzsche, letter 
     </item>
     
     <item>
-      <title>La contribution de la virgule</title>
-      <link>https://blank.blue/meditions/la-contribution-de-la-virgule/</link>
-      <pubDate>Sat, 31 Dec 2022 00:00:00 +0000</pubDate>
+      <title>Éloge des Faunes (respectueux)</title>
+      <link>https://blank.blue/cherches/eloge-des-faunes-respectueux/</link>
+      <pubDate>Thu, 12 Jan 2023 00:00:00 +0000</pubDate>
       <author>margot.mellet@umontreal.ca (Margot Mellet)</author>
-      <guid>https://blank.blue/meditions/la-contribution-de-la-virgule/</guid>
-      <description>Écranen Cours
-Parmi mes participations au laboratoire, j&amp;rsquo;ai été impliquée dans la rédaction de plusieurs demandes de subvention.
-Je n&amp;rsquo;ai cependant pas créé les projets qui ont été finalement financés, je ne les ai pas pensé, je les ai coordonné pour certains et je me suis acharné à les représenter à plusieurs occasions de financements.
-Que ce soit dans la reprise d&amp;rsquo;anciennes demandes à actualiser ou dans la composition from scratch de nouvelles demandes, la plupart des paragraphes proviennent de mains autres ou de brainstorming collectifs.</description>
-    </item>
-    
-    <item>
-      <title>La contribution de la virgule</title>
-      <link>https://blank.blue/cherches/la-contribution-de-la-virgule/</link>
-      <pubDate>Fri, 30 Dec 2022 00:00:00 +0000</pubDate>
-      <author>margot.mellet@umontreal.ca (Margot Mellet)</author>
-      <guid>https://blank.blue/cherches/la-contribution-de-la-virgule/</guid>
-      <description>Écranen Cours
-J&amp;rsquo;ai eu l&amp;rsquo;occasion de participer à plusieurs demandes de financements,
-de me faire porter par les dépressions des brainstorming, de faire la shiva : main sur clavier, sur écran, sur café, </description>
-    </item>
-    
-    <item>
-      <title>Résume un collaboratif</title>
-      <link>https://blank.blue/cherches/resume-un-collaboratif/</link>
-      <pubDate>Fri, 30 Dec 2022 00:00:00 +0000</pubDate>
-      <author>margot.mellet@umontreal.ca (Margot Mellet)</author>
-      <guid>https://blank.blue/cherches/resume-un-collaboratif/</guid>
-      <description>Écranen Cours
-Retour sur la Performative Writing du Congrès CCLA 2021 # En 2021, la CRCEN a participé au congrès annuel de l&amp;rsquo;Association Candienne de Littérature Comparée (ou CCLA) au nom du groupe de recherche Comparative Materialities: Media, Literature, Theory.</description>
-    </item>
-    
-    <item>
-      <title>Scientificité &amp; Créativité sont des mots à bannir</title>
-      <link>https://blank.blue/cherches/scientificite-creativite-sont-des-mots-a-bannir/</link>
-      <pubDate>Thu, 22 Dec 2022 00:00:00 +0000</pubDate>
-      <author>margot.mellet@umontreal.ca (Margot Mellet)</author>
-      <guid>https://blank.blue/cherches/scientificite-creativite-sont-des-mots-a-bannir/</guid>
-      <description></description>
+      <guid>https://blank.blue/cherches/eloge-des-faunes-respectueux/</guid>
+      <description>Ce post est destiné à déboulonner un principe de certitude de la recherche, il court dans la même veine que Scientificité &amp;amp; Créativité sont des mots à bannirÀ écrire et Insolence &amp;amp; HumilitéÀ écrire.
+La deuxième partie de ce post est un témoignage que l&amp;rsquo;œil peut sauter comme un mouton à sa guise puisqu&amp;rsquo;il ne comporte pas d&amp;rsquo;informations croustillantes sous la dent.
+Les heureux et les autres # Je le dis et le re-écris tant que cela est possible pour déculpabiliser certaines thèses têtes candidates au doctorat, un sujet évolue au gré et malgré toute bonne volonté de cohérence et de ligne droite.</description>
     </item>
     
     <item>
@@ -319,23 +288,6 @@ il ne s&#39;agissait pas de bénéficier de l&#39;aura institutionnelle d&#39;un
     </item>
     
     <item>
-      <title>Projet d&#39;un après thèse</title>
-      <link>https://blank.blue/fabrique/projet-dun-apres-these/</link>
-      <pubDate>Tue, 05 Jul 2022 00:00:00 +0000</pubDate>
-      <author>margot.mellet@umontreal.ca (Margot Mellet)</author>
-      <guid>https://blank.blue/fabrique/projet-dun-apres-these/</guid>
-      <description>Écranen Cours
-travail sur le descriptif d&amp;rsquo;un projet de post-doctorat
-Titre provisoire : Petites mains et Fabrique de la pensée
-[importance des petites mains]
-[lien avec doctorat]
-[définition]
-[projet post-doc]
-[concrètement]
-[question de la traduction : les petites mains sont un terme en français évident et compris sans traduction ni équivalence dans les autres langues / les études culturelles traitent de cette question et des enjeux plus clairement comme champ d&amp;rsquo;étude et méthodologie d&amp;rsquo;analyse.</description>
-    </item>
-    
-    <item>
       <title>Build / DeBuild</title>
       <link>https://blank.blue/fabrique/build-/-debuild/</link>
       <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
@@ -432,7 +384,7 @@ Planches # Premiers montages # Proposition 1 Proposition 2 Final # </description
       <guid>https://blank.blue/conf/rouen-2022-inscryption/</guid>
       <description>Remerciements des organisateurs et organisatrices pour cette occasion de parole et de partage.
 Présentation dans le cadre du colloque « Reconnecter un monde dévasté ? Représentation des enjeux environnementaux dans les jeux vidéo » (Univ. de Rouen-Normandie) - 8 Avril 2022
-Titre : Sacrifice must be made Sous-titre : Réflexions sur l&amp;#39;obsolescence dans le jeu Inscryption Slides # ouvrir dans mon navigateur Texte # Avertissement : ce qui suit est un spoiler en mots.</description>
+Titre : Sacrifice must be made Sous-titre : Réflexions sur l&amp;#39;obsolescence dans le jeu Inscryption Slides # ouvrir dans mon navigateur ouvrir dans mon navigateur Texte # Avertissement : ce qui suit est un spoiler en mots.</description>
     </item>
     
     <item>
@@ -674,6 +626,30 @@ Volet 1 # Brouillon Transcription Volet 2 # Volet 3 # Volet 4 # En écho Les Rus
     
     <item>
       <title></title>
+      <link>https://blank.blue/cherches/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>margot.mellet@umontreal.ca (Margot Mellet)</author>
+      <guid>https://blank.blue/cherches/</guid>
+      <description> C&amp;rsquo;est un peu comme faire sa thèse # En présentant dans un cadre non universitaire mon approche de l&amp;rsquo;écriture recherche-création, on m&amp;rsquo;a fait la réflexion suivante :
+C&amp;rsquo;est un peu comme un documentaire animalier.
+Et cette comparaison est juste.
+Pas parce que je pourrai donner un animal totem à chacun des chercheurs que je cite
+McLuhan comme épervier Kittler comme marmotte Hayles comme </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://blank.blue/conf/profil/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>margot.mellet@umontreal.ca (Margot Mellet)</author>
+      <guid>https://blank.blue/conf/profil/</guid>
+      <description>Écritures profilaires # Je vais vous présenter ce qu&amp;rsquo;on appelle les écritures profilaires
+Mais pour cela on va déjà commencer à parler du profil parce que c&amp;rsquo;est une notion qui a été travaillée et qui ne va pas de soi.
+Le profil, on le comprend tout d&amp;rsquo;abord comme un objet relevant du domaine de la vision, d&amp;rsquo;une représentation visuelle mais une représentation visuelle particulière parce que le profil joue avec les limites du montré/caché,</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://blank.blue/hide/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>margot.mellet@umontreal.ca (Margot Mellet)</author>
@@ -690,7 +666,7 @@ Self-forgetful writing, mirror stage, authorship &amp;ndash; these are the three
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>margot.mellet@umontreal.ca (Margot Mellet)</author>
       <guid>https://blank.blue/menu/</guid>
-      <description> Journal Fabrique Création Méditions Textes Vidéos Je suis Publications Conférences Crédits </description>
+      <description> Carnet Fabrique Création Méditions Textes Vidéos Je suis Publications Conférences Crédits </description>
     </item>
     
     <item>
@@ -829,6 +805,16 @@ Premier chapitre - Fabrique de la pensée : où on va établir avec moult réfé
       <guid>https://blank.blue/conference/</guid>
       <description>Espace pour organiser les notes et le matériel de présentation.
 À venir : CCLA, d&amp;rsquo;anciennes présentations si retrouvées</description>
+    </item>
+    
+    <item>
+      <title>Résume un collaboratif</title>
+      <link>https://blank.blue/cherches/resume-un-collaboratif/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>margot.mellet@umontreal.ca (Margot Mellet)</author>
+      <guid>https://blank.blue/cherches/resume-un-collaboratif/</guid>
+      <description>Écranen Cours
+Retour sur la Performative Writing du Congrès CCLA 2021 # En 2021, la CRCEN a participé au congrès annuel de l&amp;rsquo;Association Candienne de Littérature Comparée (ou CCLA) au nom du groupe de recherche Comparative Materialities: Media, Literature, Theory.</description>
     </item>
     
     <item>

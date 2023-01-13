@@ -3,6 +3,9 @@
 
 body.dark-mode,
 body.dark-mode main * {
+  span.rayure{
+    color:white
+  }
   div.book-menu-content {
     background-color: rgb(75, 93, 103);
   }
@@ -149,6 +152,10 @@ html,
 body {
   display: flex;
 
+}
+
+span.rayure{
+  color: black;
 }
 
 /* Fin ajout. */

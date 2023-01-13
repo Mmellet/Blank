@@ -8,7 +8,7 @@ headless: true;
 
 - **[Blog]({{< relref "/blog" >}})***-->
 
-- **[Journal]({{< relref "/recherche" >}})**
+- **[Carnet]({{< relref "/recherche" >}})**
 - **[Fabrique]({{< relref "/fabriques" >}})**
 - **[Création]({{< relref "/creations" >}})**
 - **[Méditions]({{< relref "/meditions" >}})**
@@ -17,5 +17,5 @@ headless: true;
 - **[Publications]({{< relref "/publications" >}})**
 - **[Conférences]({{< relref "/conference" >}})**
 - **[Crédits]({{< relref "/credits" >}})**
-
+<!--- **[Jesus Jekyll]({{< relref "/jekyll" >}})**-->
 ---

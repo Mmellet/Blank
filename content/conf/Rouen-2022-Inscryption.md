@@ -21,6 +21,10 @@ Sous-titre : Réflexions sur l'obsolescence dans le jeu Inscryption
 <a href="/html/Conf/Inscryption.html" target="_blank">ouvrir dans mon navigateur</a>
 </div>
 
+<iframe src="/html/Conf/Seance-1-1.html" title="description" allowfullscreen="allowfullscreen"></iframe>
+<div style="text-align:center">
+<a href="/html/Conf/Seance-1-1.html" target="_blank">ouvrir dans mon navigateur</a>
+</div>
 
 # Texte 
 

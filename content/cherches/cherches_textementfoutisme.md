@@ -5,7 +5,7 @@ date: 2022-11-28
 
 ---
 
-Déployé par <strike style='color:rgb(196, 43, 94);'><span style='color:black'>hasard</span></strike> erreur, ce post dévoile toute mon orgueilleuse insolence vis-à-vis de l'institution dont je me revandique pompeusement.
+Déployé par <strike style='color:rgb(196, 43, 94);'><span class="rayure">hasard</span></strike> erreur, ce post dévoile toute mon orgueilleuse insolence vis-à-vis de l'institution dont je me revandique pompeusement.
 
 ---
 
@@ -27,7 +27,7 @@ Cela m'a fait réaliser une chose que je clame véhément surtout lorsque assais
 
 ## Insolente ivresse d'une littéraire
 
-Aussi insolente que puisse <strike style='color:rgb(196, 43, 94);'><span style='color:black'>raisonner</span></strike> résonner cette phrase -- fil rouge de la plupart des posts de cet espace[^1] --, il ne s'agit pas de renier ou désavouer la valeur des analyses stylistiques classiques, des lectures thématiques, des commentaires dissertatifs. Je suis en amour de tous ces exercices de pensées, je les ai parcouru (au rythme de trois par semaine pendant 3 ans) et --même repue -- je ne trouverai jamais de fin à leur apprentissage, mais maintenant je veux de la chair neuve sous la dent. 
+Aussi insolente que puisse <strike style='color:rgb(196, 43, 94);'><span class="rayure">raisonner</span></strike> résonner cette phrase -- fil rouge de la plupart des posts de cet espace[^1] --, il ne s'agit pas de renier ou désavouer la valeur des analyses stylistiques classiques, des lectures thématiques, des commentaires dissertatifs. Je suis en amour de tous ces exercices de pensées, je les ai parcouru (au rythme de trois par semaine pendant 3 ans) et --même repue -- je ne trouverai jamais de fin à leur apprentissage, mais maintenant je veux de la chair neuve sous la dent. 
 
     Comme cet ogre qui mangeait les livres pour ne pas manger les enfants.
     Cet ogre nouveau qui est arrivé dans mes nuits d'enfant du passé.

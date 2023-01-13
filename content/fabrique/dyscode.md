@@ -5,12 +5,12 @@ date: 2022-11-01
 
 ----
 
-Ceci est la face d'un <strike style='color:rgb(196, 43, 94);'><span style='color:black'>monstre</span></strike> post à deux têtes
+Ceci est la face d'un <strike style='color:rgb(196, 43, 94);'><span class="rayure">monstre</span></strike> post à deux têtes
 <sup>[Pour sauter directement au cou de la deuxième](https://blank.blue/fabrique/tool-to-be-destroyed/)</sup>
 
 ---------
 
-Dans la lignée <strike style='color:rgb(196, 43, 94);'><span style='color:black'>despotique</span></strike> dystopique du dysfonctionnement (lutte à l'impératif fonctionnel [MVR](http://blog.sens-public.org/marcellovitalirosati/cequipourrait/imperatiffonctionnel.html)) comme notion aujourd'hui nécessaire, le détournement, l'insolence, et l'annihilation[^Annihilation] m'apparaissent être des modes de création et de réflexion sur ce qu'est le faire *ensemble*, le faire *savoir*, le faire *fair*. 
+Dans la lignée <strike style='color:rgb(196, 43, 94);'><span class="rayure">despotique</span></strike> dystopique du dysfonctionnement (lutte à l'impératif fonctionnel [MVR](http://blog.sens-public.org/marcellovitalirosati/cequipourrait/imperatiffonctionnel.html)) comme notion aujourd'hui nécessaire, le détournement, l'insolence, et l'annihilation[^Annihilation] m'apparaissent être des modes de création et de réflexion sur ce qu'est le faire *ensemble*, le faire *savoir*, le faire *fair*. 
 
 [^Annihilation]: Également en référence au film de Garland dont les suintements diachromes m'inspirent. 
 
@@ -83,7 +83,7 @@ Longtemps on m'a demandé et longtemps encore j'espère on me demandera :
 
 > [À quoi elle sert ta thèse ?](https://blank.blue/cherches/a-quoi-elle-sert-ta-these/)
 
-À ces interrogations aussi <strike style='color:rgb(196, 43, 94);'><span style='color:black'>bêlantes</span></strike> brûlantes qu'abissales[^abime], j'espère toujours pouvoir répondre, au-delà des bienséances et des conventions stratégiques, 
+À ces interrogations aussi <strike style='color:rgb(196, 43, 94);'><span class="rayure">bêlantes</span></strike> brûlantes qu'abissales[^abime], j'espère toujours pouvoir répondre, au-delà des bienséances et des conventions stratégiques, 
 
 > [À rien](https://blank.blue/cherches/a-quoi-elle-sert-ta-these/#%c3%a0-rien).
 
@@ -120,7 +120,7 @@ Le bug épileptique et le glitch bruyant demeurent des *features* qui n'ont just
 
 La première définition de « chercheur » que j'avais en tête était la suivante : « celui qui cherche à s'en sortir ». Sortir de quoi ?
 
-En tant que chercheurs [alerte tautologie primaire] on doit chercher, et pour chercher, il faut que des choses manquent à l'appel, que des rouages coincent, que des trous fassent sens et des petits pois matelas. Le rôle que je donne à cette figure de chercheur est justement de parler des mondes possibles, de ces features non-répertoriées qu'elles soient <strike style='color:rgb(196, 43, 94);'><span style='color:black'>dystopiques</span></strike> despotiques ou non. 
+En tant que chercheurs [alerte tautologie primaire] on doit chercher, et pour chercher, il faut que des choses manquent à l'appel, que des rouages coincent, que des trous fassent sens et des petits pois matelas. Le rôle que je donne à cette figure de chercheur est justement de parler des mondes possibles, de ces features non-répertoriées qu'elles soient <strike style='color:rgb(196, 43, 94);'><span class="rayure">dystopiques</span></strike> despotiques ou non. 
 
 >[nous sommes des] rats qui construisent eux-mêmes le labyrinthe dont ils se proposent de sortir. 
 >

@@ -20,7 +20,7 @@ L'idée de départ, qui est toujours en cours, était celle de créer un espace 
       du lisse et du définitif, 
       l'avant des discours propres et officiels
 
-Publier le <strike style='color:rgb(196, 43, 94);'><span style='color:black'>non-</span></strike>publiable. 
+Publier le <strike style='color:rgb(196, 43, 94);'><span class="rayure">non-</span></strike>publiable. 
 
 Mon Mani -- presque -- feste était de brouiller les pistes du scientifique pour cerner ce qui relève mais échappe à l'édition
 

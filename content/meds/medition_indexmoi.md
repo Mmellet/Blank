@@ -18,7 +18,7 @@ L'index est renversable : vers la gauche, la droite, le haut, le bas, y compris 
 
 L'index est organisé : il recense les informations ou *termes* qui auront été jugées pertinentes par types dans un ouvrage (noms, thèmes, figures, index). 
 
-Entre le monde et l'édition, <strike style='color:rgb(196, 43, 94);'><span style='color:black'>licorne</span></strike> l'icône. Et je me demande, dans la continuité de la question du [corps technique des petites mains](https://blank.blue/meditions/le-corps-technique-des-petites-mains/), 
+Entre le monde et l'édition, <strike style='color:rgb(196, 43, 94);'><span class="rayure">licorne</span></strike> l'icône. Et je me demande, dans la continuité de la question du [corps technique des petites mains](https://blank.blue/meditions/le-corps-technique-des-petites-mains/), 
 
 ## À qui appartiennent ces mains qui nous dirigent ?
 

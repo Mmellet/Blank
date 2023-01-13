@@ -34,7 +34,7 @@ Les petites mains, ce sont ces doigts qui s'agitent sur des tâches répétitive
 
 Les petites mains, ce sont celles de cette ouvrières gardée dans l'ombre de son emploi. 
 
-Ceux et celles qui aiment l'analogie entre texte et tissu[^1] auront de quoi nourrir leur métier, voici un nouveau lien entre le fil et le mot : les petites mains ont désigné au XIXe siècle un grade dans l'organisation des atelier de couture : les premières mains dirigent les petites mains qui exécutent. Ces *cousettes* sont toujours au féminin <strike style='color:rgb(196, 43, 94);'><span style='color:black'>parce qu'on sait, depuis le temps, que les mains des femmes sont bien plus délicates et fines par nature et donc parfaitement adaptées pour effectuer des travaux sensibles, rapides, ne demandant pas trop de réflexion par leur caractère hautement itératif</span></strike>. 
+Ceux et celles qui aiment l'analogie entre texte et tissu[^1] auront de quoi nourrir leur métier, voici un nouveau lien entre le fil et le mot : les petites mains ont désigné au XIXe siècle un grade dans l'organisation des atelier de couture : les premières mains dirigent les petites mains qui exécutent. Ces *cousettes* sont toujours au féminin <strike style='color:rgb(196, 43, 94);'><span class="rayure">parce qu'on sait, depuis le temps, que les mains des femmes sont bien plus délicates et fines par nature et donc parfaitement adaptées pour effectuer des travaux sensibles, rapides, ne demandant pas trop de réflexion par leur caractère hautement itératif</span></strike>. 
 
 Les petites mains sont celles des ouvrières dans le tissu, mais aussi celles des vierges courtisées dont on baise la blancheur, celles des enfants qui ont les doigts courts, ou celle de voleurs et leur talent de passe-passe. 
 

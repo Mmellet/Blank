@@ -24,7 +24,7 @@ Et c'est moins sa récurrence normalisée qui me marque ici que la gestion de ce
             On ressasse -- beaucoup -- en tête comme une névrose
             On écrit jamais dessus, jamais
 
-Je n'ose dire cette nouvelle qui n'en est pas une, tellement commune qu'elle en devient <strike style='color:rgb(196, 43, 94);'><span style='color:black'>anale</span></strike> banale, parce que toute la pudeur d'une exigence à la réussite m'ôte les mots. Alors je m'essaye ici devant un public qui sera tout aussi bien pluriel qu'inexistant mais qui n'aura certainement aucune pitié. 
+Je n'ose dire cette nouvelle qui n'en est pas une, tellement commune qu'elle en devient <strike style='color:rgb(196, 43, 94);'>anale</strike> banale, parce que toute la pudeur d'une exigence à la réussite m'ôte les mots. Alors je m'essaye ici devant un public qui sera tout aussi bien pluriel qu'inexistant mais qui n'aura certainement aucune pitié. 
 
 ## Drame de la recherche
 

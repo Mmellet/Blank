@@ -115,3 +115,30 @@ pour ne pas y répondre par une autre série de questions
 
 Le homard est celui qui observe les changements de l'eau, même si cette observation ne change pas -- encore -- l'issue, et continue pourtant d'aimer l'eau.
 
+## Is it just me ? 
+
+---
+
+Ceci est un Update sur le fil de la fabrique de ce post.
+
+---
+
+Au moment de deployer ce nouveau post, papillon dans le système : 
+
+<div align="center">
+<img alt="Lettrine" src="/images/bugGitdeploy.png" style="width:750px">
+</div>
+
+J'ai d'abord pensé que l'erreur provenait de mes petites mains 
+
+                qu'ai-je encore fait ?
+                c'est ça de bidouiller autant 
+                E. avait raison de lever les mains au ciel en voyant toutes mes modifications laissées unstaged
+
+puis je me suis dit que c'était le post de trop 
+
+                il est peut-être trop insolent celui-là
+                c'est un signe que l'Internet ne veut pas des homards
+                M. a raison de me dire d'écrire ma thèse plutôt que d'écrire des posts salés
+
+jusqu'à ce que [T.](https://thom4.net/) me conseille d'aller voir [Github <strike style='color:rgb(196, 43, 94);'><span class="rayure">stages</span></strike> status](https://www.githubstatus.com/) : le papillon dans le homard, c'est l'octocat. 

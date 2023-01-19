@@ -83,11 +83,16 @@ Je grogne souvent contre les images <strike style='color:rgb(196, 43, 94);'><spa
 ## Les cuissons du homard
 
 > Now Have you thought of what animal you'd like to be if you end up alone ? 
+>
 > Yes, a lobster. 
+>
 > Why a lobster ? 
+>
 > Because lobsters live for over 100 years, a blue blooded like aristocrats, and stay fertile all their lives. I also like the sea very much
 [...]
+>
 > A lobster is an excellent choice.
+>
 >
 > *The Lobster*, Lánthimos (2015)
 

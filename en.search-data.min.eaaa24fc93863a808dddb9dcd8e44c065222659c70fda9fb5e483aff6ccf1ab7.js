@@ -1017,7 +1017,11 @@ Faire des vagues à la surface # Leur réaction, pour toute l\u0026rsquo;ironie 
 le numérique vient d'arriver dans le siècle j'ai à peine l'âge de rechercher l'anti-âge il nous manque encore une indexation de la toile et ce n\u0026rsquo;est pourtant plus inédit surtout pour les générations qui ont toujours eu ces modes pour monde comme un bain, dans lequel moi je suis entrée, mais où éclosent déjà toutes sortes de créatures aquatiques
 pour barboter comme un cachet d'aspirine pour flotter entre des canards en plastiques à l'innocence versatile pour jouer avec les bulles diverses qui déversent encore des matières à mousser. et ce bain continue de se remplir. et nous de faire comme s\u0026rsquo;il nous appartenait par évidence ou par héritage.
 Je grogne souvent contre les images foireuses fumeuses éthérées du numérique qui en liquident la matière, mais il s\u0026rsquo;agit moins d\u0026rsquo;eau ici que de ce qu\u0026rsquo;on y plonge.
-Les cuissons du homard # Now Have you thought of what animal you\u0026rsquo;d like to be if you end up alone ? Yes, a lobster. Why a lobster ? Because lobsters live for over 100 years, a blue blooded like aristocrats, and stay fertile all their lives. I also like the sea very much [\u0026hellip;] A lobster is an excellent choice.
+Les cuissons du homard # Now Have you thought of what animal you\u0026rsquo;d like to be if you end up alone ?
+Yes, a lobster.
+Why a lobster ?
+Because lobsters live for over 100 years, a blue blooded like aristocrats, and stay fertile all their lives. I also like the sea very much [\u0026hellip;]
+A lobster is an excellent choice.
 The Lobster, Lánthimos (2015)
 Je pense que nous sommes des homards d\u0026rsquo;élevage sans le savoir et que selon les âges, nous cuissons différemment1
 certains sont assomés par l'eau glacée avant de plonger inconscient et la tête la première, certains sont réchauffés progressivement jusqu'à ébullition, certains sont jetés directement dans le bain sans prière, certains étaient déjà là, au fond de l'eau, et à ceux-là, nos éclaboussures sont des effusions bien naïves. Je me rends bien compte de la saveur technophobe qu\u0026rsquo;apporte le homard dans l\u0026rsquo;histoire, c\u0026rsquo;est pourquoi, pour la désépaissir un peu, je n\u0026rsquo;ai pas mentionné les mains \u0026ndash; pour une fois \u0026ndash; d\u0026rsquo;un quelconque cuisinier omnipotent qui déciderait de notre sort de crustacés. Il s\u0026rsquo;agit davantage de reprendre la question qui n\u0026rsquo;en était pas une

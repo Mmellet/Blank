@@ -25,7 +25,7 @@ Ce n'est pas que les visages étudiants étendaient leur commissures ostensiblem
 
 Mais au fond de leur pupilles, j'ai cru apercevoir une question, celle-ci
 
-> De quoi devons-nous étonner ? 
+> De quoi devons-nous nous étonner ? 
 
 En effet, plus rien d'étonnant. On acquiesce simplement comme une évidence qui n'est même pas discutable. Il ne nous resterait donc que l'ennui sinon la monotonie de parler de choses vécues au quotidien par l'auditoire. 
 
@@ -131,7 +131,7 @@ Ceci est un Update sur le fil de la fabrique de ce post.
 Au moment de deployer ce nouveau post, papillon dans le système : 
 
 <div align="center">
-<img alt="Lettrine" src="/images/bugGitdeploy.png" style="width:750px">
+<img alt="" src="/images/bugGitdeploy.png" style="width:750px">
 </div>
 
 J'ai d'abord pensé que l'erreur provenait de mes petites mains 
@@ -147,3 +147,4 @@ puis je me suis dit que c'était le post de trop
                 M. a raison de me dire d'écrire ma thèse plutôt que d'écrire des posts salés
 
 jusqu'à ce que [T.](https://thom4.net/) me conseille d'aller voir [Github <strike style='color:rgb(196, 43, 94);'><span class="rayure">stages</span></strike> status](https://www.githubstatus.com/) : le papillon dans le homard, c'est l'octocat. 
+

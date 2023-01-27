@@ -32,9 +32,9 @@ En effet, plus rien d'étonnant. On acquiesce simplement comme une évidence qui
 S'il y a 4 ans, parler des algorithmes de l'amour, des traques aux multiples divergences des données personnelles, ou même de ces serveurs ensevelis dans le mystère comme des coffres précieux, pouvaient provoquer l'écarquillement de quelques yeux attentifs
 
         et même les débats exclamés quelque fois 
-        « on ne peut pas numériser l'amour, il échappera toujours »
-        « moi, je ne suis le produit de personne »
-        « le numérique c'est pas palpable »
+        « on ne peut pas numériser l'amour, il échappera toujours ! »
+        « moi, je ne suis le produit de personne ! »
+        « le numérique c'est pas palpable ! »
 
 Aujourd'hui afficher dans des slides ces motifs généralisés, c'est comme annoncer une prochaine tempête de neige à Montréal : 
 
@@ -59,7 +59,7 @@ Au-delà de ce principe d'enseignement où peuvent transparaître des recherches
         choquer leurs périphériques,
         causer l'épiphanie dans leurs centrales.
 
-Au prochain cours, peut-être, je leur parlerai de homard. 
+Au prochain cours, peut-être, je leur parlerai de homard. Eco parle bien d'écrevisse...
 
 ## Faire des vagues à la surface
 

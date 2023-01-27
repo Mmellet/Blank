@@ -40,7 +40,7 @@ N'angoissez pas, il vous reste le meilleur de la thèse : la recherche de <strik
 
 Faîtes comme le Faune respectueux
 
-    qui renonce à courses les muses pour courir après lui-même.
+    qui renonce à courser les muses pour courir après lui-même.
 
 Faîtes meute avec des enfants aussi perdus que vous. 
 

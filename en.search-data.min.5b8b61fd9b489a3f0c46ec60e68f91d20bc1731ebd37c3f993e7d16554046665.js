@@ -999,7 +999,7 @@ Décrit comme « not exactly a companionable object » [@motion_cinder_2010]\u
 « Nox thus gives us a heightened awareness of reading as a spatialized and materialized activity. » [@sze_consolatory_2019, p. 68]\u0026#160;\u0026#x21a9;\u0026#xfe0e;
 « By limiting the reading process through the fragmentation, attention is drawn to the medium as a signifying tool. » [@palleau-papin_nox_2014, p. 9]\u0026#160;\u0026#x21a9;\u0026#xfe0e;
 Le terme ne sera pas traduit ici pour justement laisser le balancement entre l\u0026rsquo;idée de parcourir et de gratter, d\u0026rsquo;atteindre.\u0026#160;\u0026#x21a9;\u0026#xfe0e;
-`}),e.add({id:7,href:"/cherches/graph-your-inke/",title:"Graph your INKE",section:"Cherches",content:`Following my reflection on graphs, I decided to challenge GTR with a real research community, an established community, which is also committed to the development of collaborative practices for a wider expansion and legitimization of knowledge.
+`}),e.add({id:7,href:"/cherches/graph-your-inke/",title:"Graph your INKE",section:"Cherches",content:`Following my reflection on graphs, I decided to challenge GTR with a real research community, an established community, which is also committed to the development of collaborative practices for a wider expansion and legitimization of knowledge : INKE.
 I structured the references of their Publications page in an open Zotero library.
 I then proceeded to two experiments by filling in the necessary fields in the Play page of GTR.
 Authors according to Titles # open in a new page

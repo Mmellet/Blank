@@ -24,8 +24,14 @@
     <lastmod>2022-12-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blank.blue/</loc>
-    <lastmod>2023-01-27T00:00:00+00:00</lastmod>
+    <lastmod>2023-01-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
+  </url><url>
+    <loc>https://blank.blue/cherches/</loc>
+    <lastmod>2023-01-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blank.blue/cherches/graph-inke/</loc>
+    <lastmod>2023-01-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blank.blue/meds/</loc>
     <lastmod>2023-01-27T00:00:00+00:00</lastmod>
@@ -44,9 +50,6 @@
   </url><url>
     <loc>https://blank.blue/conf/unconference/</loc>
     <lastmod>2023-01-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blank.blue/cherches/</loc>
-    <lastmod>2023-01-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blank.blue/cherches/eloge-des-faunes-respectueux/</loc>
     <lastmod>2023-01-12T00:00:00+00:00</lastmod>

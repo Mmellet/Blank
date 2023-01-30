@@ -7,7 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>margot.mellet@umontreal.ca (Margot Mellet)</managingEditor>
     <webMaster>margot.mellet@umontreal.ca (Margot Mellet)</webMaster>
-    <lastBuildDate>Thu, 12 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blank.blue/cherches/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 30 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blank.blue/cherches/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Graph INKE</title>
+      <link>https://blank.blue/cherches/graph-inke/</link>
+      <pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate>
+      <author>margot.mellet@umontreal.ca (Margot Mellet)</author>
+      <guid>https://blank.blue/cherches/graph-inke/</guid>
+      <description>Following my reflection on graphs, I decided to challenge GTR with a real research community, an established community, which is also committed to the development of collaborative practices for a wider expansion and legitimization of knowledge.
+I structured the references of their Publications page in an open Zotero library.
+I then proceeded to two experiments by filling in the necessary fields in the Play page of GTR.
+Authors according to Titles # open in a new page</description>
+    </item>
+    
     <item>
       <title>Éloge des Faunes (respectueux)</title>
       <link>https://blank.blue/cherches/eloge-des-faunes-respectueux/</link>

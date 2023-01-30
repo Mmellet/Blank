@@ -3,11 +3,11 @@ title: "Graph your INKE"
 date: 2023-01-30
 ---
 
-Following my reflection on graphs, I decided to challenge GTR with a *real* research community, an established community, which is also committed to the development of collaborative practices for a wider expansion and legitimization of knowledge. 
+Following my reflection on graphs, I decided to challenge GTR with a *real* research community, an established community, which is also committed to the development of collaborative practices for a wider expansion and legitimization of knowledge : [INKE](https://inke.ca/).
 
 I structured the references of their [*Publications* page](https://inke.ca/publications/) in an open [Zotero library](https://www.zotero.org/groups/4929247/inke_for_gtr/items/CYCWSCA3/library).
 
-I then proceeded to two experiments by filling in the necessary fields in the [*Play* page](http://gtr.digitaltextualities.ca/play) of GTR. 
+I then proceeded to two experiments by filling in the necessary fields in the [*Play* page](http://gtr.digitaltextualities.ca/play) of [GTR](http://gtr.digitaltextualities.ca/). 
 
 ## Authors according to Titles
 

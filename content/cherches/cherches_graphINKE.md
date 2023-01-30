@@ -11,7 +11,7 @@ I then proceeded to two experiments by filling in the necessary fields in the [*
 
 ## Authors according to Titles
 
-<img src="/images/inke-author-title.png" alt="" width="1200" height="200"/>
+<img src="/images/inke-author-title.png" alt="" width="1200"/>
 
 <p style="text-align:center"><a href="https://blank.blue/images/inke-author-title" target="blank">open in a new page</a></p>
 
@@ -20,7 +20,7 @@ The graph here shows authors who have collaborated with one another: their links
 
 ## Titles according to Authors
 
-<img src="/images/inke-title-author.png" alt="" width="1200" height="200"/>
+<img src="/images/inke-title-author.png" alt="" width="1200" height="250"/>
 
 <p style="text-align:center"><a href="https://blank.blue/images/inke-author-title.png" target="blank">open in a new page</a></p>
 

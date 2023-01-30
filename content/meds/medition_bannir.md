@@ -1,5 +1,5 @@
 ---
-title: "Scientificité & Créativité sont des mots à bannir"
+title: "Scientificité & Créativité sont sans saveur"
 date: 2023-01-27
 ---
 

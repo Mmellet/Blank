@@ -1010,7 +1010,7 @@ These experiments focus on two values that are the title and the author. I did n
 Other page on Graph # The Fabrique of GTR
 The first idea of Graph
 Experimentation carried out under the first advice of A.
-`}),e.add({id:8,href:"/meditions/scientificite-creativite-sont-des-mots-a-bannir/",title:"Scientificité \u0026 Créativité sont des mots à bannir",section:"Meds",content:`Par principe, je n\u0026rsquo;ai pas le goût pour ce post.
+`}),e.add({id:8,href:"/meditions/scientificite-creativite-sont-sans-saveur/",title:"Scientificité \u0026 Créativité sont sans saveur",section:"Meds",content:`Par principe, je n\u0026rsquo;ai pas le goût pour ce post.
 Les jours passés m\u0026rsquo;ont donné de moins en moins envie de l\u0026rsquo;écrire et il me semble encore en écrivant ces mots que laisser page vide \u0026ndash; ou faire page noire \u0026ndash; serait bien plus éloquent que toute argumentation de contraste.
 comme le mythe universitaire « c'est quoi l'audace ? » [page blanche] « c'est ça » J\u0026rsquo;ai eu l\u0026rsquo;idée d\u0026rsquo;écrire ce post au moment où M.V.R. m\u0026rsquo;a fait remarquer l\u0026rsquo;inutilité de ces termes. Je me suis alors mise à les voir partout et depuis cela ne s\u0026rsquo;est pas arrêté.
 En généralité, toutes déclinaisons et cousinage du type [-ité] ont une certaine laidité vacuité et vanité, mais ces deux-là, particulièrement vivaces dans les discours de recherche et création, ont quelque chose d\u0026rsquo;une banalité tout en déclarant, aussi fort qu\u0026rsquo;un paon dans une basse cour, une autorité sans constat.

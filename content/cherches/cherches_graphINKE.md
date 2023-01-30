@@ -1,5 +1,5 @@
 ---
-title: "Graph INKE"
+title: "Graph your INKE"
 date: 2023-01-30
 ---
 

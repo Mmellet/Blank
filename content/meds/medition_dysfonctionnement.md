@@ -1,6 +1,6 @@
 ---
 title: "Petites mains dysfonctionnelles"
-date: 2022-09-22
+date: 2023-09-22
 ---
 
 1. Qu’est ce que CONCEPT ? Donnez une définition théorique simple et une définition théorique complexe.

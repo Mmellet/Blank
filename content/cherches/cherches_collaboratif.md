@@ -1,6 +1,6 @@
 ---
 title: "Résume un collaboratif"
-date: 20223-12-30
+date: 2023-12-30
 ---
 
 ---

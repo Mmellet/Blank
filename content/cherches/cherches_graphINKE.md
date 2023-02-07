@@ -13,7 +13,7 @@ I then proceeded to two experiments by filling in the necessary fields in the [*
 
 <img src="/images/inke-author-title.png" alt="" width="1200"/>
 
-<p style="text-align:center"><a href="https://blank.blue/images/inke-author-title" target="blank">open in a new page</a></p>
+<p style="text-align:center"><a href="https://blank.blue/images/inke-title-author.png" target="blank">open in a new page</a></p>
 
 
 The graph here shows authors who have collaborated with one another: their links is the reference written together.

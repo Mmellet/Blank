@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+
+
+
+<script>
+  wbinfo = {}
+  wbinfo.url = "https://mmellet.github.io/CreationThese/Version.html";
+  wbinfo.timestamp = "20200720215953";
+  wbinfo.request_ts = "";
+  wbinfo.prefix = "https://via.hypothes.is/";
+  wbinfo.mod = "";
+  wbinfo.top_url = "https://via.hypothes.is/https://mmellet.github.io/CreationThese/Version.html";
+  wbinfo.is_framed = false;
+  wbinfo.is_live = true;
+  wbinfo.coll = "";
+  wbinfo.proxy_magic = "";
+  wbinfo.static_prefix = "https://via.hypothes.is/static/__pywb";
+</script>
+
+<script src='https://via.hypothes.is/static/__pywb/wombat.js'> </script>
+
+<script src='https://via.hypothes.is/static/__pywb/wb.js'> </script>
+<script src='https://via.hypothes.is/static/__pywb/vidrw.js'> </script>
+
+<script>
+  
+
+  function isTopViaFrame() {
+    if (window === window.top) {
+      
+      
+      return true;
+    }
+
+    try {
+      
+      
+      
+      var parent = window.__WB_orig_parent || window.parent;
+
+      
+      
+      
+      
+      
+      
+      parent.location.href;
+
+      
+      
+      return false;
+    } catch (err) {
+      
+      
+      return true;
+    }
+  }
+
+  function stripFragment(url) {
+    return url.replace(/#.*$/, '');
+  }
+
+  
+
+  function isExternalLink(linkEl) {
+    
+    
+    
+    
+    
+    
+    
+    const internalLink = document.createElement('a');
+
+    
+    internalLink.href = '#';
+
+    return stripFragment(internalLink.href) !== stripFragment(linkEl.href);
+  }
+
+  
+
+  function setupExternalLinkHandler(mode) {
+    if (mode === "new-tab") {
+      document.addEventListener("click", function (event) {
+        if (!event.target.closest) {
+          
+          return;
+        }
+
+        var linkEl = event.target.closest("a");
+        if (linkEl) {
+          if (isExternalLink(linkEl)) {
+            
+            linkEl.target = "_blank";
+          }
+        }
+      });
+    }
+  }
+
+  (function () {
+
+    if (!isTopViaFrame()) {
+      
+      
+      
+      
+      
+      
+      
+      return;
+    }
+
+    
+    var embed_script = document.createElement("script");
+    embed_script.src = "https://hypothes.is/embed.js";
+    document.head.appendChild(embed_script);
+
+    setupExternalLinkHandler("same-tab");
+
+    window.hypothesisConfig = function () {
+      return {
+        "showHighlights": true,
+        "appType": "via",
+        "openSidebar": false
+      };
+    }
+  })();
+</script>
+
+<head>
+  <meta name="generator" content="Hugo 0.110.0">
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="[#todo]
+CRCEN exemple antoine ajouter lecture Factory of knowledge où on va établir avec moult références le cadre théorique et introduire la perspective de cette étude
+S&rsquo;affichant sur les écrans de leurs machines, lovée dans leurs articulations cagneuses et émergeant des tâches d&rsquo;encre versées de dépit, une même question semble hanter les couloirs des lieux de savoirs notamment ceux arpentés par les théories littéraires et les théories des médias.
+À moitié murmurée, à moitié avalée, Sommes-nous [.">
+<meta name="theme-color" content="#FFFFFF">
+<meta name="robots" content="noindex, nofollow"/><meta property="og:title" content="La Fabrique de la fabrique" />
+<meta property="og:description" content="[#todo]
+CRCEN exemple antoine ajouter lecture Factory of knowledge où on va établir avec moult références le cadre théorique et introduire la perspective de cette étude
+S&rsquo;affichant sur les écrans de leurs machines, lovée dans leurs articulations cagneuses et émergeant des tâches d&rsquo;encre versées de dépit, une même question semble hanter les couloirs des lieux de savoirs notamment ceux arpentés par les théories littéraires et les théories des médias.
+À moitié murmurée, à moitié avalée, Sommes-nous [." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://blank.blue/hide/la-fabrique-de-la-fabrique/" /><meta property="article:section" content="hide" />
+
+
+<title>La Fabrique de la fabrique | </title>
+<link rel="manifest" href="../../manifest.json">
+<link rel="icon" href="../../logo.png" type="image/x-icon">
+<link rel="stylesheet" href="../../book.min.f8fda705f7add46010c7edf5e0c1d0afde1d3c84c0536d76a3f73607eee54d6b.css" integrity="sha256-&#43;P2nBfet1GAQx&#43;314MHQr94dPITAU212o/c2B&#43;7lTWs=">
+<script defer src="../../en.search.min.62e51d272e4466af084d2bdf607eee3ab7b1fb548b3e6214be43c5e002e1b102.js" integrity="sha256-YuUdJy5EZq8ITSvfYH7uOrex&#43;1SLPmIUvkPF4ALhsQI="></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+  
+</head>
+
+<style>
+
+   
+  
+  .js-toggle-wrapper {
+      display: table;
+      margin: 0 auto;
+      
+  }
+  
+  .js-toggle {
+      touch-action: pan-x;
+      display: inline-block;
+      position: relative;
+      cursor: pointer;
+      margin-left: 10px;
+      margin-top: 17px;
+      background-color: transparent;
+      border: 0;
+      padding: 0;
+      -webkit-touch-callout: none;
+      user-select: none;
+      -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+      -webkit-tap-highlight-color: transparent;
+    }
+    
+    .js-toggle-screenreader-only {
+      border: 0;
+      clip: rect(0 0 0 0);
+      height: 1px;
+      margin: -1px;
+      overflow: hidden;
+      padding: 0;
+      position: absolute;
+      width: 1px;
+    }
+    
+    .js-toggle-track {
+      width: 60px;
+      height: 34px;
+      padding: 0;
+      border-radius: 10px;
+      background-color: #0b0418e7;
+      transition: all 0.2s ease;
+    }
+    
+    .js-toggle-track-check {
+      position: absolute;
+      width: 17px;
+      height: 17px;
+      left: 10px;
+      top: 0px;
+      bottom: 0px;
+      margin-top: auto;
+      margin-bottom: auto;
+      line-height: 0;
+      opacity: 0;
+      transition: opacity 0.25s ease;
+    }
+    
+    .js-toggle--checked .js-toggle-track-check {
+      opacity: 1;
+      transition: opacity 0.25s ease;
+    }
+    
+    .js-toggle-track-x {
+      position: absolute;
+      width: 17px;
+      height: 17px;
+      right: 15px;
+      top: 0px;
+      bottom: 0px;
+      margin-left: 7px;
+      margin-top: auto;
+      margin-bottom: auto;
+      line-height: 0;
+      opacity: 1;
+      transition: opacity 0.25s ease;
+    }
+    
+    .js-toggle--checked .js-toggle-track-x {
+      opacity: 0;
+    }
+    
+    .js-toggle-thumb {
+      position: absolute;
+      top: 1px;
+      left: 14px;
+      right: 14px;
+      width: 8px;
+      height: 32px;
+      border-radius: 10%;
+      background-color: #fafafa;
+      box-sizing: border-box;
+      transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+      transform: translateX(0);
+    }
+    
+    .js-toggle--checked .js-toggle-thumb {
+      transform: translateX(26px);
+      border-color: #1976ab;
+    }
+    
+    .js-toggle--focus .js-toggle-thumb {
+      box-shadow: 0px 0px 2px 3px rgba(248, 248, 150, 0.438);
+    }
+    
+    .js-toggle:active .js-toggle-thumb {
+      box-shadow: 0px 0px 5px 5px rgba(248, 248, 150, 0.438);
+    }
+  </style>
+
+<body dir="ltr">
+
+  <div class="js-toggle-wrapper">
+    <div class="js-toggle">
+        <div class="js-toggle-track">
+            <div class="js-toggle-track-check">
+                <img src="../../images/jour.png" role="presentation" style="pointer-events: none;margin-top: -3px;" width="20" height="20">
+            </div>
+            <div class="js-toggle-track-x">
+                <img src="../../images/nuit.png" role="presentation" style="pointer-events: none; margin-top: -3px;" width="22" height="24">
+            </div>
+        </div>
+        <div class="js-toggle-thumb"></div>
+        <input class="js-toggle-screenreader-only" type="checkbox" aria-label="Switch between Dark and Light mode">
+    </div>
+
+
+  <p style="text-align: center; font-size:12px; margin-left: 7px;">
+    <br />
+    Ici
+    <br />
+    votre temps
+    <br />
+    est compté
+    <br />
+
+
+    <label id="heures">00</label>:<label id="minutes">00</label>:<label id="secondes">00</label>
+
+  </p>
+
+</div>
+
+  <script>
+    var heuresLabel = document.getElementById("heures");
+    var minutesLabel = document.getElementById("minutes");
+    var secondesLabel = document.getElementById("secondes");
+    var totalSecondes = 0;
+    setInterval(setTime, 1000);
+
+    function setTime() {
+      ++totalSecondes;
+      secondesLabel.innerHTML = pad(totalSecondes % 60);
+      minutesLabel.innerHTML = pad(parseInt(totalSecondes / 60));
+      heuresLabel.innerHTML = pad(parseInt(totalSecondes / 3600));
+    }
+
+    function pad(val) {
+      var valString = val + "";
+      if (valString.length < 2) {
+        return "0" + valString;
+      } else {
+        return valString;
+      }
+    }
+  </script>
+
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+<nav>
+<h2 class="book-brand">
+  <a href="../../"><span></span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr>
+
+
+  <!--- **[Projets](/projects/)**-->
+<!--- **[Créations](/creations/)*
+
+- **[Blog](/blog/)***-->
+<ul>
+<li><strong><a href="../../recherche/">Carnet</a></strong></li>
+<li><strong><a href="../../fabriques/">Fabrique</a></strong></li>
+<li><strong><a href="../../creations/">Création</a></strong></li>
+<li><strong><a href="../../meditions/">Méditions</a></strong></li>
+<li><strong><a href="../../textes-videos/">Textes Vidéos</a></strong></li>
+<li><strong><a href="../../about/">Je suis</a></strong></li>
+<li><strong><a href="../../publications/">Publications</a></strong></li>
+<li><strong><a href="../../conference/">Conférences</a></strong></li>
+<li><strong><a href="../../credits/">Crédits</a></strong></li>
+</ul>
+<!--- **[Jesus Jekyll](/jekyll/)**-->
+<hr>
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside.book-menu nav");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+
+        
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+<head>
+<link rel="print" type="text/html" href="https://blank.blue/hide/la-fabrique-de-la-fabrique/print.html" title="" />
+</head>
+
+
+<div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="../../svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+
+  <label for="toc-control">
+    
+    <img src="../../svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+
+
+
+
+<aside class="hidden clearfix">
+  
+
+<nav id="TableOfContents"></nav>
+
+
+
+</aside>
+
+
+        
+
+      </header>
+
+      
+<div class="Blank">
+ 
+  <a href="../../"><p class="Blank" aria-label="CodePen">
+    <span data-text="B" style="color: #0b0418e7;">B</span>
+    <span data-text="l" style="color: #0b0418e7;">l</span>
+    <span data-text="a" style="color: #0b0418e7;">a</span>
+    <span data-text="n" style="color: #0b0418e7;">n</span>
+    <span data-text="k" style="color: #0b0418e7;">k</span> 
+    <span class="Blank" style="color: #0b0418e7; background-color: transparent;">Site en <br/>déconstruction</span>
+    </p>
+  </a>
+
+  
+
+
+  </div>
+      
+<article class="markdown">
+  <div class="meta">
+    <h1>La Fabrique de la fabrique</h1>
+    
+  </div><p>[#todo]</p>
+<ul>
+<li>CRCEN exemple
+<ul>
+<li>antoine</li>
+</ul>
+</li>
+<li>ajouter lecture Factory of knowledge</li>
+</ul>
+<hr>
+<p><em>où on va établir avec moult références le cadre théorique et introduire la perspective de cette étude</em></p>
+<p>S&rsquo;affichant sur les écrans de leurs machines, lovée dans leurs articulations cagneuses et émergeant des tâches d&rsquo;encre versées de dépit, une même question semble hanter les couloirs des lieux de savoirs notamment ceux arpentés par les théories littéraires et les théories des médias.</p>
+<pre><code>À moitié murmurée, à moitié avalée, 
+Sommes-nous [...] ? 
+Est-ce-nous qui [...] ?
+Qui [...] et d'où [...] ?
+</code></pre>
+<p>En ombre partagée des études, l&rsquo;interrogative &ndash; sinon éternelle du moins récurrente &ndash; traduit autant une curiosité génésiaque que le soucis de contrôle d&rsquo;un regard manifestement égocentré : l&rsquo;humain est-il au centre de sa création, ou est-il le produit de cette dernière ? Et si cette création se trouve être un intermédiaire à la production du sens, l&rsquo;humain qui l&rsquo;utilise ou qui la conçoit est-il véritablement au cœur de la fabrication de la pensée ou est-ce son humanité même qui est le fait de la création ? En somme, qui produit qui ?</p>
+<p>Sursaut sensiblement redondant de la dialectique hegelienne du maître et de l&rsquo;esclave, ranimé sous les nouvelles modalités du numérique, la réflexion sur l&rsquo;origine et l&rsquo;attribution de la propriété rejoint des enjeux politiques attachés non seulement à penser la question du pouvoir &ndash; ou de sa passation lorsqu&rsquo;un intermédiaire se retrouve au centre d&rsquo;un système de production auparavant autonome &ndash; mais également à considérer les éléments qui, techniquement, matériellement et même symboliquement, viennent déterminer une production en deçà et au-delà de ce qu&rsquo;avait prévu un éventuel créateur. L&rsquo;auteur, avec toute l&rsquo;idéalité que l&rsquo;on peut apposer à ce statut, est à bien des égards une fonction de son environnement média-technique [@kittler_discourse_1990], comprenant l&rsquo;environnement qui produit son écriture. Or, au-delà de cette figure, c&rsquo;est toute la définition d&rsquo;une humanité et d&rsquo;un humanisme qui se fait <em>en fonction</em> d&rsquo;environnements d&rsquo;écriture.</p>
+<p>Par cette même inquiétude liées, les théories littéraires et les théories des médias seront ici réunies pour enquêter sur ce qui produit un texte au-delà de son créateur d&rsquo;abord, mais également en deçà de ses intervenants (éditeurs, relecteur·rices entre autres). Les théories des médias, par leur angle d&rsquo;étude, se consacrent aux phénomènes de production, de structuration et de diffusion culturelle par l&rsquo;étude de cet étrange objet qu&rsquo;est le média, alors considéré tantôt participant, tantôt agent, du moins actif. Inspirée par cette approche largement interdisciplinaire &ndash; liant, selon diverses recettes, communication, archéologie, sémiotique, bibliothéconomie, histoire &ndash;, la recherche littéraire se fond en une veille sur les environnements d&rsquo;écriture et sur leur rôle à la création où le sujet de l&rsquo;auteur (qui écrit ?) sera indirectement posé au travers et profit de celui de la matière (qu&rsquo;est-ce-qui écrit ?). Dans la perspective de Kittler, l&rsquo;auteur est une fonction de son environnement média-technique, et si le chercheur allemand remarquait des changement majeur de cet environnement en 1900 &ndash; désormais façonné par le son (apparition du phonographe qui enregistre ce que l&rsquo;écriture ne parvenait pas à dire), l&rsquo;imaginaire hors-cadre (avec le cinéma dont les images agissent directement sur le système nerveux) et une accélération de l&rsquo;écriture (la machine à écrire) &ndash;, il est certain que le développement des objets et outils numériques l&rsquo;a encore modifié. Lieux qui contiennent les réels (identité, culture, profession), les environnements numériques sont l&rsquo;espace du tout écrit et la question qui animait Kittler en 1990 recouvre un nouvel éclat : « Si tout s’écrit, que faut-il lire et comment ? » [@guez_mort_2017]. Ce qui a été formulé étroitement comme la « mort de l&rsquo;auteur » par Barthes et Foucault se traduit chez Kittler par un changement de paradigme culturel de l&rsquo;écriture, perspective d&rsquo;étude plus vaste qui se concentre tout de même sur le système d&rsquo;inscription de 1800. Le changement opéré entre 1800 et 1900 ne peut se résumer pour le chercheur comme une simple innovation aux échos limités à la seule rédaction puisqu&rsquo;il impacte autant les dynamiques institutionnelles d&rsquo;enseignement et d&rsquo;apprentissage que les méthodes de stockage et de traitement des données. Pour la littérature, cela signifie, comme le rappellent Guez et Vargoz dans leur lecture de Kittler, que le « monde d’idées universelles est le fondement et l’horizon de la littérature et de la lecture » [@guez_mort_2017].</p>
+<p>À l&rsquo;instar du projet de Kittler, il s&rsquo;agit de procéder à une décomposition média-technique du discours. Détrôner l&rsquo;auteur ne signifie pas que la perspective humaniste à l&rsquo;origine de la recherche est abandonnée aux limbes : étudier les réalités du texte avec une démarche de recherche et création s&rsquo;inscrit dans une quête, narrative et métatextuelle, de notre adresse à l&rsquo;écriture. Quel est notre lieu, à nous humains, dans la machine littéraire ? Où se trouvent nos points d&rsquo;expression et de pression sur des rouages qui impliquent non seulement une réflexion technique mais également un engagement politique et éthique ? Quels sont les compromis que nous acceptons (peut-être sans autre moyen de refus, peut-être sans conscience éclairée) dans le contrat d&rsquo;écriture passé avec notre environnement d&rsquo;inscription ?</p>
+<p>Le terme de « fabrique » a été choisi comme titre pour participer d&rsquo;une démarche en deux dimensions : d&rsquo;abord s&rsquo;inscrire dans une approche éditoriale de l&rsquo;écriture ; ensuite témoigner d&rsquo;un premier rouage de l&rsquo;écriture ici-même. La fabrique possède déjà une vie de déclinaisons et a connu divers mariages (<em>La fabrique du livre</em>, <em>La fabrique de la littérature</em>, <em>La fabrique de la science</em>, <em>La fabrique des humanités</em>, <em>La fabrique des pensées</em>, etc.). Il est donc peu probable que l&rsquo;alliage que nous proposons ici ne soit pas sans précédent<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> mais il aura l&rsquo;avantage de tenter un questionnement de fond d&rsquo;un modèle théorique qui décompose nos définitions (humanités, science, écriture) par la pratique. Il reste une constante entre ces unions : celle de comprendre le fonctionnement ou l&rsquo;économie interne de l&rsquo;objet saisi comme un artisanat au sens d&rsquo;art du <em>faire</em>. Demi-tour de la fabrique sur elle-même, la réflexion ici souhaite comprendre sur quel terrain idéologique s&rsquo;est batî cet édifice, par quelles méthologies de recherche et perspectives humanistes il a été influencé et certainement même déterminé.</p>
+<p>La définition de la fabrique, si on retrouve le terme dans d&rsquo;autres domaines dont les études littéraires, a surtout été la quête des études liées au design éditorial (Flusser, Fauchié) ou encore dans une perspective anthropologique (Ingold)[^references]. La perspective humaniste de ces travaux qui s&rsquo;articulent comme des enquêtes entre terrains, arts et philosophies se place en continuité d&rsquo;une définition de l&rsquo;humain et d&rsquo;un désir de compréhension de ce qui le distingue des autres formes d&rsquo;être : saisissant l&rsquo;<em>homo faber</em>, Flusser développe une réflexion sur l&rsquo;importance de la <em>fabrique</em> pour la reconnaissance des individus entre eux<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>. Pour comprendre toute la densité du terme, Flusser mentionne les différentes périodes de la fabrique humaine déterminées par le moyen d&rsquo;intervention (main, outil, machine, appareils). De ces méthodes d&rsquo;action sur le monde, Flusser retiendra surtout le premier, le plus « génétique » selon lui :</p>
+<blockquote>
+<p>Fabriquer, cela signifie d&rsquo;abord manipuler et détourner quelque chose qui fait partir du donné, le changer en artefact et le tourner vers l&rsquo;application pratique. Ces gestes qui manipulent et détournent, ils sont exécutés d&rsquo;abord par les mains, puis par des outils, des machines et finalement par des machineries plus complexes. [&hellip;] [L]a fabrique est le lieu où ce qui était donné est manipulé, transformé en artefact [&hellip;]. (Flusser 2002, p. 58)</p>
+</blockquote>
+<blockquote>
+<p>Manufacturing means turning what is available in the environment to one&rsquo;s own advantage, turning it into some-thing manufactured, turning it over to use and thus turning it to account. These turning movements are carried out initially by hands, then by tools, machines and, finally, robots. [&hellip;] Accordingly, facto-ries are places where what is available in the environment is turned into manufactures, and at the same time less and less inherited information and more and more acquired, learned information is introduced. (Flusser, The shape of things, 1999, p. 44)</p>
+</blockquote>
+<p>Engagée pour la reconnaissance d&rsquo;un artisanat ou d&rsquo;activité peu reconnues dans les études archéologiques, sa réflexion distingue peut-être un peu trop artificiellement les fabriques artisanales (comme la poterie) des arts d&rsquo;expression (comme la littérature). Son propos n&rsquo;est pas de refuser la dimension concrète et même artisanale à ces arts mais de rompre avec une certaine tradition de la quête humaniste (autant celle de la Réforme que celle de la Renaissance). Attachée aux œuvres d&rsquo;arts, aux textes politiques, philosophiques ou théologiques, cette tradition humaniste ne s&rsquo;est au fond, et c&rsquo;est là le cœur de l&rsquo;argument de Flusser, intéressée qu&rsquo;à une facette du kaléidoscope humain ne concernant qu&rsquo;un groupe isolé et sélectif de travailleurs copistes et qu&rsquo;un public restreint et élite. Cette pensée incarne ainsi une posture intellectuelle qui ouvre le champs des objets d&rsquo;études à d&rsquo;autres niveaux de productions comme de classes sociales : ouvrir l&rsquo;enquête aux usines (terme utilisé par Flusser) ou, pour proposer une image qui marque l&rsquo;antagonisme développé par le chercheur, la sortir des musées. La fabrique du futur de Flusser, en problématisant l&rsquo;opposition entre école noble et vile fabrique, argumente en faveur d&rsquo;une liaison entre l&rsquo;homo faber et l&rsquo;homo sapiens sapiens.</p>
+<p>Inclusivité entre les modes de production du savoir et ouverture de la science formelle, la fabrique est le stylet qui permet à Flusser de définir un nouvel humanisme, et donc par extension un autre portrait du chercheur<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup> humaniste, tout en demeurant très proche du modèle masculin. Si on peut lui donner le bénéfice de l&rsquo;inclusivité implicite parce que le terme « human » est utilisé pour aborder la signification symbolique et ontologique de la fabrique, Flusser cependant narre l&rsquo;histoire de la prise en main de l&rsquo;outil, et donc l&rsquo;évolution de <em>homo</em> à l&rsquo;<em>homo faber</em>, par la figure du « primitive man » qui redéfinit sa propre humanité du « hand-man », au « tool-man », au « machine-man », au « robot-man » enfin (1999, pp. 44-44). La traduction de 2002 du chapitre de la Fabrique de 1999 semble cependant imposer une perspective plus masculine, traduisant « human » par « homme », et s&rsquo;écartant peut-être encore davantage d&rsquo;une dimension inclusive originellement floue de la pensée de Flusser. La fabrique est donc le seuil choisi par le chercheur pour reprendre l&rsquo;histoire d&rsquo;une humanité, « the story of humankind » (1999, p. 45), et permet dans ses phases, de comprendre l&rsquo;évolution de ce que signifie être humain, mais demeure dans les figures d&rsquo;individu qui lui sont associées, un concept encré dans le masculin. Minoritaires, les références au féminin sont des rapports aux images, produits d&rsquo;imagination du masculin qui sont davantage des symptômes de la fabrique que de réels acteurs de celle-ci. La perspective de Flusser, si elle accuse dans ses préoccupations et formulations le passage des années qui ont suivi sa publication, et la traduction, qui étonnement ne semble pas avoir pris en compte les discours contemporains, établit la fabrique dans une perspective humaniste sous certains aspects incomplète, ne traitant pas véritablement de la question des classes ouvrières et des communautés minoritaires qui participent pourtant à l&rsquo;établissement des savoirs.</p>
+<p>Cette démarche dans toute sa saveur et son potentiel démocratique comporte quelques glissements de terrain : la fabrique demeure une construction et si ce concept permet de revaloriser une communauté, une réalité et une classe sociale dans la cours des sciences, il demeure une fabrication d&rsquo;hommes universitaires &ndash; principalement &ndash; blancs. La rhétorique universelle du discours de Flusser souffre peut-être de la résurgence intellecture du complexe du sauveur en ce qu&rsquo;elle déploit l&rsquo;idée de la fabrique du future en réalité en dehors de l&rsquo;usine qu&rsquo;elle souhaite intégrer, la concevant dans ce qu&rsquo;elle n&rsquo;est pas. En tant qu&rsquo;outil théorique extrait d&rsquo;une réalité structurelle, il est peu probable que la fabrique s&rsquo;adresse à un autre public que celui installé dans ses bureaux, arpentant les couloirs de la tour du savoir. Parce qu&rsquo;elle s&rsquo;intéresse de plus davantage aux gestes et à leur inscription historique, la fabrique n&rsquo;est pas tant un mot du peuple, de l&rsquo;ouvrier aux travailleurs du clic, qu&rsquo;un fantasme démocratique laissant malgré tout intact la séparation pourtant combattue dans le discours entre le monde des têtes pensantes et celui des mains agissantes, et entre deux catégories particulièrement essentialisées : l&rsquo;homo faber et l&rsquo;homo sapiens sapiens. La fabrique en tant qu&rsquo;idée est donc un idéal qui peut-être se destine moins à réunir deux catégories selon le même ordre de pouvoir que d&rsquo;affimer encore davantage la sapience de l&rsquo;homo sapiens sapiens, également capable de comprendre la réalité qui n&rsquo;est pas la sienne. En ce sens, la fabrique souffre dès sa naissance universitaire de deux névroses : 1. une appropriation et récupération d&rsquo;une classe sociale sur une autre ; 2. une invention d&rsquo;une usine imaginaire, celle que percoivent ceux qui n&rsquo;y sont pas.</p>
+<p>Composée des faiblesses et fantasmes, le premier prototype de la fabrique ne se soustrait à ses propres prises en main, elle hérite de sa propre fabrication. C&rsquo;est avec cet première conscience de la fabrique fabriquée, qu&rsquo;il nous faut composer pour, loin de résoudre ce leg universitaire, pouvoir cependant le reconnaître comme tel et cultiver l&rsquo;humilité de notre écriture à demeurer, malgré toutes les ambitions incluantes de son discours, comme une bien-née. Elle-même fabriquée à partir de savoirs et de perceptions qui ne sont pas celles de l&rsquo;usine, notre écriture ne pourra que projeter des discours sur des mondes qui ne pourront jamais prétendre à remplacer ou mieux dire les discours de ces mondes en eux-mêmes.</p>
+<p>Ce qui sauve peut-être la fabrique de sa naissance, et par anticipation notre écriture, est certainement la dimension collective dans laquelle elle continue de se développer et de se redéfinir sans cesse. Si notre écriture nous revient ici, et que j&rsquo;en suis la garante, elle a été déterminée par un principe de commun qui, loin de pouvoir être résumé autrement qu&rsquo;en entreprenant une nouvelle thèse dédié à ce sujet, s&rsquo;inscrit plus généralement dans l&rsquo;espace de la Chaire de recherche du Canada sur les écritures numériques dont les projets et activités tendent à comprendre les processus de production, structuration, diffusion et légitimation des écritures numériques par une approche alliant la recherche théorique, la formation technique mais également l&rsquo;observation des pratiques. La fabrique y est un axe transversal bien qu&rsquo;elle ne soit pas officiellement nommée dans une publication reprenant les processus de travail collaboratif de l&rsquo;équipe. Les projets de la CRCEN se distinguent tous &ndash; à l&rsquo;exception peut-être de certains rares cas &ndash; par une orientation éditoriale : qu&rsquo;il s&rsquo;agisse de l&rsquo;édition collaborative numérique d&rsquo;un corpus ancien (le projet <em>Anthologie grecque</em>), de l&rsquo;indexation d&rsquo;un répertoire d&rsquo;oeuvres numérique (<em>le Répertoire des écritures numériques</em>), ou de la conception d&rsquo;un éditeur de texte destiné aux chercheurs en sciences humaines et sociales, les projets consistent en des expérimentations autour des possibilités numériques pour constituer des flux scientifiques. Les projets développant des modes alternatifs ou adoptant des méthodes émergentes de publication sont peut-être liés avec plus d&rsquo;évidence à la fabrique.</p>
+<p>[#exemples] Ateliers, Stylo</p>
+<p>Les modélisations et implémentations de chaînes d&rsquo;édition sur des modes et des espaces collaboratifs incarnent dans le cadre de la CRCEN des fabriques de pensée qui, en plus de reposer sur des standard du Web, interagissent entre elles pour consituer un réseaux de connaissances et de pratiques. La fabrique relève dans le cadre de la CRCEN non seulement d&rsquo;une philosophie du <em>faire</em> (qui s&rsquo;établit comme un mouvement circulaire au sein du collectif entre réflexion et expérimentation) mais d&rsquo;une logique d&rsquo;interopérabilité entre les projets et les recherches personnelles des checheurs de l&rsquo;équipe.</p>
+<p>Signe d&rsquo;une imprégnation de l&rsquo;espace de travail sur les recherches individuelles, les réflexions d&rsquo;Antoine Fauchié portant justement sur les fabriques de publication ont une part d&rsquo;influence dans mon écriture et sa structuration technique.</p>
+<p>[#exemple] - citer Antoine
+travail sur le novendecameron</p>
+<p>Au-delà de ce cadre qui a été le mien pendant mes années de réflexion, et qui constitue donc l&rsquo;espace de fabrication de cette thèse, la fabrique est un programme d&rsquo;écriture qui souhaite conclure comme documenter, et ainsi mener ultimement à une émancipation qui demeurera toujours idéale, un processus de réflexion comme d&rsquo;apprentissage de ce que veut dire écrire en écrivant sur le fait d&rsquo;écrire. Si le miroir de l&rsquo;auto-référentialité de l&rsquo;écriture sur sa propre raison et mécanique d&rsquo;être a pour prétention de faire face à face avec les failles de la fabrique sans renier ses arcanes &ndash; oscillant entre éloquence et imposture &ndash;, il reflète également un démarche de reconfiguration ou reconditionnement de notre pensée : dans notre fabrication de la fabrique, l&rsquo;homo faber est en réalité déjà sapiens et c&rsquo;est même parce qu&rsquo;il est faber qu&rsquo;il est sapiens.</p>
+<p>Cette perspective rejoint celle d&rsquo;Ingold qui affirme avec une certaine malice que les artistes sont désormais ceux qui mettent en pratique l&rsquo;art de l&rsquo;enquête, plus que les chercheurs et notamment les anthropologues (2017, p.32). L&rsquo;histoire des sciences a en réalité manqué une maille de sa propre constitution. Dans deux de ses ouvrages traduits en français, <em>Faire</em> et <em>L’anthropologie comme éducation</em>, Ingold développe justement autour de la question de la fabrication une approche interdisciplinaire de recherche et création interrogeant ainsi les frontières disciplinaires, liant un principe d&rsquo;enquête (l&rsquo;anthropologie) avec un processus de création (art, design et architecture)<sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup>. Le <em>faire</em> ou la manufacture des idées (autre terme utilisé par Ingold) sont une chaîne d&rsquo;articulation entre un art et une recherche, renouvelant ainsi l&rsquo;image idéale du chercheur isolé dans son abstraction théorique :</p>
+<blockquote>
+<p>[L]e théoricien pense et applique ensuite ses manières de penser à la substance matérielle du monde. Par contraste, le praticien cherche à laisser la connaissance croître à la faveur d’une observation et d’un engagement pratique auprès des êtres et des choses qui l’entourent. (2017, p.31)</p>
+</blockquote>
+<p>Le discours d&rsquo;Ingold en tissant une certaine insolence vis-à-vis d&rsquo;une tradition académique, parvient à éviter l&rsquo;idéalisme intellectuel quelque peu élitiste de la première fabrique. Tentant une sortie d&rsquo;un modèle de pensée, son propos mène la main de la science plus loin que la perspective anthropologique ou historique : la pratique est une donnée essentielle de la recherche. La pertinence de la théorie n&rsquo;implique donc pas seulement une part de fabrication, comme une valeur ajoutée et une possible réponse à l&rsquo;impératif de produire du contenu original, mais dépend d&rsquo;une réelle démarche pratique car c&rsquo;est là que se noue la véritable enquête. Le <em>faire</em> chez Ingold, qui concentre mais ne résume pas seulement la fabrique, suppose une conception spécifique de l&rsquo;action. Ainsi en amont de l&rsquo;art du faire, s&rsquo;érige une pensée du faire qui s&rsquo;enracine dans une conception de la matière : plus que l&rsquo;imposition d&rsquo;une forme sur un état qui serait précédemment in-forme, le rapport à la matière s&rsquo;établit par un principe de correspondance. Inversant une conception propre à la philosophie occidentale où l&rsquo;action de <em>faire</em> consiste à apposer ou imposer une forme prédéfinie dans une matière, Ingold envisage le <em>faire</em> dans un sens processuel, plus vivant car plus imprévisible, où le corps de l&rsquo;acteur est lui-même une composante de l&rsquo;action et du rapport avec la matière<sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup>.</p>
+<p>Nouvelle orientation du travail de recherche, la fabrique entraîne logiquement une introspection, la lecture d&rsquo;un savoir depuis l&rsquo;intérieur de sa constitution, mais suppose potentiellement de briser les grandes catégories, l&rsquo;<em>understanding</em> défini comme « a solid ground that you are <em>standing</em> on » (Manu des idées, Ingold, italique ajoutée par moi), pour remettre en question les acquis en terme de transmission. C&rsquo;est à l&rsquo;issue de cette reconfiguration épistémologique qui concernent autant les données que les méthodes d&rsquo;acquisition qu&rsquo;un nouveau modèle émerge, l&rsquo;<em>undercommons</em> qui est à comprendre à l&rsquo;opposé de l&rsquo;<em>understanding</em> en tant qu&rsquo;il est une renégociation collective et éternellement inachevé, c&rsquo;est-à-dire en continuelle évolution, des savoirs.</p>
+<p>La pensée de la fabrique implique dans sa dimension collective une réelle éthique de l&rsquo;écriture en tant qu&rsquo;elle donne une ligne de conduite exploratoire, amenant à la revalorisation d&rsquo;acteurs oubliés dans le cycle de la production, et entraînant notamment un bien-fondé de la publication des états préparatoires. Elle porte son œil du côté du travail « sur le texte lui-même » (Ponge et Sollers 1970 : 106-107). Transposée aux les objets de la littérature, la pensée de la fabrique s&rsquo;enrichie d&rsquo;une dimension éditoriale de l&rsquo;étude : la création du texte est alors abordée comme une collaboration entre l&rsquo;auteur et l&rsquo;éditeur que noue le travail sur les supports, matières, procédures qui ont conduit à distinguer des états de l&rsquo;écriture. Exemple parmi d&rsquo;autres mais qui est ici choisi pour la directive de son projet de création, <em>La Fabrique du pré</em> de Ponge (1971) dévoile la poétique de l&rsquo;auteur dans l&rsquo;écriture du poème « Le pré » notamment par la composition éditoriale qui rassemble les éléments de composition (notamment la transcription en fac-similé des 91 feuillets manuscrits, le poème publiée ainsi que du matériel additionnel). <em>Ars pœtica</em> à la lettre, ce livre n&rsquo;est pas en soi une explication du poème « Le pré » ou de textes antérieurs mais un lieu d&rsquo;exposition où la lectrice peut suivre les arcanes ou du moins leur reconstitution. Le processus d&rsquo;écriture qui est alors rendu visible n&rsquo;englobe pas seulement le cheminement poétique de l&rsquo;auteur mais également les étapes éditoriales (établissement du texte, versions dactylographiées, relectures) qui ont mené à la forme finie qui est alors le poème publié. Il est important de préciser que la pensée de la fabrique appliquée à la littérature ne conditionne pas le projet d&rsquo;écriture à une édition de type génétique mais qu&rsquo;elle va mener plus loin son exploration des textures et des pratiques d&rsquo;écritures pour concevoir l&rsquo;édition, alors figure à part entière du récit de la fabrique du pré, comme déterminante du travail d&rsquo;écriture. Ne constituant pas une édition savante, la fabrique de la littérature expérimente un autre mode de composition qui ne cherche pas la vérité du texte (l&rsquo;établissement d&rsquo;une version unique et au plus proche du projet poétique de l&rsquo;auteur) mais bien ses multiples ramifications. L&rsquo;idée de fabrique s&rsquo;incarne dans les coulisses du pré de Ponge comme une enquête qui cherche à établir un dispositif littéraire et éditorial pour faire des archives de la création un art de l&rsquo;écriture.</p>
+<p>Les réflexions ou mises en pratique d&rsquo;un principe de fabrique conduisent à formuler de nouveaux enjeux vis-à-vis de postures habituelles d&rsquo;écrivant (chercheur ou auteur), notamment un engagement vis-à-vis de l&rsquo;écriture au-delà de son immobile idéalisation. Pour Ingold, cet engagement se traduit par une conscience d&rsquo;une participation dans le geste d&rsquo;enquête (comme dans la démarche d&rsquo;enseignement ou d&rsquo;une quelconque exposition de connaissances<sup id="fnref:6"><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup>). La question de l&rsquo;objectivité scientifique se noue ainsi autour de l&rsquo;enjeu de connaissance de nos écritures :</p>
+<blockquote>
+<p>Tout se passe comme si nous ne pouvions aspirer à connaître la vérité du monde qu’en nous délivrant de lui et en nous rendant étrangers à nous-mêmes. (p. 29)</p>
+</blockquote>
+<p>Entre humilité des ratures et insolences des ratés, « radicalisation spectaculaire allant vers le tout montrer » (Gleize [dir.] 2004 : 121 à propos de la <em>Fabrique du Pré</em>), l&rsquo;écriture est ici une fabrique pour témoigner du processus de réalisation notamment des processus techniques. Au contrôle de son récit et de sa propre genèse, l&rsquo;écriture en fabrique est dans une approche de recherche et création un double mouvement : renoncement à l&rsquo;idéal du texte clos (intouchable et abstrait), embrassement d&rsquo;une enquête expérimentale sur ses environnements d&rsquo;inscription dont les codes de l&rsquo;analyse sont à définir.</p>
+<p>La perspective de notre démarche en plus de s&rsquo;ancrer intimement dans la tradition des théories des médias, souhaite poursuivre une démarche plus particulière, que Kittler, médiologue allemand à l&rsquo;origine de la tradition allemande des <em>Media Studies</em>, a intitulé <em>Aufschreibesystem</em>, expression traduite par <em>Discourse Network</em>. Gardons-nous à ce stade d&rsquo;en proposer une traduction qui occupera nos mots futurs par les problématiques de perte ou d&rsquo;ajout de sens dans le processus de transmission. À la lumière d&rsquo;un héritage foucaldien, ce principe transpose le concept de discours à une perspective historique et archéologique des médias. Si Foucault s&rsquo;intéressait aux ordres du discours en tant que ce qui peut être compris comme un système de discursivité, soit les conjonctures qui inscrivent la démarche énonciative dans le réel<sup id="fnref:7"><a href="#fn:7" class="footnote-ref" role="doc-noteref">7</a></sup>, la réflexion de Kittler développe une observation attentive des conditions d&rsquo;émergence des différents types de discours qui permettent à des productions de faire sens aux contemporains de leur émergence. Le <em>discourse network</em> est donc au centre de la fabrique du sens, ou la fabrique du sens était au cœur de Kittler dont l&rsquo;ambition épistémologique était également d&rsquo;« exorciser l&rsquo;homme des sciences humaines » dans la mesure où toute science humaine implique une certaine paranoïa de l&rsquo;étrangeté et charrie en héritage des a priori sur les technologies produisant et diffusant l&rsquo;information. Selon Kittler, l&rsquo;humain n&rsquo;a en réalité jamais été au centre de la production du sens puisqu&rsquo;il n&rsquo;a jamais été l&rsquo;auteur pleinement conscient et automone vis-à-vis des productions signifiantes dont il revendique la paternité. Oscillant ainsi entre déterminisme technique et humanisme, Kittler fait du système d&rsquo;écriture (au sens large de techniques culturelles pour enregistrer, transmettre et structurer l&rsquo;information) ce qui détermine l&rsquo;humanité (le fait d&rsquo;être humain, le fait de se penser tel et le fait de se percevoir comme tel). L&rsquo;horizon de Kittler qui est ici partagé est donc celui de mener une investigation scientifique sur les environnements techniques qui produisent nos discours littéraires mais qui sont paradoxalement peu étudiées dans les théories littéraires.</p>
+<p>Première clef conceptuelle, la fabrique est justement ce qui permet d&rsquo;aborder la dimension artisanale de l&rsquo;écriture. Ce que rappelle aussi le palimpseste comme modèle d&rsquo;écriture, c&rsquo;est que la pratique implique une expérience qui donne une expertise. Ce premier chapitre s&rsquo;attachera à définir un cadre théorique pour surligner (techniquement et littéralement) les problématisations de la question des environnements d&rsquo;écriture de la littérature lorsque abordée avec une approche issue des théories des médias.</p>
+<p>[#plan]</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>Nous sommes le {{ date-dépôt }}, et à ce jour, je n&rsquo;ai pas découvert de publication intitulée « La Fabrique de la fabrique ».&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>« C&rsquo;est à leurs fabriques que l&rsquo;on reconnaît les hommes » (Flusser 2002, p. 57). / « Thus &ldquo;factory&rdquo; is the common human characteristic, what used to be referred to as human &ldquo;dignity&rdquo;. By their factories ye shall know them. », (1999, p. 43)&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p>L&rsquo;inclusif a volontairement été retenu ici, la suite explique pourquoi.&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:4">
+<p>« Ne se pourrait-il pas que certaines pratiques artistiques puisse suggéérer d&rsquo;autres manières de <em>faire</em> de l&rsquo;anthropologie ? » (2017, p. 35)&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:5">
+<p>Il ne s&rsquo;agit donc « non pas [d’]imposer une forme préconçue à une substance matérielle brute, mais [de] dessiner ou délivrer les potentialités immanentes d’un monde en devenir14 ». (Faire, p. 80-81) &#160;<a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:6">
+<p>L&rsquo;ouvrage <em>Making</em> (2013 et 2017 pour la traduction française) de Hervé Gosselin et Hicham-Stéphane Afeissa, lui s&rsquo;encre dans une visée pédagogique forte et engagée.&#160;<a href="#fnref:6" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:7">
+<p>« L’ordre du discours : s’il y a des choses dites, il ne faut pas en demander la raison immédiate aux choses qui s’y trouvent dites ou aux hommes qui les ont dites, mais au système de la discursivité, aux possibilités et aux impossibilités énonciatives qu’il ménage. » (<em>L&rsquo;Archéologie du savoir</em>, p. 170)&#160;<a href="#fnref:7" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+
+
+  
+</article>
+
+      
+      
+
+      <footer class="book-footer">
+        
+<hr>
+<div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+
+
+        
+        
+
+
+<p style="text-align: center; font-size:12px">
+Tous les contenus de ce site sont sous licence 
+<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">CC BY-NC-SA</a> : Attribution - Pas d’Utilisation Commerciale - Partage dans les Mêmes Conditions. 
+</p>
+
+<div>
+    
+    <a rel="alternate" target="blank" type="application/rss+xml" href="https://blank.blue/index.xml" title="Blank.blue/index.xml">
+    <img src="../../images/rss.png" alt="rss feed"/></a>
+
+    <a rel="alternate" target="blank" href="https://github.com/Mmellet/" title="Github/Mmellet">
+        <img src="../../images/github.png" alt="github" id="grandlogo"/></a>
+
+    <a href="https://www.zotero.org/margotmellet" target="blank" title="0000-0001-7167-2136 ">
+            <img src="../../images/zotero.png" alt="orcid"/></a>  
+
+    <a rel="alternate" target="blank" href="https://twitter.com/mellet_m" title="@mellet_m">
+        <img src="../../images/twitter.png" alt="twitter"/></a>
+    
+    <a href="mailto:margot.mellet@umontreal.ca" target="blank" title="margot.mellet@umontreal.ca">
+        <img src="../../images/courriel.png" alt="courriel"/></a>
+    
+    <a href="https://orcid.org/0000-0001-7167-2136" target="blank" title="0000-0001-7167-2136 ">
+        <img src="../../images/orcid.png" alt="orcid"/></a>
+    
+    <a href="https://archive.org/details/@mmellet?tab=uploads" target="blank" title="Une plasticienne">
+        <img src="../../images/archive.png" alt="internet archive"/></a>
+    
+    <a href="../../doc/Mellet_cv.pdf" target="blank" title="Une plasticienne">
+        <img src="../../images/cv.png" alt="CV"/></a>
+                           
+    
+
+    </div>
+      </footer>
+
+      
+
+<div class="book-comments">
+
+</div>
+
+
+      
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+
+<nav id="TableOfContents"></nav>
+
+
+
+        
+      </div>
+    </aside>
+    
+  </main>
+
+  
+<style>
+ 
+
+* {box-sizing: border-box}
+.mySlides1, .mySlides2 {display: none}
+img {vertical-align: middle;}
+
+.mySlides3, .mySlides4 {display: none}
+img {vertical-align: middle;}
+
+.mySlides5, .mySlides6 {display: none}
+img {vertical-align: middle;}
+
+ 
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+ 
+.text {
+  color: black;
+  background-color: white;
+  font-size: 15px;
+  padding: 10px 12px;
+  position: relative;
+  bottom: 1px;
+  width: 100%;
+  text-align: center;
+}
+
+ 
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+ 
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+ 
+.prev:hover, .next:hover {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+ 
+
+
+div.small {
+  border-style: solid;
+  border-color: black;
+  width:850px;
+  height:700px;
+  line-height:3em;
+  overflow:auto;
+  padding:5px;
+  }
+
+ 
+code[class*=language-],pre[class*=language-]{color:#000;background:0 0;text-shadow:0 1px #fff;font-family:Consolas,Monaco,'Andale Mono','Ubuntu Mono',monospace;font-size:1em;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none}code[class*=language-] ::-moz-selection,code[class*=language-]::-moz-selection,pre[class*=language-] ::-moz-selection,pre[class*=language-]::-moz-selection{text-shadow:none;background:#b3d4fc}code[class*=language-] ::selection,code[class*=language-]::selection,pre[class*=language-] ::selection,pre[class*=language-]::selection{text-shadow:none;background:#b3d4fc}@media print{code[class*=language-],pre[class*=language-]{text-shadow:none}}pre[class*=language-]{padding:1em;margin:.5em 0;overflow:auto}:not(pre)>code[class*=language-],pre[class*=language-]{background:#f5f2f0}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal}.token.cdata,.token.comment,.token.doctype,.token.prolog{color:#708090}.token.punctuation{color:#999}.token.namespace{opacity:.7}.token.boolean,.token.constant,.token.deleted,.token.number,.token.property,.token.symbol,.token.tag{color:#905}.token.attr-name,.token.builtin,.token.char,.token.inserted,.token.selector,.token.string{color:#690}.language-css .token.string,.style .token.string,.token.entity,.token.operator,.token.url{color:#9a6e3a;background:hsla(0,0%,100%,.5)}.token.atrule,.token.attr-value,.token.keyword{color:#07a}.token.class-name,.token.function{color:#dd4a68}.token.important,.token.regex,.token.variable{color:#e90}.token.bold,.token.important{font-weight:700}.token.italic{font-style:italic}.token.entity{cursor:help}
+
+
+</style>
+
+<script>
+    let slideIndex = [1,1,1,1,1,1];
+                let slideId = ["mySlides1", "mySlides2", "mySlides3", "mySlides4", "mySlides5", "mySlides6"]
+                showSlides(1, 0);
+                showSlides(1, 1);
+                showSlides(1, 2);
+                showSlides(1, 3);
+                showSlides(1, 4);
+                showSlides(1, 5);
+                
+                function plusSlides(n, no) {
+                  showSlides(slideIndex[no] += n, no);
+                }
+                
+                function showSlides(n, no) {
+                  let i;
+                  let x = document.getElementsByClassName(slideId[no]);
+                  if (n > x.length) {slideIndex[no] = 1}    
+                  if (n < 1) {slideIndex[no] = x.length}
+                  for (i = 0; i < x.length; i++) {
+                     x[i].style.display = "none";  
+                  }
+                  x[slideIndex[no]-1].style.display = "block";  
+                }
+                </script>
+
+              <script>
+
+
+
+var _self="undefined"!=typeof window?window:"undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?self:{},Prism=function(e){var n=/(?:^|\s)lang(?:uage)?-([\w-]+)(?=\s|$)/i,t=0,r={},a={manual:e.Prism&&e.Prism.manual,disableWorkerMessageHandler:e.Prism&&e.Prism.disableWorkerMessageHandler,util:{encode:function e(n){return n instanceof i?new i(n.type,e(n.content),n.alias):Array.isArray(n)?n.map(e):n.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/\u00a0/g," ")},type:function(e){return Object.prototype.toString.call(e).slice(8,-1)},objId:function(e){return e.__id||Object.defineProperty(e,"__id",{value:++t}),e.__id},clone:function e(n,t){var r,i;switch(t=t||{},a.util.type(n)){case"Object":if(i=a.util.objId(n),t[i])return t[i];for(var l in r={},t[i]=r,n)n.hasOwnProperty(l)&&(r[l]=e(n[l],t));return r;case"Array":return i=a.util.objId(n),t[i]?t[i]:(r=[],t[i]=r,n.forEach((function(n,a){r[a]=e(n,t)})),r);default:return n}},getLanguage:function(e){for(;e;){var t=n.exec(e.className);if(t)return t[1].toLowerCase();e=e.parentElement}return"none"},setLanguage:function(e,t){e.className=e.className.replace(RegExp(n,"gi"),""),e.classList.add("language-"+t)},currentScript:function(){if("undefined"==typeof document)return null;if("currentScript"in document)return document.currentScript;try{throw new Error}catch(r){var e=(/at [^(\r\n]*\((.*):[^:]+:[^:]+\)$/i.exec(r.stack)||[])[1];if(e){var n=document.getElementsByTagName("script");for(var t in n)if(n[t].src==e)return n[t]}return null}},isActive:function(e,n,t){for(var r="no-"+n;e;){var a=e.classList;if(a.contains(n))return!0;if(a.contains(r))return!1;e=e.parentElement}return!!t}},languages:{plain:r,plaintext:r,text:r,txt:r,extend:function(e,n){var t=a.util.clone(a.languages[e]);for(var r in n)t[r]=n[r];return t},insertBefore:function(e,n,t,r){var i=(r=r||a.languages)[e],l={};for(var o in i)if(i.hasOwnProperty(o)){if(o==n)for(var s in t)t.hasOwnProperty(s)&&(l[s]=t[s]);t.hasOwnProperty(o)||(l[o]=i[o])}var u=r[e];return r[e]=l,a.languages.DFS(a.languages,(function(n,t){t===u&&n!=e&&(this[n]=l)})),l},DFS:function e(n,t,r,i){i=i||{};var l=a.util.objId;for(var o in n)if(n.hasOwnProperty(o)){t.call(n,o,n[o],r||o);var s=n[o],u=a.util.type(s);"Object"!==u||i[l(s)]?"Array"!==u||i[l(s)]||(i[l(s)]=!0,e(s,t,o,i)):(i[l(s)]=!0,e(s,t,null,i))}}},plugins:{},highlightAll:function(e,n){a.highlightAllUnder(document,e,n)},highlightAllUnder:function(e,n,t){var r={callback:t,container:e,selector:'code[class*="language-"], [class*="language-"] code, code[class*="lang-"], [class*="lang-"] code'};a.hooks.run("before-highlightall",r),r.elements=Array.prototype.slice.apply(r.container.querySelectorAll(r.selector)),a.hooks.run("before-all-elements-highlight",r);for(var i,l=0;i=r.elements[l++];)a.highlightElement(i,!0===n,r.callback)},highlightElement:function(n,t,r){var i=a.util.getLanguage(n),l=a.languages[i];a.util.setLanguage(n,i);var o=n.parentElement;o&&"pre"===o.nodeName.toLowerCase()&&a.util.setLanguage(o,i);var s={element:n,language:i,grammar:l,code:n.textContent};function u(e){s.highlightedCode=e,a.hooks.run("before-insert",s),s.element.innerHTML=s.highlightedCode,a.hooks.run("after-highlight",s),a.hooks.run("complete",s),r&&r.call(s.element)}if(a.hooks.run("before-sanity-check",s),(o=s.element.parentElement)&&"pre"===o.nodeName.toLowerCase()&&!o.hasAttribute("tabindex")&&o.setAttribute("tabindex","0"),!s.code)return a.hooks.run("complete",s),void(r&&r.call(s.element));if(a.hooks.run("before-highlight",s),s.grammar)if(t&&e.Worker){var c=new Worker(a.filename);c.onmessage=function(e){u(e.data)},c.postMessage(JSON.stringify({language:s.language,code:s.code,immediateClose:!0}))}else u(a.highlight(s.code,s.grammar,s.language));else u(a.util.encode(s.code))},highlight:function(e,n,t){var r={code:e,grammar:n,language:t};if(a.hooks.run("before-tokenize",r),!r.grammar)throw new Error('The language "'+r.language+'" has no grammar.');return r.tokens=a.tokenize(r.code,r.grammar),a.hooks.run("after-tokenize",r),i.stringify(a.util.encode(r.tokens),r.language)},tokenize:function(e,n){var t=n.rest;if(t){for(var r in t)n[r]=t[r];delete n.rest}var a=new s;return u(a,a.head,e),o(e,a,n,a.head,0),function(e){for(var n=[],t=e.head.next;t!==e.tail;)n.push(t.value),t=t.next;return n}(a)},hooks:{all:{},add:function(e,n){var t=a.hooks.all;t[e]=t[e]||[],t[e].push(n)},run:function(e,n){var t=a.hooks.all[e];if(t&&t.length)for(var r,i=0;r=t[i++];)r(n)}},Token:i};function i(e,n,t,r){this.type=e,this.content=n,this.alias=t,this.length=0|(r||"").length}function l(e,n,t,r){e.lastIndex=n;var a=e.exec(t);if(a&&r&&a[1]){var i=a[1].length;a.index+=i,a[0]=a[0].slice(i)}return a}function o(e,n,t,r,s,g){for(var f in t)if(t.hasOwnProperty(f)&&t[f]){var h=t[f];h=Array.isArray(h)?h:[h];for(var d=0;d<h.length;++d){if(g&&g.cause==f+","+d)return;var v=h[d],p=v.inside,m=!!v.lookbehind,y=!!v.greedy,k=v.alias;if(y&&!v.pattern.global){var x=v.pattern.toString().match(/[imsuy]*$/)[0];v.pattern=RegExp(v.pattern.source,x+"g")}for(var b=v.pattern||v,w=r.next,A=s;w!==n.tail&&!(g&&A>=g.reach);A+=w.value.length,w=w.next){var E=w.value;if(n.length>e.length)return;if(!(E instanceof i)){var P,L=1;if(y){if(!(P=l(b,A,e,m))||P.index>=e.length)break;var S=P.index,O=P.index+P[0].length,j=A;for(j+=w.value.length;S>=j;)j+=(w=w.next).value.length;if(A=j-=w.value.length,w.value instanceof i)continue;for(var C=w;C!==n.tail&&(j<O||"string"==typeof C.value);C=C.next)L++,j+=C.value.length;L--,E=e.slice(A,j),P.index-=A}else if(!(P=l(b,0,E,m)))continue;S=P.index;var N=P[0],_=E.slice(0,S),M=E.slice(S+N.length),W=A+E.length;g&&W>g.reach&&(g.reach=W);var z=w.prev;if(_&&(z=u(n,z,_),A+=_.length),c(n,z,L),w=u(n,z,new i(f,p?a.tokenize(N,p):N,k,N)),M&&u(n,w,M),L>1){var I={cause:f+","+d,reach:W};o(e,n,t,w.prev,A,I),g&&I.reach>g.reach&&(g.reach=I.reach)}}}}}}function s(){var e={value:null,prev:null,next:null},n={value:null,prev:e,next:null};e.next=n,this.head=e,this.tail=n,this.length=0}function u(e,n,t){var r=n.next,a={value:t,prev:n,next:r};return n.next=a,r.prev=a,e.length++,a}function c(e,n,t){for(var r=n.next,a=0;a<t&&r!==e.tail;a++)r=r.next;n.next=r,r.prev=n,e.length-=a}if(e.Prism=a,i.stringify=function e(n,t){if("string"==typeof n)return n;if(Array.isArray(n)){var r="";return n.forEach((function(n){r+=e(n,t)})),r}var i={type:n.type,content:e(n.content,t),tag:"span",classes:["token",n.type],attributes:{},language:t},l=n.alias;l&&(Array.isArray(l)?Array.prototype.push.apply(i.classes,l):i.classes.push(l)),a.hooks.run("wrap",i);var o="";for(var s in i.attributes)o+=" "+s+'="'+(i.attributes[s]||"").replace(/"/g,"&quot;")+'"';return"<"+i.tag+' class="'+i.classes.join(" ")+'"'+o+">"+i.content+"</"+i.tag+">"},!e.document)return e.addEventListener?(a.disableWorkerMessageHandler||e.addEventListener("message",(function(n){var t=JSON.parse(n.data),r=t.language,i=t.code,l=t.immediateClose;e.postMessage(a.highlight(i,a.languages[r],r)),l&&e.close()}),!1),a):a;var g=a.util.currentScript();function f(){a.manual||a.highlightAll()}if(g&&(a.filename=g.src,g.hasAttribute("data-manual")&&(a.manual=!0)),!a.manual){var h=document.readyState;"loading"===h||"interactive"===h&&g&&g.defer?document.addEventListener("DOMContentLoaded",f):window.requestAnimationFrame?window.requestAnimationFrame(f):window.setTimeout(f,16)}return a}(_self);"undefined"!=typeof module&&module.exports&&(module.exports=Prism),"undefined"!=typeof global&&(global.Prism=Prism);
+Prism.languages.markup={comment:{pattern:/<!--(?:(?!<!--)[\s\S])*?-->/,greedy:!0},prolog:{pattern:/<\?[\s\S]+?\?>/,greedy:!0},doctype:{pattern:/<!DOCTYPE(?:[^>"'[\]]|"[^"]*"|'[^']*')+(?:\[(?:[^<"'\]]|"[^"]*"|'[^']*'|<(?!!--)|<!--(?:[^-]|-(?!->))*-->)*\]\s*)?>/i,greedy:!0,inside:{"internal-subset":{pattern:/(^[^\[]*\[)[\s\S]+(?=\]>$)/,lookbehind:!0,greedy:!0,inside:null},string:{pattern:/"[^"]*"|'[^']*'/,greedy:!0},punctuation:/^<!|>$|[[\]]/,"doctype-tag":/^DOCTYPE/i,name:/[^\s<>'"]+/}},cdata:{pattern:/<!\[CDATA\[[\s\S]*?\]\]>/i,greedy:!0},tag:{pattern:/<\/?(?!\d)[^\s>\/=$<%]+(?:\s(?:\s*[^\s>\/=]+(?:\s*=\s*(?:"[^"]*"|'[^']*'|[^\s'">=]+(?=[\s>]))|(?=[\s/>])))+)?\s*\/?>/,greedy:!0,inside:{tag:{pattern:/^<\/?[^\s>\/]+/,inside:{punctuation:/^<\/?/,namespace:/^[^\s>\/:]+:/}},"special-attr":[],"attr-value":{pattern:/=\s*(?:"[^"]*"|'[^']*'|[^\s'">=]+)/,inside:{punctuation:[{pattern:/^=/,alias:"attr-equals"},{pattern:/^(\s*)["']|["']$/,lookbehind:!0}]}},punctuation:/\/?>/,"attr-name":{pattern:/[^\s>\/]+/,inside:{namespace:/^[^\s>\/:]+:/}}}},entity:[{pattern:/&[\da-z]{1,8};/i,alias:"named-entity"},/&#x?[\da-f]{1,8};/i]},Prism.languages.markup.tag.inside["attr-value"].inside.entity=Prism.languages.markup.entity,Prism.languages.markup.doctype.inside["internal-subset"].inside=Prism.languages.markup,Prism.hooks.add("wrap",(function(a){"entity"===a.type&&(a.attributes.title=a.content.replace(/&amp;/,"&"))})),Object.defineProperty(Prism.languages.markup.tag,"addInlined",{value:function(a,e){var s={};s["language-"+e]={pattern:/(^<!\[CDATA\[)[\s\S]+?(?=\]\]>$)/i,lookbehind:!0,inside:Prism.languages[e]},s.cdata=/^<!\[CDATA\[|\]\]>$/i;var t={"included-cdata":{pattern:/<!\[CDATA\[[\s\S]*?\]\]>/i,inside:s}};t["language-"+e]={pattern:/[\s\S]+/,inside:Prism.languages[e]};var n={};n[a]={pattern:RegExp("(<__[^>]*>)(?:<!\\[CDATA\\[(?:[^\\]]|\\](?!\\]>))*\\]\\]>|(?!<!\\[CDATA\\[)[^])*?(?=</__>)".replace(/__/g,(function(){return a})),"i"),lookbehind:!0,greedy:!0,inside:t},Prism.languages.insertBefore("markup","cdata",n)}}),Object.defineProperty(Prism.languages.markup.tag,"addAttribute",{value:function(a,e){Prism.languages.markup.tag.inside["special-attr"].push({pattern:RegExp("(^|[\"'\\s])(?:"+a+")\\s*=\\s*(?:\"[^\"]*\"|'[^']*'|[^\\s'\">=]+(?=[\\s>]))","i"),lookbehind:!0,inside:{"attr-name":/^[^\s=]+/,"attr-value":{pattern:/=[\s\S]+/,inside:{value:{pattern:/(^=\s*(["']|(?!["'])))\S[\s\S]*(?=\2$)/,lookbehind:!0,alias:[e,"language-"+e],inside:Prism.languages[e]},punctuation:[{pattern:/^=/,alias:"attr-equals"},/"|'/]}}}})}}),Prism.languages.html=Prism.languages.markup,Prism.languages.mathml=Prism.languages.markup,Prism.languages.svg=Prism.languages.markup,Prism.languages.xml=Prism.languages.extend("markup",{}),Prism.languages.ssml=Prism.languages.xml,Prism.languages.atom=Prism.languages.xml,Prism.languages.rss=Prism.languages.xml;
+!function(s){var e=/(?:"(?:\\(?:\r\n|[\s\S])|[^"\\\r\n])*"|'(?:\\(?:\r\n|[\s\S])|[^'\\\r\n])*')/;s.languages.css={comment:/\/\*[\s\S]*?\*\//,atrule:{pattern:RegExp("@[\\w-](?:[^;{\\s\"']|\\s+(?!\\s)|"+e.source+")*?(?:;|(?=\\s*\\{))"),inside:{rule:/^@[\w-]+/,"selector-function-argument":{pattern:/(\bselector\s*\(\s*(?![\s)]))(?:[^()\s]|\s+(?![\s)])|\((?:[^()]|\([^()]*\))*\))+(?=\s*\))/,lookbehind:!0,alias:"selector"},keyword:{pattern:/(^|[^\w-])(?:and|not|only|or)(?![\w-])/,lookbehind:!0}}},url:{pattern:RegExp("\\burl\\((?:"+e.source+"|(?:[^\\\\\r\n()\"']|\\\\[^])*)\\)","i"),greedy:!0,inside:{function:/^url/i,punctuation:/^\(|\)$/,string:{pattern:RegExp("^"+e.source+"$"),alias:"url"}}},selector:{pattern:RegExp("(^|[{}\\s])[^{}\\s](?:[^{};\"'\\s]|\\s+(?![\\s{])|"+e.source+")*(?=\\s*\\{)"),lookbehind:!0},string:{pattern:e,greedy:!0},property:{pattern:/(^|[^-\w\xA0-\uFFFF])(?!\s)[-_a-z\xA0-\uFFFF](?:(?!\s)[-\w\xA0-\uFFFF])*(?=\s*:)/i,lookbehind:!0},important:/!important\b/i,function:{pattern:/(^|[^-a-z0-9])[-a-z0-9]+(?=\()/i,lookbehind:!0},punctuation:/[(){};:,]/},s.languages.css.atrule.inside.rest=s.languages.css;var t=s.languages.markup;t&&(t.tag.addInlined("style","css"),t.tag.addAttribute("style","css"))}(Prism);
+Prism.languages.python={comment:{pattern:/(^|[^\\])#.*/,lookbehind:!0,greedy:!0},"string-interpolation":{pattern:/(?:f|fr|rf)(?:("""|''')[\s\S]*?\1|("|')(?:\\.|(?!\2)[^\\\r\n])*\2)/i,greedy:!0,inside:{interpolation:{pattern:/((?:^|[^{])(?:\{\{)*)\{(?!\{)(?:[^{}]|\{(?!\{)(?:[^{}]|\{(?!\{)(?:[^{}])+\})+\})+\}/,lookbehind:!0,inside:{"format-spec":{pattern:/(:)[^:(){}]+(?=\}$)/,lookbehind:!0},"conversion-option":{pattern:/![sra](?=[:}]$)/,alias:"punctuation"},rest:null}},string:/[\s\S]+/}},"triple-quoted-string":{pattern:/(?:[rub]|br|rb)?("""|''')[\s\S]*?\1/i,greedy:!0,alias:"string"},string:{pattern:/(?:[rub]|br|rb)?("|')(?:\\.|(?!\1)[^\\\r\n])*\1/i,greedy:!0},function:{pattern:/((?:^|\s)def[ \t]+)[a-zA-Z_]\w*(?=\s*\()/g,lookbehind:!0},"class-name":{pattern:/(\bclass\s+)\w+/i,lookbehind:!0},decorator:{pattern:/(^[\t ]*)@\w+(?:\.\w+)*/m,lookbehind:!0,alias:["annotation","punctuation"],inside:{punctuation:/\./}},keyword:/\b(?:_(?=\s*:)|and|as|assert|async|await|break|case|class|continue|def|del|elif|else|except|exec|finally|for|from|global|if|import|in|is|lambda|match|nonlocal|not|or|pass|print|raise|return|try|while|with|yield)\b/,builtin:/\b(?:__import__|abs|all|any|apply|ascii|basestring|bin|bool|buffer|bytearray|bytes|callable|chr|classmethod|cmp|coerce|compile|complex|delattr|dict|dir|divmod|enumerate|eval|execfile|file|filter|float|format|frozenset|getattr|globals|hasattr|hash|help|hex|id|input|int|intern|isinstance|issubclass|iter|len|list|locals|long|map|max|memoryview|min|next|object|oct|open|ord|pow|property|range|raw_input|reduce|reload|repr|reversed|round|set|setattr|slice|sorted|staticmethod|str|sum|super|tuple|type|unichr|unicode|vars|xrange|zip)\b/,boolean:/\b(?:False|None|True)\b/,number:/\b0(?:b(?:_?[01])+|o(?:_?[0-7])+|x(?:_?[a-f0-9])+)\b|(?:\b\d+(?:_\d+)*(?:\.(?:\d+(?:_\d+)*)?)?|\B\.\d+(?:_\d+)*)(?:e[+-]?\d+(?:_\d+)*)?j?(?!\w)/i,operator:/[-+%=]=?|!=|:=|\*\*?=?|\/\/?=?|<[<=>]?|>[=>]?|[&|^~]/,punctuation:/[{}[\];(),.:]/},Prism.languages.python["string-interpolation"].inside.interpolation.inside.rest=Prism.languages.python,Prism.languages.py=Prism.languages.python;
+
+              </script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+  var body = document.body;
+var switcher = document.getElementsByClassName('js-toggle')[0];
+
+
+switcher.addEventListener("click", function() {
+      this.classList.toggle('js-toggle--checked');
+      this.classList.add('js-toggle--focus');
+  
+  if (this.classList.contains('js-toggle--checked')) {
+    body.classList.add('dark-mode');
+    
+    localStorage.setItem('darkMode', 'true');
+  } else {
+    body.classList.remove('dark-mode');
+    setTimeout(function() {
+      localStorage.removeItem('darkMode');
+    }, 100);
+  }
+})
+
+
+if (localStorage.getItem('darkMode')) {
+  
+      switcher.classList.add('js-toggle--checked');
+      body.classList.add('dark-mode');
+}
+
+</script>

@@ -9,6 +9,9 @@
       .not-found {
         text-align: center;
       }
+      div{
+        background-color: palevioletred;
+      }
       .not-found h1 {
         margin: .25em 0 0 0;
         opacity: .25;
@@ -20,8 +23,11 @@
   <body>
     <main class="flex justify-center not-found">
       <div>
-        <h1>404</h1>
-        <h2>Page non trouvée</h2>
+        <h1></h1>
+        <h2>Pas de panique, le monde est rempli de bestioles</h2>
+        <img src="/images/bug.jpg">
+        <div>First documented <em>bug</em> by Grace Hopper, Harvard University (9 september 1947)</div>
+      </br>
         <h3>
           <a href="{{ .Site.Home.RelPermalink }}">{{ .Site.Title }}</a>
         </h3>

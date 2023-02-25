@@ -72,10 +72,10 @@
   }
 
   a {
-    text-decoration: none;
+    text-decoration:underline;
 
     &:hover {
-      text-decoration: underline;
+      text-decoration:wavy;
     }
     &:visited {
       color: var(--color-visited-link);
@@ -148,6 +148,7 @@
     height: $padding-1;
     border: none;
     background: var(--gray-200);
+    
   }
 
   ul,

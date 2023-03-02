@@ -100,7 +100,7 @@ La demande d'alternative devient alors une revandication aussi forte qu'une affi
 
 ## Avoir le dernier Mot
 
-Lors d'une consultation de ma boîte mail, je suis toujours postée à mon bureau, ma tasse est vide de sens et de souffle, et les informations qui s'affichent dans le courriel adressé miroite une lueur d'espoir sur mes cernes à la recherche de chair.
+Lors d'une consultation de ma boîte mail, je suis toujours postée à mon bureau, ma tasse est vide de sens et de souffle, et les informations qui s'affichent dans le courriel adressé annoncent une lueur d'espoir sur mes cernes à la recherche de chair.
 
 C'était à la fin du mois d'octobre lors de l'habituel dépôt de plan de cours. 
 

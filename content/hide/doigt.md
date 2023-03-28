@@ -1,13 +1,13 @@
 ---
-title: "Index"
+title: "Index-ancien"
 date: 2022-10-30
-weight: 1
+weight: 6
 ---
 
 - Captatio  :
 *où on commence une écriture filée autour de l'atelier d'écriture*
 
-- <strike style='color:rgb(196, 43, 94);'><span style='color:black'>Le deal et le labyrinthe</span></strike> L'Éther
+- <strike style='color:rgb(196, 43, 94);'><span class="rayure">Le deal et le labyrinthe</span></strike> L'Éther
 *où on propose un imaginaire pour entrer dans la question du texte et traiter de notre principale problématique, à savoir l'abstraction des littératures* & *où on fait le portrait trait pour trait de l'abstraction au-travers des âges de la littérature*
 
 1. [Premier chapitre - Fabrique de la pensée]({{<relref "/1.md" >}}) 

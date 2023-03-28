@@ -1,34 +1,68 @@
 ---
-title: "Premier Chapitre - 1"
-etat: "relu"
-subtitle: "Machine littéraire"
-date: 2022-12-19
-weight: 4
+title: "1. La Machine littéraire"
+etat: "partiel"
+date: 2023-02-08
+weight: 3
 ---
 
 
-```
----
-title: "Machine littéraire"
-chapitre: 1
-section: 1
----
-```
-
-TODO 
+Todo : 
 
 [ ] citer Hayles, Writing machines 2002
 [ ] citer Guilet thèse ; pour une littérature cyborg, l'hybridation médiatique du texte littéraire 2013
 
-*où on fait un texte sur le texte*
+[ ] ajouter question de l'originalité : Goldsmith 
+    Analyse du DOn Quichotte de Pierre Ménard par Borges (*Pierre Ménard, auteur du Quichotte*, nouvelle publiée dans le recueil *Fictions*) : esquisse la vie et l'oeuvre d'un écrivain imaginaire Pierre Ménard (un homme français des années 1930) et détaille notamment son projet de réécriture à l'identique du premier livre de DOn Quichotte de Cervantes. Cette analyse fait partie de la technique de critique de livres inexistants par Borges. Borges explique pour le cas du projet de Ménard, que l'oeuvre même si étant du mot-pour-mot demeure une oeuvre totalement différente, car le changement de contexte culturel rend les pensées qui étaients banales pour Cervantès pratiquement impensables pour un intellectuel du XXe siècle (siècle d'écriture de Ménard). Ce qui était de l'espagnol banal ou médiocre au temps de Cervantès devient une création linguistique poétique pour Ménard. C'est au fond ce qu'il se passe chaque jour, nous sommes des pierre Ménards en reprenant des bouts de chatGPT. 
+
+    > Suppose Don Quixote is transported not into a new time but a new medium, and that the word sequences on the computer screen are identical to Cervantes' original print edition. Is this electronic version the same work? Subversive as Borges's fiction, the question threatens to expose major fault lines running through our contemporary ideas of textuality. (Hayles, MOther computers, p. 89)
+
+    Hayles est de celles qui voit le passage de l'imprimé au texte électronique comme une forme de traduction, a "media translation" (p. 100, Mother computer) et qui implique donc un acte d'interprétation (on perd et on gagne dans la traduction Dene Grigar), partant de là, le projet de Hayles est de saisir ce que ces gains et pertes impliquent, et surtout ce qu'ils révèlent en terme de présupposés sur l'écriture et la lecture. en partant de cette hypothèse très proche de la pensée de Kittler, que les notions de textualités sont traversées par des présupposés technophiles en un sens car formatés par l'imprimé. Ce reconditionnement de nos théories est «  It is a gift we cannot afford to refuse. » (90)
+
+    L'édition se pose souvent en simulation plus que reproduction des textes impossibles en pensant moins au sens entre le sens et les codes numériques. 
+
+    >Matthew Kirschenbaum's call for a thorough rethinking of the "materiality of first generation objects" in electronic media is very much to the point. Calling for a closer relationship between electronic textuality (focusing on digital work) and textual studies (traditionally focused on print), he lays out a framework for discussing electronic texts in bibliographic terms, including the nomenclature "layer, version, and release"; "object"; "state"; "instance"; and "copy." As his argument makes clear, electronic texts often have complex bibliographic histories that materially affect meaning, to say nothing of differences between print and electronic instantiations of a work. (p. 91)
+
+    Hayles pour reconditionner la textualité, se pose cette question éternelle « qu'est ce qu'un texte ? »
+
+[#lien] fabrique-machine - dimension procédurale
+
+> A case in point is the current tendency to regard the computer as the
+ultimate solvent that is dissolving all other media into itself. Since sound,
+image, text, and their associated media (such as phonography, cinema, and
+books) can all be converted into digital code, many commentators, includ-
+ing Lev Manovich and Friedrich Kittler, have claimed that there is now only
+one medium, the digital computer. 33 Asserting that “one century sufﬁced to
+transform the ancient storage monopoly of writing into the omnipotence
+of integrated circuits,” Kittler writes that “all data ﬂows end in a state n of
+Turing’s universal machine: numbers and ﬁgures become (in spite of ro-
+manticism) the key to all creatures.” 34 This claim has the effect of ﬂattening
+into a single causal line—the convergence of all media into one—social and
+cultural processes that are in fact much more complex. To take the case of
+books, clearly it matters that print has now become a particular kind of out-
+put for digital text. As I argue in chapter 5 with regard to Neal Stephenson’s
+print novel Cryptonomicon, digitization leaves its mark even on print texts
+that remain entirely conventional in appearance and functionality. More-
+over, a stroll through any major bookstore will conﬁrm that print books in
+general have moved toward the visual and away from straight text, a ten-
+dency that bears witness to their interactions with other media. (Hayles, Mother, p. 31)
+
+(33. Lev Manovich, The Language of New Media; Friedrich A. Kittler, Gramophone, Film,
+Typewriter.
+34. Kittler, Gramophone, Film, Typewriter, 25–114, esp. 48–49.)
+
+----
+
+La première facette de la fabrique se révèle être celle de la machine, définie dans les premiers temps de son utilisation comme désignant la structure complexe du corps physique, « combinaison d'organes (du corps d'un être animé) » (Descartes, *Discours de la méthode*, 5e partie in Oeuvres philos., Alquié, t. 1, p. 628), permettant de mécaniser, de *diposer* un ensemble de rouages, en vue d'une production. Moyen d'ouvrage positif (astuce, instrument) ou négatif (ruse, artifice), la machine permet de voir la fabrique comme une charpente, ossature d'un processus laissant entre-voir ses mécaniques internes et qui justement introduit un écriture s'interrogeant sur la façon dont se nouent les engrenages littéraires, en prenant en compte non plus les outils de la langue et du style mais les réalités de l'environnement. Dans cette étude, démystifions derechef le spectre psychanalytique qui hante les mots, le travail s'apparente à une recherche de l'origine soit à comprendre l'engendrement du texte au monde. Comment un texte advient-il ? Et de quelle matrice est-il la production ? 
 
 >« Un plus un ça peut t-il faire un ? »
 > 
 >*Incendies*, Wadji Mouawad, (p. 120)
 
-Enquête généalogique, le récit *Incendies* suit les romans individuels successifs de deux jumeaux (une sœur et un frère) qui partent à la recherche de leur père et de leur frère disparus pour honorer la demande posthume de leur mère. Leur odyssée familiale se clôt sur une révélation œdipienne : leur père et leur frère sont un seul et même homme et le moment épiphanique du dénouement se traduit par le détournement d'un exercice mathétique. L'énigme de l'origine est exposée par la reprise de la conjecture, au demeurant indémontrée, de Syracuse (ou problème 3x +1) selon laquelle la suite de Syracuse de n'importe quel entier strictement positif atteint le chiffre 1. Au gré de cet impératif mathématique, les status familiaux que sont celui du père et du frère peuvent donc référer au même individu. La question existencielle que pose la création de Mouawad s'érige par la quête, structure filée dans plusieurs de ses écrits où il s'agit de retrouver ce qui a été perdu, en somme l'être au sens de construction généalogique et tissage de sang où les liens s'avèrent en réalité entrelacés (*Sœurs*, *Mère*, les composants de la tétralogie *Le Sang des Promesses* entre autres). Si le principe de l'introspection implique dans ses narrations des êtres de mots pour porter un discours sur une humanité, le renversement de cette architecture humaniste a de fait déjà été effectué : les théories sur la génétique du texte n'ont en réalité pas d'autres quêtes que celle de comprendre les liens entre les perceptions du monde. Le texte est-il un ou multiple ? Demeure t-il unique malgré ses reproductions ou est-il la somme de ses exemplaires ou entités [@genette_loeuvre_1994] ? Le texte est-il l'incarnation d'une idée dans une matière (soit 1 dans 1 pour faire 2), ou est-ce le même corps (ne pouvant donner d'autres somme que 1) ?
+Enquête généalogique, le récit *Incendies* suit les romans individuels successifs de deux jumeaux (une sœur et un frère) qui partent à la recherche de leur père et de leur frère disparus pour honorer la demande posthume de leur mère. Le texte retrace ici une quête qui est en réalité celle de l'impossible origine. L'odyssée familiale se clôt sur cette révélation œdipienne : leur père et leur frère sont un seul et même homme et le moment épiphanique du dénouement est retranscrit par le détournement d'un exercice mathématique. L'énigme de l'origine est exposée par la reprise de la conjecture, au demeurant indémontrée, de Syracuse (ou problème 3x +1) selon laquelle la suite de Syracuse de n'importe quel entier strictement positif atteint le chiffre 1[^conjecture]. Au gré de cet impératif mathématique, les status familiaux que sont celui du père et du frère peuvent donc référer au même individu. La question existencielle que pose la création de Mouawad s'érige par la quête, structure filée dans plusieurs de ses écrits où il s'agit de retrouver ce qui a été perdu, en somme l'être au sens de construction généalogique et tissage de sang où les liens s'avèrent en réalité entrelacés (*Sœurs*, *Mère*, les composants de la tétralogie *Le Sang des Promesses* entre autres). Si le principe de l'introspection implique dans ses narrations des êtres de mots pour porter un discours sur une humanité, le renversement de cette architecture humaniste a de fait déjà été effectué : les théories sur la génétique du texte n'ont en réalité pas d'autres quêtes que celle de comprendre les liens entre les perceptions du monde. Le texte est-il un ou multiple ? Demeure t-il unique malgré ses reproductions ou est-il la somme de ses exemplaires ou entités [@genette_loeuvre_1994] ? Le texte est-il l'incarnation d'une idée dans une matière (soit 1 dans 1 pour faire 2), ou est-ce le même corps (ne pouvant donner d'autres somme que 1) ?
 
-Le palimpseste que l'on définira pour cette étape de l'argumentation comme une sur-écriture est une parfaite illustration des multiples status du texte par une principe de stratification des inscriptions. Historiquement assimilé à un parchemin manuscrit, le palimpseste est un texte-support réinscrit par des copistes (principalement entre le VII^eme^ et le XII^eme^ siècle) pour des raisons de coût. L'effacement ou désencrage de la première inscription se faisait au Moyen-âge à l'aide d'un stylet ou d'une pierre ponce[^stylet] Au dessus de cette première inscription historique, grattant quelque peu le contexte d'émergence, notre étude cherche à réinscrire le palimpseste comme méthodologie d'écriture transmédiale et transhistorique, soit dans le cadre d'une théorie générale de la littérature sur les matériaux de son écriture. Écriture faite écriture, le palimpseste rejoint en l'état la catégorie des *dispositifs* selon la définition générale de Foucault [@agamben_theorie_2006, 1. § 4] : une conjoncture de réels établie par un rapport de force motivée par des enjeux de pouvoir et de savoir. Dans le processus palimpsestique, plusieurs corps sont impliqués -- le support, la matière de la première inscription, le stylet, la matière de la deuxième inscription -- et travaillés dans un jeu de limites -- le stylet est retourné/détourné, le support est gratté sans être perforé, la première inscription est effacée en demeurant discernable -- et ce, en vue d'imposer un nouveau récit qui ne peut cependant pas se départir de son contexte ou environnement d'écriture. C'est en tant que « réseaux qui existe entre [l]es éléments » [entretien de Foucault daté de 1977 in @agamben_theorie_2006, 3. § 15] que le palimpseste lie les composants support et écriture aux questionemments de l'origine. Liés par une même origine et logique empirique, les sur-inscriptions érigent le support d'écriture au rang de matrice : comparable à la partogénèse, le premier texte *enfante* le second en tant qu'il détermine sa venue comme il a été déterminé par la matière de son support. 
+[^conjecture]: La suite de Syracuse de n'importe quel entier se construit ainsi : si l'entier de départ est pair, il est divisé par deux, s'il est impair, il est multiplié par trois et on y ajoute un. Les suites de Syracuse mènent toutes, quel que soit l'entier de départ, à 1 qui marque l'inauguration d'un cycle trivial : lorsqu'atteint, le nombre 1 fait parti d'un cycle de trois entiers qui se répètent indéfiniment. 
+
+Le palimpseste que l'on définira pour cette étape de l'argumentation comme une sur-écriture est une parfaite illustration des multiples status du texte par une principe de stratification des inscriptions. Historiquement assimilé à un parchemin manuscrit, le palimpseste est un texte-support réinscrit par des copistes (principalement entre le VII^eme^ et le XII^eme^ siècle) pour des raisons de coût. L'effacement ou désencrage de la première inscription se faisait au Moyen-âge à l'aide d'un stylet ou d'une pierre ponce[^stylet] Au dessus de cette première inscription historique, grattant quelque peu le contexte d'émergence, notre étude cherche à réinscrire le palimpseste comme méthodologie d'écriture transmédiale et transhistorique, soit dans le cadre d'une théorie générale de la littérature sur les matériaux de son écriture. Écriture faite écriture, le palimpseste rejoint en l'état la catégorie des *dispositifs* selon la définition générale de Foucault [@agamben_theorie_2006, 1. § 4] : une conjoncture de réels établie par un rapport de force motivée par des enjeux de pouvoir et de savoir. Dans le processus palimpsestique, plusieurs corps sont impliqués -- le support, la matière de la première inscription, le stylet, la matière de la deuxième inscription -- et travaillés dans un jeu de limites -- le stylet est retourné/détourné, le support est gratté sans être perforé, la première inscription est effacée en demeurant discernable -- et ce, en vue d'imposer un nouveau récit qui ne peut cependant pas se départir de son contexte ou environnement d'écriture. C'est en tant que « réseaux qui existe entre [l]es éléments » [entretien de Foucault daté de 1977 in @agamben_theorie_2006, 3. § 15] que le palimpseste lie les composants support et écriture aux questionemments de l'origine. Liés par une même origine et logique empirique, les sur-inscriptions érigent le support d'écriture au rang de matrice : comparable à la partogénèse, le premier texte *enfante* le second en tant qu'il détermine sa venue comme il a été déterminé par la matière de son support. Ce 
 
 [^stylet]: Le stylet (ou *style*) est un équivalent du crayon : un poinçon (tige de plante) servant à inscrire les tablettes enduites de cire, dont l'extrémité était également utilisée pour désencrer ; la pierre ponce (équivalent de la gomme aujourd'hui) est une roche volcanique permettant d'effacer.
 
@@ -42,7 +76,6 @@ Herméneutique ou enquête, la démarche de recherche et création vise justemen
 title: "How to deal with text"
 chapitre: 1
 section: 1
-sous-section: 1
 ---
 ```
 
@@ -52,7 +85,52 @@ sous-section: 1
 
 > Texte. Rien de plus commun, rien de plus complexe. C'est à croire que l'enchevêtrement des fils -- l'étymologie même du mot texte propose la métaphore du latin *texere* ou tisser -- rend le concept de textes désormais inutilisable : « depuis trente ans ce mot a bien mérité de la critique et [on] devrait lui accorder sa retraite » (Vernet 205) (Sinclair 200, p. 15-16)
 
-Abstraction littéraire pourtant bien concrète car générant des métiers, des débats, des adaptations et des bouleversements culturels comme sociaux, le texte demeure un principe, profondément ancré dans les études littéraires au point de n'être que peu discuté dans son utilité conceptuelle en tant que tel. Les théories générales lui accordent en effet une préséance pour penser la littérature comme relevant principalement si ce n'est *essentiellement* du texte : structure enchâssée où la littérature est du texte et les textes qui l'étudient sont une littérature. Dans cet ourobouros, les théories de l'inter-hyper-hypo-trans-textualité, le courant du post-structuralisme parmi d'autres [@vitali-rosati_mais_2018] font du texte un élément clos, abstrait et semblant être unicellulaire. Tout est texte, même les études de sons, images, phénomènes ou mouvements concordent par le texte, et à la fois rien ne l'est véritablement. Si cette recherche ne lui laissera pas de repos, ne lui accordera pas sa retraite, son regard se portera plutôt sur les textes qui tissent le textes comme pratique plutôt que comme principe. Les approches texto-centrées, qui fondent une tradition disons classique de la littérature, ont leur importance puisqu'elles permettent de définir un art, de le situer, mais elles comportent la dérive de contraindre une réflexion à un aspect unique, de réduire un art à une seule perspective et un seul accès. Se créé alors de toute pièce ce texte qu'elles proclament étudier. Cette obsession textuelle qui, si elle génère le propre objet de sa folie, revêt le manteau pâle de la névrose, n'est pas infertile puisqu'elle relève un souci (ou ennemi) commun : le besoin de gouvernance, maîtrise ou saisissement de cette sauvage extériorisation. Les études littéraires ont tenté de répondre en proposant plusieurs architectures valant autant de gardes-fous que de démarcation (allant de l'archi-texte et des théories de l'intertextualité, des principes narratologiques jusqu'aux études de la réception). La marque héréditaire du littéraire trouve une efficace reformulation dans la [déclaration éditoriale](http://vectors.usc.edu/journal/index.php?page=EditorialStatement) de la revue [*Vectors*](http://vectors.usc.edu/journal/index.php?page=Introduction) :
+Abstraction littéraire pourtant bien concrète car générant des métiers, des débats, des adaptations et des bouleversements culturels comme sociaux, le texte demeure un principe, profondément ancré dans les études littéraires au point de n'être que peu discuté dans son utilité conceptuelle en tant que tel. Les théories générales lui accordent en effet une préséance pour penser la littérature comme relevant principalement si ce n'est *essentiellement* du texte : structure enchâssée où la littérature est du texte et les textes qui l'étudient sont une littérature. Dans cet ourobouros, les théories de l'inter-hyper-hypo-trans-textualité, le courant du post-structuralisme parmi d'autres [@vitali-rosati_mais_2018] font du texte un élément clos, abstrait et semblant être unicellulaire. Tout est texte, même les études de sons, images, phénomènes ou mouvements concordent par le texte, et à la fois rien ne l'est véritablement. Si cette recherche ne lui laissera pas de repos, ne lui accordera pas sa retraite, son regard se portera plutôt sur les textes qui tissent le textes comme pratique plutôt que comme principe. Les approches texto-centrées, qui fondent une tradition disons classique de la littérature, ont leur importance puisqu'elles permettent de définir un art, de le situer, mais elles comportent la dérive de contraindre une réflexion à un aspect unique, de réduire un art à une seule perspective et un seul accès. Se créé alors de toute pièce ce texte qu'elles proclament étudier. Cette obsession textuelle qui, si elle génère le propre objet de sa folie, revêt le manteau pâle de la névrose, n'est pas infertile puisqu'elle relève un souci (ou ennemi) commun : le besoin de gouvernance, maîtrise ou saisissement de cette sauvage extériorisation. Les études littéraires ont tenté de répondre en proposant plusieurs architectures valant autant de gardes-fous que de démarcation (allant de l'archi-texte et des théories de l'intertextualité, des principes narratologiques jusqu'aux études de la réception). 
+
+
+[#ajout]
+
+La réflexion de Hayles (Mother computer, p. 90-suivantes) sur les travaux de Shillingsburg qui dans Sholarly Editing in the Computer AGe, fait du texte une entité non seulement qui est isolée des caractéristiques physiques du média mais qui n'inclut pas les qualités de mises en page, couleur, taille et forme de police, ou d'autre effets (survol, animations, liens, etc.), le voyant seulement comme ""the actual order of words and punctuation" (46) comme si « as if "text" were an inert, nonreactive substance that can be poured from container to container without affecting its essential nature. » (94)
+
+Si Hayles refuse de placer l'idéalité de l'oeuvre ou l'abstraction du texte dans une directe lignée platonicienne, elle reconnaît une aspiration commune : pour protéger le texte ou l'oeuvre du bruit du monde incarné («from the noisiness of an embodied world» 94)
+
+Or pour Hayles : et c'est le crédo de cette recherche 
+
+> but this very noise may be the froth from which artistic effects emerge. (94)
+
+Comparaison édition/traduction (94) [Hans Zeller, arguing in 1975 for a shift
+of the editorial perspective from the author’s “ﬁnal intentions” to a broader
+historical viewpoint, observes that “the editor searches in the transmitted
+text for the one authentic text, in comparison with which all else will be
+a textual corruption.”]
+
+---
+
+ruffel : « Chaque art est mu par la volonté d’élargir ses limites et perd
+en définition ce qu’il gagne en extension. » (p. 63)
+
+Aujourd'hui la littérature contemporaine se définit par des principe d'hybridation. 
+
+C'est selon Ruffle la problématique de l'illimitation qui concerne alors désormais la littérature, et plus celle de sa définition. fin des mythes de sacralisation ou déclin du littéraire (je suis pas sûre)
+
+> Vivant dans un monde d’images et de sons, nourri par une culture éclec-
+tique, l’écrivain actuel ne vit plus dans le mythe romantique de la sépara-
+tion ou dans celui de l’artisan spécialisé et spécialiste, responsable de son
+seul art. Il entre dans des collaborations artistiques et sociales, expéri-
+mente lui-même des procédures pour lesquelles il n’a pas de compétences
+établies, celles du plasticien, du comédien, du pédagogue ou du socio-
+logue, avec lesquelles il bricole et perfectionne peu à peu de nouveaux
+modes d’actions littéraires. (p. 63)
+
+« Tout art met en jeu un type particulier d’exposition. » (p. 64)
+Ruffel parle plus particulièrement de la sortie du livre : qui relève selon lui d'une politique d'exposition. 
+
+
+
+---
+
+
+La marque héréditaire du littéraire trouve une efficace reformulation dans la [déclaration éditoriale](http://vectors.usc.edu/journal/index.php?page=EditorialStatement) de la revue [*Vectors*](http://vectors.usc.edu/journal/index.php?page=Introduction) :
 
 >One of the primary and ongoing tensions in an academic multimedia journal is the question of how to deal with text. This is not a new question nor is it one that is peculiar to electronic publishing. One of the ways of dealing with text in a screen-based vernacular is to think of it as an instance of images. Usually this is marked by the shift from plain text to typography, which broadens the expressive palette to include fonts, layout, color, composition, contrast, opacity, dynamism, etc. [@mcpherson_feminist_2018, p. 109] 
 
@@ -63,15 +141,14 @@ Posée par Steve Anderson et Tara McPherson, la question « how to deal with te
 
 ```
 ---
-title: "L'étreinte entre le texte et la technique"
+title: "L'étreinte et la contrainte"
 chapitre: 1
 section: 1
 sous-section: 1
-sous-sous-section: 1
 ---
 ```
 
-### L'étreinte entre le texte et la technique
+### L'étreinte et la contrainte
 
 *où on entre dans les entrailles de la machine littéraire pour débatre de la contrainte et du projet d'écriture*
 
@@ -104,13 +181,37 @@ Il serait quelque peu artificiel de proposer une histoire de cette dernière lit
 
 [^informatique]: Le terme sera fondé en 1962, soit deux ans après la fondation de l'Oulipo, par la fusion des mots « information » et « automatique ». 
 
+---
+
+Oulipo réhabilitation du travail de l'écrivain, un travail littéraire, donc refus et de l'aléatoire et de l'inspiration 
+
+ Mallarmé, comme chacun sait, a laborieusement duré, duré,
+duré, sans cacher d'ailleurs, le mépris qu'il avait pour cette "inspira
+tion" qu'il qualifiait d'"anarchisme de l'esprit". "L'écrivain n'est
+jamais inspiré, il l'est toujours", décrète Queneau et il ajoute:
+Une autre bien fausse idée qui a également cours actuellement, c'est l'équivalence que l'on
+établit entre inspiration, exploration du subconscient et libération, entre hasard, auto
+matisme et liberté. Or, cette inspiration qui consiste à obéir aveuglément à toute impulsion
+est en réalité un esclavage. Le classique qui écrit sa tragédie en observant un certain nombre
+de règles qu'il connaît est plus libre que le poète qui écrit ce qui lui passe par la tête et qui est
+l'esclave d'autres règles qu'il ignore. (Oulipo: atlas..., p. 56)
+
+tentative d'épuisement également un capital de créativité comme un objet concret, comme un aliage de fils techniques. 
+
+> Aux temps des CRÉATIONS CRÉÉES, qui furent ceux des œuvres littéraires que nous
+connaissons, devrait succéder l'ère des CRÉATIONS CRÉANTES, susceptibles de se
+développer à partir d'elles-mêmes et au-delà d'elles-mêmes, d'une manière prévisible.
+(Outipo: la litt., p. 42)
+
+---
+
+
 ```
 ---
 title: "La Machine et le sonnet"
 chapitre: 1
 section: 1
-sous-section: 1
-sous-sous-section: 2
+sous-section: 2
 ---
 ```
 
@@ -125,6 +226,30 @@ L'une des créations oulipiennes les plus connues, et certainement la plus remé
 La clef de l'œuvre est (presque) livrée dans son immuable début puisque la machine y est présentée comme à l'origine du système littéraire. Dans son article « Computing Machinery and Intelligence » (1950), Turing adresse la question suivante : « can computers think? » en développant le jeu de l'imitation, mise en situation qui va pouvoir prétendre dans les réflexions qui suivront ses travaux au rang de réelle conjecture philosophique, humaniste et technique. Dans ce jeu, un humain discute avec un humain et avec une machine par l'intermédiaire de l'écriture et ceux sans connaître les différentes natures. L'individu doit déterminer s'il a affaire à un égal, un humain ou à un machine sur la base des réponses écrites qu'il reçoit. Le gain de ce jeu de rôles n'est donc pas négligeable puisqu'il s'agit de savoir si l'humanité peut être imiter et reconnue par l'écriture. La démonstration du chercheur britannique se fait en faveur d'une présumption d'innocence et intelligence de la machine puisque cette dernière sera toujours capable de tromper l'interrogateur et de prétendre à ses yeux à une humanité. La question de l'intelligence articifielle ou plutôt technique, car la formulation semble plus appropriée ici au vue de la connation immatérielle du terme, est alors déplacée pour être appréhendée sous le jour d'un « natural conceptual horizon of probabiliy, where truth is the provisory production of a set of rules » (Baillehache 2021, p. 5). L'intelligence de la machine ne peut donc être abordée par la question à l'origine de la démonstration de Turing, celle de savoir si elle pense, mais plutôt par une réflexion sur les probabilités qu'elle puisse tromper l'humain « or more precisely, that a human can be fooled by a machine » (Baillehache 2021, p. 6). 
 
 Au gré d'une lecture littéraire, c'est également toute la question de l'identité derrière l'écriture qui se pose dans ce jeu de langage (Wittgenstein) renouvelé, et donc de l'humanité au travers de ses mots. La déclinaison du jeu de l'imitation qui suivra recouvre une perspective tout aussi intéressante, parce que traitant de la question de genre : l'interrogateur n'est plus en face d'un dilemne plaçant son raisonemment face à l'énigme de l'humain et du non-humain mais face à celle du féminin et du masculin. Cette saveur en extension du jeu rejoint la réflexion sur le style féminin, thématique notamment à l'origine des études de genres, qui viennent définir un rapport au monde par la formulation, la structuration et l'imaginaire engagé dans une composition textuelle. Ce que ces deux expériences semblent indiquer est une certaine artificialité de nos acquis, conçus comme intouchables ou irréfutables par une posture d'orgueil ou une revandication à la supériorité d'un modèle sur un autre. Ce jeu pourrait désormais apparaître comme tronqué, et l'analyse de Baillehache, en témoigne dans la mesure où ce n'est plus seulement une performance d'imitation qui est en cours mais bien plus un rapport de tromperie et donc une question du pouvoir qui est impliquée. Au-delà de l'imitation, de la trahison ou d'un test de la réflexion critique, le jeu de Turing est une expérience de connaissance et de reconnaissance qui n'abouti pas à la définition d'une supériorité (humaine ou masculine) mais à la redéfinition de nos modèles de pensée : si la machine ou la femme ont la possibilité de tromper l'interrogateur, c'est que la distinction des deux natures en amont de l'expérience (qui symbolise un phénomène d'a-priori des sciences humaines évoqué plus tôt) n'est pas consistante. 
+
+----
+
+sur la question de savoir si la machine comprend : 
+
+> Supposons que quelqu'un apprenne par coeur le poème *Le Cinq Mai* de Manzoni puis le récite : peut-on dire qu'il pense ? Pas nécessairement, dans le sens où il pourrait très bien penser à ce qu'il va manger au dîner. On dirait donc que, sans un homoncule vivant et vigilant, il n'y a pas de pensée, mais, tout au plus, de la mémoire, et la mémoire n'est pas pensée. On ne s'étonne pas d'entendre parler de la « mémoire » de l'ordinateur, alors que l'on autait du mal à accepter de parler de l'âme ou de l'esprit de l'ordinateur. Les deux figures donc, l'homoncule et la mémoire, ne peuvent être mises sur le même plan, le premier étant l'esprit et le deuxième, une fois encore, la lettre. (ferraris, p. 31)
+
+----
+
+
+scène de la chambre chinoise 
+
+un des arguments en faveur de la thèse de Platon selon laquelle l'écriture a toujours besoin de l'aide de la voix et d'une âme : l'expérience de pensée de la « chambre chinoise » de Searle 
+
+> Supposez que je sois enfermé dans une pièce et qu'on me donne une grosse liasse d'écriture chinoise. Supposez en outre (comme c'est effectivement le cas) que je ne connaisse rien au chinois, parlé ou écrit, et que je ne sois même pas sûr de pouvoir reconnaître l'écriture chinoise comme distincte, disons de l'écriture japonaise ou de gribouillis dépourvus de sens. Pour moi, l'écriture chinoise n'est qu'autant de gribouillis dépourvus de sens. Supposez maintenant qu'après cette première liasse, on me donne un second paquet d'inscriptions chinoises, en même temps qu'un ensemble de règles pour corréler l'une à l'autre. Les règles sont en anglais et je les comprends aussi bien que n'importe quel locuteur anglophone d'origine. Elles me permettent de corréler un ensemble de symboles formels avec un autre -- « formel » ne signifiant ici rien d'autre que la possibilité d'identifier les symboles simplement à partir de leurs formes. Supposez encore que je reçoive une troisième liasse de symboles chinois avec quelques instructions -- en anglais qui me permettent de corréler des éléments de cette troisième avec les deux premières. Ces règles m'instruisent de la manière de fournir certains symboles chinois d'une certaine forme en réaction (« réponse ») à certaines formes de la troisième liasse.Les inconnus qui me donnent tous ces symboles appellent la troisième des « questions ». De plus, ils appellent les symboles que je leur fournis en réaction à la troisième liasse des « réponses » (« answers ») aux questions. L’ensemble des règles en anglais que j’ai reçu, ils l’appellent le « programme ». Ici, pour le plaisir de compliquer l’histoire, imaginez que ces gens me donnent aussi des histoires en anglais (que je comprends) et me posent sur elles des questions auxquelles je réponde en anglais. Supposez aussi qu’après un certain temps je devienne tellement habile à suivre les instructions de manipulation des symboles chinois et les programmeurs tellement forts dans la rédaction des programmes, que d’un point de vue extérieur – c’est à dire du point de vue de quelqu’un extérieur à la pièce où je suis enfermé – mes réponses aux questions soient absolument impossibles à distinguer de celles de locuteurs d’origine chinoise. En se contentant de regarder mes réponses, personne ne pourrait dire que je ne parle pas un mot de chinois. Supposons également que mes réponses aux questions anglaises soient impossibles à distinguer de celles d’autres locuteurs anglophones d’origine ; elles le seraient sans aucun doute pour la simple raison que je suis un locuteur anglophone d’origine. Du point de vue extérieur – du point de vue de quelqu’un qui lit mes « réponses » –, les réponses aux questions anglaises et chinoises sont également bonnes. Cependant, dans le cas du chinois, contrairement à celui de l’anglais, je produis les réponses en manipulant des symboles formels ininterprétés. (Searle « esprits, cerveaux et programmes » 1981, dans Quaderni, vol. I, no 1, 1987 p. 65-96, traduction de E. Duyckaerts.) 
+
+penser pour Searle = interprêter
+l'âme interprête, la machine manipule 
+
+> Considérer comme acquis que « penser » signifie « interpréter » et que « manipuler des symboles » n’est pas penser est de toute façon assez problématique (ou, si l’on préfère, dogmatique). (p. 156)
+
+Ferraris relève les problématiques dans la pensée de Searle : en conflit et exagérations, 
+
+---
 
 Le lien entre cette expérience de pensée et *CMMP* n'est pas juste une référence honorable, la création se pose en vive continuité avec une objection que Turing justement déconstruit dans sa réflexion : celle de considérer que les machines jamais ne pourront écrire de sonnets. Leçon d'humilité et déplacement de la valeur littéraire en faveur d'un non-humain, le jeu de l'imitation comme le *CMMP* n'est pas à comprendre comme des alertes dystopiques sur l'infériorité de l'humain vis-à-vis de la machine ou une projection de la suprématie future de la machine, mais plutôt comme des invitations à mieux la comprendre et à faire ce jeu de connaissance dans notre rapport à l'écriture et à l'étrangeté de cette dernière vis-à-vis de nos modèles. La fonction humaniste de la littérature se réinvente ici avec ce type de création pour devenir des fabriques de pensée sur les liens entre machine et humain destinées à saisir les porosités où se pose l'écriture. L'intelligence ici est une intelligence de matière et le terme artificiel s'avère plus adapté pour le sonnet en tant qu'il est une construction combinatoire, déjà prévue et surtout dont la maîtrise de toute les potentialités poétiques est vaine. 
 
@@ -174,14 +299,36 @@ L'écriture *sans comprendre* ou par automatisme, sans le sens du texte mais pou
 
 Au-delà du regard que peut porter une analyse littéraire, ces exercices, cadavre-excquis à joueur unique, sont intéressante pour les réactions qu'ils suscitèrent. Queneau dira des productions qu'elles sont comparables aux « phrases de surréalistes ». Si cette formule pourrait résonner comme une dévalorisation compte tenu des relations entre les deux mouvements, Queneau y voit davantage une opportunité de déterminer une essence surréaliste. Il propose à Baudot de concevoir une machine à imitation sur le modèle de Turing. Dans la vision de Queneau, plusieurs lecteurs se verraient présentés des « phrases surréalistes » composées par des humains, et d'autres composées par la machine de Baudot. Les interrogateurs devraient à partir de ce corpus départager les natures des interlocuteurs. L'automatisation ou la vertue automatique peut donc entrer dans un jeu de réflexion au-delà de l'a priori surréaliste et même, comme pour le projet machinique des *CMMP*, permettre de dépasser les dissensions. Le hasard sert au projet oulipien tant qu'un cadre lui est assigné par un programme informatique dont la structure est parfaitement et clairement explicable. Le post-surréalisme, ou ce que Baillehache a décrit comme « computer-generated surrealist writing » (2021, p. 9), constitue une réconciliation non seulement du non-humain et de l'humain mais également de deux programmes littéraires pourtant en réaction sur les principes de création. 
 
+----
+
+Dans son Second Manifeste oulipien, paru en 1973, F. Le Lionnais a
+donc parfaitement raison de proclamer:
+>L'effort de création [oulipien] porte principalement sur tous les aspects formels de la
+littérature: contraintes, programmes ou structure alphabétiques, consonantiques,
+vocaliques, syllabiques, phonétiques, graphiques, prosodiques, rimiques, rhythmiques et
+numériques
+
+toute machine oulipienne est une réduction possible à un programme basé sur un algorithme mathématisable 
+
+potentielle parce que la littérature attend le lecteur pour se réaliser
+
+le mode d'emploi est un mode pour accompagner le FAIRE du lecteur. 
+
+>L'ordinateur sert de brouillon et sert à "composer" le texte. Par exemple, l'auteur crée
+une liste de personnages et de situations et demande à l'ordinateur de les combiner de façon
+progressive selon des affinités.
+L'auteur choisit donc de travailler sur une matière qui quantitativement le dépasse et
+que la machine lui permet de dominer. (Oulipo: atlas..., p300 par Fournel)
+
+---
+
 
 ```
 ---
 title: "Les deux hasards"
 chapitre: 1
 section: 1
-sous-section: 1
-sous-sous-section: 3
+sous-section: 3
 ---
 ```
 
@@ -237,7 +384,7 @@ Le principe de machine littéraire comme *CMMP* dévoile en réalité une fabriq
 
 La machine *CMMP* est une structuration du média qui fonde son principe littéraire et va définir le statut d'auteur comme celui de la lectrice comme des agents d'une fabrique combinatoire. Comme précisé par l'auteur, *CMMP* n'est pas un cadavre exquis mais bien un livre sur le principe du livre de combinaison pour enfant : le sonnet est alors un fragment de l'imaginaire corporel, il s'agit de lui choisir des membres pour constituer son être mais surtout de le composer moins poétiquement que *physiquement*. 
 
-Machine qui se joue avec les doigts, *CMMP* est donc une réflexion sur la question de l'agentivité et donc du geste de la lectrice en tant que la création prévoit un investissement réel dans la composition des sonnets (et ce pour les versions papiers comme pour les versions numériques). Baillehache parle en ces termes de *CMMP* : « a branching poem where the reader evolves sequetially from one node of verses to the next, in a linear fashion » (Baillehache, 2021, p. 5). La linéarité du papier et du récit sont en réalité à comprendre comme un rapport d'épaisseur et de dynamique du support où les bribes de pages sont jetées au destin. La question de l'agentivité -- davantage que celle de l'illisibilité même si ces dernières sont liées -- sera largement traité dans les remédiations dont le projet de Starynkevitc est un exemple. *CMMP* fournit de la lecture pour près de deux cents millions d’années (en lisant 24 heures sur 24)[^12]. La publication de *CMMP* en 1961 fut accueillie avec curiosité de la part des ingénieurs informatiques amateurs de poésies ou des poètes amateurs d'informatique (ce que l'on pourrait comprendre aujourd'hui comme des profils d'humanités numériques) qui voulurent éprouver la matière des sonnets sur ordinateur. L'enthousiame pour la mise en numérique de l'œuvre de Queneau fut à l'origine de la production de nombreux générateurs de poèmes automatisés et malgré leurs différences (qu'elles soient épistémologiques, techniques ou simplement esthétiques), ces projet ont tous en commun d'avoir fait des *CMMP* numériques un proto-générateur de texte. La réception informatique de *CMMP* (qu'elle soit du fait de membres oulipiens ou non) sous la forme d'*automata* littéraires est intéressante et dévoile un fonctionnement latent de l'œuvre papier (Baillehache 2021, p. 5) en tant qu'elle a saisi, peut-être à la différence de la réception littéraire, son interêt créatif : si le terme « machine » utilisé par Queneau dans la préface est à lire davantage au sens d'instrument que d'automate (Baillehache, 2021, p. 4), les automata des réceptions informatiques ont saisi le principe de fabrique de la création. Les *CMMP* sont en réalité moins une œuvre en tant que la suite illisible de 100 000 000 000 000 sonnets (presque parfaits), qu'un outil de composition destiné à la lectrice pour fabriquer ses propres sonnets. La nature de la matière, la qualité de l'édition par Robert Massin, ne doivent pas ici nous détourner de la fonctionnalité essentielle du livre : le papier, effilé comme pour signifier la rupture d'un usage et d'un modèle, et l'entaille symbolique d'une matière sont la chair d'un dispositif machinique dont l'édition permet d'assembler les rouages. 
+Machine qui se joue avec les doigts, *CMMP* est donc une réflexion sur la question de l'agentivité et donc du geste de la lectrice en tant que la création prévoit un investissement réel dans la composition des sonnets (et ce pour les versions papiers comme pour les versions numériques). Baillehache parle en ces termes de *CMMP* : « a branching poem where the reader evolves sequetially from one node of verses to the next, in a linear fashion » (Baillehache, 2021, p. 5). La linéarité du papier et du récit sont en réalité à comprendre comme un rapport d'épaisseur et de dynamique du support où les bribes de pages sont jetées au destin. La question de l'agentivité -- davantage que celle de l'illisibilité même si ces dernières sont liées -- sera largement traité dans les remédiations dont le projet de Starynkevitc est un exemple. *CMMP* fournit de la lecture pour près de deux cents millions d’années (en lisant 24 heures sur 24)[^12]. La publication de *CMMP* en 1961 fut accueillie avec curiosité de la part des ingénieurs informatiques amateurs de poésies ou des poètes amateurs d'informatique (ce que l'on pourrait comprendre aujourd'hui comme des profils d'humanités numériques) qui voulurent éprouver la matière des sonnets sur ordinateur. L'enthousiame pour la mise en numérique de l'œuvre de Queneau fut à l'origine de la production de nombreux générateurs de poèmes automatisés et malgré leurs différences (qu'elles soient épistémologiques, techniques ou simplement esthétiques), ces projet ont tous en commun d'avoir fait des *CMMP* numériques un proto-générateur de texte. La réception informatique de *CMMP* (qu'elle soit du fait de membres oulipiens ou non) sous la forme d'*automata* littéraires est intéressante et dévoile un fonctionnement latent de l'œuvre papier (Baillehache 2021, p. 5) en tant qu'elle a saisi, peut-être à la différence de la réception littéraire, son interêt créatif : si le terme « machine » utilisé par Queneau dans la préface est à lire davantage au sens d'instrument que d'automate (Baillehache, 2021, p. 4), les automata des réceptions informatiques ont saisi le principe de fabrique de la création. Les *CMMP* sont en réalité moins une œuvre en tant que la suite illisible de 100 000 000 000 000 sonnets (presque parfaits), qu'un outil de composition destiné à la lectrice pour fabriquer ses propres sonnets. La nature de la matière, la qualité de l'édition par Robert Massin, ne doivent pas ici nous détourner de la fonctionnalité essentielle du livre : le papier, effilé comme pour signifier la rupture d'un usage et d'un modèle, et l'entaille symbolique d'une matière sont la chair d'un dispositif machinique dont l'édition permet d'assembler les rouages. Cette perpective de la littérature comme instrument ou machine à écrire participe certainement d'un épuisement littéraire selon les mots d'Eco : « Pour moi, le livre avait épuisé toutes ses lectures potentielles dans l’énonciation même de sons principe structurant » [@eco_oeuvre_2015, pp. 170 - 171]. 
 
 [^12]: On pourrait bien entendu citer d'autres exemples comme *Composition n° 1*, un jeu de 148 cartes à battre avant chaque lecture [@saporta_composition_1962] qui offre aussi un principe de composition étanger au temps humain. 
 
@@ -253,6 +400,7 @@ Il y aurait bien entendu bien d'autres exemples passionnants à citer, des « j
 
 <!--Parler des contre haikus de balpe-->
 
+
 Sur saporta (Come Martin 2021)
 
 > Le roman de Marc Saporta est le plus ancien de ces trois livres objets, ainsi que le plus résolument tactile. Précisons dès à présent qu’il ne sera pas question ici de l’édition française originelle de 1962, mais de sa réédition en langue anglaise en 2011 par Visual Editions, aussi bien sous forme imprimée qu’en tant qu’application utilisable sur tablettes. Sous forme imprimée, il s’agit d’une boîte contenant 150 feuillets2, lisibles dans l’ordre désiré par le lecteur. Au verso de chacun de ces feuillets figure une sorte de paysage topographique et typographique, généré par ordinateur à partir du texte du recto. Nous présentons ces versos comme paysages, car ils sont définis comme tels par l’éditeur, mais il n’est pas nécessaire d’y adhérer : ainsi un journaliste de The Independent les décrit comme « des bandes de neige télévisuelle, ou du sable en train de s’écouler » (Gibbs 2011, notre traduction). Libre au lecteur, donc, de voir dans ces images générées par une technologie numérique une représentation du monde analogue ou non.
@@ -266,15 +414,17 @@ Cette perpective de la littérature comme instrument ou machine à écrire parti
 ---
 title: "L'image technique"
 chapitre: 1
-section: 1
-sous-section: 2
+section: 2
 ---
 ```
 ## L'image technique
 
 *où on questionne les imaginaires du texte qui semblent dissoudre sa valeur technique*
 
-Transposé à l'écran et ses multiples visages, la question du deal avec le texte que décrit McPherson (extrait ci-dessus) s'est principalement posée via l'instance de l'image, comprise comme perception des phénomènes de représentations et de constructions du texte. Le texte dont nous héritons, au gré de la multiplicité et de la diversité de ses conceptions (approches intertextuelles, antipoétiques, se reconnaissant d'un avant-gardisme ou d'un poststructuralisme), nous permet moins de saisir ce qu'il est véritablement, son émergence et ses fonctionnements, que les motifs saillants dont se sont emparées ces théories littéraires. Courbes typographiques, poétiques des espaces blancs (Christin 2000), harmonies ou saturations des styles de mises en page, le texte numérique est un évènement régi désormais par de nouvelles caractéristiques plastiques que sont la lumière, surface et mouvement : 
+Transposé à l'écran et lumières, la question du deal avec le texte que décrit McPherson (extrait ci-dessus) trouve la réponse classique de comprendre le texte *comme une instance de l'image*, en en gardant la substance graphique. Les principes de mises en page, des explorations typographiques des avant-gardistes jusqu'au principe d'image éditoriale de Souchier, vont en effet dans le sens d'une image du texte. 
+
+
+Le texte dont nous héritons, au gré de la multiplicité et de la diversité de ses conceptions (approches intertextuelles, antipoétiques, se reconnaissant d'un avant-gardisme ou d'un poststructuralisme), nous permet moins de saisir ce qu'il est véritablement, son émergence et ses fonctionnements, que les motifs saillants dont se sont emparées ces théories littéraires. Courbes typographiques, poétiques des espaces blancs (Christin 2000), harmonies ou saturations des styles de mises en page, le texte numérique est un évènement régi désormais par de nouvelles caractéristiques plastiques que sont la lumière, surface et mouvement : 
 
 > Anne-Marie Christin définit cet événement du texte numérique par l’évocation de plusieurs caractéristiques formelles et plastiques : la surface, la lumière, le mouvement. L’occupation de la surface fait signe vers une « profondeur » et repose sur une dynamique de montré/caché. L’attente de l’apparition/affichage peut produire autant de textes morcelés, inachevés, corrompus et détériorés, illisibles (par la machine, par l’humain). (Bonaccorsi 2012, p. 190)
 
@@ -286,13 +436,58 @@ La proposition d'image technique permet à la recherche et création de sortir d
 
 [#plan]
 
+### un geste 
+
+Figure de ce passage entre deux mondes que distinguent des institutions artistiques, Michaux opère dans notre esprit autant comme écrivain que peintre en développant cette double posture du corps couché et du corps debout : michaux étendu est celui qui par l'inaction du corps invente une poétique d'actions (Martin, 1999, p.3-13), michaux levé est celui qui représente des corps dansants (Huang 2014). 
+
+C'est au fond la même tension de décrit Ingold entre deux thèmes récurrent dans son analyse de la ligne : l'écoute qui a formé la lecture (lire c'est écouter des voix) et la marche qui est l'action d'aller au devant, de faire la pratique. Entendre est peut-être passif mais écouter ne l'est pas ainsi le stadu étendu de michaux ne doit pas être compris comme un laisser-aller à la surphace mais plutôt comme une attention porté à son environment qui est active et constamment en travail de renégociation. « an active and attentive movement following something that is going on in the world » (Ingold manu des idées) 
+« relationship between doing things and undergoing things » et depuis Dewey : tout acting est un process of undergoing. nous sommes transformés par ce que nous faisons et qui transforme ce que nous faisons après.  
+
+Le point d'encrage entre les deux signes de sa main se situe précisemment dans la pensée du geste qui s'abrégeant jusqu'au trait ou se marquant de géométrie répétives verse tantôt vers la lettre, tantôt vers l'esquisse. Processus en cours dont on peut s'amuser à distinguer des étapes (Huang 2014 distingue trois étapes sucessives : la rage de la première expulsion, la purification vers un dynamisme, et la variation du rythme pour un processus qui s'auto-renouvelle), la fabrique de Michaux s'apparente à un parcour qui est une recherche autant de délivrance (contre l'éternelle fatigue qui aura été son motif de vie et d'oeuvre) et une expérience du signe en quête d'un équilibre entre la danse du regard et l'immobilité de la lecture.
+
+Si l'inclination de ce « né-fatigué » le porte certainement à prendre le corps comme une analogie du geste et comme une ressource essentielle de sa poésie (Martin 1999) quipour autant s'évertuera à refuser la forme fixe, à chercher une autre langue poétique ou à mélanger les genre. La liberté de l'écriture, celle de Mallarmé ou du vers libre, est celle de faire se rejoindre poésie et dessin, autant par le principe évident du calligramme que par la revendication d'une mise en page scénique. L'affirmation qui semble poursuivre le projet de Michaux est celle de dire que le geste ne fait, dans son élan vers le support qui va le définir, pas la distinction artificielle entre le texte et l'image et que justement la synergie du rythme, cette danse comme un tango de l'inscription, va elle, déterminer un équilibre. 
+
+Se déconditionner du uniquement verbal, comme l'exprime Michaux (OCIII, p. 543), c'est là non seulement une condamnation d'un verbal rigide, dans le figement de catégories et d'une institution, mais également une volonté de réinvention de ce dernier. Les mots sont pour Michaux, ce que les institutions sont certainement pour Deleuze, des instruments pour contraindre une forme et contenir une société dans un rapport policé au monde. 
+
+Déconnectés du réel, car devenant trop conceptuels, le problème du verbe abstrait, qui est le problème du texte non-incarné, est un problème qui est vécu existentiellement par le poète : libérer un texte d'une enveloppe du lisible, c'est aussi libérer un geste d'un lien vers une seule et unique détermination littéraire. 
+
+Aventure de l'image de l'écrit, Michaux développe son geste moins pour observer son résultat que pour comprendre son processus, comme ses poèmes sont moins frappants par leurs inventivités et insolences verbales que par leur discontinuité et leur désir de représenter physiquement un paysage dans la page. 
+
+Le lien entre les écrits et les tracés est un lien qui n'est pas juste symbolique ou thématique mais celui d'une recherche sur l'incorporation du geste et sur ce qui se passe à l'intérieur, dans la tête et dans l'esprit physiquement incarné. L'insistance de sa peinture sur la figure de la tête, souvent sur fond noir, comme des produits « hermétiquement noirs » (OCI, p. 706) est cette représentation de l'être avec la « mise en sommeil d’une partie de soi, la parlante, l’écrivante » (OCI, p. 705) que le texte vient réveiller dans sa signification : 
+
+>    Ces amas de têtes forment plus ou moins trois personnages qui tremblent de perdre leur être ; sur la surface de la peau les yeux braqués brûlent du désir de connaître […]. Ainsi, par dizaines et dizaines apparurent ces têtes qui sont l’horreur de ces trois corps, famille scandaleusement cérébrale, prête à tout pour savoir […]. Rien ne consentira donc à être taille ou bras : il faut que tout soit tête, ou alors rien. Tous ces morceaux forment trois êtres désolés jusqu’à l’ahurissement qui se soutiennent entre eux.
+    (OCI, p. 436-437)
+
+L'enquête ou l'auscultation de Michaux des têtes ou des visages (les termes semblent interchangeables) se retrouve notamment dans la série des *Dessins commentés* (1934) sont une recherche de libération pour convenir d'une forme qui ne serait plus seulement contrainte par le langage. De la Plume, personnage inventé et instrument réel, au Pinceau, la différence du geste réside dans la liberté de mouvements. La fuite du verbal au dessin des signes de Michaux s'établit comme un invention de signes, également influencée par son voyage en Chien de 1931 (*Un Barbare en Asie*), ce qui donnera des compositions idéographiques, qui demeureront trop insatisfaisantes car statiques, menant ainsi la création et le geste à *Mouvements* (1951). 
+
+
+> Fâché – car peut-on agrandir une écriture ? – j’empoigne un pinceau (qui va remplacer la plume fine) pour tout de suite démontrer impossible la scandaleuse opération.
+>
+>Tout en traçant les premiers traits je sentais, à mon extrême surprise, que quelque chose de fermé depuis toujours s’était ouvert en moi, et que par cette brèche allaient passer quantité de mouvements.L’ampleur du geste, réclamé par les caractères qu’on voulait plus grands, avait changé l’esprit du dessin. Au lieu de caractères, au lieu de ces « je ne sais quoi » notés, ils arrivaient lancés, ils devenaient élan, participation, entraînement.
+>
+>Par l’amplitude je pouvais communiquer avec ma propre vitesse, et j’oubliais pour elle le sujet et l’impression originelle.
+    (OCII, p. 372)
+
+la représentation phallique du pinceau vertical amènent à délaisser les signes pour les gestes, « des gestes, les gestes intérieurs, ceux pour lesquels nous n’avons pas de membres mais des envies de membres, des tensions, des élans […] » (OCII, p. 431). » Si la distinction réside moins dans le tracé comme produit statique que dans le processus en amont du tracé, la calligraphie trouvée par Michaux s'impose comme par son étymologie comme un art du geste. 
+
+La transition entre deux principes de tracés se retrouve notamment développée concrètement dans *Parcours* (1967) où les lignes amorcées évoluent progressivement en leurs déstructuration sous la forme de signes dansants, qui finissent par s'abroger et s'abréger eux-mêmes pour finir par la forme de traits. La dernière composition de Michaux, *Par des traits* (1984) est un état de l'aboutissement dont l'automatisme a saveur de déclaration surréaliste et la rétention du geste ou son épuisement s'assume comme un arte pauvera. 
+
+> Jean-Claude Mathieu, « Michaux et l’automatisme surréaliste », André Breton, Cahier de l’Herne, sous la direction de Michel Murat, 1998, p. 353-363. Jean-Claude Mathieu montre que, attiré par l’automatisme mais méfiant à l’égard des « mots » – médiation utilisée par Breton pour une transcription immédiate du dedans mais considérée par Michaux comme trop opaque –, ce dernier préfère opter pour les « traits », à savoir la peinture et le dessin. Ce faisant, l’auteur du texte, intéressé surtout par les premières peintures de Michaux, ne distingue pas le « trait » et la « ligne », dont le clivage s’accroît à partir de la naissance des signes dans Mouvements. Laurent Jenny, pour sa part, oppose les deux dans son texte « Simple Gestures » (Untitled Passages by Henri Michaux, éd. Catherine de Zegher, New York, 2000, p. 187-198). Le « trait » y est considéré comme un arrêt de la « ligne » ; il est interprété dans sa puissance symbolique, comme geste affirmatif ou geste négatif. Nous voulons, par ce présent travail, examiner le « trait » plus spécifiquement sous sa forme du trait de pinceau, dans une démarche de l’écriture de signes.
+
+Remontée dans le temps de l'écriture, la recherche du primordial et de l'essence comme de l'essentiel, Michaux par sa pensée de l'instrument fait au final le même rapport que Christin reportant le signe au pouvoir de l'image : le trait ou tracé est une unité élémentaire sur lequel s'invente le signe. 
+
+Dans l'évolution du tracé de MIchaux, il semble en effet y avoir une progressive libération d'une exigence productiviste aussi : les espaces sont vides de plus en plus, comme si ces espaces vides étaient le déconditionnement d'un mouvement désormais bien là, et les écritures qui envahissent une page sont en réalité un remplissage de mouvements qui n'ont pas été produits. Le vide est le résultat du mouvement. et dans cette transition la peinture rejoint peu à peu l'écriture, « le tableau se fait tablette » (Huang)
+
+Michaux comme il a quitté l'impératif verbal aliénant, quittera le registre de la peinture. Ni discours ni tableau, le projet de création de Michaux est celui du mouvement. ET c'est dans cette période mescalienne que la question du rythme apparaît qui, en lien avec la conception du savoir-faire, devient un thème de réflexion sur le fait même de produire le mouvement. 
+
+La progression de MIchaux est à ce titre exemplaire en tant qu'elle témoigne d'une enquête du signe pour parvenir à ne pas en faire un principe de production mais une initiation de savoir-faire. Cette épiphanie, loin d'embrasser seulement une croyance en une énergie vitale de l'artiste un peu shouté, est une réunion avec la détermination du support et de l'environnement de création. l'instrument c'est l'être et son principe de création est ce qui l'anime ontologiquement. Que l'on comprenne la posture de Michaux comme relevant de la danse du poignet pivot, la musique du pinceau ou la performance du tracé, il reste que justement les catégories artistiques et leurs héritages, même l'influence pourtant déterminante de la calligraphie chinoise, sont mise en suspens pour une recherche qui est en fait sémiologique et phénomélogique. 
+
 ```
 ---
 title: "Lutter contre l'onde"
 chapitre: 1
-section: 1
-sous-section: 2
-sous-sous-section: 1
+section: 2
+sous-section: 1
 ---
 ```
 
@@ -311,9 +506,8 @@ Remettre la main sur le texte numérique, pouvoir revivre l'expérience de Nelso
 ---
 title: "Écriture comme support d'écritures"
 chapitre: 1
-section: 1
+section: 2
 sous-section: 2
-sous-sous-section: 2
 ---
 ```
 
@@ -357,9 +551,8 @@ Conclusion des plus humanistes, la lutte insoumise a pour arme la connaissance �
 ---
 title: "La Donnée graphique"
 chapitre: 1
-section: 1
-sous-section: 2
-sous-sous-section: 3
+section: 2
+sous-section: 3
 ---
 ```
 ### La Donnée graphique
@@ -397,9 +590,8 @@ Ne pouvant garantir de concrètes hypothèses sur la fabrique des *CMMP* par Que
 ---
 title: "Épaisseur éditoriale"
 chapitre: 1
-section: 1
-sous-section: 2
-sous-sous-section: 3
+section: 2
+sous-section: 3
 ---
 ```
 ### Épaisseur éditoriale
@@ -426,16 +618,15 @@ Continuation d'une critique du modèle hyléomorphique[^deleuze], qui s'opposait
 
 [^deleuze]: Conception crtiquée par Simondon, puis par Deuleuze et Guattari dans leur *Traité de nomadologie* (Simondon L'individuation à la lumière des notions de formes et d'information)(deleuze et guattari, capitalisme et schizophrénie 2 mille plateaux)
  
+ 
 [#ajout]
 voir édition abrupt
-
 
 ```
 ---
 title: "Invention littéraire des médias"
 chapitre: 1
-section: 1
-sous-section: 3
+section: 3
 ---
 ```
 
@@ -445,15 +636,31 @@ sous-section: 3
 
 De la machine à la matrice, la question des caractéristiques techniques de la littérature pose la question du sens de la détermination médiatique. Les médias (les caractéristiques plastiques et formelles) lorsqu'intégrés dans les récit en modifient la poétique, mais cette relation n'est pas une simple ligne droite. La perspective de la machine littéraire se renverse désormais, se tourne comme une page, pour dévoiler l'épaisseur de son lit, les rêves et fantasmes qu'elle nourrit également sur ce qu'elle produit en terme d'imaginaires mais aussi d'inventions des médias qui la supportent. Cette section concluant le premier temps d'une réflexion sur le texte s'inspire, jusqu'à la reprise du titre, d'un dossier thématique dirigé par Carrier-Lafleur, Gaudreault, Monjour et Vitali-Rosati publié dans la revue *Sens public* en 2018. S'inscrivant en forte résonnance avec le travail de l'archéologie des médias qui depuis plusieurs années avait décelé l'importance de la littérature et de la culture dans la construction et l'instutionnalisation des médias[^archeologie], la question posée était celle de comprendre les manœuvres d'une littérature tournée vers l'horizon technique, capable de prédire les futurs (*Demain est écrit* de Bayard) en investissant le média ses déterminations concrètes et en assumant et en faisant le récit de cet engagement. 
 
+----
+
+voir e "L'analyse matricielle du langag de Roubaud
+
+> Se comporter vis-à-vis du langage, comme s'il était mathématisable; et le langage est, de
+plus, mathématisable dans une direction bien spécifiée.
+La langage, s'il est manipulable par le mathématicien, l'est parce qu'arithmétisable. Il
+est donc discret (fragmentaire), non aléatoire (continu déguisé) sans taches topologiques,
+maîtrisable par morceaux.
+Quant aux rapports [...] de la mathématique et du langage [nous sommes conduits à
+soupçonner] la vraisemblance de deux conjectures:
+1. L'arithmétique s'occupant du langage suscite des textes
+2. Le langage produisant des textes suscite l'arithmétique. (Outipo: atlas..., p. 47)
+
+----
+
+
 [^archeologie]: Dont Zielinski *Deep time of the media* 2006; Parikka *What is media archaelogy? 2012; Citton « Herméneutique ou (re)médiation. Vers des études de médias comparées ? ».
 
 ```
 ---
 title: "La création de la femme"
 chapitre: 1
-section: 1
-sous-section: 3
-sous-sous-section: 1
+section: 3
+sous-section: 1
 ---
 ```
 
@@ -480,9 +687,8 @@ Cette modélisation se retrouve dans les andréides réels dont les construction
 ---
 title: "Le cyborg réécrit"
 chapitre: 1
-section: 1
-sous-section: 3
-sous-sous-section: 2
+section: 3
+sous-section: 2
 ---
 ```
 ### Le cyborg réécrit
@@ -495,21 +701,51 @@ L’imaginaire cyborg, fusion de l’être organique et de la machine, popularis
 
 La frontière entre le non-humain, ici le dispositif littéraire et l'humain, le lecteur, se brouille par le principe de lecture qui, s'il est déjà une incorporation, joue de la réciproque lorsque la machine incorpore une part de la lectrice. Le jeu d'imitation se propose dans la création oulipienne comme un jeu de prétention : le non-humain trompe l'humain si il veut bien lui prétendre cette liberté. La modification de la vision de la machine littéraire autant que l'avénèment du nouveau lecteur proto-machine dépend de la fabrique de l'objet dont la littérature est autant une question technique que d'héritage culturel. Figure culturelle, le cyborg est avant tout interdisciplinaire. Émergeant dans le domaine de la psychologie, le cyborg est réécrit notamment par le *Manifeste Cyborg* de Donna Harraway, ouvrage publié en 1985 dans *Socialist Review* [-@haraway_manifeste_2007] qui se trouve aux croisements entre histoire, anthropologie des sciences, théories féministes, *cultural studies*, technosciences, etc. 
 
-[apparté : Pas sure que le néologisme soit nécessaire -->  « l’équivalent numérique de l’interprète, au sens musical ou théâtral du terme. L’interprète est précisément celui qui lit (lecteur) le texte ou la partition, et qui la joue (acteur) » (Rageul 2009, 68). C’est l’interaction qui produit le sens, une interaction dont le « lectateur » prend conscience par la main, et donc par le corps, une lecture tout aussi intime que le feuilletage d’un imprimé, qui là encore ne se fait plus seulement au rythme du regard, mais aussi à celui du toucher.
-]
-
 >>La fin du XX^e^ siècle, notre époque, ce temps mythique est arrivé et nous ne sommes que chimères, hybrides de machines et d’organismes théorisés puis fabriqués ; en bref, des cyborgs. Le cyborg est notre ontologie ; il définit notre politique. Le cyborg est une image condensée de l’imagination et de la réalité matérielle réunies, et cette union structure toute possibilité de transformation historique. Dans la tradition occidentale des sciences et de la politique -- tradition de la domination masculine, raciste et capitaliste, tradition du progrès, tradition de l’appropriation de la nature comme ressource pour les productions de la culture, tradition de la reproduction de soi par le regard des autres -- la relation entre organisme et machine fut une guerre de frontières. [@haraway_manifeste_2007]
 
 N'étant pas *une* ontologie mais *l'*ontologie, le cyborg façonné par Harraway est une prise de pouvoir, alternative entre plusieurs approches (féminisme, marxisme, humanisme, science-fiction) qui mène à repenser le corps dans une technicité à investir, ou ce que Gardey appelle « une encorporation » [-@gardey_au_2009]. Le Manifeste d’Haraway rejoint sur des aspects le discours des pensées sur le médias en refusant l’idée d’un intérieur et d’un extérieur de la science sans perméabilité (Pestre 2006) pour développer la conception selon laquelle il y est une stigmergie entre ce que nous distinguons dans le discours (science/culture, texte/support) qui est de plus politique. Critique radicale de l’institution scientifique, le manifeste propose d’« intégrer le circuit » dans lequel nos textes sont et qui est nos textes (« nous y sommes, nous en sommes » [Gardey 2009]), soit de considérer les technosciences comme un espace de ressources, « une carte à jouer » (Wajcman 2004), pour « contester les inégalités et les formes arbitraires d’autorité » (Gardey 2009). La littérature s'empare en ce sens de la machine pour en faire un outil et espace de déclaration sur l'humain, pour réflechir sur cette disctinction (tout aussi abstraite que celle de la matière et du sens) qui sépare humain et non-humain notamment par l'écriture. 
+
+[#ajout]
+
+> In Neal Stephenson’s *Cryptonomicon*, the ﬁctional mathematical genius Lawrence Pritchard Waterhouse is showing off his new mechanical invention to his supervisor, Lieutenant Colonel Earl Comstock. Comstock inquires:
+
+>“If you had to give a name to the whole apparatus, what would you call it?”
+>“Hmmm,” Waterhouse says. “Well, its basic job is to perform mathematical calculations—like a computer.”
+>Comstock snorts, “A computer is a human being.” (600)
+
+The dialogue reﬂects the historical fact that in the 1930s and 1940s, people who were employed to do calculations—and it was predominantly women who performed this clerical labor—were called “computers.” (Hayles, Mother, p. 1)
+
+Dans son ouvrage *My Mother was a Computer*, Hayles reprend par le titre une formule de Balsamo dans son livre *Technologies of the Gendered Body* (p. 133). Hayles rappelle notamment que la mère de Balsamo était en effet un computer, travaillait comme tel et Balsamo justement utilise cette inscription généalogique pour comprendre comment les technologies de l'informations informe le genre et quelles sont les implications en terme de genre des structures dans les sciences technologiques. 
+
+[de la mother nature de kittler à la mother computer de Hayles, c'est autant la question du genre que celle du processus de matrice qui est posée]
+
+humains sont des apparata techniques. 
+
+Dans la perspective de la machine dans Marx, dans le capital, le chercheur trace une ligne claire séparant d'un côté la manufacture et le craft, dans lequel le travailleur utilise l'outil *au service*, et la fabrique où le travailleur sert la machine. La question est de savoir qui sert qui, mais cette question nous semble comme la question de déterminer si la machine pense motivée dans une recherche de supériorité de l'humain sur ses extensions techniques : comme humain et machine, dans une die de synergies plurielles, et donc de fabriques plurielles aux perspectives, il est d'abord question de comprendre comment les services sont rendus et en quoi ils reconduisent des modèles de pensée d'abord sur l'homme (que l'on dira humanistes) et puis sur le savoir (épistémologique) comprenant des a priori sur la machine (qu'ils se positionnent où ils veulent sur le spectre entre technophobe et technophile). 
+
+L'opposition entre deux modes de pensées, un modèle de « dead mechanism as an arragement of technical apparatuses retains the upper hand, or a living mechanism consisting in the communication and the machinic-social intellect of the workers. » (raunig, p. 22-23)
+
+Comme le dit raunig : 
+
+> If the relation between serving and taking into service has ever existed in this pure dissociation, the division between dead and living partial machines is dissolving. The dissociation cannot be maintained consistently for the factory of the nineteenth century, and even less so now in the twenty-first. (raunig, 23)
+
+Pour Marx la machine dans Machine Fragment il parle des machines techniques comme « *organs of the human brain, created by the human hand*; the powe of knowledge, objectified »
+
+Parlant du concept de General Intellect, Raunig dit 
+
+> "Knowledge" does not preexist, it is fabricated in exchange. (66)
+
+Sur la machine avec Guattari tradition 
+
+> Whereas in the classical context of industry indicate a rising sequence of scale, this quantitative component is not found in a contemporary machinic thinking. Here the concept of the machine goes beyond technical apparatuses to also comprise bodies, things and socialities, their exchange, their movement, and their relations. It does not indicate scale at all. In this sense, there are machines that achieve no material extension whatsoever; their size is thus equal to null. At the same time, there are abstract machines that permeate entire worlds. (raunig p. 91)
 
 
 ```
 ---
 title: "La distinction de l'humain et du non-humain"
 chapitre: 1
-section: 1
+section: 3
 sous-section: 3
-sous-sous-section: 3
 ---
 ```
 ### La distinction de l'humain et du non-humain
@@ -519,6 +755,48 @@ sous-sous-section: 3
 Dès ses premiers mots, *CMMP* semble nous annoncer que nous, humains, ne pourrons pas apprécier le livre à sa juste valeur, soit comme une machine pourra l'apprécier. Au gré de la distinction humain et non-humain, c'est le principe de concordance qui s'expose ici selon lequel l'appréciation ne peut transgresser les natures. Distinction forte entre humain et non-humain qui fonde une destinée tragique, d'autant plus terrible qu'aujourd'hui, depuis les industrialisations et numérisations de l'écrit, ce sont physiquement des machines qui *écrivent* sur/sous nos doigts. Cela nous condamne donc à ne jamais tout à fait comprendre, prendre en nous, et juger à une juste valeur le travail de ces rouages divers qui s'évertuent dans l'ombres sous notre commandement inconscient, au travers de requêtes dont nous prenons la complexité pour du hasard. 
 
 Si cette idée peut désespérer sur notre condition humaine et toute possibilité d'humanisme de par son ton quelque peu apocalypse des robots, elle demeure vraie et fausse en même temps : fausse parce que la distinction humain/non-humain qui se love en creux n'est en fait pas véritablement fondée et à prendre comme une certaine ironie du sort d'une théorie adressée par l'auteur. En effet, si l'humain considère la machine dans cet angle binaire du non-humain/humain, pour se définir par principe de supériorité ou par complexe de propriété, elle ne pourra jamais apprécier les productions écrites de la machine et ce, même s'il s'agit d'une forme aussi noble que le sonnet. Vraie parce qu'il faut y percevoir une invitation à aller au-delà du texte classique, la valeur de l'écriture par la machine ne se situe pas dans le dosage de sa production, on sait et le nombre infinie de *CMMP* est là pour nous le rappeler, qu'une machine peut produire, plus et plus vite qu'une petite main, non, la valeur de cette littérature-machine est à voir et chercher ailleurs : justement dans le modèle dont l'incarnation est le témoignage qu'humain et non-humain ne sont pas distinguable. C'est un livre machine qui conte sans l'auteur et l'auteur lui-même ne nous parle pas sinon au travers de cette interface papier-machine. Dans cette perspective, contrairement à ce qui est retenu à son égard, *CMMP* est peut-être le livre le plus lisible à exister, non en terme de potentialités poétiques, mais en terme de fonctionnement dans la mesure où le livre affiche sans pudeur, sans complexité technique, son principe machinique. 
+
+[#ajout]
+
+--- sur la matière 
+
+> Labour is the living fire that shapes the pattern; it is the transitoriness of thnigs, their temporality, their transformation by living time. (Carl Andre citant Marx Grundisse, "March/April Issue" [correspondence] Studion international, vol. 191, no 981 (May-June 1976) 311)
+
+> The category material has also been defined as natural
+or subaltern. Therefore, to act with the material and to be complicit means to
+investigate societal power relations. (Lange p. 14-15) 
+
+
+----
+
+fonction sociale de la littérature 
+
+> Les ateliers d’écriture participent eux aussi évidemment de ce
+moment social. Pour François Bon, ils sont d’abord partie prenante de son
+travail d’écrivain, bien avant leur mission pédagogique ou sociale. Ce que
+François Bon cherche depuis plus de quinze ans dans cette pratique, en
+intervenant en particulier dans les milieux où se manifestent le plus les
+fractures de la société, c’est là encore une transformation de ses propres
+représentations et de son écriture. En échange (l’atelier d’écriture se fonde
+sur cette idée de l’échange), l’auteur cherche à faire advenir chez ceux
+qu’il fait écrire, dans Prison notamment, une expression personnelle
+débarrassée de la gangue et des poncifs de la langue collective. C’est là
+finalement l’intérêt paradoxal des ateliers d’écriture pour François Bon :
+s’ils ont une fonction sociale, elle est de désocialiser pour permettre
+l’expression d’un sujet. La littérature relationnelle, dans tous les cas que
+je viens d’aborder, est très loin d’une quelconque illusion communica-
+tionnelle, réparatrice ou médiatrice. Elle fait au contraire à chaque fois
+surgir l’irréductible dans le social, se situe dans une critique des représen-
+tations acquises et cherche les moyens pour leur échapper. (p. 70, ruffel)
+
+----
+
+
+sur la petite mains : les débats autour du texte semble suppposer implicitement qu'il existe bien un essence textuelle qui pourrait être transposée d'un support à un autre : même la position antiréaliste ou faisant du texte une abstraction suppose une essence, alors gérée et créée par un éditeur dont on ne reconnaît que par figuration le propre corps. 
+
+Ni le texte ni le travail ne sont des données/constructions immatérielles indépendantes des substrats ou des mains qui les instancient. 
+
+> There is no Platonic reality of texts. There are only physical objects such as books and computers, foci of attention, and codes that entrain attention and organize material operations. Since no print books can be completely encoded into digital media, we should think about correspondences rather than ontologies, entraining processes rather than isolated objects, and codes moving in coordinated fashion across representational media rather than mapping one object onto another. (Hayles, Mother computer p. 97)
 
 Au travers de la référence à Turing et au jeu de l'imitation, Queneau invite la lectrice qui fera partie intégrante de la machine littéraire de « momentarily suspend their disbelief towards machines, [and] project themself on a fictionalized computerized reader, and interpret a computer-generated sonnet as poetry. » [Baillehache p. 6] Partenaire, l'homme devient, en reprenant une image d'Asimov, l'organe reproducteur de la machine, comme l’abeille du monde végétal, lui permettant de se féconder et de prendre sans cesse de nouvelles formes (McLuhan 1994, 67). Le mur est donc bien plus poreux qu'on voudrait le croire, entamé par des principes de collaboration mais aussi des imaginaires littéraires comme cité précédemment qui, au-delà de déclarer une puissance de l'homme à s'augmenter lui-même ou a créer la femme, jouent à gratter la frontière entre humain et non-humain. 
 
@@ -534,6 +812,7 @@ Explicitant les implications médiatiques de ses performances dans le cadre du p
 
 [^graph]: Le projet sera analysé comme un cas d'étude dans la troisième section du présent chapitre. 
 
+
 [#ajout]
 Johanna Drucker d’une « intervention. […] Dans un palimpseste, l’original est visible en profondeur, il entrelace sa présence avec le nouveau matériau de façon plus ou moins importante. Dans une œuvre transformée, la présence de l’original peut être réduite à presque rien, ou être tellement fragmentée et restructurée qu’elle devient un “monstre Frankenstein” de l’original » (Drucker 1995, 109, notre traduction).
 
@@ -544,6 +823,30 @@ Enfin, l’édition imprimée de A Humument ne dissimule pas son aspect aléatoi
 
 Moi: absolument faux : le sens et l'ordre d,Humument dépend de sa première écriture, les matières sont tel parce que la première écriture est (espèce de crétin )
 
+Bien qu'il n'ignore par le corps et sa subjectivité, Kittler dans ses travaux positionne ce dernier comme une conception du média. 
+
+> In order to optimize writing for ma-
+chines,it must no longer be dreamt of as
+an expression of individuals or as a trace of bodies. The forms, differences,
+and frequencies of letters have to be reduced to formulas. So-called man
+becomes physiology on the one hand and information technology on the
+other.” (gramophone, p. 46)
+
+Avec rhétorique, Kittler critique un héritage foucaldien et préfère plutôt que d'interroger les systèmes de discours, les médias technologiques qui produisent les systèmes de discours. 
+
+Posture qui est à distinguer de la réflexion d,Hansen (New philosophy of media) qui s'intéresse aux effets des nouveaux médias sur les utilisateurs : il étudient les médias par ce prisme. Reprenant la rhétorique de Kittler, Hansen tente en linéarisant un peu trop simplement la pensée de Kittler, de réduire l'argument en faveur du média pour remettre au centre le sujet incarné, au centre d'une nouvelle philosophie des nouveaux médias. 
+
+La guerre de ces théorie est en fait une lutte de lentille : sur quoi met-on le focus entre le média, la machine ou l'humain ?  Les deux sont en réalité, et c'est ce que défend la perspective de Hayles, connecté dans une synerie ou « correlated action » (Hayles, mother, p. 35)
+
+Pas de media sans humain
+les media déterminent en effet notre rapport à notre propre humanité incarnée
+le corps est lui-même un média, informé par d'autres médias
+
+C,est ce qui émerge également de *Cybertext* de Aarseth ou de McGann *Radiant Textuality*. Aaarseth rassemblant littérature papier et numérique pour la question des récits interactifs. L'idée du cybertext dans la perspective littéraire est de définir le text « as a material machine, a device capable of manipulating itself as well as the reader» (24), définition qui cependant est plus relevante pour l'ordinateur que pour le livre papier. 
+
+La guerre entre McGann et Aarseth est identitique à celle cité au-dessus : donner l'avantage à un mode de production/représentation de la littérature, McGann affirmant que le plus humble livre papier est toujours plus intéressant que la plus complexe oeuvre littéraire numérique. (In “It’s Not the Technology, Stupid!” a presentation at the annual convention of the
+Modern Language Association in 2003, Jerome McGann articulated this belief with great
+conviction and force.)
 
 ```
 ---
@@ -566,3 +869,41 @@ L'accroche, certainement assumée comme insolente, de Wellebery retiendra tout d
 > Le système d’écriture de 1900 est un jeu de dés avec des unités discrètes ordonnées de façon sérielle. Kittler
 
 Parce que la réflexion de Kittler se pose à la lumière de l'héritage de Foucault et de son concept de discours, le terme anglais discourse a certainement été retenu. Il reste que le terme *Aufschreibesystem* provient initiallement d'une expression utilisé par le juriste allemand Daniel Paul Schreber qu'il décrit comme « the network of technologies and institutions that allow a given culture to select, store, and process relevant data. » (DN, p. 369) Un élément essentiel de la démonstration de Kittler est cependant perdu en ce que la distinction entre les deux, média et expression, est artificielle d'une part et que de l'autre dire que le sens, l'information, la note juste se situent du côté de l'expression littéraire est en réalité arbitraire. Toute l'information est *déterminée* par le média, qui au-delà de causer du bruit dans une réalisation qui n'en aurait pas, lui donne son sens. Notre littérature (et même en réalité notre écriture) n'a jamais été sans le non-sens et le bruit que Wellebery attribue au média. C'est pourquoi le deuxième temps de l'écriture du premier chapitre se consacre à l'étude du média. 
+
+
+
+SUr la machine : au vu de la machine et de son principe de permeabilité entre humain et non-humain, il semble plus clair que la fabrique littéraire est une organisation de machine et que l'industry est l'ensemble de fabriques. 
+
+
+---- 
+
+sur l'image : 
+
+la question de l'interface posée par Rockell, 2012 - The Face of INterface
+
+
+---- 
+
+SUr la question de l'automate 
+
+- cas proposé par Poe dans « Le joueur d'échecs de Maelzel », histoire d'un fameux faux automate emmené dans les foires par un turc, qui prétendait jouer aux échecs, suscitant l'émerveillement du public à une époque où l'ordinateur n'existait pas encore. Découverte de la supercherie : un nain était caché à l'intérieur. 
+
+Ferraris ne croit pas à la pensée de Searle qui place quelque chose de magique dans la langue empêchant la machine de la parler pour vrai.
+
+Searle dans *Mind: A Brief Introduction*, 2005, distingue l'esprit en disant que sa première caractéristique est d'être qualitatif, permettant ainsi de distinguer l'expérience de penser « Deux et deux font quatre » et de penser « zwei und zwei sind vier » même si le résultat logique est identique. 
+
+La distinction est celle de l'habitude selon Ferraris, vis-à-vis d'une langue maternelle, mais surtout cet aspect qualitatif est pour lui insignifiant 
+
+distinction embodiment, le fait d'être jeté dans un corps naturel et embedment, le fait d'être jeté dans un corps culturel
+
+
+Ferraris comme d'autre tend à donner le bénéfice de la pensée à l'automate, « les ordinateurs pensent » (p. 176) mais également fait des humains des automates, estompant encore la distinction entre humain et non-humain en reprenant la formule de Leibniz « Automate spirituel ou formel mais libre » (Leibniz, Système nouveau pour expliquer la nature des substances et leur communication entre elles, aussi bien que l'union de l'âme avec le corps, Gergard, IV, p. 485) Mais je ne suis pas sûr de l'idée de liberté qui ne peut nous départir ici d'une détermination, au sens d'un inscription matérielle irréductible. 
+
+Eve future : poupée mécanique capable de répondre grâce à des enregistrements sur disque qui se basent sur la thèse que « tout dit est redit »
+
+Si on prend la lettre comme machine 
+il n'est pas vrai que l'esprit vivifie et que la lettre tue
+
+la lettre est en fait la condition de possibilité de l'esprit (humf) argument partagé par Umberto Eco dans *Cinq questions de morale*, 2002
+
+

@@ -39,6 +39,13 @@ Busa montrant le processus de l'*Index Thomisticus* au crew d'IBM à l'expositio
 <img alt="Lettrine" src="/images/index3.jpg" style="width:550px">
 </div> 
 
+[Tim Ingold](https://www.timingold.com/) et sa méthode du double index
+
+<div align="center">
+<img alt="Lettrine" src="/images/index4.jpg" style="width:550px">
+</div> 
+
+
 L'index sert à localiser rapidement : c'est un intermédiaire vers une donnée qu'il ne porte pas directement mais auquel il renvoit. 
 
 Or, on ordonne aussi par le doigt

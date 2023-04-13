@@ -3,6 +3,7 @@ title: "Merci pour le repas"
 date: 2023-01-27
 ---
 
+
 À l'origine, je n'avais pas le goût d'écrire ce post.
 
         pas très faim
@@ -115,8 +116,18 @@ Dans cette recherche d'os à se mettre sous la plume, les petites mains sont cel
 # car c'est dans ces vides que raisonnent nos mots. 
 
 
-
 Merci encore pour le repas.
+
+
+<div align="center">
+<img alt="Banquet" src="/images/banquet.jpeg" style="width:550px">
+</div> 
+
+<p style="text-align: right">
+Photo d'un banquet pris sur le vif 
+</br><a href="https://humanistica2022.sciencesconf.org/">Humanistica 2022</a>
+</p>
+
 
 --------------------------
 

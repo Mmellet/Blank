@@ -83,7 +83,14 @@ section: 1
 
 *où on aborde la question de l'auto-engendrement du texte par le discours littéraire et où on considère la littérature dans un rapport d'exploration technique.*
 
+
+----
+
 > Texte. Rien de plus commun, rien de plus complexe. C'est à croire que l'enchevêtrement des fils -- l'étymologie même du mot texte propose la métaphore du latin *texere* ou tisser -- rend le concept de textes désormais inutilisable : « depuis trente ans ce mot a bien mérité de la critique et [on] devrait lui accorder sa retraite » (Vernet 205) (Sinclair 200, p. 15-16)
+
+
+
+----
 
 Abstraction littéraire pourtant bien concrète car générant des métiers, des débats, des adaptations et des bouleversements culturels comme sociaux, le texte demeure un principe, profondément ancré dans les études littéraires au point de n'être que peu discuté dans son utilité conceptuelle en tant que tel. Les théories générales lui accordent en effet une préséance pour penser la littérature comme relevant principalement si ce n'est *essentiellement* du texte : structure enchâssée où la littérature est du texte et les textes qui l'étudient sont une littérature. Dans cet ourobouros, les théories de l'inter-hyper-hypo-trans-textualité, le courant du post-structuralisme parmi d'autres [@vitali-rosati_mais_2018] font du texte un élément clos, abstrait et semblant être unicellulaire. Tout est texte, même les études de sons, images, phénomènes ou mouvements concordent par le texte, et à la fois rien ne l'est véritablement. Si cette recherche ne lui laissera pas de repos, ne lui accordera pas sa retraite, son regard se portera plutôt sur les textes qui tissent le textes comme pratique plutôt que comme principe. Les approches texto-centrées, qui fondent une tradition disons classique de la littérature, ont leur importance puisqu'elles permettent de définir un art, de le situer, mais elles comportent la dérive de contraindre une réflexion à un aspect unique, de réduire un art à une seule perspective et un seul accès. Se créé alors de toute pièce ce texte qu'elles proclament étudier. Cette obsession textuelle qui, si elle génère le propre objet de sa folie, revêt le manteau pâle de la névrose, n'est pas infertile puisqu'elle relève un souci (ou ennemi) commun : le besoin de gouvernance, maîtrise ou saisissement de cette sauvage extériorisation. Les études littéraires ont tenté de répondre en proposant plusieurs architectures valant autant de gardes-fous que de démarcation (allant de l'archi-texte et des théories de l'intertextualité, des principes narratologiques jusqu'aux études de la réception). 
 
@@ -158,7 +165,70 @@ Le texte littéraire, son idée, son concept, demeure une construction du litté
 
 <!--
 [#creation] L'Étreinte 
+
 -->
+
+--- 
+
+ajout de la contrainte : 
+Premier manifeste de l'Oulipo, présentant les deux convictions principales dont la première est formulée par F. Le Lionnais : 
+
+> Toute œuvre littéraire se construit à partir d'une inspiration (c'est du
+moins ce que son auteur laisse entendre) qui est tenue à
+s'accommoder tant bien que mal d'une série de contraintes et de
+procédures qui rentrent les unes dans les autres comme des poupées
+russes. Contraintes du vocabulaire et de la grammaire, contraintes
+des règles du roman (division en chapitres, etc.) ou de la tragédie
+classique (règle des trois unités), contraintes de la versification générale. contraintes des formes fixes (comme dans le cas du
+rondeau ou du sonnet), etc. (20).
+
+L'inspiration est ici le vestige du surréalisme notamment. 
+La littérature, écrire un texte, est un véritable travail pour les oulipiens. 
+
+Il y a une notion d'utilité dans la création qui est promulguée par les oulipiens, qui ne doit cependant pas être comprise au sens de rentabilité mais plutôt de réutilisabilité : il faut que les méthodes soit clairement, mathématiquement, énoncées. 
+
+Queneau dit :  «Nous appelons
+littérature potentielle la recherchede formes, de structures nouvelles et qui pourront
+être utilisées par les écrivains de la façon qui leur plaira» (cité parArnaud «Préface»
+l iii)
+
+> Noël Arnaud prétend que «si I'Oulipo continue, c'est qu'il n'est pas un
+groupe» («Préface» 1 et Queneau proclame que I'Oulipo «n'est pas un
+mouvement ou une école littéraire)) (Batons 322). L'Oulipo, c'est quoi alors? Un
+phénomène. (Sinclair, thèse, p. 110)
+
+CMMP est dit « ouvrage séminal de l'Oulipo » (Sinclair these p. 112)
+
+«!'objet de I'Oulipo n'[est] pas de donner le jour
+à des œuvres» (Oulipo Lifférature potentielle 39).
+
+mais on pourrait continuer : à des méthodes de création
+dans leur point de vue, le texte est secondaire à la contrainte, ou du moins il ne peut pas être distingué de la contrainte et la contrainte est la somme des textes qui la témoignent. 
+
+
+----
+
+Les premières incursions dans le monde de l'informatique par l'Oulipo ont eu
+recours non à l'ordinateur, mais à ALGOL (ALGorithmic Oriented Language), un
+langage de programmation qui «se caractérise par un vocabulaire très réduit -
+comportant peu de mots, mais des mots humains - et par une grammaire très
+stricte, composée d'un petit nombre de règles sans exceptions)) (Le Lionnais
+«Ivresse» 220). «L'ivresse algolique)) a conduit à des poèmes du genre «Si pour
+faire fin / faut faire faux / pour faire faux / faut faire fin» (Arnaud, Liftérature
+potentielle 224) (Sinclair these p. 120)
+
+
+
+
+----
+
+arrêt avec Kittler 
+
+Pour Kittler, peu importent les écoles, dadaïstes, expressionnistes, surréalistes. Il cite Morgenstern, Kafka, Heym, Ball, van Hoddis, Huelsenbeck, Urzidil, Rilke, Adler, Breton, et le jeune G. Benn, qui développant une comptabilité à double entrée, se met à écrire avec des statistiques dans une main tout en délirant avec l’autre
+
+Dès 1905 Morgenstern compose Fisches Nachtgesang (La prière nocturne du poisson), un poème uniquement constitué de signes métriques, l’agencement des longues et des brèves permettant de faire apparaître un poisson sur la page. En 1913, Vélimir Khlebnikov et Alexeï Kroutchenykh écrivent La lettre en tant que telle, et en 1914, Marinetti publie à Rome La Splendeur géométrique et mécanique et la sensibilité numérique. Au même moment, Marcel Duchamp transforme avec ses ready-made l’art en jeu d’échecs. L’un des maîtres de Dada, auquel Kittler ne consacre jamais plus que quelques mots – peut-être parce qu’il est déjà du côté du cinéma et non plus du gramophone –, Hugo Ball assène en 1916 que le vers est sans mots. Le poème moderne, fait de bruits et de nombres, s’écrit automatiquement par l’inconscient, claque comme une machine à écrire et se lit avec le corps tout entier. Artistes visuels, sonores, performeurs – l’art de la performance naît précisément ces années-là, chanteurs et poètes – tombés de l’Olympe – appartiennent désormais au même monde. 
+
+----
 
 Le principe du cadre, délimitation comme limitation, espace pouvant paraître castrateur d'un geste de création, est investi non en terme de traditions, d'héritages ou de conventions mais au sens de procédure : la compréhension et acceptation entière de la contrainte, auto-imposée, est un levier d'écriture où le poids d'une direction permet d'investir un paysage entier de la littérature. Malgré cette méthode, l'arbitraire demeure dans le projet oulipien (Bens 2005, 146) où les valeurs entre automatisation et structure se mêlent parfois sans que l'on puisse les distinguer parfaitement. Les visages de la contrainte dans l'atlas d'Oulipo présentent en effet une diversité de profils et procédures (entre autres S+7, lipogramme, cadavre exquis) qui procèdent différemment du principe d'automatisme mais qui, à la différence du projet surréaliste, sont documentés pour servir à la réflexion future et à leur reproduction. Entre expérimentation et défi, la contrainte est une méthode qui n'a de valeur que si clairement décrite (bien que la clarté soit toujours sujette à une notion d'arbitraire) afin qu'elle puisse dépasser sa mise en pratique ou performance. Loin d'être uniques au sens de non-reproductibles, les créations oulipiennes visent à une reproduction, même automatisée, de leurs principes d'écriture. Les contraintes sont donc des procédures, une suite de règles à la manière d'algorithmes.
 
@@ -232,6 +302,12 @@ Au gré d'une lecture littéraire, c'est également toute la question de l'ident
 sur la question de savoir si la machine comprend : 
 
 > Supposons que quelqu'un apprenne par coeur le poème *Le Cinq Mai* de Manzoni puis le récite : peut-on dire qu'il pense ? Pas nécessairement, dans le sens où il pourrait très bien penser à ce qu'il va manger au dîner. On dirait donc que, sans un homoncule vivant et vigilant, il n'y a pas de pensée, mais, tout au plus, de la mémoire, et la mémoire n'est pas pensée. On ne s'étonne pas d'entendre parler de la « mémoire » de l'ordinateur, alors que l'on autait du mal à accepter de parler de l'âme ou de l'esprit de l'ordinateur. Les deux figures donc, l'homoncule et la mémoire, ne peuvent être mises sur le même plan, le premier étant l'esprit et le deuxième, une fois encore, la lettre. (ferraris, p. 31)
+
+----
+
+De la même manière, Kittler ramène Freud et Lacan à leurs conditions média-techniques : en considérant que les médias sont les moyens non seulement privilégiés mais uniques par lesquels on peut saisir l'esprit. pour la question de l'auteur et de sa mort : « Il ne s’agit pas de se prononcer sur ce qu’il est ou n’est pas, mais de prendre la mesure de sa fonction à partir des média à travers lesquels il écrit, ou n’écrit plus » (Vargoz Guez para 10)
+
+voir : Kittler Friedrich, Médias optiques. Cours berlinois 1999, trad. Anaïs Carvalho, Tamara Eble, Ève Vayssière et Slaven Waelti, traduction dir. par Audrey Rieber, Paris, L’Harmattan, coll. « Esthétiques allemandes », 2015, p. 61 : « On refusera systématiquement toute tentative de définir une fois de plus l’âme ou l’homme […] la seule chose que l’on peut en connaître ce sont les appareils techniques par lesquels l’âme ou l’homme prennent à chaque époque la mesure d’eux-mêmes. »
 
 ----
 
@@ -394,6 +470,8 @@ La perspective de la littérature-machine, non seulement comme un laboratoire po
 Il y aurait bien entendu bien d'autres exemples passionnants à citer, des « jeux de lettres sérieux » qui font de la composante matérielle du texte une donnée essentielle de leur littérarité et qui est une image technique[^26]. 
 
 [^26]: On peut citer notamment *Composition n^o^1* de Saporta, *Tree of Codes* de Jonathan Safran Foer.
+
+sur Saporta // la jalousie de robbe grillet fait penser à un jeux de cartes dont la temporalité aurait été battue entre les mains de l'auteur
 -->
 
 <!--ajouter réflexion sur le sexisme de l,Oulipo : la contrainte est celle d'être femme-->
@@ -740,6 +818,146 @@ Sur la machine avec Guattari tradition
 > Whereas in the classical context of industry indicate a rising sequence of scale, this quantitative component is not found in a contemporary machinic thinking. Here the concept of the machine goes beyond technical apparatuses to also comprise bodies, things and socialities, their exchange, their movement, and their relations. It does not indicate scale at all. In this sense, there are machines that achieve no material extension whatsoever; their size is thus equal to null. At the same time, there are abstract machines that permeate entire worlds. (raunig p. 91)
 
 
+---
+
+sur les petites mains : Uncovering ‘hidden’
+contributions to the history
+of Digital Humanities: theIndex Thomisticus’ female
+keypunch operators par Nyhan et Terras 
+
+Les auteures recentrent la question sur les premières attributions de crédits en DH des fondateurs, auteurs, masculins se ressent surtout dans le texte même si en anglais, pour proposer une autre histoire des DH // c'est au fond ce que fait aussi McPherson en rappelant le fond creation
+Cela pour réinscrire les DH dans des principes de collaboration et d'interdisciplinarité 
+
+Mais cette prise en compte des secrétaire et des hidden contributions permet également de comprendre les DH comme un champs qui associe les classes sociales et les niveaux d'interventions sur un contenus et qui doit justement, en tant que science relativement jeune, reconnaître ses origines pour permettre une réflexion critique sur les modes de collaboration qu'elle reprend majoritairement. Se définissant comme une interdiscipline qui naît de la rencontre et de la collaboration entre plusieurs instances, autant des entreprises, des chercheurs que des intellectuels sur le modèle classique, soit des religieux philologues, les DH doivent reconnaître que cette collaboration s'est fait aussi à l'aide de machine manuelles qui ne sont ni des barons d'entreprises détenant une économie culturelle, ni des relegieux érudit, ni des scientifiques, mais bien des travailleurs de la fabriques, soit des ouvriers. 
+
+Elles annoncent ironiquement "founding father" au début de leur papier notamment en référence à Busa. Justement cette image du père est autant problématique pour une question de supervision intellectuelle et d'autorité masculine, qu'elle n'Implique une dynamique paternaliste sur les ouvrières mains. 
+
+Ce papier justemnt permet de décrire leurs recherches sur les "hidden contributions" (je pense que là serait une possible traduction des petites mains) sur les projet INdex Thomisticus dont BUsa est dit le père fondateur : 
+
+> Most fields cannot point to
+a single progenitor, much less a divine one, but human-
+ities computing has Father Busa, who began working
+(with IBM) in the late 1940s on a concordance [the In-
+dex Thomisticus] of the complete works of Thomas
+Aquinas” (Unsworth 2006; see also Hockey 2004 and
+the more nuanced analysis Busa’s role in Jones
+(2016)).
+
+Les travaux de Nyhan comme de Terras depuis les années 2000 justement mettent en valeur, ramène à la lumière du monde le rôle et simplement la présence dans ce projet à l'origine des DH des petites mains, punchcard operators qui ont travaillé sur le corpus. Les ouvrières, majoritairement des femmes, ont été entraînées dans une école de typographie sur clavier que Busa avait fondé à Milan en 1956 (et qu'il dirigea jusqu'en 1967) et les autres ouvrières avaient déjà travaillé avec Busa sur le projet Literary Data Processing Centre (CAAL). Terras et Nyhan ont non seulement fait un travail de restitution de l'importance et de l'impact de leur travail sur le projet INdex mais ont également essayé de mieux comprendre leur expérience personnelle de travail sur le projet, et si les exigences du projet leurs ont réellement bénéficié.
+
+Basant leur recherche avec précaution sur la restitution orale des DH, reconnaissant des patterns de travail au travers des narrations personnelles, 
+
+> L'approche de l'histoire orale a de nouveau été adoptée pour ce projet ; dix opératrices de cartes perforées qui avaient travaillé avec qui avaient travaillé avec Busa pendant différentes durées entre 1954 et 1970 ont été interrogées. (traduction personnelle à semi)
+
+Les interviews ont été menées du 1er avril au 3 avril 2014 à l'Alosianum College of Philosophical Studies, Gallarate Italy, avec la présence de Nyhan et de Marco Passarotti (ancien étudiant de Busa, et principal investigator du CIRCSE Research Centre, Università Cattolica del Sacro Cuore, Milan). Les entretiens ont été préparées avec un double objectifs : "uncovering the Womens' memories of working on the *Index Thomisticus* project as well as capturing their memories of Busa himself". 
+
+[mais pourquoi se concentrer encore (!) sur cet homme]
+
+les questions étaient les suivantes : 
+
+> How did you first hear about punched card
+technology?
+• How did you find out about the punched card
+school?
+• How did you secure a place there?
+• What training did you receive?
+• What kinds of work did you do?
+• Was the training you received useful to you
+in later life?
+• Please share a memory of Fr Busa?
+
+et les sujets principalement abordés : 
+
+ The womens’ discovery of the training
+school that Busa set up
+• Their entrance test to the school
+• Their training and tasks as keypunch opera-
+tors
+• The organisational hierarchy of the Index
+Thomisticus workforce
+• Their awareness of the aims of the project
+and of Humanities Computing and Computa-
+tional Linguistics more generally
+• Their knowledge of Latin
+• Usefulness of the training to them in later life
+• Their memories of Busa.
+
+dont la usefulness de leur entrainement : cela leur ouvert des opportunités : 
+
+>A number of them went on
+to work as keypunch operators on an early machine
+translation project in the EURATOM Center at Ispra,
+Milan (On Busa’s connection to Ispra, see Busa, 1980, p. 86)
+
+Ce qui ressort majoritairement c'est que les femmes représentaient une source low-cost et low-skilled de travail. elles sont d'ailleurs restées sans opportunité d'accéder à un plus haut poste que punchcard operator, et la plupart n'avaient même pas été informée de la visée finale du projet. 
+
+>our research on the In-
+dex Thomisticus project has prompted us to ask
+whether claims about the centrality of collaboration to
+DH are more problematic than they first appear
+
+la question de la collaboration (sur laquelle finissent les auteures) se pose : à partir de quand est-ce que cela a permit de définir les DH ? et comment elle a été modélisée (même la collaboration est en réalité biaisée - vue d'hommes blancs). 
+
+----
+
+ajout 
+
+«Fingers and
+toes are the mostfundarnentaldigital computing device)) (Kidwell et Ceruzzi 9)
+
+
+---
+
+Casilli - « Il n'y a pas d'intelligence artificielle, il n'y a que le travail du clic de quelqu'un d'autre » 
+
+Casilli étudie le travail sur les plateformes (*digital platform labor*) depuis 2010, ayant participé à populariser en France des notions comme *digital labor*, travailleurs du clic, ou encore gig economy (économie des petits boulots). vise en particulier les activités "invisibles", non rémunérées des producteurs de données - donc disons l'ensemble majorité de la société. et il s'intéresse aussi au micro-travail : « travail de préparation, vérification et, parfois, d'imitation des intelligences artificielles qui est à la base de l'essor actuel des algorithmes. »
+
+L'articulation entre gig economy et digital labor se fait selon lui par un principe de capitalisme dans les plateformes numériques : défini comme suit « système économique basé sur la production de profit et qui cherche à limiter la masse salariale des entreprises à travers des structures particulières : les plateformes numériques. » Donc les plateformes sont à la fois marché et entreprise, donc hybrides. Le fonctionnement algorithmique de ces espaces mangent des données et les données nécessaires sont produites à la main par les utilisateurs même de ces plateformes, soit par un travail vivant. (exemple les tags sur les photos insta = aide l'algo du moteur de recherche à reconnaître les différents objets = entraînement de l'ia)
+
+Casilli mentionne un exemple intéressant pour la question de la secrétaire : 
+
+> Prenons l'exemple de Google et son système de synthèse vocale Duplex AI, une intelligence artificielle capable de prendre un rendez-vous à la place de l'utilisateur. Duplex pouvait, soi-disant, passer des appels à un coiffeur ou un dentiste en imitant la voix de l'utilisateur. Lorsque le PDG de Google l'a présenté en 2018, c'était éblouissant. Mais on s'est vite rendu compte qu'il y avait des humains derrière, qui se faisaient passer pour une IA qui, à son tour, imitait un être humain. Le système était présenté comme de la « supervision en temps réel » de l'IA (*real time supervision*). Google prétendait que ces humains qui se faisaient passer par une IA en assuraient en réalité un entraînement en temps réel. 
+
+Travailleurs du clic est une catégorie très large : des personnes en arrière des plateformes jusqu'aux utilisateurs de réseaux sociaux. 
+
+Les recherches qu'il fait dans le cadre du DiPLab (commencées en 2017) se concentrent sur les premiers microtravailleurs : dans des pays d'Afrique, et d'Amérique du Suf. 
+
+> C'est une économie globale, mondialisée, qui reproduit une ensemble d'inégalités et de disparités sociales héritées de grandes dynamiques telles que le colonialisme et l'impérialisme des siècles passés. 
+
+Cette catégorie a pris la continuité des vendeurs de rue et des femmes de ménage (statut de subalternes dont la réalité de l'exploitation s'est accrue avec la crise sanitaire où le nombres d'inscrits par plateformes a parfois augmenté de 30%)
+
+L'opacité du fonctionnement des algorithmes (dans la gestion des flux de travail notamment) demeure autant opaque pour l'utilisateur final que l'ouvrier et participe à invisibiliser des présences au travail. 
+
+> [...] pour avoir plus de transparence, il faut comprendre comment le modèle mathématique de la plateforme fonctionne. C'est là que les luttes sociales résonnent avec les activités de recherche scientifique et deviennent complémentaires. [...] Il faut analyser leurs composantes techniques [celles des algorithmes propriétaires] autant que les logiques socio-économiques qui les déterminent. Quelles sont les forces sociales en présence dans le service. Recherche et développement de Google ou dans un laboratoire de *design* ? Quelles sont les logiques professionnelles, les idéologies ou les démarches administratives qui pèsent sur des décisions scientifiques ? Par-delà ses paramètres, c'est aussi ça, un algorithme. Les travailleurs ne pourront pas avoir une vision d'ensemble de son fonctionnement tant qu'il n'y aura pas une vision claire de ses éléments constitutifs, sociaux et techniques. Certains choix de conception des plateformes sont introduits pour établir une asymétrie de pouvoir entre travailleurs et management. 
+
+En cause aussi, je rajoute, un modèle de production - idée et représentation qui place le travailleur dans l'ombre de la pensée. 
+
+> [...] derrière tout automate se cachent une foule de tâcherons. 
+
+les ingénieurs qui produisent le systèmes techniques, les développeurs, les professionnels reconnus du secteur technologique sont aussi appelés les « sublimes ». pour signifier une élite, dotée d'un pouvoir de prescription culturelle mais également d'un véritable pouvoir politique. 
+
+En réalité, il y a un même destin entre les différentes couches que cristalise l'objet produit. 
+
+> Tant que ces deux groupes [travailleurs des plateformes et sublimes] se considéreront comme situés des deux côtés de la barricade -- du côté des travailleurs du numérique et des consommateurs, ou du côté du profit et du management --, tant que ce clivage persistera, nous serons face à un problème de structuration de nos luttes. 
+
+> C'est pour cela qu'il est aujourd'hui encore impossible de créer un front commun, une conscience de classe, même partielle, autour du travail des plateformes. Le clivage entre sublimes du code et tâcherons du clic commence avec la dénégation de l'existence même de ces derniers. Je me rappelle d'échanges ahurissants avec des ingénieurs il y a quelques années : lorsque je soulignais l'importance d'étudier les microtravailleurs, ils parlaient de « petits indiens » sans importance qui « passaient derrière les ingénieurs », comme une voiture-balai, une fois leur travail terminé. C'est un discours très chargé, teinté d'un mépris de classe indéniable. 
+
+cette expérience de Casilli montre qu'il y a quelque d'intrinsèque à un modèle de production et d'ailleurs il semble parvenir à la même conclusion : 
+
+> Le problème de compréhension entre ces deux catégories de travailleurs du numérique est, à mon sens, entretenu par un élément exogène, à savoir le métarécit de l'automatisation complète. En philosophie, un métarécit est un cadre théorique qui explique des événements historiques par le biais d'un idéal transcendant avec pour objectif de légitimer un ordre politique. Or, celui de l'automatisation complète est le dernier de ces grands métarécits. 
+
+// rappel des accélérationnistes de gauche qui appellent « la machine qui va faire le boulot à la place des travailleurs » pour se débarasser d'un esclavage salarité 
+
+derrière l'opposition humain et non-humain et machine, il y a la peur d'un grand remplacement de l'humain par les machines, qui est un écho fort de l'univers de l'extrême droite identitaire, et une notion héritée de d'une idéologie faschiste. 
+
+---
+
+article de Guez et Vargoz sur auteur chez Kittler : 
+
+l'annecdote de Goethe devenu le bruit du média : sa voix avait commencé à parvenir comme des sifflements, raclements, grincements, finissant par des ronflements : sa voix était le bruit du canal d'enregistrement et de transmission. la voix du média, « né de la rencontre entre le réel et la matérialité du médium » (ce qui provoque pour Guez et Vargoz la mort de l'auteur, para 8)
+
+----
+
 ```
 ---
 title: "La distinction de l'humain et du non-humain"
@@ -812,6 +1030,30 @@ Explicitant les implications médiatiques de ses performances dans le cadre du p
 
 [^graph]: Le projet sera analysé comme un cas d'étude dans la troisième section du présent chapitre. 
 
+
+----
+
+ajout une partie critique sur l'hypertexte 
+
+Open hypertext publishing is the manifest destiny of free society. It is
+fair. it is powerful, and it is coming. (~OpeningHypertext~56-57 Nelson Ted)
+
+qui est peut être devenu comme le texte un vague conceptuel
+
+
+ajout (quelque part)
+Sinclair (these p. 31) analyse la typographie de l'hypertexte mais aussi de topographie
+
+> Qui dit texte dit une entité langagière; qui dit hypertexte dit entité langagière
+ayant une structure particulière permettant le déplacement entre des noeuds
+préétablis dans l'entité textuelle (Sinclair p. 32)
+
+
+ce n'est pas parce que l'hypertexte implique un déplacement qu'il est une architecture non-linéaire (SInclair thèse p. 33)
+
+l'hypertexte est une représentation de la non-linéarité
+
+----
 
 [#ajout]
 Johanna Drucker d’une « intervention. […] Dans un palimpseste, l’original est visible en profondeur, il entrelace sa présence avec le nouveau matériau de façon plus ou moins importante. Dans une œuvre transformée, la présence de l’original peut être réduite à presque rien, ou être tellement fragmentée et restructurée qu’elle devient un “monstre Frankenstein” de l’original » (Drucker 1995, 109, notre traduction).
@@ -906,4 +1148,74 @@ il n'est pas vrai que l'esprit vivifie et que la lettre tue
 
 la lettre est en fait la condition de possibilité de l'esprit (humf) argument partagé par Umberto Eco dans *Cinq questions de morale*, 2002
 
+---
 
+Le plus souvent, il s’agit d’un ménage à trois : l’auteur qui n’est plus écrivain, la femme-secrétaire-écrivaine qui n’est pas auteur, et la machine à écrire, ce médium technique, par qui advient cette merveilleuse composition masculin-féminin. (Vargoz Guez para 12)
+
+
+----
+
+La première machine utilisée par Nietzsche, après que l’aggravation de sa cécité l’eut empêché d’écrire à la main, fut la « sphère écrivante » de Mailing Hansen, qui ne permet pas au dactylographe de lire ce qu’il écrit ». Cf. Gramophone, Film, Typewriter, op. cit., p. 346-349.
+
+---
+
+surréaliste 
+
+>La littérature se transforme au fur et à mesure que le porte-plume est concurrencé par d’autres média. Avec l’apparition de la machine à écrire (et plus tard de l’ordinateur et des logiciels de traitement de texte), le geste d’écriture se découple du corps, l’écriture devient automatique. La machine à écrire consiste en un stock de signes différentiels, éléments discrets et combinables que celui qui tape sélectionne à l’aveugle en raison du décalage entre la vitesse de frappe et l’intention consciente20. De ce point de vue, l’écriture automatique des surréalistes n’est rien d’autre que la traduction de conditions média-techniques : celui qui écrit à la machine ne sait pas ce qu’il écrit. (Guez Vargoz para 12)
+
+--- 
+
+ajouter la technique du copier coller de Burroughs
+
+--- 
+
+ajout sur Lutz 
+
+professeur de philosophie Max Bense, auteur en 1949 de Die Mathematik in der Kunst. Quelques années auparavant, en 1959, un autre étudiant de M. Bense, un jeune informaticien nommé Theo Lutz, dans le même lieu et dans la même université crée, avec un Zuse Z 22, une base de données contenant 16 sujets et 16 prédicats extraits du Château de Kafka et programme la première œuvre littéraire45 produite avec un ordinateur numérique : Stochastische Texte. Un générateur de texte qu’il publie la même année dans Augenblick46, la revue littéraire et philosophique fondée par Bense en 1955. Si « la mort de l’auteur » du système 1800 semble être une préoccupation française, l’émergence de l’auteur du système 2000 est une affaire allemande. Alors que le style en art devient affaire de code, de commutation et de flux, l’« auteur » de notre époque n’est plus que le co-auteur de ses œuvres, cherchant avant tout à comprendre ce nouvel Autre qui fait office à la fois de secrétaire et de lecteur, et contraint de renoncer à ce statut de créateur qu’il avait cru obtenir au xixe siècle avec la mort de Dieu. 
+
+45 : Il est vrai que, comme le rappelle Noah Wardrip-Fruin, la première œuvre de littérature numérique pourrait être les Lettres d’amour, nées de la rencontre entre Alan Turing et Christopher Strachey. Programmées en 1952 sur l’ordinateur chéri par Turing, le Mark I de Manchester, plus connu sous le nom de M.U.C., les Lettres d’amour paraissent en 1954 dans la revue conservatrice Encounter (« The Thinking Machine », Encounter, October 1954, p. 25-31). Cf. Noah Wardrip-Fruin, « Digital Media Archaeologies: Interpreting Computational Processes », in Erkki Huhtamo et Jussi Parikka (eds), Media Archaeology: Approaches, Applications, and Implications, Berkeley, University of California Press, 2011. Enfin, il faut noter qu’en 1954 Brion Gysin compose sur un ordinateur Honeywell son poème sonore I am that I am. Entre l’Allemagne, les États-Unis et le Royaume-Uni, la querelle de l’invention de l’ordinateur se poursuit jusque dans l’histoire de la littérature.
+
+46 : Lutz Theo, « Stochastische Texte », in Augenblick, 4, 1959 : https://auer.netzliteratur.net/0_lutz/lutz_original.html (consulté le 1er septembre 2017).
+
+----
+
+hyperpo à l'origine de voyant pour hypertexte potentiel
+
+---
+
+comparaison HYperPo et TACT (Sinclair, thèse p. 104)
+
+L'écart entre texte et données qui résulte d'outils tels que TACT propage le
+concept du texte comme entité figée dont on peut, tout au plus, tirer des sous-
+produits statistiques. En contraste, HyperPo encourage la vision du texte comme
+entité souple et maniable; la lecture et l'interprétation deviennent un processus
+d'exploration et de création. Cette perspective sort naturellement de l'espace
+hypertextuel:
+
+>As critics like George Landow and Paul Delany have pointed out,
+hypertext is increasing our sense of the text as a process, rather than
+a product [Delany & Landow, p. 121. Theoretically, each reader could
+experience a completely different version of a text - in reality,
+completely different text - than every other reader. and it is the
+process of making choices throughout the reading that determines the
+shape the text will assume. (Austin 417)
+
+l'hyperpo est un logiciel de lecture « extensible ». 
+
+----
+
+perec comparé à un ordi : 
+
+> Si je tente de définir ce que j'ai cherché à faire depuis que j'ai
+commencé à écrire, la première idée qui me vient à l'esprit est que je
+n'ai jamais écrit deux livres semblables, que je n'ai jamais eu envie de
+répéter dans un livre une formule, un système ou une manière
+élaborés dans un livre précédent.
+Cette versatilité systématique a plusieurs fois dérouté certains
+critiques soucieux de retrouver d'un livre à l'autre la «patte» de
+l'écrivain; et sans doute a-t-elle décontenancé quelques-uns de mes
+lecteurs. Elle m'a valu la réputation d'être une sorte d'ordinateur, une
+machine à produire des textes. Pour ma part, je me comparerais
+plutôt à un paysan qui cultiverait plusieurs champs; dans l'un il ferait
+des betteraves, dans un autre de la luzerne, dans un troisième du
+maïs, etc. (Perec «Notes» i0).

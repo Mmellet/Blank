@@ -203,3 +203,97 @@ plasticity comme malleability, comme instabillity mais pas passivity
 --- 
 
 Carl Andre, artiste minimaliste que l'on pourrait associer à une même recherche de pure matière que l'arte povera, dit dans une interview avec Jeanne Siegel publiée en 1970 : "Matter as matter rather than matter as symbol is a conscious political position I think, essentially Marxist" (p. 178)
+
+
+---
+
+Frédéric Clavert parle de bricolage « capacité à s'adapter pour survivre » (colloque étudiant sur la Mémoire en HN) - différence du braconnage : « contourner les règles pour s'adapter pour survivre » [mouais je dirai plutôt détournement parce que braconner c'est toujours illégal même si Fred veut ne pas le rendre aussi totalitaire]
+
+---
+
+la question des interfaces d'écriture est une question de la figure de la page
+
+--- 
+
+clavert pense que l'écriture est une culture, et que les traitements de texte sont la culture de l'écriture des sciences humaines
+
+-- 
+
+voir bourdieu sur le problème de l'abstraction en litt : mais la reconduit par rapport au livre
+
+----
+
+
+> it's not a bug, it's an undocumented feature 
+
+on a la même chose aussi : 
+
+> There is no algorithm. It's just someone else's decision. 
+(t-shirt de Casilli et de ses copains)
+
+en référence à une phrase du milieu des hackers :
+
+> There is no cloud. It's just somebody else's computer. 
+
+L'idée d'immatérialité ne pose pas seulement le problème d'un oubli des déterminations du support mais également un problème d'oubli de l'intervention humaine : comme si ces infrastructures peuvent se passer des humains. l'algo ne fonctionne pas seul ni extrait de modèles techiques et sociaux qui reproduisent, sont en continuité directe avec des fonctionnements sociaux-culturels. 
+
+
+----
+
+pour ajout sur mallarmé 
+
+Friedrich Kittler, lui, voit dans l’auteur du Coup de dés celui qui fait ressortir le fait que le langage est encodé – « la littérature ne dit rien, sinon qu’elle se compose des vingt-six lettres de l’alphabet »
+
+de Mallarmé Stéphane, La Littérature. Doctrine, in Œuvres complètes, H. Mondor et G. Aubry (dir.), Paris, Gallimard, coll « Bibliothèque de la Pléiade », 1945, p. 850, cité par Kittler in Gramophone, Film, Typewriter, op. cit., p. 47.
+
+le fait des études du nombre dans coup de dès montre que l'écriture est passée au code (Guez Vargoz para 12)
+
+----
+
+Morgenstern, « matériau sans auteur » (Kittler F., Aufschreibesysteme 1800-1900, op. cit., p. 256.)
+
+---
+
+sur le détournement même si leur vision est bien tranché 
+
+> L’auteur du système post-1900 n’est plus un scripteur (manuscrit comme dans le système 1800), ni un écrivain ou une écrivaine devenu(e) secrétaire des machines, mais l’ausculteur de son médium, l’explorateur du système d’inscription dans lequel il évolue. (Guez Vargoz para 15)
+
+--- 
+
+les remerciements de Sinclair dans sa thèse son en python ? 
+
+---
+
+sur la linéarité obligée et l'hypertexte, la question du non-linéaire qui n'est pas une coupure matérielle
+
+> Poe (cf. «Thingus Bob» 1141) décrit une
+démarche semblable même avant les consignes suivantes de Tzara: (Sinclair thèse, pp. 25-26)
+
+>Prenez un journal. / Prenez des ciseaux. 1 Choisissez dans ce journal
+un article ayant la longueur que vous comptez donner à votre poème.
+Découpez l'article. I Découpezensuite avec soin chacun des mots qui
+forment cet article et mettez-les dans un sac. I Agitez doucement. 1
+Sortez ensuite chaque coupure l'une après l'autre. I Copiez consciencieusement / dans l'ordre où elles ont quitté le sac. / Le
+poème vous ressemblera. / Et vous voilà un écrivain infinimentoriginal
+et d'une sensibilité charmante, encore qu'incomprise du vulgaire.
+(Tristan Tzara 382)
+
+----
+
+Serge Lusignan:
+En termes informatiques, l'information est un signal ou une
+combinaison de signaux. Vu sous cet angle, le texte constitue une
+longue séquence de bits et la liste de vocabulaire, un décompte de
+combinaisons de bits. . . . Dans les études littéraires, le sens naît de
+la capacité du spécialiste de lire un texte et de l'interpréter
+relativement à d'autres textes, suivant des modèles théoriques. . . .
+Replacé dans le processus interprétatif, I'ordinateur apparaît comme
+une machine qui, à partir du texte électronique, produit des
+informations. L'ordinateur n'accède jamais au niveau du sens. Les
+informations qu'il nous livre peuvent provoquer du sens, mais il faut
+reconnaître aussi qu'elles peuvent n'en provoquer aucun.
+(«Quelques réflexions» 210)
+
+ Clifford Stol1 diffère légèrement, mais sa formulation a le
+mérÏte d'être à la fois imagée et succincte: «Data isn't information, any more than
+fifty tons of cement is a skyscrapen>(192)

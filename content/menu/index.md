@@ -12,10 +12,16 @@ headless: true;
 - **[Fabrique]({{< relref "/fabriques" >}})**
 - **[Création]({{< relref "/creations" >}})**
 - **[Méditions]({{< relref "/meditions" >}})**
+
+__
+- **[Hypertextes]({{< relref "/hypertexte" >}})**
 - **[Textes Vidéos]({{< relref "/textes-videos" >}})**
-- **[Je suis]({{< relref "/about" >}})**
 - **[Publications]({{< relref "/publications" >}})**
 - **[Conférences]({{< relref "/conference" >}})**
+
+__
+
+- **[Je suis]({{< relref "/about" >}})**
 - **[Crédits]({{< relref "/credits" >}})**
 <!--- **[Jesus Jekyll]({{< relref "/jekyll" >}})**-->
----
+----

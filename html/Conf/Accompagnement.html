@@ -1,0 +1,409 @@
+<html lang="fr">
+
+<head>
+	<meta charset="utf-8">
+
+	<title>Bruit de la désécriture</title>
+
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+	<link rel="stylesheet" href="css/reveal.css">
+	<link rel="stylesheet" href="css/theme/white.css" id="theme">
+
+	<!-- Code syntax highlighting -->
+	<link rel="stylesheet" href="lib/css/zenburn.css">
+
+
+	<style>
+		.reveal h1,
+		.reveal h2,
+		.reveal h3,
+		.reveal h4,
+		.reveal h5,
+		.reveal h6 {
+			margin: 0 0 20px 0;
+			color: black;
+			font-family: 'Source Sans Pro', Verdana, Geneva, Tahoma, sans-serif;
+			font-weight: 600;
+			line-height: 1.2;
+			letter-spacing: normal;
+			text-transform: uppercase;
+			text-shadow: none;
+			word-wrap: break-word;
+		}
+
+		#fondop2 {
+			background-color: rgba(228, 191, 88, 0.658);
+			border-color: rgb(9, 80, 50);
+			opacity: 0.8;
+		}
+
+		#fondop {
+
+			background-color: rgb(228, 190, 88);
+			opacity: 0.9;
+			border-color: rgb(9, 80, 50);
+		}
+
+		#fondop3 {
+			background-color: rgba(247, 246, 244, 0.438);
+		}
+
+		#fondop4 {
+			background-color: rgba(247, 246, 244, 0.678);
+		}
+
+		.reveal a:hover {
+
+			color: rgb(238, 86, 31);
+		}
+
+		.reveal a {
+			color: coral;
+		}
+
+		body {
+			position: relative;
+			line-height: 1;
+			background-color: white;
+			color: #000;
+			font-family: sans-serif;
+		}
+	</style>
+
+
+	<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+
+</head>
+
+<body>
+
+	<div class="reveal">
+
+		<div class="slides">
+			<section data-background-image="accompagnement/mellet.png" data-background-size="2100px"
+				background-color="white">
+				<div id="fondop2" style="text-align: left;">
+					<img src="accompagnement/logo-2-1.svg" alt="" width="10%"></img>
+					<small style="text-align: center; margin-top: 30px;"><b></b></small>
+					</li>
+
+				</div>
+				<div id="fondop3" class="fragment">
+					<h5>
+						Le bruit technique de la désécriture : tutoriel pour accompagner le bug
+					</h5>
+				<small>
+					<a href="https://blank.blue/">
+						Margot Mellet
+					</a>
+					- Université de Montréal
+					</br><a href="https://twitter.com/mellet_m">@mellet_m</a>
+				</small>
+				</br>
+				<img src="ccla/logo.svg" alt="" width="30%"></img>
+
+		</div>
+
+		<div id="fondop2">
+			<small>Mai 2023 - Montréal</small>
+		</div>
+		</section>
+
+		<div class="slides">
+			<section data-background-image="accompagnement/bug.jpg" data-background-size="1200px"
+				background-color="#21211c">
+				<div id="fondop" class="fragment" style="border-color:#01BBFE">
+
+					<p>It's not a bug, it's an undocumented feature</p>
+				</div></br>
+				<div id="fondop2">
+					<small><i>First actual case of bug being found</i>, Grace Murray Hooper & team (1945)</small>
+				</div>
+			</section>
+
+
+			<section data-background-image="accompagnement/christin.jpg" data-background-size="1000px">
+				<div id="fondop" class="fragment">
+					<h5></h5>
+<!--commentaire que personne ne lira s'il reste à la surface de l'écran-->
+				</div>
+
+				<div id="fondop" class="fragment">
+					<p>Un objet ne devient visible qu’en rendant aveugle ce qui l’entoure.</p>
+					</div>
+				</br>
+			</br>
+		</br>
+				<div id="fondop2"><small><i>Poétique du blanc : Vide et intervalles dans la civilisation de l'alphabet</i>,
+						Anne-Marie Christin (2000)</small></p>
+				</div>
+			</section>
+
+			<section data-background-image="accompagnement/kittler3.jpg" data-background-size="1200px"
+				background-color="#21211c">
+				<div id="fondop" class="fragment" style="border-color:#01BBFE">
+
+					<p>Comme nous le savons tous, même si nous ne voulons pas nous l’avouer, aucun
+						être humain n’écrit plus. </p>
+				</div></br></br>
+				<div id="fondop2">
+					<small>« Le logiciel n’existe pas » in <i>Mode protégé</i>, Kittler (1993)</small>
+				</div></br>
+				<div class="fragment" id="fondop4">
+					Étape [1] : S'avouer la désécriture
+				</div>
+			</section>
+
+
+			<section data-background-image="accompagnement/turing.jpg" data-background-size="1000px">
+				<div id="fondop" class="fragment">
+					<h5></h5>
+
+				</div>
+				<div id="fondop" class="fragment">
+					<p>The original question, "Can machines think?" I believe to be too meaningless to
+						deserve discussion.</p>
+					</div></br>
+					
+					<div id="fondop2"><small><i>Computing Machinery and Intelligence</i>, Alan Turing (1950)</small></p>
+				</div></br>
+				<div class="fragment" id="fondop4">
+					Étape [2] : Changer la focale
+				</div>
+			</section>
+
+
+			<section data-background-image="accompagnement/kittler.jpg" data-background-size="1200px"
+				background-color="#21211c">
+				<div id="fondop" class="fragment" style="border-color:#01BBFE">
+					<p>Le gramophone enregistre le bruit du monde, c’est-à-dire le réel ou au-delà du
+						signifié – qui se révèle de la même manière dans la cure de la psychanalyse</p>
+				</div></br>
+				<div id="fondop2">
+					<small><i>Gramophone, Film, Typewriter</i>, Kittler (1999)</small>
+				</div>
+			</br>
+			<div class="fragment" id="fondop4">
+				Étape [3] : Écouter le bruit/non-humain
+			</div>
+			</section>
+
+			<section data-background-image="accompagnement/goethe.jpg" data-background-size="1200px"
+				background-color="#21211c">
+				<div id="fondop" class="fragment" style="border-color:#01BBFE">
+
+					<p>Après fabrication d'un faux larynx à partir du moulage du squelette d'un Goethe
+						fraîchement extrait du caveau, l'ingénieur connecte le larynx à un microphone, un gramophone et
+						un soufflet afin d'aspirer les ondes du grand homme</p>
+				</div></br>
+				<div id="fondop2">
+					<small><i>Goethe parle au phonographe</i>, Salomo Friedländer (1916)</small>
+				</div>
+			</section>
+
+			<section data-background-image="accompagnement/tolstoi.jpg" data-background-size="1900px">
+				<div id="fondop" class="fragment">
+					<h5></h5>
+					<p>extraire l'objet de l'automatisme de la perception </br>(Chklovski, <i>L'Art
+							comme procédé</i> 1917)</p>
+				</div>
+			</br>
+				<div id="fondop2">
+					<small>Tolstoï à cheval (De Agostini, 1910)</small></p>
+				</div>
+			</section>
+
+
+			<section data-background-image="accompagnement/kittler2.png" data-background-size="1200px"
+				background-color="#21211c">
+				<div id="fondop" class="fragment" style="border-color:#01BBFE">
+
+					<p>[J]e ne peux pas comprendre que les gens n’apprennent à lire et à écrire que les
+						26 lettres de l’alphabet. Ils devraient au moins y ajouter les 10 chiffres, les intégrales et
+						les sinus […]. Ils devraient de plus maîtriser deux langages de programmation, afin de disposer
+						de ce qui, en ce moment, constitue la culture.</p>
+				</div></br>
+				<div id="fondop2">
+					<small><i>Interview</i>, Kittler</small>
+				</div>
+			</br>
+			<div class="fragment" id="fondop4">
+				Étape [4] : Maîtriser les écritures-machines
+			</div>
+			</section>
+
+
+			<section data-background-image="accompagnement/michaux.jpg" data-background-size="1200px"
+				background-color="#21211c">
+				<div id="fondop" class="fragment" style="border-color:#01BBFE">
+
+					<p>Littérature au contact du support</p>
+				</div></br>
+				<div id="fondop2">
+					<small><i>Untitled</i>, Michaux (1960)</small>
+				</div>
+			</section>
+
+
+			<section data-background-image="accompagnement/shimamoto.jpg" data-background-size="1200px"
+				background-color="#21211c">
+				<div id="fondop" class="fragment" style="border-color:#01BBFE">
+
+					<p>Paint cannot be liberated until the brush has been broken up and thrown away and
+						distance has been gained from it. Paint does not start to live until it is liberated from the
+						brush. </p>
+				</div></br>
+				<div id="fondop2">
+					<small><i>The curse of the brush</i>, Shimamoto (1957)</small>
+				</div>
+			</section>
+
+
+
+			<section data-background-image="accompagnement/mellet.png" data-background-size="2000px"
+				data-background-color="#f1eded">
+					<!--
+			<section data-background-image="accompagnement/desecriture.jpg" data-background-size="1000px"
+				background-color="#21211c">
+				<div id="fondop" class="fragment" style="border-color:#01BBFE">
+
+					<p>Je fais vibrer cette clotûre que le langage crée jusqu'à la faire éclater comme
+						un cristal détruit par un son suraigu. Mon échec sera mon espoir.</p>
+				</div></br>-->
+				<div id="fondop2">
+					<small><a href="https://blank.blue/html/Creations/Mues/mues.html">Mines à mues</a> 2023</small>
+				</div>
+			</br>
+			<div class="fragment" id="fondop4">
+				Étape [4+1] : Détourner l'écriture-machine
+			</div>
+			</section>
+
+			<section data-background-image="accompagnement/mellet.png" data-background-size="2000px"
+				data-background-color="#f1eded">
+				<div id="fondop3" class="fragment">
+					<h5>Merci</h5>
+					<small>
+						<a href="https://blank.blue/">
+							Margot Mellet - Blank.blue
+						</a>
+						- Université de Montréal
+						</br><a href="https://twitter.com/mellet_m">@mellet_m</a>
+					</small>
+				</div>
+			</section>
+
+		</div>
+
+
+
+
+
+	</div>
+
+
+	<script src="lib/js/head.min.js"></script>
+	<script src="js/reveal.js"></script>
+
+	<script>
+		// Full list of configuration options available at:
+		// https://github.com/hakimel/reveal.js#configuration
+		Reveal.initialize({
+			controls: true,
+			progress: true,
+			history: true,
+			center: true,
+
+			transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+			// Optional reveal.js plugins
+			dependencies: [{
+					src: 'lib/js/classList.js',
+					condition: function () {
+						return !document.body.classList;
+					}
+				},
+				{
+					src: 'plugin/markdown/marked.js',
+					condition: function () {
+						return !!document.querySelector('[data-markdown]');
+					}
+				},
+				{
+					src: 'plugin/markdown/markdown.js',
+					condition: function () {
+						return !!document.querySelector('[data-markdown]');
+					}
+				},
+				{
+					src: 'plugin/highlight/highlight.js',
+					async: true,
+					condition: function () {
+						return !!document.querySelector('pre code');
+					},
+					callback: function () {
+						hljs.initHighlightingOnLoad();
+					}
+				},
+				{
+					src: 'plugin/zoom-js/zoom.js',
+					async: true
+				},
+				{
+					src: 'plugin/notes/notes.js',
+					async: true
+				}
+			]
+		});
+
+		var link = document.createElement('link');
+		link.rel = 'stylesheet';
+		link.type = 'text/css';
+		link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+		document.getElementsByTagName('head')[0].appendChild(link);
+
+		var slideIndex = 1;
+		showSlides(slideIndex);
+
+		function plusSlides(n) {
+			showSlides(slideIndex += n);
+		}
+
+		function currentSlide(n) {
+			showSlides(slideIndex = n);
+		}
+
+		function showSlides(n) {
+			var i;
+			var slides = document.getElementsByClassName("mySlides");
+			var dots = document.getElementsByClassName("dot");
+			if (n > slides.length) {
+				slideIndex = 1
+			}
+			if (n < 1) {
+				slideIndex = slides.length
+			}
+			for (i = 0; i < slides.length; i++) {
+				slides[i].style.display = "none";
+			}
+			for (i = 0; i < dots.length; i++) {
+				dots[i].className = dots[i].className.replace(" active", "");
+			}
+			slides[slideIndex - 1].style.display = "block";
+			dots[slideIndex - 1].className += " active";
+		}
+	</script>
+
+</body>
+
+</html>

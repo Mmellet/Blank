@@ -32,8 +32,13 @@
     <lastmod>2022-10-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blank.blue/</loc>
-    <lastmod>2023-02-24T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <lastmod>2023-05-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blank.blue/conf/</loc>
+    <lastmod>2023-05-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blank.blue/conf/accompagnement/</loc>
+    <lastmod>2023-05-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blank.blue/meditions/je-nai-plus-les-mots.../</loc>
     <lastmod>2023-02-24T00:00:00+00:00</lastmod>
@@ -58,9 +63,6 @@
   </url><url>
     <loc>https://blank.blue/fabrique/le-homard-en-tout-temps/</loc>
     <lastmod>2023-01-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blank.blue/conf/</loc>
-    <lastmod>2023-01-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blank.blue/conf/unconference/</loc>
     <lastmod>2023-01-15T00:00:00+00:00</lastmod>

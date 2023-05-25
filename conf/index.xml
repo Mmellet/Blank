@@ -5,9 +5,20 @@
     <link>https://blank.blue/conf/</link>
     <description>Recent content in Confs on </description>
     <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
     <managingEditor>margot.mellet@umontreal.ca (Margot Mellet)</managingEditor>
     <webMaster>margot.mellet@umontreal.ca (Margot Mellet)</webMaster>
-    <lastBuildDate>Sun, 15 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blank.blue/conf/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 25 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blank.blue/conf/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Le bruit technique de la désécriture : tutoriel pour accompagner le bug</title>
+      <link>https://blank.blue/conf/accompagnement/</link>
+      <pubDate>Thu, 25 May 2023 00:00:00 +0000</pubDate>
+      <author>margot.mellet@umontreal.ca (Margot Mellet)</author>
+      <guid>https://blank.blue/conf/accompagnement/</guid>
+      <description>Présentation dans le cadre du colloque « Accompagner. Limites et possibles » à l&amp;rsquo;Université de MOntréal, 24-26 mai.
+Slides # ouvrir dans mon navigateur </description>
+    </item>
+    
     <item>
       <title>Digital Performance of Mallarmé’s Un coup de dès jamais n’abolira le hasard</title>
       <link>https://blank.blue/conf/unconference/</link>

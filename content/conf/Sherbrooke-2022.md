@@ -1,6 +1,7 @@
 ---
 title: "Textapes et profil numérique"
 date: 2022-03-18
+description: "Colloque Croisée des chemins"
 ---
 
 Remerciements des organisateurs et organisatrices pour cette occasion de parole et de partage.

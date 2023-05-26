@@ -1,6 +1,7 @@
 ---
 title: "Sacrifice must be made"
 date: 2022-04-08
+description: "Colloque Reconnecter un monde dévasté"
 ---
 
 Remerciements des organisateurs et organisatrices pour cette occasion de parole et de partage.

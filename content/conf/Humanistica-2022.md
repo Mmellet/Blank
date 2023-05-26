@@ -1,6 +1,7 @@
 ---
 title: "Les petites mains de l'édition"
 date: 2022-05-20
+description: "Humanistica 2022"
 ---
 
 Remerciements aux organisateurs et organisatrices pour cette occasion de parole et de partage.

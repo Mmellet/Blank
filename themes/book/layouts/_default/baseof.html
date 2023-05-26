@@ -284,11 +284,13 @@
     </div>
 
 
-  <p style="text-align: center; font-size:12px; margin-left: 7px;">
+  <p style="text-align: left; font-size:12px; margin-left: 7px;">
     <br />
     Ici
     <br />
-    votre temps
+    le temps 
+    <br />
+    des mots
     <br />
     est compté
     <br />
@@ -405,14 +407,16 @@
     <h1>{{.Title}}</h1>
     <!--{{ if eq .IsHome true }}{{ else }}<p><a href="print.html">📃 print version</a></p>{{ end }}-->
   </div>
+  <section id="BecomeBlank">
   {{- .Content -}}
-
+</section>
   {{ if eq .Params.fabrique "oui" }}
   <section>
     {{ range  where .Site.RegularPages "Section" "fabrique"  }}
     <h3><time datetime="{{ dateFormat "2006-01" .Date }}">{{ dateFormat "2006-01" .Date }}</time> <a
-        href="{{ .Permalink }}"> {{ .Title }}</h3></a>
-
+        href="{{ .Permalink }}"> {{ .Title }}</h3>
+<em>{{ .Description }}</em></a>
+        
     {{ end }}
   </section>
   {{ end }}
@@ -422,7 +426,6 @@
     {{ range  where .Site.RegularPages "Section" "posts"  }}
     <h3><time datetime="{{ dateFormat "2006-01" .Date }}">{{ dateFormat "2006-01" .Date }}</time> <a
         href="{{ .Permalink }}"> {{ .Title }}</h3></a>
-
     {{ end }}
   </section>
   {{ end }}
@@ -470,7 +473,7 @@
   <section>
     {{ range  where .Site.RegularPages "Section" "conf"  }}
     <h3><time datetime="{{ dateFormat "2006-01" .Date }}">{{ dateFormat "2006-01" .Date }}</time><a
-        href="{{ .Permalink }}"> {{ .Title }}</h3></a>
+        href="{{ .Permalink }}"> {{ .Title }}</h3><em>{{ .Description }}</em></a>
     {{ end }}
   </section>
   {{ end }}
@@ -520,5 +523,41 @@ if (localStorage.getItem('darkMode')) {
       switcher.classList.add('js-toggle--checked');
       body.classList.add('dark-mode');
 }
+
+
+//test d'une fonction qui change ma couleur des sections identifiées comme Blank
+function changerCouleur() {
+  var elem = document.getElementById("Blank");
+  var couleur = "#" + Math.floor(Math.random()*16777215).toString(16); // génère une couleur aléatoire
+  elem.style.color = couleur;
+}
+
+//fonction qui appelle la fonction changeCouleur() toutes les x secondes en utilisant la méthode setInterval()
+function changerCouleurAuto() {
+  setInterval(changerCouleur, 10000000); // change la couleur toutes les secondes
+}
+
+//Script pour appeler le script qui change la couleur
+window.onload = changerCouleurAuto;
+
+//fin de la fonction test qui n'est pas utilisée finalement mais que je garde dans un syndrome diogène des écritures
+
+//deuxième option qui est utilisée 
+var texte = document.getElementById("BecomeBlank");
+		var compteur = 0;
+		var intervalle = setInterval(changerCouleur, 1000);
+		
+		function changerCouleur() {
+			var rouge = 0 + compteur;
+			var vert = 0 + compteur;
+			var bleu = 0 + compteur;
+      var transparent = 10000 - compteur;
+			texte.style.color = "rgb(" + rouge + ", " + vert + ", " + bleu + ", " + transparent + " )";
+			if (compteur < 255) {
+				compteur += 5;
+			} else {
+				clearInterval(intervalle);
+			}
+		}
 
 </script>

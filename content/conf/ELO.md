@@ -1,6 +1,7 @@
 ---
 title: "Understanding Digital Writing through Distance Learning"
 date: 2022-05-30
+description: "ELO 2022"
 ---
 
 Thank you/Grazie mille to all the people involved in the organization of the event.

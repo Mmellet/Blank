@@ -287,11 +287,13 @@ https://github.com/alex-shpak/hugo-book
     </div>
 
 
-  <p style="text-align: center; font-size:12px; margin-left: 7px;">
+  <p style="text-align: left; font-size:12px; margin-left: 7px;">
     <br />
     Ici
     <br />
-    votre temps
+    le temps 
+    <br />
+    des mots
     <br />
     est compté
     <br />
@@ -468,10 +470,12 @@ https://github.com/alex-shpak/hugo-book
   <div class="meta">
     <h1>Matériaux de présentation</h1>
     
-  </div><p>Espace pour organiser les notes et le matériel de présentation.</p>
+  </div>
+  <section id="BecomeBlank"><p>Espace pour organiser les notes et le matériel de présentation.</p>
 <hr>
 <p><strong>À venir</strong> : CCLA, d&rsquo;anciennes présentations si retrouvées</p>
-
+</section>
+  
 
   
 
@@ -488,34 +492,34 @@ https://github.com/alex-shpak/hugo-book
   <section>
     
     <h3><time datetime="2023-05">2023-05</time><a
-        href="https://blank.blue/conf/accompagnement/"> Le bruit technique de la désécriture : tutoriel pour accompagner le bug</h3></a>
+        href="https://blank.blue/conf/accompagnement/"> Le bruit technique de la désécriture : tutoriel pour accompagner le bug</h3><em>Colloque Accompagner, Limites et possibles</em></a>
     
     <h3><time datetime="2023-01">2023-01</time><a
-        href="https://blank.blue/conf/unconference/"> Digital Performance of Mallarmé’s Un coup de dès jamais n’abolira le hasard</h3></a>
+        href="https://blank.blue/conf/unconference/"> Digital Performance of Mallarmé’s Un coup de dès jamais n’abolira le hasard</h3><em>Unwriting conference</em></a>
     
     <h3><time datetime="2022-11">2022-11</time><a
-        href="https://blank.blue/conf/hnu1000/"> Écritures profilaires</h3></a>
+        href="https://blank.blue/conf/hnu1000/"> Écritures profilaires</h3><em></em></a>
     
     <h3><time datetime="2022-06">2022-06</time><a
-        href="https://blank.blue/conf/docso/"> Design pour des environnements éditoriaux équitables, pluriels et inclusifs</h3></a>
+        href="https://blank.blue/conf/docso/"> Design pour des environnements éditoriaux équitables, pluriels et inclusifs</h3><em>DOCSO 2022</em></a>
     
     <h3><time datetime="2022-06">2022-06</time><a
-        href="https://blank.blue/conf/intranquille/"> Le savoir intranquille du texte numérique</h3></a>
+        href="https://blank.blue/conf/intranquille/"> Le savoir intranquille du texte numérique</h3><em>Colloque Connaissance intranquille</em></a>
     
     <h3><time datetime="2022-05">2022-05</time><a
-        href="https://blank.blue/conf/elo/"> Understanding Digital Writing through Distance Learning</h3></a>
+        href="https://blank.blue/conf/elo/"> Understanding Digital Writing through Distance Learning</h3><em>ELO 2022</em></a>
     
     <h3><time datetime="2022-05">2022-05</time><a
-        href="https://blank.blue/conf/humanistica-2022/"> Les petites mains de l&#39;édition</h3></a>
+        href="https://blank.blue/conf/humanistica-2022/"> Les petites mains de l&#39;édition</h3><em>Humanistica 2022</em></a>
     
     <h3><time datetime="2022-04">2022-04</time><a
-        href="https://blank.blue/conf/rouen-2022-inscryption/"> Sacrifice must be made</h3></a>
+        href="https://blank.blue/conf/rouen-2022-inscryption/"> Sacrifice must be made</h3><em>Colloque Reconnecter un monde dévasté</em></a>
     
     <h3><time datetime="2022-03">2022-03</time><a
-        href="https://blank.blue/conf/sherbrooke-2022/"> Textapes et profil numérique</h3></a>
+        href="https://blank.blue/conf/sherbrooke-2022/"> Textapes et profil numérique</h3><em>Colloque Croisée des chemins</em></a>
     
     <h3><time datetime="0001-01">0001-01</time><a
-        href="https://blank.blue/conf/profil/"> </h3></a>
+        href="https://blank.blue/conf/profil/"> </h3><em></em></a>
     
   </section>
   
@@ -768,5 +772,41 @@ if (localStorage.getItem('darkMode')) {
       switcher.classList.add('js-toggle--checked');
       body.classList.add('dark-mode');
 }
+
+
+
+function changerCouleur() {
+  var elem = document.getElementById("Blank");
+  var couleur = "#" + Math.floor(Math.random()*16777215).toString(16); 
+  elem.style.color = couleur;
+}
+
+
+function changerCouleurAuto() {
+  setInterval(changerCouleur, 10000000); 
+}
+
+
+window.onload = changerCouleurAuto;
+
+
+
+
+var texte = document.getElementById("BecomeBlank");
+		var compteur = 0;
+		var intervalle = setInterval(changerCouleur, 1000);
+		
+		function changerCouleur() {
+			var rouge = 0 + compteur;
+			var vert = 0 + compteur;
+			var bleu = 0 + compteur;
+      var transparent = 10000 - compteur;
+			texte.style.color = "rgb(" + rouge + ", " + vert + ", " + bleu + ", " + transparent + " )";
+			if (compteur < 255) {
+				compteur += 5;
+			} else {
+				clearInterval(intervalle);
+			}
+		}
 
 </script>

@@ -287,11 +287,13 @@ https://github.com/alex-shpak/hugo-book
     </div>
 
 
-  <p style="text-align: center; font-size:12px; margin-left: 7px;">
+  <p style="text-align: left; font-size:12px; margin-left: 7px;">
     <br />
     Ici
     <br />
-    votre temps
+    le temps 
+    <br />
+    des mots
     <br />
     est compté
     <br />
@@ -475,7 +477,8 @@ https://github.com/alex-shpak/hugo-book
   <div class="meta">
     <h1>En amont des Ruses Bleues</h1>
     
-  </div><p><em>Création publiée en 2021 sur</em> MuseMedusa : <a href="https://archives.musemedusa.com/dossier_9/mellet/">https://archives.musemedusa.com/dossier_9/mellet/</a></p>
+  </div>
+  <section id="BecomeBlank"><p><em>Création publiée en 2021 sur</em> MuseMedusa : <a href="https://archives.musemedusa.com/dossier_9/mellet/">https://archives.musemedusa.com/dossier_9/mellet/</a></p>
 <h2 id="volet-1">
   Volet 1
   <a class="anchor" href="#volet-1">#</a>
@@ -542,7 +545,8 @@ https://github.com/alex-shpak/hugo-book
 </table>
 <hr>
 <p><strong>En écho</strong> Les Ruses bleues sont le <a href="https://blank.blue/textes-videos/#po%c3%a8mes-techniques">Poème Technique 1</a></p>
-
+</section>
+  
 
   
 
@@ -812,5 +816,41 @@ if (localStorage.getItem('darkMode')) {
       switcher.classList.add('js-toggle--checked');
       body.classList.add('dark-mode');
 }
+
+
+
+function changerCouleur() {
+  var elem = document.getElementById("Blank");
+  var couleur = "#" + Math.floor(Math.random()*16777215).toString(16); 
+  elem.style.color = couleur;
+}
+
+
+function changerCouleurAuto() {
+  setInterval(changerCouleur, 10000000); 
+}
+
+
+window.onload = changerCouleurAuto;
+
+
+
+
+var texte = document.getElementById("BecomeBlank");
+		var compteur = 0;
+		var intervalle = setInterval(changerCouleur, 1000);
+		
+		function changerCouleur() {
+			var rouge = 0 + compteur;
+			var vert = 0 + compteur;
+			var bleu = 0 + compteur;
+      var transparent = 10000 - compteur;
+			texte.style.color = "rgb(" + rouge + ", " + vert + ", " + bleu + ", " + transparent + " )";
+			if (compteur < 255) {
+				compteur += 5;
+			} else {
+				clearInterval(intervalle);
+			}
+		}
 
 </script>

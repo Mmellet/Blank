@@ -293,11 +293,13 @@ https://github.com/alex-shpak/hugo-book
     </div>
 
 
-  <p style="text-align: center; font-size:12px; margin-left: 7px;">
+  <p style="text-align: left; font-size:12px; margin-left: 7px;">
     <br />
     Ici
     <br />
-    votre temps
+    le temps 
+    <br />
+    des mots
     <br />
     est compté
     <br />
@@ -479,7 +481,8 @@ https://github.com/alex-shpak/hugo-book
   <div class="meta">
     <h1>Je m&#39;en fous du texte</h1>
     
-  </div><hr>
+  </div>
+  <section id="BecomeBlank"><hr>
 <p>Déployé par <strike style='color:rgb(196, 43, 94);'><span class="rayure">hasard</span></strike> erreur, ce post dévoile toute mon orgueilleuse insolence vis-à-vis de l&rsquo;institution dont je me revandique pompeusement.</p>
 <hr>
 <p>Lorque je lui présentais ma démarche d&rsquo;écriture dans le cadre de ma thèse, LK me posait la question la question suivante :</p>
@@ -544,7 +547,8 @@ faire l'expérience de ses odeurs, sueurs, rides
 </li>
 </ol>
 </div>
-
+</section>
+  
 
   
 
@@ -812,5 +816,41 @@ if (localStorage.getItem('darkMode')) {
       switcher.classList.add('js-toggle--checked');
       body.classList.add('dark-mode');
 }
+
+
+
+function changerCouleur() {
+  var elem = document.getElementById("Blank");
+  var couleur = "#" + Math.floor(Math.random()*16777215).toString(16); 
+  elem.style.color = couleur;
+}
+
+
+function changerCouleurAuto() {
+  setInterval(changerCouleur, 10000000); 
+}
+
+
+window.onload = changerCouleurAuto;
+
+
+
+
+var texte = document.getElementById("BecomeBlank");
+		var compteur = 0;
+		var intervalle = setInterval(changerCouleur, 1000);
+		
+		function changerCouleur() {
+			var rouge = 0 + compteur;
+			var vert = 0 + compteur;
+			var bleu = 0 + compteur;
+      var transparent = 10000 - compteur;
+			texte.style.color = "rgb(" + rouge + ", " + vert + ", " + bleu + ", " + transparent + " )";
+			if (compteur < 255) {
+				compteur += 5;
+			} else {
+				clearInterval(intervalle);
+			}
+		}
 
 </script>

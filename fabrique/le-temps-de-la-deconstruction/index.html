@@ -289,11 +289,13 @@ https://github.com/alex-shpak/hugo-book
     </div>
 
 
-  <p style="text-align: center; font-size:12px; margin-left: 7px;">
+  <p style="text-align: left; font-size:12px; margin-left: 7px;">
     <br />
     Ici
     <br />
-    votre temps
+    le temps 
+    <br />
+    des mots
     <br />
     est compté
     <br />
@@ -476,7 +478,8 @@ https://github.com/alex-shpak/hugo-book
   <div class="meta">
     <h1>Le temps de la déconstruction</h1>
     
-  </div><p><code>Init de la section</code></p>
+  </div>
+  <section id="BecomeBlank"><p><code>Init de la section</code></p>
 <p>Ce post, j&rsquo;avais idée de l&rsquo;écrire dès la construction du site, il y a un an. Il me permet d&rsquo;ouvrir une suite de réflexions plus larges sur les questions de processus, de temporalité et de décision dans les espaces d&rsquo;écritures.</p>
 <p>L&rsquo;idée de départ, qui est toujours en cours, était celle de créer un espace d&rsquo;aggrégation de textes, ce que l&rsquo;on pourrait (mais imparfaitement) désigner par le terme de <em>revue</em>.</p>
 <h2 id="linéasiressupbmentbsup">
@@ -552,7 +555,8 @@ c'est la promesse d'accroches et de vacuités à venir
 </li>
 </ol>
 </div>
-
+</section>
+  
 
   
 
@@ -821,5 +825,41 @@ if (localStorage.getItem('darkMode')) {
       switcher.classList.add('js-toggle--checked');
       body.classList.add('dark-mode');
 }
+
+
+
+function changerCouleur() {
+  var elem = document.getElementById("Blank");
+  var couleur = "#" + Math.floor(Math.random()*16777215).toString(16); 
+  elem.style.color = couleur;
+}
+
+
+function changerCouleurAuto() {
+  setInterval(changerCouleur, 10000000); 
+}
+
+
+window.onload = changerCouleurAuto;
+
+
+
+
+var texte = document.getElementById("BecomeBlank");
+		var compteur = 0;
+		var intervalle = setInterval(changerCouleur, 1000);
+		
+		function changerCouleur() {
+			var rouge = 0 + compteur;
+			var vert = 0 + compteur;
+			var bleu = 0 + compteur;
+      var transparent = 10000 - compteur;
+			texte.style.color = "rgb(" + rouge + ", " + vert + ", " + bleu + ", " + transparent + " )";
+			if (compteur < 255) {
+				compteur += 5;
+			} else {
+				clearInterval(intervalle);
+			}
+		}
 
 </script>

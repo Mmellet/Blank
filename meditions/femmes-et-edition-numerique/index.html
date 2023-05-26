@@ -287,11 +287,13 @@ https://github.com/alex-shpak/hugo-book
     </div>
 
 
-  <p style="text-align: center; font-size:12px; margin-left: 7px;">
+  <p style="text-align: left; font-size:12px; margin-left: 7px;">
     <br />
     Ici
     <br />
-    votre temps
+    le temps 
+    <br />
+    des mots
     <br />
     est compté
     <br />
@@ -475,7 +477,8 @@ https://github.com/alex-shpak/hugo-book
   <div class="meta">
     <h1>Femmes et édition numérique</h1>
     
-  </div><p>Dans le cadre du cours donné à l&rsquo;Université de Montréal FRA3826/EDN6001 - Théories de l&rsquo;édition numérique, j&rsquo;ai consacré la séance 10 à réfléchir sur la thématique &ldquo;Femmes et édition numérique&rdquo;.</p>
+  </div>
+  <section id="BecomeBlank"><p>Dans le cadre du cours donné à l&rsquo;Université de Montréal FRA3826/EDN6001 - Théories de l&rsquo;édition numérique, j&rsquo;ai consacré la séance 10 à réfléchir sur la thématique &ldquo;Femmes et édition numérique&rdquo;.</p>
 <p>Première fois d&rsquo;une séance exclusive sur la question de la représentation des femmes dans/par l&rsquo;édition numérique dans le cadre de ce cours, ceci est une note <em>crashtest</em> pour lister les problématiques qui ont été abordées, pour aussi questionner l&rsquo;intitulé même de la séance et son utilité.</p>
 <p>La séance avait pour objectif de réhabiliter les figures de femmes dans la présentation de l&rsquo;édition numérique, de poser la question du sexe/genre des outils et de proposer des pistes de bonnes pratiques pour prendre davantage en compte des enjeux d&rsquo;équité, de diversité et d&rsquo;inclusion.</p>
 <h2 id="un-titre-à-revoir">
@@ -532,7 +535,8 @@ https://github.com/alex-shpak/hugo-book
   Obsolescence programmée de la séance
   <a class="anchor" href="#obsolescence-programm%c3%a9e-de-la-s%c3%a9ance">#</a>
 </h2>
-
+</section>
+  
 
   
 
@@ -802,5 +806,41 @@ if (localStorage.getItem('darkMode')) {
       switcher.classList.add('js-toggle--checked');
       body.classList.add('dark-mode');
 }
+
+
+
+function changerCouleur() {
+  var elem = document.getElementById("Blank");
+  var couleur = "#" + Math.floor(Math.random()*16777215).toString(16); 
+  elem.style.color = couleur;
+}
+
+
+function changerCouleurAuto() {
+  setInterval(changerCouleur, 10000000); 
+}
+
+
+window.onload = changerCouleurAuto;
+
+
+
+
+var texte = document.getElementById("BecomeBlank");
+		var compteur = 0;
+		var intervalle = setInterval(changerCouleur, 1000);
+		
+		function changerCouleur() {
+			var rouge = 0 + compteur;
+			var vert = 0 + compteur;
+			var bleu = 0 + compteur;
+      var transparent = 10000 - compteur;
+			texte.style.color = "rgb(" + rouge + ", " + vert + ", " + bleu + ", " + transparent + " )";
+			if (compteur < 255) {
+				compteur += 5;
+			} else {
+				clearInterval(intervalle);
+			}
+		}
 
 </script>

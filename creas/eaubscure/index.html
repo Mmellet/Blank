@@ -287,11 +287,13 @@ https://github.com/alex-shpak/hugo-book
     </div>
 
 
-  <p style="text-align: center; font-size:12px; margin-left: 7px;">
+  <p style="text-align: left; font-size:12px; margin-left: 7px;">
     <br />
     Ici
     <br />
-    votre temps
+    le temps 
+    <br />
+    des mots
     <br />
     est compté
     <br />
@@ -468,11 +470,13 @@ https://github.com/alex-shpak/hugo-book
   <div class="meta">
     <h1>(eau)bscure</h1>
     
-  </div><p><em>Vidéo-Poème présenté dans le cadre d&rsquo;un concours de poésie qui ne m&rsquo;a jamais donné de nouvelles.</em></p>
+  </div>
+  <section id="BecomeBlank"><p><em>Vidéo-Poème présenté dans le cadre d&rsquo;un concours de poésie qui ne m&rsquo;a jamais donné de nouvelles.</em></p>
 <iframe src="https://ia801502.us.archive.org/29/items/eaubscure/%28eau%29bscure.mp4" webkitallowfullscreen="true" mozallowfullscreen="true" allow="autoplay" allowfullscreen></iframe>
 <hr>
 <p><strong>En écho</strong> (eau)bscure est le <a href="https://blank.blue/textes-videos/#po%c3%a8mes-techniques">Poème Technique 3</a></p>
-
+</section>
+  
 
   
 
@@ -735,5 +739,41 @@ if (localStorage.getItem('darkMode')) {
       switcher.classList.add('js-toggle--checked');
       body.classList.add('dark-mode');
 }
+
+
+
+function changerCouleur() {
+  var elem = document.getElementById("Blank");
+  var couleur = "#" + Math.floor(Math.random()*16777215).toString(16); 
+  elem.style.color = couleur;
+}
+
+
+function changerCouleurAuto() {
+  setInterval(changerCouleur, 10000000); 
+}
+
+
+window.onload = changerCouleurAuto;
+
+
+
+
+var texte = document.getElementById("BecomeBlank");
+		var compteur = 0;
+		var intervalle = setInterval(changerCouleur, 1000);
+		
+		function changerCouleur() {
+			var rouge = 0 + compteur;
+			var vert = 0 + compteur;
+			var bleu = 0 + compteur;
+      var transparent = 10000 - compteur;
+			texte.style.color = "rgb(" + rouge + ", " + vert + ", " + bleu + ", " + transparent + " )";
+			if (compteur < 255) {
+				compteur += 5;
+			} else {
+				clearInterval(intervalle);
+			}
+		}
 
 </script>

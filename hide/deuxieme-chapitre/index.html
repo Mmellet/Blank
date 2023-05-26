@@ -291,11 +291,13 @@ https://github.com/alex-shpak/hugo-book
     </div>
 
 
-  <p style="text-align: center; font-size:12px; margin-left: 7px;">
+  <p style="text-align: left; font-size:12px; margin-left: 7px;">
     <br />
     Ici
     <br />
-    votre temps
+    le temps 
+    <br />
+    des mots
     <br />
     est compté
     <br />
@@ -488,7 +490,8 @@ https://github.com/alex-shpak/hugo-book
   <div class="meta">
     <h1>Deuxième Chapitre</h1>
     
-  </div><p>À venir en 2023.</p>
+  </div>
+  <section id="BecomeBlank"><p>À venir en 2023.</p>
 <p><em>où on développe les différents projets sur lesquels on a oeuvré comme des cas d&rsquo;études permettant de préciser ce qui aura été annoncé dans la première partie.</em></p>
 <pre tabindex="0"><code>---
 title: &#34;Tool to be destroyed&#34;
@@ -753,7 +756,8 @@ Cf. « Francis Ponge tel quel » : <a href="http://www.pileface.com/sollers/a
 <p><a href="https://regicid.github.io/masculinite_verbes.html">https://regicid.github.io/masculinite_verbes.html</a></p>
 <p><a href="https://www.clairebattershill.com/about">https://www.clairebattershill.com/about</a></p>
 <p><a href="http://www.surfacing.in/?image=new-caledonia-aerial-view">http://www.surfacing.in/?image=new-caledonia-aerial-view</a></p>
-
+</section>
+  
 
   
 
@@ -1032,5 +1036,41 @@ if (localStorage.getItem('darkMode')) {
       switcher.classList.add('js-toggle--checked');
       body.classList.add('dark-mode');
 }
+
+
+
+function changerCouleur() {
+  var elem = document.getElementById("Blank");
+  var couleur = "#" + Math.floor(Math.random()*16777215).toString(16); 
+  elem.style.color = couleur;
+}
+
+
+function changerCouleurAuto() {
+  setInterval(changerCouleur, 10000000); 
+}
+
+
+window.onload = changerCouleurAuto;
+
+
+
+
+var texte = document.getElementById("BecomeBlank");
+		var compteur = 0;
+		var intervalle = setInterval(changerCouleur, 1000);
+		
+		function changerCouleur() {
+			var rouge = 0 + compteur;
+			var vert = 0 + compteur;
+			var bleu = 0 + compteur;
+      var transparent = 10000 - compteur;
+			texte.style.color = "rgb(" + rouge + ", " + vert + ", " + bleu + ", " + transparent + " )";
+			if (compteur < 255) {
+				compteur += 5;
+			} else {
+				clearInterval(intervalle);
+			}
+		}
 
 </script>

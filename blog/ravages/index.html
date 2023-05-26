@@ -287,11 +287,13 @@ https://github.com/alex-shpak/hugo-book
     </div>
 
 
-  <p style="text-align: center; font-size:12px; margin-left: 7px;">
+  <p style="text-align: left; font-size:12px; margin-left: 7px;">
     <br />
     Ici
     <br />
-    votre temps
+    le temps 
+    <br />
+    des mots
     <br />
     est compté
     <br />
@@ -468,7 +470,8 @@ https://github.com/alex-shpak/hugo-book
   <div class="meta">
     <h1>Ravages</h1>
     
-  </div><p>Juin 2021, je lis <em>Ravages</em> de Barjavel.</p>
+  </div>
+  <section id="BecomeBlank"><p>Juin 2021, je lis <em>Ravages</em> de Barjavel.</p>
 <blockquote>
 <p>L’usine, la radio et l’alcool réunis détraquaient un grand nombre de cerveaux. Le carnet de santé, que chaque citoyen recevait à sa naissance, et grâce auquel il lui était impossible d’échapper aux douze vaccinations et vingt-sept piqûres obligatoires, permit de surveiller l’état mental de la communauté et de chacun de ses membres. En 2026, une vague d’énervement et de pessimisme menaça la nation et provoqua une recrudescence énorme des divorces et des suicides. Sur avis du Grand Conseil médical, le gouvernement prit un décret d’urgence. Toute la population passa sur la chaise de choc. Hommes, femmes, enfants, vieillards, chacun reçut son coup de Dépiqueur.</p>
 </blockquote>
@@ -486,7 +489,8 @@ https://github.com/alex-shpak/hugo-book
 <blockquote>
 <p>Les résistants, ceux qui se cramponnaient à leur rêve, se crispaient sur la chaise, la mousse aux lèvres et les yeux jaillis, qui supportaient des secousses à tuer six ânes et eussent plutôt fait péter la machine qu’accepté qu’on leur remît la cervelle à l’endroit, étaient l’objet, depuis quelques mois, d’une nouvelle tentative.</p>
 </blockquote>
-
+</section>
+  
 
   
 
@@ -749,5 +753,41 @@ if (localStorage.getItem('darkMode')) {
       switcher.classList.add('js-toggle--checked');
       body.classList.add('dark-mode');
 }
+
+
+
+function changerCouleur() {
+  var elem = document.getElementById("Blank");
+  var couleur = "#" + Math.floor(Math.random()*16777215).toString(16); 
+  elem.style.color = couleur;
+}
+
+
+function changerCouleurAuto() {
+  setInterval(changerCouleur, 10000000); 
+}
+
+
+window.onload = changerCouleurAuto;
+
+
+
+
+var texte = document.getElementById("BecomeBlank");
+		var compteur = 0;
+		var intervalle = setInterval(changerCouleur, 1000);
+		
+		function changerCouleur() {
+			var rouge = 0 + compteur;
+			var vert = 0 + compteur;
+			var bleu = 0 + compteur;
+      var transparent = 10000 - compteur;
+			texte.style.color = "rgb(" + rouge + ", " + vert + ", " + bleu + ", " + transparent + " )";
+			if (compteur < 255) {
+				compteur += 5;
+			} else {
+				clearInterval(intervalle);
+			}
+		}
 
 </script>

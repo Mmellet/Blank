@@ -291,11 +291,13 @@ https://github.com/alex-shpak/hugo-book
     </div>
 
 
-  <p style="text-align: center; font-size:12px; margin-left: 7px;">
+  <p style="text-align: left; font-size:12px; margin-left: 7px;">
     <br />
     Ici
     <br />
-    votre temps
+    le temps 
+    <br />
+    des mots
     <br />
     est compté
     <br />
@@ -478,7 +480,8 @@ https://github.com/alex-shpak/hugo-book
   <div class="meta">
     <h1>Graph your INKE</h1>
     
-  </div><p>Following my reflection on graphs, I decided to challenge GTR with a <em>real</em> research community, an established community, which is also committed to the development of collaborative practices for a wider expansion and legitimization of knowledge : <a href="https://inke.ca/">INKE</a>.</p>
+  </div>
+  <section id="BecomeBlank"><p>Following my reflection on graphs, I decided to challenge GTR with a <em>real</em> research community, an established community, which is also committed to the development of collaborative practices for a wider expansion and legitimization of knowledge : <a href="https://inke.ca/">INKE</a>.</p>
 <p>I structured the references of their <a href="https://inke.ca/publications/"><em>Publications</em> page</a> in an open <a href="https://www.zotero.org/groups/4929247/inke_for_gtr/items/CYCWSCA3/library">Zotero library</a>.</p>
 <p>I then proceeded to two experiments by filling in the necessary fields in the <a href="http://gtr.digitaltextualities.ca/play"><em>Play</em> page</a> of <a href="http://gtr.digitaltextualities.ca/">GTR</a>.</p>
 <h2 id="authors-according-to-titles">
@@ -522,7 +525,8 @@ Le graph montre ici les ouvrages écrits par de mêmes auteurs : les liens entre
 Ces expérimentations se concentrent sur deux valeurs que sont le titre et l'auteur. Je n'ai pas inclus le tag car je n'ai pas tagué les références : il me semble que cela pourrait être intéressant que les auteurs des ouvrages les renseigne. 
 
 Expérimentation menée sous le premier conseil d'[A.](https://www.quaternum.net/)
--->
+--></section>
+  
 
   
 
@@ -791,5 +795,41 @@ if (localStorage.getItem('darkMode')) {
       switcher.classList.add('js-toggle--checked');
       body.classList.add('dark-mode');
 }
+
+
+
+function changerCouleur() {
+  var elem = document.getElementById("Blank");
+  var couleur = "#" + Math.floor(Math.random()*16777215).toString(16); 
+  elem.style.color = couleur;
+}
+
+
+function changerCouleurAuto() {
+  setInterval(changerCouleur, 10000000); 
+}
+
+
+window.onload = changerCouleurAuto;
+
+
+
+
+var texte = document.getElementById("BecomeBlank");
+		var compteur = 0;
+		var intervalle = setInterval(changerCouleur, 1000);
+		
+		function changerCouleur() {
+			var rouge = 0 + compteur;
+			var vert = 0 + compteur;
+			var bleu = 0 + compteur;
+      var transparent = 10000 - compteur;
+			texte.style.color = "rgb(" + rouge + ", " + vert + ", " + bleu + ", " + transparent + " )";
+			if (compteur < 255) {
+				compteur += 5;
+			} else {
+				clearInterval(intervalle);
+			}
+		}
 
 </script>

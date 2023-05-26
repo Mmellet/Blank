@@ -289,11 +289,13 @@ https://github.com/alex-shpak/hugo-book
     </div>
 
 
-  <p style="text-align: center; font-size:12px; margin-left: 7px;">
+  <p style="text-align: left; font-size:12px; margin-left: 7px;">
     <br />
     Ici
     <br />
-    votre temps
+    le temps 
+    <br />
+    des mots
     <br />
     est compté
     <br />
@@ -470,7 +472,8 @@ https://github.com/alex-shpak/hugo-book
   <div class="meta">
     <h1>Fabrique de la pensée</h1>
     
-  </div><p>J&rsquo;avais pensé à <em>inception</em> (trop mainstream), à méta-discours (trop théorie littéraire), à coulisse (trop pas assez), et c&rsquo;est finalement le terme de <code>Fabrique</code> qui s&rsquo;est imposé.</p>
+  </div>
+  <section id="BecomeBlank"><p>J&rsquo;avais pensé à <em>inception</em> (trop mainstream), à méta-discours (trop théorie littéraire), à coulisse (trop pas assez), et c&rsquo;est finalement le terme de <code>Fabrique</code> qui s&rsquo;est imposé.</p>
 <pre><code>terme entendu, prononcé par plusieurs
 comme atelier mais dans un sens plus brut
 comme chantier dans un sens plus souple
@@ -480,32 +483,39 @@ comme laboratoire dans un sens plus réfractaire
 <p>C&rsquo;est désormais <code>Blank</code> comme entité technique qui s&rsquo;exprime.</p>
 <hr>
 <p><strong>À venir :</strong> Take care of your flux, Faut les structurer tes posts (Marcello 2022), Build and De-build, La valse du temps en java,</p>
-
+</section>
+  
   <section>
     
     <h3><time datetime="2023-01">2023-01</time> <a
-        href="https://blank.blue/fabrique/le-homard-en-tout-temps/"> Le Homard en tout temps</h3></a>
-
+        href="https://blank.blue/fabrique/le-homard-en-tout-temps/"> Le Homard en tout temps</h3>
+<em></em></a>
+        
     
     <h3><time datetime="2022-11">2022-11</time> <a
-        href="https://blank.blue/fabrique/tool-to-be-destroyed/"> Tool to be Destroyed</h3></a>
-
+        href="https://blank.blue/fabrique/tool-to-be-destroyed/"> Tool to be Destroyed</h3>
+<em></em></a>
+        
     
     <h3><time datetime="2022-11">2022-11</time> <a
-        href="https://blank.blue/fabrique/cohue-dans-le-code/"> Cohue dans le Code</h3></a>
-
+        href="https://blank.blue/fabrique/cohue-dans-le-code/"> Cohue dans le Code</h3>
+<em></em></a>
+        
     
     <h3><time datetime="2022-09">2022-09</time> <a
-        href="https://blank.blue/fabrique/blank-avant-blank/"> Blank avant Blank</h3></a>
-
+        href="https://blank.blue/fabrique/blank-avant-blank/"> Blank avant Blank</h3>
+<em></em></a>
+        
     
     <h3><time datetime="2022-07">2022-07</time> <a
-        href="https://blank.blue/fabrique/build-/-debuild/"> Build / DeBuild</h3></a>
-
+        href="https://blank.blue/fabrique/build-/-debuild/"> Build / DeBuild</h3>
+<em></em></a>
+        
     
     <h3><time datetime="2022-06">2022-06</time> <a
-        href="https://blank.blue/fabrique/le-temps-de-la-deconstruction/"> Le temps de la déconstruction</h3></a>
-
+        href="https://blank.blue/fabrique/le-temps-de-la-deconstruction/"> Le temps de la déconstruction</h3>
+<em></em></a>
+        
     
   </section>
   
@@ -771,5 +781,41 @@ if (localStorage.getItem('darkMode')) {
       switcher.classList.add('js-toggle--checked');
       body.classList.add('dark-mode');
 }
+
+
+
+function changerCouleur() {
+  var elem = document.getElementById("Blank");
+  var couleur = "#" + Math.floor(Math.random()*16777215).toString(16); 
+  elem.style.color = couleur;
+}
+
+
+function changerCouleurAuto() {
+  setInterval(changerCouleur, 10000000); 
+}
+
+
+window.onload = changerCouleurAuto;
+
+
+
+
+var texte = document.getElementById("BecomeBlank");
+		var compteur = 0;
+		var intervalle = setInterval(changerCouleur, 1000);
+		
+		function changerCouleur() {
+			var rouge = 0 + compteur;
+			var vert = 0 + compteur;
+			var bleu = 0 + compteur;
+      var transparent = 10000 - compteur;
+			texte.style.color = "rgb(" + rouge + ", " + vert + ", " + bleu + ", " + transparent + " )";
+			if (compteur < 255) {
+				compteur += 5;
+			} else {
+				clearInterval(intervalle);
+			}
+		}
 
 </script>

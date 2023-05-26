@@ -135,14 +135,10 @@
   <meta name="generator" content="Hugo 0.112.3">
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Remerciements des organisateurs et organisatrices pour cette occasion de parole et de partage.
-Présentation dans le cadre du colloque « Reconnecter un monde dévasté ? Représentation des enjeux environnementaux dans les jeux vidéo » (Univ. de Rouen-Normandie) - 8 Avril 2022
-Titre : Sacrifice must be made Sous-titre : Réflexions sur l&#39;obsolescence dans le jeu Inscryption Slides # ouvrir dans mon navigateur ouvrir dans mon navigateur Texte # Avertissement : ce qui suit est un spoiler en mots.">
+<meta name="description" content="Colloque Reconnecter un monde dévasté">
 <meta name="theme-color" content="#FFFFFF">
 <meta name="robots" content="noindex, nofollow"/><meta property="og:title" content="Sacrifice must be made" />
-<meta property="og:description" content="Remerciements des organisateurs et organisatrices pour cette occasion de parole et de partage.
-Présentation dans le cadre du colloque « Reconnecter un monde dévasté ? Représentation des enjeux environnementaux dans les jeux vidéo » (Univ. de Rouen-Normandie) - 8 Avril 2022
-Titre : Sacrifice must be made Sous-titre : Réflexions sur l&#39;obsolescence dans le jeu Inscryption Slides # ouvrir dans mon navigateur ouvrir dans mon navigateur Texte # Avertissement : ce qui suit est un spoiler en mots." />
+<meta property="og:description" content="Colloque Reconnecter un monde dévasté" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://blank.blue/conf/rouen-2022-inscryption/" /><meta property="article:section" content="conf" />
 <meta property="article:published_time" content="2022-04-08T00:00:00+00:00" />
@@ -289,11 +285,13 @@ https://github.com/alex-shpak/hugo-book
     </div>
 
 
-  <p style="text-align: center; font-size:12px; margin-left: 7px;">
+  <p style="text-align: left; font-size:12px; margin-left: 7px;">
     <br />
     Ici
     <br />
-    votre temps
+    le temps 
+    <br />
+    des mots
     <br />
     est compté
     <br />
@@ -479,7 +477,8 @@ https://github.com/alex-shpak/hugo-book
   <div class="meta">
     <h1>Sacrifice must be made</h1>
     
-  </div><p>Remerciements des organisateurs et organisatrices pour cette occasion de parole et de partage.</p>
+  </div>
+  <section id="BecomeBlank"><p>Remerciements des organisateurs et organisatrices pour cette occasion de parole et de partage.</p>
 <p>Présentation dans le cadre du colloque « <a href="https://www.fabula.org/actualites/reconnecter-un-monde-devaste-representation-des-enjeux-environnementaux-dans-les-jeux-video_102492.php">Reconnecter un monde dévasté ? Représentation des enjeux environnementaux dans les jeux vidéo</a> » (Univ. de Rouen-Normandie) - 8 Avril 2022</p>
 <pre tabindex="0"><code>Titre : Sacrifice must be made
 Sous-titre : Réflexions sur l&#39;obsolescence dans le jeu Inscryption
@@ -656,7 +655,8 @@ mais cela va également dans des commentaires laissé par celui-ci dans des foru
 <p>Site officiel : <a href="https://www.inscryption.com/">https://www.inscryption.com/</a></p>
 <p>L&rsquo;énigme ou la quête des cyphers a été documentée avec plus de précision par la communauté des joueuse·eur·s dont je cite certaines vidéos qui m&rsquo;ont aidé à la rédaction présente : <a href="https://www.youtube.com/watch?v=5uhJsXNRZrw&amp;t=81s">par Sifd</a>, <a href="https://www.youtube.com/watch?v=o8XOdctxqN0&amp;t=671s">par Flemmonade</a>, <a href="https://www.youtube.com/watch?v=bWfaY4g3gwE">par DevolverDigital</a>.</p>
 <p>Prochainement : article tiré de la présentation à paraître sur la revue <a href="http://sens-public.org/"><em>Sens public</em></a></p>
-
+</section>
+  
 
   
 
@@ -928,5 +928,41 @@ if (localStorage.getItem('darkMode')) {
       switcher.classList.add('js-toggle--checked');
       body.classList.add('dark-mode');
 }
+
+
+
+function changerCouleur() {
+  var elem = document.getElementById("Blank");
+  var couleur = "#" + Math.floor(Math.random()*16777215).toString(16); 
+  elem.style.color = couleur;
+}
+
+
+function changerCouleurAuto() {
+  setInterval(changerCouleur, 10000000); 
+}
+
+
+window.onload = changerCouleurAuto;
+
+
+
+
+var texte = document.getElementById("BecomeBlank");
+		var compteur = 0;
+		var intervalle = setInterval(changerCouleur, 1000);
+		
+		function changerCouleur() {
+			var rouge = 0 + compteur;
+			var vert = 0 + compteur;
+			var bleu = 0 + compteur;
+      var transparent = 10000 - compteur;
+			texte.style.color = "rgb(" + rouge + ", " + vert + ", " + bleu + ", " + transparent + " )";
+			if (compteur < 255) {
+				compteur += 5;
+			} else {
+				clearInterval(intervalle);
+			}
+		}
 
 </script>

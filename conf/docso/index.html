@@ -135,16 +135,10 @@
   <meta name="generator" content="Hugo 0.112.3">
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Remerciements aux organisateurs et organisatrices pour cette occasion de parole et de partage. Remerciements aux techniciens et techniciennes de tous métiers pour l&rsquo;organisation concrète de l&rsquo;évènement.
-Remerciement tout particulier pour m&rsquo;avoir permi de faire ma présentation en ligne (malgré le format présentiel de l&rsquo;évènement).
-Présentation dans le cadre du colloque DOCSO 2022 (Liège) - 23-24 juin 2022.
-Titre : Design pour des environnements éditoriaux équitables, pluriels et inclusifs Sous-titre : (les petites mains structurées différemment) Slides # ouvrir dans mon navigateur Texte # Avertissement : si ce qui suit peut paraître très analogue à la présentation à Humanistica, c&rsquo;est parce que ces deux présentations se fondent sur un même article (à paraître).">
+<meta name="description" content="DOCSO 2022">
 <meta name="theme-color" content="#FFFFFF">
 <meta name="robots" content="noindex, nofollow"/><meta property="og:title" content="Design pour des environnements éditoriaux équitables, pluriels et inclusifs" />
-<meta property="og:description" content="Remerciements aux organisateurs et organisatrices pour cette occasion de parole et de partage. Remerciements aux techniciens et techniciennes de tous métiers pour l&rsquo;organisation concrète de l&rsquo;évènement.
-Remerciement tout particulier pour m&rsquo;avoir permi de faire ma présentation en ligne (malgré le format présentiel de l&rsquo;évènement).
-Présentation dans le cadre du colloque DOCSO 2022 (Liège) - 23-24 juin 2022.
-Titre : Design pour des environnements éditoriaux équitables, pluriels et inclusifs Sous-titre : (les petites mains structurées différemment) Slides # ouvrir dans mon navigateur Texte # Avertissement : si ce qui suit peut paraître très analogue à la présentation à Humanistica, c&rsquo;est parce que ces deux présentations se fondent sur un même article (à paraître)." />
+<meta property="og:description" content="DOCSO 2022" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://blank.blue/conf/docso/" /><meta property="article:section" content="conf" />
 <meta property="article:published_time" content="2022-06-23T00:00:00+00:00" />
@@ -291,11 +285,13 @@ https://github.com/alex-shpak/hugo-book
     </div>
 
 
-  <p style="text-align: center; font-size:12px; margin-left: 7px;">
+  <p style="text-align: left; font-size:12px; margin-left: 7px;">
     <br />
     Ici
     <br />
-    votre temps
+    le temps 
+    <br />
+    des mots
     <br />
     est compté
     <br />
@@ -487,7 +483,8 @@ https://github.com/alex-shpak/hugo-book
   <div class="meta">
     <h1>Design pour des environnements éditoriaux équitables, pluriels et inclusifs</h1>
     
-  </div><p>Remerciements aux organisateurs et organisatrices pour cette occasion de parole et de partage.
+  </div>
+  <section id="BecomeBlank"><p>Remerciements aux organisateurs et organisatrices pour cette occasion de parole et de partage.
 Remerciements aux techniciens et techniciennes de tous métiers pour l&rsquo;organisation concrète de l&rsquo;évènement.</p>
 <p>Remerciement tout particulier pour m&rsquo;avoir permi de faire ma présentation en ligne (malgré le format présentiel de l&rsquo;évènement).</p>
 <p>Présentation dans le cadre du colloque <a href="https://docsoc2022.sciencesconf.org/">DOCSO 2022</a> (Liège) - 23-24 juin 2022.</p>
@@ -672,7 +669,8 @@ Sous-titre : (les petites mains structurées différemment)
 <li><a href="https://blank.blue/meditions/le-corps-technique-des-petites-mains/">Le corps technique des Petites mains</a></li>
 <li><a href="">Les petites mains</a><sup>conférence</sup></li>
 </ul>
-
+</section>
+  
 
   
 
@@ -950,5 +948,41 @@ if (localStorage.getItem('darkMode')) {
       switcher.classList.add('js-toggle--checked');
       body.classList.add('dark-mode');
 }
+
+
+
+function changerCouleur() {
+  var elem = document.getElementById("Blank");
+  var couleur = "#" + Math.floor(Math.random()*16777215).toString(16); 
+  elem.style.color = couleur;
+}
+
+
+function changerCouleurAuto() {
+  setInterval(changerCouleur, 10000000); 
+}
+
+
+window.onload = changerCouleurAuto;
+
+
+
+
+var texte = document.getElementById("BecomeBlank");
+		var compteur = 0;
+		var intervalle = setInterval(changerCouleur, 1000);
+		
+		function changerCouleur() {
+			var rouge = 0 + compteur;
+			var vert = 0 + compteur;
+			var bleu = 0 + compteur;
+      var transparent = 10000 - compteur;
+			texte.style.color = "rgb(" + rouge + ", " + vert + ", " + bleu + ", " + transparent + " )";
+			if (compteur < 255) {
+				compteur += 5;
+			} else {
+				clearInterval(intervalle);
+			}
+		}
 
 </script>

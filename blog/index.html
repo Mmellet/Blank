@@ -295,11 +295,13 @@ https://github.com/alex-shpak/hugo-book
     </div>
 
 
-  <p style="text-align: center; font-size:12px; margin-left: 7px;">
+  <p style="text-align: left; font-size:12px; margin-left: 7px;">
     <br />
     Ici
     <br />
-    votre temps
+    le temps 
+    <br />
+    des mots
     <br />
     est compté
     <br />
@@ -476,24 +478,24 @@ https://github.com/alex-shpak/hugo-book
   <div class="meta">
     <h1>Espace de blobs spontanés</h1>
     
-  </div><p>Un Blob n&rsquo;est pas un végétal.</p>
+  </div>
+  <section id="BecomeBlank"><p>Un Blob n&rsquo;est pas un végétal.</p>
 <p>Un Blob n&rsquo;est pas un animal.</p>
 <p>Un Blob est peut-être universitaire.</p>
 <p>Le Blob est un réseaux unicellulaire d&rsquo;idées.</p>
 <p>Un Blob est un post sans prétention qui tombe le matin (généralement entre 8 et 9h).</p>
 <p><em>À venir :</em> Blog Init, Ravages</p>
-
+</section>
+  
 
   
   <section>
     
     <h3><time datetime="2021-12">2021-12</time> <a
         href="https://blank.blue/blog/ravages/"> Ravages</h3></a>
-
     
     <h3><time datetime="2021-11">2021-11</time> <a
         href="https://blank.blue/blog/blob-init/"> Blob Init</h3></a>
-
     
   </section>
   
@@ -757,5 +759,41 @@ if (localStorage.getItem('darkMode')) {
       switcher.classList.add('js-toggle--checked');
       body.classList.add('dark-mode');
 }
+
+
+
+function changerCouleur() {
+  var elem = document.getElementById("Blank");
+  var couleur = "#" + Math.floor(Math.random()*16777215).toString(16); 
+  elem.style.color = couleur;
+}
+
+
+function changerCouleurAuto() {
+  setInterval(changerCouleur, 10000000); 
+}
+
+
+window.onload = changerCouleurAuto;
+
+
+
+
+var texte = document.getElementById("BecomeBlank");
+		var compteur = 0;
+		var intervalle = setInterval(changerCouleur, 1000);
+		
+		function changerCouleur() {
+			var rouge = 0 + compteur;
+			var vert = 0 + compteur;
+			var bleu = 0 + compteur;
+      var transparent = 10000 - compteur;
+			texte.style.color = "rgb(" + rouge + ", " + vert + ", " + bleu + ", " + transparent + " )";
+			if (compteur < 255) {
+				compteur += 5;
+			} else {
+				clearInterval(intervalle);
+			}
+		}
 
 </script>

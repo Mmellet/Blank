@@ -289,11 +289,13 @@ https://github.com/alex-shpak/hugo-book
     </div>
 
 
-  <p style="text-align: center; font-size:12px; margin-left: 7px;">
+  <p style="text-align: left; font-size:12px; margin-left: 7px;">
     <br />
     Ici
     <br />
-    votre temps
+    le temps 
+    <br />
+    des mots
     <br />
     est compté
     <br />
@@ -478,7 +480,8 @@ https://github.com/alex-shpak/hugo-book
   <div class="meta">
     <h1></h1>
     
-  </div><h1 id="écritures-profilaires">
+  </div>
+  <section id="BecomeBlank"><h1 id="écritures-profilaires">
   Écritures profilaires
   <a class="anchor" href="#%c3%a9critures-profilaires">#</a>
 </h1>
@@ -631,7 +634,8 @@ https://github.com/alex-shpak/hugo-book
 <p>Est qu&rsquo;on peut encore aujourd&rsquo;hui considérer le profil de soi, de l&rsquo;autre sans masque ? soit sans le symbole et l&rsquo;objet qui l&rsquo;incarne d&rsquo;un conformité sanitaire ?</p>
 <p>Comment se fait-on face aujourd&rsquo;hui autrement que par le numérique ? est ce qu&rsquo;on est pas justement à une nouvelle crise du profil aussi ?</p>
 <hr>
-
+</section>
+  
 
   
 
@@ -902,5 +906,41 @@ if (localStorage.getItem('darkMode')) {
       switcher.classList.add('js-toggle--checked');
       body.classList.add('dark-mode');
 }
+
+
+
+function changerCouleur() {
+  var elem = document.getElementById("Blank");
+  var couleur = "#" + Math.floor(Math.random()*16777215).toString(16); 
+  elem.style.color = couleur;
+}
+
+
+function changerCouleurAuto() {
+  setInterval(changerCouleur, 10000000); 
+}
+
+
+window.onload = changerCouleurAuto;
+
+
+
+
+var texte = document.getElementById("BecomeBlank");
+		var compteur = 0;
+		var intervalle = setInterval(changerCouleur, 1000);
+		
+		function changerCouleur() {
+			var rouge = 0 + compteur;
+			var vert = 0 + compteur;
+			var bleu = 0 + compteur;
+      var transparent = 10000 - compteur;
+			texte.style.color = "rgb(" + rouge + ", " + vert + ", " + bleu + ", " + transparent + " )";
+			if (compteur < 255) {
+				compteur += 5;
+			} else {
+				clearInterval(intervalle);
+			}
+		}
 
 </script>

@@ -135,14 +135,10 @@
   <meta name="generator" content="Hugo 0.112.3">
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Remerciements des organisateurs et organisatrices pour cette occasion de parole et de partage.
-Présentation dans le cadre du 19e colloque étudiant en littérature canadienne comparée de l&rsquo;Université de Sherbrooke « À la croisée des chemins : l&rsquo;intermédialité comme point de rencontre » - 18 Mars 2022
-Titre : Textapes et profil numérique Sous-titre : Analyse de l’œuvre transmédiale Les Textapes d&#39;Alice Slides # ouvrir dans mon navigateur Texte # Web-série française adaptée à l&rsquo;origine d&rsquo;un Tumblr du même nom créé par Angela Soupe, Les Textapes d&rsquo;Alice retrace le parcours amoureux d&rsquo;une jeune femme, Alice, au fil de ses relations et de ses rencontres avec ce slogan :">
+<meta name="description" content="Colloque Croisée des chemins">
 <meta name="theme-color" content="#FFFFFF">
 <meta name="robots" content="noindex, nofollow"/><meta property="og:title" content="Textapes et profil numérique" />
-<meta property="og:description" content="Remerciements des organisateurs et organisatrices pour cette occasion de parole et de partage.
-Présentation dans le cadre du 19e colloque étudiant en littérature canadienne comparée de l&rsquo;Université de Sherbrooke « À la croisée des chemins : l&rsquo;intermédialité comme point de rencontre » - 18 Mars 2022
-Titre : Textapes et profil numérique Sous-titre : Analyse de l’œuvre transmédiale Les Textapes d&#39;Alice Slides # ouvrir dans mon navigateur Texte # Web-série française adaptée à l&rsquo;origine d&rsquo;un Tumblr du même nom créé par Angela Soupe, Les Textapes d&rsquo;Alice retrace le parcours amoureux d&rsquo;une jeune femme, Alice, au fil de ses relations et de ses rencontres avec ce slogan :" />
+<meta property="og:description" content="Colloque Croisée des chemins" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://blank.blue/conf/sherbrooke-2022/" /><meta property="article:section" content="conf" />
 <meta property="article:published_time" content="2022-03-18T00:00:00+00:00" />
@@ -289,11 +285,13 @@ https://github.com/alex-shpak/hugo-book
     </div>
 
 
-  <p style="text-align: center; font-size:12px; margin-left: 7px;">
+  <p style="text-align: left; font-size:12px; margin-left: 7px;">
     <br />
     Ici
     <br />
-    votre temps
+    le temps 
+    <br />
+    des mots
     <br />
     est compté
     <br />
@@ -491,7 +489,8 @@ https://github.com/alex-shpak/hugo-book
   <div class="meta">
     <h1>Textapes et profil numérique</h1>
     
-  </div><p>Remerciements des organisateurs et organisatrices pour cette occasion de parole et de partage.</p>
+  </div>
+  <section id="BecomeBlank"><p>Remerciements des organisateurs et organisatrices pour cette occasion de parole et de partage.</p>
 <p><img src="../../html/Conf/img1/logo.png" alt="19e colloque étudiant en littérature canadienne comparée de l&amp;rsquo;Université de Sherbrooke « À la croisée des chemins : l&amp;rsquo;intermédialité comme point de rencontre » - 18 Mars 2022" /></p>
 <p>Présentation dans le cadre du 19e colloque étudiant en littérature canadienne comparée de l&rsquo;Université de Sherbrooke « À la croisée des chemins : l&rsquo;intermédialité comme point de rencontre » - 18 Mars 2022</p>
 <pre tabindex="0"><code>Titre : Textapes et profil numérique
@@ -720,7 +719,8 @@ Margot Mellet est doctorante au département de littérature française de l'Uni
 <p>Vitali-Rosati, Marcello, « Mais où est passé le réel ? Profils, représentations et métaontologie »,  <em>MuseMedusa</em>, no 6, 2018. <a href="https://musemedusa.com:443/dossier_6/vitali-rosati/">https://musemedusa.com:443/dossier_6/vitali-rosati/</a></p>
 <p>Vitali-Rosati, Marcello, Servanne Monjour, Thomas Carrier-Lafleur, et André Gaudreault, « L’invention littéraire des médias », <em>Sens public</em>, 2018. <a href="https://papyrus.bib.umontreal.ca/xmlui/handle/1866/19962">https://papyrus.bib.umontreal.ca/xmlui/handle/1866/19962</a>.</p>
 <p>&ndash;, <em>On Editorialization: Structuring Space and Authority in the Digital Age</em>, Theory on Demand #26, 2018. <a href="https://networkcultures.org/wp-content/uploads/2018/03/Marcello_Vitali-Rosati_OnEditorialization-complete.pdf">https://networkcultures.org/wp-content/uploads/2018/03/Marcello_Vitali-Rosati_OnEditorialization-complete.pdf</a></p>
-
+</section>
+  
 
   
 
@@ -1004,5 +1004,41 @@ if (localStorage.getItem('darkMode')) {
       switcher.classList.add('js-toggle--checked');
       body.classList.add('dark-mode');
 }
+
+
+
+function changerCouleur() {
+  var elem = document.getElementById("Blank");
+  var couleur = "#" + Math.floor(Math.random()*16777215).toString(16); 
+  elem.style.color = couleur;
+}
+
+
+function changerCouleurAuto() {
+  setInterval(changerCouleur, 10000000); 
+}
+
+
+window.onload = changerCouleurAuto;
+
+
+
+
+var texte = document.getElementById("BecomeBlank");
+		var compteur = 0;
+		var intervalle = setInterval(changerCouleur, 1000);
+		
+		function changerCouleur() {
+			var rouge = 0 + compteur;
+			var vert = 0 + compteur;
+			var bleu = 0 + compteur;
+      var transparent = 10000 - compteur;
+			texte.style.color = "rgb(" + rouge + ", " + vert + ", " + bleu + ", " + transparent + " )";
+			if (compteur < 255) {
+				compteur += 5;
+			} else {
+				clearInterval(intervalle);
+			}
+		}
 
 </script>

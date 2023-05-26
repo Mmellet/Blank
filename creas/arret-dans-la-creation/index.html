@@ -307,11 +307,13 @@ https://github.com/alex-shpak/hugo-book
     </div>
 
 
-  <p style="text-align: center; font-size:12px; margin-left: 7px;">
+  <p style="text-align: left; font-size:12px; margin-left: 7px;">
     <br />
     Ici
     <br />
-    votre temps
+    le temps 
+    <br />
+    des mots
     <br />
     est compté
     <br />
@@ -494,7 +496,8 @@ https://github.com/alex-shpak/hugo-book
   <div class="meta">
     <h1>Arrêt dans la création</h1>
     
-  </div><blockquote>
+  </div>
+  <section id="BecomeBlank"><blockquote>
 <p>[&hellip;]</p>
 <p>et des méditations poétiques</p>
 <p>des arrêts du temps</p>
@@ -540,7 +543,8 @@ celui qui se met en place en réalité au fur et à mesure, car plus j&rsquo;en 
   <a class="anchor" href="#tu-fais-du-texte-ou-de-la-vid%c3%a9o-">#</a>
 </h2>
 <p>À venir : <em>Un coup de dés jamais n&rsquo;abolira le hasard, même à l&rsquo;écran</em>,</p>
-
+</section>
+  
 
   
 
@@ -809,5 +813,41 @@ if (localStorage.getItem('darkMode')) {
       switcher.classList.add('js-toggle--checked');
       body.classList.add('dark-mode');
 }
+
+
+
+function changerCouleur() {
+  var elem = document.getElementById("Blank");
+  var couleur = "#" + Math.floor(Math.random()*16777215).toString(16); 
+  elem.style.color = couleur;
+}
+
+
+function changerCouleurAuto() {
+  setInterval(changerCouleur, 10000000); 
+}
+
+
+window.onload = changerCouleurAuto;
+
+
+
+
+var texte = document.getElementById("BecomeBlank");
+		var compteur = 0;
+		var intervalle = setInterval(changerCouleur, 1000);
+		
+		function changerCouleur() {
+			var rouge = 0 + compteur;
+			var vert = 0 + compteur;
+			var bleu = 0 + compteur;
+      var transparent = 10000 - compteur;
+			texte.style.color = "rgb(" + rouge + ", " + vert + ", " + bleu + ", " + transparent + " )";
+			if (compteur < 255) {
+				compteur += 5;
+			} else {
+				clearInterval(intervalle);
+			}
+		}
 
 </script>

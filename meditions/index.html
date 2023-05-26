@@ -289,11 +289,13 @@ https://github.com/alex-shpak/hugo-book
     </div>
 
 
-  <p style="text-align: center; font-size:12px; margin-left: 7px;">
+  <p style="text-align: left; font-size:12px; margin-left: 7px;">
     <br />
     Ici
     <br />
-    votre temps
+    le temps 
+    <br />
+    des mots
     <br />
     est compté
     <br />
@@ -470,10 +472,12 @@ https://github.com/alex-shpak/hugo-book
   <div class="meta">
     <h1></h1>
     
-  </div><p>Entre édition, méditations et médisances, les Méditions rassemblent une série d&rsquo;écritures sur la question des pratiques d&rsquo;édition <em>vues et vécues de l&rsquo;intérieur</em>.</p>
+  </div>
+  <section id="BecomeBlank"><p>Entre édition, méditations et médisances, les Méditions rassemblent une série d&rsquo;écritures sur la question des pratiques d&rsquo;édition <em>vues et vécues de l&rsquo;intérieur</em>.</p>
 <p>Ancienne Coordonnatrice d&rsquo;une revue en sciences humaines, coordonnatrice scientifique dans un laboratoire en écritures numériques, petite main, je témoigne justement par elles.</p>
 <p><strong>À venir :</strong> Sommes-nous des Shiva ?, &ldquo;On veut du tout en un&rdquo;, Méditrices et sorcières, La secrétaire2.0.</p>
-
+</section>
+  
 
   
 
@@ -784,5 +788,41 @@ if (localStorage.getItem('darkMode')) {
       switcher.classList.add('js-toggle--checked');
       body.classList.add('dark-mode');
 }
+
+
+
+function changerCouleur() {
+  var elem = document.getElementById("Blank");
+  var couleur = "#" + Math.floor(Math.random()*16777215).toString(16); 
+  elem.style.color = couleur;
+}
+
+
+function changerCouleurAuto() {
+  setInterval(changerCouleur, 10000000); 
+}
+
+
+window.onload = changerCouleurAuto;
+
+
+
+
+var texte = document.getElementById("BecomeBlank");
+		var compteur = 0;
+		var intervalle = setInterval(changerCouleur, 1000);
+		
+		function changerCouleur() {
+			var rouge = 0 + compteur;
+			var vert = 0 + compteur;
+			var bleu = 0 + compteur;
+      var transparent = 10000 - compteur;
+			texte.style.color = "rgb(" + rouge + ", " + vert + ", " + bleu + ", " + transparent + " )";
+			if (compteur < 255) {
+				compteur += 5;
+			} else {
+				clearInterval(intervalle);
+			}
+		}
 
 </script>

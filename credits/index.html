@@ -297,11 +297,13 @@ https://github.com/alex-shpak/hugo-book
     </div>
 
 
-  <p style="text-align: center; font-size:12px; margin-left: 7px;">
+  <p style="text-align: left; font-size:12px; margin-left: 7px;">
     <br />
     Ici
     <br />
-    votre temps
+    le temps 
+    <br />
+    des mots
     <br />
     est compté
     <br />
@@ -478,7 +480,8 @@ https://github.com/alex-shpak/hugo-book
   <div class="meta">
     <h1></h1>
     
-  </div><p>Ce site a été réalisé avec les instances suivantes :</p>
+  </div>
+  <section id="BecomeBlank"><p>Ce site a été réalisé avec les instances suivantes :</p>
 <ul>
 <li>
 <p><a href="https://gohugo.io/">Hugo</a> et le theme <a href="https://themes.gohugo.io/hugo-book/">Book</a> créé par <a href="https://github.com/alex-shpak/">Alex Shpak</a> (version 0.68)</p>
@@ -500,7 +503,8 @@ https://github.com/alex-shpak/hugo-book
 <li><a href="https://www.gandi.net/en-CA">Gandi</a> pour le nom de domaine</li>
 </ul>
 <p>M&rsquo;ont aidé à construire cet espace : Antoine Fauchié et son carnet numérique <a href="https://www.quaternum.net/">quaternum</a>, <a href="https://github.com/EPgg92">Enzo Poggio</a> et <a href="https://larlet.fr/david/">David Larlet</a>.</p>
-
+</section>
+  
 
   
 
@@ -763,5 +767,41 @@ if (localStorage.getItem('darkMode')) {
       switcher.classList.add('js-toggle--checked');
       body.classList.add('dark-mode');
 }
+
+
+
+function changerCouleur() {
+  var elem = document.getElementById("Blank");
+  var couleur = "#" + Math.floor(Math.random()*16777215).toString(16); 
+  elem.style.color = couleur;
+}
+
+
+function changerCouleurAuto() {
+  setInterval(changerCouleur, 10000000); 
+}
+
+
+window.onload = changerCouleurAuto;
+
+
+
+
+var texte = document.getElementById("BecomeBlank");
+		var compteur = 0;
+		var intervalle = setInterval(changerCouleur, 1000);
+		
+		function changerCouleur() {
+			var rouge = 0 + compteur;
+			var vert = 0 + compteur;
+			var bleu = 0 + compteur;
+      var transparent = 10000 - compteur;
+			texte.style.color = "rgb(" + rouge + ", " + vert + ", " + bleu + ", " + transparent + " )";
+			if (compteur < 255) {
+				compteur += 5;
+			} else {
+				clearInterval(intervalle);
+			}
+		}
 
 </script>

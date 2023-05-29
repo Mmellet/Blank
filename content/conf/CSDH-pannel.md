@@ -1,6 +1,6 @@
 ---
 title: "Pannel Collaboration et production du savoir"
-subtitle: "CSDH 2023"
+description: "CSDH 2023"
 date: 2023-05-29
 ---
 

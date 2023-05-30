@@ -18,7 +18,7 @@ in CSDH2023 pannel - Collaboration et production du savoir : pour une herméneut
 
 [articulation] 
 
-Dans cette idée que la pensée s'incarne toujours dans un contexte matériel, dont les caractéristiques viennent déterminer le sens, j'aimerai ici parler d'une réflexion en cours, une réflexion personnelle mais qui est également représentée par bien des études diverses et critiques : cette présentation s'aligne avec le propos théorique introductif qui a été fait par Eugénie Matthey-Jonais et Marcello Vitali-Rosati, elle s'articule parce qu'elle est l'occasion de rappeler sur la table du savoir les petites mains, c'est-à-dire tout les acteurs subalternes, pour notre cas en humanités numériques, qui ont travaillé à façonner, à inscrire une connaissance à un endroit, dans un modèle, en tant qu'objet. 
+Dans cette idée que la pensée s'incarne toujours dans un contexte matériel, dont les caractéristiques viennent déterminer le sens, j'aimerai ici parler d'une réflexion en cours, une réflexion personnelle mais qui est également représentée par bien des études diverses et critiques : cette présentation s'aligne avec le propos théorique qui a été fait par Eugénie Matthey-Jonais et Marcello Vitali-Rosati, elle s'articule parce qu'elle est l'occasion de rappeler sur la table du savoir les petites mains, c'est-à-dire tout les acteurs subalternes, pour notre cas en humanités numériques, qui ont travaillé à façonner, à inscrire une connaissance à un endroit, dans un modèle, en tant qu'objet. qui font cette matérialité du savoir.
 
 ---
 
@@ -26,7 +26,7 @@ Dans cette idée que la pensée s'incarne toujours dans un contexte matériel, d
 
 Historiquement, au XIX^e^ siècle, ce que l'on appelle petites mains ce sont les ouvrières apprenties, des femmes exclusivement, ou des cousettes qui travaillaient sous les ordres des premières mains et à qui donc on assignait des tâches de couture répétitives, minutieuses, plutôt laborieuses. 
 
-Aujourd'hui la formule est utilisée en français pour désigner communément tous les travailleurs et travailleuses (on qualifiera plus généralement une femme comme une petite main) qui ont des tâches manuelles, des tâches que personne ne veut généralement, des tâches qui sont soit dénigrées directement,  soit des tâches présentées sans grand intérêt intellectuel : surtout pour le cas des humanités où la petite main effectue des tâches d'édition, de correction, de relecture, de secrétariat qui, dans le discours ou les imaginaires, ne sont pas comprises dans le modèle du savoir. 
+Aujourd'hui la formule est utilisée en français pour désigner communément tous les travailleurs et travailleuses (on qualifiera plus généralement une femme comme une petite main) qui ont des tâches manuelles, des tâches que personne ne veut généralement, des tâches qui sont soit dénigrées directement, soit des tâches présentées sans grand intérêt intellectuel : la petite main effectue des tâches d'édition, de correction, de relecture, de secrétariat qui, dans le discours ou les imaginaires, ne sont pas comprises dans le modèle du savoir. 
 
 ----
 
@@ -34,7 +34,7 @@ Aujourd'hui la formule est utilisée en français pour désigner communément to
 
 Si on reconnaît que le travail de la petite main dans la constitution d'un produit, qu'il soit intellectuel ou non, participe, a une importance dans la chaîne de production, il reste que la main demeure petite : la langue française tire de son ambiguïté la polyphonie de ses termes, le petite de la petite main implique une main travailleuse, qui doit être discrète, efficace, peu visible ou sonore et surtout attentive aux plus petits détails. Au-delà de ces valeurs assignées, la main est petite en terme de taille, soit d'importance dans la considération du travail final. 
 
-C'est-à-dire que dans le modèle que l'on a de nos propres connaissances et certitudes, dans ce modèle épistémologique, la petite main n'est pas ou très très peu présente. Les petites mains sont placées du côté de la dimension technique de l'écriture mais sont soustraites du modèle de l'émergence de la pensée. Celles qui *écrivent* ne sont donc pas celles engagée dans le paradigme de l'écriture.
+C'est-à-dire que dans le modèle que l'on a de nos propres connaissances et certitudes, dans ce modèle épistémologique, la petite main n'est pas ou très très peu présente. Les petites mains sont placées du côté de la dimension technique de l'écriture mais sont hors du modèle de l'émergence de la pensée. Celles qui *écrivent* ne sont donc pas celles engagée dans le paradigme de l'écriture.
 
 ----
 
@@ -81,3 +81,5 @@ Enfin le savoir comme émergent d'une collaboration entre différents acteurs qu
 Les « petites mains » permettent de repenser l'émergence du sens au-delà d\'une structure hiérarchique : la production de la pensée s'apparente alors à une fabrique, ou des fabriques de savoirs, où plusieurs forces sont mise en œuvre et c'est l'étude de leurs convergences qui permet de comprendre l'émergence du savoir. Et si les Humanités numériques ont une forte inscription dans la collaboration entre expertises, traditions et objets culturels, cette collaboration qui est peut-être la caractéristique d'un champs disciplinaire relativement jeune doit également comprendre les mains en coulisses, au moins pour son cas scientifique.
 
 ---
+
+idée du labor : utilisation de discours féministe dans discours politiques pour des charges économiques : la femme est liée a un labour. 

@@ -16,6 +16,9 @@
 <link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}" title="{{ partial "docs/title" . }}">
 {{ end -}}
 
+<!--style pour hugo-cite-->
+<link rel="stylesheet" type="text/css" href="{{ "/hugo-cite.css" | relURL }}" />
+
 <!-- Theme stylesheet, you can customize scss by creating `assets/custom.scss` in your website -->
 {{- $styles := resources.Get "book.scss" | resources.ExecuteAsTemplate "book.scss" . | resources.ToCSS | resources.Minify | resources.Fingerprint }}
 <link rel="stylesheet" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}">

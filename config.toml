@@ -2,7 +2,7 @@ baseURL = "https://blank.blue/"
 title = ""
 relativeURLs = true
 canonifyURLs = true
-theme = "book"
+theme = ["book", "hugo-cite"]
 
 removePathAccents=true
 

@@ -405,6 +405,8 @@
 <article class="markdown">
   <div class="meta">
     <h1>{{.Title}}</h1>
+
+  <h2>{{ .Description }}</h2>
     <!--{{ if eq .IsHome true }}{{ else }}<p><a href="print.html">📃 print version</a></p>{{ end }}-->
   </div>
   <section id="BecomeBlank">
@@ -455,7 +457,7 @@
     {{ range  where .Site.RegularPages "Section" "meds"  }}
     <h3><time datetime="{{ dateFormat "2006-01" .Date }}">{{ dateFormat "2006-01" .Date }}</time><a
         href="{{ .Permalink }}"> {{ .Title }}</h3></a>
-
+        <em>{{ .Description }}</em></a>
     {{ end }}
   </section>
   {{ end }}
@@ -474,6 +476,13 @@
     {{ range  where .Site.RegularPages "Section" "conf"  }}
     <h3><time datetime="{{ dateFormat "2006-01" .Date }}">{{ dateFormat "2006-01" .Date }}</time><a
         href="{{ .Permalink }}"> {{ .Title }}</h3><em>{{ .Description }}</em></a>
+        {{ if eq .Params.keywords "creation" }}
+    <div class="ball pink"></div>
+{{ else if eq .Params.keywords "bug" }}
+    <div class="ball green"></div>
+{{ else }}
+    <div class="ball"></div>
+{{ end }}
     {{ end }}
   </section>
   {{ end }}
@@ -495,3 +504,70 @@
 {{ define "toc" }}
 {{ partial "docs/toc" . }}
 {{ end }}
+<!--
+<script>
+  var body = document.body;
+var switcher = document.getElementsByClassName('js-toggle')[0];
+
+//Click on dark mode icon. Add dark mode classes and wrappers. Store user preference through sessions
+switcher.addEventListener("click", function() {
+      this.classList.toggle('js-toggle--checked');
+      this.classList.add('js-toggle--focus');
+  //If dark mode is selected
+  if (this.classList.contains('js-toggle--checked')) {
+    body.classList.add('dark-mode');
+    //Save user preference in storage
+    localStorage.setItem('darkMode', 'true');
+  } else {
+    body.classList.remove('dark-mode');
+    setTimeout(function() {
+      localStorage.removeItem('darkMode');
+    }, 100);
+  }
+})
+
+//Check Storage. Keep user preference on page reload
+if (localStorage.getItem('darkMode')) {
+  //body.classList.add('dark-mode');
+      switcher.classList.add('js-toggle--checked');
+      body.classList.add('dark-mode');
+}
+
+
+//test d'une fonction qui change ma couleur des sections identifiées comme Blank
+function changerCouleur() {
+  var elem = document.getElementById("Blank");
+  var couleur = "#" + Math.floor(Math.random()*16777215).toString(16); // génère une couleur aléatoire
+  elem.style.color = couleur;
+}
+
+//fonction qui appelle la fonction changeCouleur() toutes les x secondes en utilisant la méthode setInterval()
+function changerCouleurAuto() {
+  setInterval(changerCouleur, 1000000000000); // change la couleur toutes les secondes
+}
+
+//Script pour appeler le script qui change la couleur
+window.onload = changerCouleurAuto;
+
+//fin de la fonction test qui n'est pas utilisée finalement mais que je garde dans un syndrome diogène des écritures
+
+//deuxième option qui est utilisée 
+var texte = document.getElementById("BecomeBlank");
+		var compteur = 0;
+		var intervalle = setInterval(changerCouleur, 1000);
+		
+		function changerCouleur() {
+			var rouge = 0 + compteur;
+			var vert = 0 + compteur;
+			var bleu = 0 + compteur;
+      var transparent = 10000 - compteur;
+			texte.style.color = "rgb(" + rouge + ", " + vert + ", " + bleu + ", " + transparent + " )";
+			if (compteur < 255) {
+				compteur += 5;
+			} else {
+				clearInterval(intervalle);
+			}
+		}
+
+</script>
+-->

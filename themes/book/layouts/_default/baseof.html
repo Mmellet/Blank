@@ -504,7 +504,7 @@
 {{ define "toc" }}
 {{ partial "docs/toc" . }}
 {{ end }}
-<!--
+
 <script>
   var body = document.body;
 var switcher = document.getElementsByClassName('js-toggle')[0];
@@ -533,7 +533,6 @@ if (localStorage.getItem('darkMode')) {
       body.classList.add('dark-mode');
 }
 
-
 //test d'une fonction qui change ma couleur des sections identifiées comme Blank
 function changerCouleur() {
   var elem = document.getElementById("Blank");
@@ -543,7 +542,7 @@ function changerCouleur() {
 
 //fonction qui appelle la fonction changeCouleur() toutes les x secondes en utilisant la méthode setInterval()
 function changerCouleurAuto() {
-  setInterval(changerCouleur, 1000000000000); // change la couleur toutes les secondes
+  setInterval(changerCouleur, 1000000000); // change la couleur toutes les secondes
 }
 
 //Script pour appeler le script qui change la couleur
@@ -570,4 +569,3 @@ var texte = document.getElementById("BecomeBlank");
 		}
 
 </script>
--->

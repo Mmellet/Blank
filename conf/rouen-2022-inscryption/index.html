@@ -495,10 +495,6 @@ Sous-titre : Réflexions sur l&#39;obsolescence dans le jeu Inscryption
 <div style="text-align:center">
 <a href="../../html/Conf/Inscryption.html" target="_blank">ouvrir dans mon navigateur</a>
 </div>
-<iframe src="../../html/Conf/Seance-1-1.html" title="description" allowfullscreen="allowfullscreen"></iframe>
-<div style="text-align:center">
-<a href="../../html/Conf/Seance-1-1.html" target="_blank">ouvrir dans mon navigateur</a>
-</div>
 <h1 id="texte">
   Texte
   <a class="anchor" href="#texte">#</a>
@@ -943,7 +939,7 @@ function changerCouleur() {
 
 
 function changerCouleurAuto() {
-  setInterval(changerCouleur, 1000000000); 
+  setTimeout(changerCouleur, 60 * 60 * 1000); 
 }
 
 
@@ -954,7 +950,7 @@ window.onload = changerCouleurAuto;
 
 var texte = document.getElementById("BecomeBlank");
 		var compteur = 0;
-		var intervalle = setInterval(changerCouleur, 1000);
+		var intervalle = setTimeout(changerCouleur, 60 * 60 * 1000);
 		
 		function changerCouleur() {
 			var rouge = 0 + compteur;

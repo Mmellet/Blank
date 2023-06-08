@@ -1795,7 +1795,7 @@ function changerCouleur() {
 
 
 function changerCouleurAuto() {
-  setInterval(changerCouleur, 1000000000); 
+  setTimeout(changerCouleur, 60 * 60 * 1000); 
 }
 
 
@@ -1806,7 +1806,7 @@ window.onload = changerCouleurAuto;
 
 var texte = document.getElementById("BecomeBlank");
 		var compteur = 0;
-		var intervalle = setInterval(changerCouleur, 1000);
+		var intervalle = setTimeout(changerCouleur, 60 * 60 * 1000);
 		
 		function changerCouleur() {
 			var rouge = 0 + compteur;

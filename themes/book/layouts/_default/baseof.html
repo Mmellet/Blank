@@ -542,7 +542,7 @@ function changerCouleur() {
 
 //fonction qui appelle la fonction changeCouleur() toutes les x secondes en utilisant la méthode setInterval()
 function changerCouleurAuto() {
-  setInterval(changerCouleur, 1000000000); // change la couleur toutes les secondes
+  setTimeout(changerCouleur, 60 * 60 * 1000); // change la couleur en une heure
 }
 
 //Script pour appeler le script qui change la couleur
@@ -553,7 +553,7 @@ window.onload = changerCouleurAuto;
 //deuxième option qui est utilisée 
 var texte = document.getElementById("BecomeBlank");
 		var compteur = 0;
-		var intervalle = setInterval(changerCouleur, 1000);
+		var intervalle = setTimeout(changerCouleur, 60 * 60 * 1000);
 		
 		function changerCouleur() {
 			var rouge = 0 + compteur;

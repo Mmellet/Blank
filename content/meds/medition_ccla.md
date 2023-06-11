@@ -5,6 +5,10 @@ date: 2023-05-31
 bibFile: path/to/petites-mains.json 
 ---
 
+[PDF version](/PDF/paper.pdf)
+
+*The following text is based on a paper presented at the 2023 conference of the [Canadian Comparative Literature Association](https://complit.ca/) (CCLA). The visual presentation is available [here](https://blank.blue/conf/petitesmains-ccla/).*
+
 I hereby present an ongoing personnal research that is focused on the notion of *petites mains*. The French formula is preserved because of the complexity of its English translation: "small hands" or "little hands" would not convey the meaning of the initial formula[^1]. I will first explain my understanding of *petites mains*, especially in the context of Digital Humanities studies, and then consider how this concept ties in with a reconsideration of the traditional humanities model. 
 
 [^1]: The term "amanuensis" for textual assistants could well apply, but it mainly concerns textual work environments, while the "petites mains" seems to be able to reach beyond. 
@@ -57,7 +61,7 @@ The patriarchal logic of the myth continues in many projects kept in mind by the
 <p>Le Répertoire Bibliographique Universel - around 1900.  Collections de la Fédération Wallonie-Bruxelles, en dépôt au Mundaneum (Belgique) – Photograph: Patrick Tombelle</p>
 </div>
 
-There is **A** or even **The** Man of the project, Paul Otlet in the center, and then there is, all around him, the *petites mains*, secretaries who did the data indexation, whose names remain unknown. It's about document and even more about docu*men*. 
+There is **A** or even **The** Man of the project, Paul Otlet in the center, and then there is, all around him, the *petites mains*, secretaries who did the data indexation, whose names remain unknown. It's about document and even more about docu*men*. Although the Mundaneum's indexing system is the result of research by Paul Otlet, in collaboration with Henri La Fontaine, it was actually implemented by the Mundaneum's secretarial staff. Otlet's staff, essentially women, made it possible for the Mundaneum to fulfill its function: conceived before the digital age, requests for information required a long and careful search of the file catalog. These searches were handled by *petites mains* before the principles of browsers and content aggregators existed.
 
 The reality of technical sexism, which is the subject on which Isabelle Collet {{< cite "-collet_disparition_2004;collet_les_2017;morley_femmes_2017" >}} has worked extensively, is that women are, since these fields are no longer part of the service sector and have gained a scientific, political and economic reputation, mainly excluded from technical training and environments, even from technical imaginations that are essentially masculine (the geek, the programmer, the hacker are male).
 
@@ -115,7 +119,7 @@ The issue is therefore not so much to reshape myths and represententions, as to 
 
 To conclude this paper, I would like to acknowledge a biased approach of mine that is very much centered on equality issues and very much informed by feminist readings. This is not to say that the *petites mains* are not the hands of other communities, and in particular of visible or invisible minorities. There is a large colonial and post-colonial angle to the *petites mains* culture that involves many other issues represented in particular by Casilli's study of digital labor:
 
-> There is no artificial intelligence, only the work of someone else's click. (Casilli T-shirt slogan) 
+> There is no artificial intelligence, only the work of someone else's click. {{< cite "casilli_il_2021" >}}
 
 This is the reason why the topic of the transparency of the production processes is a core issue of our research that we have to grasp. It is important to document our research project along the way, as McPherson reminds us in *Feminist in Sowtware Lab* {{< cite "-mcpherson_feminist_2018" >}}, because it is not so much our job to conceive working tools that will change and save the world and culture as it is to trace and witness working practices that the final product leaves the abstraction and obscurity of the archives. 
 

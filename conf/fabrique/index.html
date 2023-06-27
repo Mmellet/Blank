@@ -1,0 +1,2818 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+
+
+
+<script>
+  wbinfo = {}
+  wbinfo.url = "https://mmellet.github.io/CreationThese/Version.html";
+  wbinfo.timestamp = "20200720215953";
+  wbinfo.request_ts = "";
+  wbinfo.prefix = "https://via.hypothes.is/";
+  wbinfo.mod = "";
+  wbinfo.top_url = "https://via.hypothes.is/https://mmellet.github.io/CreationThese/Version.html";
+  wbinfo.is_framed = false;
+  wbinfo.is_live = true;
+  wbinfo.coll = "";
+  wbinfo.proxy_magic = "";
+  wbinfo.static_prefix = "https://via.hypothes.is/static/__pywb";
+</script>
+
+<script src='https://via.hypothes.is/static/__pywb/wombat.js'> </script>
+
+<script src='https://via.hypothes.is/static/__pywb/wb.js'> </script>
+<script src='https://via.hypothes.is/static/__pywb/vidrw.js'> </script>
+
+<script>
+  
+
+  function isTopViaFrame() {
+    if (window === window.top) {
+      
+      
+      return true;
+    }
+
+    try {
+      
+      
+      
+      var parent = window.__WB_orig_parent || window.parent;
+
+      
+      
+      
+      
+      
+      
+      parent.location.href;
+
+      
+      
+      return false;
+    } catch (err) {
+      
+      
+      return true;
+    }
+  }
+
+  function stripFragment(url) {
+    return url.replace(/#.*$/, '');
+  }
+
+  
+
+  function isExternalLink(linkEl) {
+    
+    
+    
+    
+    
+    
+    
+    const internalLink = document.createElement('a');
+
+    
+    internalLink.href = '#';
+
+    return stripFragment(internalLink.href) !== stripFragment(linkEl.href);
+  }
+
+  
+
+  function setupExternalLinkHandler(mode) {
+    if (mode === "new-tab") {
+      document.addEventListener("click", function (event) {
+        if (!event.target.closest) {
+          
+          return;
+        }
+
+        var linkEl = event.target.closest("a");
+        if (linkEl) {
+          if (isExternalLink(linkEl)) {
+            
+            linkEl.target = "_blank";
+          }
+        }
+      });
+    }
+  }
+
+  (function () {
+
+    if (!isTopViaFrame()) {
+      
+      
+      
+      
+      
+      
+      
+      return;
+    }
+
+    
+    var embed_script = document.createElement("script");
+    embed_script.src = "https://hypothes.is/embed.js";
+    document.head.appendChild(embed_script);
+
+    setupExternalLinkHandler("same-tab");
+
+    window.hypothesisConfig = function () {
+      return {
+        "showHighlights": true,
+        "appType": "via",
+        "openSidebar": false
+      };
+    }
+  })();
+</script>
+
+<head>
+  <meta name="generator" content="Hugo 0.114.1">
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Présentation à Humanistica 2023 (Genève - 26-28 juin).
+Slides # ouvrir dans mon navigateur Texte # Je souhaite proposer ici une réflexion en cours, qui se veut aussi une exploration entre métaphore culinaire, soumise à vos digestions, et psychalyse, soumise à votre propre écoute.
+La pâte de ma recherche, c&rsquo;est, comme pour beaucoup de littéraires, l&rsquo;écriture mais appréhendée comme un faire, dans une perspective matérialiste, et dans la cuisine de cette obsession, le mot de fabrique me revient souvent en tête.">
+<meta name="theme-color" content="#FFFFFF">
+<meta name="robots" content="noindex, nofollow"/><meta property="og:title" content="Fabrique de la fabrique" />
+<meta property="og:description" content="Présentation à Humanistica 2023 (Genève - 26-28 juin).
+Slides # ouvrir dans mon navigateur Texte # Je souhaite proposer ici une réflexion en cours, qui se veut aussi une exploration entre métaphore culinaire, soumise à vos digestions, et psychalyse, soumise à votre propre écoute.
+La pâte de ma recherche, c&rsquo;est, comme pour beaucoup de littéraires, l&rsquo;écriture mais appréhendée comme un faire, dans une perspective matérialiste, et dans la cuisine de cette obsession, le mot de fabrique me revient souvent en tête." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://blank.blue/conf/fabrique/" /><meta property="article:section" content="conf" />
+<meta property="article:published_time" content="2023-05-27T00:00:00+00:00" />
+<meta property="article:modified_time" content="2023-05-27T00:00:00+00:00" />
+<title>Fabrique de la fabrique | </title>
+<link rel="manifest" href="../../manifest.json">
+<link rel="icon" href="../../logo.png" type="image/x-icon">
+<link rel="stylesheet" type="text/css" href="../../hugo-cite.css" />
+
+
+<link rel="stylesheet" href="../../book.min.5ce9d0951661229fc6588531c8f953e156fc32b3c74c6bd3cf84cfc96e965d1f.css" integrity="sha256-XOnQlRZhIp/GWIUxyPlT4Vb8MrPHTGvTz4TPyW6WXR8=">
+<script defer src="../../en.search.min.8592fd2e43835d2ef6fab8eb9b8969ee6ad1bdb888a636e37e28032f8bd9887d.js" integrity="sha256-hZL9LkODXS72&#43;rjrm4lp7mrRvbiIpjbjfigDL4vZiH0="></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+  
+</head>
+
+<style>
+
+   
+  
+  .js-toggle-wrapper {
+      display: table;
+      margin: 0 auto;
+      
+  }
+  
+  .js-toggle {
+      touch-action: pan-x;
+      display: inline-block;
+      position: relative;
+      cursor: pointer;
+      margin-left: 10px;
+      margin-top: 17px;
+      background-color: transparent;
+      border: 0;
+      padding: 0;
+      -webkit-touch-callout: none;
+      user-select: none;
+      -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+      -webkit-tap-highlight-color: transparent;
+    }
+    
+    .js-toggle-screenreader-only {
+      border: 0;
+      clip: rect(0 0 0 0);
+      height: 1px;
+      margin: -1px;
+      overflow: hidden;
+      padding: 0;
+      position: absolute;
+      width: 1px;
+    }
+    
+    .js-toggle-track {
+      width: 60px;
+      height: 34px;
+      padding: 0;
+      border-radius: 10px;
+      background-color: #0b0418e7;
+      transition: all 0.2s ease;
+    }
+    
+    .js-toggle-track-check {
+      position: absolute;
+      width: 17px;
+      height: 17px;
+      left: 10px;
+      top: 0px;
+      bottom: 0px;
+      margin-top: auto;
+      margin-bottom: auto;
+      line-height: 0;
+      opacity: 0;
+      transition: opacity 0.25s ease;
+    }
+    
+    .js-toggle--checked .js-toggle-track-check {
+      opacity: 1;
+      transition: opacity 0.25s ease;
+    }
+    
+    .js-toggle-track-x {
+      position: absolute;
+      width: 17px;
+      height: 17px;
+      right: 15px;
+      top: 0px;
+      bottom: 0px;
+      margin-left: 7px;
+      margin-top: auto;
+      margin-bottom: auto;
+      line-height: 0;
+      opacity: 1;
+      transition: opacity 0.25s ease;
+    }
+    
+    .js-toggle--checked .js-toggle-track-x {
+      opacity: 0;
+    }
+    
+    .js-toggle-thumb {
+      position: absolute;
+      top: 1px;
+      left: 14px;
+      right: 14px;
+      width: 8px;
+      height: 32px;
+      border-radius: 10%;
+      background-color: #fafafa;
+      box-sizing: border-box;
+      transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+      transform: translateX(0);
+    }
+    
+    .js-toggle--checked .js-toggle-thumb {
+      transform: translateX(26px);
+      border-color: #1976ab;
+    }
+    
+    .js-toggle--focus .js-toggle-thumb {
+      box-shadow: 0px 0px 2px 3px rgba(248, 248, 150, 0.438);
+    }
+    
+    .js-toggle:active .js-toggle-thumb {
+      box-shadow: 0px 0px 5px 5px rgba(248, 248, 150, 0.438);
+    }
+  </style>
+
+<body dir="ltr">
+
+  <div class="js-toggle-wrapper">
+    <div class="js-toggle">
+        <div class="js-toggle-track">
+            <div class="js-toggle-track-check">
+                <img src="../../images/jour.png" role="presentation" style="pointer-events: none;margin-top: -3px;" width="20" height="20">
+            </div>
+            <div class="js-toggle-track-x">
+                <img src="../../images/nuit.png" role="presentation" style="pointer-events: none; margin-top: -3px;" width="22" height="24">
+            </div>
+        </div>
+        <div class="js-toggle-thumb"></div>
+        <input class="js-toggle-screenreader-only" type="checkbox" aria-label="Switch between Dark and Light mode">
+    </div>
+
+
+  <p style="text-align: left; font-size:12px; margin-left: 7px;">
+    <br />
+    Ici
+    <br />
+    le temps 
+    <br />
+    des mots
+    <br />
+    est compté
+    <br />
+
+
+    <label id="heures">00</label>:<label id="minutes">00</label>:<label id="secondes">00</label>
+
+  </p>
+
+</div>
+
+  <script>
+    var heuresLabel = document.getElementById("heures");
+    var minutesLabel = document.getElementById("minutes");
+    var secondesLabel = document.getElementById("secondes");
+    var totalSecondes = 0;
+    setInterval(setTime, 1000);
+
+    function setTime() {
+      ++totalSecondes;
+      secondesLabel.innerHTML = pad(totalSecondes % 60);
+      minutesLabel.innerHTML = pad(parseInt(totalSecondes / 60));
+      heuresLabel.innerHTML = pad(parseInt(totalSecondes / 3600));
+    }
+
+    function pad(val) {
+      var valString = val + "";
+      if (valString.length < 2) {
+        return "0" + valString;
+      } else {
+        return valString;
+      }
+    }
+  </script>
+
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+<nav>
+<h2 class="book-brand">
+  <a href="../../"><span></span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr>
+
+
+  <!--- **[Projets](/projects/)**-->
+<!--- **[Créations](/creations/)*
+
+- **[Blog](/blog/)***-->
+<ul>
+<li><strong><a href="../../recherche/">Carnet</a></strong></li>
+<li><strong><a href="../../fabriques/">Fabrique</a></strong></li>
+<li><strong><a href="../../creations/">Création</a></strong></li>
+<li><strong><a href="../../meditions/">Méditions</a></strong></li>
+</ul>
+<p>__</p>
+<ul>
+<li><strong><a href="../../hypertexte/">Hypertextes</a></strong></li>
+<li><strong><a href="../../textes-videos/">Textes Vidéos</a></strong></li>
+<li><strong><a href="../../publications/">Publications</a></strong></li>
+<li><strong><a href="../../conference/">Conférences</a></strong></li>
+</ul>
+<p>__</p>
+<ul>
+<li><strong><a href="../../about/">Je suis</a></strong></li>
+<li><strong><a href="../../credits/">Crédits</a></strong></li>
+</ul>
+<!--- **[Jesus Jekyll](/jekyll/)**-->
+<hr>
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside.book-menu nav");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+
+        
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+<head>
+<link rel="print" type="text/html" href="https://blank.blue/conf/fabrique/print.html" title="" />
+</head>
+
+
+<div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="../../svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+
+  <label for="toc-control">
+    
+    <img src="../../svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+
+
+
+
+<aside class="hidden clearfix">
+  
+
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#0-la-fabrique-est-une-fabrique">0. La fabrique est une fabrique</a></li>
+    <li><a href="#1-le-roman-de-lhomo-faber-sapiens-sapiens">1. Le roman de l&rsquo;<em>homo faber sapiens sapiens</em></a></li>
+    <li><a href="#2-la-réminiscence-du-politique">2. La réminiscence du politique</a></li>
+    <li><a href="#3-lintrospection-de-lundercommons">3. L&rsquo;introspection de l&rsquo;undercommons</a></li>
+    <li><a href="#4-lexorcisme-des-humanités">4. L&rsquo;exorcisme des humanités</a></li>
+    <li><a href="#01234-la-désécriture-des-humanités">0.1.2.3.4. La désécriture des humanités</a></li>
+    <li><a href="#bibliographiehttpswwwzoteroorggroups5106654fabriquefabriquelibrary"><a href="https://www.zotero.org/groups/5106654/fabriquefabrique/library">Bibliographie</a></a></li>
+  </ul>
+</nav>
+
+
+
+</aside>
+
+
+        
+
+      </header>
+
+      
+<div class="Blank">
+ 
+  <a href="../../"><p class="Blank" aria-label="CodePen">
+    <span data-text="B" style="color: #0b0418e7;">B</span>
+    <span data-text="l" style="color: #0b0418e7;">l</span>
+    <span data-text="a" style="color: #0b0418e7;">a</span>
+    <span data-text="n" style="color: #0b0418e7;">n</span>
+    <span data-text="k" style="color: #0b0418e7;">k</span> 
+    <span class="Blank" style="color: #0b0418e7; background-color: transparent;">Site en <br/>déconstruction</span>
+    </p>
+  </a>
+
+  
+
+
+  </div>
+      
+<article class="markdown">
+  <div class="meta">
+    <h1>Fabrique de la fabrique</h1>
+
+  <h2></h2>
+    
+  </div>
+  <section id="BecomeBlank"><p>Présentation à Humanistica 2023 (Genève - 26-28 juin).</p>
+<h1 id="slides">
+  Slides
+  <a class="anchor" href="#slides">#</a>
+</h1>
+<iframe src="../../html/Conf/FabriqueHumanistica.html" title="description" allowfullscreen="allowfullscreen"></iframe>
+<div style="text-align:center">
+<a href="../../html/Conf/FabriqueHumanistica.html" target="_blank">ouvrir dans mon navigateur</a>
+</div>
+<hr>
+<h1 id="texte">
+  Texte
+  <a class="anchor" href="#texte">#</a>
+</h1>
+<p>Je souhaite proposer ici une réflexion en cours, qui se veut aussi une exploration entre métaphore culinaire, soumise à vos digestions, et psychalyse, soumise à votre propre écoute.</p>
+<p>La pâte de ma recherche, c&rsquo;est, comme pour beaucoup de littéraires, l&rsquo;écriture mais appréhendée comme un <em>faire</em>, dans une perspective matérialiste, et dans la cuisine de cette obsession, le mot de fabrique me revient souvent en tête.</p>
+<hr>
+<h2 id="0-la-fabrique-est-une-fabrique">
+  0. La fabrique est une fabrique
+  <a class="anchor" href="#0-la-fabrique-est-une-fabrique">#</a>
+</h2>
+<p>La fabrique est déclinée sous de multiples saveurs en sciences humaines, dans les études littéraires (la fabrique du prè de Ponge), dans les études liées au design 
+
+
+
+
+<span class="hugo-cite-intext"
+        itemprop="citation">(<span class="hugo-cite-group">
+
+          <a href="#flusser_vom_1997"><span class="visually-hidden">Citation: </span><span itemprop="author" itemscope itemtype="https://schema.org/Person"><meta itemprop="givenName" content="Vilém"><span itemprop="familyName">Flusser</span></span>&#32;&amp;&#32;<span itemprop="author" itemscope itemtype="https://schema.org/Person"><meta itemprop="givenName" content="Fabian"><span itemprop="familyName">Wurm</span></span>,&#32;<span itemprop="datePublished">1997</span></a><span class="hugo-cite-citation"> 
+
+
+
+
+
+
+
+
+
+
+<span itemscope 
+      itemtype="https://schema.org/Book"
+      data-type="book"><span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="familyName">Flusser</span>,&#32;
+    <meta itemprop="givenName" content="Vilém" />
+    V.</span>&#32;&amp;&#32;<span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="familyName">Wurm</span>,&#32;
+    <meta itemprop="givenName" content="Fabian" />
+    F.</span>&#32;
+    (<span itemprop="datePublished">1997</span>).
+  &#32;<span itemprop="name">
+    <i>Vom Stand der Dinge: eine kleine Philosophie des Designs</i></span>.
+  <meta itemprop="contentLocation"
+        value="Göttingen">&#32;
+  <span itemprop="publisher"
+             itemtype="http://schema.org/Organization"
+             itemscope="">
+    <span itemprop="name">Steidl Verl</span></span>.</span>
+
+
+
+
+</span></span>;&#32;<span class="hugo-cite-group">
+
+          <a href="#flusser_shape_1999"><span class="visually-hidden">Citation: </span><span itemprop="author" itemscope itemtype="https://schema.org/Person"><meta itemprop="givenName" content="Vilém"><span itemprop="familyName">Flusser</span></span>,&#32;<span itemprop="datePublished">1999</span></a><span class="hugo-cite-citation"> 
+
+
+
+
+
+
+
+
+
+
+<span itemscope 
+      itemtype="https://schema.org/Book"
+      data-type="book"><span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="familyName">Flusser</span>,&#32;
+    <meta itemprop="givenName" content="Vilém" />
+    V.</span>&#32;
+    (<span itemprop="datePublished">1999</span>).
+  &#32;<span itemprop="name">
+    <i>The shape of things: a philosophy of design</i></span>.
+  <meta itemprop="contentLocation"
+        value="London">&#32;
+  <span itemprop="publisher"
+             itemtype="http://schema.org/Organization"
+             itemscope="">
+    <span itemprop="name">Reaktion</span></span>.</span>
+
+
+
+
+</span></span>;&#32;<span class="hugo-cite-group">
+
+          <a href="#flusser_petite_2002"><span class="visually-hidden">Citation: </span><span itemprop="author" itemscope itemtype="https://schema.org/Person"><meta itemprop="givenName" content="Vilém"><span itemprop="familyName">Flusser</span></span>,&#32;<span itemprop="datePublished">2002</span></a><span class="hugo-cite-citation"> 
+
+
+
+
+
+
+
+
+
+
+<span itemscope 
+      itemtype="https://schema.org/Book"
+      data-type="book"><span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="familyName">Flusser</span>,&#32;
+    <meta itemprop="givenName" content="Vilém" />
+    V.</span>&#32;
+    (<span itemprop="datePublished">2002</span>).
+  &#32;<span itemprop="name">
+    <i>Petite philosophie du design</i></span>.
+  <meta itemprop="contentLocation"
+        value="Belval">&#32;
+  <span itemprop="publisher"
+             itemtype="http://schema.org/Organization"
+             itemscope="">
+    <span itemprop="name">Circé</span></span>.</span>
+
+
+
+
+</span></span>)</span>
+, dans les approches anthropologiques 
+
+
+
+
+<span class="hugo-cite-intext"
+        itemprop="citation">(<span class="hugo-cite-group">
+
+          <a href="#ingold_loutil_2010"><span class="visually-hidden">Citation: </span><span itemprop="author" itemscope itemtype="https://schema.org/Person"><meta itemprop="givenName" content="Tim"><span itemprop="familyName">Ingold</span></span>,&#32;<span itemprop="datePublished">2010</span></a><span class="hugo-cite-citation"> 
+
+
+
+
+
+
+
+
+
+
+<span itemscope
+      itemtype="https://schema.org/Article"
+      data-type="article"><span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="familyName">Ingold</span>,&#32;
+    <meta itemprop="givenName" content="Tim" />
+    T.</span>
+  &#32;
+    (<span itemprop="datePublished">2010</span>).
+  &#32;<span itemprop="name">L’Outil, l’esprit et la machine : Une excursion dans la philosophie de la « technologie »</span>.<i>
+    <span itemprop="about">Techniques &amp; Culture. Revue semestrielle d’anthropologie des techniques</span>(54-55)</i>.&#32;<span itemprop="pagination">291–311</span>.
+  <a href="https://doi.org/10.4000/tc.5004"
+     itemprop="identifier"
+     itemtype="https://schema.org/URL">https://doi.org/10.4000/tc.5004</a></span>
+
+
+
+
+</span></span>;&#32;<span class="hugo-cite-group">
+
+          <a href="#ingold_making_2013"><span class="visually-hidden">Citation: </span><span itemprop="author" itemscope itemtype="https://schema.org/Person"><meta itemprop="givenName" content="Tim"><span itemprop="familyName">Ingold</span></span>,&#32;<span itemprop="datePublished">2013</span></a><span class="hugo-cite-citation"> 
+
+
+
+
+
+
+
+
+
+
+<span itemscope 
+      itemtype="https://schema.org/Book"
+      data-type="book"><span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="familyName">Ingold</span>,&#32;
+    <meta itemprop="givenName" content="Tim" />
+    T.</span>&#32;
+    (<span itemprop="datePublished">2013</span>).
+  &#32;<span itemprop="name">
+    <i>Making: anthropology, archaeology, art and architecture</i></span>.
+  <meta itemprop="contentLocation"
+        value="London ; New York">&#32;
+  <span itemprop="publisher"
+             itemtype="http://schema.org/Organization"
+             itemscope="">
+    <span itemprop="name">Routledge</span></span>.</span>
+
+
+
+
+</span></span>;&#32;<span class="hugo-cite-group">
+
+          <a href="#ingold_faire_2017"><span class="visually-hidden">Citation: </span><span itemprop="author" itemscope itemtype="https://schema.org/Person"><meta itemprop="givenName" content="Tim"><span itemprop="familyName">Ingold</span></span>,&#32;<span itemprop="author" itemscope itemtype="https://schema.org/Person"><meta itemprop="givenName" content="Hervé"><span itemprop="familyName">Gosselin</span></span>
+                  <em>&amp; al.</em>,&#32;<span itemprop="datePublished">2017</span></a><span class="hugo-cite-citation"> 
+
+
+
+
+
+
+
+
+
+
+<span itemscope 
+      itemtype="https://schema.org/Book"
+      data-type="book"><span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="familyName">Ingold</span>,&#32;
+    <meta itemprop="givenName" content="Tim" />
+    T.</span>,&#32;
+  <span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="familyName">Gosselin</span>,&#32;
+    <meta itemprop="givenName" content="Hervé" />
+    H.</span>&#32;&amp;&#32;<span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="familyName">Afeissa</span>,&#32;
+    <meta itemprop="givenName" content="Hicham-Stéphane" />
+    H.</span>&#32;
+    (<span itemprop="datePublished">2017</span>).
+  &#32;<span itemprop="name">
+    <i>Faire: anthropologie, archéologie, art et architecture</i></span>.
+  <meta itemprop="contentLocation"
+        value="Bellevaux">&#32;
+  <span itemprop="publisher"
+             itemtype="http://schema.org/Organization"
+             itemscope="">
+    <span itemprop="name">Éditions Dehors</span></span>.</span>
+
+
+
+
+</span></span>;&#32;<span class="hugo-cite-group">
+
+          <a href="#ingold_anthropology_2017"><span class="visually-hidden">Citation: </span><span itemprop="author" itemscope itemtype="https://schema.org/Person"><meta itemprop="givenName" content="Tim"><span itemprop="familyName">Ingold</span></span>,&#32;<span itemprop="datePublished">2017</span></a><span class="hugo-cite-citation"> 
+
+
+
+
+
+
+
+
+
+
+<span itemscope 
+      itemtype="https://schema.org/Book"
+      data-type="book"><span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="familyName">Ingold</span>,&#32;
+    <meta itemprop="givenName" content="Tim" />
+    T.</span>&#32;
+    (<span itemprop="datePublished">2017</span>).
+  &#32;<span itemprop="name">
+    <i>Anthropology and/as education: anthropology, art, architecture and design</i></span>.
+  <meta itemprop="contentLocation"
+        value="Abingdon, Oxon ; New York, NY">&#32;
+  <span itemprop="publisher"
+             itemtype="http://schema.org/Organization"
+             itemscope="">
+    <span itemprop="name">Routledge</span></span>.</span>
+
+
+
+
+</span></span>)</span>
+, dans l&rsquo;étude des chaînes éditoriales (la recherche de mon collègue Antoine Fauchié 
+
+
+
+
+<span class="hugo-cite-intext"
+        itemprop="citation">(<span class="hugo-cite-group">
+
+          <a href="#fauchie_les_2020"><span class="visually-hidden">Citation: </span><span itemprop="author" itemscope itemtype="https://schema.org/Person"><meta itemprop="givenName" content="Antoine"><span itemprop="familyName">Fauchié</span></span>,&#32;<span itemprop="datePublished">2020</span></a><span class="hugo-cite-citation"> 
+
+
+
+
+
+
+
+
+
+
+<span itemscope
+      itemtype="https://schema.org/BlogPosting"
+      data-type="blog"><span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="familyName">Fauchié</span>,&#32;
+    <meta itemprop="givenName" content="Antoine" />
+    A.</span>
+  &#32;
+    (<span itemprop="datePublished">2020</span>).
+  &#32;<span itemprop="name">Les fabriques de publication</span>.&nbsp;<span itemprop="isPartOf">quaternum.net</span>.&#32;Retrieved from&#32;
+  <a href="https://www.quaternum.net/2020/04/29/les-fabriques-de-publication/"
+     itemprop="identifier"
+     itemtype="https://schema.org/URL">https://www.quaternum.net/2020/04/29/les-fabriques-de-publication/</a></span>
+
+
+
+
+</span></span>;&#32;<span class="hugo-cite-group">
+
+          <a href="#fauchie_fabrique_2023"><span class="visually-hidden">Citation: </span><span itemprop="author" itemscope itemtype="https://schema.org/Person"><meta itemprop="givenName" content="Antoine"><span itemprop="familyName">Fauchié</span></span>,&#32;<span itemprop="datePublished">2023</span></a><span class="hugo-cite-citation"> 
+
+
+
+
+
+
+
+
+
+
+<span itemscope
+      itemtype="https://schema.org/BlogPosting"
+      data-type="blog"><span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="familyName">Fauchié</span>,&#32;
+    <meta itemprop="givenName" content="Antoine" />
+    A.</span>
+  &#32;
+    (<span itemprop="datePublished">2023</span>).
+  &#32;<span itemprop="name">Fabrique : concept</span>.&nbsp;<span itemprop="isPartOf">quaternum.net</span>.&#32;Retrieved from&#32;
+  <a href="https://www.quaternum.net/2023/06/02/fabrique-concept/"
+     itemprop="identifier"
+     itemtype="https://schema.org/URL">https://www.quaternum.net/2023/06/02/fabrique-concept/</a></span>
+
+
+
+
+</span></span>)</span>
+) :</p>
+<pre><code>fabrique du livre, fabrique de la littérature, fabrique de la science, fabrique des femmes, fabrique de la liste, fabrique de la liste, fabrique de la répétition,
+</code></pre>
+<p>La fabrique est un modèle et un outil conceptuel en ce qu&rsquo;elle permet de tourner logiquement un objet vers son <em>faire</em>, de l&rsquo;appréhender comme une fabrication. Ce qui amène principalement deux manoeuvres</p>
+<ol>
+<li>
+<p>remettre en perspective l&rsquo;objet par rapport à des biais de pensée (de montrer que son sens ou son universalité n&rsquo;est pas si évidente que cela [c&rsquo;est pour cela que les termes apposées à la fabrique sont généralement des notions vastes, des catéories])</p>
+</li>
+<li>
+<p>inscrire l&rsquo;objet dans une pratique, de rappeler qu&rsquo;il est une matière qui a vécu par un travail.</p>
+</li>
+</ol>
+<p>Le commun dans ces approches, au-delà de proposer de comprendre un objet par l&rsquo;analyse de son économie interne, c&rsquo;est qu&rsquo;elles explicitent moins leurs définitions de la fabrique qu&rsquo;elles n&rsquo;encouragent son utilisation et adoption directe dans le cadre de leurs disciplines.</p>
+<p>D&rsquo;où la question qui a animé le titre de cette présentation : comment est fabriquée cette fabrique que nous avons désormais en main et en tête ?</p>
+<p>Loin d&rsquo;avoir l&rsquo;orgueil d&rsquo;y répondre en en proposant une archéologie exhaustive et en m&rsquo;engageant à citer toutes les personnes qui pensent à partir d&rsquo;elle, je me suis dit que ma contribution à mon niveau pouvait plus simplement montrer la fabrique de ma fabrique, ou comment je construis un modèle du faire pour aborder l&rsquo;écriture en recherche et création en Humanités numériques.</p>
+<p>Je citerai tout de même quelques recherches qui pensent la fabrique ou qui, si elles n&rsquo;utilisent pas directement le terme de fabrique, proposent une réflexion sur une possible architecture du faire. Ma cuisine convoque 4 ingrédients principaux, Flusser, Raunig, Ingold et Kittler.</p>
+<hr>
+<h2 id="1-le-roman-de-lhomo-faber-sapiens-sapiens">
+  1. Le roman de l&rsquo;<em>homo faber sapiens sapiens</em>
+  <a class="anchor" href="#1-le-roman-de-lhomo-faber-sapiens-sapiens">#</a>
+</h2>
+<p>Je partirai d&rsquo;abord de la réflexion de Flusser, philosophe connu pour sa pensée du design et des arts, mais que je convoque ici parce que c&rsquo;est certainement un de ceux qui a le plus directement adresser la question de la fabrique, même s&rsquo;il l&rsquo;a fait peut-être brièvement dans le cadre d&rsquo;un chapitre ou de manière plus dense dans sa réflexion générale sur le geste. Flusser fait de la fabrique une sorte d&rsquo;épopée de l&rsquo;espèce humaine : <em>die Geschichte der Menschheit</em>, <em>the story of humankind</em>.</p>
+<blockquote>
+<p>Hiermit ist &ldquo;Fabrik&rdquo; das charakteristische menschliche Merkmal, das, was man einst die menschliche &ldquo;Würde&rdquo; genannt hat. An ihren Fabriken sollt ihrsie erkennen. 
+
+
+
+
+<span class="hugo-cite-intext"
+        itemprop="citation">(<span class="hugo-cite-group">
+
+          <a href="#flusser_vom_1997"><span class="visually-hidden">Citation: </span><span itemprop="author" itemscope itemtype="https://schema.org/Person"><meta itemprop="givenName" content="Vilém"><span itemprop="familyName">Flusser</span></span>&#32;&amp;&#32;<span itemprop="author" itemscope itemtype="https://schema.org/Person"><meta itemprop="givenName" content="Fabian"><span itemprop="familyName">Wurm</span></span>,&#32;<span itemprop="datePublished">1997</span>,&#32;p.&nbsp;68</a><span class="hugo-cite-citation"> 
+
+
+
+
+
+
+
+
+
+
+<span itemscope 
+      itemtype="https://schema.org/Book"
+      data-type="book"><span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="familyName">Flusser</span>,&#32;
+    <meta itemprop="givenName" content="Vilém" />
+    V.</span>&#32;&amp;&#32;<span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="familyName">Wurm</span>,&#32;
+    <meta itemprop="givenName" content="Fabian" />
+    F.</span>&#32;
+    (<span itemprop="datePublished">1997</span>).
+  &#32;<span itemprop="name">
+    <i>Vom Stand der Dinge: eine kleine Philosophie des Designs</i></span>.
+  <meta itemprop="contentLocation"
+        value="Göttingen">&#32;
+  <span itemprop="publisher"
+             itemtype="http://schema.org/Organization"
+             itemscope="">
+    <span itemprop="name">Steidl Verl</span></span>.</span>
+
+
+
+
+</span></span>)</span>
+</p>
+</blockquote>
+<blockquote>
+<p>La &ldquo;fabrique&rdquo; est donc la caractéristique humaine commune, ce que l&rsquo;on appelait autrefois la &ldquo;dignité&rdquo; de l&rsquo;humain. [C]&rsquo;est à leurs fabriques qu&rsquo;on les reconnaît. (<em>traduction personnelle</em><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>)</p>
+</blockquote>
+<p>Fil rouge d&rsquo;une condition humaine, la fabrique se façonne en héritage à l&rsquo;<em>homo faber</em>, figure que reprendra beaucoup Flusser : le faire de l&rsquo;humain c&rsquo;est ce qui lui permet de se distinguer des autres formes d&rsquo;être mais aussi de différencier ses propres évolutions.</p>
+<hr>
+<blockquote>
+<p>Fabrizieren heisst etwas aus dem Gegebenen entwenden, es in Gemachtes umwenden, anwenden und verwenden. Diese Bewegungen des Wendens werden zuerst von Händen ausgeführt, dann von Werkzeugen, Maschinen und schlichlieh Apparaten. [&hellip;] Demnach sind Fabriken Orte, wo Gegebenes in Gemachtes umgewendet wird [&hellip;]. 
+
+
+
+
+<span class="hugo-cite-intext"
+        itemprop="citation">(<span class="hugo-cite-group">
+
+          <a href="#flusser_vom_1997"><span class="visually-hidden">Citation: </span><span itemprop="author" itemscope itemtype="https://schema.org/Person"><meta itemprop="givenName" content="Vilém"><span itemprop="familyName">Flusser</span></span>&#32;&amp;&#32;<span itemprop="author" itemscope itemtype="https://schema.org/Person"><meta itemprop="givenName" content="Fabian"><span itemprop="familyName">Wurm</span></span>,&#32;<span itemprop="datePublished">1997</span>,&#32;p.&nbsp;69</a><span class="hugo-cite-citation"> 
+
+
+
+
+
+
+
+
+
+
+<span itemscope 
+      itemtype="https://schema.org/Book"
+      data-type="book"><span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="familyName">Flusser</span>,&#32;
+    <meta itemprop="givenName" content="Vilém" />
+    V.</span>&#32;&amp;&#32;<span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="familyName">Wurm</span>,&#32;
+    <meta itemprop="givenName" content="Fabian" />
+    F.</span>&#32;
+    (<span itemprop="datePublished">1997</span>).
+  &#32;<span itemprop="name">
+    <i>Vom Stand der Dinge: eine kleine Philosophie des Designs</i></span>.
+  <meta itemprop="contentLocation"
+        value="Göttingen">&#32;
+  <span itemprop="publisher"
+             itemtype="http://schema.org/Organization"
+             itemscope="">
+    <span itemprop="name">Steidl Verl</span></span>.</span>
+
+
+
+
+</span></span>)</span>
+</p>
+</blockquote>
+<blockquote>
+<p>Fabriquer signifie détourner quelque chose du donné, le transformer en quelque chose de fait/artefact, y avoir recours et en faire usage. Ces gestes qui tournent et retournent sont d&rsquo;abord exécutés par des mains, puis par des outils, des machines et finalement des appareils/appareillages. [&hellip;] Ainsi, les fabriques sont les lieux où l&rsquo;on transforme le donné en artefact. (<em>traduction personnelle</em><sup id="fnref1:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>)</p>
+</blockquote>
+<p>Que ce soit par la main, l&rsquo;outil, la machine ou d&rsquo;autres appareillages, la fabrique est la capacité d&rsquo;intervention sur le monde.</p>
+<p>Redéfinir l&rsquo;humain par le faire, c&rsquo;est également, pour Flusser, l&rsquo;occasion de remettre en question une tradition humaniste et de la remettre en face à face avec un faire. La tradition humaniste visée par Fluser est celle qui prilégie dans ses analyses et références les oeuvres d&rsquo;arts, les textes politiques, philosophiques ou théologiques. Cette tradition n&rsquo;a saisi par les mots qu&rsquo;une partie du kaléidoscope humain en laissant de côté une catégorie de savoir-faire, notamment ouvrier ou artisannal.</p>
+<p>Or, et c&rsquo;est tout le pressentiment d&rsquo;un changement de paradigme qui va être amené avec les technologies numériques qui se traduit dans la pensée de Flusser, le faire a été au centre du rapport au monde de l&rsquo;humain en tout temps, et peut-être avec les nouveaux médias il est d&rsquo;autant plus important pour les humanités de garder ce faire en main comme en tête.</p>
+<p>Il est primordial d&rsquo;ouvrir l&rsquo;enquête intellectuelle aux usines, de faire dialoguer au travers des outils non seulement des disciplines (sciences et art), des approches (recherche et création) mais également des classes sociales.</p>
+<p>Bel idéal démocratique et interdisciplinaires qui comporte cependant plusieurs possibles glissements de terrains : l&rsquo;universalité qui émane de la pensée humaniste de Flusser comporte ses propres paradoxes et frontières. Comme pour le design, l&rsquo;importance de la fabrique tient autant du pouvoir que de l&rsquo;utopie [et le faire épique de l&rsquo;humain peut relever sous certains aspects d&rsquo;une romancisation].</p>
+<p>La fabrique de Flusser, en encourageant un nouvel humanisme, dresse par extension le portrait du chercheur humaniste de demain, l&rsquo;<em>homo faber sapiens sapiens</em> qui demeure un récit ou même une recette d&rsquo;universitaire. C&rsquo;est la première remarque que je me suis faite dans ma cuisine interne : la fabrique est une notion qui ne concerne pas tant l&rsquo;usine qu&rsquo;elle aimerait intégrer, qu&rsquo;elle en fait une image idéale qui fonctionne un peu comme un souvenir-écran, un récit que l&rsquo;on se fait et qui nous rassure.</p>
+<hr>
+<p>À ce titre, si l&rsquo;on devait établir une fabrique des humanités numériques, comme plusieurs études en ont déjà retracé l&rsquo;histoire, certainement serait cité le <em>founding father</em> Roberto Busa et son projet de l&rsquo;Index Thomisticus, le projet de lemmatisation des oeuvres de Thomas d&rsquo;Aquin. Ce que souligne, non sans ironie, Unsworth.</p>
+<blockquote>
+<p>Most fields cannot point to a single progenitor, much less a divine one, but humanities computing has Father Busa. 
+
+
+
+
+<span class="hugo-cite-intext"
+        itemprop="citation">(<span class="hugo-cite-group">
+
+          <a href="#unsworth_forms_2004"><span class="visually-hidden">Citation: </span><span itemprop="author" itemscope itemtype="https://schema.org/Person"><meta itemprop="givenName" content="John"><span itemprop="familyName">Unsworth</span></span>,&#32;<span itemprop="datePublished">2004</span></a><span class="hugo-cite-citation"> 
+
+
+
+
+
+
+
+
+
+
+<span itemscope
+      itemtype="https://schema.org/BlogPosting"
+      data-type="blog"><span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="familyName">Unsworth</span>,&#32;
+    <meta itemprop="givenName" content="John" />
+    J.</span>
+  &#32;
+    (<span itemprop="datePublished">2004</span>).
+  &#32;<span itemprop="name">Forms of Attention: Digital Humanities Beyond Representation.</span>.&nbsp;<span itemprop="isPartOf">John Unsworth</span>.&#32;Retrieved from&#32;
+  <a href="https://johnunsworth.name/FOA/"
+     itemprop="identifier"
+     itemtype="https://schema.org/URL">https://johnunsworth.name/FOA/</a></span>
+
+
+
+
+</span></span>)</span>
+</p>
+</blockquote>
+<blockquote>
+<p>La plupart des disciplines ne peuvent pas identifier un seul géniteur, et encore moins un géniteur divin, mais l&rsquo;informatique des sciences humaines/humanités numériques, elles, ont le père Busa. (<em>traduction personnelle</em><sup id="fnref2:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>)</p>
+</blockquote>
+<p>Et je sais très bien, avant même de citer cet exemple, qu&rsquo;on le cite trop comparé à d&rsquo;autres projets que l&rsquo;on ne cite pas, que je participe certainement à cette tendance. J&rsquo;ai fait le choix de ne pas prendre un autre projet en exemple parce que le projet de l&rsquo;Index thomisticus présente l&rsquo;avantage d&rsquo;avoir été beaucoup étudié, décortiqué, fouillé dans ses archives et aussi déconstruit notamment grâce aux travaux de Melissa Terras 
+
+
+
+
+<span class="hugo-cite-intext"
+        itemprop="citation">(<span class="hugo-cite-group">
+
+          <a href="#terras_for_2013"><span class="visually-hidden">Citation: </span><span itemprop="datePublished">2013</span></a><span class="hugo-cite-citation"> 
+
+
+
+
+
+
+
+
+
+
+<span itemscope
+      itemtype="https://schema.org/BlogPosting"
+      data-type="blog"><span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="familyName">Terras</span>,&#32;
+    <meta itemprop="givenName" content="Melissa" />
+    M.</span>
+  &#32;
+    (<span itemprop="datePublished">2013</span>).
+  &#32;<span itemprop="name">For Ada Lovelace Day – Father Busa’s Female Punch Card Operatives</span>.&nbsp;<span itemprop="isPartOf">Melissa Terras</span>.&#32;Retrieved from&#32;
+  <a href="https://melissaterras.org/2013/10/15/for-ada-lovelace-day-father-busas-female-punch-card-operatives/"
+     itemprop="identifier"
+     itemtype="https://schema.org/URL">https://melissaterras.org/2013/10/15/for-ada-lovelace-day-father-busas-female-punch-card-operatives/</a></span>
+
+
+
+
+</span></span>)</span>
+, Julianne Nyhan 
+
+
+
+
+<span class="hugo-cite-intext"
+        itemprop="citation">(<span class="hugo-cite-group">
+
+          <a href="#nyhan_computation_2016"><span class="visually-hidden">Citation: </span><span itemprop="datePublished">2016</span></a><span class="hugo-cite-citation"> 
+
+
+
+
+
+
+
+
+
+
+<span itemscope 
+      itemtype="https://schema.org/Book"
+      data-type="book"><span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="familyName">Nyhan</span>,&#32;
+    <meta itemprop="givenName" content="Julianne" />
+    J.</span>&#32;&amp;&#32;<span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="familyName">Flinn</span>,&#32;
+    <meta itemprop="givenName" content="Andrew" />
+    A.</span>&#32;
+    (<span itemprop="datePublished">2016</span>).
+  &#32;<span itemprop="name">
+    <i>Computation and the Humanities: Towards an Oral History of Digital Humanities</i></span>.
+  <meta itemprop="contentLocation"
+        value="Cham">&#32;
+  <span itemprop="publisher"
+             itemtype="http://schema.org/Organization"
+             itemscope="">
+    <span itemprop="name">Springer International Publishing</span></span>.
+  <a href="https://doi.org/10.1007/978-3-319-20170-2"
+     itemprop="identifier"
+     itemtype="https://schema.org/URL">https://doi.org/10.1007/978-3-319-20170-2</a></span>
+
+
+
+
+</span></span>;&#32;<span class="hugo-cite-group">
+
+          <a href="#nyhan_one_2019"><span class="visually-hidden">Citation: </span><span itemprop="datePublished">2019</span></a><span class="hugo-cite-citation"> 
+
+
+
+
+
+
+
+
+
+
+<span itemscope 
+      itemtype="https://schema.org/Book"
+      data-type="book"><span itemprop="editor" itemscope itemtype="https://schema.org/Person"><span itemprop="familyName">Nyhan</span>,&#32;
+    <meta itemprop="givenName" content="Julianne" />
+    J.</span>&#32;&amp;&#32;<span itemprop="editor" itemscope itemtype="https://schema.org/Person"><span itemprop="familyName">Passarotti</span>,&#32;
+    <meta itemprop="givenName" content="Marco" />
+    M.</span>&#32;
+    (<span itemprop="datePublished">2019</span>).
+  &#32;<span itemprop="name">
+    <i>One Origin of Digital Humanities: Fr Roberto Busa in His Own Words</i></span>.
+  <meta itemprop="contentLocation"
+        value="Cham">&#32;
+  <span itemprop="publisher"
+             itemtype="http://schema.org/Organization"
+             itemscope="">
+    <span itemprop="name">Springer International Publishing</span></span>.
+  <a href="https://doi.org/10.1007/978-3-030-18313-4"
+     itemprop="identifier"
+     itemtype="https://schema.org/URL">https://doi.org/10.1007/978-3-030-18313-4</a></span>
+
+
+
+
+</span></span>;&#32;<span class="hugo-cite-group">
+
+          <a href="#nyhan_hidden_2022"><span class="visually-hidden">Citation: </span><span itemprop="datePublished">2022</span></a><span class="hugo-cite-citation"> 
+
+
+
+
+
+
+
+
+
+
+<span itemscope 
+      itemtype="https://schema.org/Book"
+      data-type="book"><span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="familyName">Nyhan</span>,&#32;
+    <meta itemprop="givenName" content="Julianne" />
+    J.</span>&#32;
+    (<span itemprop="datePublished">2022</span>).
+  &#32;<span itemprop="name">
+    <i>Hidden and Devalued Feminized Labour in the Digital Humanities: On the Index Thomisticus Project 1954-67</i></span> (<span>1</span>).
+  <meta itemprop="contentLocation"
+        value="London">&#32;
+  <span itemprop="publisher"
+             itemtype="http://schema.org/Organization"
+             itemscope="">
+    <span itemprop="name">Routledge</span></span>.
+  <a href="https://doi.org/10.4324/9781003138235"
+     itemprop="identifier"
+     itemtype="https://schema.org/URL">https://doi.org/10.4324/9781003138235</a></span>
+
+
+
+
+</span></span>)</span>
+ et Steven Jones 
+
+
+
+
+<span class="hugo-cite-intext"
+        itemprop="citation">(<span class="hugo-cite-group">
+
+          <a href="#jones_roberto_2016"><span class="visually-hidden">Citation: </span><span itemprop="datePublished">2016</span></a><span class="hugo-cite-citation"> 
+
+
+
+
+
+
+
+
+
+
+<span itemscope 
+      itemtype="https://schema.org/Book"
+      data-type="book"><span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="familyName">Jones</span>,&#32;
+    <meta itemprop="givenName" content="Steven E." />
+    S.</span>&#32;
+    (<span itemprop="datePublished">2016</span>).
+  &#32;<span itemprop="name">
+    <i>Roberto Busa, S.J. and the emergence of humanities computing: the priest and the punched cards</i></span>.
+  <meta itemprop="contentLocation"
+        value="New York">&#32;
+  <span itemprop="publisher"
+             itemtype="http://schema.org/Organization"
+             itemscope="">
+    <span itemprop="name">Routledge</span></span>.</span>
+
+
+
+
+</span></span>)</span>
+.</p>
+<hr>
+<p>Cet exemple illustre bien le savoir et le faire en tension puisqu&rsquo;on le sait maintenant, ce ne sont ni les hommes d&rsquo;IBM ni Roberto Busa qui ont fait l&rsquo;encodage des cartes perforées nécessaires au projet, mais de jeunes ouvrières, les 65 opératrices de cartes perforées dont les présences, les noms, les rôles, les implications n&rsquo;ont pas été archivées (ce qui n&rsquo;est pas sans ironie pour un projet qui cherchait à révéler le thème de la présence dans un corpus).</p>
+<blockquote>
+<p>[&hellip;] the “ghost work” implemented by the keypunch operators of the Index Thomisticus gave rise not only to the data foundations of the computational humanities in the form of the Index Thomisticus, but it also, via the millions of punched cards their work created, acted as the weft that threaded together the warp of interchanging technologies, processes and even workers that gave rise to the Index Thomisticus in ways often unseen. 
+
+
+
+
+<span class="hugo-cite-intext"
+        itemprop="citation">(<span class="hugo-cite-group">
+
+          <a href="#unsworth_forms_2004"><span class="visually-hidden">Citation: </span><span itemprop="author" itemscope itemtype="https://schema.org/Person"><meta itemprop="givenName" content="John"><span itemprop="familyName">Unsworth</span></span>,&#32;<span itemprop="datePublished">2004</span></a><span class="hugo-cite-citation"> 
+
+
+
+
+
+
+
+
+
+
+<span itemscope
+      itemtype="https://schema.org/BlogPosting"
+      data-type="blog"><span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="familyName">Unsworth</span>,&#32;
+    <meta itemprop="givenName" content="John" />
+    J.</span>
+  &#32;
+    (<span itemprop="datePublished">2004</span>).
+  &#32;<span itemprop="name">Forms of Attention: Digital Humanities Beyond Representation.</span>.&nbsp;<span itemprop="isPartOf">John Unsworth</span>.&#32;Retrieved from&#32;
+  <a href="https://johnunsworth.name/FOA/"
+     itemprop="identifier"
+     itemtype="https://schema.org/URL">https://johnunsworth.name/FOA/</a></span>
+
+
+
+
+</span></span>)</span>
+</p>
+</blockquote>
+<blockquote>
+<p>le &ldquo;travail fantôme&rdquo; mis en œuvre par les opérateurs de l&rsquo;Index Thomisticus a non seulement donné naissance aux bases de données des humanités numériques sous la forme de l&rsquo;Index Thomisticus, mais il a également, par le biais des millions de cartes perforées créées par leur travail, joué le rôle de trame qui a permis d&rsquo;assembler la chaîne de technologies, de processus et même de travailleurs interchangeables qui ont donné naissance à l&rsquo;Index Thomisticus selon des modalités souvent invisibles. (<em>traduction personnelle</em><sup id="fnref3:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>)</p>
+</blockquote>
+<p>Si on prend le projet comme origine des humanités numériques, c&rsquo;est le faire qui est au coeur, ce sont des pratiques qui fondent un savoir.</p>
+<p>Or, cheveux dans la soupe de flusser, le founding father qui, a beaucoup travaillé sa figure de lone scholar et romancé son propre mythe, n&rsquo;est pas la réunion du faber et du sapiens sapiens, il est une figure qui en cache d&rsquo;autres, qui cache en quelque sorte l&rsquo;usine réelle. C&rsquo;est ce qui m&rsquo;amène à mon deuxième ingrédient : la fabrique politique de Raunig.</p>
+<hr>
+<h2 id="2-la-réminiscence-du-politique">
+  2. La réminiscence du politique
+  <a class="anchor" href="#2-la-r%c3%a9miniscence-du-politique">#</a>
+</h2>
+<p>Dans <em>Factories of knowledge</em>, Raunig alerte sur les dérives de l&rsquo;adoption de la fabrique comme modèle épistémologique, et surtout de l&rsquo;extraction intellectuelle de la fabrique : la fabrique n&rsquo;est pas le lieu du savoir à l&rsquo;origine, elle est le lieu du labeur et cette composition ne peut pas être ignorée parce qu&rsquo;elle impacte nos modèles. Penser le savoir comme fabrique, c&rsquo;est courir le risque de faire basculer la recherche dans une logique productiviste.</p>
+<blockquote>
+<p>Factories of knowledge: fashionable metaphor for the self-proletarization of intellectuals, misinterpretation of ephemeral Marx marginalia, terminological makeshift solution for the situation of precarious knowledge work? [&hellip;] Knowledge becomes a commodity, which is manufactured, fabricated and traded like material commodities. 
+
+
+
+
+<span class="hugo-cite-intext"
+        itemprop="citation">(<span class="hugo-cite-group">
+
+          <a href="#raunig_factories_2013"><span class="visually-hidden">Citation: </span><span itemprop="author" itemscope itemtype="https://schema.org/Person"><meta itemprop="givenName" content="Gerald"><span itemprop="familyName">Raunig</span></span>,&#32;<span itemprop="author" itemscope itemtype="https://schema.org/Person"><meta itemprop="givenName" content="Aileen"><span itemprop="familyName">Derieg</span></span>
+                  <em>&amp; al.</em>,&#32;<span itemprop="datePublished">2013</span>,&#32;p.&nbsp;18</a><span class="hugo-cite-citation"> 
+
+
+
+
+
+
+
+
+
+
+<span itemscope 
+      itemtype="https://schema.org/Book"
+      data-type="book"><span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="familyName">Raunig</span>,&#32;
+    <meta itemprop="givenName" content="Gerald" />
+    G.</span>,&#32;
+  <span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="familyName">Derieg</span>,&#32;
+    <meta itemprop="givenName" content="Aileen" />
+    A.</span>&#32;&amp;&#32;<span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="familyName">Negri</span>,&#32;
+    <meta itemprop="givenName" content="Antonio" />
+    A.</span>&#32;
+    (<span itemprop="datePublished">2013</span>).
+  &#32;<span itemprop="name">
+    <i>Factories of knowledge, industries of creativity</i></span>.
+  <meta itemprop="contentLocation"
+        value="Los Angeles, CA. : Cambridge, MA">&#32;
+  <span itemprop="publisher"
+             itemtype="http://schema.org/Organization"
+             itemscope="">
+    <span itemprop="name">Semiotext(e) ; distributed by the MIT Press</span></span>.</span>
+
+
+
+
+</span></span>)</span>
+</p>
+</blockquote>
+<blockquote>
+<p>Les fabriques du savoir : métaphore à la mode de l&rsquo;autoprolétarisation des intellectuels, interprétation erronée des marginalia éphémères de Marx, solution terminologique de fortune à la situation de précarité du travail de la connaissance ? [&hellip;] La connaissance devient une marchandise, qui est fabriquée, manufacturée et échangée comme les marchandises matérielles. (<em>traduction personnelle</em><sup id="fnref4:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>)</p>
+</blockquote>
+<p>Il faut donc se rappeller, faire réminiscence des origines politiques de la fabrique : à ce titre, Raunig mentionne notamment la <em>fabbrica diffusa</em>, expression qui désigne le mouvement <em>autonomia</em> qui a émergé en Italie dans les années 1970 lors de l&rsquo;exode des travailleurs hors des sites de production.</p>
+<p>Mais il y a de l&rsquo;espoir pour la fabrique.</p>
+<hr>
+<blockquote>
+<p>The full ambivalence of the knowledge factory in the mode of modulation, its mechanisms of appropriation and its potential for resistance, also allows us to understand the sites of knowledge production no only as sites of the commodification of knowledge and the exploitation of the subjectivity of all the actors, but also and especially as sites of new forms of conflict. 
+
+
+
+
+<span class="hugo-cite-intext"
+        itemprop="citation">(<span class="hugo-cite-group">
+
+          <a href="#raunig_factories_2013"><span class="visually-hidden">Citation: </span><span itemprop="author" itemscope itemtype="https://schema.org/Person"><meta itemprop="givenName" content="Gerald"><span itemprop="familyName">Raunig</span></span>,&#32;<span itemprop="author" itemscope itemtype="https://schema.org/Person"><meta itemprop="givenName" content="Aileen"><span itemprop="familyName">Derieg</span></span>
+                  <em>&amp; al.</em>,&#32;<span itemprop="datePublished">2013</span>,&#32;p.&nbsp;51</a><span class="hugo-cite-citation"> 
+
+
+
+
+
+
+
+
+
+
+<span itemscope 
+      itemtype="https://schema.org/Book"
+      data-type="book"><span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="familyName">Raunig</span>,&#32;
+    <meta itemprop="givenName" content="Gerald" />
+    G.</span>,&#32;
+  <span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="familyName">Derieg</span>,&#32;
+    <meta itemprop="givenName" content="Aileen" />
+    A.</span>&#32;&amp;&#32;<span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="familyName">Negri</span>,&#32;
+    <meta itemprop="givenName" content="Antonio" />
+    A.</span>&#32;
+    (<span itemprop="datePublished">2013</span>).
+  &#32;<span itemprop="name">
+    <i>Factories of knowledge, industries of creativity</i></span>.
+  <meta itemprop="contentLocation"
+        value="Los Angeles, CA. : Cambridge, MA">&#32;
+  <span itemprop="publisher"
+             itemtype="http://schema.org/Organization"
+             itemscope="">
+    <span itemprop="name">Semiotext(e) ; distributed by the MIT Press</span></span>.</span>
+
+
+
+
+</span></span>)</span>
+</p>
+</blockquote>
+<blockquote>
+<p>La véritable ambivalence de la fabrique du savoir au regard de son mode de fonctionnement, de ses mécanismes d&rsquo;appropriation et de son potentiel de résistance, nous permet également de considérer les espaces de production de la connaissance non seulement comme des lieux de marchandisation du savoir et d&rsquo;exploitation de la subjectivité de tous les acteurs, mais aussi et surtout comme des lieux de nouvelles formes de conflits. (<em>traduction personnelle</em><sup id="fnref5:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>)</p>
+</blockquote>
+<p>La fabrique est donc à la fois le témoin d&rsquo;un principe productiviste du savoir et la possibilité de résister à cette logique en créant des déplacement, en allant en dehors des lieux de production, en créant des indisciplines de nos disciplines vis-à-vis de ce que Raunig appelle le capitalisme cognitif. La fabrique de Raunig se défend ainsi comme un activisme du territoire de la connaissance.</p>
+<p>Pour une fabrique active, il faut une communauté qui réflechisse de l&rsquo;intérieur à comment elle agence la transmission de son savoir mais surtout comment elle est elle-même agencée par la fabrique du savoir qu&rsquo;elle pense produire vers l&rsquo;extérieur.</p>
+<hr>
+<h2 id="3-lintrospection-de-lundercommons">
+  3. L&rsquo;introspection de l&rsquo;undercommons
+  <a class="anchor" href="#3-lintrospection-de-lundercommons">#</a>
+</h2>
+<p>C&rsquo;est avec ce rappel politique en main qui souligne un double mouvement d&rsquo;influence, que j&rsquo;arrive à mon troisième ingrédient : Ingold.</p>
+<p>Ingold n&rsquo;utilise pas directement, comme Flusser ou Raunig, le terme de fabrique ou de factory, il utilise davantage celui de <em>faire</em> (making) ou quelque fois de manufacture, et cela parce que son approche cherche moins à faire du principe de fabrication un outil en tant que tel qu&rsquo;une perspective de communauté, qu&rsquo;un mouvement. Le faire d&rsquo;Ingold est un rapport qui évolue au gré des pratiques et qui ne peut pas être établi par aucune expertise préalable.</p>
+<p>Dans cet horizon, il ne s&rsquo;agit plus de <em>making through thinking</em>, ou de considérer la pensée comme une étape préliminaire au faire et les pratiques comme ce qui suit la théorie, mais de <em>thinking through making</em>.</p>
+<p>En amont de cette approche d&rsquo;Ingold qui pour moi évoque beaucoup les pensées du nouveau matérialisme, en refusant l&rsquo;essencialisation mais en demeurant matérialiste, il y a une considération sur l&rsquo;action, sur le faire qui est à l&rsquo;origine même de la structure de la fabrique.</p>
+<p>Plus que l&rsquo;imposition d&rsquo;une forme sur un état qui serait informe donc sans détermination et sans signification, qui serait donné, le rapport à la matière du faire s&rsquo;établit par un principe de correspondance. Inversant une conception propre à la philosophie occidentale où l&rsquo;action de <em>faire</em> consiste à apposer ou imposer une forme prédéfinie dans une matière, Ingold envisage le <em>faire</em> dans un sens processuel, plus vivant car plus imprévisible, où le corps de l&rsquo;acteur est lui-même une composante de l&rsquo;action.</p>
+<p>La meilleure manière d&rsquo;illustrer cette idée est la métaphore de Deleuze reprise par Ingold lors de sa communication dans le cadre de <em>La Manufacture des idées</em> de 2021 :</p>
+<blockquote>
+<p>The wave is not an object, it&rsquo;s not a thing. It&rsquo;s the rythmic form of a movement. [&hellip;] And if I&rsquo;m swimming in the waves, my body is the same. It&rsquo;s not an object, it&rsquo;s not a thing. It is a movement, or perhaps a bundle of movements. [&hellip;] and rythm is not a movement in itself but a relation between movements. [&hellip;] So when I swimm, I&rsquo;m setting up a set of relations between movements both of the water in a waves and of my body. [&hellip;] But that mean that know-how is not a knowledge that is sunk cetimented into my body but is a movement in itself. 
+
+
+
+
+<span class="hugo-cite-intext"
+        itemprop="citation">(<span class="hugo-cite-group">
+
+          <a href="#ingold_entre_2021"><span class="visually-hidden">Citation: </span><span itemprop="author" itemscope itemtype="https://schema.org/Person"><meta itemprop="givenName" content="Tim"><span itemprop="familyName">Ingold</span></span>,&#32;<span itemprop="datePublished">2021</span></a><span class="hugo-cite-citation"> 
+
+
+
+
+
+
+
+
+
+
+<span itemscope
+      itemtype="https://schema.org/CreativeWork"
+      data-type="interview"><span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="familyName">Ingold</span>,&#32;
+    <meta itemprop="givenName" content="Tim" />
+    T.</span>
+  &#32;
+    (<span itemprop="datePublished">2021</span>).
+  &#32;<span itemprop="name">
+    <i>Entre les lignes</i></span>.
+  &#32;Retrieved from&#32;
+  <a href="https://lamanufacturedidees.org/2021/07/01/entre-les-lignes/"
+     itemprop="identifier"
+     itemtype="https://schema.org/URL">https://lamanufacturedidees.org/2021/07/01/entre-les-lignes/</a></span>
+
+</span></span>)</span>
+</p>
+</blockquote>
+<blockquote>
+<p>La vague n&rsquo;est pas un objet, ce n&rsquo;est pas une chose. C&rsquo;est la forme rythmique d&rsquo;un mouvement. [&hellip;] Et si je nage dans les vagues, mon corps est le même. Ce n&rsquo;est pas un objet, ce n&rsquo;est pas une chose. C&rsquo;est un mouvement, ou peut-être un ensemble de mouvements. [&hellip;] Donc quand je nage, j&rsquo;établis un ensemble de relations entre les mouvements à la fois de l&rsquo;eau dans les vagues et de mon corps. [&hellip;] Mais cela signifie que le savoir-faire n&rsquo;est pas un savoir qui s&rsquo;inscrit/s&rsquo;enfonce dans mon corps mais un mouvement en soi. (<em>traduction personnelle</em><sup id="fnref6:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>)</p>
+</blockquote>
+<p>Le faire est un art de la composition des rapports, ce que la fabrique comme perspective permet d&rsquo;interroger et d&rsquo;introspecter mais en supposant de briser certaines grandes catégories.</p>
+<p>Le nouveau modèle qui émerge est ce que Ingold appelle l&rsquo;<em>undercommons</em> qui serait difficilement traduisible mais qui est à comprendre comme le contraire de l&rsquo;<em>understanding</em> qui renvoie à l&rsquo;idée de se tenir debout, stable, droit, « a solid ground that you are <em>standing</em> on » 
+
+
+
+
+<span class="hugo-cite-intext"
+        itemprop="citation">(<span class="hugo-cite-group">
+
+          <a href="#ingold_entre_2021"><span class="visually-hidden">Citation: </span><span itemprop="author" itemscope itemtype="https://schema.org/Person"><meta itemprop="givenName" content="Tim"><span itemprop="familyName">Ingold</span></span>,&#32;<span itemprop="datePublished">2021</span></a><span class="hugo-cite-citation"> 
+
+
+
+
+
+
+
+
+
+
+<span itemscope
+      itemtype="https://schema.org/CreativeWork"
+      data-type="interview"><span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="familyName">Ingold</span>,&#32;
+    <meta itemprop="givenName" content="Tim" />
+    T.</span>
+  &#32;
+    (<span itemprop="datePublished">2021</span>).
+  &#32;<span itemprop="name">
+    <i>Entre les lignes</i></span>.
+  &#32;Retrieved from&#32;
+  <a href="https://lamanufacturedidees.org/2021/07/01/entre-les-lignes/"
+     itemprop="identifier"
+     itemtype="https://schema.org/URL">https://lamanufacturedidees.org/2021/07/01/entre-les-lignes/</a></span>
+
+</span></span>)</span>
+. L&rsquo;<em>undercommons</em> est ce qui <em>se tient en dessous de nos communs</em>, de nos patrimoines, paradigmes ou certitudes, une renégociation collective et continue des savoirs en train de se faire.</p>
+<hr>
+<p>Si l&rsquo;on retourne à l&rsquo;exemple que l&rsquo;on cite trop et en tentant moins de le comprendre <em>understand</em> - mais de le déloger - d&rsquo;en faire une déprise, la question des conditions de collaboration entre Roberto Busa et les petites mains se pose. Thème sur lequel Nyhan dit ceci :</p>
+<blockquote>
+<p>While the punched card operators relied on the input of the scholars to guide the transposition of the text from container to container, so the scholars relied on the keypunch operators to reify the Index Thomisticus and related texts as scalable, computable artefacts. One could not properly do their work without the other; both played fundamental roles in the process of data capture and dataset elaboration. 
+
+
+
+
+<span class="hugo-cite-intext"
+        itemprop="citation">(<span class="hugo-cite-group">
+
+          <a href="#nyhan_hidden_2022"><span class="visually-hidden">Citation: </span><span itemprop="author" itemscope itemtype="https://schema.org/Person"><meta itemprop="givenName" content="Julianne"><span itemprop="familyName">Nyhan</span></span>,&#32;<span itemprop="datePublished">2022</span>,&#32;p.&nbsp;84</a><span class="hugo-cite-citation"> 
+
+
+
+
+
+
+
+
+
+
+<span itemscope 
+      itemtype="https://schema.org/Book"
+      data-type="book"><span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="familyName">Nyhan</span>,&#32;
+    <meta itemprop="givenName" content="Julianne" />
+    J.</span>&#32;
+    (<span itemprop="datePublished">2022</span>).
+  &#32;<span itemprop="name">
+    <i>Hidden and Devalued Feminized Labour in the Digital Humanities: On the Index Thomisticus Project 1954-67</i></span> (<span>1</span>).
+  <meta itemprop="contentLocation"
+        value="London">&#32;
+  <span itemprop="publisher"
+             itemtype="http://schema.org/Organization"
+             itemscope="">
+    <span itemprop="name">Routledge</span></span>.
+  <a href="https://doi.org/10.4324/9781003138235"
+     itemprop="identifier"
+     itemtype="https://schema.org/URL">https://doi.org/10.4324/9781003138235</a></span>
+
+
+
+
+</span></span>)</span>
+</p>
+</blockquote>
+<blockquote>
+<p>Si les opératrices de cartes perforées dépendaient du travail des chercheurs pour guider la transposition du texte d&rsquo;un contenant à l&rsquo;autre, les chercheurs dépendaient également des opératrices de cartes perforées pour réifier l&rsquo;Index Thomisticus et les textes associés en tant qu&rsquo;artefacts évolutifs et calculables. L&rsquo;un ne pouvait pas faire son travail sans l&rsquo;autre ; tous deux ont joué un rôle fondamental dans le processus de saisie et d&rsquo;élaboration des ensembles de données. (<em>traduction personnelle</em><sup id="fnref7:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>)</p>
+</blockquote>
+<p>La fabrique de l&rsquo;Index est avant tout une collaboration synergique où les pistes de recherche, existent parce qu&rsquo;elles ont été mise en relation, mouvement avec un autre ensemble de mouvements, de gestes d&rsquo;encodage.</p>
+<p>Pour le dire de manière un peu insolente, le projet de Roberto Busa de l&rsquo;Index Thomisticus n&rsquo;existe pas. L&rsquo;Index Thomisticus existe en tant qu&rsquo;il a été incarné par d&rsquo;autres personnes que le père fondateur.</p>
+<p>Avec la question de la renégociation j&rsquo;en arrive à mon quatrième ingrédient : Kittler et son exorcisme des humanités.</p>
+<hr>
+<h2 id="4-lexorcisme-des-humanités">
+  4. L&rsquo;exorcisme des humanités
+  <a class="anchor" href="#4-lexorcisme-des-humanit%c3%a9s">#</a>
+</h2>
+<p>Médiologue allemand, Kittler parle encore moins directement de fabrique, il ne parle pas tant du faire non plus, mais il rentre dans ma cuisine dans ce qu&rsquo;il propose en terme d&rsquo;observation des conditions concrètes d&rsquo;émergence et d&rsquo;enregistrement des discours et représentations.</p>
+<p>Sa pensée de l&rsquo;<em>Aufschreibensystem</em>, ou <em>Discourse Network</em> a pour ambition d&rsquo;« exorciser l&rsquo;homme des sciences humaines », soit de l&rsquo;encourager à acquérir un savoir-faire qui lui permette d&rsquo;être en dialogue avec les environnements techniques qui enregistrent et déterminent ontologiquement son savoir.</p>
+<p>Aux yeux de Kittler, les sciences humaines traînent cette tare, ont ce défaut d&rsquo;hériter d&rsquo;une série d&rsquo;a-priori sur les technologies produisant et diffusant l&rsquo;information, des a-priori qui les empêchent de réellement saisir le conditionnement de leur savoir. Peut-être que les humanités numériques sont une réponse à cet héritage.</p>
+<p>Kittler proclame en 1993 une écriture qui n&rsquo;est plus au mains et au faire de l&rsquo;humain.</p>
+<blockquote>
+<p>Wie wir alle wissen und nur nicht sagen, schreibt kein Mensch mehr. 
+
+
+
+
+<span class="hugo-cite-intext"
+        itemprop="citation">(<span class="hugo-cite-group">
+
+          <a href="#kittler_draculas_1993"><span class="visually-hidden">Citation: </span><span itemprop="author" itemscope itemtype="https://schema.org/Person"><meta itemprop="givenName" content="Friedrich A."><span itemprop="familyName">Kittler</span></span>,&#32;<span itemprop="datePublished">1993</span>,&#32;p.&nbsp;226</a><span class="hugo-cite-citation"> 
+
+
+
+
+
+
+
+
+
+
+<span itemscope 
+      itemtype="https://schema.org/Book"
+      data-type="book"><span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="familyName">Kittler</span>,&#32;
+    <meta itemprop="givenName" content="Friedrich A." />
+    F.</span>&#32;
+    (<span itemprop="datePublished">1993</span>).
+  &#32;<span itemprop="name">
+    <i>Draculas Vermächtnis: technische Schriften</i></span> (<span>1. Aufl</span>).
+  <meta itemprop="contentLocation"
+        value="Leipzig">&#32;
+  <span itemprop="publisher"
+             itemtype="http://schema.org/Organization"
+             itemscope="">
+    <span itemprop="name">Reclam</span></span>.</span>
+
+
+
+
+</span></span>)</span>
+</p>
+</blockquote>
+<blockquote>
+<p>Comme nous le savons tous, même si nous ne voulons pas nous l’avouer, aucun être humain n’écrit plus. 
+
+
+
+
+<span class="hugo-cite-intext"
+        itemprop="citation">(<span class="hugo-cite-group">
+
+          <a href="#kittler_mode_2015"><span class="visually-hidden">Citation: </span><span itemprop="author" itemscope itemtype="https://schema.org/Person"><meta itemprop="givenName" content="Friedrich A."><span itemprop="familyName">Kittler</span></span>,&#32;<span itemprop="author" itemscope itemtype="https://schema.org/Person"><meta itemprop="givenName" content="Frédérique"><span itemprop="familyName">Vargoz</span></span>
+                  <em>&amp; al.</em>,&#32;<span itemprop="datePublished">2015</span>,&#32;p.&nbsp;30</a><span class="hugo-cite-citation"> 
+
+
+
+
+
+
+
+
+
+
+<span itemscope 
+      itemtype="https://schema.org/Book"
+      data-type="book"><span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="familyName">Kittler</span>,&#32;
+    <meta itemprop="givenName" content="Friedrich A." />
+    F.</span>,&#32;
+  <span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="familyName">Vargoz</span>,&#32;
+    <meta itemprop="givenName" content="Frédérique" />
+    F.</span>,&#32;
+  <span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="familyName">Guez</span>,&#32;
+    <meta itemprop="givenName" content="Emmanuel" />
+    E.</span>&#32;&amp;&#32;<span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="familyName">Parikka</span>,&#32;
+    <meta itemprop="givenName" content="Jussi" />
+    J.</span>&#32;
+    (<span itemprop="datePublished">2015</span>).
+  &#32;<span itemprop="name">
+    <i>Mode protégé</i></span>.
+  <meta itemprop="contentLocation"
+        value="Dijon Saint-Denis">&#32;
+  <span itemprop="publisher"
+             itemtype="http://schema.org/Organization"
+             itemscope="">
+    <span itemprop="name">les Presses du réel Labex Arts-H2H</span></span>.</span>
+
+
+
+
+</span></span>)</span>
+</p>
+</blockquote>
+<p>Kittler a travaillé à comprendre les implications culturelles des médias, en se consacrant notamment aux développements techniques concernant la rédaction et l&rsquo;enregistrement des arts. Ce qui se passe pour Kittler entre 1800 et 1900 pour la culture occidentale, c&rsquo;est un changement culturel radical. Ce à quoi Kittler fait référence dans le contexte ici, c&rsquo;est aux programmes informatiques, la part logicielle de nos écritures. Cette part logicielle fait de notre écriture humaine une inscription électrique gravée dans les métaux des ordinateurs, soit un différentiel électrique, une combinaison machinique.</p>
+<p>La rupture radicale que cela implique pour Kittler peut justement se comprendre en terme de faire. Les médias techniques à partir du XIX^e^ siècle captent le réel dans ce qui nous échappe de ce dernier, les médias d&rsquo;enregistrement saisissent des données qui font défaut à la perception humaine :</p>
+<ul>
+<li>le gramophone enregistre des oscillations non perceptibles à l&rsquo;oreille nue</li>
+<li>la machine à écrire augmente la vitesse d&rsquo;écriture, elle écrit plus vite que n&rsquo;importe quelle main</li>
+<li>les circuits intégrés de l&rsquo;ordinateur traitent des données plus rapidemment que n&rsquo;importe lequel ou laquelle des calculatrices humaines (femmes travaillant entre 1930 et 1950 à produire de hauts calculs).</li>
+</ul>
+<p>Nous ne captons plus notre écriture, intellectuellement ou sensoriellement dans notre faire.</p>
+<p>Pressentant comme Flusser le changement radical du paradigme culturel engagé avec les nouveaux médias, la critique de Kittler adressée aux sciences humaines appelle à une pratique de l&rsquo;écriture qui explore les porosités entre humain et non-humain, entre outils et mains sans chercher à créer une hiérarchie, une chronologie dans le processus de production. Le faire écriture, faire humanités est désormais entre les deux.</p>
+<p>Cette idée d&rsquo;exorcisme elle m&rsquo;intéresse, aussi par amour pour les imaginaires horrifiques, et je m&rsquo;en saisis autant dans ma pratique de recherche que de création pour me rappeller de questionner les modèles, les <em>understanding</em>, pour moins penser ma participation aux Humanités numériques en terme de catégories qu&rsquo;en terme de composition de rapports qui viennent flouter les distinctions que l&rsquo;on pourrait faire entre humain et non-humain.</p>
+<hr>
+<p>C&rsquo;est là où j&rsquo;arrive à ma propre cuisine de ces ingrédients pour saisir une fabrique de l&rsquo;écriture en recherche et création en humanités numériques.</p>
+<h2 id="01234-la-désécriture-des-humanités">
+  0.1.2.3.4. La désécriture des humanités
+  <a class="anchor" href="#01234-la-d%c3%a9s%c3%a9criture-des-humanit%c3%a9s">#</a>
+</h2>
+<p>S&rsquo;intéresser à la matière, c&rsquo;est ce que je retiens de Flusser. Observer une matière dans ce qu&rsquo;elle peut faire, ce qu&rsquo;elle fait quand on la tourne <em>wenden</em>.</p>
+<p>Garder en tête et en main le risque productiviste de la fabrique en pensant son rapport politique à l&rsquo;espace de recherche, c&rsquo;est ce que je retiens de Raunig.</p>
+<p>Penser en terme de créativité plutôt que d&rsquo;innovation, penser par le faire, c&rsquo;est ce que je retiens d&rsquo;Ingold.</p>
+<p>Et enfin garder en tête un principe de détermination technique dans mes rapports d&rsquo;écriture, c&rsquo;est ce que je retiens de Kittler.</p>
+<p>Cela m&rsquo;amène à plusieurs choses :</p>
+<ol>
+<li>
+<p>renoncer à l&rsquo;ambition d&rsquo;une originalité, ou de l&rsquo;eureka. (inspiré par une uncreative writing de Goldsmith)</p>
+</li>
+<li>
+<p>dépasser un principe d&rsquo;auteur unique et en tout pouvoir parce qu&rsquo;il reste une fonction de son environnement média-technique - qui peut être encodé par le travail d&rsquo;autres humains (Kittler, <em>Discourse Network</em>, 1999).</p>
+</li>
+<li>
+<p>déconstruire les romans qui fondent des modèles.</p>
+</li>
+</ol>
+<p>Tara McPherson, professeure à USC, propose dans <em>Feminist in a Software Lab</em> 
+
+
+
+
+<span class="hugo-cite-intext"
+        itemprop="citation">(<span class="hugo-cite-group">
+
+          <a href="#mcpherson_feminist_2018"><span class="visually-hidden">Citation: </span><span itemprop="datePublished">2018</span></a><span class="hugo-cite-citation"> 
+
+
+
+
+
+
+
+
+
+
+<span itemscope 
+      itemtype="https://schema.org/Book"
+      data-type="book"><span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="familyName">McPherson</span>,&#32;
+    <meta itemprop="givenName" content="Tara" />
+    T.</span>&#32;
+    (<span itemprop="datePublished">2018</span>).
+  &#32;<span itemprop="name">
+    <i>Feminist in a software lab: difference + design</i></span>.
+  <meta itemprop="contentLocation"
+        value="Cambridge, Massachusetts ; London, England">&#32;
+  <span itemprop="publisher"
+             itemtype="http://schema.org/Organization"
+             itemscope="">
+    <span itemprop="name">Harvard University Press</span></span>.</span>
+
+
+
+
+</span></span>)</span>
+, de revenir sur l&rsquo;histoire classique des Humanités numériques en rappelant qu&rsquo;au-delà du travail sur le document, l&rsquo;analyse scientifique, il y a eu des projets importants en termes d&rsquo;expérimentations artistiques notamment avec le groupe <em>Experiments in Art and Technology</em> qui rassemblait des artistes et des ingénieurs du laboratoire Bell pour expérimenter des processus collaboratif de travail, entre design computationnel et esthétique visuelle.</p>
+<ol start="4">
+<li>et enfin refuser l&rsquo;utilité, le sine qua non, de la distinction entre humain et non-humain. Les humanités numériques n&rsquo;ont pas à décider ce qui relève de l&rsquo;un ou de l&rsquo;autre, aussi paradoxal que cela puisse résonner, mais ce qui se passe en terme de compositions des rapports. Avoir la politesse de laisser le bénéfice de l&rsquo;intelligence à la machine de Turing, avoir la bénévolence de laisser le bénéfice d&rsquo;écriture à un mouvement ou même à un détournement.</li>
+</ol>
+<p>Moins figé, moins unitaire ou exclusif à un individu, à un profil ou une expertise, à une culture ou à un sexe, à une recherche ou une création, l&rsquo;écriture en Humanités numériques est un commun-fabriqué et donc la fabrique, pour anticiper une possible question que l&rsquo;on me poserait qui serait : mais pourquoi on a besoin de la fabrique, pourquoi on la garde ?, la fabrique permet en questionnant comment se fait la connaissance, comment s&rsquo;agencent et s&rsquo;incarnent des pratiques, permet de renégocier avec des modèles épistémologiques, des mythes et des romans intellectuels, des narcisses humaines, même si elle en est une sous certains rapports.</p>
+<hr>
+<h2 id="bibliographiehttpswwwzoteroorggroups5106654fabriquefabriquelibrary">
+  <a href="https://www.zotero.org/groups/5106654/fabriquefabrique/library">Bibliographie</a>
+  <a class="anchor" href="#bibliographiehttpswwwzoteroorggroups5106654fabriquefabriquelibrary">#</a>
+</h2>
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+<section class="hugo-cite-bibliography">
+  <dl>
+    
+
+      <div id="fauchie_fabrique_2023">
+        <dt>
+          Fauchié
+
+          
+          (2023)</dt>
+
+        <dd>
+          
+
+
+
+
+
+
+
+
+
+
+<span itemscope
+      itemtype="https://schema.org/BlogPosting"
+      data-type="blog"><span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="familyName">Fauchié</span>,&#32;
+    <meta itemprop="givenName" content="Antoine" />
+    A.</span>
+  &#32;
+    (<span itemprop="datePublished">2023</span>).
+  &#32;<span itemprop="name">Fabrique : concept</span>.&nbsp;<span itemprop="isPartOf">quaternum.net</span>.&#32;Retrieved from&#32;
+  <a href="https://www.quaternum.net/2023/06/02/fabrique-concept/"
+     itemprop="identifier"
+     itemtype="https://schema.org/URL">https://www.quaternum.net/2023/06/02/fabrique-concept/</a></span>
+
+
+
+
+</dd>
+
+      </div>
+
+      <div id="fauchie_les_2020">
+        <dt>
+          Fauchié
+
+          
+          (2020)</dt>
+
+        <dd>
+          
+
+
+
+
+
+
+
+
+
+
+<span itemscope
+      itemtype="https://schema.org/BlogPosting"
+      data-type="blog"><span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="familyName">Fauchié</span>,&#32;
+    <meta itemprop="givenName" content="Antoine" />
+    A.</span>
+  &#32;
+    (<span itemprop="datePublished">2020</span>).
+  &#32;<span itemprop="name">Les fabriques de publication</span>.&nbsp;<span itemprop="isPartOf">quaternum.net</span>.&#32;Retrieved from&#32;
+  <a href="https://www.quaternum.net/2020/04/29/les-fabriques-de-publication/"
+     itemprop="identifier"
+     itemtype="https://schema.org/URL">https://www.quaternum.net/2020/04/29/les-fabriques-de-publication/</a></span>
+
+
+
+
+</dd>
+
+      </div>
+
+      <div id="flusser_petite_2002">
+        <dt>
+          Flusser
+
+          
+          (2002)</dt>
+
+        <dd>
+          
+
+
+
+
+
+
+
+
+
+
+<span itemscope 
+      itemtype="https://schema.org/Book"
+      data-type="book"><span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="familyName">Flusser</span>,&#32;
+    <meta itemprop="givenName" content="Vilém" />
+    V.</span>&#32;
+    (<span itemprop="datePublished">2002</span>).
+  &#32;<span itemprop="name">
+    <i>Petite philosophie du design</i></span>.
+  <meta itemprop="contentLocation"
+        value="Belval">&#32;
+  <span itemprop="publisher"
+             itemtype="http://schema.org/Organization"
+             itemscope="">
+    <span itemprop="name">Circé</span></span>.</span>
+
+
+
+
+</dd>
+
+      </div>
+
+      <div id="flusser_shape_1999">
+        <dt>
+          Flusser
+
+          
+          (1999)</dt>
+
+        <dd>
+          
+
+
+
+
+
+
+
+
+
+
+<span itemscope 
+      itemtype="https://schema.org/Book"
+      data-type="book"><span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="familyName">Flusser</span>,&#32;
+    <meta itemprop="givenName" content="Vilém" />
+    V.</span>&#32;
+    (<span itemprop="datePublished">1999</span>).
+  &#32;<span itemprop="name">
+    <i>The shape of things: a philosophy of design</i></span>.
+  <meta itemprop="contentLocation"
+        value="London">&#32;
+  <span itemprop="publisher"
+             itemtype="http://schema.org/Organization"
+             itemscope="">
+    <span itemprop="name">Reaktion</span></span>.</span>
+
+
+
+
+</dd>
+
+      </div>
+
+      <div id="flusser_vom_1997">
+        <dt>
+          Flusser&#32;&amp;&#32;Wurm
+
+          
+          (1997)</dt>
+
+        <dd>
+          
+
+
+
+
+
+
+
+
+
+
+<span itemscope 
+      itemtype="https://schema.org/Book"
+      data-type="book"><span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="familyName">Flusser</span>,&#32;
+    <meta itemprop="givenName" content="Vilém" />
+    V.</span>&#32;&amp;&#32;<span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="familyName">Wurm</span>,&#32;
+    <meta itemprop="givenName" content="Fabian" />
+    F.</span>&#32;
+    (<span itemprop="datePublished">1997</span>).
+  &#32;<span itemprop="name">
+    <i>Vom Stand der Dinge: eine kleine Philosophie des Designs</i></span>.
+  <meta itemprop="contentLocation"
+        value="Göttingen">&#32;
+  <span itemprop="publisher"
+             itemtype="http://schema.org/Organization"
+             itemscope="">
+    <span itemprop="name">Steidl Verl</span></span>.</span>
+
+
+
+
+</dd>
+
+      </div>
+
+      <div id="ingold_anthropology_2017">
+        <dt>
+          Ingold
+
+          
+          (2017)</dt>
+
+        <dd>
+          
+
+
+
+
+
+
+
+
+
+
+<span itemscope 
+      itemtype="https://schema.org/Book"
+      data-type="book"><span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="familyName">Ingold</span>,&#32;
+    <meta itemprop="givenName" content="Tim" />
+    T.</span>&#32;
+    (<span itemprop="datePublished">2017</span>).
+  &#32;<span itemprop="name">
+    <i>Anthropology and/as education: anthropology, art, architecture and design</i></span>.
+  <meta itemprop="contentLocation"
+        value="Abingdon, Oxon ; New York, NY">&#32;
+  <span itemprop="publisher"
+             itemtype="http://schema.org/Organization"
+             itemscope="">
+    <span itemprop="name">Routledge</span></span>.</span>
+
+
+
+
+</dd>
+
+      </div>
+
+      <div id="ingold_entre_2021">
+        <dt>
+          Ingold
+
+          
+          (2021)</dt>
+
+        <dd>
+          
+
+
+
+
+
+
+
+
+
+
+<span itemscope
+      itemtype="https://schema.org/CreativeWork"
+      data-type="interview"><span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="familyName">Ingold</span>,&#32;
+    <meta itemprop="givenName" content="Tim" />
+    T.</span>
+  &#32;
+    (<span itemprop="datePublished">2021</span>).
+  &#32;<span itemprop="name">
+    <i>Entre les lignes</i></span>.
+  &#32;Retrieved from&#32;
+  <a href="https://lamanufacturedidees.org/2021/07/01/entre-les-lignes/"
+     itemprop="identifier"
+     itemtype="https://schema.org/URL">https://lamanufacturedidees.org/2021/07/01/entre-les-lignes/</a></span>
+
+</dd>
+
+      </div>
+
+      <div id="ingold_faire_2017">
+        <dt>
+          Ingold,&#32;
+          Gosselin&#32;&amp;&#32;Afeissa
+
+          
+          (2017)</dt>
+
+        <dd>
+          
+
+
+
+
+
+
+
+
+
+
+<span itemscope 
+      itemtype="https://schema.org/Book"
+      data-type="book"><span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="familyName">Ingold</span>,&#32;
+    <meta itemprop="givenName" content="Tim" />
+    T.</span>,&#32;
+  <span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="familyName">Gosselin</span>,&#32;
+    <meta itemprop="givenName" content="Hervé" />
+    H.</span>&#32;&amp;&#32;<span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="familyName">Afeissa</span>,&#32;
+    <meta itemprop="givenName" content="Hicham-Stéphane" />
+    H.</span>&#32;
+    (<span itemprop="datePublished">2017</span>).
+  &#32;<span itemprop="name">
+    <i>Faire: anthropologie, archéologie, art et architecture</i></span>.
+  <meta itemprop="contentLocation"
+        value="Bellevaux">&#32;
+  <span itemprop="publisher"
+             itemtype="http://schema.org/Organization"
+             itemscope="">
+    <span itemprop="name">Éditions Dehors</span></span>.</span>
+
+
+
+
+</dd>
+
+      </div>
+
+      <div id="ingold_loutil_2010">
+        <dt>
+          Ingold
+
+          
+          (2010)</dt>
+
+        <dd>
+          
+
+
+
+
+
+
+
+
+
+
+<span itemscope
+      itemtype="https://schema.org/Article"
+      data-type="article"><span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="familyName">Ingold</span>,&#32;
+    <meta itemprop="givenName" content="Tim" />
+    T.</span>
+  &#32;
+    (<span itemprop="datePublished">2010</span>).
+  &#32;<span itemprop="name">L’Outil, l’esprit et la machine : Une excursion dans la philosophie de la « technologie »</span>.<i>
+    <span itemprop="about">Techniques &amp; Culture. Revue semestrielle d’anthropologie des techniques</span>(54-55)</i>.&#32;<span itemprop="pagination">291–311</span>.
+  <a href="https://doi.org/10.4000/tc.5004"
+     itemprop="identifier"
+     itemtype="https://schema.org/URL">https://doi.org/10.4000/tc.5004</a></span>
+
+
+
+
+</dd>
+
+      </div>
+
+      <div id="ingold_making_2013">
+        <dt>
+          Ingold
+
+          
+          (2013)</dt>
+
+        <dd>
+          
+
+
+
+
+
+
+
+
+
+
+<span itemscope 
+      itemtype="https://schema.org/Book"
+      data-type="book"><span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="familyName">Ingold</span>,&#32;
+    <meta itemprop="givenName" content="Tim" />
+    T.</span>&#32;
+    (<span itemprop="datePublished">2013</span>).
+  &#32;<span itemprop="name">
+    <i>Making: anthropology, archaeology, art and architecture</i></span>.
+  <meta itemprop="contentLocation"
+        value="London ; New York">&#32;
+  <span itemprop="publisher"
+             itemtype="http://schema.org/Organization"
+             itemscope="">
+    <span itemprop="name">Routledge</span></span>.</span>
+
+
+
+
+</dd>
+
+      </div>
+
+      <div id="jones_roberto_2016">
+        <dt>
+          Jones
+
+          
+          (2016)</dt>
+
+        <dd>
+          
+
+
+
+
+
+
+
+
+
+
+<span itemscope 
+      itemtype="https://schema.org/Book"
+      data-type="book"><span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="familyName">Jones</span>,&#32;
+    <meta itemprop="givenName" content="Steven E." />
+    S.</span>&#32;
+    (<span itemprop="datePublished">2016</span>).
+  &#32;<span itemprop="name">
+    <i>Roberto Busa, S.J. and the emergence of humanities computing: the priest and the punched cards</i></span>.
+  <meta itemprop="contentLocation"
+        value="New York">&#32;
+  <span itemprop="publisher"
+             itemtype="http://schema.org/Organization"
+             itemscope="">
+    <span itemprop="name">Routledge</span></span>.</span>
+
+
+
+
+</dd>
+
+      </div>
+
+      <div id="kittler_draculas_1993">
+        <dt>
+          Kittler
+
+          
+          (1993)</dt>
+
+        <dd>
+          
+
+
+
+
+
+
+
+
+
+
+<span itemscope 
+      itemtype="https://schema.org/Book"
+      data-type="book"><span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="familyName">Kittler</span>,&#32;
+    <meta itemprop="givenName" content="Friedrich A." />
+    F.</span>&#32;
+    (<span itemprop="datePublished">1993</span>).
+  &#32;<span itemprop="name">
+    <i>Draculas Vermächtnis: technische Schriften</i></span> (<span>1. Aufl</span>).
+  <meta itemprop="contentLocation"
+        value="Leipzig">&#32;
+  <span itemprop="publisher"
+             itemtype="http://schema.org/Organization"
+             itemscope="">
+    <span itemprop="name">Reclam</span></span>.</span>
+
+
+
+
+</dd>
+
+      </div>
+
+      <div id="kittler_mode_2015">
+        <dt>
+          Kittler,&#32;
+          Vargoz,&#32;
+          Guez&#32;&amp;&#32;Parikka
+
+          
+          (2015)</dt>
+
+        <dd>
+          
+
+
+
+
+
+
+
+
+
+
+<span itemscope 
+      itemtype="https://schema.org/Book"
+      data-type="book"><span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="familyName">Kittler</span>,&#32;
+    <meta itemprop="givenName" content="Friedrich A." />
+    F.</span>,&#32;
+  <span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="familyName">Vargoz</span>,&#32;
+    <meta itemprop="givenName" content="Frédérique" />
+    F.</span>,&#32;
+  <span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="familyName">Guez</span>,&#32;
+    <meta itemprop="givenName" content="Emmanuel" />
+    E.</span>&#32;&amp;&#32;<span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="familyName">Parikka</span>,&#32;
+    <meta itemprop="givenName" content="Jussi" />
+    J.</span>&#32;
+    (<span itemprop="datePublished">2015</span>).
+  &#32;<span itemprop="name">
+    <i>Mode protégé</i></span>.
+  <meta itemprop="contentLocation"
+        value="Dijon Saint-Denis">&#32;
+  <span itemprop="publisher"
+             itemtype="http://schema.org/Organization"
+             itemscope="">
+    <span itemprop="name">les Presses du réel Labex Arts-H2H</span></span>.</span>
+
+
+
+
+</dd>
+
+      </div>
+
+      <div id="mcpherson_feminist_2018">
+        <dt>
+          McPherson
+
+          
+          (2018)</dt>
+
+        <dd>
+          
+
+
+
+
+
+
+
+
+
+
+<span itemscope 
+      itemtype="https://schema.org/Book"
+      data-type="book"><span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="familyName">McPherson</span>,&#32;
+    <meta itemprop="givenName" content="Tara" />
+    T.</span>&#32;
+    (<span itemprop="datePublished">2018</span>).
+  &#32;<span itemprop="name">
+    <i>Feminist in a software lab: difference + design</i></span>.
+  <meta itemprop="contentLocation"
+        value="Cambridge, Massachusetts ; London, England">&#32;
+  <span itemprop="publisher"
+             itemtype="http://schema.org/Organization"
+             itemscope="">
+    <span itemprop="name">Harvard University Press</span></span>.</span>
+
+
+
+
+</dd>
+
+      </div>
+
+      <div id="nyhan_computation_2016">
+        <dt>
+          Nyhan&#32;&amp;&#32;Flinn
+
+          
+          (2016)</dt>
+
+        <dd>
+          
+
+
+
+
+
+
+
+
+
+
+<span itemscope 
+      itemtype="https://schema.org/Book"
+      data-type="book"><span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="familyName">Nyhan</span>,&#32;
+    <meta itemprop="givenName" content="Julianne" />
+    J.</span>&#32;&amp;&#32;<span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="familyName">Flinn</span>,&#32;
+    <meta itemprop="givenName" content="Andrew" />
+    A.</span>&#32;
+    (<span itemprop="datePublished">2016</span>).
+  &#32;<span itemprop="name">
+    <i>Computation and the Humanities: Towards an Oral History of Digital Humanities</i></span>.
+  <meta itemprop="contentLocation"
+        value="Cham">&#32;
+  <span itemprop="publisher"
+             itemtype="http://schema.org/Organization"
+             itemscope="">
+    <span itemprop="name">Springer International Publishing</span></span>.
+  <a href="https://doi.org/10.1007/978-3-319-20170-2"
+     itemprop="identifier"
+     itemtype="https://schema.org/URL">https://doi.org/10.1007/978-3-319-20170-2</a></span>
+
+
+
+
+</dd>
+
+      </div>
+
+      <div id="nyhan_hidden_2022">
+        <dt>
+          Nyhan
+
+          
+          (2022)</dt>
+
+        <dd>
+          
+
+
+
+
+
+
+
+
+
+
+<span itemscope 
+      itemtype="https://schema.org/Book"
+      data-type="book"><span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="familyName">Nyhan</span>,&#32;
+    <meta itemprop="givenName" content="Julianne" />
+    J.</span>&#32;
+    (<span itemprop="datePublished">2022</span>).
+  &#32;<span itemprop="name">
+    <i>Hidden and Devalued Feminized Labour in the Digital Humanities: On the Index Thomisticus Project 1954-67</i></span> (<span>1</span>).
+  <meta itemprop="contentLocation"
+        value="London">&#32;
+  <span itemprop="publisher"
+             itemtype="http://schema.org/Organization"
+             itemscope="">
+    <span itemprop="name">Routledge</span></span>.
+  <a href="https://doi.org/10.4324/9781003138235"
+     itemprop="identifier"
+     itemtype="https://schema.org/URL">https://doi.org/10.4324/9781003138235</a></span>
+
+
+
+
+</dd>
+
+      </div>
+
+      <div id="nyhan_one_2019">
+        <dt>
+          Nyhan&#32;&amp;&#32;Passarotti
+
+          
+          (2019)</dt>
+
+        <dd>
+          
+
+
+
+
+
+
+
+
+
+
+<span itemscope 
+      itemtype="https://schema.org/Book"
+      data-type="book"><span itemprop="editor" itemscope itemtype="https://schema.org/Person"><span itemprop="familyName">Nyhan</span>,&#32;
+    <meta itemprop="givenName" content="Julianne" />
+    J.</span>&#32;&amp;&#32;<span itemprop="editor" itemscope itemtype="https://schema.org/Person"><span itemprop="familyName">Passarotti</span>,&#32;
+    <meta itemprop="givenName" content="Marco" />
+    M.</span>&#32;
+    (<span itemprop="datePublished">2019</span>).
+  &#32;<span itemprop="name">
+    <i>One Origin of Digital Humanities: Fr Roberto Busa in His Own Words</i></span>.
+  <meta itemprop="contentLocation"
+        value="Cham">&#32;
+  <span itemprop="publisher"
+             itemtype="http://schema.org/Organization"
+             itemscope="">
+    <span itemprop="name">Springer International Publishing</span></span>.
+  <a href="https://doi.org/10.1007/978-3-030-18313-4"
+     itemprop="identifier"
+     itemtype="https://schema.org/URL">https://doi.org/10.1007/978-3-030-18313-4</a></span>
+
+
+
+
+</dd>
+
+      </div>
+
+      <div id="raunig_factories_2013">
+        <dt>
+          Raunig,&#32;
+          Derieg&#32;&amp;&#32;Negri
+
+          
+          (2013)</dt>
+
+        <dd>
+          
+
+
+
+
+
+
+
+
+
+
+<span itemscope 
+      itemtype="https://schema.org/Book"
+      data-type="book"><span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="familyName">Raunig</span>,&#32;
+    <meta itemprop="givenName" content="Gerald" />
+    G.</span>,&#32;
+  <span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="familyName">Derieg</span>,&#32;
+    <meta itemprop="givenName" content="Aileen" />
+    A.</span>&#32;&amp;&#32;<span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="familyName">Negri</span>,&#32;
+    <meta itemprop="givenName" content="Antonio" />
+    A.</span>&#32;
+    (<span itemprop="datePublished">2013</span>).
+  &#32;<span itemprop="name">
+    <i>Factories of knowledge, industries of creativity</i></span>.
+  <meta itemprop="contentLocation"
+        value="Los Angeles, CA. : Cambridge, MA">&#32;
+  <span itemprop="publisher"
+             itemtype="http://schema.org/Organization"
+             itemscope="">
+    <span itemprop="name">Semiotext(e) ; distributed by the MIT Press</span></span>.</span>
+
+
+
+
+</dd>
+
+      </div>
+
+      <div id="terras_for_2013">
+        <dt>
+          Terras
+
+          
+          (2013)</dt>
+
+        <dd>
+          
+
+
+
+
+
+
+
+
+
+
+<span itemscope
+      itemtype="https://schema.org/BlogPosting"
+      data-type="blog"><span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="familyName">Terras</span>,&#32;
+    <meta itemprop="givenName" content="Melissa" />
+    M.</span>
+  &#32;
+    (<span itemprop="datePublished">2013</span>).
+  &#32;<span itemprop="name">For Ada Lovelace Day – Father Busa’s Female Punch Card Operatives</span>.&nbsp;<span itemprop="isPartOf">Melissa Terras</span>.&#32;Retrieved from&#32;
+  <a href="https://melissaterras.org/2013/10/15/for-ada-lovelace-day-father-busas-female-punch-card-operatives/"
+     itemprop="identifier"
+     itemtype="https://schema.org/URL">https://melissaterras.org/2013/10/15/for-ada-lovelace-day-father-busas-female-punch-card-operatives/</a></span>
+
+
+
+
+</dd>
+
+      </div>
+
+      <div id="unsworth_forms_2004">
+        <dt>
+          Unsworth
+
+          
+          (2004)</dt>
+
+        <dd>
+          
+
+
+
+
+
+
+
+
+
+
+<span itemscope
+      itemtype="https://schema.org/BlogPosting"
+      data-type="blog"><span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="familyName">Unsworth</span>,&#32;
+    <meta itemprop="givenName" content="John" />
+    J.</span>
+  &#32;
+    (<span itemprop="datePublished">2004</span>).
+  &#32;<span itemprop="name">Forms of Attention: Digital Humanities Beyond Representation.</span>.&nbsp;<span itemprop="isPartOf">John Unsworth</span>.&#32;Retrieved from&#32;
+  <a href="https://johnunsworth.name/FOA/"
+     itemprop="identifier"
+     itemtype="https://schema.org/URL">https://johnunsworth.name/FOA/</a></span>
+
+
+
+
+</dd>
+
+      </div>
+  </dl>
+</section>
+
+
+
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>Les traductions ont été effectuées avec l&rsquo;aide de DeepL.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref2:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref3:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref4:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref5:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref6:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref7:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+</section>
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+
+
+  
+</article>
+
+      
+      
+
+      <footer class="book-footer">
+        
+<hr>
+<div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+
+
+        
+        
+
+
+<p style="text-align: center; font-size:12px">
+Tous les contenus de ce site sont sous licence 
+<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">CC BY-NC-SA</a> : Attribution - Pas d’Utilisation Commerciale - Partage dans les Mêmes Conditions. 
+</p>
+
+<div>
+    
+    <a rel="alternate" target="blank" type="application/rss+xml" href="https://blank.blue/index.xml" title="Blank.blue/index.xml">
+    <img src="../../images/rss.png" alt="rss feed"/></a>
+
+    <a rel="alternate" target="blank" href="https://github.com/Mmellet/" title="Github/Mmellet">
+        <img src="../../images/github.png" alt="github" id="grandlogo"/></a>
+
+    <a href="https://www.zotero.org/margotmellet" target="blank" title="0000-0001-7167-2136 ">
+            <img src="../../images/zotero.png" alt="orcid"/></a>  
+
+    <a rel="alternate" target="blank" href="https://twitter.com/mellet_m" title="@mellet_m">
+        <img src="../../images/twitter.png" alt="twitter"/></a>
+    
+    <a href="mailto:margot.mellet@umontreal.ca" target="blank" title="margot.mellet@umontreal.ca">
+        <img src="../../images/courriel.png" alt="courriel"/></a>
+    
+    <a href="https://orcid.org/0000-0001-7167-2136" target="blank" title="0000-0001-7167-2136 ">
+        <img src="../../images/orcid.png" alt="orcid"/></a>
+    
+    <a href="https://archive.org/details/@mmellet?tab=uploads" target="blank" title="Une plasticienne">
+        <img src="../../images/archive.png" alt="internet archive"/></a>
+    
+    <a href="../../doc/Mellet_cv.pdf" target="blank" title="Une plasticienne">
+        <img src="../../images/cv.png" alt="CV"/></a>
+                           
+    
+
+    </div>
+      </footer>
+
+      
+
+<div class="book-comments">
+
+</div>
+
+
+      
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#0-la-fabrique-est-une-fabrique">0. La fabrique est une fabrique</a></li>
+    <li><a href="#1-le-roman-de-lhomo-faber-sapiens-sapiens">1. Le roman de l&rsquo;<em>homo faber sapiens sapiens</em></a></li>
+    <li><a href="#2-la-réminiscence-du-politique">2. La réminiscence du politique</a></li>
+    <li><a href="#3-lintrospection-de-lundercommons">3. L&rsquo;introspection de l&rsquo;undercommons</a></li>
+    <li><a href="#4-lexorcisme-des-humanités">4. L&rsquo;exorcisme des humanités</a></li>
+    <li><a href="#01234-la-désécriture-des-humanités">0.1.2.3.4. La désécriture des humanités</a></li>
+    <li><a href="#bibliographiehttpswwwzoteroorggroups5106654fabriquefabriquelibrary"><a href="https://www.zotero.org/groups/5106654/fabriquefabrique/library">Bibliographie</a></a></li>
+  </ul>
+</nav>
+
+
+
+        
+      </div>
+    </aside>
+    
+  </main>
+
+  
+<style>
+ 
+
+* {box-sizing: border-box}
+.mySlides1, .mySlides2 {display: none}
+img {vertical-align: middle;}
+
+.mySlides3, .mySlides4 {display: none}
+img {vertical-align: middle;}
+
+.mySlides5, .mySlides6 {display: none}
+img {vertical-align: middle;}
+
+ 
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+ 
+.text {
+  color: black;
+  background-color: white;
+  font-size: 15px;
+  padding: 10px 12px;
+  position: relative;
+  bottom: 1px;
+  width: 100%;
+  text-align: center;
+}
+
+ 
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+ 
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+ 
+.prev:hover, .next:hover {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+ 
+
+
+div.small {
+  border-style: solid;
+  border-color: black;
+  width:850px;
+  height:700px;
+  line-height:3em;
+  overflow:auto;
+  padding:5px;
+  }
+
+ 
+code[class*=language-],pre[class*=language-]{color:#000;background:0 0;text-shadow:0 1px #fff;font-family:Consolas,Monaco,'Andale Mono','Ubuntu Mono',monospace;font-size:1em;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none}code[class*=language-] ::-moz-selection,code[class*=language-]::-moz-selection,pre[class*=language-] ::-moz-selection,pre[class*=language-]::-moz-selection{text-shadow:none;background:#b3d4fc}code[class*=language-] ::selection,code[class*=language-]::selection,pre[class*=language-] ::selection,pre[class*=language-]::selection{text-shadow:none;background:#b3d4fc}@media print{code[class*=language-],pre[class*=language-]{text-shadow:none}}pre[class*=language-]{padding:1em;margin:.5em 0;overflow:auto}:not(pre)>code[class*=language-],pre[class*=language-]{background:#f5f2f0}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal}.token.cdata,.token.comment,.token.doctype,.token.prolog{color:#708090}.token.punctuation{color:#999}.token.namespace{opacity:.7}.token.boolean,.token.constant,.token.deleted,.token.number,.token.property,.token.symbol,.token.tag{color:#905}.token.attr-name,.token.builtin,.token.char,.token.inserted,.token.selector,.token.string{color:#690}.language-css .token.string,.style .token.string,.token.entity,.token.operator,.token.url{color:#9a6e3a;background:hsla(0,0%,100%,.5)}.token.atrule,.token.attr-value,.token.keyword{color:#07a}.token.class-name,.token.function{color:#dd4a68}.token.important,.token.regex,.token.variable{color:#e90}.token.bold,.token.important{font-weight:700}.token.italic{font-style:italic}.token.entity{cursor:help}
+
+
+</style>
+
+<script>
+    let slideIndex = [1,1,1,1,1,1];
+                let slideId = ["mySlides1", "mySlides2", "mySlides3", "mySlides4", "mySlides5", "mySlides6"]
+                showSlides(1, 0);
+                showSlides(1, 1);
+                showSlides(1, 2);
+                showSlides(1, 3);
+                showSlides(1, 4);
+                showSlides(1, 5);
+                
+                function plusSlides(n, no) {
+                  showSlides(slideIndex[no] += n, no);
+                }
+                
+                function showSlides(n, no) {
+                  let i;
+                  let x = document.getElementsByClassName(slideId[no]);
+                  if (n > x.length) {slideIndex[no] = 1}    
+                  if (n < 1) {slideIndex[no] = x.length}
+                  for (i = 0; i < x.length; i++) {
+                     x[i].style.display = "none";  
+                  }
+                  x[slideIndex[no]-1].style.display = "block";  
+                }
+                </script>
+
+              <script>
+
+
+
+var _self="undefined"!=typeof window?window:"undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?self:{},Prism=function(e){var n=/(?:^|\s)lang(?:uage)?-([\w-]+)(?=\s|$)/i,t=0,r={},a={manual:e.Prism&&e.Prism.manual,disableWorkerMessageHandler:e.Prism&&e.Prism.disableWorkerMessageHandler,util:{encode:function e(n){return n instanceof i?new i(n.type,e(n.content),n.alias):Array.isArray(n)?n.map(e):n.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/\u00a0/g," ")},type:function(e){return Object.prototype.toString.call(e).slice(8,-1)},objId:function(e){return e.__id||Object.defineProperty(e,"__id",{value:++t}),e.__id},clone:function e(n,t){var r,i;switch(t=t||{},a.util.type(n)){case"Object":if(i=a.util.objId(n),t[i])return t[i];for(var l in r={},t[i]=r,n)n.hasOwnProperty(l)&&(r[l]=e(n[l],t));return r;case"Array":return i=a.util.objId(n),t[i]?t[i]:(r=[],t[i]=r,n.forEach((function(n,a){r[a]=e(n,t)})),r);default:return n}},getLanguage:function(e){for(;e;){var t=n.exec(e.className);if(t)return t[1].toLowerCase();e=e.parentElement}return"none"},setLanguage:function(e,t){e.className=e.className.replace(RegExp(n,"gi"),""),e.classList.add("language-"+t)},currentScript:function(){if("undefined"==typeof document)return null;if("currentScript"in document)return document.currentScript;try{throw new Error}catch(r){var e=(/at [^(\r\n]*\((.*):[^:]+:[^:]+\)$/i.exec(r.stack)||[])[1];if(e){var n=document.getElementsByTagName("script");for(var t in n)if(n[t].src==e)return n[t]}return null}},isActive:function(e,n,t){for(var r="no-"+n;e;){var a=e.classList;if(a.contains(n))return!0;if(a.contains(r))return!1;e=e.parentElement}return!!t}},languages:{plain:r,plaintext:r,text:r,txt:r,extend:function(e,n){var t=a.util.clone(a.languages[e]);for(var r in n)t[r]=n[r];return t},insertBefore:function(e,n,t,r){var i=(r=r||a.languages)[e],l={};for(var o in i)if(i.hasOwnProperty(o)){if(o==n)for(var s in t)t.hasOwnProperty(s)&&(l[s]=t[s]);t.hasOwnProperty(o)||(l[o]=i[o])}var u=r[e];return r[e]=l,a.languages.DFS(a.languages,(function(n,t){t===u&&n!=e&&(this[n]=l)})),l},DFS:function e(n,t,r,i){i=i||{};var l=a.util.objId;for(var o in n)if(n.hasOwnProperty(o)){t.call(n,o,n[o],r||o);var s=n[o],u=a.util.type(s);"Object"!==u||i[l(s)]?"Array"!==u||i[l(s)]||(i[l(s)]=!0,e(s,t,o,i)):(i[l(s)]=!0,e(s,t,null,i))}}},plugins:{},highlightAll:function(e,n){a.highlightAllUnder(document,e,n)},highlightAllUnder:function(e,n,t){var r={callback:t,container:e,selector:'code[class*="language-"], [class*="language-"] code, code[class*="lang-"], [class*="lang-"] code'};a.hooks.run("before-highlightall",r),r.elements=Array.prototype.slice.apply(r.container.querySelectorAll(r.selector)),a.hooks.run("before-all-elements-highlight",r);for(var i,l=0;i=r.elements[l++];)a.highlightElement(i,!0===n,r.callback)},highlightElement:function(n,t,r){var i=a.util.getLanguage(n),l=a.languages[i];a.util.setLanguage(n,i);var o=n.parentElement;o&&"pre"===o.nodeName.toLowerCase()&&a.util.setLanguage(o,i);var s={element:n,language:i,grammar:l,code:n.textContent};function u(e){s.highlightedCode=e,a.hooks.run("before-insert",s),s.element.innerHTML=s.highlightedCode,a.hooks.run("after-highlight",s),a.hooks.run("complete",s),r&&r.call(s.element)}if(a.hooks.run("before-sanity-check",s),(o=s.element.parentElement)&&"pre"===o.nodeName.toLowerCase()&&!o.hasAttribute("tabindex")&&o.setAttribute("tabindex","0"),!s.code)return a.hooks.run("complete",s),void(r&&r.call(s.element));if(a.hooks.run("before-highlight",s),s.grammar)if(t&&e.Worker){var c=new Worker(a.filename);c.onmessage=function(e){u(e.data)},c.postMessage(JSON.stringify({language:s.language,code:s.code,immediateClose:!0}))}else u(a.highlight(s.code,s.grammar,s.language));else u(a.util.encode(s.code))},highlight:function(e,n,t){var r={code:e,grammar:n,language:t};if(a.hooks.run("before-tokenize",r),!r.grammar)throw new Error('The language "'+r.language+'" has no grammar.');return r.tokens=a.tokenize(r.code,r.grammar),a.hooks.run("after-tokenize",r),i.stringify(a.util.encode(r.tokens),r.language)},tokenize:function(e,n){var t=n.rest;if(t){for(var r in t)n[r]=t[r];delete n.rest}var a=new s;return u(a,a.head,e),o(e,a,n,a.head,0),function(e){for(var n=[],t=e.head.next;t!==e.tail;)n.push(t.value),t=t.next;return n}(a)},hooks:{all:{},add:function(e,n){var t=a.hooks.all;t[e]=t[e]||[],t[e].push(n)},run:function(e,n){var t=a.hooks.all[e];if(t&&t.length)for(var r,i=0;r=t[i++];)r(n)}},Token:i};function i(e,n,t,r){this.type=e,this.content=n,this.alias=t,this.length=0|(r||"").length}function l(e,n,t,r){e.lastIndex=n;var a=e.exec(t);if(a&&r&&a[1]){var i=a[1].length;a.index+=i,a[0]=a[0].slice(i)}return a}function o(e,n,t,r,s,g){for(var f in t)if(t.hasOwnProperty(f)&&t[f]){var h=t[f];h=Array.isArray(h)?h:[h];for(var d=0;d<h.length;++d){if(g&&g.cause==f+","+d)return;var v=h[d],p=v.inside,m=!!v.lookbehind,y=!!v.greedy,k=v.alias;if(y&&!v.pattern.global){var x=v.pattern.toString().match(/[imsuy]*$/)[0];v.pattern=RegExp(v.pattern.source,x+"g")}for(var b=v.pattern||v,w=r.next,A=s;w!==n.tail&&!(g&&A>=g.reach);A+=w.value.length,w=w.next){var E=w.value;if(n.length>e.length)return;if(!(E instanceof i)){var P,L=1;if(y){if(!(P=l(b,A,e,m))||P.index>=e.length)break;var S=P.index,O=P.index+P[0].length,j=A;for(j+=w.value.length;S>=j;)j+=(w=w.next).value.length;if(A=j-=w.value.length,w.value instanceof i)continue;for(var C=w;C!==n.tail&&(j<O||"string"==typeof C.value);C=C.next)L++,j+=C.value.length;L--,E=e.slice(A,j),P.index-=A}else if(!(P=l(b,0,E,m)))continue;S=P.index;var N=P[0],_=E.slice(0,S),M=E.slice(S+N.length),W=A+E.length;g&&W>g.reach&&(g.reach=W);var z=w.prev;if(_&&(z=u(n,z,_),A+=_.length),c(n,z,L),w=u(n,z,new i(f,p?a.tokenize(N,p):N,k,N)),M&&u(n,w,M),L>1){var I={cause:f+","+d,reach:W};o(e,n,t,w.prev,A,I),g&&I.reach>g.reach&&(g.reach=I.reach)}}}}}}function s(){var e={value:null,prev:null,next:null},n={value:null,prev:e,next:null};e.next=n,this.head=e,this.tail=n,this.length=0}function u(e,n,t){var r=n.next,a={value:t,prev:n,next:r};return n.next=a,r.prev=a,e.length++,a}function c(e,n,t){for(var r=n.next,a=0;a<t&&r!==e.tail;a++)r=r.next;n.next=r,r.prev=n,e.length-=a}if(e.Prism=a,i.stringify=function e(n,t){if("string"==typeof n)return n;if(Array.isArray(n)){var r="";return n.forEach((function(n){r+=e(n,t)})),r}var i={type:n.type,content:e(n.content,t),tag:"span",classes:["token",n.type],attributes:{},language:t},l=n.alias;l&&(Array.isArray(l)?Array.prototype.push.apply(i.classes,l):i.classes.push(l)),a.hooks.run("wrap",i);var o="";for(var s in i.attributes)o+=" "+s+'="'+(i.attributes[s]||"").replace(/"/g,"&quot;")+'"';return"<"+i.tag+' class="'+i.classes.join(" ")+'"'+o+">"+i.content+"</"+i.tag+">"},!e.document)return e.addEventListener?(a.disableWorkerMessageHandler||e.addEventListener("message",(function(n){var t=JSON.parse(n.data),r=t.language,i=t.code,l=t.immediateClose;e.postMessage(a.highlight(i,a.languages[r],r)),l&&e.close()}),!1),a):a;var g=a.util.currentScript();function f(){a.manual||a.highlightAll()}if(g&&(a.filename=g.src,g.hasAttribute("data-manual")&&(a.manual=!0)),!a.manual){var h=document.readyState;"loading"===h||"interactive"===h&&g&&g.defer?document.addEventListener("DOMContentLoaded",f):window.requestAnimationFrame?window.requestAnimationFrame(f):window.setTimeout(f,16)}return a}(_self);"undefined"!=typeof module&&module.exports&&(module.exports=Prism),"undefined"!=typeof global&&(global.Prism=Prism);
+Prism.languages.markup={comment:{pattern:/<!--(?:(?!<!--)[\s\S])*?-->/,greedy:!0},prolog:{pattern:/<\?[\s\S]+?\?>/,greedy:!0},doctype:{pattern:/<!DOCTYPE(?:[^>"'[\]]|"[^"]*"|'[^']*')+(?:\[(?:[^<"'\]]|"[^"]*"|'[^']*'|<(?!!--)|<!--(?:[^-]|-(?!->))*-->)*\]\s*)?>/i,greedy:!0,inside:{"internal-subset":{pattern:/(^[^\[]*\[)[\s\S]+(?=\]>$)/,lookbehind:!0,greedy:!0,inside:null},string:{pattern:/"[^"]*"|'[^']*'/,greedy:!0},punctuation:/^<!|>$|[[\]]/,"doctype-tag":/^DOCTYPE/i,name:/[^\s<>'"]+/}},cdata:{pattern:/<!\[CDATA\[[\s\S]*?\]\]>/i,greedy:!0},tag:{pattern:/<\/?(?!\d)[^\s>\/=$<%]+(?:\s(?:\s*[^\s>\/=]+(?:\s*=\s*(?:"[^"]*"|'[^']*'|[^\s'">=]+(?=[\s>]))|(?=[\s/>])))+)?\s*\/?>/,greedy:!0,inside:{tag:{pattern:/^<\/?[^\s>\/]+/,inside:{punctuation:/^<\/?/,namespace:/^[^\s>\/:]+:/}},"special-attr":[],"attr-value":{pattern:/=\s*(?:"[^"]*"|'[^']*'|[^\s'">=]+)/,inside:{punctuation:[{pattern:/^=/,alias:"attr-equals"},{pattern:/^(\s*)["']|["']$/,lookbehind:!0}]}},punctuation:/\/?>/,"attr-name":{pattern:/[^\s>\/]+/,inside:{namespace:/^[^\s>\/:]+:/}}}},entity:[{pattern:/&[\da-z]{1,8};/i,alias:"named-entity"},/&#x?[\da-f]{1,8};/i]},Prism.languages.markup.tag.inside["attr-value"].inside.entity=Prism.languages.markup.entity,Prism.languages.markup.doctype.inside["internal-subset"].inside=Prism.languages.markup,Prism.hooks.add("wrap",(function(a){"entity"===a.type&&(a.attributes.title=a.content.replace(/&amp;/,"&"))})),Object.defineProperty(Prism.languages.markup.tag,"addInlined",{value:function(a,e){var s={};s["language-"+e]={pattern:/(^<!\[CDATA\[)[\s\S]+?(?=\]\]>$)/i,lookbehind:!0,inside:Prism.languages[e]},s.cdata=/^<!\[CDATA\[|\]\]>$/i;var t={"included-cdata":{pattern:/<!\[CDATA\[[\s\S]*?\]\]>/i,inside:s}};t["language-"+e]={pattern:/[\s\S]+/,inside:Prism.languages[e]};var n={};n[a]={pattern:RegExp("(<__[^>]*>)(?:<!\\[CDATA\\[(?:[^\\]]|\\](?!\\]>))*\\]\\]>|(?!<!\\[CDATA\\[)[^])*?(?=</__>)".replace(/__/g,(function(){return a})),"i"),lookbehind:!0,greedy:!0,inside:t},Prism.languages.insertBefore("markup","cdata",n)}}),Object.defineProperty(Prism.languages.markup.tag,"addAttribute",{value:function(a,e){Prism.languages.markup.tag.inside["special-attr"].push({pattern:RegExp("(^|[\"'\\s])(?:"+a+")\\s*=\\s*(?:\"[^\"]*\"|'[^']*'|[^\\s'\">=]+(?=[\\s>]))","i"),lookbehind:!0,inside:{"attr-name":/^[^\s=]+/,"attr-value":{pattern:/=[\s\S]+/,inside:{value:{pattern:/(^=\s*(["']|(?!["'])))\S[\s\S]*(?=\2$)/,lookbehind:!0,alias:[e,"language-"+e],inside:Prism.languages[e]},punctuation:[{pattern:/^=/,alias:"attr-equals"},/"|'/]}}}})}}),Prism.languages.html=Prism.languages.markup,Prism.languages.mathml=Prism.languages.markup,Prism.languages.svg=Prism.languages.markup,Prism.languages.xml=Prism.languages.extend("markup",{}),Prism.languages.ssml=Prism.languages.xml,Prism.languages.atom=Prism.languages.xml,Prism.languages.rss=Prism.languages.xml;
+!function(s){var e=/(?:"(?:\\(?:\r\n|[\s\S])|[^"\\\r\n])*"|'(?:\\(?:\r\n|[\s\S])|[^'\\\r\n])*')/;s.languages.css={comment:/\/\*[\s\S]*?\*\//,atrule:{pattern:RegExp("@[\\w-](?:[^;{\\s\"']|\\s+(?!\\s)|"+e.source+")*?(?:;|(?=\\s*\\{))"),inside:{rule:/^@[\w-]+/,"selector-function-argument":{pattern:/(\bselector\s*\(\s*(?![\s)]))(?:[^()\s]|\s+(?![\s)])|\((?:[^()]|\([^()]*\))*\))+(?=\s*\))/,lookbehind:!0,alias:"selector"},keyword:{pattern:/(^|[^\w-])(?:and|not|only|or)(?![\w-])/,lookbehind:!0}}},url:{pattern:RegExp("\\burl\\((?:"+e.source+"|(?:[^\\\\\r\n()\"']|\\\\[^])*)\\)","i"),greedy:!0,inside:{function:/^url/i,punctuation:/^\(|\)$/,string:{pattern:RegExp("^"+e.source+"$"),alias:"url"}}},selector:{pattern:RegExp("(^|[{}\\s])[^{}\\s](?:[^{};\"'\\s]|\\s+(?![\\s{])|"+e.source+")*(?=\\s*\\{)"),lookbehind:!0},string:{pattern:e,greedy:!0},property:{pattern:/(^|[^-\w\xA0-\uFFFF])(?!\s)[-_a-z\xA0-\uFFFF](?:(?!\s)[-\w\xA0-\uFFFF])*(?=\s*:)/i,lookbehind:!0},important:/!important\b/i,function:{pattern:/(^|[^-a-z0-9])[-a-z0-9]+(?=\()/i,lookbehind:!0},punctuation:/[(){};:,]/},s.languages.css.atrule.inside.rest=s.languages.css;var t=s.languages.markup;t&&(t.tag.addInlined("style","css"),t.tag.addAttribute("style","css"))}(Prism);
+Prism.languages.python={comment:{pattern:/(^|[^\\])#.*/,lookbehind:!0,greedy:!0},"string-interpolation":{pattern:/(?:f|fr|rf)(?:("""|''')[\s\S]*?\1|("|')(?:\\.|(?!\2)[^\\\r\n])*\2)/i,greedy:!0,inside:{interpolation:{pattern:/((?:^|[^{])(?:\{\{)*)\{(?!\{)(?:[^{}]|\{(?!\{)(?:[^{}]|\{(?!\{)(?:[^{}])+\})+\})+\}/,lookbehind:!0,inside:{"format-spec":{pattern:/(:)[^:(){}]+(?=\}$)/,lookbehind:!0},"conversion-option":{pattern:/![sra](?=[:}]$)/,alias:"punctuation"},rest:null}},string:/[\s\S]+/}},"triple-quoted-string":{pattern:/(?:[rub]|br|rb)?("""|''')[\s\S]*?\1/i,greedy:!0,alias:"string"},string:{pattern:/(?:[rub]|br|rb)?("|')(?:\\.|(?!\1)[^\\\r\n])*\1/i,greedy:!0},function:{pattern:/((?:^|\s)def[ \t]+)[a-zA-Z_]\w*(?=\s*\()/g,lookbehind:!0},"class-name":{pattern:/(\bclass\s+)\w+/i,lookbehind:!0},decorator:{pattern:/(^[\t ]*)@\w+(?:\.\w+)*/m,lookbehind:!0,alias:["annotation","punctuation"],inside:{punctuation:/\./}},keyword:/\b(?:_(?=\s*:)|and|as|assert|async|await|break|case|class|continue|def|del|elif|else|except|exec|finally|for|from|global|if|import|in|is|lambda|match|nonlocal|not|or|pass|print|raise|return|try|while|with|yield)\b/,builtin:/\b(?:__import__|abs|all|any|apply|ascii|basestring|bin|bool|buffer|bytearray|bytes|callable|chr|classmethod|cmp|coerce|compile|complex|delattr|dict|dir|divmod|enumerate|eval|execfile|file|filter|float|format|frozenset|getattr|globals|hasattr|hash|help|hex|id|input|int|intern|isinstance|issubclass|iter|len|list|locals|long|map|max|memoryview|min|next|object|oct|open|ord|pow|property|range|raw_input|reduce|reload|repr|reversed|round|set|setattr|slice|sorted|staticmethod|str|sum|super|tuple|type|unichr|unicode|vars|xrange|zip)\b/,boolean:/\b(?:False|None|True)\b/,number:/\b0(?:b(?:_?[01])+|o(?:_?[0-7])+|x(?:_?[a-f0-9])+)\b|(?:\b\d+(?:_\d+)*(?:\.(?:\d+(?:_\d+)*)?)?|\B\.\d+(?:_\d+)*)(?:e[+-]?\d+(?:_\d+)*)?j?(?!\w)/i,operator:/[-+%=]=?|!=|:=|\*\*?=?|\/\/?=?|<[<=>]?|>[=>]?|[&|^~]/,punctuation:/[{}[\];(),.:]/},Prism.languages.python["string-interpolation"].inside.interpolation.inside.rest=Prism.languages.python,Prism.languages.py=Prism.languages.python;
+
+              </script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+  var body = document.body;
+var switcher = document.getElementsByClassName('js-toggle')[0];
+
+
+switcher.addEventListener("click", function() {
+      this.classList.toggle('js-toggle--checked');
+      this.classList.add('js-toggle--focus');
+  
+  if (this.classList.contains('js-toggle--checked')) {
+    body.classList.add('dark-mode');
+    
+    localStorage.setItem('darkMode', 'true');
+  } else {
+    body.classList.remove('dark-mode');
+    setTimeout(function() {
+      localStorage.removeItem('darkMode');
+    }, 100);
+  }
+})
+
+
+if (localStorage.getItem('darkMode')) {
+  
+      switcher.classList.add('js-toggle--checked');
+      body.classList.add('dark-mode');
+}
+
+
+function changerCouleur() {
+  var elem = document.getElementById("Blank");
+  var couleur = "#" + Math.floor(Math.random()*16777215).toString(16); 
+  elem.style.color = couleur;
+}
+
+
+function changerCouleurAuto() {
+  setTimeout(changerCouleur, 60 * 60 * 1000); 
+}
+
+
+window.onload = changerCouleurAuto;
+
+
+
+
+var texte = document.getElementById("BecomeBlank");
+		var compteur = 0;
+		var intervalle = setTimeout(changerCouleur, 60 * 60 * 1000);
+		
+		function changerCouleur() {
+			var rouge = 0 + compteur;
+			var vert = 0 + compteur;
+			var bleu = 0 + compteur;
+      var transparent = 10000 - compteur;
+			texte.style.color = "rgb(" + rouge + ", " + vert + ", " + bleu + ", " + transparent + " )";
+			if (compteur < 255) {
+				compteur += 5;
+			} else {
+				clearInterval(intervalle);
+			}
+		}
+
+</script>

@@ -1,0 +1,575 @@
+<html lang="fr">
+
+<head>
+	<meta charset="utf-8">
+
+	<title>Fabrique - Humanistica</title>
+
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+	<link rel="stylesheet" href="css/reveal.css">
+	<link rel="stylesheet" href="css/theme/white.css" id="theme">
+
+	<!-- Code syntax highlighting -->
+	<link rel="stylesheet" href="lib/css/zenburn.css">
+
+
+	<style>
+		.reveal h1,
+		.reveal h2,
+		.reveal h3,
+		.reveal h4,
+		.reveal h5,
+		.reveal h6 {
+			margin: 0 0 20px 0;
+			color: black;
+			font-family: 'Source Sans Pro', Verdana, Geneva, Tahoma, sans-serif;
+			font-weight: 600;
+			line-height: 1.2;
+			letter-spacing: normal;
+			text-transform: uppercase;
+			text-shadow: none;
+			word-wrap: break-word;
+		}
+
+		#fondop2 {
+			background-color: rgba(235, 123, 83, 0.692);
+			border-color: rgb(9, 80, 50);
+			opacity: 0.89;
+		}
+
+		#fondop {
+
+			background-color: rgba(224, 74, 20, 0.692);
+			opacity: 0.9;
+			border-color: rgb(9, 80, 50);
+		}
+
+		#fondop3 {
+			background-color: rgba(255, 255, 255, 0.829);
+			border-width: 1px;
+			border: solid rgba(235, 123, 83, 0.692);
+			opacity: 0.89;
+		}
+
+		body {
+			position: relative;
+			line-height: 1;
+			background-color: white;
+			color: #000;
+			font-family: sans-serif;
+
+		}
+
+		.reveal a:hover {
+
+			color: rgb(109, 39, 77);
+		}
+
+		.reveal a {
+			color: rgb(199, 52, 113);
+		}
+
+		.container {
+			position: relative;
+		}
+
+		.containerbackground {
+			margin: 3rem;
+			position: absolute;
+			top: 0;
+			left: 0;
+			bottom: 0;
+			z-index: -1;
+			color: rgba(24, 21, 21, 0.863);
+		}
+	</style>
+
+
+	<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+
+</head>
+
+<body>
+
+	<div class="reveal">
+
+		<div class="slides">
+			<section data-background-image="fabrique/melange2.png" data-background-size="1600px"
+				background-color="white">
+				<div id="fondop3" class="fragment">
+					<small>Juin 2023 - <a href="https://humanistica2023.sciencesconf.org/">Humanistica</a> - Université
+						de Genève</small>
+					<hr>
+					<img src="fabrique/logo.png" alt="" width="20%"></img>
+					</li>
+					<h5>
+						Fabrique de la fabrique</h5>
+					<small>Réflexion sur les pratiques et praticien.ne.s d'écriture dans les Humanités
+						numériques</small>
+
+					<hr> <small>
+						<a href="https://blank.blue/">
+							Margot Mellet
+						</a>
+						- Université de Montréal
+						</br><a href="https://twitter.com/mellet_m">@mellet_m</a>
+					</small>
+					</br>
+					<img src="fabrique/logo.svg" alt="" width="30%"></img>
+
+				</div>
+				<div id="fondop2">
+					<small><a href="">Texte & Matériel de la présentation : https:blank.blue/conf/</a></small>
+				</div>
+			</section>
+
+			<section data-background-image="fabrique/melange22.png" data-background-size="1600px"
+				background-color="white">
+				<div id="fondop3" class="fragment">
+					<h6>0. La fabrique est une fabrique</h6>
+				</div>
+			</section>
+			<section data-background-image="fabrique/flusser.jpg" data-background-size="1200px"
+				background-color="#21211c">
+				<div id="fondop3" class="fragment">
+					<h6>1. Le roman de l'<i>homo faber sapiens sapiens</i></h6>
+				</div>
+				<div id="fondop2">
+					<small><i>Conversation between Vilem Flusser and Haroun Farocki</i> 1988 <i>renversé</i></small>
+				</div>
+			</section>
+			<section data-background-image="" data-background-size="1200px" background-color="#21211c">
+				<div class="container">
+					<div class="containerbackground">
+						<p>« Hiermit ist "Fabrik" das charakteristische menschliche Merkmal, das,
+							was man
+							einst die menschliche "Würde" genannt hat. An ihren Fabriken sollt ihrsie erkennen. »
+							</br><small>(<i>Vom Stand der Dinge</i>, Flusser, 68)</small></p>
+
+					</div>
+					<div>
+						<p class="fragment" id="fondop3">« La "fabrique" est donc la caractéristique humaine commune, ce
+							que l'on appelait autrefois la "dignité" de l'humain. C'est à leurs fabriques qu'on les
+							reconnaît. »
+							</br><small>(traduction personnelle*)</small>
+							</br>
+							</br>
+						</p>
+					</div>
+					<div id="fondop2" class="fragment">
+						<small><i>toutes les traductions personnelles ont été effectuées à l'aide de DeepL.</i></small>
+					</div>
+				</div>
+
+			</section>
+
+			<section data-background-image="" data-background-size="1200px" background-color="#21211c">
+				<div class="container">
+					<div class="containerbackground">
+						<p>« Fabrizieren heisst etwas aus dem Gegebenen entwenden, es in Gemachtes umwenden, anwenden
+							und
+							verwenden. Diese Bewegungen des Wendens werden zuerst von Händen ausgeführt, dann von
+							Werkzeugen, Maschinen und schlichlieh Apparaten. [...] Demnach sind Fabriken Orte, wo
+							Gegebenes
+							in Gemachtes
+							umgewendet wird [...]. »
+							</br><small>(<i>Vom Stand der Dinge</i>, Flusser, 69)</small></p>
+					</div>
+					<div>
+						<p class="fragment" id="fondop3">« Fabriquer signifie détourner quelque chose du donné, le
+							transformer en quelque chose de fait/artefact, y avoir recours et en faire usage. Ces gestes
+							qui tournent et retournent sont d'abord exécutés par des mains, puis par des outils, des
+							machines et finalement des appareils/appareillages. [...] Ainsi, les fabriques sont les
+							lieux où l'on transforme le donné en artefact. »
+							</br><small>(traduction personnelle*)</small>
+							</br>
+							</br>
+						</p>
+					</div>
+
+				</div>
+			</section>
+
+			<section data-background-image="fabrique/busa4.jpg" data-background-size="800px">
+				<div class="container">
+					<div id="fondop3" class="containerbackground">
+						<p>« Most fields cannot point to a single progenitor, much less a divine one,
+							but humanities computing has Father Busa. » </br><small>(<a
+									href="https://johnunsworth.name/FOA/"><i>Forms of Attention: Digital Humanities
+										Beyond Representation</i></a>, Unsworth)</small></p>
+
+					</div>
+					<div>
+						<p class="fragment" id="fondop3">« La plupart des disciplines ne peuvent pas identifier un seul
+							géniteur, et encore moins un géniteur divin, mais l'informatique des sciences
+							humaines/humanités numériques, elles,</br> ont le père Busa. »
+							</br><small>(traduction personnelle*)</small>
+							</br>
+							</br>
+						</p>
+					</div>
+					<div id="fondop2">
+						<small>Roberto Busa, S.J., June 1956, CAAL, Casa Sironi, Gallarate. [Busa Archive, #25] <i>renversé</i></small>
+						</p>
+					</div>
+				</div>
+			</section>
+
+
+			<section data-background-image="fabrique/busa2.jpg" data-background-size="1200px">
+				<div class="container">
+					<div id="fondop3" class="containerbackground">
+						<p>« [...] the “ghost work” implemented by the keypunch operators of the Index
+							Thomisticus gave rise not only to the data foundations of the computational humanities in
+							the
+							form of the Index Thomisticus, but it also, via the millions of punched cards their work
+							created, acted as the weft that threaded together the
+							warp of interchanging technologies, processes and even workers that gave rise to the Index
+							Thomisticus in ways often unseen. » </br><small>(<i>Hidden and Devalued Feminized Labour in
+									the
+									Digital Humanities: On the Index Thomisticus Project 1954-67</i>
+								, Nyhan, 100)</small></p>
+
+					</div>
+					<div>
+						<p class="fragment" id="fondop3">« le "travail fantôme" mis en œuvre par les opérateurs de
+							l'Index Thomisticus a non seulement donné naissance aux bases de données des humanités
+							numériques sous la forme de l'Index Thomisticus, mais il a également, par le biais des
+							millions de cartes perforées créées par leur travail, joué le rôle de trame qui a permis
+							d'assembler la chaîne de technologies, de processus et même de travailleurs interchangeables
+							qui ont donné naissance à l'Index Thomisticus selon des modalités souvent invisibles. »
+							</br><small>(traduction personnelle*)</small>
+							</br>
+							</br>
+						</p>
+					</div>
+					<div id="fondop2">
+						<small>The Index Thomisticus project was realized in an ancient clothing workshop</small></p>
+					</div>
+				</div>
+			</section>
+
+			<section data-background-image="fabrique/raunig2.jpg" data-background-size="1600px"
+				background-color="white">
+				<div id="fondop3" class="fragment">
+					<h6>2. La réminiscence du politique</h6>
+
+				</div>
+				<div id="fondop2">
+					<small><i>No source find</i>, Gerald Raunig <i>renversé</i></small>
+				</div>
+			</section>
+
+			<section data-background-image="" data-background-size="1200px" background-color="#21211c">
+				<div class="container">
+					<div class="containerbackground">
+						<p>« Factories of knowledge: fashionable metaphor for the self-proletarization of
+							intellectuals, misinterpretation of ephemeral Marx marginalia, terminological makeshift
+							solution
+							for the situation of precarious knowledge work? [...] Knowledge becomes a commodity, which
+							is
+							manufactured, fabricated and traded like material commodities. »
+							</br><small>(<i>Factories of Knowledge</i>, Raunig, 17-18)</small></p>
+						</br>
+					</div>
+					<div>
+						<p class="fragment" id="fondop3">« Les fabriques du savoir : métaphore à la mode de
+							l'autoprolétarisation des intellectuels, interprétation erronée</br> des marginalia
+							éphémères de Marx, solution terminologique</br> de fortune à la situation de précarité du
+							travail de la connaissance ? [...] La connaissance devient une marchandise, qui est
+							fabriquée, manufacturée et échangée comme les marchandises matérielles. »
+							</br><small>(traduction personnelle*)</small>
+							</br>
+							</br>
+						</p>
+					</div>
+
+				</div>
+			</section>
+			<section data-background-image="fabrique/sortie.jpg" data-background-size="1200px">
+				<div class="container">
+					<div id="fondop3" class="containerbackground">
+						<p>« The full ambivalence of the knowledge factory in the mode of modulation, its
+							mechanisms of appropriation and its potential for resistance, also allows us to understand
+							the
+							sites of knowledge production no only as sites of the commodification of knowledge and the
+							exploitation of the subjectivity of all the actors, but also and especially as sites of new
+							forms of conflict. »
+
+							</br><small>(<i>Factories of Knowledge</i>, Raunig, 51)</small></p>
+
+					</div>
+					<div>
+						<p class="fragment" id="fondop3">« La véritable ambivalence de la fabrique du savoir au regard
+							de son mode de fonctionnement, de ses mécanismes d'appropriation et de son potentiel de
+							résistance, nous permet également de considérer les espaces de production de la connaissance
+							non seulement comme des lieux de marchandisation du savoir et d'exploitation de la
+							subjectivité de tous les acteurs, mais aussi et surtout comme des lieux de nouvelles formes
+							de conflits. »
+							</br><small>(traduction personnelle*)</small>
+							</br>
+							</br>
+						</p>
+					</div>
+					<div id="fondop2">
+						<small>Film Lumière n°91-Sortie d’usine, I - 1895</small></p>
+					</div>
+				</div>
+			</section>
+
+			<section data-background-image="fabrique/ingold2.jpg" data-background-size="1600px"
+				background-color="white">
+				<div id="fondop3" class="fragment">
+					<h6>3. L'introspection de l'<i>undercommons</i></h6>
+				</div>
+				<div id="fondop2">
+					<small><i>Thinking through Making</i></small>, Tim Ingold (2012) <i>renversé</i></p>
+				</div>
+			</section>
+
+			<section data-background-image="" data-background-size="1400px">
+				<div class="container">
+					<div class="containerbackground">
+						<p>« The wave is not an object, it's not a thing. It's the rythmic form of a
+							movement.
+							[...] And if I'm swimming in the waves, my body is the same. It's not an object, it's not a
+							thing.
+							It is a movement, or perhaps a bundle of movements. [...] and rythm is not a movement in
+							itself
+							but
+							a relation between movements. [...] So when I swimm, I'm setting up a set of relations
+							between
+							movements both of the water in a waves and of my body. [...] But that mean that know-how is
+							not
+							a
+							knowledge that is sunk cetimented into my body but is a movement in itself. »</p>
+
+					</div>
+					<div>
+						<p class="fragment" id="fondop3">« La vague n'est pas un objet, ce n'est pas une chose. C'est la
+							forme rythmique d'un mouvement. [...] Et si je nage dans les vagues, mon corps est le même.
+							Ce n'est pas un objet, ce n'est pas une chose. C'est un mouvement, ou peut-être un ensemble
+							de mouvements. [...] Donc quand je nage, j'établis un ensemble de relations entre les
+							mouvements à la fois de l'eau dans les vagues et de mon corps. [...] Mais cela signifie que
+							le savoir-faire n'est pas un savoir qui s'inscrit/s'enfonce dans mon corps mais un mouvement
+							en soi. »
+							</br><small>(traduction personnelle*)</small>
+							</br>
+							</br>
+						</p>
+					</div>
+
+				</div>
+			</section>
+
+			<section data-background-image="fabrique/Figure3.jpg" data-background-size="1200px"
+				background-color="#21211c">
+				<div class="container">
+					<div id="fondop3" class="containerbackground">
+						<p>
+							« While the punched card operators relied on the input of the scholars to guide the
+							transposition of
+							the text from container to container, so the scholars
+							relied on the keypunch operators to reify the Index Thomisticus and related texts as
+							scalable,
+							computable artefacts. One could not properly do their work without the other; both played
+							fundamental roles in the process of data capture and dataset elaboration. »
+							<small></br>(<i>Hidden and Devalued Feminized Labour in the Digital Humanities: On the Index
+									Thomisticus Project 1954-67</i>
+								, Nyhan, 84)</small>
+						</p>
+					</div>
+					<div>
+						<p class="fragment" id="fondop3">« Si les opératrices de cartes perforées dépendaient du travail
+							des chercheurs pour guider la transposition du texte d'un contenant à l'autre, les
+							chercheurs dépendaient également des opératrices de cartes perforées pour réifier l'Index
+							Thomisticus et les textes associés en tant qu'artefacts évolutifs et calculables. L'un ne
+							pouvait pas faire son travail sans l'autre ; tous deux ont joué un rôle fondamental dans le
+							processus de saisie et d'élaboration des ensembles de données. »
+							</br><small>(traduction personnelle*)</small>
+							</br>
+							</br>
+						</p>
+					</div>
+					<div id="fondop2">
+						<small>Index Thomisticus</i>, Livia Canestraro (1950-60)
+						</small>
+					</div>
+				</div>
+			</section>
+
+			<section data-background-image="fabrique/kittler4.jpg" data-background-size="1600px"
+				background-color="white">
+				<div id="fondop3" class="fragment">
+					<h6>4. L'exorcisme des sciences humaines</h6>
+				</div>
+				<div id="fondop2"><small><i>Friedrich Kittler mit Computer und Bibliothek in seiner Wohnung in
+							Berlin-Treptow</i>Source : M. Lengemann <i>renversé</i></small></div>
+			</section>
+
+
+			<section data-background-image="" data-background-size="1200px" background-color="#21211c">
+				<div class="container">
+					<div class="containerbackground">
+						<p>
+							« Wie wir alle wissen und nur nicht sagen, schreibt kein
+							Mensch mehr. »
+							<small></br>(« Es gibt keine Software », in <i>Draculas Vermächtnis. Technische
+									Schriften</i>
+								, Kittler, 226)</small>
+						</p>
+					</div>
+					<div>
+						<p class="fragment" id="fondop3">« Comme nous le savons tous, même si nous ne voulons pas nous
+							l’avouer, aucun être humain n’écrit plus. »
+							</br><small>(Kittler, « Le logiciel n’existe pas » [1993], in <i>Mode protégé</i>, trad.
+								F. Vargoz, p. 30.)</small>
+							</br>
+							</br>
+						</p>
+					</div>
+
+				</div>
+			</section>
+
+			<section data-background-image="fabrique/melange22.png" data-background-size="1600px"
+				background-color="white">
+				<div id="fondop3" class="fragment">
+					<h6>0.1.2.3.4. La désécriture des humanités</h6>
+				</div>
+			</section>
+
+			<section data-background-image="fabrique/melange2.png" data-background-size="1800px"
+				data-background-color="#f1eded">
+				<div id="fondop3" class="fragment">
+					<h6>Merci</h6>
+					<span><a href="https://www.zotero.org/groups/5106654/fabriquefabrique/library">References</a></span>
+					</br>
+
+
+					<iframe src="https://api.zotero.org/groups/5106654/items"></iframe>
+					</br>
+					</br>
+					<small><a href="https://blank.blue/">
+							Margot Mellet - Blank.blue
+						</a>
+						- Université de Montréal
+						</br><a href="https://twitter.com/mellet_m">@mellet_m</a>
+					</small>
+				</div>
+			</section>
+
+		</div>
+
+
+
+
+
+	</div>
+
+
+	<script src="lib/js/head.min.js"></script>
+	<script src="js/reveal.js"></script>
+
+	<script>
+		// Full list of configuration options available at:
+		// https://github.com/hakimel/reveal.js#configuration
+		Reveal.initialize({
+			controls: true,
+			progress: true,
+			history: true,
+			center: true,
+
+			transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+			// Optional reveal.js plugins
+			dependencies: [{
+					src: 'lib/js/classList.js',
+					condition: function () {
+						return !document.body.classList;
+					}
+				},
+				{
+					src: 'plugin/markdown/marked.js',
+					condition: function () {
+						return !!document.querySelector('[data-markdown]');
+					}
+				},
+				{
+					src: 'plugin/markdown/markdown.js',
+					condition: function () {
+						return !!document.querySelector('[data-markdown]');
+					}
+				},
+				{
+					src: 'plugin/highlight/highlight.js',
+					async: true,
+					condition: function () {
+						return !!document.querySelector('pre code');
+					},
+					callback: function () {
+						hljs.initHighlightingOnLoad();
+					}
+				},
+				{
+					src: 'plugin/zoom-js/zoom.js',
+					async: true
+				},
+				{
+					src: 'plugin/notes/notes.js',
+					async: true
+				}
+			]
+		});
+
+		var link = document.createElement('link');
+		link.rel = 'stylesheet';
+		link.type = 'text/css';
+		link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+		document.getElementsByTagName('head')[0].appendChild(link);
+
+		var slideIndex = 1;
+		showSlides(slideIndex);
+
+		function plusSlides(n) {
+			showSlides(slideIndex += n);
+		}
+
+		function currentSlide(n) {
+			showSlides(slideIndex = n);
+		}
+
+		function showSlides(n) {
+			var i;
+			var slides = document.getElementsByClassName("mySlides");
+			var dots = document.getElementsByClassName("dot");
+			if (n > slides.length) {
+				slideIndex = 1
+			}
+			if (n < 1) {
+				slideIndex = slides.length
+			}
+			for (i = 0; i < slides.length; i++) {
+				slides[i].style.display = "none";
+			}
+			for (i = 0; i < dots.length; i++) {
+				dots[i].className = dots[i].className.replace(" active", "");
+			}
+			slides[slideIndex - 1].style.display = "block";
+			dots[slideIndex - 1].className += " active";
+		}
+	</script>
+
+</body>
+
+</html>

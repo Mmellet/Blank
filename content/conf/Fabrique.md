@@ -2,7 +2,7 @@
 title: "Fabrique de la fabrique"
 subtitle: "Réflexion sur les pratiques et praticien.ne.s d'écriture dans les Humanités numériques"
 keywords: "humanités-numériques édition"
-date: 2023-05-27
+date: 2023-06-28
 bibFile: path/to/fabrique.json 
 ---
 

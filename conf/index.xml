@@ -8,7 +8,18 @@
     <language>en</language>
     <managingEditor>margot.mellet@umontreal.ca (Margot Mellet)</managingEditor>
     <webMaster>margot.mellet@umontreal.ca (Margot Mellet)</webMaster>
-    <lastBuildDate>Tue, 30 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blank.blue/conf/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 28 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blank.blue/conf/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fabrique de la fabrique</title>
+      <link>https://blank.blue/conf/fabrique/</link>
+      <pubDate>Wed, 28 Jun 2023 00:00:00 +0000</pubDate>
+      <author>margot.mellet@umontreal.ca (Margot Mellet)</author>
+      <guid>https://blank.blue/conf/fabrique/</guid>
+      <description>Présentation à Humanistica 2023 (Genève - 26-28 juin).
+Slides # ouvrir dans mon navigateur Texte # Je souhaite proposer ici une réflexion en cours, qui se veut aussi une exploration entre métaphore culinaire, soumise à vos digestions, et psychalyse, soumise à votre propre écoute.
+La pâte de ma recherche, c&amp;rsquo;est, comme pour beaucoup de littéraires, l&amp;rsquo;écriture mais appréhendée comme un faire, dans une perspective matérialiste, et dans la cuisine de cette obsession, le mot de fabrique me revient souvent en tête.</description>
+    </item>
+    
     <item>
       <title>What Lies under the Petites Mains: Reconsidering the Traditional Model of the Humanities</title>
       <link>https://blank.blue/conf/petitesmains-ccla/</link>
@@ -28,17 +39,6 @@ I choose to stick with the French expression, because it is difficult to transla
       <description>in CSDH2023 pannel - Collaboration et production du savoir : pour une herméneutique des structures.
 Slides # ouvrir dans mon navigateur Texte # [articulation]
 Dans cette idée que la pensée s&amp;rsquo;incarne toujours dans un contexte matériel, dont les caractéristiques viennent déterminer le sens, j&amp;rsquo;aimerai ici parler d&amp;rsquo;une réflexion en cours, une réflexion personnelle mais qui est également représentée par bien des études diverses et critiques : cette présentation s&amp;rsquo;aligne avec le propos théorique qui a été fait par Eugénie Matthey-Jonais et Marcello Vitali-Rosati, elle s&amp;rsquo;articule parce qu&amp;rsquo;elle est l&amp;rsquo;occasion de rappeler sur la table du savoir les petites mains, c&amp;rsquo;est-à-dire tout les acteurs subalternes, pour notre cas en humanités numériques, qui ont travaillé à façonner, à inscrire une connaissance à un endroit, dans un modèle, en tant qu&amp;rsquo;objet.</description>
-    </item>
-    
-    <item>
-      <title>Fabrique de la fabrique</title>
-      <link>https://blank.blue/conf/fabrique/</link>
-      <pubDate>Sat, 27 May 2023 00:00:00 +0000</pubDate>
-      <author>margot.mellet@umontreal.ca (Margot Mellet)</author>
-      <guid>https://blank.blue/conf/fabrique/</guid>
-      <description>Présentation à Humanistica 2023 (Genève - 26-28 juin).
-Slides # ouvrir dans mon navigateur Texte # Je souhaite proposer ici une réflexion en cours, qui se veut aussi une exploration entre métaphore culinaire, soumise à vos digestions, et psychalyse, soumise à votre propre écoute.
-La pâte de ma recherche, c&amp;rsquo;est, comme pour beaucoup de littéraires, l&amp;rsquo;écriture mais appréhendée comme un faire, dans une perspective matérialiste, et dans la cuisine de cette obsession, le mot de fabrique me revient souvent en tête.</description>
     </item>
     
     <item>

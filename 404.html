@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
-    <meta charset="UTF-8">
+<head>
+  <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="">
 <meta name="theme-color" content="#FFFFFF">
@@ -17,44 +17,71 @@
 
 
 <link rel="stylesheet" href="./book.min.5ce9d0951661229fc6588531c8f953e156fc32b3c74c6bd3cf84cfc96e965d1f.css" integrity="sha256-XOnQlRZhIp/GWIUxyPlT4Vb8MrPHTGvTz4TPyW6WXR8=">
-<script defer src="./en.search.min.8592fd2e43835d2ef6fab8eb9b8969ee6ad1bdb888a636e37e28032f8bd9887d.js" integrity="sha256-hZL9LkODXS72&#43;rjrm4lp7mrRvbiIpjbjfigDL4vZiH0="></script>
+<script defer src="./en.search.min.28b1da7397fb71cd549e03026ad705be1d5521b048f28ac3bb256c41a93b0c0c.js" integrity="sha256-KLHac5f7cc1UngMCatcFvh1VIbBI8orDuyVsQak7DAw="></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
 -->
   
-    
+  
 
-    <style>
-      .not-found {
-        text-align: center;
-      }
-      div{
-        background-color: palevioletred;
-      }
-      .not-found h1 {
-        margin: .25em 0 0 0;
-        opacity: .25;
-        font-size: 40vmin;
-      }
-    </style>
-  </head>
+  <style>
+    body {
+      margin: 0;
+      overflow: hidden;
+       
+    }
 
-  <body>
-    <main class="flex justify-center not-found">
-      <div>
-        <h1></h1>
-        <h2>Pas de panique, le monde est rempli de bestioles</h2>
-        <img src="./images/bug.jpg">
-        <div>First documented <em>bug</em> by Grace Hopper, Harvard University (9 september 1947)</div>
-      </br>
-        <h3>
-          <a href="./"></a>
-        </h3>
-      </div>
-    </main>
+    .container {
+      position: relative;
+       
+      width: 100%;
+      height: 100vh;
+    }
 
-    
+    .gif {
+      position: absolute;
+       
+      width: 200px;
+       
+      top: 50%;
+       
+      left: 50%;
+       
+      transform: translate(-0%, -50%);
+      animation: bouger 5s infinite alternate;
+       
+    }
+
+    @keyframes bouger {
+      0% {
+        transform: translate(-50%, -50%) translateX(0);
+      }
+
+      100% {
+        transform: translate(-50%, -50%) translateX(100px);
+         
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main class="flex justify-center not-found">
+    <div>
+      <h2 style="text-align: center;">Pas de panique, le monde est rempli de bestioles</h2>
+    </div>
+    <div style="text-align: center;">
+      <h3><a href="./">Retourner dans le sentier</a>
+      </h3>
+    </div>
+    <div class="container">
+      <img class="gif" src=".images/MyBug.gif" alt="Bug">
+    </div>
+   
+  </main>
+
+  
 <style>
  
 
@@ -170,7 +197,7 @@ Prism.languages.markup={comment:{pattern:/<!--(?:(?!<!--)[\s\S])*?-->/,greedy:!0
 Prism.languages.python={comment:{pattern:/(^|[^\\])#.*/,lookbehind:!0,greedy:!0},"string-interpolation":{pattern:/(?:f|fr|rf)(?:("""|''')[\s\S]*?\1|("|')(?:\\.|(?!\2)[^\\\r\n])*\2)/i,greedy:!0,inside:{interpolation:{pattern:/((?:^|[^{])(?:\{\{)*)\{(?!\{)(?:[^{}]|\{(?!\{)(?:[^{}]|\{(?!\{)(?:[^{}])+\})+\})+\}/,lookbehind:!0,inside:{"format-spec":{pattern:/(:)[^:(){}]+(?=\}$)/,lookbehind:!0},"conversion-option":{pattern:/![sra](?=[:}]$)/,alias:"punctuation"},rest:null}},string:/[\s\S]+/}},"triple-quoted-string":{pattern:/(?:[rub]|br|rb)?("""|''')[\s\S]*?\1/i,greedy:!0,alias:"string"},string:{pattern:/(?:[rub]|br|rb)?("|')(?:\\.|(?!\1)[^\\\r\n])*\1/i,greedy:!0},function:{pattern:/((?:^|\s)def[ \t]+)[a-zA-Z_]\w*(?=\s*\()/g,lookbehind:!0},"class-name":{pattern:/(\bclass\s+)\w+/i,lookbehind:!0},decorator:{pattern:/(^[\t ]*)@\w+(?:\.\w+)*/m,lookbehind:!0,alias:["annotation","punctuation"],inside:{punctuation:/\./}},keyword:/\b(?:_(?=\s*:)|and|as|assert|async|await|break|case|class|continue|def|del|elif|else|except|exec|finally|for|from|global|if|import|in|is|lambda|match|nonlocal|not|or|pass|print|raise|return|try|while|with|yield)\b/,builtin:/\b(?:__import__|abs|all|any|apply|ascii|basestring|bin|bool|buffer|bytearray|bytes|callable|chr|classmethod|cmp|coerce|compile|complex|delattr|dict|dir|divmod|enumerate|eval|execfile|file|filter|float|format|frozenset|getattr|globals|hasattr|hash|help|hex|id|input|int|intern|isinstance|issubclass|iter|len|list|locals|long|map|max|memoryview|min|next|object|oct|open|ord|pow|property|range|raw_input|reduce|reload|repr|reversed|round|set|setattr|slice|sorted|staticmethod|str|sum|super|tuple|type|unichr|unicode|vars|xrange|zip)\b/,boolean:/\b(?:False|None|True)\b/,number:/\b0(?:b(?:_?[01])+|o(?:_?[0-7])+|x(?:_?[a-f0-9])+)\b|(?:\b\d+(?:_\d+)*(?:\.(?:\d+(?:_\d+)*)?)?|\B\.\d+(?:_\d+)*)(?:e[+-]?\d+(?:_\d+)*)?j?(?!\w)/i,operator:/[-+%=]=?|!=|:=|\*\*?=?|\/\/?=?|<[<=>]?|>[=>]?|[&|^~]/,punctuation:/[{}[\];(),.:]/},Prism.languages.python["string-interpolation"].inside.interpolation.inside.rest=Prism.languages.python,Prism.languages.py=Prism.languages.python;
 
               </script>
-    
-  </body>
+  
+</body>
 
-  </html>
+</html>

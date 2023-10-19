@@ -3593,6 +3593,7 @@ le dark mode provient du site de Dan Abramov, MIT License
 et les outils :
 VsCodium Github Gandi pour le nom de domaine M&rsquo;ont aidé à construire cet espace : Antoine Fauchié et son carnet numérique quaternum, Enzo Poggio et David Larlet.
 `}),e.add({id:82,href:"/hypertexte/",title:"Hypertexte",section:"Pages",content:` Hypertextes # Mines à Mues # ouvrir dans mon navigateur
+Perdmens (un dégénérateur) # ouvrir dans mon navigateur
 `}),e.add({id:83,href:"/meditions/",title:"Meditions",section:"Pages",content:`Entre édition, méditations et médisances, les Méditions rassemblent une série d&rsquo;écritures sur la question des pratiques d&rsquo;édition vues et vécues de l&rsquo;intérieur.
 Ancienne Coordonnatrice d&rsquo;une revue en sciences humaines, coordonnatrice scientifique dans un laboratoire en écritures numériques, petite main, je témoigne justement par elles.
 À venir : Sommes-nous des Shiva ?, &ldquo;On veut du tout en un&rdquo;, Méditrices et sorcières, La secrétaire2.0.

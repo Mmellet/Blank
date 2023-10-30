@@ -7,6 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>margot.mellet@umontreal.ca (Margot Mellet)</managingEditor>
-    <webMaster>margot.mellet@umontreal.ca (Margot Mellet)</webMaster><atom:link href="https://blank.blue/categories/index.xml" rel="self" type="application/rss+xml" />
+    <webMaster>margot.mellet@umontreal.ca (Margot Mellet)</webMaster>
+    <atom:link href="https://blank.blue/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

@@ -1,6 +1,6 @@
 ---
 title: "Je n'ai plus les mots..."
-date: 2023-02-24
+date: 2024-02-24
 ---
 
 
@@ -39,7 +39,7 @@ C'est donc peut-être -- et enfin -- le temps de revenir sur ce que ce <strike s
 
 ## Dona Quichrie contre le double v(ent)
 
-Lors d'une conférence, je suis debout devant un pupitre, un café à la main pour me fournir contenance et contenant, et les machines devant moi miroitent sur les visages las d'écoute un cérémonieux halo .  
+Lors d'une conférence, je suis debout devant un pupitre, un café à la main pour me fournir contenance et contenant, et les machines devant moi miroitent sur les visages las d'écoute un cérémonieux halo.  
 
 W. c'est d'abord une occasion  <strike style='color:rgb(196, 43, 94);'><span class="rayure">infatigable</span></strike> inépuisable de râles personnels 
 

@@ -1,6 +1,6 @@
 ---
 title: "Je n'ai plus les mots"
-date: 2024-07-24
+date: 2027-07-24
 ---
 
 Chère Chaire, 
@@ -35,3 +35,9 @@ La chaire, j'ai même pensé à un moment de folie des grandeurs, c'est moi.
 
 Chaire, tu m'as fabriqué en un sens et je te dois bien une partie de mon insolence même si cette dernière te revient parfois en plein face. 
 
+
+c'est compliqué de savoir quelle a été ma contribution la plus importante 
+
+ou même de ce savoir ce que m'a apporté la chaire que je n'ai pas moi-même insufflé à l'intérieur
+
+alors je vais juste dire merci et les gens y verront ce qu'ils veulent. 

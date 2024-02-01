@@ -1,7 +1,7 @@
 ---
 title: "La fabrique en faire"
 description: "(faire)brique - 0"
-date: 2024-05-31
+date: 2027-05-31
 ---
 
 On peut considérer qu'à partir d'un premier échange d'informations réciproque, les mots entrent dans le domaine du dialogue. 

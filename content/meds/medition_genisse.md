@@ -1,6 +1,6 @@
 ---
 title: "Ni génisse ni génie"
-date: 2023-03-24
+date: 2027-03-24
 ---
 
 Derechef les petites mains chatouillent mes recherches et mes colères toutes personnelles. 

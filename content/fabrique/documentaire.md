@@ -1,6 +1,6 @@
 ---
 title: "C'est un peu comme faire sa thèse "
-date: 2024-02-06
+date: 2027-02-06
 ---
 
 En présentant dans un cadre non-universitaire mon approche de l'écriture recherche-création, on m'a fait la réflexion suivante : 

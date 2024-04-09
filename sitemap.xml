@@ -32,16 +32,28 @@
     <lastmod>2022-10-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blank.blue/</loc>
-    <lastmod>2024-01-22T00:00:00+00:00</lastmod>
+    <lastmod>2027-12-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blank.blue/meds/</loc>
+    <lastmod>2027-12-31T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blank.blue/cherches/</loc>
-    <lastmod>2024-01-22T00:00:00+00:00</lastmod>
+    <lastmod>2027-12-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blank.blue/fabrique/</loc>
+    <lastmod>2027-07-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blank.blue/conf/</loc>
+    <lastmod>2024-04-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blank.blue/conf/macerata/</loc>
+    <lastmod>2024-04-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blank.blue/meditions/je-nai-plus-les-mots.../</loc>
+    <lastmod>2024-02-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blank.blue/cherches/la-soutenance/</loc>
     <lastmod>2024-01-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blank.blue/conf/</loc>
-    <lastmod>2023-10-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blank.blue/conf/ccla-2023/</loc>
     <lastmod>2023-10-30T00:00:00+00:00</lastmod>
@@ -55,13 +67,7 @@
     <loc>https://blank.blue/conf/fabrique/</loc>
     <lastmod>2023-06-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blank.blue/fabrique/</loc>
-    <lastmod>2023-05-31T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blank.blue/fabrique/la-fabrique-a-faire/</loc>
-    <lastmod>2023-05-31T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blank.blue/meds/</loc>
     <lastmod>2023-05-31T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blank.blue/meditions/what-lies-under-the-petites-mains/</loc>
@@ -268,9 +274,9 @@
   </url><url>
     <loc>https://blank.blue/meditions/</loc>
   </url><url>
-    <loc>https://blank.blue/projects/</loc>
-  </url><url>
     <loc>https://blank.blue/publications/</loc>
+  </url><url>
+    <loc>https://blank.blue/test/</loc>
   </url><url>
     <loc>https://blank.blue/categories/</loc>
   </url><url>

@@ -8,7 +8,7 @@
     <language>en</language>
     <managingEditor>margot.mellet@umontreal.ca (Margot Mellet)</managingEditor>
     <webMaster>margot.mellet@umontreal.ca (Margot Mellet)</webMaster>
-    <lastBuildDate>Mon, 22 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 09 Apr 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://blank.blue/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Index</title>
@@ -79,6 +79,20 @@
       <pubDate>Sun, 30 Oct 2022 00:00:00 +0000</pubDate><author>margot.mellet@umontreal.ca (Margot Mellet)</author>
       <guid>https://blank.blue/hide/index-ancien/</guid>
       <description>Captatio : où on commence une écriture filée autour de l&amp;rsquo;atelier d&amp;rsquo;écriture&#xA;Le deal et le labyrinthe L&amp;rsquo;Éther où on propose un imaginaire pour entrer dans la question du texte et traiter de notre principale problématique, à savoir l&amp;rsquo;abstraction des littératures &amp;amp; où on fait le portrait trait pour trait de l&amp;rsquo;abstraction au-travers des âges de la littérature&#xA;Premier chapitre - Fabrique de la pensée où on va établir avec moult références le cadre théorique et se rendre compte qu&amp;rsquo;un réseau de discours se forme</description>
+    </item>
+    <item>
+      <title>Secretary and Boss agree: Reflection on the Good Literary Machines</title>
+      <link>https://blank.blue/conf/macerata/</link>
+      <pubDate>Tue, 09 Apr 2024 00:00:00 +0000</pubDate><author>margot.mellet@umontreal.ca (Margot Mellet)</author>
+      <guid>https://blank.blue/conf/macerata/</guid>
+      <description>Slides # ouvrir dans mon navigateur Title : Secretary and Boss agree Subtitle : Thoughts on the Good Literary Machines Texte # coming</description>
+    </item>
+    <item>
+      <title>Je n&#39;ai plus les mots...</title>
+      <link>https://blank.blue/meditions/je-nai-plus-les-mots.../</link>
+      <pubDate>Sat, 24 Feb 2024 00:00:00 +0000</pubDate><author>margot.mellet@umontreal.ca (Margot Mellet)</author>
+      <guid>https://blank.blue/meditions/je-nai-plus-les-mots.../</guid>
+      <description>Ceci est le Premier temps d&amp;rsquo;un duo Pour aller voir directement le partenaire&#xA;Lorsque j&amp;rsquo;écris, je suis assise, dans un café pour me fournir courage et application, et toutes les machines autour de moi reflètent sur les faces concentrées à la caféine un vif éclair blanc.&#xA;Cet environnement qui s&amp;rsquo;ouvre sur les écrans de les visages-voisins de table, je le connais, c&amp;rsquo;est toujours le même, il revient en tout temps, c&amp;rsquo;est Word1.</description>
     </item>
     <item>
       <title>La soutenance</title>
@@ -614,17 +628,17 @@
     </item>
     <item>
       <title></title>
-      <link>https://blank.blue/projects/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>margot.mellet@umontreal.ca (Margot Mellet)</author>
-      <guid>https://blank.blue/projects/</guid>
-      <description>Je consacre ma recherche et ma création aux questions de matérialités textuelles et d&amp;rsquo;édition numérique.</description>
-    </item>
-    <item>
-      <title></title>
       <link>https://blank.blue/publications/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>margot.mellet@umontreal.ca (Margot Mellet)</author>
       <guid>https://blank.blue/publications/</guid>
       <description>Publications # Écranen Travaux&#xA;Recherche # Librairie Zotero&#xA;Essais # Le dispositif visiophonique comme lieu de rencontre Des signatures à soi Marguerite par Marguerite Articles # Penser le palimpseste numérique Le projet d’édition numérique Écrire les SHS en environnement numériqueL&#39;éditeur de texte Stylo Editorializing the Greek Anthology: The palatin manuscript as a collective imaginary L’épopée numérique de l’Anthologie grecque : entre questions épistémologiques, modèles techniques et dynamiques collaboratives Chapitres de livres # Éditorialiser l’Anthologie grecque.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://blank.blue/test/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>margot.mellet@umontreal.ca (Margot Mellet)</author>
+      <guid>https://blank.blue/test/</guid>
+      <description> B l a n k </description>
     </item>
     <item>
       <title>Espace de blobs spontanés</title>

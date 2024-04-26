@@ -22,11 +22,7 @@ Subtitle : Les petites mains des éditions numériques
 
 # Texte
 
-Je m'excuse, je me suis permise d'ajouter une section à mon titre pour qu'il soit un peu plus fun, 
-
-    je sais pas si c'est le cas mais j'aurai essayé au moins
-
-Dans le cadre de ce pannel présentant plusieurs problématiques sur les futurs des écritures numériques, je souhaite partager ici une réflexion que je poursuis depuis quelques temps, 
+Dans le cadre du pannel présentant plusieurs problématiques sur les futurs des écritures numériques, je souhaite partager ici une réflexion que je poursuis depuis quelques temps, 
 
     réflexion qui émerge d'expériences de travail d'édition, de la coordination d'une revue en sciences humaines, notamment à la chaire de recherche du canada sur les écritures numériques
 
@@ -34,7 +30,7 @@ Réflexion qui se résume par la notion de petites mains.
 
 -- 
 
-[clic]
+
 
 Point 0. de ma présentation
 
@@ -48,7 +44,7 @@ Les petites mains, c'est une formule inscrite dans le langage courant, et c'est 
 
 ---
 
-[clic]
+
 
 À l'origine, au XVII^e^ siècle, les petites mains désignaient cet ensemble de travailleurs et surtout de travailleuses dans les usines de couture, des ouvrières qui étaient sous les ordres des premières mains qui délégaient aux petites mains des tâches particulièrement longues, minitieuses, plutôt rudes et répétitives : 
 
@@ -74,7 +70,7 @@ Dans le cadre de ma recherche, je me focalise sur la catégories des éditeurs �
 
 --- 
 
-[clic]
+
 
 Les petites mains des humanités et sciences sociales, ce sont ces mains qui vont avoir les phalanges dans la machine, dans le dispositif éditorial, des mains à qui des premières mains 
 
@@ -86,7 +82,7 @@ La discrétion dont j'ai parlé plus tôt et qui est une synonymie initiale de l
 
 --- 
 
-[clic]
+
 
 Ce qui permet de révéler un paradoxe sur lequel je finis le temps 0 de ma présentation : les sciences humaines appréhendent les connaissances par le prisme de l'humain, or le modèle épistémologique / scientifique dominant – qui est largement hérité d’une tradition académique logocentrée et anthropocentrée – exclut les petites mains, donc les acteurs / les humains au creux et au coeur d'un processus, les exclut du paradigme de l'émergence de la pensée en sciences humaines.
 
@@ -94,7 +90,7 @@ Comme j'ai déjà pu communiquer à plusieurs reprises sur cette notion de petit
 
 --- 
 
-[clic]
+
 
 1. Faire ou penser, il faut choisir
 
@@ -106,7 +102,7 @@ Il y a donc, et c'est cette première caractéristique que j'aimerai approfondir
 
 --- 
 
-[clic]
+
 
 Dans nos modes de connaissances, dans l'approche des études littéraires, il y a un schéma qui apparaît comme prédominant et qui revient à considérer que nous pensons d'abord pour faire ensuite. 
 
@@ -124,7 +120,7 @@ Par ricochet, dans cette perspective, les petites mains, les assistances de rech
 
 ---- 
 
-[clic]
+
 
 comme je me suis engagée à renouveler en recyclant ma réflexion sans radoter, je vous propose pour illustrer cette idée, de raconter l'histoire d'un projet qui est considéré comme la genèse des Humanités numériques. Comme le dit avec une certaine ironie Unsworth, 
 
@@ -148,7 +144,7 @@ bien sûr il y a plus à dire et à redire sur ce conte, et les travaux de Melis
 
 C'est notamment à l'observation des photos d'archives du projet, que ces chercheurs se sont interrogé : 
 
-[clic]
+
 
         c'est qui ça dans l'histoire ? 
         (parce que tous les autres individus on sait qui sait, on a leurs noms)
@@ -169,13 +165,13 @@ les compères d'IBM n'ont pas encodé l'Index
 
 --- 
 
-[clic]
+
 
 Le schéma énoncé au départ se heurte à un mur, au réel en fait, à la matérialité des connaissances. 
 
 Nouvelle histoire de la genèse des humanités numériques donc. 
 
-[clic]
+
 
 Il était une fois 65 jeunes femmes italiennes qui, après avoir suivi une formation en dactylographie ont été recrutées pour participer à un grand projet d'indexation dirigé par un certain père jésuite. 
 
@@ -195,7 +191,7 @@ La légende raconte que plusieurs d'entre elles n'ont pas retrouvé de travail e
 
 ---
 
-[clic]
+
 
 L'encodage des cartes perforées *fait* le projet de l'Index. L'Index existe parce que des mains ignorées par l'histoire ont encodé. 
 
@@ -217,11 +213,11 @@ il y a des petites mains, des tables, des machines, et du café (beaucoup de caf
 
 --- 
 
-[clic]
+
 
 [re] nouvelle histoire de la genèse des humanités numériques donc
 
-[clic]
+
 
 Durant de longs jours, en Italie, dans un ancien atelier de couture, un chercheur dont le nom est passé à la postérité et de nombreuses opératrices formées à l'encodage ont collaboré dans le cadre d'un projet d'indexation des oeuvres d'un certain philosophe du XIIIe siècle. 
 
@@ -233,7 +229,7 @@ Cette collaboration impliquant également d'autres acteurs subventionnaires comm
 
 --- 
 
-[clic]
+
 
 2. 
 
@@ -255,7 +251,7 @@ sont des exceptions qui cachent en réalité une foules de chercheures, d'assist
 
 --- 
 
-[clic]
+
 
 Comment décrypter ces romans, quel est le levier narratif ? 
 
@@ -269,7 +265,7 @@ donc le dragon des petites mains, ce n'est pas la qustion de la nature de la tâ
 
 --- 
 
-[clic]
+
 
 le modèle qui considère que la pensée émerge d'une psychée unique hors de ses conditions concrètes et physiques d'existence. 
 
@@ -285,7 +281,7 @@ Livia et Moi nous faisons, nous sommes des petites mains
 
 --- 
 
-[clic]
+
 
 pour expliciter cette idée de la posture, j'ajoute un récit, qui est personnel, que j'ai pu partager autour d'un café ou d'un plat de pâtes et que j'avoue ici un peu plus officiellement
 
@@ -311,7 +307,7 @@ la seule chose qui a changé c'est le nom, c'est la posture que ce nom incarne.
 
 --- 
 
-[clic]
+
 
 Je rassure, l'usurpation a pris fin, j'ai notamment arrêté de signer mes courriels avec le nom de Mark au moment où les auteurs ont commencé à affabuler : plusieurs d'entre eux ont en effet supputé que Margot avec qui ils avaient auparavant échangé était la femme de Mark, 
 
@@ -328,7 +324,7 @@ parfois cependant je reprends ce nom, vous en serez averti si vous le voyez pass
 
 --- 
 
-[clic]
+
 
 3. La frontière
 
@@ -346,7 +342,7 @@ C'est ce que j'ai également remarqué dans mon expérience de l'usurpation : mo
 
 --- 
 
-[clic]
+
 
 Je ne savais pas trop comment finir, mais pour anticiper la question qu'on pourrait me poser : 
 
@@ -377,7 +373,7 @@ le problème, c'est la frontière, c'est la définition de ce que l'on considèr
 
 -- 
 
-[clic]
+
 
 la question sur laquelle je finirai et qui me semble porter sa propre réponse lorsqu'on se la pose régulièrement, chaque matin, comme un café habituel, c'est celle-ci : 
 
@@ -385,6 +381,3 @@ la question sur laquelle je finirai et qui me semble porter sa propre réponse l
 
 Le futur des écritures numériques, le futur des struturations de la connaissance, des littératures comme pratiques et métiers, ce n'est pas, en tout cas je l'espère, devoir usurper un avatar masculin pour être entendu, pour pouvoir penser en corrigeant la virgule, il me semble plutôt que c'est questionner nos modèles et nos biais récursifs. 
 
-[clic]
-
-merci

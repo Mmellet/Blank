@@ -1556,39 +1556,31 @@ Le deal et le labyrinthe L&rsquo;Éther où on propose un imaginaire pour entrer
 Premier chapitre - Fabrique de la pensée où on va établir avec moult références le cadre théorique et se rendre compte qu&rsquo;un réseau de discours se forme
 Machine littéraire où on présente le texte comme une machine médiatique qui n&rsquo;est pas seulement dirigé par le primat de la lisibilité How to deal with Text L&rsquo;image du texte La trace du média Medium is Media : où on développe la question du média et notamment on essaye de trouver une solution au problème de balancement entre une part active du média et l&rsquo;essentialisation déterministe du média In media res #creation &amp; #creation où on fait une table rase du média et où la réflexion avance par étape de création ou recréation d&rsquo;une image du média Le réel du média où on se posera ici la question de savoir de quoi le média est la médiation et on présentera plus en détail la pensée de l&rsquo;intermédialité La mort du média où on développera sur les pensées récentes des médias et définira notre posture vis-à-vis du média Matières d&rsquo;écritures : où on développe notre hypothese de recherche et où on va introduire la thématique du palimpseste par l&rsquo;analyse de cas d&rsquo;écriture qui mettent la matière du texte comme clef littéraire L&rsquo;édition création où on présente les armes éditorialisation et énonciation éditoriale apposé à des objets textes ayant déplacé la question du texte vers sa mise en page À chacun sa glaise L(&rsquo;)être où on pose la question ontologique entre quid du contenu et contenant Deuxième chapitre - Titre à trouver : où on présente tous les projets sur lesquels on a travaillé depuis 5 ans pour donner des cadres concrêts de recherche et création qui répondent aux problématiques énoncées dans le chapitre 1
 Les petites mains : où on développe la figure du scribe, de la secrétaire, en traitant des principes épistémologiques en action qui reconduisent un sexisme technique mais aussi des questions d&rsquo;autorité et un imaginaire de la tour d&rsquo;ivoire Uncreative et Unoriginal, tout pour plaire : où pour la question de l&rsquo;autorité et traiter le modèle du communs, on articule l&rsquo;Uncreative writing de Goldsmith et l&rsquo;Unorgininal genius : écriture sans écriture de Bon comme une perspective de la recherche-création Le détournement technique Troisième chapitre : Le Palimpseste : où on développe le cadre méthologique du palimpseste qui permet de résumer toutes les dimensions des forces en action
-Histoire et glissement de sens d&rsquo;un terme à multiples recouvrements : où on présente plus en détail un terme et ses problématiques sémantiques Images techniques et plasticité de l&rsquo;écriture : où on développe le rapport recherche-création que l&rsquo;on a vis-à-vis du texte numérique pour le placer en continuité avec les études des médias Méthodologie : où on énonce plus clairement le palimpseste comme une méthode et on revient sur les coulisses techniques de la présente recherche Le Care technique : où on développe un nouvel imaginaire du texte où la procédure est l&rsquo;écriture `}),e.add({id:10,href:"/conf/lqm/",title:"Elles font, font, (dé)font et puis s’en vont",section:"Confs",content:` Slides # ouvrir dans mon navigateur Title : Elles font, font, (dé)font et puis s’en vont Subtitle : Les petites mains des éditions numériques Texte # Je m&rsquo;excuse, je me suis permise d&rsquo;ajouter une section à mon titre pour qu&rsquo;il soit un peu plus fun,
-je sais pas si c'est le cas mais j'aurai essayé au moins Dans le cadre de ce pannel présentant plusieurs problématiques sur les futurs des écritures numériques, je souhaite partager ici une réflexion que je poursuis depuis quelques temps,
+Histoire et glissement de sens d&rsquo;un terme à multiples recouvrements : où on présente plus en détail un terme et ses problématiques sémantiques Images techniques et plasticité de l&rsquo;écriture : où on développe le rapport recherche-création que l&rsquo;on a vis-à-vis du texte numérique pour le placer en continuité avec les études des médias Méthodologie : où on énonce plus clairement le palimpseste comme une méthode et on revient sur les coulisses techniques de la présente recherche Le Care technique : où on développe un nouvel imaginaire du texte où la procédure est l&rsquo;écriture `}),e.add({id:10,href:"/conf/lqm/",title:"Elles font, font, (dé)font et puis s’en vont",section:"Confs",content:` Slides # ouvrir dans mon navigateur Title : Elles font, font, (dé)font et puis s’en vont Subtitle : Les petites mains des éditions numériques Texte # Dans le cadre du pannel présentant plusieurs problématiques sur les futurs des écritures numériques, je souhaite partager ici une réflexion que je poursuis depuis quelques temps,
 réflexion qui émerge d'expériences de travail d'édition, de la coordination d'une revue en sciences humaines, notamment à la chaire de recherche du canada sur les écritures numériques Réflexion qui se résume par la notion de petites mains.
 &ndash;
-[clic]
 Point 0. de ma présentation
 D&rsquo;abord une explication sur ce que l&rsquo;on entend par petite main.
 Les petites mains, c&rsquo;est une formule inscrite dans le langage courant, et c&rsquo;est d&rsquo;ailleurs dans ce cadre que je l&rsquo;ai remarqué,
-au détour d'une conversation autour d'un plat de pâtes, très bonnes par ailleurs [clic]
-À l&rsquo;origine, au XVII^e^ siècle, les petites mains désignaient cet ensemble de travailleurs et surtout de travailleuses dans les usines de couture, des ouvrières qui étaient sous les ordres des premières mains qui délégaient aux petites mains des tâches particulièrement longues, minitieuses, plutôt rudes et répétitives :
+au détour d'une conversation autour d'un plat de pâtes, très bonnes par ailleurs À l&rsquo;origine, au XVII^e^ siècle, les petites mains désignaient cet ensemble de travailleurs et surtout de travailleuses dans les usines de couture, des ouvrières qui étaient sous les ordres des premières mains qui délégaient aux petites mains des tâches particulièrement longues, minitieuses, plutôt rudes et répétitives :
 des tâches jugées en somme comme ingrates. Au cours, des siècles, le terme se déplace, il devient un trope en littérature pour parler des mains blanches des vierges ou des mains des enfants,
 donc des mains principalement discrètes, physiquement discrètes, et qui sont mues par d'autres volontés et par d'autres mains, en particulier par des index masculins L&rsquo;imaginaire des petites mains est imprégné de question de hiérarchie, de subordination, et est majoritairement un imaginaire qui va engager des figures féminines.
 (il y a d&rsquo;ailleurs à Montréal une association Les petites mains qui est une association qui vient en aide aux femmes immigrées dans l&rsquo;insertion professionnelle)
 Les petites mains sont donc très proches de ce que l&rsquo;on appelle les subalternes, c&rsquo;est très large aussi parce que cela peux comprendre énormément de réalités, les travailleurs travailleuses invisibles, ceux qui sont appelés les turcs de grandes compagnies comme Amazon, mais également dans le cas des sciences humaines, l&rsquo;ensemble des métiers des éditeurs éditrices ou relecteurs relectectrices qui sont considérés à titre d&rsquo;artisans de l&rsquo;écriture.
 Dans le cadre de ma recherche, je me focalise sur la catégories des éditeurs éditrices et plus largement des personnes travaillant au sein de projets en édition et en Humanités numériques.
-[clic]
 Les petites mains des humanités et sciences sociales, ce sont ces mains qui vont avoir les phalanges dans la machine, dans le dispositif éditorial, des mains à qui des premières mains
 celles de l'auteur, de l'intellectuel, du patron vont déléguer des tâches longues, minitieuses mais surtout considérées comme insignifiantes, c&rsquo;est-à-dire jugées comme non-décisives, comme non-significatives dans la réalisation, la conception, l&rsquo;établissement d&rsquo;une connaissance.
 La discrétion dont j&rsquo;ai parlé plus tôt et qui est une synonymie initiale de la petite main, elle s&rsquo;active ici en ce qu&rsquo;elle place la petite main dans ce que Waquet a appelé les coulisses de la science.
-[clic]
 Ce qui permet de révéler un paradoxe sur lequel je finis le temps 0 de ma présentation : les sciences humaines appréhendent les connaissances par le prisme de l&rsquo;humain, or le modèle épistémologique / scientifique dominant – qui est largement hérité d’une tradition académique logocentrée et anthropocentrée – exclut les petites mains, donc les acteurs / les humains au creux et au coeur d&rsquo;un processus, les exclut du paradigme de l&rsquo;émergence de la pensée en sciences humaines.
 Comme j&rsquo;ai déjà pu communiquer à plusieurs reprises sur cette notion de petites mains, pour éviter de radoter mais tout de même recycler (je m&rsquo;en excuse), je voulais essayer d&rsquo;aborder ici la question sous un angle lègérement différent, sous l&rsquo;angle du roman, des romans que nous aimons nous faire ou défaire sur nos sciences, nos histoires et nos humanités.
-[clic]
 Faire ou penser, il faut choisir Une tâche de petite main, pour le résumer ainsi, c&rsquo;est une tâche dont toute personne qui pense ne veut/fait pas.
 Il y a donc, et c&rsquo;est cette première caractéristique que j&rsquo;aimerai approfondir et interroger, il y a cette distinction très claire entre penser et faire dans une conception de la littérature,
-ce qui reprend un peu ce qui a été dit par Marcello en amont. [clic]
-Dans nos modes de connaissances, dans l&rsquo;approche des études littéraires, il y a un schéma qui apparaît comme prédominant et qui revient à considérer que nous pensons d&rsquo;abord pour faire ensuite.
+ce qui reprend un peu ce qui a été dit par Marcello en amont. Dans nos modes de connaissances, dans l&rsquo;approche des études littéraires, il y a un schéma qui apparaît comme prédominant et qui revient à considérer que nous pensons d&rsquo;abord pour faire ensuite.
 Comme le dit l&rsquo;anthropologue Ingold qui développé une approche culturelle du faire et une méthode de pointage efficace avec le double index : theory leads and practice follows.
 Prenons ce credo comme une structure narrative : si un jour nous parvenons à faire,
 à bien faire, c&rsquo;est parce que nous avons pensé en amont.
 autrement dit le faire suit la pensée comme un cortège.
 Par ricochet, dans cette perspective, les petites mains, les assistances de recherche, les secrétaires, ne sont pas au début du processus de production et d&rsquo;émergence de la pensée, elles sont en bout de chaîne parce qu&rsquo;elles relèvent du faire.
-[clic]
 comme je me suis engagée à renouveler en recyclant ma réflexion sans radoter, je vous propose pour illustrer cette idée, de raconter l&rsquo;histoire d&rsquo;un projet qui est considéré comme la genèse des Humanités numériques. Comme le dit avec une certaine ironie Unsworth,
 La plupart des disciplines ne peuvent pas identifier un seul géniteur, et encore moins un géniteur divin, mais les humanités numériques, elles, ont le père Busa.
 Il était donc une fois l&rsquo;Index Thomisticus.
@@ -1598,14 +1590,11 @@ Après 34 ans de labeur et d&rsquo;encodage, l&rsquo;Index Thomisticus voit le j
 [fin]
 bien sûr il y a plus à dire et à redire sur ce conte, et les travaux de Melissa Terras, Julianne Nyhan et Steven Jones ont justement fait état des coulisses de ce beau roman des humanités numériques.
 C&rsquo;est notamment à l&rsquo;observation des photos d&rsquo;archives du projet, que ces chercheurs se sont interrogé :
-[clic]
 c'est qui ça dans l'histoire ? (parce que tous les autres individus on sait qui sait, on a leurs noms) quels sont ces protagonistes que je ne saurais voir et que pendant longtemps les recherches sur le projet n'ont pas vu ? que les recherches ont pris comme faisant parti du paysage, comme des figurants / des figurines ? et dit comment il a encodé son Index Busa ? [&hellip;]
 c&rsquo;est le moment du petit bug dans l&rsquo;histoire, puisque Busa n&rsquo;a pas encodé l&rsquo;Index
 les compères d&rsquo;IBM n&rsquo;ont pas encodé l&rsquo;Index
-mais pourtant l'Index c'est bien l'encodage non ? mais c'est pas Busa qui a encodé ? mais c'est quand même le projet de Busa, père des humanités numériques qui a reçu un prix à son nom ? [clic]
-Le schéma énoncé au départ se heurte à un mur, au réel en fait, à la matérialité des connaissances.
+mais pourtant l'Index c'est bien l'encodage non ? mais c'est pas Busa qui a encodé ? mais c'est quand même le projet de Busa, père des humanités numériques qui a reçu un prix à son nom ? Le schéma énoncé au départ se heurte à un mur, au réel en fait, à la matérialité des connaissances.
 Nouvelle histoire de la genèse des humanités numériques donc.
-[clic]
 Il était une fois 65 jeunes femmes italiennes qui, après avoir suivi une formation en dactylographie ont été recrutées pour participer à un grand projet d&rsquo;indexation dirigé par un certain père jésuite.
 Pendant de longues années, les 65 opératrices encodèrent minitieusement les cartes perforées sous la direction lointaine d&rsquo;un homme qui lui n&rsquo;a jamais touché la machine.
 Si pour la plupart, elles n&rsquo;étaient pas au fait du projet fomanté par le père jésuite, certaine d&rsquo;entre elles cependant ont eu un rôle particulièrement déterminant, comme Livia Canestraro qui avait pris la coordination de l&rsquo;équipe des opératrices.
@@ -1613,7 +1602,6 @@ Ayant remarqué l&rsquo;impact qu&rsquo;avait la jeune femme sur ses plans, le p
 L&rsquo;histoire n&rsquo;aura pas retenu le nom de toutes ces femmes, leurs rôles et implications n&rsquo;ont pas été inscrites dans les archives du projet,
 ironie pour un projet consacré à la thématique de la présence La légende raconte que plusieurs d&rsquo;entre elles n&rsquo;ont pas retrouvé de travail en édition par la suite.
 [fin]
-[clic]
 L&rsquo;encodage des cartes perforées fait le projet de l&rsquo;Index. L&rsquo;Index existe parce que des mains ignorées par l&rsquo;histoire ont encodé.
 Ce qui nous mène au retournement de notre structure de narration classique : ce que Ingold a nommé par Thinking through making.
 Le faire ne suit pas le cortège de la pensée comme un dernier wagon, il est au contraire en début de chaîne.
@@ -1621,34 +1609,28 @@ Selon Ingold, la connaissance émerge parce qu&rsquo;il y a eu un geste, une act
 L&rsquo;émergence de la connaissance ne relève pas d&rsquo;un unique acteur qui s&rsquo;est levé un matin du bon pied et a eu une idée, elle ne peut se résumer aux ordres lointains qu&rsquo;a donné un père à de nombreuses filles même si cela fait de beaux romans,
 On peut donc briser les mythes
 il n'y a pas de murmure des muses, il n'y a pas de génie, il n'y a pas d'illumination hors de celles des écrans, des ampoules ou des chandelles pour les plus anciens, il y a des petites mains, des tables, des machines, et du café (beaucoup de café).
-[clic]
 [re] nouvelle histoire de la genèse des humanités numériques donc
-[clic]
 Durant de longs jours, en Italie, dans un ancien atelier de couture, un chercheur dont le nom est passé à la postérité et de nombreuses opératrices formées à l&rsquo;encodage ont collaboré dans le cadre d&rsquo;un projet d&rsquo;indexation des oeuvres d&rsquo;un certain philosophe du XIIIe siècle.
 Cette collaboration impliquant également d&rsquo;autres acteurs subventionnaires comme les représentants du royaume IBM, a établi les bases de principes de collaboration entre expertises pour donner un champs disciplinaire qui sera nommé les humanités numériques.
 [des recherches sont toujours en cours pour identifier les opératices]
 [fin pour l&rsquo;instant]
-[clic]
 parlons donc de cet héritage aux humanités numériques, pour voir comment la légende a perduré.
 Parce qu&rsquo;elles se sont proposées comme un nouveau champs de connaissance, on aurait pu penser que les humanités numériques auraient été l&rsquo;occasion parfaite pour constituer un tiers lieu, un espace pour discuter et réformer un modèle scientifique, explorer d&rsquo;autres dynamiques de répartition des tâches&hellip; mais à bien des égards, les biais se répètent comme des refrains.
 Des assistantes personnelles d&rsquo;écritures, ce que j&rsquo;ai appelé les épouses des plumes, en passant par les humans computers, jusqu&rsquo;aux premiers agents conversationnels qui sont des implémentations de la secrétaire 2.0, il y a un principe de service / de mise au service qui est apposé au féminin.
 Isabelle Collet qui a étudié le sexisme dans les milieux informatiques, a justement cette formule, elle parle d&rsquo;auto-engendrement des informaticiens pour décrire la tendance qui a parcouru toutes les sciences computationnelles puis numériques, cette tendance pour les chercheurs hommes à vouloir créer, imaginer, romancer une figure idéale de l&rsquo;informaticien, un destin, un profil.
 Dans ce roman transversal, des figures comme celle d&rsquo;Ada Lovelace, Mary Grace Hopper, ou Margaret Hamilton,
 sont des exceptions qui cachent en réalité une foules de chercheures, d&rsquo;assistances, de petites mains qui ont non seulement participé à établir un champ de connaissance mais qui l&rsquo;on fait exister à un moment où les hommes n&rsquo;étaient pas disponibles pour bien des raisons valables par ailleurs :
-guerre, politique, migraine, etc. [clic]
-Comment décrypter ces romans, quel est le levier narratif ?
+guerre, politique, migraine, etc. Comment décrypter ces romans, quel est le levier narratif ?
 Comment expliquer comme le remarque Isabelle Collet, que les femmes présentes à 30% dans les milieux informatiques entre 1940 et 1980, le sont à 15% à partir des années 2000 ?
 Le levier de ces flux c&rsquo;est la noblesse de la tâche. Dès qu&rsquo;une tâche est rabaissée à un domaine du simple-faire, à un domaine tertiaire, elle est accessible aux femmes et, j&rsquo;ajoute, aux machines.
 mais à partir du moment où les métiers informatiques sortent du domaine du tertiaire, dans les années 80, alors il y a une récupération masculine des espaces et des récits.
 donc le dragon des petites mains, ce n&rsquo;est pas la qustion de la nature de la tâche, ce n&rsquo;est pas un problème d&rsquo;invisibilisation (ça c&rsquo;est un symptôme), le diable se situe dans le modèle.
-[clic]
 le modèle qui considère que la pensée émerge d&rsquo;une psychée unique hors de ses conditions concrètes et physiques d&rsquo;existence.
 le modèle qui est donc épistémologique mais qui est aussi culturel parce que comme un metteur en scène, il attribue une posture à des protagonistes
 Donc quand Marcello corrige une virgule dans un texte,
 ce n&rsquo;a pas la même chose, cela n&rsquo;a pas la même portée que lorsque Margot ou Livia corrige une virgule dans un texte, même si c&rsquo;est le même texte, la même virgule.
 Marcello il pense par la virgule, il est un auteur, il change le monde
 Livia et Moi nous faisons, nous sommes des petites mains
-[clic]
 pour expliciter cette idée de la posture, j&rsquo;ajoute un récit, qui est personnel, que j&rsquo;ai pu partager autour d&rsquo;un café ou d&rsquo;un plat de pâtes et que j&rsquo;avoue ici un peu plus officiellement
 Dans le cadre de mon travail en tant que coordinatrice de la revue Sens public, j&rsquo;ai usurpé le nom d&rsquo;un homme.
 Alors à ma défense, je ne savais pas avant de prendre le nom de Mark Mellet qu'un chercheur spécialiste en biologie marine dans les cercles polaires existait sous le même nom. donc j&rsquo;ai usé d&rsquo;un autre nom dans mon échange avec les auteurs de la revue pour le suivi, l&rsquo;édition et la publication de leur travail.
@@ -1658,18 +1640,15 @@ Margot n&rsquo;était pas efficace : elle demande des choses à faire sur l&rsqu
 Mark en revanche : Mark c&rsquo;est celui à qui on envoie les bibliographies au bon format, celui dont on écoute les demandes, celui avec qui on n&rsquo;essaye pas de marchander, celui dont on ne remet pas en cause ni la présence ni la compétence&hellip;
 et pourtant dans ce récit, les tâches, les interlocuteurs demeuraient les mêmes,
 la seule chose qui a changé c&rsquo;est le nom, c&rsquo;est la posture que ce nom incarne.
-[clic]
 Je rassure, l&rsquo;usurpation a pris fin, j&rsquo;ai notamment arrêté de signer mes courriels avec le nom de Mark au moment où les auteurs ont commencé à affabuler : plusieurs d&rsquo;entre eux ont en effet supputé que Margot avec qui ils avaient auparavant échangé était la femme de Mark,
 des romans très inventifs et que Mark avait bien gentiment laissé Margot s&rsquo;impliquer dans la revue.
 ça devenait problématique parce que non seulement j'usurpais un nom mais en plus je foutais le bazard dans un ménage... échapper à la secrétaire, vous tombez dans l'épouse parfois cependant je reprends ce nom, vous en serez averti si vous le voyez passer sur les listes dh, je le reprends quand il me semble que la frontière doit être franchie pour être entendue.
-[clic]
 La frontière et justement,
 J&rsquo;en arrive dans un dernier temps à parler de ce qui me semble cristaliser ces romans, la frontière, soit la délimitation d&rsquo;un rôle vis-à-vis d&rsquo;un autre, d&rsquo;une ontologie par rapport à une autre, d&rsquo;un faire par rapport à un penser.
 La petite main permet de délimiter, à contre-jour, ce qu&rsquo;est une tâche intellectuelle, ce qui relève du travail du penseur.
 Je ne serai pas très longue sur cette idée parce que c&rsquo;est encore un récit à construire, un récit du futur.
 Mais ce que que je peux confier c&rsquo;est que la frontière, elle s&rsquo;incarne des deux côtés.
 C&rsquo;est ce que j&rsquo;ai également remarqué dans mon expérience de l&rsquo;usurpation : mon rapport à l&rsquo;écriture changeait, la perception que j&rsquo;avais de la tâche changeait.
-[clic]
 Je ne savais pas trop comment finir, mais pour anticiper la question qu&rsquo;on pourrait me poser :
 et alors avec ça, on fait quoi ? je voulais partager un dernier récit, plus récent, une remarque que je me suis faite il y a tout juste une semaine en écoutant deux hommes, deux chercheurs parler de la question des petites mains.
 Dans leur dialogue, les deux hommes s&rsquo;accordaient sur une solution, la solution à ce problème de hiérarchisation des tâches, selon eux, qui est de déplacer la part symbolique de la tâche.
@@ -1679,11 +1658,8 @@ Selon moi il y a un risque assez important d&rsquo;appropriation intellectuelle
 je crains que si on réhabilite la virgule, on la parque dans un espace qui est celui de l'intellectuel je crains que la petite main n'ai plus accès à cette virgule et qu'à la place on lui confie d'autres tâches que l'on considère comme inférieure à la virgule désormais réhabilitée donc ni moi ni Livia ne pourront plus corriger des virgules Le problème encore une fois ce n&rsquo;est pas la tâche, c&rsquo;est le modèle.
 le problème, c&rsquo;est la frontière, c&rsquo;est la définition de ce que l&rsquo;on considère relever de l&rsquo;intellect, de la pensée, de la littérature.
 &ndash;
-[clic]
 la question sur laquelle je finirai et qui me semble porter sa propre réponse lorsqu&rsquo;on se la pose régulièrement, chaque matin, comme un café habituel, c&rsquo;est celle-ci :
 quelles sont les coulisses de nos histoires, des romans que l'on se raconte, où l'on embarque éditrices, coordinatrices comme des personnages-paysages dont nous re-véhiculons les ombres ? Le futur des écritures numériques, le futur des struturations de la connaissance, des littératures comme pratiques et métiers, ce n&rsquo;est pas, en tout cas je l&rsquo;espère, devoir usurper un avatar masculin pour être entendu, pour pouvoir penser en corrigeant la virgule, il me semble plutôt que c&rsquo;est questionner nos modèles et nos biais récursifs.
-[clic]
-merci
 `}),e.add({id:11,href:"/conf/macerata/",title:"Secretary and Boss agree: Reflection on the Good Literary Machines",section:"Confs",content:` Slides # ouvrir dans mon navigateur Title : Secretary and Boss agree Subtitle : Thoughts on the Good Literary Machines Texte # coming
 `}),e.add({id:12,href:"/meditions/je-nai-plus-les-mots.../",title:"Je n'ai plus les mots...",section:"Meds",content:` Ceci est le Premier temps d&rsquo;un duo Pour aller voir directement le partenaire
 Lorsque j&rsquo;écris, je suis assise, dans un café pour me fournir courage et application, et toutes les machines autour de moi reflètent sur les faces concentrées à la caféine un vif éclair blanc.

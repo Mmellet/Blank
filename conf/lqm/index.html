@@ -1,0 +1,1016 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+
+
+
+<script>
+  wbinfo = {}
+  wbinfo.url = "https://mmellet.github.io/CreationThese/Version.html";
+  wbinfo.timestamp = "20200720215953";
+  wbinfo.request_ts = "";
+  wbinfo.prefix = "https://via.hypothes.is/";
+  wbinfo.mod = "";
+  wbinfo.top_url = "https://via.hypothes.is/https://mmellet.github.io/CreationThese/Version.html";
+  wbinfo.is_framed = false;
+  wbinfo.is_live = true;
+  wbinfo.coll = "";
+  wbinfo.proxy_magic = "";
+  wbinfo.static_prefix = "https://via.hypothes.is/static/__pywb";
+</script>
+
+<script src='https://via.hypothes.is/static/__pywb/wombat.js'> </script>
+
+<script src='https://via.hypothes.is/static/__pywb/wb.js'> </script>
+<script src='https://via.hypothes.is/static/__pywb/vidrw.js'> </script>
+
+<script>
+  
+
+  function isTopViaFrame() {
+    if (window === window.top) {
+      
+      
+      return true;
+    }
+
+    try {
+      
+      
+      
+      var parent = window.__WB_orig_parent || window.parent;
+
+      
+      
+      
+      
+      
+      
+      parent.location.href;
+
+      
+      
+      return false;
+    } catch (err) {
+      
+      
+      return true;
+    }
+  }
+
+  function stripFragment(url) {
+    return url.replace(/#.*$/, '');
+  }
+
+  
+
+  function isExternalLink(linkEl) {
+    
+    
+    
+    
+    
+    
+    
+    const internalLink = document.createElement('a');
+
+    
+    internalLink.href = '#';
+
+    return stripFragment(internalLink.href) !== stripFragment(linkEl.href);
+  }
+
+  
+
+  function setupExternalLinkHandler(mode) {
+    if (mode === "new-tab") {
+      document.addEventListener("click", function (event) {
+        if (!event.target.closest) {
+          
+          return;
+        }
+
+        var linkEl = event.target.closest("a");
+        if (linkEl) {
+          if (isExternalLink(linkEl)) {
+            
+            linkEl.target = "_blank";
+          }
+        }
+      });
+    }
+  }
+
+  (function () {
+
+    if (!isTopViaFrame()) {
+      
+      
+      
+      
+      
+      
+      
+      return;
+    }
+
+    
+    var embed_script = document.createElement("script");
+    embed_script.src = "https://hypothes.is/embed.js";
+    document.head.appendChild(embed_script);
+
+    setupExternalLinkHandler("same-tab");
+
+    window.hypothesisConfig = function () {
+      return {
+        "showHighlights": true,
+        "appType": "via",
+        "openSidebar": false
+      };
+    }
+  })();
+</script>
+
+<head>
+  <meta name="generator" content="Hugo 0.125.4">
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="LQM 2024">
+<meta name="theme-color" content="#FFFFFF">
+<meta name="robots" content="noindex, nofollow"/><meta property="og:url" content="https://blank.blue/conf/lqm/">
+  <meta property="og:title" content="Elles font, font, (dé)font et puis s’en vont">
+  <meta property="og:description" content="LQM 2024">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="conf">
+    <meta property="article:published_time" content="2024-04-26T00:00:00+00:00">
+    <meta property="article:modified_time" content="2024-04-26T00:00:00+00:00">
+<title>Elles font, font, (dé)font et puis s’en vont | </title>
+<link rel="manifest" href="../../manifest.json">
+<link rel="icon" href="../../logo.png" type="image/x-icon">
+<link rel="stylesheet" type="text/css" href="../../hugo-cite.css" />
+
+
+<link rel="stylesheet" href="../../book.min.5ce9d0951661229fc6588531c8f953e156fc32b3c74c6bd3cf84cfc96e965d1f.css" integrity="sha256-XOnQlRZhIp/GWIUxyPlT4Vb8MrPHTGvTz4TPyW6WXR8=">
+<script defer src="../../en.search.min.d343201a80816e050ab03a853a0c8f3de5337b05feb54fce45440dfd599784d4.js" integrity="sha256-00MgGoCBbgUKsDqFOgyPPeUzewX&#43;tU/ORUQN/VmXhNQ="></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+  
+</head>
+
+<style>
+
+   
+  
+  .js-toggle-wrapper {
+      display: table;
+      margin: 0 auto;
+      
+  }
+  
+  .js-toggle {
+      touch-action: pan-x;
+      display: inline-block;
+      position: relative;
+      cursor: pointer;
+      margin-left: 10px;
+      margin-top: 17px;
+      background-color: transparent;
+      border: 0;
+      padding: 0;
+      -webkit-touch-callout: none;
+      user-select: none;
+      -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+      -webkit-tap-highlight-color: transparent;
+    }
+    
+    .js-toggle-screenreader-only {
+      border: 0;
+      clip: rect(0 0 0 0);
+      height: 1px;
+      margin: -1px;
+      overflow: hidden;
+      padding: 0;
+      position: absolute;
+      width: 1px;
+    }
+    
+    .js-toggle-track {
+      width: 60px;
+      height: 34px;
+      padding: 0;
+      border-radius: 10px;
+      background-color: #0b0418e7;
+      transition: all 0.2s ease;
+    }
+    
+    .js-toggle-track-check {
+      position: absolute;
+      width: 17px;
+      height: 17px;
+      left: 10px;
+      top: 0px;
+      bottom: 0px;
+      margin-top: auto;
+      margin-bottom: auto;
+      line-height: 0;
+      opacity: 0;
+      transition: opacity 0.25s ease;
+    }
+    
+    .js-toggle--checked .js-toggle-track-check {
+      opacity: 1;
+      transition: opacity 0.25s ease;
+    }
+    
+    .js-toggle-track-x {
+      position: absolute;
+      width: 17px;
+      height: 17px;
+      right: 15px;
+      top: 0px;
+      bottom: 0px;
+      margin-left: 7px;
+      margin-top: auto;
+      margin-bottom: auto;
+      line-height: 0;
+      opacity: 1;
+      transition: opacity 0.25s ease;
+    }
+    
+    .js-toggle--checked .js-toggle-track-x {
+      opacity: 0;
+    }
+    
+    .js-toggle-thumb {
+      position: absolute;
+      top: 1px;
+      left: 14px;
+      right: 14px;
+      width: 8px;
+      height: 32px;
+      border-radius: 10%;
+      background-color: #fafafa;
+      box-sizing: border-box;
+      transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+      transform: translateX(0);
+    }
+    
+    .js-toggle--checked .js-toggle-thumb {
+      transform: translateX(26px);
+      border-color: #1976ab;
+    }
+    
+    .js-toggle--focus .js-toggle-thumb {
+      box-shadow: 0px 0px 2px 3px rgba(248, 248, 150, 0.438);
+    }
+    
+    .js-toggle:active .js-toggle-thumb {
+      box-shadow: 0px 0px 5px 5px rgba(248, 248, 150, 0.438);
+    }
+  </style>
+
+<body dir="ltr">
+
+  <div class="js-toggle-wrapper">
+    <div class="js-toggle">
+        <div class="js-toggle-track">
+            <div class="js-toggle-track-check">
+                <img src="../../images/jour.png" role="presentation" style="pointer-events: none;margin-top: -3px;" width="20" height="20">
+            </div>
+            <div class="js-toggle-track-x">
+                <img src="../../images/nuit.png" role="presentation" style="pointer-events: none; margin-top: -3px;" width="22" height="24">
+            </div>
+        </div>
+        <div class="js-toggle-thumb"></div>
+        <input class="js-toggle-screenreader-only" type="checkbox" aria-label="Switch between Dark and Light mode">
+    </div>
+
+
+  <p style="text-align: left; font-size:12px; margin-left: 7px;">
+    <br />
+    Ici
+    <br />
+    le temps 
+    <br />
+    des mots
+    <br />
+    est compté
+    <br />
+
+
+    <label id="heures">00</label>:<label id="minutes">00</label>:<label id="secondes">00</label>
+
+  </p>
+
+</div>
+
+  <script>
+    var heuresLabel = document.getElementById("heures");
+    var minutesLabel = document.getElementById("minutes");
+    var secondesLabel = document.getElementById("secondes");
+    var totalSecondes = 0;
+    setInterval(setTime, 1000);
+
+    function setTime() {
+      ++totalSecondes;
+      secondesLabel.innerHTML = pad(totalSecondes % 60);
+      minutesLabel.innerHTML = pad(parseInt(totalSecondes / 60));
+      heuresLabel.innerHTML = pad(parseInt(totalSecondes / 3600));
+    }
+
+    function pad(val) {
+      var valString = val + "";
+      if (valString.length < 2) {
+        return "0" + valString;
+      } else {
+        return valString;
+      }
+    }
+  </script>
+
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+<nav>
+<h2 class="book-brand">
+  <a href="../../"><span></span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr>
+
+
+  <!--- **[Projets]()**-->
+<!--- **[Créations](/creations/)*
+
+- **[Blog](/blog/)***-->
+<ul>
+<li><strong><a href="../../recherche/">Carnet</a></strong></li>
+<li><strong><a href="../../fabriques/">Fabrique</a></strong></li>
+<li><strong><a href="../../creations/">Création</a></strong></li>
+<li><strong><a href="../../meditions/">Méditions</a></strong></li>
+</ul>
+<p>__</p>
+<ul>
+<li><strong><a href="../../hypertexte/">Hypertextes</a></strong></li>
+<li><strong><a href="../../textes-videos/">Textes Vidéos</a></strong></li>
+<li><strong><a href="../../publications/">Publications</a></strong></li>
+<li><strong><a href="../../conference/">Conférences</a></strong></li>
+</ul>
+<p>__</p>
+<ul>
+<li><strong><a href="../../about/">Je suis</a></strong></li>
+<li><strong><a href="../../credits/">Crédits</a></strong></li>
+</ul>
+<!--- **[Jesus Jekyll](/jekyll/)**-->
+<hr>
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside.book-menu nav");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+
+        
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+<head>
+<link rel="print" type="text/html" href="https://blank.blue/conf/lqm/print.html" title="" />
+</head>
+
+
+<div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="../../svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+
+  <label for="toc-control">
+    
+    <img src="../../svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+
+
+
+
+<aside class="hidden clearfix">
+  
+
+<nav id="TableOfContents"></nav>
+
+
+
+</aside>
+
+
+        
+
+      </header>
+
+      
+<div class="Blank">
+ 
+  <a href="../../"><p class="Blank" aria-label="CodePen">
+    <span data-text="B" style="color: #0b0418e7;">B</span>
+    <span data-text="l" style="color: #0b0418e7;">l</span>
+    <span data-text="a" style="color: #0b0418e7;">a</span>
+    <span data-text="n" style="color: #0b0418e7;">n</span>
+    <span data-text="k" style="color: #0b0418e7;">k</span> 
+    <span class="Blank" style="color: #0b0418e7; background-color: transparent;">Site en <br/>déconstruction</span>
+    </p>
+  </a>
+
+  
+
+
+  </div>
+      
+<article class="markdown">
+  <div class="meta">
+    <h1>Elles font, font, (dé)font et puis s’en vont</h1>
+
+  <h2>LQM 2024</h2>
+    
+  </div>
+  <section id="BecomeBlank"><h1 id="slides">
+  Slides
+  <a class="anchor" href="#slides">#</a>
+</h1>
+<iframe src="../../html/Conf/lqm.html" title="description" allowfullscreen="allowfullscreen"></iframe>
+<div style="text-align:center">
+<a href="../../html/Conf/lqm.html" target="_blank">ouvrir dans mon navigateur</a>
+</div>
+<pre tabindex="0"><code>Title : Elles font, font, (dé)font et puis s’en vont 
+Subtitle : Les petites mains des éditions numériques
+</code></pre><h1 id="texte">
+  Texte
+  <a class="anchor" href="#texte">#</a>
+</h1>
+<p>Je m&rsquo;excuse, je me suis permise d&rsquo;ajouter une section à mon titre pour qu&rsquo;il soit un peu plus fun,</p>
+<pre><code>je sais pas si c'est le cas mais j'aurai essayé au moins
+</code></pre>
+<p>Dans le cadre de ce pannel présentant plusieurs problématiques sur les futurs des écritures numériques, je souhaite partager ici une réflexion que je poursuis depuis quelques temps,</p>
+<pre><code>réflexion qui émerge d'expériences de travail d'édition, de la coordination d'une revue en sciences humaines, notamment à la chaire de recherche du canada sur les écritures numériques
+</code></pre>
+<p>Réflexion qui se résume par la notion de petites mains.</p>
+<p>&ndash;</p>
+<p>[clic]</p>
+<p>Point 0. de ma présentation</p>
+<p>D&rsquo;abord une explication sur ce que l&rsquo;on entend par petite main.</p>
+<p>Les petites mains, c&rsquo;est une formule inscrite dans le langage courant, et c&rsquo;est d&rsquo;ailleurs dans ce cadre que je l&rsquo;ai remarqué,</p>
+<pre><code>au détour d'une conversation 
+
+autour d'un plat de pâtes, très bonnes par ailleurs
+</code></pre>
+<hr>
+<p>[clic]</p>
+<p>À l&rsquo;origine, au XVII^e^ siècle, les petites mains désignaient cet ensemble de travailleurs et surtout de travailleuses dans les usines de couture, des ouvrières qui étaient sous les ordres des premières mains qui délégaient aux petites mains des tâches particulièrement longues, minitieuses, plutôt rudes et répétitives :</p>
+<pre><code>des tâches jugées en somme comme ingrates. 
+</code></pre>
+<p>Au cours, des siècles, le terme se déplace, il devient un trope en littérature pour parler des mains blanches des vierges ou des mains des enfants,</p>
+<pre><code>donc des mains principalement discrètes, 
+
+physiquement discrètes, 
+
+et 
+
+qui sont mues par d'autres volontés et par d'autres mains, en particulier par des index masculins
+</code></pre>
+<p>L&rsquo;imaginaire des petites mains est imprégné de question de hiérarchie, de subordination, et est majoritairement un imaginaire qui va engager des figures féminines.</p>
+<p>(il y a d&rsquo;ailleurs à Montréal une association <em>Les petites mains</em> qui est une association qui vient en aide aux femmes immigrées dans l&rsquo;insertion professionnelle)</p>
+<p>Les petites mains sont donc très proches de ce que l&rsquo;on appelle les subalternes, c&rsquo;est très large aussi parce que cela peux comprendre énormément de réalités, les travailleurs travailleuses invisibles, ceux qui sont appelés les turcs de grandes compagnies comme Amazon, mais également dans le cas des sciences humaines, l&rsquo;ensemble des métiers des éditeurs éditrices ou relecteurs relectectrices qui sont considérés à titre d&rsquo;artisans de l&rsquo;écriture.</p>
+<p>Dans le cadre de ma recherche, je me focalise sur la catégories des éditeurs éditrices et plus largement des personnes travaillant au sein de projets en édition et en Humanités numériques.</p>
+<hr>
+<p>[clic]</p>
+<p>Les petites mains des humanités et sciences sociales, ce sont ces mains qui vont avoir les phalanges dans la machine, dans le dispositif éditorial, des mains à qui des premières mains</p>
+<pre><code>celles de l'auteur, de l'intellectuel, du patron
+</code></pre>
+<p>vont déléguer des tâches longues, minitieuses mais surtout considérées comme insignifiantes, c&rsquo;est-à-dire jugées comme non-décisives, comme non-significatives dans la réalisation, la conception, l&rsquo;établissement d&rsquo;une connaissance.</p>
+<p>La discrétion dont j&rsquo;ai parlé plus tôt et qui est une synonymie initiale de la petite main, elle s&rsquo;active ici en ce qu&rsquo;elle place la petite main dans ce que Waquet a appelé les coulisses de la science.</p>
+<hr>
+<p>[clic]</p>
+<p>Ce qui permet de révéler un paradoxe sur lequel je finis le temps 0 de ma présentation : les sciences humaines appréhendent les connaissances par le prisme de l&rsquo;humain, or le modèle épistémologique / scientifique dominant – qui est largement hérité d’une tradition académique logocentrée et anthropocentrée – exclut les petites mains, donc les acteurs / les humains au creux et au coeur d&rsquo;un processus, les exclut du paradigme de l&rsquo;émergence de la pensée en sciences humaines.</p>
+<p>Comme j&rsquo;ai déjà pu communiquer à plusieurs reprises sur cette notion de petites mains, pour éviter de radoter mais tout de même recycler (je m&rsquo;en excuse), je voulais essayer d&rsquo;aborder ici la question sous un angle lègérement différent, sous l&rsquo;angle du roman, des romans que nous aimons nous faire ou défaire sur nos sciences, nos histoires et nos humanités.</p>
+<hr>
+<p>[clic]</p>
+<ol>
+<li>Faire ou penser, il faut choisir</li>
+</ol>
+<p>Une tâche de petite main, pour le résumer ainsi, c&rsquo;est une tâche dont toute personne qui pense ne veut/fait pas.</p>
+<p>Il y a donc, et c&rsquo;est cette première caractéristique que j&rsquo;aimerai approfondir et interroger, il y a cette distinction très claire entre penser et faire dans une conception de la littérature,</p>
+<pre><code>ce qui reprend un peu ce qui a été dit par Marcello en amont.
+</code></pre>
+<hr>
+<p>[clic]</p>
+<p>Dans nos modes de connaissances, dans l&rsquo;approche des études littéraires, il y a un schéma qui apparaît comme prédominant et qui revient à considérer que nous pensons d&rsquo;abord pour faire ensuite.</p>
+<p>Comme le dit l&rsquo;anthropologue Ingold qui développé une approche culturelle du faire et une méthode de pointage efficace avec le double index : <em>theory leads and practice follows</em>.</p>
+<p>Prenons ce credo comme une structure narrative : si un jour nous parvenons à faire,</p>
+<pre><code>à bien faire,
+</code></pre>
+<p>c&rsquo;est parce que nous avons pensé en amont.</p>
+<p>autrement dit le faire suit la pensée comme un cortège.</p>
+<p>Par ricochet, dans cette perspective, les petites mains, les assistances de recherche, les secrétaires, ne sont pas au début du processus de production et d&rsquo;émergence de la pensée, elles sont en bout de chaîne parce qu&rsquo;elles relèvent du faire.</p>
+<hr>
+<p>[clic]</p>
+<p>comme je me suis engagée à renouveler en recyclant ma réflexion sans radoter, je vous propose pour illustrer cette idée, de raconter l&rsquo;histoire d&rsquo;un projet qui est considéré comme la genèse des Humanités numériques. Comme le dit avec une certaine ironie Unsworth,</p>
+<blockquote>
+<p>La plupart des disciplines ne peuvent pas identifier un seul géniteur,
+et encore moins un géniteur divin, mais les humanités numériques,
+elles, ont le père Busa.</p>
+</blockquote>
+<p>Il était donc une fois l&rsquo;Index Thomisticus.</p>
+<p>Un jour, un prêtre jésuite italien et théologien thomiste du nom de Roberto Busa, décide d&rsquo;étudier le thème de la présence dans les écrits d&rsquo;un certain religieux italien qui a produit quelques trucs en philosophie, Thomas d&rsquo;Aquin.</p>
+<p>Avec l&rsquo;aide de ses joyeux et fidèles camarades d&rsquo;IBM, le bon Roberto procède donc avec bravoure à la lemmatisation et l&rsquo;indexation des oeuvres de ce philosophe du XIIIe siècle dont il est fan.</p>
+<p>Après 34 ans de labeur et d&rsquo;encodage, l&rsquo;Index Thomisticus voit le jour et le père Roberto, ses compères d&rsquo;IBM et Thomas d&rsquo;Aquin indexé vécurent heureux et eurent beaucoup d&rsquo;enfants qu&rsquo;on nomme les humanités numériques.</p>
+<p>[fin]</p>
+<hr>
+<p>bien sûr il y a plus à dire et à redire sur ce conte, et les travaux de Melissa Terras, Julianne Nyhan et Steven Jones ont justement fait état des coulisses de ce beau roman des humanités numériques.</p>
+<p>C&rsquo;est notamment à l&rsquo;observation des photos d&rsquo;archives du projet, que ces chercheurs se sont interrogé :</p>
+<p>[clic]</p>
+<pre><code>    c'est qui ça dans l'histoire ? 
+    (parce que tous les autres individus on sait qui sait, on a leurs noms)
+
+    quels sont ces protagonistes que je ne saurais voir et que pendant longtemps les recherches sur le projet n'ont pas vu ? que les recherches ont pris comme faisant parti du paysage, comme des figurants / des figurines ?
+
+    et dit comment il a encodé son Index Busa ? 
+</code></pre>
+<p>[&hellip;]</p>
+<p>c&rsquo;est le moment du petit bug dans l&rsquo;histoire, puisque Busa n&rsquo;a pas encodé l&rsquo;Index</p>
+<p>les compères d&rsquo;IBM n&rsquo;ont pas encodé l&rsquo;Index</p>
+<pre><code>    mais pourtant l'Index c'est bien l'encodage non ?
+    mais c'est pas Busa qui a encodé ? 
+    mais c'est quand même le projet de Busa, père des humanités numériques qui a reçu un prix à son nom ?
+</code></pre>
+<hr>
+<p>[clic]</p>
+<p>Le schéma énoncé au départ se heurte à un mur, au réel en fait, à la matérialité des connaissances.</p>
+<p>Nouvelle histoire de la genèse des humanités numériques donc.</p>
+<p>[clic]</p>
+<p>Il était une fois 65 jeunes femmes italiennes qui, après avoir suivi une formation en dactylographie ont été recrutées pour participer à un grand projet d&rsquo;indexation dirigé par un certain père jésuite.</p>
+<p>Pendant de longues années, les 65 opératrices encodèrent minitieusement les cartes perforées sous la direction lointaine d&rsquo;un homme qui lui n&rsquo;a jamais touché la machine.</p>
+<p>Si pour la plupart, elles n&rsquo;étaient pas au fait du projet fomanté par le père jésuite, certaine d&rsquo;entre elles cependant ont eu un rôle particulièrement déterminant, comme Livia Canestraro qui avait pris la coordination de l&rsquo;équipe des opératrices.</p>
+<p>Ayant remarqué l&rsquo;impact qu&rsquo;avait la jeune femme sur ses plans, le père du projet, mécontent de sentir l&rsquo;histoire lui échapper, la remplaça par un homme, moins qualifié, mais plus pourvu par la nature&hellip;</p>
+<p>L&rsquo;histoire n&rsquo;aura pas retenu le nom de toutes ces femmes, leurs rôles et implications n&rsquo;ont pas été inscrites dans les archives du projet,</p>
+<pre><code>ironie pour un projet consacré à la thématique de la présence
+</code></pre>
+<p>La légende raconte que plusieurs d&rsquo;entre elles n&rsquo;ont pas retrouvé de travail en édition par la suite.</p>
+<p>[fin]</p>
+<hr>
+<p>[clic]</p>
+<p>L&rsquo;encodage des cartes perforées <em>fait</em> le projet de l&rsquo;Index. L&rsquo;Index existe parce que des mains ignorées par l&rsquo;histoire ont encodé.</p>
+<p>Ce qui nous mène au retournement de notre structure de narration classique : ce que Ingold a nommé par <em>Thinking through making</em>.</p>
+<p>Le faire ne suit pas le cortège de la pensée comme un dernier wagon, il est au contraire en début de chaîne.</p>
+<p>Selon Ingold, la connaissance émerge parce qu&rsquo;il y a eu un geste, une action, une collaboration et même une confrontation avec le réel, soit ce que j&rsquo;ai appelé une composition de rapports.</p>
+<p>L&rsquo;émergence de la connaissance ne relève pas d&rsquo;un unique acteur qui s&rsquo;est levé un matin du bon pied et a eu une idée, elle ne peut se résumer aux ordres lointains qu&rsquo;a donné un père à de nombreuses filles même si cela fait de beaux romans,</p>
+<p>On peut donc briser les mythes</p>
+<pre><code>il n'y a pas de murmure des muses, il n'y a pas de génie,
+il n'y a pas d'illumination hors de celles des écrans, des ampoules ou des chandelles pour les plus anciens,
+</code></pre>
+<p>il y a des petites mains, des tables, des machines, et du café (beaucoup de café).</p>
+<hr>
+<p>[clic]</p>
+<p>[re] nouvelle histoire de la genèse des humanités numériques donc</p>
+<p>[clic]</p>
+<p>Durant de longs jours, en Italie, dans un ancien atelier de couture, un chercheur dont le nom est passé à la postérité et de nombreuses opératrices formées à l&rsquo;encodage ont collaboré dans le cadre d&rsquo;un projet d&rsquo;indexation des oeuvres d&rsquo;un certain philosophe du XIIIe siècle.</p>
+<p>Cette collaboration impliquant également d&rsquo;autres acteurs subventionnaires comme les représentants du royaume IBM, a établi les bases de principes de collaboration entre expertises pour donner un champs disciplinaire qui sera nommé les humanités numériques.</p>
+<p>[des recherches sont toujours en cours pour identifier les opératices]</p>
+<p>[fin pour l&rsquo;instant]</p>
+<hr>
+<p>[clic]</p>
+<ol start="2">
+<li></li>
+</ol>
+<p>parlons donc de cet héritage aux humanités numériques, pour voir comment la légende a perduré.</p>
+<p>Parce qu&rsquo;elles se sont proposées comme un nouveau champs de connaissance, on aurait pu penser que les humanités numériques auraient été l&rsquo;occasion parfaite pour constituer un tiers lieu, un espace pour discuter et réformer un modèle scientifique, explorer d&rsquo;autres dynamiques de répartition des tâches&hellip; mais à bien des égards, les biais se répètent comme des refrains.</p>
+<p>Des assistantes personnelles d&rsquo;écritures, ce que j&rsquo;ai appelé les épouses des plumes, en passant par les <em>humans computers</em>, jusqu&rsquo;aux premiers agents conversationnels qui sont des implémentations de la secrétaire 2.0, il y a un principe de service / de mise au service qui est apposé au féminin.</p>
+<hr>
+<p>Isabelle Collet qui a étudié le sexisme dans les milieux informatiques, a justement cette formule, elle parle d&rsquo;auto-engendrement des informaticiens pour décrire la tendance qui a parcouru toutes les sciences computationnelles puis numériques, cette tendance pour les chercheurs hommes à vouloir créer, imaginer, romancer une figure idéale de l&rsquo;informaticien, un destin, un profil.</p>
+<p>Dans ce roman transversal, des figures comme celle d&rsquo;Ada Lovelace, Mary Grace Hopper, ou Margaret Hamilton,</p>
+<p>sont des exceptions qui cachent en réalité une foules de chercheures, d&rsquo;assistances, de petites mains qui ont non seulement participé à établir un champ de connaissance mais qui l&rsquo;on <em>fait</em> exister à un moment où les hommes n&rsquo;étaient pas disponibles pour bien des raisons valables par ailleurs :</p>
+<pre><code>guerre, politique, migraine, etc. 
+</code></pre>
+<hr>
+<p>[clic]</p>
+<p>Comment décrypter ces romans, quel est le levier narratif ?</p>
+<p>Comment expliquer comme le remarque Isabelle Collet, que les femmes présentes à 30% dans les milieux informatiques entre 1940 et 1980, le sont à 15% à partir des années 2000 ?</p>
+<p>Le levier de ces flux c&rsquo;est la noblesse de la tâche. Dès qu&rsquo;une tâche est rabaissée à un domaine du simple-faire, à un domaine tertiaire, elle est accessible aux femmes et, j&rsquo;ajoute, aux machines.</p>
+<p>mais à partir du moment où les métiers informatiques sortent du domaine du tertiaire, dans les années 80, alors il y a une récupération masculine des espaces et des récits.</p>
+<p>donc le dragon des petites mains, ce n&rsquo;est pas la qustion de la nature de la tâche, ce n&rsquo;est pas un problème d&rsquo;invisibilisation (ça c&rsquo;est un symptôme), le diable se situe dans le modèle.</p>
+<hr>
+<p>[clic]</p>
+<p>le modèle qui considère que la pensée émerge d&rsquo;une psychée unique hors de ses conditions concrètes et physiques d&rsquo;existence.</p>
+<p>le modèle qui est donc épistémologique mais qui est aussi culturel parce que comme un metteur en scène, il attribue une posture à des protagonistes</p>
+<p>Donc quand Marcello corrige une virgule dans un texte,</p>
+<p>ce n&rsquo;a pas la même chose, cela n&rsquo;a pas la même portée que lorsque Margot ou Livia corrige une virgule dans un texte, même si c&rsquo;est le même texte, la même virgule.</p>
+<p>Marcello il pense par la virgule, il est un auteur, il change le monde</p>
+<p>Livia et Moi nous faisons, nous sommes des petites mains</p>
+<hr>
+<p>[clic]</p>
+<p>pour expliciter cette idée de la posture, j&rsquo;ajoute un récit, qui est personnel, que j&rsquo;ai pu partager autour d&rsquo;un café ou d&rsquo;un plat de pâtes et que j&rsquo;avoue ici un peu plus officiellement</p>
+<p>Dans le cadre de mon travail en tant que coordinatrice de la revue <em>Sens public</em>, j&rsquo;ai usurpé le nom d&rsquo;un homme.</p>
+<pre><code>Alors à ma défense, 
+je ne savais pas avant de prendre le nom de Mark Mellet 
+qu'un chercheur spécialiste en biologie marine dans les cercles polaires existait sous le même nom. 
+</code></pre>
+<p>donc j&rsquo;ai usé d&rsquo;un autre nom dans mon échange avec les auteurs de la revue pour le suivi, l&rsquo;édition et la publication de leur travail.</p>
+<p>Pourquoi donc ai-je romancé / profilé mon identité ?</p>
+<p>Parce que le nom de Mark Mellet se trouve être du bon côté du sexisme technique.</p>
+<p>Margot n&rsquo;était pas efficace : elle demande des choses à faire sur l&rsquo;article, elle n&rsquo;accepte pas les bibliographies envoyées sous la forme d&rsquo;image ou de captures d&rsquo;écran, elle n&rsquo;est pas assez compétente comme secrétaire.</p>
+<p>Mark en revanche : Mark c&rsquo;est celui à qui on envoie les bibliographies au bon format, celui dont on écoute les demandes, celui avec qui on n&rsquo;essaye pas de marchander, celui dont on ne remet pas en cause ni la présence ni la compétence&hellip;</p>
+<p>et pourtant dans ce récit, les tâches, les interlocuteurs demeuraient les mêmes,</p>
+<p>la seule chose qui a changé c&rsquo;est le nom, c&rsquo;est la posture que ce nom incarne.</p>
+<hr>
+<p>[clic]</p>
+<p>Je rassure, l&rsquo;usurpation a pris fin, j&rsquo;ai notamment arrêté de signer mes courriels avec le nom de Mark au moment où les auteurs ont commencé à affabuler : plusieurs d&rsquo;entre eux ont en effet supputé que Margot avec qui ils avaient auparavant échangé était la femme de Mark,</p>
+<pre><code>des romans très inventifs
+</code></pre>
+<p>et que Mark avait bien gentiment laissé Margot s&rsquo;impliquer dans la revue.</p>
+<pre><code>ça devenait problématique parce que non seulement j'usurpais un nom mais en plus je foutais le bazard dans un ménage...
+
+échapper à la secrétaire, vous tombez dans l'épouse
+</code></pre>
+<p>parfois cependant je reprends ce nom, vous en serez averti si vous le voyez passer sur les listes dh, je le reprends quand il me semble que la frontière doit être franchie pour être entendue.</p>
+<hr>
+<p>[clic]</p>
+<ol start="3">
+<li>La frontière</li>
+</ol>
+<p>et justement,</p>
+<p>J&rsquo;en arrive dans un dernier temps à parler de ce qui me semble cristaliser ces romans, la frontière, soit la délimitation d&rsquo;un rôle vis-à-vis d&rsquo;un autre, d&rsquo;une ontologie par rapport à une autre, d&rsquo;un faire par rapport à un penser.</p>
+<p>La petite main permet de délimiter, à contre-jour, ce qu&rsquo;est une tâche intellectuelle, ce qui relève du travail du penseur.</p>
+<p>Je ne serai pas très longue sur cette idée parce que c&rsquo;est encore un récit à construire, un récit du futur.</p>
+<p>Mais ce que que je peux confier c&rsquo;est que la frontière, elle s&rsquo;incarne des deux côtés.</p>
+<p>C&rsquo;est ce que j&rsquo;ai également remarqué dans mon expérience de l&rsquo;usurpation : mon rapport à l&rsquo;écriture changeait, la perception que j&rsquo;avais de la tâche changeait.</p>
+<hr>
+<p>[clic]</p>
+<p>Je ne savais pas trop comment finir, mais pour anticiper la question qu&rsquo;on pourrait me poser :</p>
+<pre><code>    et alors avec ça, on fait quoi ? 
+</code></pre>
+<p>je voulais partager un dernier récit, plus récent, une remarque que je me suis faite il y a tout juste une semaine en écoutant deux hommes, deux chercheurs parler de la question des petites mains.</p>
+<p>Dans leur dialogue, les deux hommes s&rsquo;accordaient sur une solution, <strong>la</strong> solution à ce problème de hiérarchisation des tâches, selon eux, qui est de déplacer la part symbolique de la tâche.</p>
+<pre><code>ce qui revient à dire que corriger une virgule, c'est un travail intellectuel, c'est penser.
+qu'encoder des lignes et des lignes dans des cartes et des cartes, c'est un travail scientifique. 
+</code></pre>
+<p>en somme une réhabilitation des tâches ingrates</p>
+<p>je suis plutôt d&rsquo;accord avec cette idée mais aussi plutôt en désaccord, autrement dit je suis en process, en digestion.</p>
+<p>Selon moi il y a un risque assez important d&rsquo;appropriation intellectuelle</p>
+<pre><code>je crains que si on réhabilite la virgule, 
+on la parque dans un espace qui est celui de l'intellectuel
+je crains que la petite main n'ai plus accès à cette virgule et qu'à la place on lui confie d'autres tâches que l'on considère comme inférieure à la virgule désormais réhabilitée
+donc ni moi ni Livia ne pourront plus corriger des virgules
+</code></pre>
+<p>Le problème encore une fois ce n&rsquo;est pas la tâche, c&rsquo;est le modèle.</p>
+<p>le problème, c&rsquo;est la frontière, c&rsquo;est la définition de ce que l&rsquo;on considère relever de l&rsquo;intellect, de la pensée, de la littérature.</p>
+<p>&ndash;</p>
+<p>[clic]</p>
+<p>la question sur laquelle je finirai et qui me semble porter sa propre réponse lorsqu&rsquo;on se la pose régulièrement, chaque matin, comme un café habituel, c&rsquo;est celle-ci :</p>
+<pre><code>quelles sont les coulisses de nos histoires, des romans que l'on se raconte, où l'on embarque éditrices, coordinatrices comme des personnages-paysages dont nous re-véhiculons les ombres ? 
+</code></pre>
+<p>Le futur des écritures numériques, le futur des struturations de la connaissance, des littératures comme pratiques et métiers, ce n&rsquo;est pas, en tout cas je l&rsquo;espère, devoir usurper un avatar masculin pour être entendu, pour pouvoir penser en corrigeant la virgule, il me semble plutôt que c&rsquo;est questionner nos modèles et nos biais récursifs.</p>
+<p>[clic]</p>
+<p>merci</p>
+</section>
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+
+
+  
+</article>
+
+      
+      
+
+      <footer class="book-footer">
+        
+<hr>
+<div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+
+
+        
+        
+
+
+<p style="text-align: center; font-size:12px">
+Tous les contenus de ce site sont sous licence 
+<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">CC BY-NC-SA</a> : Attribution - Pas d’Utilisation Commerciale - Partage dans les Mêmes Conditions. 
+</p>
+
+<div>
+    
+    <a rel="alternate" target="blank" type="application/rss+xml" href="https://blank.blue/index.xml" title="Blank.blue/index.xml">
+    <img src="../../images/rss.png" alt="rss feed"/></a>
+
+    <a rel="alternate" target="blank" href="https://github.com/Mmellet/" title="Github/Mmellet">
+        <img src="../../images/github.png" alt="github" id="grandlogo"/></a>
+
+    <a href="https://www.zotero.org/margotmellet" target="blank" title="0000-0001-7167-2136 ">
+            <img src="../../images/zotero.png" alt="orcid"/></a>  
+
+    <a rel="alternate" target="blank" href="https://twitter.com/mellet_m" title="@mellet_m">
+        <img src="../../images/twitter.png" alt="twitter"/></a>
+    
+    <a href="mailto:margot.mellet@umontreal.ca" target="blank" title="margot.mellet@umontreal.ca">
+        <img src="../../images/courriel.png" alt="courriel"/></a>
+    
+    <a href="https://orcid.org/0000-0001-7167-2136" target="blank" title="0000-0001-7167-2136 ">
+        <img src="../../images/orcid.png" alt="orcid"/></a>
+    
+    <a href="https://archive.org/details/@mmellet?tab=uploads" target="blank" title="Une plasticienne">
+        <img src="../../images/archive.png" alt="internet archive"/></a>
+    
+    <a href="../../doc/Mellet_cv.pdf" target="blank" title="Une plasticienne">
+        <img src="../../images/cv.png" alt="CV"/></a>
+                           
+    
+
+    </div>
+      </footer>
+
+      
+
+<div class="book-comments">
+
+</div>
+
+
+      
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+
+<nav id="TableOfContents"></nav>
+
+
+
+        
+      </div>
+    </aside>
+    
+  </main>
+
+  
+<style>
+ 
+
+* {box-sizing: border-box}
+.mySlides1, .mySlides2 {display: none}
+img {vertical-align: middle;}
+
+.mySlides3, .mySlides4 {display: none}
+img {vertical-align: middle;}
+
+.mySlides5, .mySlides6 {display: none}
+img {vertical-align: middle;}
+
+ 
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+ 
+.text {
+  color: black;
+  background-color: white;
+  font-size: 15px;
+  padding: 10px 12px;
+  position: relative;
+  bottom: 1px;
+  width: 100%;
+  text-align: center;
+}
+
+ 
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+ 
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+ 
+.prev:hover, .next:hover {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+ 
+
+
+div.small {
+  border-style: solid;
+  border-color: black;
+  width:850px;
+  height:700px;
+  line-height:3em;
+  overflow:auto;
+  padding:5px;
+  }
+
+ 
+code[class*=language-],pre[class*=language-]{color:#000;background:0 0;text-shadow:0 1px #fff;font-family:Consolas,Monaco,'Andale Mono','Ubuntu Mono',monospace;font-size:1em;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none}code[class*=language-] ::-moz-selection,code[class*=language-]::-moz-selection,pre[class*=language-] ::-moz-selection,pre[class*=language-]::-moz-selection{text-shadow:none;background:#b3d4fc}code[class*=language-] ::selection,code[class*=language-]::selection,pre[class*=language-] ::selection,pre[class*=language-]::selection{text-shadow:none;background:#b3d4fc}@media print{code[class*=language-],pre[class*=language-]{text-shadow:none}}pre[class*=language-]{padding:1em;margin:.5em 0;overflow:auto}:not(pre)>code[class*=language-],pre[class*=language-]{background:#f5f2f0}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal}.token.cdata,.token.comment,.token.doctype,.token.prolog{color:#708090}.token.punctuation{color:#999}.token.namespace{opacity:.7}.token.boolean,.token.constant,.token.deleted,.token.number,.token.property,.token.symbol,.token.tag{color:#905}.token.attr-name,.token.builtin,.token.char,.token.inserted,.token.selector,.token.string{color:#690}.language-css .token.string,.style .token.string,.token.entity,.token.operator,.token.url{color:#9a6e3a;background:hsla(0,0%,100%,.5)}.token.atrule,.token.attr-value,.token.keyword{color:#07a}.token.class-name,.token.function{color:#dd4a68}.token.important,.token.regex,.token.variable{color:#e90}.token.bold,.token.important{font-weight:700}.token.italic{font-style:italic}.token.entity{cursor:help}
+
+
+</style>
+
+<script>
+    let slideIndex = [1,1,1,1,1,1];
+                let slideId = ["mySlides1", "mySlides2", "mySlides3", "mySlides4", "mySlides5", "mySlides6"]
+                showSlides(1, 0);
+                showSlides(1, 1);
+                showSlides(1, 2);
+                showSlides(1, 3);
+                showSlides(1, 4);
+                showSlides(1, 5);
+                
+                function plusSlides(n, no) {
+                  showSlides(slideIndex[no] += n, no);
+                }
+                
+                function showSlides(n, no) {
+                  let i;
+                  let x = document.getElementsByClassName(slideId[no]);
+                  if (n > x.length) {slideIndex[no] = 1}    
+                  if (n < 1) {slideIndex[no] = x.length}
+                  for (i = 0; i < x.length; i++) {
+                     x[i].style.display = "none";  
+                  }
+                  x[slideIndex[no]-1].style.display = "block";  
+                }
+                </script>
+
+              <script>
+
+
+
+var _self="undefined"!=typeof window?window:"undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?self:{},Prism=function(e){var n=/(?:^|\s)lang(?:uage)?-([\w-]+)(?=\s|$)/i,t=0,r={},a={manual:e.Prism&&e.Prism.manual,disableWorkerMessageHandler:e.Prism&&e.Prism.disableWorkerMessageHandler,util:{encode:function e(n){return n instanceof i?new i(n.type,e(n.content),n.alias):Array.isArray(n)?n.map(e):n.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/\u00a0/g," ")},type:function(e){return Object.prototype.toString.call(e).slice(8,-1)},objId:function(e){return e.__id||Object.defineProperty(e,"__id",{value:++t}),e.__id},clone:function e(n,t){var r,i;switch(t=t||{},a.util.type(n)){case"Object":if(i=a.util.objId(n),t[i])return t[i];for(var l in r={},t[i]=r,n)n.hasOwnProperty(l)&&(r[l]=e(n[l],t));return r;case"Array":return i=a.util.objId(n),t[i]?t[i]:(r=[],t[i]=r,n.forEach((function(n,a){r[a]=e(n,t)})),r);default:return n}},getLanguage:function(e){for(;e;){var t=n.exec(e.className);if(t)return t[1].toLowerCase();e=e.parentElement}return"none"},setLanguage:function(e,t){e.className=e.className.replace(RegExp(n,"gi"),""),e.classList.add("language-"+t)},currentScript:function(){if("undefined"==typeof document)return null;if("currentScript"in document)return document.currentScript;try{throw new Error}catch(r){var e=(/at [^(\r\n]*\((.*):[^:]+:[^:]+\)$/i.exec(r.stack)||[])[1];if(e){var n=document.getElementsByTagName("script");for(var t in n)if(n[t].src==e)return n[t]}return null}},isActive:function(e,n,t){for(var r="no-"+n;e;){var a=e.classList;if(a.contains(n))return!0;if(a.contains(r))return!1;e=e.parentElement}return!!t}},languages:{plain:r,plaintext:r,text:r,txt:r,extend:function(e,n){var t=a.util.clone(a.languages[e]);for(var r in n)t[r]=n[r];return t},insertBefore:function(e,n,t,r){var i=(r=r||a.languages)[e],l={};for(var o in i)if(i.hasOwnProperty(o)){if(o==n)for(var s in t)t.hasOwnProperty(s)&&(l[s]=t[s]);t.hasOwnProperty(o)||(l[o]=i[o])}var u=r[e];return r[e]=l,a.languages.DFS(a.languages,(function(n,t){t===u&&n!=e&&(this[n]=l)})),l},DFS:function e(n,t,r,i){i=i||{};var l=a.util.objId;for(var o in n)if(n.hasOwnProperty(o)){t.call(n,o,n[o],r||o);var s=n[o],u=a.util.type(s);"Object"!==u||i[l(s)]?"Array"!==u||i[l(s)]||(i[l(s)]=!0,e(s,t,o,i)):(i[l(s)]=!0,e(s,t,null,i))}}},plugins:{},highlightAll:function(e,n){a.highlightAllUnder(document,e,n)},highlightAllUnder:function(e,n,t){var r={callback:t,container:e,selector:'code[class*="language-"], [class*="language-"] code, code[class*="lang-"], [class*="lang-"] code'};a.hooks.run("before-highlightall",r),r.elements=Array.prototype.slice.apply(r.container.querySelectorAll(r.selector)),a.hooks.run("before-all-elements-highlight",r);for(var i,l=0;i=r.elements[l++];)a.highlightElement(i,!0===n,r.callback)},highlightElement:function(n,t,r){var i=a.util.getLanguage(n),l=a.languages[i];a.util.setLanguage(n,i);var o=n.parentElement;o&&"pre"===o.nodeName.toLowerCase()&&a.util.setLanguage(o,i);var s={element:n,language:i,grammar:l,code:n.textContent};function u(e){s.highlightedCode=e,a.hooks.run("before-insert",s),s.element.innerHTML=s.highlightedCode,a.hooks.run("after-highlight",s),a.hooks.run("complete",s),r&&r.call(s.element)}if(a.hooks.run("before-sanity-check",s),(o=s.element.parentElement)&&"pre"===o.nodeName.toLowerCase()&&!o.hasAttribute("tabindex")&&o.setAttribute("tabindex","0"),!s.code)return a.hooks.run("complete",s),void(r&&r.call(s.element));if(a.hooks.run("before-highlight",s),s.grammar)if(t&&e.Worker){var c=new Worker(a.filename);c.onmessage=function(e){u(e.data)},c.postMessage(JSON.stringify({language:s.language,code:s.code,immediateClose:!0}))}else u(a.highlight(s.code,s.grammar,s.language));else u(a.util.encode(s.code))},highlight:function(e,n,t){var r={code:e,grammar:n,language:t};if(a.hooks.run("before-tokenize",r),!r.grammar)throw new Error('The language "'+r.language+'" has no grammar.');return r.tokens=a.tokenize(r.code,r.grammar),a.hooks.run("after-tokenize",r),i.stringify(a.util.encode(r.tokens),r.language)},tokenize:function(e,n){var t=n.rest;if(t){for(var r in t)n[r]=t[r];delete n.rest}var a=new s;return u(a,a.head,e),o(e,a,n,a.head,0),function(e){for(var n=[],t=e.head.next;t!==e.tail;)n.push(t.value),t=t.next;return n}(a)},hooks:{all:{},add:function(e,n){var t=a.hooks.all;t[e]=t[e]||[],t[e].push(n)},run:function(e,n){var t=a.hooks.all[e];if(t&&t.length)for(var r,i=0;r=t[i++];)r(n)}},Token:i};function i(e,n,t,r){this.type=e,this.content=n,this.alias=t,this.length=0|(r||"").length}function l(e,n,t,r){e.lastIndex=n;var a=e.exec(t);if(a&&r&&a[1]){var i=a[1].length;a.index+=i,a[0]=a[0].slice(i)}return a}function o(e,n,t,r,s,g){for(var f in t)if(t.hasOwnProperty(f)&&t[f]){var h=t[f];h=Array.isArray(h)?h:[h];for(var d=0;d<h.length;++d){if(g&&g.cause==f+","+d)return;var v=h[d],p=v.inside,m=!!v.lookbehind,y=!!v.greedy,k=v.alias;if(y&&!v.pattern.global){var x=v.pattern.toString().match(/[imsuy]*$/)[0];v.pattern=RegExp(v.pattern.source,x+"g")}for(var b=v.pattern||v,w=r.next,A=s;w!==n.tail&&!(g&&A>=g.reach);A+=w.value.length,w=w.next){var E=w.value;if(n.length>e.length)return;if(!(E instanceof i)){var P,L=1;if(y){if(!(P=l(b,A,e,m))||P.index>=e.length)break;var S=P.index,O=P.index+P[0].length,j=A;for(j+=w.value.length;S>=j;)j+=(w=w.next).value.length;if(A=j-=w.value.length,w.value instanceof i)continue;for(var C=w;C!==n.tail&&(j<O||"string"==typeof C.value);C=C.next)L++,j+=C.value.length;L--,E=e.slice(A,j),P.index-=A}else if(!(P=l(b,0,E,m)))continue;S=P.index;var N=P[0],_=E.slice(0,S),M=E.slice(S+N.length),W=A+E.length;g&&W>g.reach&&(g.reach=W);var z=w.prev;if(_&&(z=u(n,z,_),A+=_.length),c(n,z,L),w=u(n,z,new i(f,p?a.tokenize(N,p):N,k,N)),M&&u(n,w,M),L>1){var I={cause:f+","+d,reach:W};o(e,n,t,w.prev,A,I),g&&I.reach>g.reach&&(g.reach=I.reach)}}}}}}function s(){var e={value:null,prev:null,next:null},n={value:null,prev:e,next:null};e.next=n,this.head=e,this.tail=n,this.length=0}function u(e,n,t){var r=n.next,a={value:t,prev:n,next:r};return n.next=a,r.prev=a,e.length++,a}function c(e,n,t){for(var r=n.next,a=0;a<t&&r!==e.tail;a++)r=r.next;n.next=r,r.prev=n,e.length-=a}if(e.Prism=a,i.stringify=function e(n,t){if("string"==typeof n)return n;if(Array.isArray(n)){var r="";return n.forEach((function(n){r+=e(n,t)})),r}var i={type:n.type,content:e(n.content,t),tag:"span",classes:["token",n.type],attributes:{},language:t},l=n.alias;l&&(Array.isArray(l)?Array.prototype.push.apply(i.classes,l):i.classes.push(l)),a.hooks.run("wrap",i);var o="";for(var s in i.attributes)o+=" "+s+'="'+(i.attributes[s]||"").replace(/"/g,"&quot;")+'"';return"<"+i.tag+' class="'+i.classes.join(" ")+'"'+o+">"+i.content+"</"+i.tag+">"},!e.document)return e.addEventListener?(a.disableWorkerMessageHandler||e.addEventListener("message",(function(n){var t=JSON.parse(n.data),r=t.language,i=t.code,l=t.immediateClose;e.postMessage(a.highlight(i,a.languages[r],r)),l&&e.close()}),!1),a):a;var g=a.util.currentScript();function f(){a.manual||a.highlightAll()}if(g&&(a.filename=g.src,g.hasAttribute("data-manual")&&(a.manual=!0)),!a.manual){var h=document.readyState;"loading"===h||"interactive"===h&&g&&g.defer?document.addEventListener("DOMContentLoaded",f):window.requestAnimationFrame?window.requestAnimationFrame(f):window.setTimeout(f,16)}return a}(_self);"undefined"!=typeof module&&module.exports&&(module.exports=Prism),"undefined"!=typeof global&&(global.Prism=Prism);
+Prism.languages.markup={comment:{pattern:/\x3C!--(?:(?!\x3C!--)[\s\S])*?-->/,greedy:!0},prolog:{pattern:/<\?[\s\S]+?\?>/,greedy:!0},doctype:{pattern:/<!DOCTYPE(?:[^>"'[\]]|"[^"]*"|'[^']*')+(?:\[(?:[^<"'\]]|"[^"]*"|'[^']*'|<(?!!--)|\x3C!--(?:[^-]|-(?!->))*-->)*\]\s*)?>/i,greedy:!0,inside:{"internal-subset":{pattern:/(^[^\[]*\[)[\s\S]+(?=\]>$)/,lookbehind:!0,greedy:!0,inside:null},string:{pattern:/"[^"]*"|'[^']*'/,greedy:!0},punctuation:/^<!|>$|[[\]]/,"doctype-tag":/^DOCTYPE/i,name:/[^\s<>'"]+/}},cdata:{pattern:/<!\[CDATA\[[\s\S]*?\]\]>/i,greedy:!0},tag:{pattern:/<\/?(?!\d)[^\s>\/=$<%]+(?:\s(?:\s*[^\s>\/=]+(?:\s*=\s*(?:"[^"]*"|'[^']*'|[^\s'">=]+(?=[\s>]))|(?=[\s/>])))+)?\s*\/?>/,greedy:!0,inside:{tag:{pattern:/^<\/?[^\s>\/]+/,inside:{punctuation:/^<\/?/,namespace:/^[^\s>\/:]+:/}},"special-attr":[],"attr-value":{pattern:/=\s*(?:"[^"]*"|'[^']*'|[^\s'">=]+)/,inside:{punctuation:[{pattern:/^=/,alias:"attr-equals"},{pattern:/^(\s*)["']|["']$/,lookbehind:!0}]}},punctuation:/\/?>/,"attr-name":{pattern:/[^\s>\/]+/,inside:{namespace:/^[^\s>\/:]+:/}}}},entity:[{pattern:/&[\da-z]{1,8};/i,alias:"named-entity"},/&#x?[\da-f]{1,8};/i]},Prism.languages.markup.tag.inside["attr-value"].inside.entity=Prism.languages.markup.entity,Prism.languages.markup.doctype.inside["internal-subset"].inside=Prism.languages.markup,Prism.hooks.add("wrap",(function(a){"entity"===a.type&&(a.attributes.title=a.content.replace(/&amp;/,"&"))})),Object.defineProperty(Prism.languages.markup.tag,"addInlined",{value:function(a,e){var s={};s["language-"+e]={pattern:/(^<!\[CDATA\[)[\s\S]+?(?=\]\]>$)/i,lookbehind:!0,inside:Prism.languages[e]},s.cdata=/^<!\[CDATA\[|\]\]>$/i;var t={"included-cdata":{pattern:/<!\[CDATA\[[\s\S]*?\]\]>/i,inside:s}};t["language-"+e]={pattern:/[\s\S]+/,inside:Prism.languages[e]};var n={};n[a]={pattern:RegExp("(<__[^>]*>)(?:<!\\[CDATA\\[(?:[^\\]]|\\](?!\\]>))*\\]\\]>|(?!<!\\[CDATA\\[)[^])*?(?=</__>)".replace(/__/g,(function(){return a})),"i"),lookbehind:!0,greedy:!0,inside:t},Prism.languages.insertBefore("markup","cdata",n)}}),Object.defineProperty(Prism.languages.markup.tag,"addAttribute",{value:function(a,e){Prism.languages.markup.tag.inside["special-attr"].push({pattern:RegExp("(^|[\"'\\s])(?:"+a+")\\s*=\\s*(?:\"[^\"]*\"|'[^']*'|[^\\s'\">=]+(?=[\\s>]))","i"),lookbehind:!0,inside:{"attr-name":/^[^\s=]+/,"attr-value":{pattern:/=[\s\S]+/,inside:{value:{pattern:/(^=\s*(["']|(?!["'])))\S[\s\S]*(?=\2$)/,lookbehind:!0,alias:[e,"language-"+e],inside:Prism.languages[e]},punctuation:[{pattern:/^=/,alias:"attr-equals"},/"|'/]}}}})}}),Prism.languages.html=Prism.languages.markup,Prism.languages.mathml=Prism.languages.markup,Prism.languages.svg=Prism.languages.markup,Prism.languages.xml=Prism.languages.extend("markup",{}),Prism.languages.ssml=Prism.languages.xml,Prism.languages.atom=Prism.languages.xml,Prism.languages.rss=Prism.languages.xml;
+!function(s){var e=/(?:"(?:\\(?:\r\n|[\s\S])|[^"\\\r\n])*"|'(?:\\(?:\r\n|[\s\S])|[^'\\\r\n])*')/;s.languages.css={comment:/\/\*[\s\S]*?\*\//,atrule:{pattern:RegExp("@[\\w-](?:[^;{\\s\"']|\\s+(?!\\s)|"+e.source+")*?(?:;|(?=\\s*\\{))"),inside:{rule:/^@[\w-]+/,"selector-function-argument":{pattern:/(\bselector\s*\(\s*(?![\s)]))(?:[^()\s]|\s+(?![\s)])|\((?:[^()]|\([^()]*\))*\))+(?=\s*\))/,lookbehind:!0,alias:"selector"},keyword:{pattern:/(^|[^\w-])(?:and|not|only|or)(?![\w-])/,lookbehind:!0}}},url:{pattern:RegExp("\\burl\\((?:"+e.source+"|(?:[^\\\\\r\n()\"']|\\\\[^])*)\\)","i"),greedy:!0,inside:{function:/^url/i,punctuation:/^\(|\)$/,string:{pattern:RegExp("^"+e.source+"$"),alias:"url"}}},selector:{pattern:RegExp("(^|[{}\\s])[^{}\\s](?:[^{};\"'\\s]|\\s+(?![\\s{])|"+e.source+")*(?=\\s*\\{)"),lookbehind:!0},string:{pattern:e,greedy:!0},property:{pattern:/(^|[^-\w\xA0-\uFFFF])(?!\s)[-_a-z\xA0-\uFFFF](?:(?!\s)[-\w\xA0-\uFFFF])*(?=\s*:)/i,lookbehind:!0},important:/!important\b/i,function:{pattern:/(^|[^-a-z0-9])[-a-z0-9]+(?=\()/i,lookbehind:!0},punctuation:/[(){};:,]/},s.languages.css.atrule.inside.rest=s.languages.css;var t=s.languages.markup;t&&(t.tag.addInlined("style","css"),t.tag.addAttribute("style","css"))}(Prism);
+Prism.languages.python={comment:{pattern:/(^|[^\\])#.*/,lookbehind:!0,greedy:!0},"string-interpolation":{pattern:/(?:f|fr|rf)(?:("""|''')[\s\S]*?\1|("|')(?:\\.|(?!\2)[^\\\r\n])*\2)/i,greedy:!0,inside:{interpolation:{pattern:/((?:^|[^{])(?:\{\{)*)\{(?!\{)(?:[^{}]|\{(?!\{)(?:[^{}]|\{(?!\{)(?:[^{}])+\})+\})+\}/,lookbehind:!0,inside:{"format-spec":{pattern:/(:)[^:(){}]+(?=\}$)/,lookbehind:!0},"conversion-option":{pattern:/![sra](?=[:}]$)/,alias:"punctuation"},rest:null}},string:/[\s\S]+/}},"triple-quoted-string":{pattern:/(?:[rub]|br|rb)?("""|''')[\s\S]*?\1/i,greedy:!0,alias:"string"},string:{pattern:/(?:[rub]|br|rb)?("|')(?:\\.|(?!\1)[^\\\r\n])*\1/i,greedy:!0},function:{pattern:/((?:^|\s)def[ \t]+)[a-zA-Z_]\w*(?=\s*\()/g,lookbehind:!0},"class-name":{pattern:/(\bclass\s+)\w+/i,lookbehind:!0},decorator:{pattern:/(^[\t ]*)@\w+(?:\.\w+)*/m,lookbehind:!0,alias:["annotation","punctuation"],inside:{punctuation:/\./}},keyword:/\b(?:_(?=\s*:)|and|as|assert|async|await|break|case|class|continue|def|del|elif|else|except|exec|finally|for|from|global|if|import|in|is|lambda|match|nonlocal|not|or|pass|print|raise|return|try|while|with|yield)\b/,builtin:/\b(?:__import__|abs|all|any|apply|ascii|basestring|bin|bool|buffer|bytearray|bytes|callable|chr|classmethod|cmp|coerce|compile|complex|delattr|dict|dir|divmod|enumerate|eval|execfile|file|filter|float|format|frozenset|getattr|globals|hasattr|hash|help|hex|id|input|int|intern|isinstance|issubclass|iter|len|list|locals|long|map|max|memoryview|min|next|object|oct|open|ord|pow|property|range|raw_input|reduce|reload|repr|reversed|round|set|setattr|slice|sorted|staticmethod|str|sum|super|tuple|type|unichr|unicode|vars|xrange|zip)\b/,boolean:/\b(?:False|None|True)\b/,number:/\b0(?:b(?:_?[01])+|o(?:_?[0-7])+|x(?:_?[a-f0-9])+)\b|(?:\b\d+(?:_\d+)*(?:\.(?:\d+(?:_\d+)*)?)?|\B\.\d+(?:_\d+)*)(?:e[+-]?\d+(?:_\d+)*)?j?(?!\w)/i,operator:/[-+%=]=?|!=|:=|\*\*?=?|\/\/?=?|<[<=>]?|>[=>]?|[&|^~]/,punctuation:/[{}[\];(),.:]/},Prism.languages.python["string-interpolation"].inside.interpolation.inside.rest=Prism.languages.python,Prism.languages.py=Prism.languages.python;
+
+              </script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+  var body = document.body;
+var switcher = document.getElementsByClassName('js-toggle')[0];
+
+
+switcher.addEventListener("click", function() {
+      this.classList.toggle('js-toggle--checked');
+      this.classList.add('js-toggle--focus');
+  
+  if (this.classList.contains('js-toggle--checked')) {
+    body.classList.add('dark-mode');
+    
+    localStorage.setItem('darkMode', 'true');
+  } else {
+    body.classList.remove('dark-mode');
+    setTimeout(function() {
+      localStorage.removeItem('darkMode');
+    }, 100);
+  }
+})
+
+
+if (localStorage.getItem('darkMode')) {
+  
+      switcher.classList.add('js-toggle--checked');
+      body.classList.add('dark-mode');
+}
+
+
+function changerCouleur() {
+  var elem = document.getElementById("Blank");
+  var couleur = "#" + Math.floor(Math.random()*16777215).toString(16); 
+  elem.style.color = couleur;
+}
+
+
+function changerCouleurAuto() {
+  setTimeout(changerCouleur, 60 * 60 * 1000); 
+}
+
+
+window.onload = changerCouleurAuto;
+
+
+
+
+var texte = document.getElementById("BecomeBlank");
+		var compteur = 0;
+		var intervalle = setTimeout(changerCouleur, 60 * 60 * 1000);
+		
+		function changerCouleur() {
+			var rouge = 0 + compteur;
+			var vert = 0 + compteur;
+			var bleu = 0 + compteur;
+      var transparent = 10000 - compteur;
+			texte.style.color = "rgb(" + rouge + ", " + vert + ", " + bleu + ", " + transparent + " )";
+			if (compteur < 255) {
+				compteur += 5;
+			} else {
+				clearInterval(intervalle);
+			}
+		}
+
+</script>

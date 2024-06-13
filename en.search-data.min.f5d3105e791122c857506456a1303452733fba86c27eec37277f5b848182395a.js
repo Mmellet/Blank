@@ -1557,7 +1557,110 @@ Premier chapitre - Fabrique de la pensée où on va établir avec moult référe
 Machine littéraire où on présente le texte comme une machine médiatique qui n&rsquo;est pas seulement dirigé par le primat de la lisibilité How to deal with Text L&rsquo;image du texte La trace du média Medium is Media : où on développe la question du média et notamment on essaye de trouver une solution au problème de balancement entre une part active du média et l&rsquo;essentialisation déterministe du média In media res #creation &amp; #creation où on fait une table rase du média et où la réflexion avance par étape de création ou recréation d&rsquo;une image du média Le réel du média où on se posera ici la question de savoir de quoi le média est la médiation et on présentera plus en détail la pensée de l&rsquo;intermédialité La mort du média où on développera sur les pensées récentes des médias et définira notre posture vis-à-vis du média Matières d&rsquo;écritures : où on développe notre hypothese de recherche et où on va introduire la thématique du palimpseste par l&rsquo;analyse de cas d&rsquo;écriture qui mettent la matière du texte comme clef littéraire L&rsquo;édition création où on présente les armes éditorialisation et énonciation éditoriale apposé à des objets textes ayant déplacé la question du texte vers sa mise en page À chacun sa glaise L(&rsquo;)être où on pose la question ontologique entre quid du contenu et contenant Deuxième chapitre - Titre à trouver : où on présente tous les projets sur lesquels on a travaillé depuis 5 ans pour donner des cadres concrêts de recherche et création qui répondent aux problématiques énoncées dans le chapitre 1
 Les petites mains : où on développe la figure du scribe, de la secrétaire, en traitant des principes épistémologiques en action qui reconduisent un sexisme technique mais aussi des questions d&rsquo;autorité et un imaginaire de la tour d&rsquo;ivoire Uncreative et Unoriginal, tout pour plaire : où pour la question de l&rsquo;autorité et traiter le modèle du communs, on articule l&rsquo;Uncreative writing de Goldsmith et l&rsquo;Unorgininal genius : écriture sans écriture de Bon comme une perspective de la recherche-création Le détournement technique Troisième chapitre : Le Palimpseste : où on développe le cadre méthologique du palimpseste qui permet de résumer toutes les dimensions des forces en action
 Histoire et glissement de sens d&rsquo;un terme à multiples recouvrements : où on présente plus en détail un terme et ses problématiques sémantiques Images techniques et plasticité de l&rsquo;écriture : où on développe le rapport recherche-création que l&rsquo;on a vis-à-vis du texte numérique pour le placer en continuité avec les études des médias Méthodologie : où on énonce plus clairement le palimpseste comme une méthode et on revient sur les coulisses techniques de la présente recherche Le Care technique : où on développe un nouvel imaginaire du texte où la procédure est l&rsquo;écriture `}),e.add({id:10,href:"/conf/ccla-2024/",title:"Do not write to écrire à nouveau : proposition médiatique pour repenser la frontière entre recherche et création",section:"Confs",content:`Présentation dans le cadre du colloque CCLA -2024 à l&rsquo;Université de Montréal et en ligne, juin 13.
-Slides # ouvrir dans mon navigateur `}),e.add({id:11,href:"/conf/lqm/",title:"Elles font, font, (dé)font et puis s’en vont",section:"Confs",content:` Slides # ouvrir dans mon navigateur Title : Elles font, font, (dé)font et puis s’en vont Subtitle : Les petites mains des éditions numériques Texte # Dans le cadre du pannel présentant plusieurs problématiques sur les futurs des écritures numériques, je souhaite partager ici une réflexion que je poursuis depuis quelques temps,
+Slides # ouvrir dans mon navigateur Texte # Cette présentation will be bilingue pour continue le mood de ce colloque, always with a frenchy accent i&rsquo;m afraid, prenez-la as an experiment or just a moment pour comprendre un word sur deux, or to sleep half the time.
+Dans cette présentation, j&rsquo;aimerai explorer and interroger la perspective de research-création, et particulièrement la frontier between recherche and creation que l&rsquo;on fait traditionnellement.
+My reflexion is like a recipe, une recette, where the thinkers, les références sont des ingredients and this conference room, cette chambre comme l&rsquo;a traduit le Congrès une cuisine, a kitchen.
+Telle qu&rsquo;elle est présentée, as its conceived, et performée à l&rsquo;université, the recherche-création approach fait la différence entre deux pôles, build an intern frontier between two modes :
+[clic]
+une approche plus classique, scientifique a more traditionnal, intellectual side qui viendrait être aggrémentée par / which is combined with
+[clic]
+une autre approche plus inventive, plus exploratoire a rather more ludic, fun or non directly scientific approach Je brosse ici un portrait with a big brush explicitely.
+Le problème c&rsquo;est que cette frontière, this frontier, bloque une hybridation : for example, les recherches produites font la différence entre on one side la recherche, and on the other la création.
+les mémoires ou thèses en recherche-création habituellement produisent deux objets : une recherche et une création.
+Même si on parle de research and creation ou de research-creation with a dash,
+My point is : La frontière stays. We have this impression soit que la recherche a été rendue plus fun par la création, either that for creation to be legitimate with a more serious background.
+The research-creation is therefore more a package, a two faces product than an hybridity, than an exploration or even an entanglement, l&rsquo;entremêlement entre recherche and creation n&rsquo;est pas véritablement investi ou acté.
+La question que je me pose alors : how do we/can we bridge ? comment est-ce que l&rsquo;on peut repenser / challenger l&rsquo;idéal scientifique, the scientific norm non pas en l&rsquo;augmentant ou en l&rsquo;enrichissant mais en la réincarnant, en repensant les bases.
+[clic]
+À mes yeux, the core, la clef ou le noeud of this frontier, is in writing: sur ce que l&rsquo;on considère être de l&rsquo;écriture and what does not belong to writing.
+Dans le temps bilingue qui est le mien et le vôtre, In the two-language timezone that is mine and yours, je vous propose de rethink the frontiers au sein de l&rsquo;écriture avec les Media Studies.
+Since it&rsquo;s a recipe, Dans ma recette médiatique, the first ingredient is Kittler. In many of my reflexions, Kittler is a basic ingredient, un peu comme une magic baking powder.
+Kittler ist a german médiologue allemand qui s&rsquo;est particulièrement intéressé à understand les implications culturelles des médias : his work is like a crossing between Media Studies and Cultural Studies, surtout on the arts recording, l&rsquo;enregistrement des arts for the Western culture.
+Betwenn the eighties and the nineties, entre 1800 et 1900 for Kittler, it is a radical cultural shift, une rupture qui concerne toutes les strates de la societé, that is an impact on objects and représentations in the society.
+Modern media have cause a disruption, qui va jusqu&rsquo;à concerner ce qui cristalise une identité de la société occidentale : the writing as it is, l&rsquo;écriture that is so crucial for Western society.
+The writing that is considered by Jack Goody as the medium for critical thought, because it creates structures such as la liste ou l&rsquo;index qui sont les conditions le développement d&rsquo;une pensée critique ou en d&rsquo;autres termes, for Goody, writing enables us to overcome a « savage mind ».
+Je pense que dans les toutes les langues, la pensée de Goody appears as colonialist and logocentric.
+So regarding of this so precious writing, voici ce que Kittler dit :
+Wie wir alle wissen und nur nicht sagen, schreibt kein Mensch mehr.
+[clic]
+I&rsquo;ve translated it into English and French so that all the Goody in this world will understand :
+As one knows without saying, Comme nous le savons tous et toutes, même si nous ne voulons pas nous l’avouer, nobody writes anymore, aucun être humain n’écrit plus.
+La question qui vient alors immédiatement à l&rsquo;esprit est celle-ci :
+who is writing then? or what is writing then ? And how can Kittler say this par écrit? c&rsquo;est toute l&rsquo;ironie de Kittler qui affirme la désécriture en l&rsquo;écrivant dans un article.
+What Kittler is really referring to here are the features of new media.
+Ce à quoi Kittler fait référence en réalité ici, c&rsquo;est aux caractéristiques des nouveaux médias.
+New media capture reality in what we cannot grasp, la réalité en ce qu&rsquo;elle fait défaut à la perception sensible et intelligible de l&rsquo;humain :
+and so le gramophone records noises that we cannot ear avec nos oreilles
+the typewriter (la machine à écrire et non la secrétaire) writes écrivent faster than any typewriter ou secrétaire.
+and so the computer (les ordinateurs et non les opératrices) calculent faster than any brains.
+So when Kittler says « plus personne n&rsquo;écrit anymore », he says that for now on, désormais we donnot understand, size, nous ne captons plus, the writing as a discourse network, ou un système d&rsquo;inscription.
+Il y a une déprise, ou une loss of grasp.
+The question is therefore not : est-ce que la machine qui écrit à ma place écrit mieux que moi ? Does ChatGPT writes better than I do ?
+Depuis les nouvelles générations de Large Language Model, in all conference, it&rsquo;s like une nécessité de mentionner ChatGPT au moins une fois, je le fais maintenant, comme ça it&rsquo;s done, now we can move on to smoething else.
+So the question asked is not does ChatGPT know how to writes as a human can ? or does it thinks that it writes ? Est-ce qu&rsquo;il a vraiment l&rsquo;intention comme peut l&rsquo;avoir l&rsquo;humain qui écrit ?
+Comme Turing pourrait le dire, il s&rsquo;agit de laisser le bénéfice du doute, to have the courtesy to assume that the machine thinks, writes as we assume that conference participants listen.
+Il s&rsquo;agit plutôt de comprendre ce que devient the writing quand elle n&rsquo;est plus exclusively human. How does the writing exists, and how do we co-exists with this new system ?
+Le problème pour Kittler est l&rsquo;a-priori des sciences humaines : the problem is not using machines to write since Kittler was one of the first to create programming lessons at Berlin&rsquo;s Humboldt University.
+Le problème c&rsquo;est d&rsquo;utiliser les machines en pensant que rien n&rsquo;a changé pour l&rsquo;écriture.
+The problem is using machines thinking that nothing has changed for writing.
+This ingredient leads to what I called : the De-Writing, la désécriture that is a perspective on writing that includes all external aspects of it into the writing process considering that the author is just one element of it, et l&rsquo;auteur dépend de cet environnement médiatique d&rsquo;écriture.
+The context of writing, les environnements, the tools used have an impact mais surtout writes with and on us.
+Et cela résume bien la pensée des médias, the soul of Media Studies where the main argument is that we do have to understand media parce que ce sont les messages.
+Obviously my second ingrédient est McLuhan, qui est certainement le first ingrédient de beaucoup de chercheurs qui l&rsquo;utilise for blending the dough.
+McLuhan est bien sûr connu pour le slogan des médias studies :
+the medium is the message.
+qui indique qu&rsquo;ontologiquement le média détermine le savoir, that the media crystallize the essence of cultural elements, it&rsquo;s not an empty shell. Et McLuhan a beaucoup utilisé les médias pour faire passer son message. He is himself a mediatic figure.
+the problem is, what is a media ?
+Parce que for McLuhan, a medium can be a lot of things. Mon avis is that McLuhan left the definition of media undefined, vague on purpose, et il a eu raison de laisser la définition du média floue, because the generations of media studies have been struggling with this problem on qu&rsquo;est-ce que le média ?
+Les différentes traditions linguistiques,
+first it was : oh the media exists and it&rsquo;s significant, and it&rsquo;s everywhere partout.
+et puis, avec les études de l&rsquo;Intermédialités, le média c&rsquo;est un ensemble de relation, its what is between media, c&rsquo;est pour ça que les anglophones ont appelé les études de l&rsquo;intermédialité comme le « in between » qui est un peu insultant.
+et finalement : no the media does not exists because its impossible to outline, et ça ce sont les post-medias studies.
+So Media Studies, in many aspect, are like a novel, une romanasques quest à la recherche du lost media essense.
+Et la définition de Kittler l&rsquo;illustre bien, refers to this impossible cycle :
+Ein Medium ist ein Medium ist ein Medium.
+A medium is un média qui est a medium.
+Paraphrase de la formule de Stein
+a rose is a rose is a rose est une rose which refers to the media&rsquo;s problem of being impossible to translate, impossible à transmettre, being in a loop of signification.
+Parce que comme pour le problème des universaux, le problème du name of the rose, does the concept of media comes after the thing in reality ? Does it come before ? or est-ce que le concept de média est-il inside the thing in reality ?
+The media is a construction, une création made of theories and représentations, en d&rsquo;autres mots, un élément très proche de la recherche-création.
+McLuhan knows that the media has become like un reflet de lui-même, an empty concept-cliché, alors autant jouer de la formule et des jalons médiatiques:
+the medium is the massage.
+qui un ouvrage co-créé par McLuhan lui-même et le graphic designer Quentin Fiore. The ideas stays the same, les médias sont au centre de notre rapport au monde, but le media massage concerns the human sensorium.
+L&rsquo;ouvrage explore le discours sur le média, is a cultural exploration of media and writing.
+The term massage a game of words, un jeu littéraire : Massage, Mass Age, Mess Age, etc.
+There is also l&rsquo;hypothese que le titre du livre is a mistake, une erreur de typographe, but I don&rsquo;t belive it.
+This new flavor of our deuxième ingrédient ouvre sur l&rsquo;idée d&rsquo;hybridation de l&rsquo;écriture :
+to escape the media influence or narcose, for McLuhan, the solution is the hybridation of media, is playing with codes, with boundaries, is to merge media, is to create collision, des confrontations of interfaced situations.
+L&rsquo;hybridation ou la rencontre de deux médias est un moment de vérité et de révélation d&rsquo;où émerge une nouvelle forme. En effet, le rapport entre deux médias nous maintient à la frontière entre des formes qui nous arrachent à la narcose de Narcisse. Le moment de la rencontre des médias est un moment de liberté et de délivrance de la transe ordinaire et de l&rsquo;engourdissement qu&rsquo;ils imposent à nos sens.
+[clic]
+travailler la page l&rsquo;écriture, la typographie, le son de l&rsquo;écriture, les débordements de mise en page. Masser c&rsquo;est aussi malaxer, is puting ours hands into. L&rsquo;écriture dans cet perspective médiatique est un faire.
+Ce qui me mène à mon dernier ingrédient, last ingrédient, not a mediatic one, mais qui est toujours en lien avec une perspective culturelle de l&rsquo;écriture, the anthropologie of Ingold, la pensée du faire d&rsquo;Ingold, which is like chocolat chips for me : je serai capable d&rsquo;en mettre dans toute mes recettes.
+Ingold propose de retourner la formule :
+Making through thinking faire par la réflexion
+In this common model of Making through thinking, c&rsquo;est l&rsquo;idée que la pensée informe la matière, first I think and then I make, theory leads and practice follows. Donc les thinkers, les penseurs permettent aux makers de faire.
+La frontière elle est là, it&rsquo;s the same for research creation : it&rsquo;s about thinking and matters, la pensée et la matière, and creation follows research even in the terms.
+Ingold souhaite la remplacer par son renversement :
+Thinking through making penser par le faire
+où la pensée émerge par la pratique, thinking raise from matter.
+Donc l&rsquo;écriture, la pensée du writing, surtout avec la de-writing des médias modernes, c&rsquo;est une pratique, c&rsquo;est par le massage que l&rsquo;on pense, que l&rsquo;on écrit.
+Ainsi écrire c&rsquo;est d&rsquo;abord pratiquer l&rsquo;espace médiatique de l&rsquo;écriture : writing is making, massaging the media of writing, searching for the writing environment, le bricoler, le bidouiller, even breaking it.
+We will always be plunged into a mediatic world, il y a aura toujours de nouvelles machines, de nouveaux ChatGPT qui écriront de mieux en mieux, qui feront de mieux en mieux le simulacre. L&rsquo;espace de résistance il n&rsquo;est pas dans le refus de ces media, : it&rsquo;s in the collide, the friction.
+Bien sûr, si on recherche l&rsquo;écriture, if we take the time to explore the de-writing friction, it&rsquo;s a delay for writing itself, but we do not writes to écrire à nouveau.
+To conclure cette recipe, cette recette médiatique, j&rsquo;aimerai ouvrir sur la question or the human puisque saying that nobody writes anymore echoes the many concerns face aux Large Language Model comme ChatGPT : vis-à-vis desquels on se demande : can we trust them for writing and thinking in our place ? est-ce qu&rsquo;ils écrivent mieux que nous ? est-ce qu&rsquo;ils pensent ? will we be replace by them ?
+These interrogations sont des inquiétudes de la frontière, concerns fo the frontier : il y a eu les mêmes arguments lors de l&rsquo;arrivée de la machine à écrire ou encore au début du métier de secrétaire.
+The same arguments were used when the typewriter was introduced, or when the secretarial profession began : is about defining the norme par rapport à une non-norme, l&rsquo;humain par rapport à un non-humain.
+The research is a norm, and the creation est une approche plus marginale qui n&rsquo;a pas sa propre légitimité dans le discourse network
+Or
+to bridge the frontier is to consider the entanglement of thoughts and matter, qu&rsquo;une recherche est un massage concret de l&rsquo;environnement médiatique, que se poser la question de l&rsquo;écriture c&rsquo;est se poser la question d&rsquo;un processus.
+In other words, si je reprends Kittler, même si nous ne voulons pas l&rsquo;admettre, nobody has ever written, personne n&rsquo;a jamais écrit.
+C&rsquo;est pourquoi I think we can even go futher thant Thinking though making, que l&rsquo;on peut même dire que there is no real sides, there is not thinking towrds making : not on one sides recherche, intellect, pensée et on the other création, pratique et matière. It&rsquo;s, according to the ingredients, une composition de rapports, un process de dialogue, an entanglement.
+[clic]
+La frontière est donc affaire de perspective, elle est une projection, it&rsquo;s an trick we use in our discourse network in order to precise our thinking but also to create power dynamics, pour créer des rapports de force et d&rsquo;identité.
+and on this, I let it bake.
+merci
+thank you for you double attention.
+`}),e.add({id:11,href:"/conf/lqm/",title:"Elles font, font, (dé)font et puis s’en vont",section:"Confs",content:` Slides # ouvrir dans mon navigateur Title : Elles font, font, (dé)font et puis s’en vont Subtitle : Les petites mains des éditions numériques Texte # Dans le cadre du pannel présentant plusieurs problématiques sur les futurs des écritures numériques, je souhaite partager ici une réflexion que je poursuis depuis quelques temps,
 réflexion qui émerge d'expériences de travail d'édition, de la coordination d'une revue en sciences humaines, notamment à la chaire de recherche du canada sur les écritures numériques Réflexion qui se résume par la notion de petites mains.
 &ndash;
 Point 0. de ma présentation

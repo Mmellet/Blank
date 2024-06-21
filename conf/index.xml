@@ -8,8 +8,15 @@
     <language>en</language>
     <managingEditor>margot.mellet@umontreal.ca (Margot Mellet)</managingEditor>
     <webMaster>margot.mellet@umontreal.ca (Margot Mellet)</webMaster>
-    <lastBuildDate>Thu, 13 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 21 Jun 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://blank.blue/conf/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>De-writing : The misuse of writing</title>
+      <link>https://blank.blue/conf/csdh/</link>
+      <pubDate>Fri, 21 Jun 2024 00:00:00 +0000</pubDate><author>margot.mellet@umontreal.ca (Margot Mellet)</author>
+      <guid>https://blank.blue/conf/csdh/</guid>
+      <description>Présentation dans le cadre du colloque CSDH -2024 à l&amp;rsquo;Université de Montréal, juin 21.&#xA;Slides # ouvrir dans mon navigateur </description>
+    </item>
     <item>
       <title>Do not write to écrire à nouveau : proposition médiatique pour repenser la frontière entre recherche et création</title>
       <link>https://blank.blue/conf/ccla-2024/</link>

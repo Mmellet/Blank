@@ -15,9 +15,9 @@
         <link href="https://www.google-analytics.com" rel="preconnect" crossorigin>
         <link rel="alternate" type="application/atom+xml" title="{{ .Site.Title }}" href="{{ .Site.BaseURL }}atom.xml" />
         <link rel="alternate" type="application/json" title="{{ .Site.Title }}" href="{{ .Site.BaseURL }}feed.json" />
-        {{ $styles := resources.Get "impression.scss" | toCSS (dict "outputStyle" "compressed") | minify }}
+        {{ $styles := resources.Get "impression.scss" | css.Sass (dict "outputStyle" "compressed") | minify }}
         <style>{{ $styles.Content | safeCSS }}</style>
-        {{ $stylesimp := resources.Get "impression-interface.scss" | toCSS (dict "outputStyle" "compressed") | minify }}
+        {{ $stylesimp := resources.Get "impression-interface.scss" | css.Sass (dict "outputStyle" "compressed") | minify }}
         <style>{{ $stylesimp.Content | safeCSS }}</style>
         <script src="https://unpkg.com/pagedjs/dist/paged.polyfill.js"></script>
       </head>

@@ -2,6 +2,7 @@
 title: "Pannel Collaboration et production du savoir"
 description: "CSDH 2023"
 date: 2023-05-29
+keywords: "petites-mains humanités-numériques"
 ---
 
 in CSDH2023 pannel - Collaboration et production du savoir : pour une herméneutique des structures.

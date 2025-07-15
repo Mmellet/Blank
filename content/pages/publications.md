@@ -15,6 +15,10 @@
 
 <table style="width:100%">
 <th>
+<p class="align-left"><a href="https://revuefemur.com/index.php/2023/06/10/mais-etaient-ce-des-signes-les-embrassements-graphiques-du-texte-et-de-limage/">« Mais étaient-ce des signes ? » Les embrassements graphiques du texte et de l'image</a></br>
+<iframe src="https://revuefemur.com/index.php/2023/06/10/mais-etaient-ce-des-signes-les-embrassements-graphiques-du-texte-et-de-limage/" style="height:410px;width:330px;" webkitallowfullscreen="true" mozallowfullscreen="true"  allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
+</th>
+<th>
 <p class="align-left"><a href="https://revuefemur.com/index.php/2021/12/13/le-dispositif-visiophonique-comme-lieu-de-rencontre/">Le dispositif visiophonique comme lieu de
 rencontre</a></br>
 <iframe src="https://revuefemur.com/index.php/2021/12/13/le-dispositif-visiophonique-comme-lieu-de-rencontre/" style="height:410px;width:330px;" webkitallowfullscreen="true" mozallowfullscreen="true"  allow="autoplay; encrypted-media" allowfullscreen></iframe></p>

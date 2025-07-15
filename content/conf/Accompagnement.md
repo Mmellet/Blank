@@ -2,6 +2,7 @@
 title: "Le bruit technique de la désécriture : tutoriel pour accompagner le bug"
 description: "Colloque Accompagner, Limites et possibles"
 date: 2023-05-26
+keywords: "creation bug"
 ---
 
 Présentation dans le cadre du colloque « Accompagner. Limites et possibles » à l'Université de Montréal, 24-26 mai. 

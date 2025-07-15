@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language }}">
+
+<head>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  {{- partial "head.html" . -}}
+  <link rel="stylesheet" type="text/css" href="themes/blank//static/css/style.css">
+
+  <title>{{ .Title }}</title>
+
+
+<!--
+  <script type="application/json" class="js-hypothesis-config">
+    {
+      "theme": "clean",
+      "openSidebar": false
+    }
+  </script>
+  <script async="" src="https://hypothes.is/embed.js"></script>
+-->
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <script>
+    $(document).ready(function () {
+      var sections = $('h1[id], h2[id], h3[id], h4[id], h5[id], h6[id]');
+  
+      function scrollToSection(targetSectionId) {
+        $('html, body').animate({
+          scrollTop: $(targetSectionId).offset().top
+        }, 500); // Animation de défilement en 500 millisecondes
+      }
+  
+      // Gestion de l'événement click sur les liens de la table des matières
+      $('body').on('click', '.table-of-contents a', function (e) {
+        e.preventDefault();
+        var targetSectionId = $(this).attr('href');
+        scrollToSection(targetSectionId);
+        history.pushState(null, null, targetSectionId);
+      });
+  
+      // Gestion de l'événement popstate pour mettre à jour la section active lorsque l'URL change
+      $(window).on('popstate', function () {
+        var targetSectionId = location.hash;
+        if (targetSectionId) {
+          scrollToSection(targetSectionId);
+        }
+      });
+  
+      // Vérification de la section active au chargement de la page
+      $(window).on('load', function () {
+        var targetSectionId = location.hash;
+        if (targetSectionId) {
+          scrollToSection(targetSectionId);
+        }
+      });
+    });
+  </script>
+  
+  
+  
+  <script>
+    var timeoutId;
+
+    function showNav(element) {
+      clearTimeout(timeoutId); // Annule le délai avant le masquage
+      var nav = element.querySelector('.' + element.dataset.hoverClass);
+      if (nav) {
+        nav.style.display = 'block';
+      }
+    }
+
+    function hideNav(element) {
+      timeoutId = setTimeout(function () {
+        var nav = element.querySelector('.' + element.dataset.hoverClass);
+        if (nav) {
+          nav.style.display = 'none';
+        }
+      }, 1200); // Délai en millisecondes avant de masquer les options (ici, 0.5 seconde)
+    }
+  </script>
+
+
+
+
+</head>
+
+
+
+
+<body>
+  {{ block "header" . }}{{ end }}
+    {{ block "main" . }}{{ end }}
+  <section class="Body">
+
+
+    <div class="NO" data-hover-class="nav" onmouseover="showNav(this)" onmouseout="hideNav(this)">
+      NO
+      <div class="nav" style="display: none;">
+        <a href="{{ relref . '/' }}" class="NOright">Outils imaginaires</a>
+        <a href="" class="NObottom">Tuto pour les morts</a>
+      </div>
+    </div>
+
+
+    <div class="NOE" data-hover-class="nav" onmouseover="showNav(this)" onmouseout="hideNav(this)">
+      NOE
+      <div class="nav" style="display: none;">
+        <a href="{{ relref . '/' }}" class="NOEright">About</a>
+        <a href="{{ relref . "/credits" }}" class="NOEdiagonal">Crédits</a>
+        <a href="" class="NOEleft">.</a>
+      </div>
+    </div>
+
+    <div class="NE" data-hover-class="nav" onmouseover="showNav(this)" onmouseout="hideNav(this)">
+      NE
+      <div class="nav" style="display: none;">
+        <a href="{{ relref . "/medition" }}" class="NEleft">Méditions</a>
+        <a href="" class="NEbottom">Inférences</a>
+      </div>
+    </div>
+
+
+    <div class="Centre">
+      <div class="content">
+
+        <main>
+          <article>
+            <h1>{{ .Title }}</h1>
+
+            <h2>{{ .Description }}</h2>
+
+            <p>{{ .Content }}</p>
+           
+   
+            <p>[À venir peut-être : {{ .Params.avenir }}]</p>
+          
+         
+     <!--
+      {{ if eq .Params.fabrique "oui" }}
+      <section>
+        {{ range  where .Site.RegularPages "Section" "fabrique"  }}
+        <h3><time datetime="{{ dateFormat "2006-01-01" .Date }}">{{ dateFormat "2006-01-01" .Date }}</time> <a
+            href="{{ .Permalink }}"> {{ .Title }}</h3>
+        <em>{{ .Description }}</em></a>
+    
+        {{ end }}
+      </section>
+      {{ end }}
+-->
+
+
+{{ if eq .Params.medition "oui" }}
+<section>  
+  
+  {{ range  where .Site.RegularPages "Section" "medition"  }}
+
+
+  {{ if ge .Date (time "2025-01-01") }} <!-- Condition pour vérifier si la date est avant 2025 -->
+        
+  <h3><time datetime="{{ dateFormat "2006-01-01" .Date }}"><sup>{{ dateFormat "060101" .Date }}</sup></time><a
+      href="{{ .Permalink }}"> {{ .Title }}</h3></a>
+
+  {{ end }}
+  {{ end }}
+
+  <h2>Avant déconstruction</h2>
+  {{ range  where .Site.RegularPages "Section" "medition"  }}
+
+
+  {{ if lt .Date (time "2025-01-01") }} <!-- Condition pour vérifier si la date est avant 2025 -->
+        
+  <h3><time datetime="{{ dateFormat "2006-01-01" .Date }}"><sup>{{ dateFormat "060101" .Date }}</sup></time><a
+      href="{{ .Permalink }}"> {{ .Title }}</h3></a>
+
+  {{ end }}
+  {{ end }}
+
+
+</section>
+{{ end }}
+
+        {{ if eq .Params.recherche "oui" }}
+        <section>
+          {{ range  where .Site.RegularPages "Section" "cherches"  }}
+          {{ if lt .Date (time "2025-01-01") }} <!-- Condition pour vérifier si la date est avant 2025 -->
+          <h3><time datetime="{{ dateFormat "2006-01" .Date }}">{{ dateFormat "2006-01" .Date }}</time><a
+              href="{{ .Permalink }}"> {{ .Title }}</h3></a>
+          {{ end }}
+          {{ end }}
+
+        </section>
+        {{ end }}
+
+
+
+                 </article>
+        </main>
+    </section>
+
+      </div>
+    </div>
+
+
+    <div class="Humeur">Humeur
+      <div class="flexible-lines"></div>
+
+    </div>
+
+    <section class="ToC">
+
+      <div class="table-of-contents-link">
+        {{ .TableOfContents | replaceRE "(<a.*?)" "$1 class=\"table-of-contents-link\"" | safeHTML }}
+
+      </div>
+    </section>
+
+    <div class="Logo">
+      {{- partial "header.html" . -}}
+    </div>
+
+
+    <div class="NOS" data-hover-class="nav" onmouseover="showNav(this)" onmouseout="hideNav(this)">
+      NOS
+      <div class="nav" style="display: none;">
+        <a href="{{ relref . "/" }}" class="NOStop">Conférences</a>
+        <a href="" class="NOSbottom">Publications</a>
+      </div>
+    </div>
+
+    <div class="NES" data-hover-class="nav" onmouseover="showNav(this)" onmouseout="hideNav(this)">
+      NES
+      <div class="nav" style="display: none;">
+        <a href="{{ relref . "/" }}" class="NEStop">Hyper-Textes</a>
+        <a href="" class="NESbottom">Texte-Vidéos</a>
+      </div>
+    </div>
+
+    <div class="SO" data-hover-class="nav" onmouseover="showNav(this)" onmouseout="hideNav(this)">
+      SO
+      <div class="nav" style="display: none;">
+        <a href="{{ relref . "/recherche" }}" class="SOtop">Carnet</a>
+     <!--   <a href="{{ relref . "/fabrique" }}" class="SOleft">Fabrique</a>-->
+      </div>
+    </div>
+
+
+
+
+      {{ $section := .Section }}
+      {{ if not (in .File.Path "pages") }} <!-- Vérifie si la page actuelle n'est pas dans le dossier "pages" -->
+      <section class="Navigation"> 
+      {{ with .PrevInSection }}
+          {{ if eq .Section $section }}
+            <a href="{{ .RelPermalink }}">Previous</a>
+          {{ end }}
+        {{ end }}
+    
+        {{ with .NextInSection }}
+          {{ if eq .Section $section }}
+            <a href="{{ .RelPermalink }}">Next</a>
+          {{ end }}
+        {{ end }}
+      </section>
+      {{ end }}
+
+    
+
+    <section class="Bas">
+
+      <section class="Bas">
+
+        {{- partial "footer.html" }}
+
+    </section>
+
+    <div class="SE" data-hover-class="nav" onmouseover="showNav(this)" onmouseout="hideNav(this)">
+      SE
+      <div class="nav" style="display: none;">
+     <!--  <a href="{{ relref . "/" }}" class="SEright">Mécréations</a>--> 
+        <a href="" class="SEtop">.</a>
+      </div>
+    </div>
+
+  </section>
+
+
+
+</body>
+
+</html>

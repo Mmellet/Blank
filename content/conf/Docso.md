@@ -2,6 +2,7 @@
 title: "Design pour des environnements éditoriaux équitables, pluriels et inclusifs"
 date: 2022-06-23
 description: "DOCSO 2022"
+keywords: "petites-mains édition"
 ---
 
 Remerciements aux organisateurs et organisatrices pour cette occasion de parole et de partage.

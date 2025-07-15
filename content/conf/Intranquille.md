@@ -2,6 +2,7 @@
 title: "Le savoir intranquille du texte numérique"
 date: 2022-06-03
 description: "Colloque Connaissance intranquille"
+keywords: "création bug"
 ---
 
 Remerciements aux organisateurs et organisatrices pour cette occasion de parole et de partage.

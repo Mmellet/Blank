@@ -46,3 +46,17 @@ et on désespère que les autres tronçons laissés en jachère n'ont pas évolu
         ils semblent toujours aussi abscons et artificiels. 
 
 On avait besoin de remorceler en fragments pour avoir une vision plus équitable de chacune des sections. 
+
+Le 19 janvier, 
+
+On réalise qu'on a pas du tout écrit son premier chapitre. 
+
+On a en fait écrit sa thèse (enfin pourraient dire certains). 
+
+Maintenant il faut revoir tout l'index
+
+        mettre le doigt sur ce où doit être placé quoi
+        serrer les poings pour exprimer toute la moelle qui était promise
+        croiser les doigts que rien de l'ancienne structure se trouve laissé en arrière
+
+Maintenant on sait qu'on écrit notre thèse. 

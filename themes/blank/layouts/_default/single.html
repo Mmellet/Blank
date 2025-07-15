@@ -1,0 +1,31 @@
+{{ define "main" }}
+
+<main>
+ <!-- <span class="Z3988" 
+    title="ctx_ver=Z39.88-2004">
+</span> -->
+
+<!--
+<span class="Z3988" 
+title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.title=title&amp;
+rft.aulast={{ .Site.Author.lastname }}&amp;
+rft.aufirst={{ .Site.Author.firstname }}&amp;
+rft.source={{ .Site.Title }}&amp;
+rft.date={{ .Date.Format "2006-01-02" }}&amp;rft.type=blogPost&amp;rft.format=text&amp;rft.identifier={{ .Permalink }}&amp;rft.language=French">
+</span>
+-->
+
+<span class="Z3988 blog-post" 
+title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.title={{ .Title }}
+&amp;rft.aulast={{ .Site.Author.lastname }}
+&amp;rft.aufirst={{ .Site.Author.firstname }}
+&amp;rft.source={{ .Site.Params.source }}
+&amp;rft.date={{ .Date.Format "2006-01-02" }}
+&amp;rft.type=blogPost&amp;rft.format=text&amp;rft.identifier={{ .Permalink }}&amp;rft.language={{ .Language }}">
+</span> 
+
+
+
+
+</main>
+{{ end }}

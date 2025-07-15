@@ -2,6 +2,7 @@
 title: "What Lies under the Petites Mains: Reconsidering the Traditional Model of the Humanities"
 date: 2023-05-30
 description: "CCLA Congress"
+keywords: "petites-mains humanités-numériques"
 ---
 
 # Slides 
@@ -14,8 +15,9 @@ description: "CCLA Congress"
 
 ---
 
+# Text
 
-In this presentation, I would like to share with you an ongoing research reflection that is focused on the notion of "petites mains". 
+In this presentation, I would like to share with you an ongoing personnal research that is focused on the notion of "petites mains". 
 
 I choose to stick with the French expression, because it is difficult to translate as it is in English: small or little hands would not convey the meaning of the French formula. Actually, maybe a term that would be closer is *amanuensis*, or textual assistant, but I'm afraid it's mainly a matter of textual environments, although les petites mains seem to be able to reach beyond that. 
 
@@ -37,11 +39,13 @@ For the Humanities and Social Sciences, the “petites mains” duties (mainly e
 
 For the last ten years or so, there has been a peculiar concern in studies around the behind-the-scenes of science, and the term "petite main" has become as much a way to express a revalorization work as a statement. Among all the studies that can be valuable sources to my project, I cannot quote all of them, and if I don't cite you, don't blame me, I'll be happy to read your research and very open to other reading suggestions for a work that is much still in progress.
 
-And here I should mention one of our main origin myth, the project that is presented as the beginning of Digital Humanities. 
+And here I should mention one of DH main origin myth, the project that is presented as the beginning of Digital Humanities. 
 
 The Index Thomisticus project was a Father Busas project to put into a form that was machine-readable the work of Thomas Aquinas. It's not just an exemple of collaboration between a man of science and a powerful company that was IBM, or a collaboration between religion and technology, or just a promising gathering of whites men, it's although a great example of a scientific pattern, a model case for the myth of the almost alone scholar with a crucial but for a long time neglected backstage.
 
 > Most fields cannot point to a single progenitor, much less a divine one, but humanities computing has Father Busa.
+
+(phew)
 
 ---
 
@@ -76,7 +80,7 @@ The fact that such a myth has to be deconstructed in order to escape also from a
 
 ----
 
-The patriarchal logic of the myth continues in many projects kept in mind by the Digital humanities and validates the importance of the document (of scientific research more than of creative exploration as pointed out by McPherson). Here an example of another important myth of man epistemology and master-narration, the Mundaneum, the project of indexing the world literature, and the image speaks for itself : there is A or even The Man of the project, and then there is the petites mains. It's about document and even more about docu*men*. 
+The patriarchal logic of the myth continues in many projects kept in mind by the Digital humanities and validates the importance of the document (of scientific research more than of creative exploration as pointed out by McPherson). Here an example of another important myth of man epistemology and master-narration, the Mundaneum, the project of indexing the world literature, and the image speaks for itself : there is A or even The Man of the project, Paul Otlet, and then there is the petites mains. It's about document and even more about docu*men*. 
 
 ---
 
@@ -89,15 +93,15 @@ This conception shapes our perception: when we see a woman behind a screen, she 
 *content warning*
 and before moving on to the next slide, I must warn you, it's neither my insolence nor my dishonesty that has led me to include mysogynist insults in this slide.
 
----
+---f
 
 There is this persisting conception in our studies that strikes me more and more, that is the working women figure is a creation, and it justifies its existence, its consistance as an extension of men, just as media in McLuhan words.
 
 We find this idea of women as a technical extension in the Viliers de l'Isle-Adam Novel *The Future Eve* or *Tomorrow's Eve* where a fictionalized Edison build the perfect woman as the first women robot for a Lord desperatly inlove.
 
-The novel describes all the mechanics, the technical implementation of what a woman is or what she should be, even explaining how to implement the female pleasure on a technical level. This myth of the andreid is not just fictional, we find it also in the designs of the first chat agents that turn out to be 2.0 secretaries, extensions of man-woman domination relationships, obedient, polite, submissive, flattered when insulted (the "I blush if I could syndrom" witch was for more than 10 years the answer of Siri when insulted).
+The novel describes all the mechanics, the technical implementation of what a woman is or what she should be, even explaining how to implement the female pleasure on a technical level, a simply even simplistic solution. This myth of the andreid is not just fictional, we find it also in the designs of the first chat agents that turn out to be 2.0 secretaries, extensions of man-woman domination relationships, obedient, polite, submissive, flattered when insulted (the "I blush if I could syndrom" witch was for more than 10 years the answer of Siri when insulted, Siri does not only prompt during conference from markus phoneb).
 
-On this topic, I highly encourage you to follow Lai-Tze Fan and Hasti Atapour's work that they presented yesterday on The Evolution of Siri's Sexism and Apple's Corporate Social Responsibility. If you missed it, it's worth going back in time.
+On this topic, I highly encourage you to follow Lai-Tze Fan and Hasti Atapour's work that they presented, on another association, yesterday on The Evolution of Siri's Sexism and Apple's Corporate Social Responsibility. If you missed it, it's worth going back in time.
 
 ----
 
@@ -109,7 +113,7 @@ First of all, I can't pretend to revalue the participation of human computers, k
 
 We can't get justice by blending status.
 
-However, there are, I believe, some common issues that come not so much from a diversity of backgrounds as from science patterns: all women in these fields are paid less than men in the same profession, and there is a broad principle of devaluation of their work. Issues of their non-crediting and “invisibilization” are not the core of the problem. They are only symptoms of a deeper concern: the conception of knowledge emergence implying that heads think first and hands do second. 
+However, there are, I believe, some common issues that come from science patterns: all women in these fields are paid less than men in the same profession, and there is a broad principle of devaluation of their work. Issues of their non-crediting and “invisibilization” are not the core of the problem. They are only symptoms of a deeper concern: the conception of knowledge emergence implying that thinking is an abstraction. 
 
 I identify several potential drifts in the revaluation approach: first, the risk, as highlighted by Crystal Bennes in *Klara and the Bomb*, of producing an alternative history, and of creating a caste of exceptions. 
 

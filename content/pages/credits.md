@@ -14,6 +14,8 @@ Ce site a été réalisé avec les instances suivantes :
 
 - le dark mode provient du [site de Dan Abramov](https://github.com/gaearon/overreacted.io/blob/master/src/components/Toggle.css), MIT License
 
+- le [Module pour gérer les références dans l'HTML](https://github.com/loup-brun/hugo-cite)
+
 et les outils : 
 
 - [VsCodium](https://vscodium.com/) 

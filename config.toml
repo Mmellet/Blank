@@ -1,45 +1,74 @@
 baseURL = "https://blank.blue/"
-title = ""
+title = "Blank"
+theme = ["blank", "hugo-cite"]
+defaultContentLanguage = "fr"
+uglyURLs = false
+
+enableInlineShortcodes = true
 relativeURLs = true
 canonifyURLs = true
-theme = ["book", "hugo-cite"]
-
-removePathAccents=true
+removePathAccents = true
 
 [params]
-  BookMenuBundle = "/menu"
-  BookTheme = "light"
+ subtitle = "Lieu en d·efl·exion"
+ description = "blabla"
+ keywords = "blablamotclef"
+ repo = ""
+ source = "Blank.blue"
 
-[outputs]
-  page = ["HTML", "print"]
-
-[outputFormats]
-  [outputFormats.print]
-    mediaType = "text/html" # normal
-    rel = "print" # rapport
-    baseName = "print" # /print dans l'URL
+[outputFormats.print]
+isPlainText = true
+mediaType = 'text/plain'
+path = 'print' # triggers #13829
+permalinkable = true
+ugly = true
 
 [permalinks]
   pages = "/:filename"
   posts = "/blog/:title"
-  meds = "/meditions/:title"
+  medition = "/medition/:title"
   cherches = "/cherches/:title"
   creas = "/creas/:title"
   fabrique = "/fabrique/:title"
-  hide = "/hide/:title"
+
+[menu]
+  [[menu.main]]
+    name = "Carnet"
+    pre = "recherche"
+    url = "/recherche/"
+  [[menu.main]]
+    name = "Fabrique"
+    pre = "fabrique"
+    url = "/fabrique/"
+  [[menu.main]]
+    name = "Création"
+    pre = "creation"
+    url = "/creation/"
+  [[menu.main]]
+    name = "Méditions"
+    pre = "medition"
+    url = "/medition/"
 
 [markup]
+  defaultMarkdownHandler = "goldmark"
   [markup.goldmark]
     typographer = true
     [markup.goldmark.renderer]
      footnoteReturnLinkContents = "&uarr;"
       unsafe = true
+  [markup.goldmark.extensions.figcap]
+      figcap = true
+  [markup.goldmark.parser]
+    attribute = true
 
 rssLimit = 200
 copyright = "2021 Margot Mellet CC BY-NC-SA"
-languageCode = "en-us"
+languageCode = "fr-fr"
 
 [author]
-	name = "Margot Mellet"
-	email = "margot.mellet@umontreal.ca"
+  name = "Margot Mellet"
+  firstname = "Margot"
+  lastname = "Mellet"
+	email = "margot.mellet@usherbrooke.ca"
+  orcid = "à remplir"
 

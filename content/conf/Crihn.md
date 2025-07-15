@@ -251,3 +251,4 @@ La question sur laquelle j'aimerai conclure et qui anime je pense plusieurs des 
 Ma solution a été la recherche-création non-classique, où c'est moins le texte produit qui importe que le code qui structure en amont, c'est bien ça qui cristalise le fait littéraire : ce n'est pas tant le rendu que le processus en interne, la modélisation qui a été tentée. 
 
 --- 
+

@@ -16,8 +16,8 @@ install-debian install-ubuntu:
 
 
 build:
-	hugo
+	hugo -v 
 
 
 serve:
-	hugo server
+	hugo server 

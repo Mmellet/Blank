@@ -21,3 +21,7 @@ build:
 
 serve:
 	hugo server 
+
+clean:
+	rm -Rf public
+

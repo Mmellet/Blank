@@ -11,7 +11,7 @@ headless: true;
 - **[Carnet]({{< relref "/recherche" >}})**
 - **[Fabrique]({{< relref "/fabriques" >}})**
 - **[Création]({{< relref "/creations" >}})**
-- **[Méditions]({{< relref "/meditions" >}})**
+- **[Méditions]()**
 
 __
 - **[Hypertextes]({{< relref "/hypertexte" >}})**

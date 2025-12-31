@@ -1,45 +1,92 @@
 baseURL = "https://blank.blue/"
-title = ""
+title = "Blank"
+theme = ["blank"]
+defaultContentLanguage = "fr"
+uglyURLs = false
+buildFuture = true
+enableGitInfo = true
+
+enableInlineShortcodes = true
 relativeURLs = true
 canonifyURLs = true
-theme = ["book", "hugo-cite"]
-
-removePathAccents=true
+removePathAccents = true
 
 [params]
-  BookMenuBundle = "/menu"
-  BookTheme = "light"
+ subtitle = "Lieu en d·efl·exion"
+ description = "blabla"
+ keywords = "blablamotclef"
+ repo = "https://github.com/Mmellet/Blank"
+ source = "Blank.blue"
 
-[outputs]
-  page = ["HTML", "print"]
+[outputFormats.print]
+isPlainText = true
+mediaType = 'text/plain'
+path = 'print' # triggers #13829
+permalinkable = true
+ugly = true
 
-[outputFormats]
-  [outputFormats.print]
-    mediaType = "text/html" # normal
-    rel = "print" # rapport
-    baseName = "print" # /print dans l'URL
+[frontmatter]
+  lastmod = ["lastmod", ":fileModTime", ":default"]
 
 [permalinks]
   pages = "/:filename"
-  posts = "/blog/:title"
-  meds = "/meditions/:title"
-  cherches = "/cherches/:title"
-  creas = "/creas/:title"
-  fabrique = "/fabrique/:title"
-  hide = "/hide/:title"
+  meditions = "/meditions/:title"  
+  petites = "/petites/:title"
+  carnet = "/carnet/:title"
+  creations = "/creations/:title"
+  inferences = "/inferences/:title"
+  outopies = "/outopies/:title"
+
+[menu]
+  [[menu.main]]
+    name = "Méditions"
+    pre = "meditions"
+    url = "/meditions/"
+  [[menu.main]]
+    name = "Petites"
+    pre = "petites"
+    url = "/petites/"
+  [[menu.main]]
+    name = "Carnet"
+    pre = "carnet"
+    url = "/carnet/"
+  [[menu.main]]
+    name = "Créations"
+    pre = "creations"
+    url = "/creations/"
+  [[menu.main]]
+    name = "Inférences"
+    pre = "inferences"
+    url = "/inferences/"
+  [[menu.main]]
+    name = "Outopies"
+    pre = "outopies"
+    url = "/outopies/"
 
 [markup]
+  defaultMarkdownHandler = "goldmark"
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 2
+    ordered = false
   [markup.goldmark]
     typographer = true
     [markup.goldmark.renderer]
      footnoteReturnLinkContents = "&uarr;"
       unsafe = true
+  [markup.goldmark.extensions.figcap]
+      figcap = true
+  [markup.goldmark.parser]
+    attribute = true
 
 rssLimit = 200
 copyright = "2021 Margot Mellet CC BY-NC-SA"
-languageCode = "en-us"
+languageCode = "fr-fr"
 
 [author]
-	name = "Margot Mellet"
-	email = "margot.mellet@umontreal.ca"
+  name = "Margot Mellet"
+  firstname = "Margot"
+  lastname = "Mellet"
+	email = "margot.mellet@usherbrooke.ca"
+  orcid = "à remplir"
 

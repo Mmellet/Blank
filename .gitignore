@@ -1,2 +1,14 @@
 public
 resources
+TRI
+manual.md
+pioche.md
+pioche/
+static/images/inspiration/
+content/python/
+themes/hugo-cite/
+todo.md
+
+# Fichiers de sauvegarde/archive (non utilisés)
+themes/blank/layouts/all.html
+themes/blank/static/css/style_all.css

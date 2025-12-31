@@ -1,0 +1,151 @@
+{{ define "main" }}
+<main>
+<span class="Z3988 blog-post" 
+title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.title={{ .Title }}
+&amp;rft.aulast={{ .Site.Author.lastname }}
+&amp;rft.aufirst={{ .Site.Author.firstname }}
+&amp;rft.source={{ .Site.Params.source }}
+&amp;rft.date={{ .Date.Format "2006-01-02" }}
+&amp;rft.type=blogPost&amp;rft.format=text&amp;rft.identifier={{ .Permalink }}&amp;rft.language={{ .Language }}">
+</span> 
+</main>
+{{ end }}
+
+{{ define "article_extra" }}
+<!-- Conteneur pour le nuage de mots -->
+<div class="nuage-mots" id="nuage-mots"></div>
+
+<section class="liste-articles">
+  
+  {{ if not .Pages }}
+  <!-- Section vide -->
+  <p class="en-construction"><em>En cours de déconstruction</em></p>
+  {{ else }}
+  
+  {{/* Articles après 2025 (après déconstruction) */}}
+  {{ range .Pages.ByDate.Reverse }}
+    {{ if ge .Date.Year 2025 }}
+    {{- $words := .Plain | replaceRE "[^a-zA-ZÀ-ÿ\\s]" "" | replaceRE "\\s+" " " | truncate 500 "" -}}
+  <h3>
+    <time datetime="{{ dateFormat "2006-01-02" .Date }}">
+      <sup>{{ dateFormat "060102" .Date }}</sup>
+    </time>
+    {{ if in .Params.tags "these" }}<sup class="tag-these">these</sup>{{ end }}
+    <a href="{{ .RelPermalink }}" class="article-link" data-words="{{ $words }}">{{ .Title }}</a>
+    {{ if .GitInfo }}<span class="git-info-inline"><a href="{{ $.Site.Params.repo }}/commit/{{ .GitInfo.Hash }}" target="_blank" rel="noopener">{{ .GitInfo.AbbreviatedHash }}</a></span>{{ end }}
+  </h3>
+    {{ end }}
+  {{ end }}
+
+  {{ if (where .Pages "Date.Year" "lt" 2025) }}
+  <h3>Avant déconstruction</h3>
+
+  {{/* Articles avant 2025 (avant déconstruction) */}}
+  {{ range .Pages.ByDate.Reverse }}
+    {{ if lt .Date.Year 2025 }}
+    {{- $words := .Plain | replaceRE "[^a-zA-ZÀ-ÿ\\s]" "" | replaceRE "\\s+" " " | truncate 500 "" -}}
+  <h3>
+    <time datetime="{{ dateFormat "2006-01-02" .Date }}">
+      <sup>{{ dateFormat "060102" .Date }}</sup>
+    </time>
+    {{ if in .Params.tags "these" }}<sup class="tag-these">these</sup>{{ end }}
+    <a href="{{ .RelPermalink }}" class="article-link" data-words="{{ $words }}">{{ .Title }}</a>
+    {{ if .GitInfo }}<span class="git-info-inline"><a href="{{ $.Site.Params.repo }}/commit/{{ .GitInfo.Hash }}" target="_blank" rel="noopener">{{ .GitInfo.AbbreviatedHash }}</a></span>{{ end }}
+  </h3>
+    {{ end }}
+  {{ end }}
+  {{ end }}
+  
+  {{ end }}
+
+</section>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const nuage = document.getElementById('nuage-mots');
+    if (!nuage) return;
+    
+    const articles = document.querySelectorAll('.article-link');
+    let currentWords = [];
+    let rotationInterval = null;
+    let clearTimeout_id = null;
+    const NUM_VISIBLE = 12;
+    
+    // Mots à exclure (stop words français)
+    const stopWords = ['le', 'la', 'les', 'un', 'une', 'des', 'de', 'du', 'et', 'en', 'est', 'que', 'qui', 'dans', 'pour', 'sur', 'avec', 'par', 'au', 'aux', 'ce', 'cette', 'ces', 'son', 'sa', 'ses', 'ne', 'pas', 'plus', 'mais', 'ou', 'se', 'si', 'il', 'elle', 'on', 'nous', 'vous', 'ils', 'elles', 'être', 'avoir', 'faire', 'comme', 'tout', 'tous', 'peut', 'aussi', 'bien', 'sans', 'même', 'fait', 'été', 'sont', 'ont', 'dit', 'donc', 'alors', 'leur', 'leurs', 'cela', 'dont', 'quand', 'très', 'entre', 'autre', 'autres', 'ici', 'là', 'encore', 'peu', 'sous', 'après', 'avant', 'toujours', 'rien', 'car', 'ainsi', 'où', 'non', 'oui', 'cette', 'cest', 'être', 'quon', 'nest', 'dune', 'dun', 'quil', 'quelle', 'celle', 'celui'];
+    
+    function createWordElements() {
+      nuage.innerHTML = '';
+      for (let i = 0; i < NUM_VISIBLE; i++) {
+        const span = document.createElement('span');
+        span.className = 'mot';
+        nuage.appendChild(span);
+      }
+    }
+    
+    function updateWords() {
+      if (currentWords.length === 0) return;
+      
+      const spans = nuage.querySelectorAll('.mot');
+      spans.forEach((span, index) => {
+        span.classList.remove('visible');
+        span.classList.add('fading');
+        
+        setTimeout(() => {
+          const randomWord = currentWords[Math.floor(Math.random() * currentWords.length)];
+          span.textContent = randomWord;
+          span.classList.remove('fading');
+          span.classList.add('visible');
+        }, 200 + index * 50);
+      });
+    }
+    
+    function startRotation(wordsData) {
+      if (!wordsData) return;
+      
+      if (clearTimeout_id) {
+        clearTimeout(clearTimeout_id);
+        clearTimeout_id = null;
+      }
+      
+      if (rotationInterval) {
+        clearInterval(rotationInterval);
+        rotationInterval = null;
+      }
+      
+      currentWords = wordsData.split(/\s+/)
+        .filter(w => w.length > 4)
+        .filter(w => !stopWords.includes(w.toLowerCase()))
+        .filter((w, i, arr) => arr.indexOf(w) === i);
+      
+      if (currentWords.length === 0) return;
+      
+      createWordElements();
+      setTimeout(updateWords, 50);
+      rotationInterval = setInterval(updateWords, 2000);
+    }
+    
+    articles.forEach(function(article) {
+      article.addEventListener('mouseenter', function() {
+        const wordsData = this.getAttribute('data-words');
+        startRotation(wordsData);
+      });
+      
+      article.addEventListener('mouseleave', function() {
+        if (rotationInterval) {
+          clearInterval(rotationInterval);
+          rotationInterval = null;
+        }
+        const spans = nuage.querySelectorAll('.mot');
+        spans.forEach(span => {
+          span.classList.remove('visible');
+        });
+        clearTimeout_id = setTimeout(() => {
+          nuage.innerHTML = '';
+          clearTimeout_id = null;
+        }, 400);
+      });
+    });
+  });
+</script>
+{{ end }}

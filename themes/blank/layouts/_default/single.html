@@ -1,0 +1,68 @@
+{{ define "main" }}
+
+<main>
+<span class="Z3988 blog-post" 
+title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.title={{ .Title }}
+&amp;rft.aulast={{ .Site.Author.lastname }}
+&amp;rft.aufirst={{ .Site.Author.firstname }}
+&amp;rft.source={{ .Site.Params.source }}
+&amp;rft.date={{ .Date.Format "2006-01-02" }}
+&amp;rft.type=blogPost&amp;rft.format=text&amp;rft.identifier={{ .Permalink }}&amp;rft.language={{ .Language }}">
+</span> 
+</main>
+{{ end }}
+
+{{ define "article_extra" }}
+
+<!--
+{{ if eq .Params.petite "oui" }}
+<section>
+  {{ range  where .Site.RegularPages "Section" "petites"  }}
+  <h3><time datetime="{{ dateFormat "2006-01-01" .Date }}">{{ dateFormat "2006-01-01" .Date }}</time> <a
+      href="{{ .Permalink }}"> {{ .Title }}</h3>
+  <em>{{ .Description }}</em></a>
+
+  {{ end }}
+</section>
+{{ end }}
+-->
+
+{{ if eq .Params.medition "oui" }}
+<section>  
+  
+  {{ range  where .Site.RegularPages "Section" "meditions"  }}
+
+  {{ if ge .Date (time "2025-01-01") }} <!-- Condition pour vérifier si la date est après 2025 -->
+        
+  <h3><time datetime="{{ dateFormat "2006-01-01" .Date }}"><sup>{{ dateFormat "060101" .Date }}</sup></time><a
+      href="{{ .Permalink }}"> {{ .Title }}</h3></a>
+
+  {{ end }}
+  {{ end }}
+
+  <h3>Avant déconstruction</h3>
+  {{ range  where .Site.RegularPages "Section" "meditions"  }}
+
+  {{ if lt .Date (time "2025-01-01") }} <!-- Condition pour vérifier si la date est avant 2025 -->
+        
+  <h3><time datetime="{{ dateFormat "2006-01-01" .Date }}"><sup>{{ dateFormat "060101" .Date }}</sup></time><a
+      href="{{ .Permalink }}"> {{ .Title }}</h3></a>
+
+  {{ end }}
+  {{ end }}
+
+</section>
+{{ end }}
+
+{{ if eq .Params.recherche "oui" }}
+<section>
+  {{ range  where .Site.RegularPages "Section" "carnet"  }}
+  {{ if lt .Date (time "2025-01-01") }} <!-- Condition pour vérifier si la date est avant 2025 -->
+  <h3><time datetime="{{ dateFormat "2006-01" .Date }}">{{ dateFormat "2006-01" .Date }}</time><a
+      href="{{ .Permalink }}"> {{ .Title }}</h3></a>
+  {{ end }}
+  {{ end }}
+
+</section>
+{{ end }}
+{{ end }}

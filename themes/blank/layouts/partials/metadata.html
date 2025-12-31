@@ -1,0 +1,85 @@
+<!-- citation -->
+{{ if eq .IsHome true }}{{ else }}
+<meta name="citation_title" content="{{ if eq .IsHome true }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}"/>
+<meta name="citation_publisher" content="{{ .Site.Title }}"/>
+<meta name="citation_author" content="{{ .Site.Author.lastname }}, {{ .Site.Author.firstname }}"/>
+<meta name="citation_author_orcid" content="https://orcid.org/{{ .Site.Author.orcid }}" />
+<meta name="citation_abstract" content="{{ if .IsHome }}{{ .Site.Params.description }}{{ else }}{{ if .Params.description }}{{ .Params.description | markdownify | plainify | htmlUnescape }}{{ else }}{{ .Summary }}{{ end }}{{ end }}"/>
+<meta name="citation_online_date" content="{{ if eq .IsHome true }}{{ now.Format "2006-01-02" }}{{ else }}{{ .Date.Format "2006-01-02" }}{{ end }}"/>
+<meta name="citation_publication_date" content="{{ if eq .IsHome true }}{{ now.Format "2006-01-02" }}{{ else }}{{ .Date.Format "2006-01-02" }}{{ end }}"/>
+{{ end }}
+<!-- DC -->
+<link rel="schema.dc" href="https://purl.org/dc/elements/1.1/">
+<meta property="DC.creator" content="{{ .Site.Author.name }}"/>
+<meta property="DC.publisher" content="{{ .Site.Author.name }}"/>
+<meta property="DC.language" content="fr"/>
+<meta property="DC.title" content="{{ if eq .IsHome true }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}"/>
+<meta property="DC.description" content="{{ if .IsHome }}{{ .Site.Params.description }}{{ else }}{{ if .Params.description }}{{ .Params.description | markdownify | plainify | htmlUnescape }}{{ else }}{{ .Summary }}{{ end }}{{ end }}"/>
+<meta property="DC.rights" content="{{ .Site.Params.licence }}"/>
+<meta property="DC.date" content="{{ if eq .IsHome true }}{{ if eq .IsHome true }}{{ now.Format "2006-01-02" }}{{ else }}{{ .Date.Format "2006-01-02" }}{{ end }}{{ else }}{{ .Date.Format "2006-01-02" }}{{ end }}"/>
+<meta property="DC.type" content="{{ if .IsHome }}website{{ else }}{{ if .Params.type_doc }}{{ . }}{{ else }}Billet{{ end }}{{ end }}"/>
+<link rel="dc:identifier" href="{{ .Permalink }}" />
+<meta property="dc:creator" content="{{ .Site.Author.name }}"/>
+<meta property="dc:publisher" content="{{ .Site.Author.name }}"/>
+<meta property="dc:language" content="fr"/>
+<meta property="dc:title" content="{{ if eq .IsHome true }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}"/>
+<meta property="dc:description" content="{{ if .IsHome }}{{ .Site.Params.description }}{{ else }}{{ if .Params.description }}{{ .Params.description | markdownify | plainify | htmlUnescape }}{{ else }}{{ .Summary }}{{ end }}{{ end }}"/>
+<meta property="dc:rights" content="{{ .Site.Params.licence }}"/>
+<meta property="dc:date" content="{{ if eq .IsHome true }}{{ if eq .IsHome true }}{{ now.Format "2006-01-02" }}{{ else }}{{ .Date.Format "2006-01-02" }}{{ end }}{{ else }}{{ .Date.Format "2006-01-02" }}{{ end }}"/>
+<meta property="dc:type" content="{{ if .IsHome }}website{{ else }}{{ if .Params.type_doc }}{{ . }}{{ else }}Billet{{ end }}{{ end }}"/>
+<!-- OG -->
+<meta property="og:title" content="{{ if eq .IsHome true }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}"/>
+<!--<meta property="og:url" content="{{ .Permalink }}">-->
+<meta property="og:description" content="{{ if .IsHome }}{{ .Site.Params.description }}{{ else }}{{ if .Params.description }}{{ .Params.description | markdownify | plainify | htmlUnescape }}{{ else }}{{ .Summary }}{{ end }}{{ end }}"/>
+<meta property="og:site_name" content="{{ .Site.Title }}"/>
+<meta property="og:type" content="article"/>
+<!--  https://schema.org/BlogPosting -->
+<script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "articleSection": "{{ .Section }}",
+        "name": "{{ .Title | safeJS }}",
+        "headline": "{{ .Title | safeJS }}",
+        "alternativeHeadline": "{{ .Params.lead }}",
+        "description": "{{ if .Description }}{{ .Description | safeJS }}{{ else }}{{if .IsPage}}{{ .Summary  }}{{ end }}{{ end }}",
+        "inLanguage": {{ .Site.LanguageCode | default "fr-fr" }},
+        "isFamilyFriendly": "true",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "{{ .Permalink }}"
+        },
+        "author" : {
+            "@type": "Person",
+            "name": "{{ .Site.Author.name }}"
+        },
+        "creator" : {
+            "@type": "Person",
+            "name": "{{ .Site.Author.name }}"
+        },
+        "accountablePerson" : {
+            "@type": "Person",
+            "name": "{{ .Site.Author.name }}"
+        },
+        "copyrightHolder" : "{{ .Site.Params.licence }}",
+        "copyrightYear" : "{{ .Date.Format "2006" }}",
+        "dateCreated": "{{ .Date.Format "2006-01-02T15:04:05.00Z" | safeHTML }}",
+        "datePublished": "{{ .PublishDate.Format "2006-01-02T15:04:05.00Z" | safeHTML }}",
+        "dateModified": "{{ .Lastmod.Format "2006-01-02T15:04:05.00Z" | safeHTML }}",
+        "publisher":{
+            "@type":"Organization",
+            "name": {{ .Site.Author.name }},
+            "url": {{ .Site.BaseURL }},
+            "logo": {
+                "@type": "ImageObject",
+                "url": "{{ .Site.Params.logo | absURL }}",
+                "width":"32",
+                "height":"32"
+            }
+        },
+ "url" : "{{ .Permalink }}",
+        "wordCount" : "{{ .WordCount }}",
+        "genre" : [ {{ range $index, $tag := .Params.tags }}{{ if $index }}, {{ end }}"{{ $tag }}" {{ end }}],
+        "keywords" : [ {{ range $index, $tag := .Params.tags }}{{ if $index }}, {{ end }}"{{ $tag }}" {{ end }}]
+    }
+</script>

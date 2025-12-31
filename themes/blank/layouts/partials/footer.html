@@ -1,0 +1,37 @@
+<div class="footer-content">
+    <div class="licence">cc by-sa 4.0 {{ now.Format "2006"}} Margot Mellet
+
+        <a rel="alternate" target="blank" type="application/rss+xml" href="https://blank.blue/index.xml"
+            title="Blank.blue/index.xml">
+            <img src="/images/rss.svg" alt="rss feed" /></a>
+
+        <a rel="alternate" target="blank" href="https://github.com/Mmellet/" title="Github/Mmellet">
+            <img src="/images/github.svg" alt="github" id="grandlogo" /></a>
+
+        <a href="https://www.zotero.org/margotmellet" target="blank" title="0000-0001-7167-2136 ">
+            <img src="/images/zotero.svg" alt="zotero" /></a>
+
+
+        <a href="mailto:margot.mellet@usherbrooke.ca" target="blank" title="margot.mellet@usherbrooke.ca">
+            <img src="/images/courriel.svg" alt="courriel" /></a>
+
+        <a href="https://orcid.org/0000-0001-7167-2136" target="blank" title="0000-0001-7167-2136 ">
+            <img src="/images/orcid.svg" alt="orcid" /></a>
+
+        <a href="https://archive.org/details/@mmellet?tab=uploads" target="blank" title="Une plasticienne">
+            <img src="/images/archive.svg" alt="internet archive" /></a>
+
+        <a href="/PDF/Mellet_cv.pdf" target="blank" title="Une plasticienne">
+            <img src="/images/cv.svg" alt="CV" /></a>
+
+    </div>
+
+    {{ with ($.Site.GetPage "/").GitInfo }}
+    <div class="footer-git">
+        <small>
+            Màj : {{ .AuthorDate.Format "02/01/2006" }} 
+            — <a href="{{ $.Site.Params.repo }}/commit/{{ .Hash }}" target="_blank">{{ .AbbreviatedHash }}</a>
+        </small>
+    </div>
+    {{ end }}
+</div>

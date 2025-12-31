@@ -1,6 +1,7 @@
 ---
 title: "J'aime mieux écrire que filer"
 date: 2022-10-17
+lastmod: 2022-10-17
 ---
 
 J'ai commencé il y a déjà 4 ans un ouvrage -- au sens romanesque du terme -- c'est-à-dire que je me suis mise à l'ouvrage : un ouvrage où le geste d'écriture relève de la couture. 

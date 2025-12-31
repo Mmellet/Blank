@@ -1,8 +1,10 @@
 baseURL = "https://blank.blue/"
 title = "Blank"
-theme = ["blank", "hugo-cite"]
+theme = ["blank"]
 defaultContentLanguage = "fr"
 uglyURLs = false
+buildFuture = true
+enableGitInfo = true
 
 enableInlineShortcodes = true
 relativeURLs = true
@@ -13,7 +15,7 @@ removePathAccents = true
  subtitle = "Lieu en d·efl·exion"
  description = "blabla"
  keywords = "blablamotclef"
- repo = ""
+ repo = "https://github.com/Mmellet/Blank"
  source = "Blank.blue"
 
 [outputFormats.print]
@@ -23,34 +25,50 @@ path = 'print' # triggers #13829
 permalinkable = true
 ugly = true
 
+[frontmatter]
+  lastmod = ["lastmod", ":fileModTime", ":default"]
+
 [permalinks]
   pages = "/:filename"
-  posts = "/blog/:title"
-  medition = "/medition/:title"
-  cherches = "/cherches/:title"
-  creas = "/creas/:title"
-  fabrique = "/fabrique/:title"
+  meditions = "/meditions/:title"  
+  petites = "/petites/:title"
+  carnet = "/carnet/:title"
+  creations = "/creations/:title"
+  inferences = "/inferences/:title"
+  outopies = "/outopies/:title"
 
 [menu]
   [[menu.main]]
-    name = "Carnet"
-    pre = "recherche"
-    url = "/recherche/"
-  [[menu.main]]
-    name = "Fabrique"
-    pre = "fabrique"
-    url = "/fabrique/"
-  [[menu.main]]
-    name = "Création"
-    pre = "creation"
-    url = "/creation/"
-  [[menu.main]]
     name = "Méditions"
-    pre = "medition"
-    url = "/medition/"
+    pre = "meditions"
+    url = "/meditions/"
+  [[menu.main]]
+    name = "Petites"
+    pre = "petites"
+    url = "/petites/"
+  [[menu.main]]
+    name = "Carnet"
+    pre = "carnet"
+    url = "/carnet/"
+  [[menu.main]]
+    name = "Créations"
+    pre = "creations"
+    url = "/creations/"
+  [[menu.main]]
+    name = "Inférences"
+    pre = "inferences"
+    url = "/inferences/"
+  [[menu.main]]
+    name = "Outopies"
+    pre = "outopies"
+    url = "/outopies/"
 
 [markup]
   defaultMarkdownHandler = "goldmark"
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 2
+    ordered = false
   [markup.goldmark]
     typographer = true
     [markup.goldmark.renderer]

@@ -1,6 +1,7 @@
 ---
 title: "Manifeste des petites mains"
 date: 2021-09-22
+lastmod: 2021-09-22
 ---
 
 Au cours d'une discussion avec des acteurs de l'édition en SHS, j'ai surpris et été surprise par une formule que je n'ai pas sû immédiatement décrypter, qui m'est apparue à la première écoute aussi juste que son contraire : 

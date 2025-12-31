@@ -2,36 +2,26 @@
 <html lang="{{ .Site.Language }}">
 
 <head>
-
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   {{- partial "head.html" . -}}
-  <link rel="stylesheet" type="text/css" href="themes/blank//static/css/style.css">
+
+  <link rel="stylesheet" type="text/css" href="/css/style.css">
 
   <title>{{ .Title }}</title>
-
-
-<!--
-  <script type="application/json" class="js-hypothesis-config">
-    {
-      "theme": "clean",
-      "openSidebar": false
-    }
-  </script>
-  <script async="" src="https://hypothes.is/embed.js"></script>
--->
-
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
 
   <script>
     $(document).ready(function () {
       var sections = $('h1[id], h2[id], h3[id], h4[id], h5[id], h6[id]');
-  
+
       function scrollToSection(targetSectionId) {
         $('html, body').animate({
           scrollTop: $(targetSectionId).offset().top
         }, 500); // Animation de défilement en 500 millisecondes
       }
-  
+
       // Gestion de l'événement click sur les liens de la table des matières
       $('body').on('click', '.table-of-contents a', function (e) {
         e.preventDefault();
@@ -39,7 +29,7 @@
         scrollToSection(targetSectionId);
         history.pushState(null, null, targetSectionId);
       });
-  
+
       // Gestion de l'événement popstate pour mettre à jour la section active lorsque l'URL change
       $(window).on('popstate', function () {
         var targetSectionId = location.hash;
@@ -47,7 +37,7 @@
           scrollToSection(targetSectionId);
         }
       });
-  
+
       // Vérification de la section active au chargement de la page
       $(window).on('load', function () {
         var targetSectionId = location.hash;
@@ -57,9 +47,10 @@
       });
     });
   </script>
-  
-  
-  
+
+
+
+
   <script>
     var timeoutId;
 
@@ -77,7 +68,7 @@
         if (nav) {
           nav.style.display = 'none';
         }
-      }, 1200); // Délai en millisecondes avant de masquer les options (ici, 0.5 seconde)
+      }, 1200); // Délai en millisecondes avant de masquer les options (ici, 1.2 seconde)
     }
   </script>
 
@@ -89,203 +80,359 @@
 
 
 
-<body>
+<body class="fond">
+  
+  <!-- Background végétal (formes rhizomatiques) -->
+  <div class="background-vegetal" id="background-vegetal">
+    <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+      <defs></defs>
+      <g id="vegetal-container"></g>
+    </svg>
+  </div>
+
   {{ block "header" . }}{{ end }}
-    {{ block "main" . }}{{ end }}
+  {{ block "main" . }}{{ end }}
+  <!-- Navigation principale -->
+  {{- partial "nav.html" . -}}
+
   <section class="Body">
 
-
-    <div class="NO" data-hover-class="nav" onmouseover="showNav(this)" onmouseout="hideNav(this)">
-      NO
-      <div class="nav" style="display: none;">
-        <a href="{{ relref . "/" }}" class="NOright">Outils imaginaires</a>
-        <a href="" class="NObottom">Tuto pour les morts</a>
-      </div>
-    </div>
-
-
-    <div class="NOE" data-hover-class="nav" onmouseover="showNav(this)" onmouseout="hideNav(this)">
-      NOE
-      <div class="nav" style="display: none;">
-        <a href="{{ relref . "/" }}" class="NOEright">About</a>
-        <a href="{{ relref . "/credits" }}" class="NOEdiagonal">Crédits</a>
-        <a href="" class="NOEleft">.</a>
-      </div>
-    </div>
-
-    <div class="NE" data-hover-class="nav" onmouseover="showNav(this)" onmouseout="hideNav(this)">
-      NE
-      <div class="nav" style="display: none;">
-        <a href="{{ relref . "/medition" }}" class="NEleft">Méditions</a>
-        <a href="" class="NEbottom">Inférences</a>
-      </div>
-    </div>
-
-
+    {{ if not .IsHome }}
     <div class="Centre">
       <div class="content">
 
         <main>
           <article>
             <h1>{{ .Title }}</h1>
+            {{ if .Description }}<p class="article-description">{{ .Description }}</p>{{ end }}
 
-            <h2>{{ .Description }}</h2>
+              {{ if .Params.lastmod }}
+              <p class="git-info">
+                <small>
+                  Dernière modification : {{ .Lastmod.Format "02/01/2006" }}
+                </small>
+              </p>
+              {{ else if .GitInfo }}
+              <p class="git-info">
+                <small>
+                  Dernière modification : {{ .GitInfo.AuthorDate.Format "02/01/2006" }} 
+                  — <a href="{{ $.Site.Params.repo }}/commit/{{ .GitInfo.Hash }}" target="_blank" rel="noopener">{{ .GitInfo.AbbreviatedHash }}</a>
+                </small>
+              </p>
+              {{ end }}
 
             <p>{{ .Content }}</p>
-           
-   
-            <p>[À venir peut-être : {{ .Params.avenir }}]</p>
-          
-         
-     <!--
-      {{ if eq .Params.fabrique "oui" }}
-      <section>
-        {{ range  where .Site.RegularPages "Section" "fabrique"  }}
-        <h3><time datetime="{{ dateFormat "2006-01-01" .Date }}">{{ dateFormat "2006-01-01" .Date }}</time> <a
-            href="{{ .Permalink }}"> {{ .Title }}</h3>
-        <em>{{ .Description }}</em></a>
-    
-        {{ end }}
-      </section>
-      {{ end }}
--->
 
+            {{ block "article_extra" . }}{{ end }}
 
-{{ if eq .Params.medition "oui" }}
-<section>  
-  
-  {{ range  where .Site.RegularPages "Section" "medition"  }}
-
-
-  {{ if ge .Date (time "2025-01-01") }} <!-- Condition pour vérifier si la date est avant 2025 -->
-        
-  <h3><time datetime="{{ dateFormat "2006-01-01" .Date }}"><sup>{{ dateFormat "060101" .Date }}</sup></time><a
-      href="{{ .Permalink }}"> {{ .Title }}</h3></a>
-
-  {{ end }}
-  {{ end }}
-
-  <h2>Avant déconstruction</h2>
-  {{ range  where .Site.RegularPages "Section" "medition"  }}
-
-
-  {{ if lt .Date (time "2025-01-01") }} <!-- Condition pour vérifier si la date est avant 2025 -->
-        
-  <h3><time datetime="{{ dateFormat "2006-01-01" .Date }}"><sup>{{ dateFormat "060101" .Date }}</sup></time><a
-      href="{{ .Permalink }}"> {{ .Title }}</h3></a>
-
-  {{ end }}
-  {{ end }}
-
-
-</section>
-{{ end }}
-
-        {{ if eq .Params.recherche "oui" }}
-        <section>
-          {{ range  where .Site.RegularPages "Section" "cherches"  }}
-          {{ if lt .Date (time "2025-01-01") }} <!-- Condition pour vérifier si la date est avant 2025 -->
-          <h3><time datetime="{{ dateFormat "2006-01" .Date }}">{{ dateFormat "2006-01" .Date }}</time><a
-              href="{{ .Permalink }}"> {{ .Title }}</h3></a>
-          {{ end }}
-          {{ end }}
-
-        </section>
-        {{ end }}
-
-
-
-                 </article>
+          </article>
         </main>
-    </section>
-
-      </div>
-    </div>
-
-
-    <div class="Humeur">Humeur
-      <div class="flexible-lines"></div>
-
-    </div>
-
-    <section class="ToC">
-
-      <div class="table-of-contents-link">
-        {{ .TableOfContents | replaceRE "(<a.*?)" "$1 class=\"table-of-contents-link\"" | safeHTML }}
-
-      </div>
-    </section>
-
-    <div class="Logo">
-      {{- partial "header.html" . -}}
-    </div>
-
-
-    <div class="NOS" data-hover-class="nav" onmouseover="showNav(this)" onmouseout="hideNav(this)">
-      NOS
-      <div class="nav" style="display: none;">
-        <a href="{{ relref . "/" }}" class="NOStop">Conférences</a>
-        <a href="" class="NOSbottom">Publications</a>
-      </div>
-    </div>
-
-    <div class="NES" data-hover-class="nav" onmouseover="showNav(this)" onmouseout="hideNav(this)">
-      NES
-      <div class="nav" style="display: none;">
-        <a href="{{ relref . "/" }}" class="NEStop">Hyper-Textes</a>
-        <a href="" class="NESbottom">Texte-Vidéos</a>
-      </div>
-    </div>
-
-    <div class="SO" data-hover-class="nav" onmouseover="showNav(this)" onmouseout="hideNav(this)">
-      SO
-      <div class="nav" style="display: none;">
-        <a href="{{ relref . "/recherche" }}" class="SOtop">Carnet</a>
-     <!--   <a href="{{ relref . "/fabrique" }}" class="SOleft">Fabrique</a>-->
-      </div>
-    </div>
-
-
-
-
-      {{ $section := .Section }}
-      {{ if not (in .File.Path "pages") }} <!-- Vérifie si la page actuelle n'est pas dans le dossier "pages" -->
-      <section class="Navigation"> 
-      {{ with .PrevInSection }}
-          {{ if eq .Section $section }}
-            <a href="{{ .RelPermalink }}">Previous</a>
-          {{ end }}
-        {{ end }}
-    
-        {{ with .NextInSection }}
-          {{ if eq .Section $section }}
-            <a href="{{ .RelPermalink }}">Next</a>
-          {{ end }}
-        {{ end }}
       </section>
-      {{ end }}
 
-    
-
-    <section class="Bas">
-
-      <section class="Bas">
-
-        {{- partial "footer.html" }}
-
-    </section>
-
-    <div class="SE" data-hover-class="nav" onmouseover="showNav(this)" onmouseout="hideNav(this)">
-      SE
-      <div class="nav" style="display: none;">
-     <!--  <a href="{{ relref . "/" }}" class="SEright">Mécréations</a>--> 
-        <a href="" class="SEtop">.</a>
-      </div>
     </div>
+    </div>
+
+    </div>
+    {{ end }}
+
+  {{ if not .IsHome }}
+  <section class="ToC">
+
+    <div class="table-of-contents-link">
+      {{ .TableOfContents | replaceRE "(<a.*?)" "$1 class=\"table-of-contents-link\"" | safeHTML }}
+
+    </div>
+  </section>
+  {{ end }}
+
+  <div class="Logo">
+    {{- partial "header.html" . -}}
+  </div>
+
+  {{ $section := .Section }}
+  {{ if and .IsPage (not .IsHome) .File (not (in .File.Path "pages")) }}
+  <!-- Navigation Previous/Next uniquement sur les pages articles -->
+  <section class="Navigation">
+    {{ with .PrevInSection }}
+    {{ if eq .Section $section }}
+    <a href="{{ .RelPermalink }}"><sup class="nav-title">{{ .Title }}</sup> Avant</a>
+    {{ end }}
+    {{ end }}
+
+    {{ with .NextInSection }}
+    {{ if eq .Section $section }}
+    <a href="{{ .RelPermalink }}">Après <sup class="nav-title">{{ .Title }}</sup></a>
+    {{ end }}
+    {{ end }}
+  </section>
+  {{ end }}
 
   </section>
 
+  <!-- Footer fixe hors du flux -->
+  <section class="Bas">
+    {{- partial "footer.html" . }}
+  </section>
 
+
+  <!-- Script pour générer les formes rhizomatiques -->
+  <script>
+    (function() {
+      const container = document.getElementById('vegetal-container');
+      if (!container) return;
+
+      const svgNS = "http://www.w3.org/2000/svg";
+      let gradientId = 0;
+
+      // Créer un dégradé pour l'opacité décroissante aux extrémités
+      function createGradient(angle) {
+        const defs = container.closest('svg').querySelector('defs');
+        const id = 'fadeGrad' + (++gradientId);
+        const grad = document.createElementNS(svgNS, 'linearGradient');
+        grad.setAttribute('id', id);
+        
+        const rad = angle * Math.PI / 180;
+        grad.setAttribute('x1', (50 - 50 * Math.cos(rad)) + '%');
+        grad.setAttribute('y1', (50 - 50 * Math.sin(rad)) + '%');
+        grad.setAttribute('x2', (50 + 50 * Math.cos(rad)) + '%');
+        grad.setAttribute('y2', (50 + 50 * Math.sin(rad)) + '%');
+
+        const stops = [
+          { offset: '0%', opacity: '0' },
+          { offset: '8%', opacity: '0.7' },
+          { offset: '50%', opacity: '1' },
+          { offset: '92%', opacity: '0.7' },
+          { offset: '100%', opacity: '0' }
+        ];
+
+        stops.forEach(s => {
+          const stop = document.createElementNS(svgNS, 'stop');
+          stop.setAttribute('offset', s.offset);
+          stop.setAttribute('stop-color', 'white');
+          stop.setAttribute('stop-opacity', s.opacity);
+          grad.appendChild(stop);
+        });
+
+        defs.appendChild(grad);
+        return id;
+      }
+
+      // Générer un segment de rhizome fin et sinueux
+      function generateRhizomeSegment(x, y, length, angle) {
+        const rad = angle * Math.PI / 180;
+        const segments = 4 + Math.floor(Math.random() * 4);
+        const segLen = length / segments;
+        
+        let path = `M ${x.toFixed(1)} ${y.toFixed(1)}`;
+        let currentX = x;
+        let currentY = y;
+        let currentAngle = angle;
+
+        for (let i = 0; i < segments; i++) {
+          // Variation de l'angle pour effet sinueux
+          currentAngle += (Math.random() - 0.5) * 30;
+          const rad = currentAngle * Math.PI / 180;
+          
+          const nextX = currentX + segLen * Math.cos(rad);
+          const nextY = currentY + segLen * Math.sin(rad);
+          
+          // Point de contrôle pour la courbe
+          const cpX = currentX + segLen * 0.5 * Math.cos(rad) + (Math.random() - 0.5) * segLen * 0.4;
+          const cpY = currentY + segLen * 0.5 * Math.sin(rad) + (Math.random() - 0.5) * segLen * 0.4;
+          
+          path += ` Q ${cpX.toFixed(1)} ${cpY.toFixed(1)} ${nextX.toFixed(1)} ${nextY.toFixed(1)}`;
+          
+          currentX = nextX;
+          currentY = nextY;
+        }
+
+        return { path, endX: currentX, endY: currentY, endAngle: currentAngle };
+      }
+
+      // Générer un réseau rhizomatique complet
+      function generateRhizome(startX, startY, baseAngle, depth, maxDepth) {
+        if (depth > maxDepth) return [];
+
+        const paths = [];
+        const length = (60 + Math.random() * 80) * (1 - depth * 0.15);
+        
+        // Segment principal
+        const segment = generateRhizomeSegment(startX, startY, length, baseAngle);
+        paths.push({
+          d: segment.path,
+          width: Math.max(0.3, 1.2 - depth * 0.2)
+        });
+
+        // Ramifications multiples le long du segment
+        const numBranches = Math.floor(Math.random() * 4) + 2;
+        
+        for (let i = 0; i < numBranches; i++) {
+          if (Math.random() > 0.35) {
+            // Point de branchement le long du segment
+            const t = 0.2 + Math.random() * 0.6;
+            const branchX = startX + (segment.endX - startX) * t;
+            const branchY = startY + (segment.endY - startY) * t;
+            
+            // Angle de la branche (diverge du segment principal)
+            const branchAngle = baseAngle + (Math.random() > 0.5 ? 1 : -1) * (25 + Math.random() * 50);
+            
+            // Récursion pour les sous-branches
+            const subPaths = generateRhizome(branchX, branchY, branchAngle, depth + 1, maxDepth);
+            paths.push(...subPaths);
+          }
+        }
+
+        // Continuation depuis l'extrémité
+        if (depth < maxDepth && Math.random() > 0.3) {
+          const contAngle = segment.endAngle + (Math.random() - 0.5) * 40;
+          const contPaths = generateRhizome(segment.endX, segment.endY, contAngle, depth + 1, maxDepth);
+          paths.push(...contPaths);
+        }
+
+        // Petites ramifications fines aux extrémités
+        if (depth === maxDepth || Math.random() > 0.7) {
+          const numTips = Math.floor(Math.random() * 3) + 1;
+          for (let i = 0; i < numTips; i++) {
+            const tipAngle = segment.endAngle + (Math.random() - 0.5) * 90;
+            const tipLength = 10 + Math.random() * 25;
+            const tipRad = tipAngle * Math.PI / 180;
+            const tipEndX = segment.endX + tipLength * Math.cos(tipRad);
+            const tipEndY = segment.endY + tipLength * Math.sin(tipRad);
+            
+            paths.push({
+              d: `M ${segment.endX.toFixed(1)} ${segment.endY.toFixed(1)} Q ${(segment.endX + tipLength * 0.5 * Math.cos(tipRad) + (Math.random() - 0.5) * 10).toFixed(1)} ${(segment.endY + tipLength * 0.5 * Math.sin(tipRad) + (Math.random() - 0.5) * 10).toFixed(1)} ${tipEndX.toFixed(1)} ${tipEndY.toFixed(1)}`,
+              width: 0.3 + Math.random() * 0.3
+            });
+          }
+        }
+
+        return paths;
+      }
+
+      // Créer une forme rhizomatique complète
+      function createRhizomeForm() {
+        const width = window.innerWidth;
+        const height = window.innerHeight;
+
+        // Position de départ aléatoire
+        const startX = Math.random() * width;
+        const startY = Math.random() * height;
+        const baseAngle = Math.random() * 360;
+        const maxDepth = 3 + Math.floor(Math.random() * 3);
+
+        // Générer le réseau
+        const allPaths = generateRhizome(startX, startY, baseAngle, 0, maxDepth);
+
+        // Créer un groupe pour cette forme
+        const group = document.createElementNS(svgNS, 'g');
+        group.setAttribute('opacity', '0');
+
+        // Créer le gradient
+        const gradId = createGradient(baseAngle);
+
+        // Ajouter chaque chemin
+        allPaths.forEach(p => {
+          const path = document.createElementNS(svgNS, 'path');
+          path.setAttribute('d', p.d);
+          path.setAttribute('fill', 'none');
+          path.setAttribute('stroke', `url(#${gradId})`);
+          path.setAttribute('stroke-width', p.width.toFixed(2));
+          path.setAttribute('stroke-linecap', 'round');
+          group.appendChild(path);
+        });
+
+        container.appendChild(group);
+
+        // Animation d'apparition progressive
+        let opacity = 0;
+        const maxOpacity = 0.25 + Math.random() * 0.35;
+        const fadeIn = setInterval(() => {
+          opacity += 0.008;
+          if (opacity >= maxOpacity) {
+            clearInterval(fadeIn);
+            // Disparition après un délai
+            setTimeout(() => {
+              const fadeOut = setInterval(() => {
+                opacity -= 0.004;
+                if (opacity <= 0) {
+                  clearInterval(fadeOut);
+                  group.remove();
+                  const grad = document.getElementById(gradId);
+                  if (grad) grad.remove();
+                }
+                group.setAttribute('opacity', opacity.toString());
+              }, 50);
+            }, 12000 + Math.random() * 18000);
+          }
+          group.setAttribute('opacity', opacity.toString());
+        }, 40);
+      }
+
+      // Initialisation
+      console.log('Initialisation des formes rhizomatiques...');
+      
+      // Créer des formes initiales rapidement
+      for (let i = 0; i < 6; i++) {
+        setTimeout(() => createRhizomeForm(), i * 800);
+      }
+
+      // Continuer à créer des formes
+      setInterval(() => {
+        if (container.children.length < 15) {
+          createRhizomeForm();
+        }
+      }, 3000 + Math.random() * 2000);
+
+    })();
+  </script>
+
+  <!-- Theme Toggle Script (3 positions: jour → mid → nuit → mid → jour) -->
+  <script>
+    (function() {
+      const toggle = document.getElementById('theme-toggle');
+      const thumb = toggle.querySelector('.toggle-thumb');
+      const body = document.body;
+      
+      // Cycle: light → mid → dark → mid → light
+      const cycle = ['light', 'mid', 'dark', 'mid'];
+      let cycleIndex = 0;
+      
+      // Get saved mode or default to light
+      let currentMode = localStorage.getItem('themeMode') || 'light';
+      
+      // Find initial cycle index based on saved mode
+      if (currentMode === 'mid') cycleIndex = 1;
+      else if (currentMode === 'dark') cycleIndex = 2;
+      else cycleIndex = 0;
+      
+      function applyMode(mode) {
+        body.classList.remove('mid-mode', 'dark-mode');
+        toggle.classList.remove('position-light', 'position-mid', 'position-dark');
+        
+        if (mode === 'mid') {
+          body.classList.add('mid-mode');
+          toggle.classList.add('position-mid');
+        } else if (mode === 'dark') {
+          body.classList.add('dark-mode');
+          toggle.classList.add('position-dark');
+        } else {
+          toggle.classList.add('position-light');
+        }
+        
+        localStorage.setItem('themeMode', mode);
+        currentMode = mode;
+      }
+      
+      // Apply saved mode on load
+      applyMode(currentMode);
+      
+      // Cycle through modes on click
+      toggle.addEventListener('click', function() {
+        cycleIndex = (cycleIndex + 1) % cycle.length;
+        applyMode(cycle[cycleIndex]);
+      });
+    })();
+  </script>
 
 </body>
 

@@ -1,6 +1,7 @@
 ---
 title: "Mea Culpa pour l'usurpation"
 date: 2022-08-26
+lastmod: 2022-08-26
 ---
 
 En 2018, j'étais coordinatrice d'une revue en sciences humaines et dans le cadre de mes fonctions, j'ai usurpé le nom d'une personne qui, je m'en suis rendue compte il y a quelques semaines, existe réellement[^1]. 

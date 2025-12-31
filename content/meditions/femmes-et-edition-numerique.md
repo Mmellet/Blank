@@ -1,6 +1,7 @@
 --- 
 title: "Femmes et édition numérique"
 date: 2021-11-11
+lastmod: 2021-11-11
 ---
 
 Dans le cadre du cours donné à l'Université de Montréal FRA3826/EDN6001 - Théories de l'édition numérique, j'ai consacré la séance 10 à réfléchir sur la thématique "Femmes et édition numérique". 

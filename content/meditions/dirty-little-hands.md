@@ -1,12 +1,11 @@
 ---
 title: "Dirty Little Hands"
 date: 2022-09-14
+lastmod: 2022-09-14
 ---
 
 
-Le crédit revient à [MVR](http://blog.sens-public.org/marcellovitalirosati/) qui, hier ou un autre jour, est venu à **mon**[^5] bureau et m'a demandé : 
-
-[^5]: À venir un post sur le territoire de la science.
+Le crédit revient à [MVR](http://blog.sens-public.org/marcellovitalirosati/) qui, hier ou un autre jour, est venu à **mon** bureau et m'a demandé :
 
 > Tu as pensé à l'idée de *dirty hands* pour compléter tes[^1] petites mains ? 
 
@@ -110,7 +109,7 @@ Et puis les tables du savoir, c'est toujours un peu en pagaille, un peu en fouto
 
 
 
-[^1]: Depuis quelques temps ou récemment, les petites mains sont *mes* petites mains. À venir un post sur l'appartenance.
+[^1]: Depuis quelques temps ou récemment, les petites mains sont *mes* petites mains.
 
 [^3]: Savoir si les dirigents politiques ou personnes de pouvoir puisent dans leur statut le droit ou la justification de commettre des actions immorales lorsque nécessaire et si tel est le cas, régler le paradoxe d'une figure de morale devenant moralement inadmissible. 
 

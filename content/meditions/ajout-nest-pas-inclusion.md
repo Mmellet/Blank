@@ -1,6 +1,7 @@
 ---
 title: "Ajout n'est pas inclusion"
 date: 2022-01-28
+lastmod: 2022-01-28
 ---
 
 Lisant à petits feux l'ouvrage de Tara McPherson *Feminist in a Software Lab*, j'ai été marquée par une de ses réflexions. 

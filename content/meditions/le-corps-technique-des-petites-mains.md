@@ -1,11 +1,12 @@
 ---
 title: "Le corps technique des Petites mains"
 date: 2022-02-03
+lastmod: 2022-02-03
 ---
 
 ----
 
-Écran<sup>en Cours</sup>
+Écran<sup>en abandon</sup>
 
 ---------
 

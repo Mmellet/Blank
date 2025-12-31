@@ -1,6 +1,18 @@
 <section class="Logo">
   <a href="{{ .Site.BaseURL }}">
-    <h1>{{ .Site.Title }}</h1>
+    <p class="titre-3d">
+      <span data-text="B">B</span>
+      <span data-text="L">L</span>
+      <span data-text="A">A</span>
+      <span data-text="N">N</span>
+      <span data-text="K">K</span>
+    </p>
     <h2 style="font-family: BBB-OpenSans-Regular;">{{ .Site.Params.Subtitle }}</h2>
   </a>
+  <!-- Theme Toggle (3 positions: jour, mid, nuit) -->
+  <div class="theme-toggle" id="theme-toggle" aria-label="Changer le thème">
+    <div class="toggle-track">
+      <div class="toggle-thumb"></div>
+    </div>
+  </div>
 </section>

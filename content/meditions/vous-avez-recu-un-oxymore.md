@@ -1,6 +1,7 @@
 ---
 title: "Vous avez reçu un oxymore"
 date: 2023-05-30
+lastmod: 2023-05-30
 description: "retour de l'usurpation"
 ---
 

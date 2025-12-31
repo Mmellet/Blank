@@ -1,6 +1,7 @@
 ---
 title: "Comment écrire au monde"
 date: 2022-11-24
+lastmod: 2022-11-24
 ---
 
 ----
@@ -19,7 +20,7 @@ Il me semble qu'on devrait apprendre aux femmes à écrire
         mais parce qu'elle doivent écrire à l'Université
         comme elles écriraient au monde.
 
-Depuis le début de ma scolarité, mon écriture a connu de multiples mues et j'ai réalisé, avant même l'écriture du [Manisfeste p.m.](https://blank.blue/meditions/manifeste-des-petites-mains/) que les échanges, surtouts <strike style='color:rgb(196, 43, 94);'><span class="rayure">sextuels</span></strike> textuels, m'imposent, peut-être plus que les autres espaces de ma vie, une réalité de ce que je suis *essentiellement*, réalité que j'oublie constamment : 
+Depuis le début de ma scolarité, mon écriture a connu de multiples mues et j'ai réalisé, avant même l'écriture du [Manisfeste p.m.](https://blank.blue/meditions/manifeste-des-petites-mains/) que les échanges, surtout <strike style='color:rgb(196, 43, 94);'><span class="rayure">sextuels</span></strike> textuels, m'imposent, peut-être plus que les autres espaces de ma vie, une réalité de ce que je suis *essentiellement*, réalité que j'oublie constamment : 
 
 ## [Je] est une femme pour les autres sachants
 

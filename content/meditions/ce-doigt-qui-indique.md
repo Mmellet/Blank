@@ -1,6 +1,7 @@
 ---
 title: "Ce doigt qui indique"
 date: 2022-10-28
+lastmod: 2022-10-28
 ---
 
 

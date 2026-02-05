@@ -12,7 +12,7 @@ canonifyURLs = true
 removePathAccents = true
 
 [params]
- subtitle = "Lieu en d·efl·exion"
+ subtitle = "Li·eu en rhiz·om·e·s"
  description = "blabla"
  keywords = "blablamotclef"
  repo = "https://github.com/Mmellet/Blank"

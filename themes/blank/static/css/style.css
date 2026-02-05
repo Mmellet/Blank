@@ -4,7 +4,7 @@
     
     --color1: rgb(35, 80, 125);
     --color2: linear-gradient(to bottom right, rgba(247, 248, 248, 0.801), rgba(248, 246, 242, 0.795));
-    --color3: rgba(105, 161, 163, 0.308);
+    --color3: rgba(109, 100, 133, 0.288);
     --color4: rgba(105, 161, 163, 0.500);
     --color-ocre: #c49b3a;
     --color-bg: rgba(248, 246, 242, 1);
@@ -1372,6 +1372,23 @@ del *, s *, strike * {
 .liste-articles h3 .tag-these {
   font-size: 0.6em;
   color: #888;
+  margin-right: 0.5em;
+  vertical-align: super;
+  font-weight: normal;
+}
+
+
+.liste-articles h3 .tag-prof {
+  font-size: 0.6em;
+  color: #4e4952;
+  margin-right: 0.5em;
+  vertical-align: super;
+  font-weight: normal;
+}
+
+.liste-articles h3 .tag-ruins {
+  font-size: 0.6em;
+  color: #4e4952;
   margin-right: 0.5em;
   vertical-align: super;
   font-weight: normal;

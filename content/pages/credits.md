@@ -4,14 +4,15 @@ title: "À qui de droit"
 
 
 
-Ce site a été bricodé avec des bouts de codes ci et là, notamment : 
+Ce site a été bricodé et rapiécé d'ici et d'ailleurs, notamment : 
 
 - le script de la bannière du site a été adapté à partir du *Peeled Text Transforms* créé par [Zoë Bijl](https://codepen.io/Moiety)
 
-
 - le dark mode a été adapté à partir du [site de Dan Abramov](https://github.com/gaearon/overreacted.io/blob/master/src/components/Toggle.css), MIT License
 
+- [Claude 4.5](https://claude.ai/login) a également aidé pour le débuggage.
 
+- La police du sous-titre de la bannière est la [BBB Open Sans](https://typotheque.genderfluid.space/fr/fontes/bbb-open-sans) de Clara Sambot, Quentin Lamouroux, Camille Circlude et al. au sein du collectif [Bye Bye Binary](https://www.byebyebinary.space/)
 
 Ode aux carnets des autres : 
 

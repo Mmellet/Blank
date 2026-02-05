@@ -23,7 +23,7 @@ title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp
   {{ else }}
   
   {{/* Articles après 2025 (après déconstruction) */}}
-  {{ range .Pages.ByDate.Reverse }}
+  {{ range .Pages.ByDate }}
     {{ if ge .Date.Year 2025 }}
     {{- $words := .Plain | replaceRE "[^a-zA-ZÀ-ÿ\\s]" "" | replaceRE "\\s+" " " | truncate 500 "" -}}
   <h3>
@@ -31,6 +31,8 @@ title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp
       <sup>{{ dateFormat "060102" .Date }}</sup>
     </time>
     {{ if in .Params.tags "these" }}<sup class="tag-these">these</sup>{{ end }}
+    {{ if in .Params.tags "prof" }}<sup class="tag-prof">prof</sup>{{ end }}
+    {{ if in .Params.tags "ruins" }}<sup class="tag-ruins">ruins</sup>{{ end }}
     <a href="{{ .RelPermalink }}" class="article-link" data-words="{{ $words }}">{{ .Title }}</a>
     {{ if .GitInfo }}<span class="git-info-inline"><a href="{{ $.Site.Params.repo }}/commit/{{ .GitInfo.Hash }}" target="_blank" rel="noopener">{{ .GitInfo.AbbreviatedHash }}</a></span>{{ end }}
   </h3>
@@ -49,6 +51,7 @@ title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp
       <sup>{{ dateFormat "060102" .Date }}</sup>
     </time>
     {{ if in .Params.tags "these" }}<sup class="tag-these">these</sup>{{ end }}
+    {{ if in .Params.tags "prof" }}<sup class="tag-prof">prof</sup>{{ end }}
     <a href="{{ .RelPermalink }}" class="article-link" data-words="{{ $words }}">{{ .Title }}</a>
     {{ if .GitInfo }}<span class="git-info-inline"><a href="{{ $.Site.Params.repo }}/commit/{{ .GitInfo.Hash }}" target="_blank" rel="noopener">{{ .GitInfo.AbbreviatedHash }}</a></span>{{ end }}
   </h3>

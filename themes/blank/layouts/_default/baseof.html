@@ -121,16 +121,13 @@
               </p>
               {{ end }}
 
-            <p>{{ .Content }}</p>
+            <div class="article-body">{{ .Content }}</div>
 
             {{ block "article_extra" . }}{{ end }}
 
           </article>
         </main>
-      </section>
-
-    </div>
-    </div>
+      </div>
 
     </div>
     {{ end }}

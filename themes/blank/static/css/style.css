@@ -5,7 +5,7 @@
     --color1: rgb(35, 80, 125);
     --color2: linear-gradient(to bottom right, rgba(247, 248, 248, 0.801), rgba(248, 246, 242, 0.795));
     --color3: rgba(109, 100, 133, 0.288);
-    --color4: rgba(105, 161, 163, 0.500);
+    --color4: rgba(18, 2, 62, 0.588);
     --color-ocre: #c49b3a;
     --color-bg: rgba(248, 246, 242, 1);
     --color-text: rgb(4, 40, 65);
@@ -15,16 +15,25 @@
     --size3: 14px;
     
     /* Couleurs mode jour */
-    --light-bg-gradient-start: rgba(247, 250, 250, 0.6);
-    --light-bg-gradient-mid: rgba(247, 250, 250, 0.4);
-    --light-bg-gradient-end: rgba(247, 250, 250, 0);
+    --light-bg-gradient-start: rgba(247, 250, 248, 0.6);
+    --light-bg-gradient-mid: rgba(247, 250, 249, 0.4);
+    --light-bg-gradient-end: rgba(247, 250, 249, 0);
     --light-bg-main: var(--color3);
-    --light-link-hover: rgb(32, 128, 123);
-    --light-link-hover-dark: rgb(39, 155, 149);
+    --light-link-hover:  rgba(18, 2, 62, 0.588);
+    --light-link-hover-dark:  rgba(18, 2, 62, 0.588);
     --light-text-muted: #888;
     --light-text-muted-dark: #666;
     --light-text-dark: #333;
 
+    /* Réservations pour éviter les superpositions (ToC, logo, pied, nav article) */
+    --layout-toc-offset: clamp(0.35rem, 4.5vw, 5%);
+    --layout-toc-width: clamp(104px, 32vw, 280px);
+    --layout-toc-reserve: calc(var(--layout-toc-offset) + var(--layout-toc-width) + 1.25rem);
+    --layout-top-chrome: clamp(3.25rem, 11vh, 6.5rem);
+    --layout-footer-band: clamp(3.25rem, 11vh, 5.5rem);
+    --layout-nav-prevnext: clamp(2.5rem, 8vh, 4.25rem);
+    --layout-bottom-reserve: calc(var(--layout-footer-band) + var(--layout-nav-prevnext) + 1.35rem + env(safe-area-inset-bottom, 0px));
+    --layout-nav-bottom: calc(var(--layout-footer-band) + 0.65rem + env(safe-area-inset-bottom, 0px));
   }
 
   /* Theme Toggle (3 positions) */
@@ -97,13 +106,13 @@
   body.dark-mode {
     --color-bg: rgb(45, 30, 60);
     --color-text: rgba(220, 210, 180, 0.85);
-    --color-link: rgba(220, 210, 180, 0.85);
+    --color-link: rgba(243, 221, 154, 0.85);
     
     /* Variables couleurs mode nuit */
     --dark-bg-main: rgb(45, 30, 60);
     --dark-text-main: rgba(220, 210, 180, 0.85);
     --dark-link: rgba(235, 220, 160, 0.95);
-    --dark-link-hover: rgba(255, 240, 180, 1);
+    --dark-link-hover: rgb(244, 203, 37);
     --dark-heading: rgba(235, 225, 190, 0.95);
     --dark-strikethrough: rgba(230, 200, 100, 0.95);
     --dark-git-info: rgba(200, 190, 160, 0.6);
@@ -562,12 +571,12 @@ sup {
   h2,
   h1 {
     text-align: center;
-    font-size: 1.3em;
+    font-size: 1.5em;
     font-weight: normal;
   }
 
   h2 {
-    font-size: 1.1em;
+    font-size: 1.3em;
     text-decoration: underline;
     text-decoration-color: var(--light-link-hover);
     text-underline-offset: 4px;
@@ -582,7 +591,7 @@ sup {
   /* Description d'article - même style que le sous-titre */
   .article-description {
     font-family: BBB-OpenSans-Regular, sans-serif;
-    font-size: 0.95em;
+    font-size: 1.1em;
     font-style: italic;
     opacity: 0.8;
     margin-top: 0;
@@ -683,10 +692,15 @@ background: var(--light-bg-main);
   @media (max-width: 480px) {
     .Body {
       flex-direction: column;
-      align-items: center;
-      overflow:scroll;
-      width: 15em;
-
+      align-items: stretch;
+      overflow-x: hidden;
+      overflow-y: visible;
+      width: 100%;
+      max-width: 100%;
+      min-width: 0;
+      box-sizing: border-box;
+      padding-left: env(safe-area-inset-left, 0px);
+      padding-right: env(safe-area-inset-right, 0px);
     }
 
 
@@ -703,52 +717,55 @@ background: var(--light-bg-main);
   }
 
   .ToC {
-    font-size: 0.6em;
+    font-size: 0.8em;
     width: 80%;
     max-width: 150px;
     padding: 1%;
     position: fixed;
     right: 2%;
     top: 20%;
+    z-index: 50;
+    max-height: min(50vh, 320px);
+    overflow-y: auto;
   }
 
   .Bas {
     width: 90%;
     position: fixed;
-    bottom: 2%;
+    bottom: max(0.35rem, env(safe-area-inset-bottom, 0px));
     left: 5%;
-    font-size: 0.7em;
+    font-size: 0.9em;
     margin-left: 0;
     margin-bottom: 0;
-  }
-
-  .SO {
-    margin-bottom: 20%;
-  }
-
-  .NE {
-    left: 94%;
-  }
-
-  .NES {
-    left: 91%;
+    z-index: 100;
   }
 
   h2 {    
     font-family: BBB-OpenSans-Regular;
-    font-size: 0.6em;
+    font-size: 0.8em;
 
 
   }
 
   .Navigation {
-    height: 1em;
-    width: 11em;
-    margin-bottom: 10%;
-    font-size: 0.7em;
+    height: auto;
+    min-height: 1em;
+    width: min(11em, calc(100vw - 2rem));
+    max-width: calc(100vw - 2rem);
+    font-size: 0.8em;
+    bottom: var(--layout-nav-bottom);
+    left: 50%;
+    transform: translateX(-50%);
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 0.35rem;
+    z-index: 90;
   }
   .Centre {
-    width: 70%;
+    width: min(70%, calc(100vw - 2% - min(150px, 38vw) - 2rem));
+    padding-right: min(170px, 40vw);
+    padding-bottom: var(--layout-bottom-reserve);
+    box-sizing: border-box;
   }
 
   p {
@@ -768,16 +785,25 @@ background: var(--light-bg-main);
 @media (min-width: 481px) and (max-width: 768px) {
   .Body {
     flex-direction: column;
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
+    padding-left: env(safe-area-inset-left, 0px);
+    padding-right: env(safe-area-inset-right, 0px);
   }
 
   .SO, .NO, .NOE, .NE, .NOS, .NES, .SE, .Centre, .Navigation {
-    font-size: 0.85em;
+    font-size: 0.95em;
   }
 
   .Centre {
     margin-left: 8%;
     margin-right: 20%;
-    width: 65%;
+    width: min(65%, calc(100vw - 3% - min(180px, 40vw) - 10%));
+    padding-right: calc(3% + min(180px, 40vw) + 1rem);
+    padding-bottom: var(--layout-bottom-reserve);
+    box-sizing: border-box;
   }
 
   .ToC {
@@ -785,6 +811,9 @@ background: var(--light-bg-main);
     max-width: 160px;
     right: 3%;
     top: 15%;
+    z-index: 50;
+    max-height: min(52vh, 360px);
+    overflow-y: auto;
   }
 
   .Logo {
@@ -797,10 +826,16 @@ background: var(--light-bg-main);
 
   .Bas {
     font-size: 0.75em;
+    bottom: max(0.35rem, env(safe-area-inset-bottom, 0px));
   }
 
   .Navigation {
     font-size: 0.7em;
+    bottom: var(--layout-nav-bottom);
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 0.35rem;
+    z-index: 90;
   }
 }
 
@@ -809,11 +844,17 @@ background: var(--light-bg-main);
   .Centre {
     margin-left: 12%;
     margin-right: 6%;
+    padding-right: calc(4% + min(220px, 30vw) + 1rem);
+    padding-bottom: var(--layout-bottom-reserve);
+    box-sizing: border-box;
   }
 
   .ToC {
     max-width: 200px;
     right: 4%;
+    z-index: 50;
+    max-height: min(50vh, 380px);
+    overflow-y: auto;
   }
 
   .titre-3d {
@@ -822,6 +863,9 @@ background: var(--light-bg-main);
 
   .Navigation {
     font-size: 0.72em;
+    bottom: var(--layout-nav-bottom);
+    flex-wrap: wrap;
+    z-index: 90;
   }
 }
 
@@ -830,12 +874,18 @@ background: var(--light-bg-main);
   .Centre {
     margin-left: 15%;
     margin-right: 6%;
-    max-width: 1100px;
+    max-width: min(1100px, calc(100vw - 15% - 6% - min(300px, 22vw) - 2rem));
+    padding-right: calc(6% + min(300px, 22vw) + 1.25rem);
+    padding-bottom: var(--layout-bottom-reserve);
+    box-sizing: border-box;
   }
 
   .ToC {
     max-width: 280px;
     right: 6%;
+    z-index: 50;
+    max-height: min(48vh, 420px);
+    overflow-y: auto;
   }
 
   .titre-3d {
@@ -850,6 +900,11 @@ background: var(--light-bg-main);
   gap: 0.4em;
   font-size: 1.1em;
   cursor: pointer;
+}
+
+/* Grand écran : le conteneur ne modifie pas la mise en page (onglets aux coins comme avant) */
+.site-nav-principale {
+  display: contents;
 }
 
 .nav-label {
@@ -1037,12 +1092,30 @@ body.dark-mode .Navigation .nav-title {
 
   .Centre {
     /*border: 5px solid rgba(0, 128, 0, 0.377);*/
+    /* Annule width: fit-content du bloc .SO/.Centre/… pour utiliser toute la largeur sous max-width */
+    width: auto;
+    min-width: 0;
     margin-right: 6%;
     margin-left: 15%;
     margin-top: 5%;
     overflow: auto;
-    height: 75vh;
+    height: auto;
+    min-height: min(40vh, 320px);
+    max-height: min(75vh, calc(100vh - var(--layout-top-chrome) - var(--layout-bottom-reserve)));
+    max-height: min(75vh, calc(100svh - var(--layout-top-chrome) - var(--layout-bottom-reserve)));
     font-size: 1rem;
+    padding-right: var(--layout-toc-reserve);
+    padding-bottom: var(--layout-bottom-reserve);
+    max-width: calc(100vw - 15% - var(--layout-toc-reserve) - 2rem);
+    box-sizing: border-box;
+  }
+
+  /* Bureau : le .Centre occupe l'espace horizontal disponible dans .Body (la ToC est en fixed) */
+  @media (min-width: 1025px) {
+    .Body > .Centre {
+      flex: 1 1 0%;
+      min-width: 0;
+    }
   }
 
   .ToC {
@@ -1054,6 +1127,7 @@ body.dark-mode .Navigation .nav-title {
     top: 12%;
     font-size: 0.95em;
     z-index: 50;
+    max-height: min(50vh, 400px);
   }
 
   .ToC nav {
@@ -1094,16 +1168,19 @@ body.dark-mode .Navigation .nav-title {
   }
 
   .Navigation {
-    overflow: hidden;
+    overflow: visible;
     position: fixed;
-    bottom: 6%;
+    bottom: var(--layout-nav-bottom);
     text-align: center;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
-    gap: 5rem;
-    white-space: nowrap;
-    max-width: 90vw;
+    gap: clamp(1rem, 4vw, 5rem);
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 0.4rem;
+    max-width: min(90vw, max(16rem, calc(100vw - var(--layout-toc-reserve) - 2rem)));
+    z-index: 90;
   }
 
   .Navigation a {
@@ -1124,7 +1201,7 @@ body.dark-mode .Navigation .nav-title {
   .Bas {
     width: 90% !important;
     position: fixed !important;
-    bottom: 2% !important;
+    bottom: max(0.35rem, env(safe-area-inset-bottom, 0px)) !important;
     left: 5% !important;
     font-size: 0.9em;
     margin: 0 !important;
@@ -1197,8 +1274,17 @@ body.dark-mode .Navigation .nav-title {
   .content {
     text-align: justify;
     font-family: BBB-OpenSans-Regular;
-    font-size: 1rem;
+    font-size: 1.2rem;
     width: 100%;
+  }
+
+  .Centre .content,
+  .Centre .content main,
+  .Centre .content article {
+    max-width: none;
+    width: 111%;
+    margin-left: 1%;
+    box-sizing: border-box;
   }
   
   .content p,
@@ -1270,7 +1356,7 @@ body.dark-mode .Navigation .nav-title {
   transform-style: preserve-3d;
   perspective: 500px;
   -webkit-font-smoothing: antialiased;
-  color: var(color4);
+  color: var(--color4);
 }
 
 .titre-3d span::before,
@@ -1443,4 +1529,130 @@ body.dark-mode .en-construction {
 
 .git-info-inline a:hover {
   color: #666;
+}
+
+/* ≤1024px : bandeau d'onglets centré, colonne article centrée, ToC sous le bandeau.
+   >1024px : `.site-nav-principale { display: contents }` — disposition d'origine aux bords. */
+@media (max-width: 1024px) {
+  :root {
+    --layout-nav-bar-height: clamp(4.5rem, 22vw, 9rem);
+    --layout-toc-reserve: calc(clamp(0.25rem, 4vw, 5%) + clamp(96px, 36vw, 220px) + 1rem);
+    --layout-top-chrome: calc(var(--layout-nav-bar-height) + clamp(0.5rem, 2vh, 1.25rem));
+    --layout-footer-band: clamp(3.5rem, 12vh, 6rem);
+    --layout-nav-prevnext: clamp(2.75rem, 9vh, 4.5rem);
+    --layout-bottom-reserve: calc(var(--layout-footer-band) + var(--layout-nav-prevnext) + 1.5rem + env(safe-area-inset-bottom, 0px));
+    --layout-nav-bottom: calc(var(--layout-footer-band) + 0.75rem + env(safe-area-inset-bottom, 0px));
+  }
+
+  .site-nav-principale {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 0.35rem 0.65rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 250;
+    width: 100%;
+    max-width: 100vw;
+    box-sizing: border-box;
+    padding: max(0.35rem, env(safe-area-inset-top, 0px)) max(0.45rem, env(safe-area-inset-right, 0px)) 0.5rem max(0.45rem, env(safe-area-inset-left, 0px));
+    background: radial-gradient(ellipse at center, var(--light-bg-gradient-start) 0%, var(--light-bg-gradient-mid) 55%, var(--light-bg-gradient-end) 100%);
+    pointer-events: auto;
+  }
+
+  body.dark-mode .site-nav-principale {
+    background: radial-gradient(ellipse at center, var(--dark-bg-gradient-start) 0%, var(--dark-bg-gradient-mid) 55%, transparent 78%) !important;
+  }
+
+  body.mid-mode .site-nav-principale {
+    background: radial-gradient(ellipse at center, var(--mid-bg-gradient-box-start) 0%, var(--mid-bg-gradient-box-mid) 55%, transparent 78%) !important;
+  }
+
+  .site-nav-principale > .nav-point {
+    position: static !important;
+    transform: none !important;
+    top: auto !important;
+    left: auto !important;
+    right: auto !important;
+    bottom: auto !important;
+    margin: 0.12rem 0.25rem;
+    flex: 0 1 auto;
+    justify-content: center;
+    text-align: center;
+    font-size: clamp(0.8rem, 2.4vw, 1.05em);
+    max-width: min(100%, 12rem);
+  }
+
+  .site-nav-principale > .nav-point .nav-label {
+    text-align: center;
+  }
+
+  .Body {
+    min-width: 0;
+    max-width: 100%;
+    margin-top: var(--layout-nav-bar-height);
+  }
+
+  .Centre {
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.75rem;
+    max-width: min(40rem, calc(100vw - var(--layout-toc-reserve) - 1rem));
+    padding-left: max(0.75rem, env(safe-area-inset-left, 0px));
+    padding-right: max(var(--layout-toc-reserve), env(safe-area-inset-right, 0px));
+  }
+
+  .Centre .content article h1,
+  .Centre .article-description,
+  .Centre .git-info {
+    text-align: center;
+  }
+
+  .Centre .content p,
+  .Centre .content li {
+    text-align: left;
+  }
+
+  .liste-articles {
+    margin-inline: auto;
+    max-width: 36rem;
+    text-align: center;
+  }
+
+  .liste-articles h3 {
+    text-align: left;
+  }
+
+  .ToC {
+    top: calc(env(safe-area-inset-top, 0px) + var(--layout-nav-bar-height) + 0.35rem);
+    max-width: min(220px, 40vw);
+  }
+
+  .ToC,
+  .ToC nav {
+    max-height: min(40vh, calc(100svh - var(--layout-top-chrome) - var(--layout-bottom-reserve)));
+  }
+
+  .nuage-mots {
+    top: calc(env(safe-area-inset-top, 0px) + var(--layout-nav-bar-height) + 0.5rem);
+    right: max(0.5rem, env(safe-area-inset-right, 0px));
+    width: min(180px, 34vw);
+  }
+
+  .footer-content {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.75rem 1rem;
+  }
+
+  .footer-git {
+    margin-left: 0;
+    flex: 1 1 100%;
+    text-align: center;
+  }
 }

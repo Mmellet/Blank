@@ -22,13 +22,13 @@ title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp
   <p class="en-construction"><em>En cours de déconstruction</em></p>
   {{ else }}
   
-  {{/* Articles après 2025 (après déconstruction) */}}
-  {{ range .Pages.ByDate }}
+  {{/* Articles après 2025 (après déconstruction), du plus récent au plus ancien */}}
+  {{ range .Pages.ByDate.Reverse }}
     {{ if ge .Date.Year 2025 }}
     {{- $words := .Plain | replaceRE "[^a-zA-ZÀ-ÿ\\s]" "" | replaceRE "\\s+" " " | truncate 500 "" -}}
   <h3>
     <time datetime="{{ dateFormat "2006-01-02" .Date }}">
-      <sup>{{ dateFormat "060102" .Date }}</sup>
+      <sup>{{ dateFormat "06-01-02" .Date }}</sup>
     </time>
     {{ if in .Params.tags "these" }}<sup class="tag-these">these</sup>{{ end }}
     {{ if in .Params.tags "prof" }}<sup class="tag-prof">prof</sup>{{ end }}
@@ -48,7 +48,7 @@ title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp
     {{- $words := .Plain | replaceRE "[^a-zA-ZÀ-ÿ\\s]" "" | replaceRE "\\s+" " " | truncate 500 "" -}}
   <h3>
     <time datetime="{{ dateFormat "2006-01-02" .Date }}">
-      <sup>{{ dateFormat "060102" .Date }}</sup>
+      <sup>{{ dateFormat "06-01-02" .Date }}</sup>
     </time>
     {{ if in .Params.tags "these" }}<sup class="tag-these">these</sup>{{ end }}
     {{ if in .Params.tags "prof" }}<sup class="tag-prof">prof</sup>{{ end }}
